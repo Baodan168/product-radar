@@ -3,6 +3,7 @@
 多源产品发现与运营门户系统，聚合 Amazon UK 趋势扫描、跨境情报、补货监控、节日选品，为 Amazon UK 三店（322·007·027）提供一站式运营工具。
 
 > **架构：** 3+1 混合方案 — 门户/选品平台/补货跟进同仓库，跨境雷达独立仓库（iframe 直链）
+> **架构文档：** [ARCHITECTURE.md](./ARCHITECTURE.md) — 系统全景、数据流、设计原则、调度说明
 > **访问：** [liyuhong168.github.io/product-radar](https://liyuhong168.github.io/product-radar/)
 
 ## 三大板块
