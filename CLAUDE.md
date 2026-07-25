@@ -23,6 +23,7 @@ python3 -m http.server 8080    # 访问 http://localhost:8080/output/
 | 文件 | 作用 |
 |------|------|
 | `ARCHITECTURE.md` | 系统架构文档（数据流/设计原则/调度/运维） |
+| `PROJECT-VISION.md` | 产品愿景文档（项目目标/选品哲学/设计理念） |
 | `config.json` | 主配置（价格区间/重量/尺寸/禁售词） |
 | `cron_scan.sh` | 定时扫描入口 |
 | `run_scan_v2.py` | 扫描引擎 |
