@@ -40,18 +40,18 @@
      整套外壳只用这 12 级。带一点点冷偏，但不到蓝灰的程度 ——
      纯灰太平，蓝灰太「又一个 SaaS」。 */
   --oa-n-0:   #ffffff;
-  --oa-n-25:  #fbfcfc;
-  --oa-n-50:  #f6f7f8;
-  --oa-n-100: #eef0f2;
-  --oa-n-200: #e2e5e8;
-  --oa-n-300: #cfd4d9;
-  --oa-n-400: #a8b0b8;
-  --oa-n-500: #7b848e;
-  --oa-n-600: #5a636d;
-  --oa-n-700: #3d454e;
-  --oa-n-800: #262c33;
-  --oa-n-900: #171b20;
-  --oa-n-950: #0e1114;
+  --oa-n-25:  #fdfcfb;
+  --oa-n-50:  #f7f6f4;
+  --oa-n-100: #f0efec;
+  --oa-n-200: #e6e4e0;
+  --oa-n-300: #d3d0ca;
+  --oa-n-400: #a8a49c;
+  --oa-n-500: #7a7670;
+  --oa-n-600: #5b5751;
+  --oa-n-700: #403d38;
+  --oa-n-800: #292620;
+  --oa-n-900: #1a1815;
+  --oa-n-950: #100e0c;
 
   /* ── Surfaces ── */
   --oa-bg:         var(--oa-n-50);
@@ -63,7 +63,10 @@
   /* ── Text ── */
   --oa-text:       var(--oa-n-900);
   --oa-sub:        var(--oa-n-600);
-  --oa-light:      var(--oa-n-400);
+  /* --oa-light 曾指向 n-400，在白底上只有 2.48:1 —— 日期、品类串这些
+     10~11px 的小字全用它，实际是看不清的。改指 n-500（4.51:1）。
+     n-400 保留给圆点、边框、占位符这类不承载文字的地方。 */
+  --oa-light:      var(--oa-n-500);
   --oa-inverse:    var(--oa-n-0);
 
   /* ── Borders ── */
@@ -74,11 +77,11 @@
   /* ════ 投影 ════
      卡片不用投影，靠边框和底色分层。这两个只给真正浮起来的东西：
      hover 抬起 和 弹层。 */
-  --oa-shadow-sm:      0 1px 2px rgba(14,17,20,.04);
-  --oa-shadow:         0 1px 2px rgba(14,17,20,.05);
-  --oa-shadow-pop:     0 4px 12px rgba(14,17,20,.08), 0 1px 3px rgba(14,17,20,.06);
+  --oa-shadow-sm:      0 1px 2px rgba(41,38,32,.04);
+  --oa-shadow:         0 1px 2px rgba(41,38,32,.05);
+  --oa-shadow-pop:     0 4px 14px rgba(41,38,32,.07), 0 1px 3px rgba(41,38,32,.05);
   --oa-shadow-lg:      var(--oa-shadow-pop);
-  --oa-shadow-overlay: 0 16px 48px rgba(14,17,20,.18), 0 2px 8px rgba(14,17,20,.10);
+  --oa-shadow-overlay: 0 18px 50px rgba(41,38,32,.16), 0 2px 8px rgba(41,38,32,.09);
   --oa-shadow-xl:      var(--oa-shadow-overlay);
 
   /* ── Radius ── 收方一档，更像仪表而不是卡片流 */
@@ -100,47 +103,47 @@
   --oa-secondary-soft:var(--oa-n-100);
 
   /* 蓝色只留给链接和焦点环 —— 全站唯一的「可点」信号 */
-  --oa-link:       #1c5fd6;
-  --oa-link-hover: #164cae;
-  --oa-focus:      #1c5fd6;
+  --oa-link:       #2a5075;
+  --oa-link-hover: #1e3c5b;
+  --oa-focus:      #2a5075;
 
   /* ════ 语义色 ════
      每档三个值：-ink 是文字色（保证 4.5:1）、无后缀是填充/圆点色、
      -soft 是底色。不要在组件里再自己调深浅。 */
-  --oa-red:        #d1382a;
-  --oa-red-ink:    #a82a1f;
-  --oa-red-soft:   #fdf0ee;
-  --oa-red-line:   #f4cec8;
+  --oa-red:        #bc3b28;
+  --oa-red-ink:    #972c1c;
+  --oa-red-soft:   #faeeea;
+  --oa-red-line:   #ecd1c8;
 
-  --oa-orange:     #dd8412;
-  --oa-orange-ink: #96590a;
-  --oa-orange-soft:#fdf4e7;
-  --oa-orange-line:#f3ddb8;
+  --oa-orange:     #b5761a;
+  --oa-orange-ink: #8a5610;
+  --oa-orange-soft:#f9f2e4;
+  --oa-orange-line:#e9d8b8;
 
-  --oa-green:      #1c9c5f;
-  --oa-green-ink:  #12683f;
-  --oa-green-soft: #e9f5ee;
-  --oa-green-line: #bfe0cd;
+  --oa-green:      #2c7a52;
+  --oa-green-ink:  #1e5b3c;
+  --oa-green-soft: #ecf3ee;
+  --oa-green-line: #c7dbce;
 
-  --oa-blue:       #1c5fd6;
-  --oa-blue-ink:   #164cae;
-  --oa-blue-soft:  #ebf1fd;
-  --oa-blue-line:  #c7d8f6;
+  --oa-blue:       #2a5075;
+  --oa-blue-ink:   #1e3c5b;
+  --oa-blue-soft:  #ebeff4;
+  --oa-blue-line:  #cbd7e3;
 
-  --oa-purple:     #6d4bd0;
-  --oa-purple-ink: #553aa4;
-  --oa-purple-soft:#f0ecfb;
-  --oa-purple-line:#d7cdf2;
+  --oa-purple:     #5b4a94;
+  --oa-purple-ink: #473973;
+  --oa-purple-soft:#f0eef6;
+  --oa-purple-line:#d4cee5;
 
   /* ════ 数据源色 ════
      Amazon / TikTok / Google / 1688 需要一眼分辨来源，这是表意不是装饰，
      所以保留四个不同色相 —— 但只以圆点形式出现，底色统一走中性色，
      四个源同屏时不会变成彩色纸屑。 */
-  --oa-src-amazon: #e07b18;
-  --oa-src-tiktok: #d4306a;
-  --oa-src-google: #1c9c5f;
-  --oa-src-trend:  #6d4bd0;
-  --oa-src-ali:    #c98a1a;
+  --oa-src-amazon: #c17a1e;
+  --oa-src-tiktok: #ab3556;
+  --oa-src-google: #2c7a52;
+  --oa-src-trend:  #5b4a94;
+  --oa-src-ali:    #a8811f;
 
   /* ── 状态（板块健康 / 数据新鲜度）── */
   --oa-status-ok:      var(--oa-green);
@@ -148,20 +151,24 @@
   --oa-status-error:   var(--oa-red);
   --oa-status-unknown: var(--oa-n-400);
 
-  /* ════ 侧栏 ════ 深中性，激活态用白而不是彩色 */
-  --oa-sidebar-bg:     var(--oa-n-950);
-  --oa-sidebar-text:   rgba(255,255,255,.66);
-  --oa-sidebar-strong: #ffffff;
-  --oa-sidebar-sub:    rgba(255,255,255,.34);
-  --oa-sidebar-faint:  rgba(255,255,255,.18);
-  --oa-sidebar-hover:  rgba(255,255,255,.06);
-  --oa-sidebar-active: rgba(255,255,255,.10);
-  --oa-sidebar-accent: #ffffff;
-  --oa-sidebar-line:   rgba(255,255,255,.07);
+  /* ════ 侧栏 ════
+     v6 把这块从近黑换成纯白 —— 那一大片深色是全站唯一的深色块，
+     既压场又跟「颜色只表意」的原则打架（它不表达任何信息）。
+     现在侧栏是白面板、内容区是浅灰底、卡片是白的，靠右侧一条
+     发丝线分界。激活项用浅灰填充 + 墨色左轨，不用彩色。 */
+  --oa-sidebar-bg:     #f1efeb;
+  --oa-sidebar-text:   var(--oa-n-600);
+  --oa-sidebar-strong: var(--oa-n-900);
+  --oa-sidebar-sub:    var(--oa-n-500);
+  --oa-sidebar-faint:  var(--oa-n-400);
+  --oa-sidebar-hover:  #e9e7e2;
+  --oa-sidebar-active: var(--oa-n-0);      /* 激活项是白色浮起的胶囊 */
+  --oa-sidebar-accent: var(--oa-n-800);   /* 激活左轨 = 墨色 */
+  --oa-sidebar-line:   #e2dfd9;
 
-  --oa-topbar-bg: rgba(255,255,255,.85);
-  --oa-scrim:     rgba(14,17,20,.45);      /* 移动端侧栏遮罩 */
-  --oa-on-dark-soft: rgba(255,255,255,.18); /* 深底上的次级填充 */
+  --oa-topbar-bg:    rgba(255,255,255,.88);
+  --oa-scrim:        rgba(13,18,24,.45);
+  --oa-on-dark-soft: rgba(255,255,255,.18);
 
   /* ════ 字体与字号阶 ════ */
   --oa-font:      'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI',
@@ -1073,6 +1080,7 @@ body {
     width: 216px; min-width: 216px; height: 100vh;
     background: var(--oa-sidebar-bg);
     color: var(--oa-sidebar-strong);
+    border-right: 1px solid var(--oa-sidebar-line);
     display: flex; flex-direction: column;
     user-select: none;
     overflow: hidden;
@@ -1084,7 +1092,7 @@ body {
     flex-shrink: 0;
 }
 .oa-sidebar-header .logo { display: flex; align-items: center; gap: var(--oa-space-2); }
-.oa-sidebar-header .logo-icon { font-size: 18px; line-height: 1; flex-shrink: 0; }
+.oa-sidebar-header .logo-icon { font-size: 16px; line-height: 1; flex-shrink: 0; }
 .oa-sidebar-header .logo-text { display: flex; flex-direction: column; gap: 1px; min-width: 0; }
 .oa-sidebar-header .logo-title {
     font-size: var(--oa-text-body); font-weight: 650; letter-spacing: -0.01em;
@@ -1116,12 +1124,11 @@ body {
     font-size: var(--oa-text-body); font-weight: 500; position: relative;
 }
 .oa-nav-item:hover { background: var(--oa-sidebar-hover); color: var(--oa-sidebar-strong); }
-.oa-nav-item.active { background: var(--oa-sidebar-active); color: var(--oa-sidebar-strong); font-weight: 550; }
-.oa-nav-item.active::before {
-    content: ''; position: absolute; left: -8px; top: 50%; transform: translateY(-50%);
-    width: 2px; height: 16px; border-radius: 0 2px 2px 0;
-    background: var(--oa-sidebar-accent);
+.oa-nav-item.active {
+    background: var(--oa-sidebar-active); color: var(--oa-sidebar-strong);
+    font-weight: 600; box-shadow: var(--oa-shadow-sm);
 }
+/* 白胶囊本身已经是「你在这」，不再叠一条左轨 */
 .oa-nav-icon { font-size: 14px; width: 18px; text-align: center; flex-shrink: 0; opacity: .75; }
 .oa-nav-item.active .oa-nav-icon { opacity: 1; }
 .oa-nav-label { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }

@@ -91,9 +91,11 @@ python3 -m http.server 8080    # 访问 http://localhost:8080/output/
 ## 当前状态
 
 - 3+1 混合架构已部署运行
-- 选品平台 V6，门户 V4，设计系统 **v5「石墨与信号」**（分支 claude/oa-portal-ui-upgrade-ts4zrf）
+- 选品平台 V6，门户 V4，设计系统 **v6「暖石灰」**（分支 claude/oa-portal-ui-upgrade-ts4zrf）
 - 设计原则：**颜色只用来表意** —— 外壳走中性灰阶、主操作色是墨色，
   饱和色只留给语义（红=紧急/琥珀=观察/绿=健康）和四个数据源。详见 DESIGN-DECISIONS D12
+- 配色是**暖石灰**低饱和路线，三层平面靠明度分层：侧栏 #f1efeb → 内容区 #f7f6f4 → 卡片白。
+  **全站无深色块**（侧栏曾是近黑，v6 改浅，见 D15）
 - 换肤入口：改 `shared/oa-theme.css` 顶部 `:root` 的令牌值，全站生效（这个前提由 4 条测试守着，见 D13）
 - 无暗色模式（曾加过又移除，原因见 DESIGN-DECISIONS D11）
 - 每天 08:40 趋势发现 + 09:10/14:00 雷达扫描
