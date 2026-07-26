@@ -25,6 +25,7 @@ python3 -m http.server 8080    # 访问 http://localhost:8080/output/
 | `ARCHITECTURE.md` | 系统架构文档（数据流/设计原则/调度/运维） |
 | `PROJECT-VISION.md` | 产品愿景文档（项目目标/选品哲学/设计理念） |
 | `DESIGN-DECISIONS.md` | 重构决策记录（每条决策的选择/理由/代价/已知限制） |
+| `PROPOSAL-ads-module.md` | **广告异常监控板块方案（待确认，未实施）** |
 | `oa/config.py` | **门户板块配置（加新板块改这里）** |
 | `oa/urls.py` | URL 协议+主机白名单 |
 | `oa/render.py` | 模板装配 + 分语境转义（html/attr/js/url） |
@@ -90,7 +91,9 @@ python3 -m http.server 8080    # 访问 http://localhost:8080/output/
 
 ## 当前状态
 
-- 3+1 混合架构已部署运行
+- 3+1 混合架构已跑通；**门户重构与 UI 升级尚未部署**（都在 claude/oa-portal-ui-upgrade-ts4zrf，main 未动）
+- **唯一功能缺口：广告异常监控板块未建**（见 ARCHITECTURE.md §4.4 + PROPOSAL-ads-module.md）
+- 距离交付团队还缺什么：见 **ARCHITECTURE.md §13**（不用每次重新盘）
 - 选品平台 V6，门户 V4，设计系统 **v6「暖石灰」**（分支 claude/oa-portal-ui-upgrade-ts4zrf）
 - 设计原则：**颜色只用来表意** —— 外壳走中性灰阶、主操作色是墨色，
   饱和色只留给语义（红=紧急/琥珀=观察/绿=健康）和四个数据源。详见 DESIGN-DECISIONS D12
