@@ -292,5 +292,9 @@
       "max_products": 10,
       "new_only": true
     }
+  },
+  "kanban_sync": {
+    "_comment": "看板状态同步。endpoint 留空则只存本地浏览器，不做远端同步。部署方法见 cloudflare-worker.js 顶部注释。",
+    "endpoint": ""
   }
 }

@@ -28,95 +28,108 @@ const KANBAN_COLS = PD.KANBAN_COLS;
 const INJECT_CFG = PD.INJECT_CFG;
 const SK = 'pp_v3_status';
 const OLD_SK = 'productRadar_v2_status';
-const SYNC_TOKEN_KEY='***';
-const REPO = 'liyuhong168/product-radar';
 const STATUS_FILE = 'data/kanban_status.json';
-let SERVER_STATUS = {};  // From GitHub Pages
+// 同步端点从生成期注入（config.json 的 kanban_sync.endpoint）。
+// 没配就只在本地存，不做远端同步 —— 并且明确显示「未配置」。
+const SYNC_ENDPOINT = PD.SYNC_ENDPOINT || '';
+let SERVER_STATUS = {};
 let syncing = false;
 
 // Migrate old key
 (function(){try{const o=JSON.parse(localStorage.getItem(OLD_SK)||'{}');const c=JSON.parse(localStorage.getItem(SK)||'{}');if(Object.keys(o).length>0&&Object.keys(c).length===0)localStorage.setItem(SK,JSON.stringify(o))}catch(e){}})();
 
+/* ── 同步状态显示 ────────────────────────────
+   audit P1：原来 repository_dispatch 一返回成功就显示「已同步」，
+   但那个 204 只代表 GitHub 收下了事件 —— workflow 可能没跑、可能校验
+   失败、可能被并发覆盖。用户看到「已同步」，刷新后状态却没了。
+   所以把阶段拆开，每个阶段说的是它真正确认了的事。 */
+const SYNC_STAGES = {
+  idle:        ['⚪ 未同步',   'var(--oa-sub)'],
+  unconfigured:['⚪ 同步未配置','var(--oa-sub)'],
+  local:       ['💾 已存本地', 'var(--oa-sub)'],
+  sending:     ['⏳ 提交中…',  'var(--oa-orange)'],
+  dispatched:  ['📨 已提交，等待写入', 'var(--oa-orange)'],
+  written:     ['✅ 已写入仓库','var(--oa-green)'],
+  failed:      ['❌ 同步失败', 'var(--oa-red)'],
+};
+
+function setSyncStage(stage, detail) {
+  const el = document.getElementById('syncStatus');
+  if (!el) return;
+  const [label, color] = SYNC_STAGES[stage] || SYNC_STAGES.idle;
+  el.textContent = label;
+  el.style.color = color;
+  el.title = detail || label;
+  el.dataset.stage = stage;
+}
+
 // Fetch server status on load
 async function fetchServerStatus() {
   try {
-    const r = await fetch('https://liyuhong168.github.io/product-radar/' + STATUS_FILE + '?t=' + Date.now());
-    if (r.ok) {
-      const data = await r.json();
-      if (data && typeof data === 'object') {
-        SERVER_STATUS = data;
-        const local = JSON.parse(localStorage.getItem(SK) || '{}');
-        // Phase 2.2: 冲突检测 — 比较 _meta.ts，服务端更新时才覆盖本地
-        var localTs = (local._meta && local._meta.ts) || 0;
-        var serverTs = (data._meta && data._meta.ts) || 0;
-        if (serverTs > localTs) {
-          var merged = Object.assign({}, PROD_STATUS, local, data);
-          localStorage.setItem(SK, JSON.stringify(merged));
-        }
-        const el = document.getElementById('syncStatus');
-        if (el) { el.textContent = '✅ 已同步 ' + new Date().toLocaleTimeString('zh-CN',{hour:'2-digit',minute:'2-digit'}); el.style.color='#34C759'; }
-      }
+    const r = await fetch(STATUS_FILE + '?t=' + Date.now(), {cache: 'no-store'});
+    if (!r.ok) return;
+    const data = await r.json();
+    if (!data || typeof data !== 'object') return;
+    SERVER_STATUS = data;
+    const local = JSON.parse(localStorage.getItem(SK) || '{}');
+    // 比较 _meta.ts，服务端更新时才覆盖本地
+    var localTs = (local._meta && local._meta.ts) || 0;
+    var serverTs = (data._meta && data._meta.ts) || 0;
+    if (serverTs > localTs) {
+      localStorage.setItem(SK, JSON.stringify(Object.assign({}, PROD_STATUS, local, data)));
     }
-  } catch(e) { console.warn('Sync fetch failed:', e); }
+    setSyncStage('written', '仓库最后写入 ' +
+      (serverTs ? new Date(serverTs).toLocaleString('zh-CN') : '时间未知'));
+  } catch(e) { console.warn('读取远端状态失败:', e); }
 }
 fetchServerStatus();
 
 function getSt(){try{const local=JSON.parse(localStorage.getItem(SK)||'{}');return Object.assign({},PROD_STATUS,SERVER_STATUS,local)}catch(e){return Object.assign({},PROD_STATUS,SERVER_STATUS)}}
+
 function saveSt(a,s,all){
   var t = all || getSt();
   if(!all){if(s==='pending')delete t[a];else t[a]=s;}
-  // Phase 2.2: 附加元数据（timestamp + source），用于冲突检测
   t._meta = {ts: Date.now(), src: 'web'};
   localStorage.setItem(SK, JSON.stringify(t));
-  // Auto-sync to server
   syncToServer();
 }
 
+/* 同步走 Worker 代理，浏览器不再持有任何 GitHub 凭据。
+   原来这里从 localStorage 读一个 Token 直接调 GitHub API —— 任何能在
+   本页执行 JS 的代码都能读走它（audit P0）。Token 现在只存在于
+   Cloudflare Worker 的 Secret 里。 */
 async function syncToServer() {
-  const token = localStorage.getItem(SYNC_TOKEN_KEY);
-  if (!token || syncing) return;
+  if (syncing) return;
+  if (!SYNC_ENDPOINT) {
+    setSyncStage('local', '未配置同步端点，状态只保存在本机浏览器。' +
+      '配置方法见 cloudflare-worker.js 顶部说明。');
+    return;
+  }
   syncing = true;
-  const el = document.getElementById('syncStatus');
-  if (el) { el.textContent = '⏳ 同步中...'; el.style.color='#FF9500'; }
+  setSyncStage('sending');
   try {
     const status = JSON.parse(localStorage.getItem(SK) || '{}');
-    // Phase 1 安全改造：改用 repository_dispatch 触发 Actions 写入
-    // Token 仅需 Actions:write 权限，不再需要 contents:write
-    // 实际文件写入由 Actions 内置 GITHUB_TOKEN 完成，带格式校验
-    const res = await fetch('https://api.github.com/repos/' + REPO + '/dispatches', {
+    const res = await fetch(SYNC_ENDPOINT, {
       method: 'POST',
-      headers: {
-        'Authorization': 'Bearer ' + token,
-        'Accept': 'application/vnd.github.v3+json',
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({
-        event_type: 'status-sync',
-        client_payload: { status: status }
-      })
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({status: status}),
     });
-    if (res.ok || res.status === 204) {
-      if (el) { el.textContent = '✅ 已同步 ' + new Date().toLocaleTimeString('zh-CN',{hour:'2-digit',minute:'2-digit'}); el.style.color='#34C759'; }
+    const body = await res.json().catch(() => ({}));
+
+    if (res.status === 501) {
+      setSyncStage('unconfigured', body.detail || 'Worker 未配置 GITHUB_TOKEN');
+    } else if (res.status === 202 || res.ok) {
+      // 只确认到「已提交」。真正写入与否由下次 fetchServerStatus 确认
+      setSyncStage('dispatched', body.note || '事件已提交，等待 workflow 写入');
     } else {
-      const err = await res.json().catch(() => ({}));
-      if (el) { el.textContent = '❌ 同步失败'; el.style.color='#FF3B30'; }
-      console.error('Sync error:', err);
+      setSyncStage('failed', 'HTTP ' + res.status + ' ' + (body.error || ''));
     }
   } catch(e) {
-    if (el) { el.textContent = '❌ 网络错误'; el.style.color='#FF3B30'; }
+    setSyncStage('failed', '网络错误: ' + e);
   }
   syncing = false;
 }
 
-function setSyncToken() {
-  const current = localStorage.getItem(SYNC_TOKEN_KEY) || '';
-  const token = prompt('输入 GitHub Token（仅需 Actions:write 权限，用于触发状态同步 workflow）：', current);
-  if (token !== null) {
-    if (token === '') { localStorage.removeItem(SYNC_TOKEN_KEY); }
-    else { localStorage.setItem(SYNC_TOKEN_KEY, token); }
-    syncToServer();
-  }
-}
 function esc(s){const d=document.createElement('div');d.textContent=s||'';return d.innerHTML}
 // 属性值专用：esc() 不转义引号，直接塞进 attr="..." 会被一个引号撑破。
 // 这是 audit P0 说的「esc() 只适合 HTML 文本转义」的具体补丁。

@@ -4,6 +4,7 @@ Product Radar v2 - Multi-source Channel Aggregation
 Sources: Amazon (New/BSR/Wished/Gifts), TikTok, HotUKDeals, Temu, Etsy, YouTube, Google Trends, Reddit
 """
 import json, sys, os
+import concurrent.futures
 from datetime import datetime
 from pathlib import Path
 
@@ -397,21 +398,31 @@ def main():
 
     # 1b. Keyword-driven scan (discovery + festival keywords) with dedicated Playwright
     print("\n[1b/8] Keyword-driven scan (discovery + festival)...", file=sys.stderr)
-    import signal
-    class TimeoutError(Exception): pass
-    def _handler(signum, frame): raise TimeoutError("keyword scan timed out")
-    original_handler = signal.signal(signal.SIGALRM, _handler)
-    signal.alarm(120)  # 2min max for keyword scan (new dedicated Playwright per kw)
-    try:
-        keyword_products = run_keyword_scan(max_discovery_kws=5, max_festival_kws=5, max_products_per_kw=10, max_reviews=config.get("max_reviews", 200))
-        if keyword_products:
-            amazon_products.extend(keyword_products)
-            print(f"  Added {len(keyword_products)} keyword products → total {len(amazon_products)}", file=sys.stderr)
-    except TimeoutError:
-        print("  ⏰ 关键词扫描超时（>120s），跳过", file=sys.stderr)
-    finally:
-        signal.alarm(0)
-        signal.signal(signal.SIGALRM, original_handler)
+    # 超时用线程池而不是 SIGALRM（audit P1）。
+    # signal.alarm 只有 Unix 有，Windows 上直接 AttributeError；
+    # 而且 SIGALRM 只能在主线程注册，以后要并行扫描就会踩坑。
+    #
+    # 注意：超时后工作线程仍在后台跑（Python 没法强杀线程），
+    # 但它是 daemon 线程，不会拖住进程退出，且结果会被丢弃。
+    KEYWORD_SCAN_TIMEOUT = 120
+    with concurrent.futures.ThreadPoolExecutor(
+            max_workers=1, thread_name_prefix='keyword-scan') as _pool:
+        _future = _pool.submit(
+            run_keyword_scan,
+            max_discovery_kws=5, max_festival_kws=5, max_products_per_kw=10,
+            max_reviews=config.get("max_reviews", 200),
+        )
+        try:
+            keyword_products = _future.result(timeout=KEYWORD_SCAN_TIMEOUT)
+            if keyword_products:
+                amazon_products.extend(keyword_products)
+                print(f"  Added {len(keyword_products)} keyword products → total {len(amazon_products)}", file=sys.stderr)
+        except concurrent.futures.TimeoutError:
+            print(f"  ⏰ 关键词扫描超时（>{KEYWORD_SCAN_TIMEOUT}s），跳过", file=sys.stderr)
+            _future.cancel()
+            _pool.shutdown(wait=False)
+        except Exception as e:
+            print(f"  ⚠️ 关键词扫描失败，跳过: {e}", file=sys.stderr)
 
     # 2. AnySearch trends (TikTok+HotUKDeals+Temu+Etsy+YouTube+Google+Reddit)
     print("\n[2/7] AnySearch 多源趋势分析...", file=sys.stderr)

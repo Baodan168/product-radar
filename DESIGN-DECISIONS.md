@@ -97,6 +97,35 @@
 
 ---
 
+## D9 — 数据文件的写入要防塌缩
+
+**选择：** 凡是「重新生成整份数据文件」的写入都过 `oa/safe_write.py`，新数据为空或不足旧数据一半就拒绝写入并报警。
+
+**理由：** 重构期间真实触发了一次。`load_festivals()` 的数据源是一台机器上的绝对路径，本机没有那个路径 → 静默返回 `[]` → 生成器把 `window.FESTIVALS = [];` 写进 `output/data/festivals.js`，133KB 数据没了。而且页面还「正常」生成，只是节日 Tab 空了——不点那个 Tab 根本发现不了。
+
+**配套：** `FESTIVAL_SOURCES` 加了两级仓库内回退（`data/festivals_data.js` → 上次产物），不再依赖单台机器的绝对路径。
+
+**原则：** 宁可显示上一次的数据，也不要显示空的。空数据看起来像「今年没节日」，而不是「数据源挂了」。
+
+---
+
+## 部署清单（Phase 5 之后需要手动做的）
+
+看板同步改走 Worker 代理后，**在下面三步做完之前同步不可用**（页面显示「已存本地」，状态只保存在本机浏览器，不会静默失败）：
+
+1. 部署 Worker：`wrangler deploy`，或在 Cloudflare 控制台粘贴 `cloudflare-worker.js`
+   ⚠️ 文件已从 Service Worker 格式（`addEventListener`）改成 Module 格式（`export default`），因为 Secret 只能通过 `env` 参数拿到。控制台粘贴时注意选对格式。
+2. 设置 Secret 与变量：
+   ```
+   wrangler secret put GITHUB_TOKEN        # 只需 Actions:write，不要给 contents:write
+   # 环境变量 ALLOWED_ORIGIN = https://liyuhong168.github.io
+   ```
+3. 把 Worker 地址填进 `config.json` 的 `kanban_sync.endpoint`，重新生成平台页。
+
+**另外：** 浏览器里之前存过的那个 GitHub Token 应当去 GitHub 后台**吊销**——它曾经暴露在 `localStorage` 里，代码删掉不等于凭据失效。
+
+---
+
 ## 已知限制 / 待办
 
 | 项 | 说明 |

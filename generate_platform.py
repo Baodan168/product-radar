@@ -298,6 +298,18 @@ def generate_platform_html(radar_all=None, discovery_all=None, output_path=None)
             print(f"⚠️ kanban_injection config load failed: {e}", file=sys.stderr)
     inject_json = json.dumps(kanban_inject, ensure_ascii=False)
 
+    _kanban_sync_endpoint = ''
+    if _cfg_path.exists():
+        try:
+            _kanban_sync_endpoint = (json.loads(_cfg_path.read_text())
+                                     .get('kanban_sync', {}).get('endpoint', '')) or ''
+        except Exception:
+            pass
+    # 端点必须是 https，否则同步请求会明文出网
+    if _kanban_sync_endpoint and not _kanban_sync_endpoint.startswith('https://'):
+        print(f"⚠️ kanban_sync.endpoint 不是 https，已忽略: {_kanban_sync_endpoint}", file=sys.stderr)
+        _kanban_sync_endpoint = ''
+
     # 页面装配交给模板 + 外部 JS。
     # 原来这里是一段 840 行的 f-string，HTML/CSS/JS 全混在里面，每个花括号
     # 都要写成双份，四种输出语境共用一个 esc() —— audit P0/P3 的直接成因。
@@ -313,6 +325,9 @@ def generate_platform_html(radar_all=None, discovery_all=None, output_path=None)
         'KANBAN_COLS': KANBAN_COLUMNS,
         'INJECT_CFG': kanban_inject,
         'LOAD_ERRORS': _load_errors,
+        # 同步端点从 config.json 读。留空时前端只存本地并显示「同步未配置」，
+        # 浏览器不再持有任何 GitHub 凭据（audit P0）
+        'SYNC_ENDPOINT': _kanban_sync_endpoint,
     }
 
     html = render.render(

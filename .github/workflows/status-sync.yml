@@ -4,6 +4,13 @@ on:
   repository_dispatch:
     types: [status-sync]
 
+# audit P1/P3：多个 workflow 会同时往同一个分支写。没有并发控制时，
+# 两次同步会各自基于旧状态整份覆盖，后写的把先写的静默盖掉。
+# 串行化（不 cancel-in-progress，因为每次同步都是要保留的用户操作）。
+concurrency:
+  group: repo-write-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   sync:
     runs-on: ubuntu-latest
@@ -12,28 +19,86 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Validate and write status
+      - name: Validate and merge status
         env:
           STATUS_JSON: ${{ toJson(github.event.client_payload.status) }}
         run: |
           mkdir -p data
-          echo "$STATUS_JSON" | python3 -c "
-          import json, sys
-          data = json.load(sys.stdin)
-          if not isinstance(data, dict):
-              sys.exit('ERROR: status must be a JSON object')
-          for k, v in data.items():
+          echo "$STATUS_JSON" > /tmp/incoming.json
+          python3 - <<'PY'
+          import json, os, sys, time
+          from pathlib import Path
+
+          SCHEMA_VERSION = 2
+          MAX_ENTRIES = 5000
+          MAX_LEN = 64
+
+          incoming = json.loads(Path('/tmp/incoming.json').read_text())
+          if not isinstance(incoming, dict):
+              sys.exit('ERROR: status 必须是 JSON 对象')
+
+          meta = incoming.pop('_meta', None)
+          if len(incoming) > MAX_ENTRIES:
+              sys.exit(f'ERROR: 条目过多 {len(incoming)} > {MAX_ENTRIES}')
+          for k, v in incoming.items():
               if not isinstance(k, str) or not isinstance(v, str):
-                  sys.exit(f'ERROR: invalid entry {k}={v}')
-          print(f'Validation passed: {len(data)} entries')
-          "
-          echo "$STATUS_JSON" | python3 -m json.tool > data/kanban_status.json
-          echo "Written to data/kanban_status.json"
+                  sys.exit(f'ERROR: 非法条目 {k!r}={v!r}')
+              if len(k) > MAX_LEN or len(v) > MAX_LEN:
+                  sys.exit(f'ERROR: 键或值过长: {k[:20]!r}')
+
+          # audit P1：原来是整份 JSON 覆盖 —— A 和 B 各自基于旧状态修改，
+          # 后提交的会把先提交的改动整个盖掉。改成逐条合并，只动本次真正
+          # 提到的键，没提到的保留仓库里的值。
+          target = Path('data/kanban_status.json')
+          current = {}
+          if target.exists():
+              try:
+                  current = json.loads(target.read_text())
+              except json.JSONDecodeError:
+                  print('WARN: 现有状态文件损坏，按空处理')
+          current.pop('_meta', None)
+          current.pop('_schema', None)
+
+          incoming_ts = (meta or {}).get('ts', 0)
+          merged = dict(current)
+          changed = []
+          for k, v in incoming.items():
+              if current.get(k) != v:
+                  changed.append(k)
+              merged[k] = v
+
+          merged['_schema'] = SCHEMA_VERSION
+          merged['_meta'] = {
+              'ts': int(time.time() * 1000),
+              'client_ts': incoming_ts,
+              'src': 'worker',
+              'run': os.environ.get('GITHUB_RUN_ID', ''),
+          }
+          target.write_text(json.dumps(merged, ensure_ascii=False, indent=2, sort_keys=True))
+          print(f'合并完成：本次变更 {len(changed)} 条，合计 {len(merged) - 2} 条')
+          PY
 
       - name: Commit and push
         run: |
           git config user.name "OA Status Bot"
           git config user.email "actions@github.com"
           git add data/kanban_status.json
-          git commit -m "chore: sync kanban status [skip ci]" || echo "No changes to commit"
-          git push
+          if git diff --cached --quiet; then
+            echo "无变更，跳过"
+            exit 0
+          fi
+          git commit -m "chore: sync kanban status [skip ci]"
+
+          # 并发控制之外再加一道：push 被拒就 rebase 重试，
+          # 而不是失败了当没发生
+          for i in 1 2 3; do
+            if git push; then
+              echo "push 成功"
+              exit 0
+            fi
+            echo "push 被拒，第 $i 次重试前先 rebase"
+            git pull --rebase --autostash || true
+            sleep $((i * 3))
+          done
+          echo "::error::push 连续失败，状态未写入仓库"
+          exit 1

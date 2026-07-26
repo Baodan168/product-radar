@@ -38,6 +38,9 @@ python3 -m http.server 8080    # 访问 http://localhost:8080/output/
 | `calc_profit.py` | 利润计算 |
 | `festival_engine.py` | 节日引擎 |
 | `github_api_push.py` | GitHub API 推送 |
+| `oa/safe_write.py` | 数据文件写入防塌缩 |
+| `cloudflare-worker.js` | 抓取代理 + 看板同步代理（Token 存 Worker Secret） |
+| `tests/` | pytest 回归（88 项） |
 | `data/channels/` | 扫描数据（产品JSON） |
 | `data/discovery/` | 趋势发现数据 |
 | `output/` | 生成的 HTML |
@@ -71,6 +74,8 @@ python3 -m http.server 8080    # 访问 http://localhost:8080/output/
 - PP每日缓存是单日快照非月累计，30天数据用 `pp_30day_export.py`
 - 选品平台过滤参数从 `config.json` 读取，代码默认值需与 config 一致
 - 部署验证需检查门户根页 iframe 内容（非仅 platform.html），CDN 缓存 600s
+- 看板同步走 Cloudflare Worker，浏览器不再持有 GitHub Token；未部署 Worker 时只存本地
+- 改数据文件走 `oa/safe_write.py`，空数据会被拒绝写入（防止数据源挂掉时覆盖好数据）
 
 ## 数据安全
 
