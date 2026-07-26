@@ -1,5 +1,9 @@
 # Product Radar — Amazon UK 选品运营 OA
 
+> **任何 agent 开工前先读 [`HANDOFF.md`](./HANDOFF.md)。**
+> 这个仓库有两个 agent 在写：Claude Code（临时容器，只推分支）和
+> hermes（公司电脑，直推 main）。两边看不到对方的终端，HANDOFF.md 是唯一的交接点。
+
 ## 一句话定位
 
 Amazon UK 三店（322·007·027）的选品与运营门户，3+1 混合架构：product-radar 仓库管门户/选品平台/补货跟进三个核心板块，kj-news-radar 独立仓库管跨境雷达。
@@ -25,6 +29,9 @@ python3 -m http.server 8080    # 访问 http://localhost:8080/output/
 | `ARCHITECTURE.md` | 系统架构文档（数据流/设计原则/调度/运维） |
 | `PROJECT-VISION.md` | 产品愿景文档（项目目标/选品哲学/设计理念） |
 | `DESIGN-DECISIONS.md` | 重构决策记录（每条决策的选择/理由/代价/已知限制） |
+| `HANDOFF.md` | **两个 agent 的交接点（开工先读）** |
+| `DEPLOY-CHECKLIST.md` | 部署到线上的逐条清单 + 回退方法 |
+| `PROPOSAL-agent-collab.md` | Claude Code 与 hermes 的协作边界方案（待确认） |
 | `PROPOSAL-ads-module.md` | **广告异常监控板块方案（待确认，未实施）** |
 | `oa/config.py` | **门户板块配置（加新板块改这里）** |
 | `oa/urls.py` | URL 协议+主机白名单 |
@@ -73,6 +80,9 @@ python3 -m http.server 8080    # 访问 http://localhost:8080/output/
 - ❌ **修改data/channels/*.json前必须备份**
 - ✅ **加新板块只改 `oa/config.py` 的 MODULES 数组**（v4.0 起从 generate_portal.py 移出，见 DESIGN-DECISIONS D8）
 - ✅ **改门户交互改 `assets/portal.js`，改结构改 `templates/portal.html`**
+- ❌ **Claude Code 不提交 `output/*.html` 与 `output/data/*.js` 的重新生成结果** —— 那是
+  hermes 每次 cron 都会改的文件，提交必然撞车（见 HANDOFF.md）
+- ❌ **谁都不直推 `main` 改代码** —— hermes 靠 `main` 同步代码，直推会在它不知情时换掉运行中的代码
 
 ## 关键坑
 
