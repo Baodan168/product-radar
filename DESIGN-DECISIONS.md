@@ -105,3 +105,4 @@
 | 跨境雷达的主题跟随 | 跨域 iframe 无法注入主题。通过 `?theme=` 传参，对方仓库不实现则无效。 |
 | 跨境雷达的健康探针 | 跨域只能 `no-cors` 探到网络层，判不出 HTTP 状态码，故显示「未知」。 |
 | Worker 部署 | D5 的 `/kanban-sync` 路由需要手动部署 + 设 secret 才生效。 |
+| ⚠️ 补货页脱敏缺口 | `output/analysis/index.html` 当前在公开页展示 **毛利率 / 7天销量 / 日均** 三列，与 PROJECT-VISION §6「毛利率、月销量、库存在公开 HTML 中隐藏」冲突。该页由仓库外的 `product-analysis` 项目生成，本仓库改不到。**需在 `product-analysis/generate_html.py` 侧处理**，已在 Phase 1 截图验证时发现并上报。 |
