@@ -35,6 +35,8 @@ python3 -m http.server 8080    # 访问 http://localhost:8080/output/
 | `scanner.py` | 产品过滤规则（⚠️ is_forbidden()返回False非元组） |
 | `generate_platform.py` | 选品平台生成器 V6（薄壳，模板见 templates/platform.html） |
 | `generate_portal.py` | 门户生成器 V4（薄壳，配置见 oa/config.py） |
+| `tools/snapshot.py` | 视觉回归截图（改样式前后各跑一次） |
+| `tools/skinpreview.py` | 换肤方向对比（不改主题表就能预览） |
 | `calc_profit.py` | 利润计算 |
 | `festival_engine.py` | 节日引擎 |
 | `github_api_push.py` | GitHub API 推送 |
@@ -42,7 +44,7 @@ python3 -m http.server 8080    # 访问 http://localhost:8080/output/
 | `oa/desensitize.py` | 补货页发布边界脱敏（毛利率/销量→档位标签） |
 | `desensitize_analysis.py` | 脱敏 CLI（`--check` 供 CI 用） |
 | `cloudflare-worker.js` | 抓取代理 + 看板同步代理（Token 存 Worker Secret） |
-| `tests/` | pytest 回归（119 项） |
+| `tests/` | pytest 回归（123 项） |
 | `data/channels/` | 扫描数据（产品JSON） |
 | `data/discovery/` | 趋势发现数据 |
 | `output/` | 生成的 HTML |
@@ -65,7 +67,8 @@ python3 -m http.server 8080    # 访问 http://localhost:8080/output/
 
 - ❌ **结构改动必须先讨论** — 板块独立/合并/URL变更必须先出方案再执行，不能直接改
 - ❌ **改数据不直接改HTML** — 改数据源JSON，重新生成
-- ❌ **改样式不走内联CSS** — 走 shared/oa-theme.css
+- ❌ **改样式不走内联CSS** — 走 shared/oa-theme.css。颜色**只能**写在 `:root` 令牌里，
+  组件层 / 模板 / JS / 生成器里出现任何 `#hex` 或 `rgba()` 都会被 `tests/test_theme.py` 拦下（见 D13）
 - ❌ **修改data/channels/*.json前必须备份**
 - ✅ **加新板块只改 `oa/config.py` 的 MODULES 数组**（v4.0 起从 generate_portal.py 移出，见 DESIGN-DECISIONS D8）
 - ✅ **改门户交互改 `assets/portal.js`，改结构改 `templates/portal.html`**
@@ -88,8 +91,10 @@ python3 -m http.server 8080    # 访问 http://localhost:8080/output/
 ## 当前状态
 
 - 3+1 混合架构已部署运行
-- 选品平台 V6，门户 V4（重构分支 claude/oa-portal-redesign-9vaqif）
-- **下一轮做前端 UI 升级（视觉换新 + 信息密度）— 开工前先读 `DESIGN-DECISIONS.md` 的「下一轮：前端 UI 升级（交接）」章节**
+- 选品平台 V6，门户 V4，设计系统 **v5「石墨与信号」**（分支 claude/oa-portal-ui-upgrade-ts4zrf）
+- 设计原则：**颜色只用来表意** —— 外壳走中性灰阶、主操作色是墨色，
+  饱和色只留给语义（红=紧急/琥珀=观察/绿=健康）和四个数据源。详见 DESIGN-DECISIONS D12
+- 换肤入口：改 `shared/oa-theme.css` 顶部 `:root` 的令牌值，全站生效（这个前提由 4 条测试守着，见 D13）
 - 无暗色模式（曾加过又移除，原因见 DESIGN-DECISIONS D11）
 - 每天 08:40 趋势发现 + 09:10/14:00 雷达扫描
 - 周一/四 08:00 补货跟进

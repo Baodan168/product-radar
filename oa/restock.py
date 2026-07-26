@@ -99,5 +99,5 @@ def parse_analysis(path=None) -> CardData:
     return CardData(payload={
         'counts': counts,
         'total': sum(counts.values()),
-        'top': items[:5],
+        'top': items[:8],
     })

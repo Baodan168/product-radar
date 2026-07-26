@@ -31,10 +31,10 @@
 </div>
 
 <div class="main-tabs">
-  <button class="main-tab active" data-tab="discovery" style="--tc:var(--purple)">🔍 趋势发现 <span class="cnt" id="discCnt">0</span></button>
-  <button class="main-tab" data-tab="radar" style="--tc:var(--blue)">📡 雷达扫描 <span class="cnt" id="radarCnt">0</span></button>
-  <button class="main-tab" data-tab="festival" style="--tc:var(--orange)">📅 节日选品 <span class="cnt">${festival_count}</span></button>
-  <button class="main-tab" data-tab="kanban" style="--tc:var(--green)">📋 选品看板</button>
+  <button class="main-tab active" data-tab="discovery">🔍 趋势发现 <span class="cnt" id="discCnt">0</span></button>
+  <button class="main-tab" data-tab="radar">📡 雷达扫描 <span class="cnt" id="radarCnt">0</span></button>
+  <button class="main-tab" data-tab="festival">📅 节日选品 <span class="cnt">${festival_count}</span></button>
+  <button class="main-tab" data-tab="kanban">📋 选品看板</button>
   </div>
 
 <!-- DISCOVERY -->
@@ -43,7 +43,7 @@
   <div id="seasonBar" class="season-bar"></div>
   <div class="insight-list" id="insightList"></div>
   <div class="empty" id="emptyDisc" style="display:none">
-    <div style="font-size:48px;margin-bottom:12px">🔍</div>
+    <div class="empty-icon">🔍</div>
     <p>该日期无趋势发现数据</p>
   </div>
 </div>
@@ -52,11 +52,11 @@
 <div class="section" id="sec-radar">
   <div class="st-filter">
     <span class="lbl">状态:</span>
-    <button class="st-tab" data-status="pending" style="--s-c:#8e8e93">待评估</button>
-    <button class="st-tab" data-status="supplier" style="--s-c:#007AFF">找供应商</button>
-    <button class="st-tab" data-status="sample" style="--s-c:#FF9500">已采样</button>
-    <button class="st-tab" data-status="listed" style="--s-c:#34C759">已上架</button>
-    <button class="st-tab" data-status="rejected" style="--s-c:#FF3B30">不考虑</button>
+    <button class="st-tab st-pending" data-status="pending">待评估</button>
+    <button class="st-tab st-supplier" data-status="supplier">找供应商</button>
+    <button class="st-tab st-sample" data-status="sample">已采样</button>
+    <button class="st-tab st-listed" data-status="listed">已上架</button>
+    <button class="st-tab st-rejected" data-status="rejected">不考虑</button>
     <button class="st-tab active" data-status="all">全部</button>
   </div>
   <div class="filter-bar">
@@ -67,7 +67,7 @@
   </div>
   <div class="product-grid" id="radarGrid"></div>
   <div class="empty" id="emptyRadar" style="display:none">
-    <div style="font-size:48px;margin-bottom:12px">📡</div>
+    <div class="empty-icon">📡</div>
     <p>该日期无雷达数据</p>
   </div>
 </div>
@@ -93,7 +93,7 @@
 <div class="search-overlay" id="searchOverlay">
   <div class="search-modal">
     <div class="search-modal-hd">
-      <span style="font-size:18px">🔍</span>
+      <span class="search-modal-icon">🔍</span>
       <input type="text" id="globalSearchInput" placeholder="搜索关键词、产品名称..." autocomplete="off"/>
       <button class="close-btn" data-act="toggle-search">ESC</button>
     </div>
@@ -108,8 +108,8 @@
 <script src="assets/platform.js?v=${asset_version}"></script>
 
 <!-- Phase 2.3: Debug panel (?debug=1 to show) -->
-<div id="debugPanel" style="display:none;position:fixed;bottom:0;left:0;right:0;background:#1d1d1f;color:#f5f5f7;padding:12px 20px;font-size:12px;font-family:monospace;z-index:9999;max-height:240px;overflow-y:auto;border-top:2px solid #FF9500">
-  <div style="font-weight:bold;margin-bottom:8px;color:#FF9500">Data Load Status</div>
+<div id="debugPanel" class="oa-debug-panel" hidden>
+  <div class="oa-debug-title">Data Load Status</div>
   <div id="debugContent"></div>
 </div>
 <script>
@@ -118,19 +118,19 @@
   var dc = document.getElementById('debugContent');
   if (!errs.length) {
     var okEl = document.createElement('span');
-    okEl.style.color = '#34C759';
+    okEl.className = 'oa-debug-ok';
     okEl.textContent = 'All modules loaded OK';
     dc.appendChild(okEl);
   } else {
     errs.forEach(function (e) {
       var d = document.createElement('div');
-      d.style.cssText = 'color:#FF3B30;padding:2px 0';
+      d.className = 'oa-debug-fail';
       d.textContent = 'FAIL: ' + e;   // textContent，不拼 innerHTML
       dc.appendChild(d);
     });
   }
   if (new URLSearchParams(location.search).get('debug') === '1') {
-    document.getElementById('debugPanel').style.display = 'block';
+    document.getElementById('debugPanel').hidden = false;
   }
 })();
 </script>

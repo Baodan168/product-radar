@@ -5,12 +5,14 @@
 在 </head> 前注入到页面里。因为排在主题表和补货页内联 <style> 之后，
 同特异度下能覆盖二者 —— 正好模拟「令牌层改值 + 少量组件层覆盖」的真实换肤。
 
-方向定稿后，选中的那份 skin 会被合并进 shared/oa-theme.css，本工具和
-skins/ 目录一起删掉，避免留下第二个样式层（见 DESIGN-DECISIONS D3）。
+skins/ 是临时目录，不入库 —— 方向定稿后要把选中的那份合并进
+shared/oa-theme.css 再删掉，绝不能留成第二个样式层（见 D3：
+--oa-* 是唯一令牌命名空间）。v5 就是这么落地的。
 
 用法:
+    mkdir -p skins && vi skins/a.css                 # 只写 :root 覆盖
     python3 tools/skinpreview.py --skin a            # 单个方向全页
-    python3 tools/skinpreview.py --skin a,b,c        # 多个方向
+    python3 tools/skinpreview.py --skin a,b,c        # 多个方向并排
     python3 tools/skinpreview.py --skin a --only portal
 """
 import argparse
