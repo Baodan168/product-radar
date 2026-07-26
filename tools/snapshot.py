@@ -110,20 +110,44 @@ def serve(root: Path, force_theme=None):
     return port, httpd.shutdown
 
 
-def shoot(chrome: Path, url: str, dest: Path, width: int, height: int, theme: str):
+# Chrome --headless=new 的窗口宽度有 ~500px 下限，直接传 --window-size=375
+# 会渲染成 500 宽再裁到 375，看起来像页面横向溢出，实际是工具在骗人。
+# 窄于这个值就套一层精确宽度的 iframe，拿到真实的窄屏布局。
+MIN_WINDOW_WIDTH = 500
+
+
+def shoot(chrome: Path, url: str, dest: Path, width: int, height: int, theme: str,
+          root: Path = None):
     dest.parent.mkdir(parents=True, exist_ok=True)
+    wrapper = None
+    target = url
+    win_w, win_h = width, height
+
+    if width < MIN_WINDOW_WIDTH and root is not None:
+        wrapper = root / f'_snap_{dest.stem}.html'
+        wrapper.write_text(
+            '<!doctype html><meta charset="utf-8">'
+            '<style>html,body{margin:0;padding:0;overflow:hidden}'
+            f'iframe{{width:{width}px;height:{height}px;border:0;display:block}}</style>'
+            f'<iframe src="{url}"></iframe>',
+            encoding='utf-8')
+        target = url.rsplit('/', 1)[0] + '/' + wrapper.name
+        win_w, win_h = MIN_WINDOW_WIDTH, height
+
     cmd = [
         str(chrome),
         '--headless=new',
         '--disable-gpu',
         '--no-sandbox',
         '--hide-scrollbars',
-        f'--window-size={width},{height}',
+        f'--window-size={win_w},{win_h}',
         f'--screenshot={dest}',
         '--virtual-time-budget=6000',
     ]
-    cmd.append(url)
+    cmd.append(target)
     r = subprocess.run(cmd, capture_output=True, timeout=90)
+    if wrapper is not None:
+        wrapper.unlink(missing_ok=True)
     if not dest.exists():
         tail = r.stderr.decode('utf-8', 'replace').strip().splitlines()[-3:]
         print(f'  ⚠️ {dest.name} 截图失败: {" / ".join(tail)}')
@@ -158,7 +182,7 @@ def main():
                 continue
             suffix = '' if args.theme == 'light' else '-dark'
             dest = out_dir / f'{name}{suffix}.png'
-            if shoot(chrome, f'http://127.0.0.1:{port}/{rel}', dest, w, h, args.theme):
+            if shoot(chrome, f'http://127.0.0.1:{port}/{rel}', dest, w, h, args.theme, root):
                 print(f'  ✅ {dest.relative_to(BASE)} ({dest.stat().st_size // 1024}KB)')
                 ok += 1
     finally:

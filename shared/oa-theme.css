@@ -1694,8 +1694,9 @@ body{font-family:var(--oa-font);background:var(--oa-bg);color:var(--oa-text);lin
     background: var(--oa-surface-2);
     object-fit: contain;
 }
-.oa-pick-body { min-width: 0; flex: 1; }
+.oa-pick-body { min-width: 0; flex: 1; display: flex; flex-direction: column; }
 .oa-pick-name {
+    display: -webkit-box;
     font-size: 13px; font-weight: 500; color: var(--oa-text);
     line-height: 1.4;
     display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
@@ -1738,14 +1739,15 @@ body{font-family:var(--oa-font);background:var(--oa-bg);color:var(--oa-text);lin
 }
 .oa-fest-row + .oa-fest-row { border-top: 1px solid var(--oa-border-2); }
 .oa-fest-icon { font-size: 20px; line-height: 1; flex-shrink: 0; }
-.oa-fest-body { min-width: 0; flex: 1; }
-.oa-fest-name { font-size: 13px; font-weight: 600; color: var(--oa-text); }
+.oa-fest-body { min-width: 0; flex: 1; display: flex; flex-direction: column; }
+.oa-fest-name { display: block; font-size: 13px; font-weight: 600; color: var(--oa-text); line-height: 1.35; }
 .oa-fest-cats {
+    display: block;
     font-size: 11.5px; color: var(--oa-sub); margin-top: 2px;
     overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
 }
 .oa-fest-days {
-    flex-shrink: 0; text-align: right;
+    flex-shrink: 0; text-align: right; min-width: 48px;
     font-size: 18px; font-weight: 700; color: var(--oa-primary);
     font-variant-numeric: tabular-nums; line-height: 1.1;
 }

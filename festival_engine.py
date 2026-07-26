@@ -167,15 +167,29 @@ def generate_festival_html(festivals):
             if upcoming is None or deadline < upcoming['deadline']:
                 upcoming = {"festival": f, "deadline": deadline, "urgency": urgency}
     
+    # 最近备货节点那段先单独拼好。
+    # 原本是把这段 f-string 直接嵌在下面的外层 f'''...''' 里，同类三引号
+    # 套同类三引号要 Python 3.12+（PEP 701）才能解析，3.11 及以下直接
+    # SyntaxError。拆出来就没有版本门槛了。
+    if upcoming:
+        fest = upcoming['festival']
+        countdown_html = (
+            f"· 最近备货节点：<strong>{fest['icon']} {fest['name']}</strong>"
+            f"（{fest['date']}）· 选品截止 "
+            f"<strong>{upcoming['deadline'].strftime('%Y-%m-%d')}</strong> · "
+            f"<span class=\"badge {upcoming['urgency']}\">"
+            f"{get_urgency_label(upcoming['urgency'])}</span>"
+        )
+    else:
+        countdown_html = ''
+
     # 生成 HTML
     html = f'''
     <div class="festival-header">
       <h2>📅 Festival Planner 2026 Jul - 2027 Jun | {len(festivals)} Events | 300+ SKUs</h2>
       <div class="countdown">
         今日 <strong>{today}</strong>
-        {f'''· 最近备货节点：<strong>{upcoming['festival']['icon']} {upcoming['festival']['name']}</strong>
-           （{upcoming['festival']['date']}）· 选品截止 <strong>{upcoming['deadline'].strftime('%Y-%m-%d')}</strong>
-           · <span class="badge {upcoming['urgency']}">{get_urgency_label(upcoming['urgency'])}</span>''' if upcoming else ''}
+        {countdown_html}
       </div>
     </div>
     
