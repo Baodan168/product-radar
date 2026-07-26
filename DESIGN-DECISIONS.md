@@ -3,7 +3,7 @@
 > 本文档记录重构期间每个关键设计决策的**选择、理由和代价**。
 > 「为什么存在」见 [PROJECT-VISION.md](./PROJECT-VISION.md)，「怎么运作」见 [ARCHITECTURE.md](./ARCHITECTURE.md)。
 >
-> 重构分支：`claude/oa-portal-redesign-9vaqif`（D1–D11）→ `claude/oa-portal-ui-upgrade-ts4zrf`（D12–D14）
+> 重构分支：`claude/oa-portal-redesign-9vaqif`（D1–D11）→ `claude/oa-portal-ui-upgrade-ts4zrf`（D12–D15）
 > `main` 保持不动作为兜底
 
 ---
