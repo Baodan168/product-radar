@@ -30,6 +30,14 @@ jobs:
           if [ -d shared ]; then
             cp -r shared deploy/shared
           fi
+
+          # Copy portal assets (JS/CSS extracted out of the generators).
+          # Source of truth is assets/ at repo root; output/assets/ is only a
+          # local mirror for the github_api_push.py path and is gitignored.
+          if [ -d assets ]; then
+            mkdir -p deploy/assets
+            cp -r assets/* deploy/assets/
+          fi
           
           # Copy data files for date picker
           cp data/channels/*.json deploy/data/channels/

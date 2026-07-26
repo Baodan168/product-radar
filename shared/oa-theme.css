@@ -1521,6 +1521,21 @@ body{font-family:var(--oa-font);background:var(--oa-bg);color:var(--oa-text);lin
    配套 templates/portal.html + assets/portal.js
    ════════════════════════════════════════════ */
 
+/* ── 跳过导航（键盘/读屏器）── */
+.oa-skip-link {
+    position: absolute; left: -9999px; top: 0; z-index: var(--oa-z-modal);
+    padding: var(--oa-space-2) var(--oa-space-4);
+    background: var(--oa-primary); color: #fff;
+    border-radius: 0 0 var(--oa-radius-xs) 0;
+    font-size: 13px; text-decoration: none;
+}
+.oa-skip-link:focus { left: 0; }
+
+/* ── 今日概览与 iframe 互斥显示 ── */
+.oa-dashboard[hidden] { display: none; }
+.oa-content-frame[hidden] { display: none; }
+.oa-content-wrap:focus { outline: none; }
+
 /* ── 主题切换按钮 ── */
 .oa-theme-toggle {
     display: flex; align-items: center; justify-content: center;

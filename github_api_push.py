@@ -77,7 +77,7 @@ if __name__ == '__main__':
     files = []
 
     import glob
-    for subdir in ('data/channels', 'data/history', 'data/discovery', 'output', 'output/data'):
+    for subdir in ('data/channels', 'data/history', 'data/discovery', 'output', 'output/data', 'output/assets'):
         full = os.path.join(base, subdir)
         if not os.path.isdir(full):
             continue
@@ -88,7 +88,9 @@ if __name__ == '__main__':
             files.append((f'{subdir}/{f}', os.path.join(full, f)))
 
     # Always-push files
-    for f in ('output/platform.html', 'output/index.html', 'output/data/radar-all.js', 'output/data/disc-all.js', 'output/data/festivals.js', 'status.json'):
+    # 门户壳的 JS 从内联抽到了 output/assets/，漏推的话线上门户会白屏
+    for f in ('output/platform.html', 'output/index.html', 'output/assets/portal.js',
+              'output/data/radar-all.js', 'output/data/disc-all.js', 'output/data/festivals.js', 'status.json'):
         fp = os.path.join(base, f)
         if os.path.exists(fp):
             files.append((f, fp))

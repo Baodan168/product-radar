@@ -24,12 +24,17 @@ python3 -m http.server 8080    # 访问 http://localhost:8080/output/
 |------|------|
 | `ARCHITECTURE.md` | 系统架构文档（数据流/设计原则/调度/运维） |
 | `PROJECT-VISION.md` | 产品愿景文档（项目目标/选品哲学/设计理念） |
+| `DESIGN-DECISIONS.md` | 重构决策记录（每条决策的选择/理由/代价/已知限制） |
+| `oa/config.py` | **门户板块配置（加新板块改这里）** |
+| `oa/urls.py` | URL 协议+主机白名单 |
+| `oa/render.py` | 模板装配 + 分语境转义（html/attr/js/url） |
+| `templates/` `assets/` | 门户与平台的 HTML 模板、JS 资源 |
 | `config.json` | 主配置（价格区间/重量/尺寸/禁售词） |
 | `cron_scan.sh` | 定时扫描入口 |
 | `run_scan_v2.py` | 扫描引擎 |
 | `scanner.py` | 产品过滤规则（⚠️ is_forbidden()返回False非元组） |
 | `generate_platform.py` | 选品平台生成器 V5（~1146行，职责重） |
-| `generate_portal.py` | 门户生成器 V3（MODULES数组配置化） |
+| `generate_portal.py` | 门户生成器 V4（薄壳，配置见 oa/config.py） |
 | `calc_profit.py` | 利润计算 |
 | `festival_engine.py` | 节日引擎 |
 | `github_api_push.py` | GitHub API 推送 |
@@ -57,7 +62,8 @@ python3 -m http.server 8080    # 访问 http://localhost:8080/output/
 - ❌ **改数据不直接改HTML** — 改数据源JSON，重新生成
 - ❌ **改样式不走内联CSS** — 走 shared/oa-theme.css
 - ❌ **修改data/channels/*.json前必须备份**
-- ✅ **加新板块只改 generate_portal.py 的 MODULES 数组**
+- ✅ **加新板块只改 `oa/config.py` 的 MODULES 数组**（v4.0 起从 generate_portal.py 移出，见 DESIGN-DECISIONS D8）
+- ✅ **改门户交互改 `assets/portal.js`，改结构改 `templates/portal.html`**
 
 ## 关键坑
 

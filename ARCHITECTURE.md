@@ -250,13 +250,13 @@ restock_pipeline.sh
 | 规则 | 说明 |
 |------|------|
 | 改数据不直接改 HTML | 改数据源 JSON → 重新生成 |
-| 改样式不走内联 CSS | 走 `shared/oa-theme.css` |
-| 加新板块 | 只改 `generate_portal.py` 的 `MODULES` 数组 |
+| 改样式不走内联 CSS | 走 `shared/oa-theme.css`（分层：令牌/暗色/组件/页面私有/遗留 shim） |
+| 加新板块 | 只改 `oa/config.py` 的 `MODULES` 数组（v4.0 起，见 DESIGN-DECISIONS D8） |
 | 结构改动 | 必须先出方案讨论，不直接改 |
 | 改 `data/channels/*.json` | 先备份 |
 | 跨境雷达 | 注意 `master` 分支是部署分支 |
 | 补货跟进 | 不独立部署，走 `output/analysis/` 本地路径 |
-| 部署验证 | 检查门户根页 iframe 内容（非仅 platform.html） |
+| 部署验证 | 检查门户根页 iframe 内容（非仅 platform.html）；确认 `assets/portal.js` 已随产物部署 |
 
 ---
 
