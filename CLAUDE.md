@@ -42,7 +42,7 @@ python3 -m http.server 8080    # 访问 http://localhost:8080/output/
 | `oa/desensitize.py` | 补货页发布边界脱敏（毛利率/销量→档位标签） |
 | `desensitize_analysis.py` | 脱敏 CLI（`--check` 供 CI 用） |
 | `cloudflare-worker.js` | 抓取代理 + 看板同步代理（Token 存 Worker Secret） |
-| `tests/` | pytest 回归（120 项） |
+| `tests/` | pytest 回归（119 项） |
 | `data/channels/` | 扫描数据（产品JSON） |
 | `data/discovery/` | 趋势发现数据 |
 | `output/` | 生成的 HTML |
@@ -89,5 +89,7 @@ python3 -m http.server 8080    # 访问 http://localhost:8080/output/
 
 - 3+1 混合架构已部署运行
 - 选品平台 V6，门户 V4（重构分支 claude/oa-portal-redesign-9vaqif）
+- **下一轮做前端 UI 升级（视觉换新 + 信息密度）— 开工前先读 `DESIGN-DECISIONS.md` 的「下一轮：前端 UI 升级（交接）」章节**
+- 无暗色模式（曾加过又移除，原因见 DESIGN-DECISIONS D11）
 - 每天 08:40 趋势发现 + 09:10/14:00 雷达扫描
 - 周一/四 08:00 补货跟进

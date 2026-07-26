@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """设计系统的回归测试 — 跑 `python3 -m pytest tests/ -q`。
 
-暗色模式靠「组件全部走 var(--oa-*)，暗色只换令牌值」这个前提成立。
-一旦有人往组件里写死颜色，或者两个暗色块写歪了，暗色就会局部失效，
-而这种失效在浅色下完全看不出来。这几个测试就是盯这个。
+盯的是「组件层全部走 var(--oa-*)、令牌层是唯一事实源」这个前提。
+它成立时换肤只需改 :root 的令牌值，全站生效；一旦有人往组件里写死
+颜色或改用裸变量别名，这个前提就破了 —— 而破了在当前配色下完全看
+不出来，要等下次换肤才暴露。下一轮 UI 升级正是靠这个前提吃饭的。
 """
 import re
 from pathlib import Path
@@ -36,73 +37,60 @@ def test_no_undefined_tokens(css_nocomments):
     assert not missing, f'引用了未定义的令牌：{missing}'
 
 
-def _dark_blocks(css):
-    """取出两个暗色令牌块的正文。"""
-    media = re.search(
-        r'@media \(prefers-color-scheme: dark\).*?'
-        r':root:not\(\[data-oa-theme="light"\]\) \{(.*?)\n  \}',
-        css, re.S)
-    attr = re.search(r'\n:root\[data-oa-theme="dark"\] \{(.*?)\n\}', css, re.S)
-    assert media, '找不到 prefers-color-scheme 暗色块'
-    assert attr, '找不到 [data-oa-theme="dark"] 暗色块'
-    return media.group(1), attr.group(1)
+def test_no_dark_mode_remnants(css):
+    """暗色模式已移除（D11），不该有任何残留。
 
-
-def test_dark_blocks_define_same_tokens(css):
-    """两条路径必须给出同一组令牌。
-
-    系统偏好暗色走 @media，手动点切换按钮走属性选择器。
-    只在一边加令牌的话，两条路径下页面长得不一样，
-    而且只有切过主题的人才会撞见。
+    留着会造成两种混乱：改令牌时不知道要不要同步维护暗色块，
+    以及系统偏好暗色的用户看到半套主题。
     """
-    media_body, attr_body = _dark_blocks(css)
-    media_tokens = set(re.findall(r'(--oa-[\w-]+)\s*:', media_body))
-    attr_tokens = set(re.findall(r'(--oa-[\w-]+)\s*:', attr_body))
-    diff = media_tokens ^ attr_tokens
-    assert not diff, f'两个暗色块的令牌不一致，差异：{sorted(diff)}'
+    for banned in ('data-oa-theme', 'prefers-color-scheme',
+                   'color-scheme: dark', 'oa-theme-toggle'):
+        assert banned not in css, f'oa-theme.css 里仍有暗色残留：{banned}'
 
 
-def test_dark_blocks_have_same_values(css):
-    """同名令牌在两个块里的值也必须一致。"""
-    media_body, attr_body = _dark_blocks(css)
-    pat = r'(--oa-[\w-]+)\s*:\s*([^;]+);'
-    media = {k: v.strip() for k, v in re.findall(pat, media_body)}
-    attr = {k: v.strip() for k, v in re.findall(pat, attr_body)}
-    mismatched = {k: (media[k], attr[k]) for k in media if k in attr and media[k] != attr[k]}
-    assert not mismatched, f'同名令牌取值不一致：{mismatched}'
+def test_legacy_shim_holds_only_variable_aliases(css):
+    """遗留 shim 区只放裸变量别名，不放组件样式。
 
-
-def test_dark_overrides_core_surface_tokens(css):
-    """暗色至少要覆盖决定明暗观感的那几个令牌。"""
-    _, attr_body = _dark_blocks(css)
-    tokens = set(re.findall(r'(--oa-[\w-]+)\s*:', attr_body))
-    required = {'--oa-bg', '--oa-surface', '--oa-text', '--oa-sub', '--oa-border'}
-    assert required <= tokens, f'暗色块缺少核心令牌：{sorted(required - tokens)}'
-
-
-def test_legacy_shim_uses_high_specificity(css):
-    """遗留 shim 必须带 :root[data-oa-theme] 前缀。
-
-    output/analysis/*.html 由仓库外的 product-analysis 项目生成，
-    它的内联 <style> 排在 <link> 之后，同特异度下会赢。
-    裸类选择器压不住它，暗色会在那几个页面上失效。
+    那些别名（--blue / --muted / --r）只为存量页面兜底。
+    往里加组件样式等于开了第二个组件层，换肤时会漏掉。
     """
     idx = css.find('遗留 shim（已废弃，勿在新代码使用）')
     assert idx != -1, '找不到遗留 shim 区块'
     shim = css[idx:]
-    selectors = re.findall(r'^([.\w][^{@\n]*?)\s*\{', shim, re.M)
-    bare = [s.strip() for s in selectors if 'data-oa-theme' not in s]
-    assert not bare, f'shim 区里这些选择器特异度不够，压不住页面内联样式：{bare}'
+    selectors = re.findall(r'^([.:\w\[][^{@\n]*?)\s*\{', shim, re.M)
+    non_root = [x.strip() for x in selectors if x.strip() != ':root']
+    assert not non_root, f'shim 区混进了组件样式：{non_root}'
 
 
 def test_no_bare_color_aliases_in_component_layer(css):
     """组件层不许再用裸变量别名（--blue / --muted 这类）。
 
-    它们只为存量页面兜底，新组件用了就会绕开 --oa-* 令牌体系，
-    暗色切换时不跟随。
+    它们只为存量页面兜底。新组件用了就绕开了 --oa-* 令牌体系，
+    下一轮换肤时改令牌不会影响到它们，属于埋雷。
     """
     idx = css.find('v4.0 — 门户壳与今日概览组件')
     assert idx != -1, '找不到 v4.0 组件区块'
     v4 = css[idx:css.find('遗留 shim（已废弃', idx)]
     bare = re.findall(r'var\(\s*(--(?!oa-)[\w-]+)', v4)
     assert not bare, f'v4 组件层用了裸变量别名：{sorted(set(bare))}'
+
+
+def test_no_dark_mode_anywhere_in_source():
+    """全仓库源码与模板里都不该再有暗色痕迹。
+
+    删暗色涉及 CSS / 两个 JS / 两个模板 / 截图工具 / 测试七处，
+    漏一处就会留下点不动的按钮或永远不生效的分支。
+    """
+    root = CSS_PATH.parent.parent
+    targets = (list(root.glob('shared/*.css')) + list(root.glob('assets/*.js'))
+               + list(root.glob('templates/*.html')) + list(root.glob('tools/*.py'))
+               + list(root.glob('oa/*.py')) + list(root.glob('*.py')))
+    banned = ('data-oa-theme', 'prefers-color-scheme', 'oa-set-theme',
+              'themeToggle', 'oa-theme-toggle')
+    hits = []
+    for f in targets:
+        text = f.read_text(encoding='utf-8')
+        for kw in banned:
+            if kw in text:
+                hits.append(f'{f.relative_to(root)}: {kw}')
+    assert not hits, f'暗色残留：{hits}'

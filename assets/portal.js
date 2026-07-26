@@ -43,8 +43,7 @@
     title: document.getElementById('current-module'),
     update: document.getElementById('last-update'),
     clock: document.getElementById('clock'),
-    statusDot: document.getElementById('statusDot'),
-    themeToggle: document.getElementById('themeToggle')
+    statusDot: document.getElementById('statusDot')
   };
 
   var byKey = {};
@@ -54,40 +53,6 @@
   var loadTimer = null;
   var showTimer = null;
   var loadToken = 0;   // 防竞态：快速切换时，晚回来的旧请求不许改 UI
-
-  /* ── 主题 ───────────────────────────────── */
-
-  function currentTheme() {
-    var explicit = document.documentElement.getAttribute('data-oa-theme');
-    if (explicit) return explicit;
-    return window.matchMedia &&
-           window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-  }
-
-  function applyTheme(theme) {
-    document.documentElement.setAttribute('data-oa-theme', theme);
-    try { localStorage.setItem('oa_theme', theme); } catch (e) {}
-    broadcastTheme(theme);
-  }
-
-  /* 同源子页面通过 postMessage 跟随主题。
-     跨域的跨境雷达收不到（也读不到我们的 localStorage），
-     只能在 URL 上带 ?theme=，对方仓库不实现就无效——
-     这是同源策略的硬限制，记在 DESIGN-DECISIONS 已知限制里。 */
-  function broadcastTheme(theme) {
-    var mod = byKey[currentKey];
-    if (!mod || mod.inline || mod.cross_origin) return;
-    try {
-      el.frame.contentWindow.postMessage(
-        { type: 'oa-set-theme', theme: theme }, window.location.origin);
-    } catch (e) {}
-  }
-
-  if (el.themeToggle) {
-    el.themeToggle.addEventListener('click', function () {
-      applyTheme(currentTheme() === 'dark' ? 'light' : 'dark');
-    });
-  }
 
   /* ── 侧栏（移动端抽屉）─────────────────── */
 
@@ -256,12 +221,7 @@
 
   function loadFrame(mod, token) {
     el.frame.hidden = false;
-    var src = mod.url;
-    // 跨域板块塞一个主题参数，对方实现了就跟随，没实现也无害
-    if (mod.cross_origin) {
-      src += (src.indexOf('?') === -1 ? '?' : '&') + 'theme=' + currentTheme();
-    }
-    el.frame.src = src;
+    el.frame.src = mod.url;
 
     loadTimer = setTimeout(function () {
       if (token !== loadToken) return;
@@ -292,7 +252,6 @@
     setStatusDot(mod.cross_origin ? 'unknown' : 'ok');
     el.update.textContent = '已加载 ' + new Date().toLocaleTimeString('zh-CN',
       { hour: '2-digit', minute: '2-digit' });
-    broadcastTheme(currentTheme());
     if (!mod.cross_origin) {
       try {
         el.frame.contentWindow.postMessage(

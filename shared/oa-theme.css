@@ -6,10 +6,9 @@
    分层结构（改样式请对号入座，不要往 HTML 里塞内联 CSS）：
      1. Reset
      2. 令牌层 :root          ← 唯一的令牌命名空间 --oa-*
-     3. 暗色令牌覆盖          ← html[data-oa-theme="dark"]
-     4. 组件层 .oa-*          ← 通用组件
-     5. 页面私有类            ← .shell/.hero/.pc/.kanban-* 等存量类
-     6. 遗留 shim（已废弃）   ← 裸变量别名 + 存量页面暗色补丁
+     3. 组件层 .oa-*          ← 通用组件
+     4. 页面私有类            ← .shell/.hero/.pc/.kanban-* 等存量类
+     5. 遗留 shim（已废弃）   ← 裸变量别名，仅为存量页面兜底
    ════════════════════════════════════════════ */
 
 
@@ -108,100 +107,9 @@
   --oa-status-warn:    var(--oa-orange);
   --oa-status-error:   var(--oa-red);
   --oa-status-unknown: var(--oa-light);
-}
 
-
-/* ══════ 暗色令牌覆盖 ══════
-   组件层几乎全部走 var(--oa-*)，所以暗色只需要换令牌值。
-   信号来源：prefers-color-scheme 作默认，用户选择由内联脚本写
-   <html data-oa-theme>，两者都命中同一组选择器。
-   ══════════════════════════════════════════ */
-@media (prefers-color-scheme: dark) {
-  :root:not([data-oa-theme="light"]) {
-    color-scheme: dark;
-
-    --oa-bg:         #000000;
-    --oa-surface:    #1c1c1e;
-    --oa-surface-2:  #2c2c2e;
-    --oa-surface-3:  #3a3a3c;
-
-    --oa-text:       #f5f5f7;
-    --oa-sub:        #a1a1a6;
-    --oa-light:      #6e6e73;
-    --oa-inverse:    #1c1c1e;
-
-    --oa-border:     #48484a;
-    --oa-border-2:   #3a3a3c;
-
-    /* 暗色下阴影几乎不可见，靠加深 + 边框描边来分层 */
-    --oa-shadow-sm:  0 1px 3px rgba(0,0,0,0.5);
-    --oa-shadow:     0 2px 8px rgba(0,0,0,0.55);
-    --oa-shadow-lg:  0 8px 30px rgba(0,0,0,0.6);
-    --oa-shadow-xl:  0 16px 48px rgba(0,0,0,0.7);
-
-    /* 提亮强调色：Apple 深色系统色，暗底上对比度更够 */
-    --oa-primary:       #0a84ff;
-    --oa-primary-hover: #409cff;
-    --oa-primary-soft:  #0a2647;
-    --oa-secondary:     #7d7aff;
-    --oa-secondary-soft:#2a2a4a;
-    --oa-link:          #0a84ff;
-
-    --oa-green:      #30d158;
-    --oa-green-soft: #12331d;
-    --oa-orange:     #ff9f0a;
-    --oa-orange-soft:#3d2a06;
-    --oa-red:        #ff453a;
-    --oa-red-soft:   #3d1512;
-    --oa-blue:       #0a84ff;
-    --oa-blue-soft:  #0a2647;
-    --oa-purple:     #7d7aff;
-    --oa-pink:       #ff375f;
-    --oa-teal:       #64d2ff;
-  --oa-topbar-bg: rgba(28,28,30,0.82);
-  }
-}
-
-:root[data-oa-theme="dark"] {
-  color-scheme: dark;
-
-  --oa-bg:         #000000;
-  --oa-surface:    #1c1c1e;
-  --oa-surface-2:  #2c2c2e;
-  --oa-surface-3:  #3a3a3c;
-
-  --oa-text:       #f5f5f7;
-  --oa-sub:        #a1a1a6;
-  --oa-light:      #6e6e73;
-  --oa-inverse:    #1c1c1e;
-
-  --oa-border:     #48484a;
-  --oa-border-2:   #3a3a3c;
-
-  --oa-shadow-sm:  0 1px 3px rgba(0,0,0,0.5);
-  --oa-shadow:     0 2px 8px rgba(0,0,0,0.55);
-  --oa-shadow-lg:  0 8px 30px rgba(0,0,0,0.6);
-  --oa-shadow-xl:  0 16px 48px rgba(0,0,0,0.7);
-
-  --oa-primary:       #0a84ff;
-  --oa-primary-hover: #409cff;
-  --oa-primary-soft:  #0a2647;
-  --oa-secondary:     #7d7aff;
-  --oa-secondary-soft:#2a2a4a;
-  --oa-link:          #0a84ff;
-
-  --oa-green:      #30d158;
-  --oa-green-soft: #12331d;
-  --oa-orange:     #ff9f0a;
-  --oa-orange-soft:#3d2a06;
-  --oa-red:        #ff453a;
-  --oa-red-soft:   #3d1512;
-  --oa-blue:       #0a84ff;
-  --oa-blue-soft:  #0a2647;
-  --oa-purple:     #7d7aff;
-  --oa-pink:       #ff375f;
-  --oa-teal:       #64d2ff;
-  --oa-topbar-bg:  rgba(28,28,30,0.82);
+  /* 顶栏半透明底色（毛玻璃） */
+  --oa-topbar-bg:      rgba(255,255,255,0.82);
 }
 
 
@@ -1536,22 +1444,6 @@ body{font-family:var(--oa-font);background:var(--oa-bg);color:var(--oa-text);lin
 .oa-content-frame[hidden] { display: none; }
 .oa-content-wrap:focus { outline: none; }
 
-/* ── 主题切换按钮 ── */
-.oa-theme-toggle {
-    display: flex; align-items: center; justify-content: center;
-    width: 32px; height: 32px; flex-shrink: 0;
-    border: 1px solid var(--oa-border-2); border-radius: var(--oa-radius-xs);
-    background: var(--oa-surface); color: var(--oa-sub);
-    font-size: 15px; line-height: 1; cursor: pointer;
-    transition: background .15s ease, color .15s ease, border-color .15s ease;
-}
-.oa-theme-toggle:hover { background: var(--oa-surface-2); color: var(--oa-text); }
-.oa-theme-toggle:focus-visible { outline: 2px solid var(--oa-primary); outline-offset: 2px; }
-/* 图标由 CSS 切换，脚本只管 data-oa-theme，避免两处状态不同步 */
-.oa-theme-toggle .icon-dark  { display: none; }
-:root[data-oa-theme="dark"] .oa-theme-toggle .icon-dark  { display: inline; }
-:root[data-oa-theme="dark"] .oa-theme-toggle .icon-light { display: none; }
-
 /* ── 导航项改为真链接后的补充（a 元素默认带下划线/颜色）── */
 .oa-nav-item { text-decoration: none; }
 .oa-nav-item:focus-visible {
@@ -1806,23 +1698,13 @@ body{font-family:var(--oa-font);background:var(--oa-bg);color:var(--oa-text);lin
 /* ════════════════════════════════════════════
    遗留 shim（已废弃，勿在新代码使用）
 
-   output/analysis/*.html 由仓库外的本地项目
-   ~/product-analysis/generate_html.py 生成，带硬编码浅色的内联
-   <style>。那段 <style> 在 <link> 之后，同特异度下会赢，所以这里
-   必须用 :root[data-oa-theme] 前缀把特异度抬上去才能压住。
-   根治要改 product-analysis 项目，不在本仓库范围内。
+   下面的裸变量别名只为存量页面兜底：platform 页和
+   output/analysis/*.html 还在引用 --blue / --muted / --r 这类名字。
+   新代码一律用 --oa-* 令牌。
+
+   ⚠️ output/analysis/*.html 由仓库外的本地项目
+   ~/product-analysis/ 生成，自带硬编码颜色的内联 <style>，且那段
+   <style> 排在 <link> 之后 —— 同特异度下它会赢。以后要覆盖那些页面的
+   样式，选择器特异度必须比裸类选择器高（例如加 :root 前缀）。
    见 DESIGN-DECISIONS.md「已知限制」。
    ════════════════════════════════════════════ */
-
-:root[data-oa-theme="dark"] .hero-logo {
-    background: var(--oa-surface);
-    border-color: var(--oa-border);
-    color: var(--oa-text);
-}
-:root[data-oa-theme="dark"] .hero-tag,
-:root[data-oa-theme="dark"] .hero-sub { color: var(--oa-sub); }
-:root[data-oa-theme="dark"] .fba-urgent { background: var(--oa-red-soft); color: #ff8a80; }
-:root[data-oa-theme="dark"] .fba-watch  { background: var(--oa-orange-soft); color: #ffcc80; }
-:root[data-oa-theme="dark"] .fba-ok     { background: var(--oa-green-soft); color: #a5d6a7; }
-:root[data-oa-theme="dark"] .store-badge-007 { background: var(--oa-blue-soft); color: #82b1ff; }
-:root[data-oa-theme="dark"] .store-badge-027 { background: var(--oa-green-soft); color: #a5d6a7; }

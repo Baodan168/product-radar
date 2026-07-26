@@ -806,26 +806,17 @@ document.addEventListener('click', function (e) {
   }
 });
 
-/* 跟随门户主题：门户用 postMessage 广播，这里校验 origin 后应用。
-   平台页也可能被直接打开（不在 iframe 里），那就读自己的 localStorage。 */
+/* 向门户上报页面高度，让 iframe 自适应。
+   收发两端都校验 origin/source，不用 '*'（audit P2）。 */
 (function () {
-  function apply(theme) {
-    if (theme === 'dark' || theme === 'light') {
-      document.documentElement.setAttribute('data-oa-theme', theme);
-    }
-  }
-  try { apply(localStorage.getItem('oa_theme')); } catch (e) {}
-
   window.addEventListener('message', function (e) {
     if (e.origin !== window.location.origin) return;
     if (e.source !== window.parent) return;
     var d = e.data;
     if (!d || typeof d !== 'object') return;
-    if (d.type === 'oa-set-theme') { apply(d.theme); return; }
     if (d.type === 'oa-get-height') {
       var h = document.documentElement.scrollHeight;
       if (isFinite(h) && h > 0) {
-        // 目标 origin 写死成父页面的 origin，不用 '*'（audit P2）
         window.parent.postMessage({ type: 'oa-set-height', height: h }, e.origin);
       }
     }
