@@ -33,14 +33,16 @@ python3 -m http.server 8080    # 访问 http://localhost:8080/output/
 | `cron_scan.sh` | 定时扫描入口 |
 | `run_scan_v2.py` | 扫描引擎 |
 | `scanner.py` | 产品过滤规则（⚠️ is_forbidden()返回False非元组） |
-| `generate_platform.py` | 选品平台生成器 V5（~1146行，职责重） |
+| `generate_platform.py` | 选品平台生成器 V6（薄壳，模板见 templates/platform.html） |
 | `generate_portal.py` | 门户生成器 V4（薄壳，配置见 oa/config.py） |
 | `calc_profit.py` | 利润计算 |
 | `festival_engine.py` | 节日引擎 |
 | `github_api_push.py` | GitHub API 推送 |
 | `oa/safe_write.py` | 数据文件写入防塌缩 |
+| `oa/desensitize.py` | 补货页发布边界脱敏（毛利率/销量→档位标签） |
+| `desensitize_analysis.py` | 脱敏 CLI（`--check` 供 CI 用） |
 | `cloudflare-worker.js` | 抓取代理 + 看板同步代理（Token 存 Worker Secret） |
-| `tests/` | pytest 回归（88 项） |
+| `tests/` | pytest 回归（120 项） |
 | `data/channels/` | 扫描数据（产品JSON） |
 | `data/discovery/` | 趋势发现数据 |
 | `output/` | 生成的 HTML |
@@ -76,15 +78,16 @@ python3 -m http.server 8080    # 访问 http://localhost:8080/output/
 - 部署验证需检查门户根页 iframe 内容（非仅 platform.html），CDN 缓存 600s
 - 看板同步走 Cloudflare Worker，浏览器不再持有 GitHub Token；未部署 Worker 时只存本地
 - 改数据文件走 `oa/safe_write.py`，空数据会被拒绝写入（防止数据源挂掉时覆盖好数据）
+- **补货页产物提交前必须跑 `python3 desensitize_analysis.py`**，否则部署会被 CI 拦下（毛利率/销量不能上公开页）
 
 ## 数据安全
 
-- GitHub Pages 公开部署，敏感字段（毛利率/月销量/库存）已脱敏
+- GitHub Pages 公开部署，敏感字段（毛利率/月销量/库存）已脱敏 —— 补货页由 `oa/desensitize.py` 在发布边界换成档位标签，CI 有 `--check` 门禁
 - 保留板块入口和功能（趋势/日历/补货/竞品），仅隐藏数字
 
 ## 当前状态
 
 - 3+1 混合架构已部署运行
-- 选品平台 V5，门户 V3
+- 选品平台 V6，门户 V4（重构分支 claude/oa-portal-redesign-9vaqif）
 - 每天 08:40 趋势发现 + 09:10/14:00 雷达扫描
 - 周一/四 08:00 补货跟进
