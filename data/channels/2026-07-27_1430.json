@@ -1,0 +1,1530 @@
+{
+  "scan_date": "2026-07-27",
+  "scan_time": "14:30",
+  "scan_ts": "2026-07-27_1430",
+  "stats": {
+    "total_scanned": 113,
+    "passed_filter": 8,
+    "rejected": 105,
+    "channels": {
+      "multi_source": 6,
+      "new_releases": 6,
+      "etsy_trending": 5,
+      "tiktok_verified": 5,
+      "google_trends": 4,
+      "temu_trending": 5,
+      "keyword_search": 2
+    },
+    "trend_categories": {
+      "garden": 100,
+      "phone": 100,
+      "pets": 97,
+      "lighting": 82,
+      "office": 79,
+      "crafts": 79
+    },
+    "supply_demand": {
+      "sports": {
+        "ratio": 10.2,
+        "demand": 77,
+        "supply": 1933,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "pets": {
+        "ratio": 7.7,
+        "demand": 97,
+        "supply": 292554,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "lighting": {
+        "ratio": 6.7,
+        "demand": 82,
+        "supply": 221272,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "kitchen": {
+        "ratio": 6.5,
+        "demand": 74,
+        "supply": 89412,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "bathroom": {
+        "ratio": 4.4,
+        "demand": 46,
+        "supply": 38400,
+        "label": "💧 浅蓝海",
+        "level": "light_blue"
+      },
+      "kitchen_gadgets": {
+        "ratio": 0.4,
+        "demand": 5,
+        "supply": 89412,
+        "label": "🔴 红海",
+        "level": "red_ocean"
+      },
+      "garden": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "car": {
+        "ratio": 0,
+        "demand": 51,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      }
+    },
+    "divergences": {
+      "kitchen": {
+        "current_heat": 82,
+        "previous_heat": 74,
+        "heat_change_pct": 10.8,
+        "direction": "stable",
+        "dates": [
+          "2026-07-27_0910",
+          "2026-07-27_1400"
+        ]
+      },
+      "cleaning": {
+        "current_heat": 46,
+        "previous_heat": 51,
+        "heat_change_pct": -9.8,
+        "direction": "stable",
+        "dates": [
+          "2026-07-27_0910",
+          "2026-07-27_1400"
+        ]
+      },
+      "car": {
+        "current_heat": 53,
+        "previous_heat": 51,
+        "heat_change_pct": 3.9,
+        "direction": "stable",
+        "dates": [
+          "2026-07-27_0910",
+          "2026-07-27_1400"
+        ]
+      },
+      "office": {
+        "current_heat": 92,
+        "previous_heat": 85,
+        "heat_change_pct": 8.2,
+        "direction": "stable",
+        "dates": [
+          "2026-07-27_0910",
+          "2026-07-27_1400"
+        ]
+      },
+      "storage": {
+        "current_heat": 69,
+        "previous_heat": 65,
+        "heat_change_pct": 6.2,
+        "direction": "stable",
+        "dates": [
+          "2026-07-27_0910",
+          "2026-07-27_1400"
+        ]
+      },
+      "lighting": {
+        "current_heat": 79,
+        "previous_heat": 79,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-07-27_0910",
+          "2026-07-27_1400"
+        ]
+      },
+      "pets": {
+        "current_heat": 97,
+        "previous_heat": 100,
+        "heat_change_pct": -3.0,
+        "direction": "stable",
+        "dates": [
+          "2026-07-27_0910",
+          "2026-07-27_1400"
+        ]
+      },
+      "sports": {
+        "current_heat": 82,
+        "previous_heat": 70,
+        "heat_change_pct": 17.1,
+        "direction": "stable",
+        "dates": [
+          "2026-07-27_0910",
+          "2026-07-27_1400"
+        ]
+      },
+      "crafts": {
+        "current_heat": 79,
+        "previous_heat": 81,
+        "heat_change_pct": -2.5,
+        "direction": "stable",
+        "dates": [
+          "2026-07-27_0910",
+          "2026-07-27_1400"
+        ]
+      },
+      "phone": {
+        "current_heat": 100,
+        "previous_heat": 100,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-07-27_0910",
+          "2026-07-27_1400"
+        ]
+      },
+      "beauty": {
+        "current_heat": 71,
+        "previous_heat": 70,
+        "heat_change_pct": 1.4,
+        "direction": "stable",
+        "dates": [
+          "2026-07-27_0910",
+          "2026-07-27_1400"
+        ]
+      },
+      "home decor": {
+        "current_heat": 74,
+        "previous_heat": 79,
+        "heat_change_pct": -6.3,
+        "direction": "stable",
+        "dates": [
+          "2026-07-27_0910",
+          "2026-07-27_1400"
+        ]
+      },
+      "eco": {
+        "current_heat": 61,
+        "previous_heat": 67,
+        "heat_change_pct": -9.0,
+        "direction": "stable",
+        "dates": [
+          "2026-07-27_0910",
+          "2026-07-27_1400"
+        ]
+      },
+      "seasonal": {
+        "current_heat": 61,
+        "previous_heat": 54,
+        "heat_change_pct": 13.0,
+        "direction": "stable",
+        "dates": [
+          "2026-07-27_0910",
+          "2026-07-27_1400"
+        ]
+      },
+      "garden": {
+        "current_heat": 100,
+        "previous_heat": 95,
+        "heat_change_pct": 5.3,
+        "direction": "stable",
+        "dates": [
+          "2026-07-27_0910",
+          "2026-07-27_1400"
+        ]
+      },
+      "bathroom": {
+        "current_heat": 46,
+        "previous_heat": 47,
+        "heat_change_pct": -2.1,
+        "direction": "stable",
+        "dates": [
+          "2026-07-27_0910",
+          "2026-07-27_1400"
+        ]
+      },
+      "bedding": {
+        "current_heat": 48,
+        "previous_heat": 51,
+        "heat_change_pct": -5.9,
+        "direction": "stable",
+        "dates": [
+          "2026-07-27_0910",
+          "2026-07-27_1400"
+        ]
+      },
+      "travel": {
+        "current_heat": 66,
+        "previous_heat": 70,
+        "heat_change_pct": -5.7,
+        "direction": "stable",
+        "dates": [
+          "2026-07-27_0910",
+          "2026-07-27_1400"
+        ]
+      },
+      "baby": {
+        "current_heat": 48,
+        "previous_heat": 51,
+        "heat_change_pct": -5.9,
+        "direction": "stable",
+        "dates": [
+          "2026-07-27_0910",
+          "2026-07-27_1400"
+        ]
+      },
+      "kitchen_gadgets": {
+        "current_heat": 10,
+        "previous_heat": 11,
+        "heat_change_pct": -9.1,
+        "direction": "stable",
+        "dates": [
+          "2026-07-27_0910",
+          "2026-07-27_1400"
+        ]
+      }
+    },
+    "gap_opportunities": 15
+  },
+  "products": [
+    {
+      "asin": "B0GT4P9LV5",
+      "name": "Gylinm 1L Water Bottle Made of BPA-Free Tritan Material, Sports Water Bottle with Removable Straw & Hydration Time Marke",
+      "price": 8.49,
+      "reviews": 32,
+      "rating": 4.9,
+      "rank": 15,
+      "category": "Sports",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "32 reviews, 4.9★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GT4P9LV5",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71WtH1XDS0L._AC_UL300_SR300,200_.jpg",
+      "google_trend": "rising",
+      "sources": [
+        "Google趋势",
+        "Reddit需求",
+        "Temu热销",
+        "Etsy趋势",
+        "TikTok趋势"
+      ],
+      "profit_margin": 0.297,
+      "net_profit": 2.52,
+      "cost_breakdown": {
+        "vat": 1.42,
+        "commission": 1.27,
+        "fba": 1.46,
+        "ads": 0.85,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 5.97
+      },
+      "off_season": false,
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 10.2,
+        "demand": 77,
+        "supply": 1933,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy",
+        "Reddit"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 189,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "💬 Reddit": 5,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(sports)": 23,
+        "🟢 低竞争": 10,
+        "⭐ 高评分": 5,
+        "💰 较好利润": 4,
+        "🌊 深蓝海": 20,
+        "📊 持续上升": 8,
+        "⚠️ 品类较多": -5
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-07-21",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "multi_source",
+        "new_releases",
+        "etsy_trending",
+        "tiktok_verified",
+        "google_trends",
+        "temu_trending"
+      ]
+    },
+    {
+      "asin": "B0GWMWFTV9",
+      "name": "Olivia Rocco Womens Poncho Changing Robe for Swim Surf Beach Gym Towels Hooded Large Absorbent Quick Dry Microfibre Towe",
+      "price": 7.46,
+      "reviews": 9,
+      "rating": 4.9,
+      "rank": 5,
+      "category": "Sports",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "9 reviews, 4.9★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GWMWFTV9",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71P2dTEBNBL._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "Temu热销",
+        "Etsy趋势",
+        "TikTok趋势"
+      ],
+      "profit_margin": 0.26,
+      "net_profit": 1.94,
+      "cost_breakdown": {
+        "vat": 1.25,
+        "commission": 1.12,
+        "fba": 1.46,
+        "ads": 0.75,
+        "returns": 0.15,
+        "sourcing": 0.8,
+        "total_cost": 5.52
+      },
+      "off_season": false,
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 10.2,
+        "demand": 77,
+        "supply": 1933,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 186,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(sports)": 23,
+        "🌊 蓝海": 15,
+        "⭐ 高评分": 5,
+        "💰 较好利润": 4,
+        "🌴 当季(summer)": 10,
+        "🌊 深蓝海": 20,
+        "📈 排名上升": 10,
+        "⚠️ 品类较多": -5
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-07-21",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "multi_source",
+        "new_releases",
+        "etsy_trending",
+        "tiktok_verified",
+        "temu_trending"
+      ]
+    },
+    {
+      "asin": "B0GTZD432S",
+      "name": "GCM- Rubber Matting Roll | Thick Heavy Duty Flooring Mat, Indoor & Outdoor, Non-Slip, Waterproof & Easy to Cut | Ideal f",
+      "price": 9.99,
+      "reviews": 33,
+      "rating": 4.5,
+      "rank": 20,
+      "category": "Sports",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "33 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GTZD432S",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/51M1MYG2KmL._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "TikTok趋势",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.337,
+      "net_profit": 3.36,
+      "cost_breakdown": {
+        "vat": 1.67,
+        "commission": 1.5,
+        "fba": 1.46,
+        "ads": 1.0,
+        "returns": 0.2,
+        "sourcing": 0.8,
+        "total_cost": 6.63
+      },
+      "off_season": false,
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 10.2,
+        "demand": 77,
+        "supply": 1933,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 175,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(garden)": 23,
+        "🟢 低竞争": 10,
+        "⭐ 高评分": 5,
+        "💰 高利润": 8,
+        "🌴 当季(summer)": 10,
+        "🌊 深蓝海": 20,
+        "⚠️ 品类较多": -5
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-07-27",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "multi_source",
+        "new_releases",
+        "etsy_trending",
+        "tiktok_verified",
+        "temu_trending"
+      ]
+    },
+    {
+      "asin": "B0GQ4N3HZ4",
+      "name": "Alpine WaterSafe Ear Plugs for Swimming, Keep Water Out, Hear Sound, Secure Fit, Soft, Comfortable, Reusable, Swimmers, ",
+      "price": 12.46,
+      "reviews": 113,
+      "rating": 4.2,
+      "rank": 10,
+      "category": "Sports",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "113 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GQ4N3HZ4",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71Is992ih4L._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "Reddit需求",
+        "Temu热销",
+        "Etsy趋势",
+        "TikTok趋势"
+      ],
+      "profit_margin": 0.382,
+      "net_profit": 4.75,
+      "cost_breakdown": {
+        "vat": 2.08,
+        "commission": 1.87,
+        "fba": 1.46,
+        "ads": 1.25,
+        "returns": 0.25,
+        "sourcing": 0.8,
+        "total_cost": 7.71
+      },
+      "off_season": false,
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 10.2,
+        "demand": 77,
+        "supply": 1933,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy",
+        "Reddit"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 164,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "🎵 TikTok": 20,
+        "💬 Reddit": 5,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(sports)": 23,
+        "🟡 中等竞争": 5,
+        "💰 超高利润": 12,
+        "❓ 品类不符": -10,
+        "🌴 当季(summer)": 10,
+        "🌊 深蓝海": 20,
+        "⚠️ 品类较多": -5
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-07-21",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "multi_source",
+        "new_releases",
+        "etsy_trending",
+        "tiktok_verified",
+        "temu_trending"
+      ]
+    },
+    {
+      "asin": "B0H3M4L2RV",
+      "name": "KAYMAN Sports Foam Roller Sports Recovery, Deep Tissue Muscle Tension Relief & Circulation Increase Portable & Lightweig",
+      "price": 9.16,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 16,
+      "category": "Sports",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H3M4L2RV",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/617Q5c59RNL._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "TikTok趋势",
+        "Google趋势",
+        "Reddit需求",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.316,
+      "net_profit": 2.9,
+      "cost_breakdown": {
+        "vat": 1.53,
+        "commission": 1.37,
+        "fba": 1.46,
+        "ads": 0.92,
+        "returns": 0.18,
+        "sourcing": 0.8,
+        "total_cost": 6.26
+      },
+      "off_season": false,
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 10.2,
+        "demand": 77,
+        "supply": 1933,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy",
+        "Reddit"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 162,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "💬 Reddit": 5,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(lighting)": 23,
+        "⏳ 待验证": -8,
+        "💰 高利润": 8,
+        "🌊 深蓝海": 20,
+        "⚠️ 品类较多": -5
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-07-27",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "multi_source",
+        "new_releases",
+        "etsy_trending",
+        "tiktok_verified",
+        "google_trends",
+        "temu_trending"
+      ]
+    },
+    {
+      "asin": "B0FTMV9KHD",
+      "name": "PUMA STELLAR Play Premier League 2026/27 Reactivity Football",
+      "price": 9.02,
+      "reviews": 28,
+      "rating": 4.9,
+      "rank": 2,
+      "category": "Sports",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "28 reviews, 4.9★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FTMV9KHD",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/7126KS3hFyL._AC_UL300_SR300,200_.jpg",
+      "google_trend": "rising",
+      "sources": [
+        "Google趋势"
+      ],
+      "profit_margin": 0.312,
+      "net_profit": 2.82,
+      "cost_breakdown": {
+        "vat": 1.51,
+        "commission": 1.35,
+        "fba": 1.46,
+        "ads": 0.9,
+        "returns": 0.18,
+        "sourcing": 0.8,
+        "total_cost": 6.2
+      },
+      "off_season": false,
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 10.2,
+        "demand": 77,
+        "supply": 1933,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "weak",
+      "signal_label": "🟡 弱信号",
+      "external_sources": [
+        "Google"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 116,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "📊 Google↑": 15,
+        "🔥 多源热门(sports)": 23,
+        "🟢 低竞争": 10,
+        "⭐ 高评分": 5,
+        "💰 高利润": 8,
+        "❓ 品类不符": -10,
+        "🌊 深蓝海": 20,
+        "⚠️ 品类较多": -5
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-07-21",
+      "is_event": false,
+      "channel_tags": [
+        "google_trends",
+        "new_releases"
+      ]
+    },
+    {
+      "asin": "B0G1MYWD2L",
+      "name": "30 Pairs Collagen Eye Patches, Hyaluronic Acid Moisturizing & Hydrating Under Eye Gel Patches for Puffy Eyes & Dark Circ",
+      "price": 6.32,
+      "reviews": 33,
+      "rating": 4.3,
+      "rank": 39,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "33 reviews, 4.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0G1MYWD2L",
+      "image_url": "https://m.media-amazon.com/images/I/61dTP3bDNYL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "eye patch",
+      "festival_event": "海盗说话日",
+      "festival_icon": "🏴‍☠️",
+      "festival_deadline": "2026-08-03",
+      "is_event": false,
+      "sources": [
+        "📅 海盗说话日",
+        "Google趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.205,
+      "net_profit": 1.3,
+      "cost_breakdown": {
+        "vat": 1.06,
+        "commission": 0.95,
+        "fba": 1.46,
+        "ads": 0.63,
+        "returns": 0.13,
+        "sourcing": 0.8,
+        "total_cost": 5.02
+      },
+      "off_season": false,
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "weak",
+      "signal_label": "🟡 弱信号",
+      "external_sources": [
+        "Google"
+      ],
+      "internal_sources": [],
+      "score": 60,
+      "score_breakdown": {
+        "📊 Google↑": 15,
+        "🟢 低竞争": 10,
+        "❓ 品类存疑": -5,
+        "📈 排名上升": 10
+      },
+      "stars": 3,
+      "is_new": false,
+      "first_seen": "2026-07-21",
+      "is_multi": true,
+      "channel_tags": [
+        "keyword_search",
+        "multi_source",
+        "google_trends"
+      ]
+    },
+    {
+      "asin": "B0DX5KRRFT",
+      "name": "Pack of 5 Dissolving Microneedle Eye Patches, Nano Microneedle Patches with Peptides & Hyaluronic acid, Micro-Infusion A",
+      "price": 8.32,
+      "reviews": 41,
+      "rating": 3.8,
+      "rank": 49,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "41 reviews, 3.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DX5KRRFT",
+      "image_url": "https://m.media-amazon.com/images/I/61r5M3kfPaL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "eye patch",
+      "festival_event": "海盗说话日",
+      "festival_icon": "🏴‍☠️",
+      "festival_deadline": "2026-08-03",
+      "is_event": false,
+      "sources": [
+        "📅 海盗说话日"
+      ],
+      "profit_margin": 0.291,
+      "net_profit": 2.42,
+      "cost_breakdown": {
+        "vat": 1.39,
+        "commission": 1.25,
+        "fba": 1.46,
+        "ads": 0.83,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 5.9
+      },
+      "off_season": false,
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": 9,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🟢 低竞争": 10,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15
+      },
+      "stars": 1,
+      "is_new": false,
+      "first_seen": "2026-07-23",
+      "channel_tags": [
+        "keyword_search"
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "keyword": "garden",
+      "category": "garden",
+      "heat": 100,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "flower",
+        "garden",
+        "bbq",
+        "plant",
+        "grill"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "flower",
+        "garden tool set",
+        "garden light",
+        "garden decor",
+        "plant pot",
+        "plant stand",
+        "plant hanger",
+        "grill"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=flower",
+      "url_google": "https://trends.google.com/trends/explore?q=flower&geo=GB"
+    },
+    {
+      "keyword": "phone",
+      "category": "phone",
+      "heat": 100,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "charger",
+        "holder",
+        "case",
+        "earbuds",
+        "stand"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "phone charger",
+        "wireless charger",
+        "car charger",
+        "holder",
+        "case",
+        "earbuds case",
+        "wireless earbuds",
+        "stand"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=phone+charger",
+      "url_google": "https://trends.google.com/trends/explore?q=phone+charger&geo=GB"
+    },
+    {
+      "keyword": "office",
+      "category": "office",
+      "heat": 79,
+      "score": 71,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "stationery",
+        "laptop",
+        "notebook",
+        "pen",
+        "desk"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "stationery set",
+        "notebook",
+        "pen set",
+        "laptop stand",
+        "laptop sleeve",
+        "laptop cooler",
+        "pen holder",
+        "fountain pen"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 79,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=stationery+set",
+      "url_google": "https://trends.google.com/trends/explore?q=stationery+set&geo=GB"
+    },
+    {
+      "keyword": "crafts",
+      "category": "crafts",
+      "heat": 79,
+      "score": 71,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "craft",
+        "stickers",
+        "art",
+        "sewing",
+        "tape"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "craft knife",
+        "craft supplies",
+        "DIY craft kit",
+        "stickers",
+        "art supplies",
+        "paint set",
+        "drawing kit",
+        "sewing"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 79,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=craft+knife",
+      "url_google": "https://trends.google.com/trends/explore?q=craft+knife&geo=GB"
+    },
+    {
+      "keyword": "home decor",
+      "category": "home decor",
+      "heat": 74,
+      "score": 69,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "mirror",
+        "frame",
+        "candle",
+        "decor",
+        "clock"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "makeup mirror",
+        "vanity mirror",
+        "LED mirror",
+        "photo frame",
+        "picture frame",
+        "wall frame",
+        "candle holder",
+        "scented candle"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 74,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=makeup+mirror",
+      "url_google": "https://trends.google.com/trends/explore?q=makeup+mirror&geo=GB"
+    },
+    {
+      "keyword": "seasonal",
+      "category": "seasonal",
+      "heat": 71,
+      "score": 68,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "gift",
+        "birthday",
+        "halloween",
+        "valentine",
+        "christmas"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "gift ideas",
+        "gift set",
+        "gift box",
+        "birthday gift",
+        "birthday decoration",
+        "birthday card",
+        "halloween decoration",
+        "halloween costume"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 71,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=gift+ideas",
+      "url_google": "https://trends.google.com/trends/explore?q=gift+ideas&geo=GB"
+    },
+    {
+      "keyword": "beauty",
+      "category": "beauty",
+      "heat": 66,
+      "score": 67,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "mirror",
+        "skincare",
+        "hair",
+        "brush",
+        "makeup"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "makeup mirror",
+        "vanity mirror",
+        "LED mirror",
+        "face roller",
+        "gua sha",
+        "face mask",
+        "hair clip",
+        "hair accessories"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 66,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=makeup+mirror",
+      "url_google": "https://trends.google.com/trends/explore?q=makeup+mirror&geo=GB"
+    },
+    {
+      "keyword": "travel",
+      "category": "travel",
+      "heat": 64,
+      "score": 66,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "passport",
+        "toiletry",
+        "luggage",
+        "packing",
+        "travel"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "passport",
+        "toiletry",
+        "luggage",
+        "packing",
+        "travel"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 64,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=passport",
+      "url_google": "https://trends.google.com/trends/explore?q=passport&geo=GB"
+    },
+    {
+      "keyword": "storage",
+      "category": "storage",
+      "heat": 59,
+      "score": 64,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "box",
+        "basket",
+        "shelf",
+        "drawer",
+        "storage"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "basket",
+        "floating shelf",
+        "wall shelf",
+        "corner shelf",
+        "drawer",
+        "food storage",
+        "kitchen storage",
+        "container set"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 59,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=basket",
+      "url_google": "https://trends.google.com/trends/explore?q=basket&geo=GB"
+    },
+    {
+      "keyword": "eco",
+      "category": "eco",
+      "heat": 56,
+      "score": 63,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "organic",
+        "reusable",
+        "eco",
+        "sustainable"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "organic products",
+        "organic cotton",
+        "reusable food wrap",
+        "reusable straws",
+        "reusable bags",
+        "eco products",
+        "reusable bag",
+        "bamboo products"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 56,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=organic+products",
+      "url_google": "https://trends.google.com/trends/explore?q=organic+products&geo=GB"
+    },
+    {
+      "keyword": "car",
+      "category": "car",
+      "heat": 51,
+      "score": 62,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "car",
+        "automotive",
+        "vehicle",
+        "dashboard",
+        "motor"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "car accessories",
+        "car organizer",
+        "car phone holder",
+        "automotive",
+        "vehicle",
+        "dashboard",
+        "motorcycle accessories",
+        "motorcycle cover"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 51,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=car+accessories",
+      "url_google": "https://trends.google.com/trends/explore?q=car+accessories&geo=GB"
+    },
+    {
+      "keyword": "baby",
+      "category": "baby",
+      "heat": 48,
+      "score": 61,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "child",
+        "nursery",
+        "kids",
+        "baby"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "child",
+        "nursery",
+        "kids",
+        "baby"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 48,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=child",
+      "url_google": "https://trends.google.com/trends/explore?q=child&geo=GB"
+    },
+    {
+      "keyword": "bedding",
+      "category": "bedding",
+      "heat": 41,
+      "score": 58,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "sheet",
+        "blanket",
+        "cushion",
+        "pillow",
+        "bedding"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "sheet",
+        "blanket",
+        "cushion",
+        "pillow",
+        "bedding",
+        "throw"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 41,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=sheet",
+      "url_google": "https://trends.google.com/trends/explore?q=sheet&geo=GB"
+    },
+    {
+      "keyword": "kitchen",
+      "category": "kitchen",
+      "heat": 74,
+      "score": 49,
+      "gap_level": "weak",
+      "amazon_count": 6,
+      "amazon_reviews": 89412,
+      "evidence": [
+        "gadget",
+        "mug",
+        "cup",
+        "kitchen",
+        "spice"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "gadget",
+        "kitchen",
+        "spice rack",
+        "spice jar set",
+        "spice organizer",
+        "cooking",
+        "utensil"
+      ],
+      "sd_info": {
+        "ratio": 6.5,
+        "demand": 74,
+        "supply": 89412,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=gadget",
+      "url_google": "https://trends.google.com/trends/explore?q=gadget&geo=GB"
+    },
+    {
+      "keyword": "bathroom",
+      "category": "bathroom",
+      "heat": 46,
+      "score": 30,
+      "gap_level": "weak",
+      "amazon_count": 5,
+      "amazon_reviews": 38400,
+      "evidence": [
+        "mirror",
+        "shower",
+        "toilet",
+        "bathroom",
+        "soap"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "makeup mirror",
+        "vanity mirror",
+        "LED mirror",
+        "shower caddy",
+        "shower head",
+        "shower curtain",
+        "toilet",
+        "bathroom"
+      ],
+      "sd_info": {
+        "ratio": 4.4,
+        "demand": 46,
+        "supply": 38400,
+        "label": "💧 浅蓝海",
+        "level": "light_blue"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=makeup+mirror",
+      "url_google": "https://trends.google.com/trends/explore?q=makeup+mirror&geo=GB"
+    }
+  ],
+  "trend_summary": {
+    "top_categories": [
+      [
+        "garden",
+        100
+      ],
+      [
+        "phone",
+        100
+      ],
+      [
+        "pets",
+        97
+      ],
+      [
+        "lighting",
+        82
+      ],
+      [
+        "office",
+        79
+      ],
+      [
+        "crafts",
+        79
+      ]
+    ],
+    "cross_validated": [
+      "kitchen",
+      "garden",
+      "car",
+      "office",
+      "storage",
+      "lighting",
+      "pets",
+      "sports",
+      "crafts",
+      "travel",
+      "phone",
+      "beauty",
+      "home decor",
+      "eco",
+      "seasonal",
+      "bathroom",
+      "cleaning",
+      "bedding",
+      "baby"
+    ],
+    "demand_keywords": [
+      "(dutch) amazon.nl officieel van start",
+      ") * [airbnb](https://en.wikipedia.org/wiki/airbnb",
+      ") * [ciena](https://en.wikipedia.org/wiki/ciena",
+      ") * [cisco](https://en.wikipedia.org/wiki/cisco",
+      ") * [egain](https://en.wikipedia.org/wiki/egain",
+      ") * [hmv](https://en.wikipedia.org/wiki/hmv",
+      ") * [huawei](https://en.wikipedia.org/wiki/huawei",
+      ") * [intel](https://en.wikipedia.org/wiki/intel",
+      ") * [intuit](https://en.wikipedia.org/wiki/intuit",
+      ") * [jabil](https://en.wikipedia.org/wiki/jabil"
+    ],
+    "season": "summer",
+    "sources_scanned": [
+      "tiktok",
+      "temu",
+      "etsy",
+      "market_intel"
+    ]
+  }
+}
