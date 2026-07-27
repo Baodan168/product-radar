@@ -1,0 +1,2981 @@
+{
+  "scan_date": "2026-07-27",
+  "scan_time": "09:10",
+  "scan_ts": "2026-07-27_0910",
+  "stats": {
+    "total_scanned": 183,
+    "passed_filter": 25,
+    "rejected": 158,
+    "channels": {
+      "multi_source": 24,
+      "tiktok_verified": 18,
+      "new_releases": 9,
+      "google_trends": 19,
+      "temu_trending": 18,
+      "etsy_trending": 17,
+      "keyword_search": 16
+    },
+    "trend_categories": {
+      "pets": 100,
+      "phone": 100,
+      "garden": 95,
+      "office": 85,
+      "crafts": 81,
+      "lighting": 79
+    },
+    "supply_demand": {
+      "pets": {
+        "ratio": 7.4,
+        "demand": 100,
+        "supply": 722819,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "kitchen": {
+        "ratio": 0,
+        "demand": 74,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "garden": {
+        "ratio": 0,
+        "demand": 95,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "bathroom": {
+        "ratio": 0,
+        "demand": 47,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "cleaning": {
+        "ratio": 0,
+        "demand": 51,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "car": {
+        "ratio": 0,
+        "demand": 51,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "office": {
+        "ratio": 0,
+        "demand": 85,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "storage": {
+        "ratio": 0,
+        "demand": 65,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      }
+    },
+    "divergences": {
+      "kitchen": {
+        "current_heat": 73,
+        "previous_heat": 80,
+        "heat_change_pct": -8.8,
+        "direction": "stable",
+        "dates": [
+          "2026-07-25_1131",
+          "2026-07-25_1400"
+        ]
+      },
+      "garden": {
+        "current_heat": 97,
+        "previous_heat": 100,
+        "heat_change_pct": -3.0,
+        "direction": "stable",
+        "dates": [
+          "2026-07-25_1131",
+          "2026-07-25_1400"
+        ]
+      },
+      "bathroom": {
+        "current_heat": 54,
+        "previous_heat": 50,
+        "heat_change_pct": 8.0,
+        "direction": "stable",
+        "dates": [
+          "2026-07-25_1131",
+          "2026-07-25_1400"
+        ]
+      },
+      "cleaning": {
+        "current_heat": 54,
+        "previous_heat": 47,
+        "heat_change_pct": 14.9,
+        "direction": "stable",
+        "dates": [
+          "2026-07-25_1131",
+          "2026-07-25_1400"
+        ]
+      },
+      "car": {
+        "current_heat": 49,
+        "previous_heat": 53,
+        "heat_change_pct": -7.5,
+        "direction": "stable",
+        "dates": [
+          "2026-07-25_1131",
+          "2026-07-25_1400"
+        ]
+      },
+      "office": {
+        "current_heat": 91,
+        "previous_heat": 93,
+        "heat_change_pct": -2.2,
+        "direction": "stable",
+        "dates": [
+          "2026-07-25_1131",
+          "2026-07-25_1400"
+        ]
+      },
+      "storage": {
+        "current_heat": 54,
+        "previous_heat": 64,
+        "heat_change_pct": -15.6,
+        "direction": "stable",
+        "dates": [
+          "2026-07-25_1131",
+          "2026-07-25_1400"
+        ]
+      },
+      "lighting": {
+        "current_heat": 91,
+        "previous_heat": 85,
+        "heat_change_pct": 7.1,
+        "direction": "stable",
+        "dates": [
+          "2026-07-25_1131",
+          "2026-07-25_1400"
+        ]
+      },
+      "pets": {
+        "current_heat": 100,
+        "previous_heat": 100,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-07-25_1131",
+          "2026-07-25_1400"
+        ]
+      },
+      "sports": {
+        "current_heat": 68,
+        "previous_heat": 91,
+        "heat_change_pct": -25.3,
+        "direction": "falling",
+        "dates": [
+          "2026-07-25_1131",
+          "2026-07-25_1400"
+        ]
+      },
+      "crafts": {
+        "current_heat": 81,
+        "previous_heat": 83,
+        "heat_change_pct": -2.4,
+        "direction": "stable",
+        "dates": [
+          "2026-07-25_1131",
+          "2026-07-25_1400"
+        ]
+      },
+      "travel": {
+        "current_heat": 54,
+        "previous_heat": 69,
+        "heat_change_pct": -21.7,
+        "direction": "falling",
+        "dates": [
+          "2026-07-25_1131",
+          "2026-07-25_1400"
+        ]
+      },
+      "phone": {
+        "current_heat": 99,
+        "previous_heat": 100,
+        "heat_change_pct": -1.0,
+        "direction": "stable",
+        "dates": [
+          "2026-07-25_1131",
+          "2026-07-25_1400"
+        ]
+      },
+      "beauty": {
+        "current_heat": 62,
+        "previous_heat": 72,
+        "heat_change_pct": -13.9,
+        "direction": "stable",
+        "dates": [
+          "2026-07-25_1131",
+          "2026-07-25_1400"
+        ]
+      },
+      "eco": {
+        "current_heat": 57,
+        "previous_heat": 74,
+        "heat_change_pct": -23.0,
+        "direction": "falling",
+        "dates": [
+          "2026-07-25_1131",
+          "2026-07-25_1400"
+        ]
+      },
+      "seasonal": {
+        "current_heat": 54,
+        "previous_heat": 69,
+        "heat_change_pct": -21.7,
+        "direction": "falling",
+        "dates": [
+          "2026-07-25_1131",
+          "2026-07-25_1400"
+        ]
+      },
+      "home decor": {
+        "current_heat": 65,
+        "previous_heat": 74,
+        "heat_change_pct": -12.2,
+        "direction": "stable",
+        "dates": [
+          "2026-07-25_1131",
+          "2026-07-25_1400"
+        ]
+      },
+      "baby": {
+        "current_heat": 47,
+        "previous_heat": 45,
+        "heat_change_pct": 4.4,
+        "direction": "stable",
+        "dates": [
+          "2026-07-25_1131",
+          "2026-07-25_1400"
+        ]
+      },
+      "bedding": {
+        "current_heat": 47,
+        "previous_heat": 72,
+        "heat_change_pct": -34.7,
+        "direction": "falling",
+        "dates": [
+          "2026-07-25_1131",
+          "2026-07-25_1400"
+        ]
+      },
+      "kitchen_gadgets": {
+        "current_heat": 5,
+        "previous_heat": 11,
+        "heat_change_pct": -54.5,
+        "direction": "falling",
+        "dates": [
+          "2026-07-25_1131",
+          "2026-07-25_1400"
+        ]
+      }
+    },
+    "gap_opportunities": 18
+  },
+  "products": [
+    {
+      "asin": "B0H5R2ZKXC",
+      "name": "2026 New Solar Hanging Bird Bath Fountain Set Birds Water Feeder Bowl (blue)",
+      "price": 11.99,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 2,
+      "category": "Pets",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H5R2ZKXC",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/61OmDrykNTL._AC_UL300_SR300,200_.jpg",
+      "google_trend": "rising",
+      "sources": [
+        "Google趋势",
+        "Reddit需求",
+        "TikTok趋势",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.475,
+      "net_profit": 5.69,
+      "cost_breakdown": {
+        "vat": 2.0,
+        "commission": 0.6,
+        "fba": 1.46,
+        "ads": 1.2,
+        "returns": 0.24,
+        "sourcing": 0.8,
+        "total_cost": 6.3
+      },
+      "off_season": false,
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 7.4,
+        "demand": 100,
+        "supply": 722819,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy",
+        "Reddit"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 171,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "💬 Reddit": 5,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(garden)": 23,
+        "⏳ 待验证": -8,
+        "💰 超高利润": 12,
+        "🌊 深蓝海": 20,
+        "📈 排名上升": 10,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-07-21",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "multi_source",
+        "tiktok_verified",
+        "new_releases",
+        "google_trends",
+        "temu_trending",
+        "etsy_trending"
+      ]
+    },
+    {
+      "asin": "B0H7538XFD",
+      "name": "Dog Cooling Mat, Pet Cooling Mat for Cats, Cool Blanket or Large Dogs In Hot Summer, Durable Cool Pad Waterproof & Easy ",
+      "price": 7.99,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 5,
+      "category": "Pets",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H7538XFD",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71S6jUp23ML._AC_UL300_SR300,200_.jpg",
+      "google_trend": "rising",
+      "sources": [
+        "Google趋势",
+        "Reddit需求",
+        "TikTok趋势",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.38,
+      "net_profit": 3.04,
+      "cost_breakdown": {
+        "vat": 1.33,
+        "commission": 0.4,
+        "fba": 1.46,
+        "ads": 0.8,
+        "returns": 0.16,
+        "sourcing": 0.8,
+        "total_cost": 4.95
+      },
+      "off_season": false,
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 7.4,
+        "demand": 100,
+        "supply": 722819,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy",
+        "Reddit"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 171,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "💬 Reddit": 5,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(pets)": 23,
+        "⏳ 待验证": -8,
+        "💰 超高利润": 12,
+        "🌊 深蓝海": 20,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-07-27",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "multi_source",
+        "tiktok_verified",
+        "new_releases",
+        "google_trends",
+        "temu_trending",
+        "etsy_trending"
+      ]
+    },
+    {
+      "asin": "B0H3NZ7QWD",
+      "name": "fjaldjfu Pet Cooling Mat, 2026 New Summer Multiple Specifications Cooling Mat for Dogs, reusable Durable Cat Cool Blanke",
+      "price": 8.99,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 7,
+      "category": "Pets",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H3NZ7QWD",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71FHPSv+J3L._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "TikTok趋势",
+        "Google趋势",
+        "Reddit需求",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.412,
+      "net_profit": 3.7,
+      "cost_breakdown": {
+        "vat": 1.5,
+        "commission": 0.45,
+        "fba": 1.46,
+        "ads": 0.9,
+        "returns": 0.18,
+        "sourcing": 0.8,
+        "total_cost": 5.29
+      },
+      "off_season": false,
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 7.4,
+        "demand": 100,
+        "supply": 722819,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy",
+        "Reddit"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 171,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "💬 Reddit": 5,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(pets)": 23,
+        "⏳ 待验证": -8,
+        "💰 超高利润": 12,
+        "🌊 深蓝海": 20,
+        "📈 排名上升": 10,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-07-21",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "multi_source",
+        "tiktok_verified",
+        "new_releases",
+        "google_trends",
+        "temu_trending",
+        "etsy_trending"
+      ]
+    },
+    {
+      "asin": "B0H4ZCWQF8",
+      "name": "Flea Comb for Cats Dogs,Stainless Steel Rotate Brush Head Freely | Long Short Teeth for Massage and Shedding, Self Clean",
+      "price": 8.32,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 4,
+      "category": "Pets",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H4ZCWQF8",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/61Hj+Ctc1-L._AC_UL300_SR300,200_.jpg",
+      "google_trend": "rising",
+      "sources": [
+        "Google趋势",
+        "Reddit需求",
+        "TikTok趋势",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.391,
+      "net_profit": 3.26,
+      "cost_breakdown": {
+        "vat": 1.39,
+        "commission": 0.42,
+        "fba": 1.46,
+        "ads": 0.83,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 5.06
+      },
+      "off_season": false,
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 7.4,
+        "demand": 100,
+        "supply": 722819,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy",
+        "Reddit"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 156,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "💬 Reddit": 5,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "📈 趋势(cleaning)": 8,
+        "⏳ 待验证": -8,
+        "💰 超高利润": 12,
+        "🌊 深蓝海": 20,
+        "📈 排名上升": 10,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-07-21",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "multi_source",
+        "tiktok_verified",
+        "new_releases",
+        "google_trends",
+        "temu_trending",
+        "etsy_trending"
+      ]
+    },
+    {
+      "asin": "B0H8J9QH81",
+      "name": "Summer Pet Cooling Collar Wrap, Instant Cooling Collar for Pet (#F) | Adjustable Reusable Pet Ice Scarf",
+      "price": 9.89,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 12,
+      "category": "Pets",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H8J9QH81",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/61GxsDkvDEL._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "TikTok趋势",
+        "Google趋势",
+        "Reddit需求",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.434,
+      "net_profit": 4.3,
+      "cost_breakdown": {
+        "vat": 1.65,
+        "commission": 0.49,
+        "fba": 1.46,
+        "ads": 0.99,
+        "returns": 0.2,
+        "sourcing": 0.8,
+        "total_cost": 5.59
+      },
+      "off_season": false,
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 7.4,
+        "demand": 100,
+        "supply": 722819,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy",
+        "Reddit"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 156,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "💬 Reddit": 5,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "📈 趋势(car)": 8,
+        "⏳ 待验证": -8,
+        "💰 超高利润": 12,
+        "🌴 当季(summer)": 10,
+        "🌊 深蓝海": 20,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-07-21",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "multi_source",
+        "tiktok_verified",
+        "new_releases",
+        "google_trends",
+        "temu_trending",
+        "etsy_trending"
+      ]
+    },
+    {
+      "asin": "B0H4ZQP3G7",
+      "name": "Flea Comb for Cats Dogs,Self Cleaning with Release Button,Green | Stainless Steel Long Short Teeth for Massage and Shedd",
+      "price": 8.32,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 11,
+      "category": "Pets",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H4ZQP3G7",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/61rZ2rUDhbL._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "TikTok趋势",
+        "Google趋势",
+        "Reddit需求",
+        "Temu热销"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.391,
+      "net_profit": 3.26,
+      "cost_breakdown": {
+        "vat": 1.39,
+        "commission": 0.42,
+        "fba": 1.46,
+        "ads": 0.83,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 5.06
+      },
+      "off_season": false,
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 7.4,
+        "demand": 100,
+        "supply": 722819,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Reddit"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 150,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "💬 Reddit": 5,
+        "🛒 Temu": 8,
+        "🔴 强信号": 20,
+        "📈 趋势(cleaning)": 8,
+        "⏳ 待验证": -8,
+        "💰 超高利润": 12,
+        "🌊 深蓝海": 20,
+        "📈 排名上升": 10,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-07-21",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "multi_source",
+        "tiktok_verified",
+        "new_releases",
+        "google_trends",
+        "temu_trending"
+      ]
+    },
+    {
+      "asin": "B0FH61WJV8",
+      "name": "2pcs Fish Net Decorations for Party, 80x40in Hawaiian Fishing Net Nautical Themed Fishnet for Pirate Ocean Mermaid Party",
+      "price": 8.66,
+      "reviews": 17,
+      "rating": 4.6,
+      "rank": 16,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "17 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FH61WJV8",
+      "image_url": "https://m.media-amazon.com/images/I/71VDYPXcaGL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "pirate decorations",
+      "festival_event": "海盗说话日",
+      "festival_icon": "🏴‍☠️",
+      "festival_deadline": "2026-08-03",
+      "is_event": false,
+      "sources": [
+        "📅 海盗说话日",
+        "Google趋势",
+        "Reddit需求",
+        "TikTok趋势",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.302,
+      "net_profit": 2.62,
+      "cost_breakdown": {
+        "vat": 1.45,
+        "commission": 1.3,
+        "fba": 1.46,
+        "ads": 0.87,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 6.04
+      },
+      "off_season": false,
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy",
+        "Reddit"
+      ],
+      "internal_sources": [],
+      "score": 148,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "💬 Reddit": 5,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(crafts)": 23,
+        "🌊 蓝海": 15,
+        "⭐ 高评分": 5,
+        "💰 高利润": 8,
+        "❓ 品类存疑": -5,
+        "📊 持续上升": 8,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-07-21",
+      "is_multi": true,
+      "channel_tags": [
+        "multi_source",
+        "tiktok_verified",
+        "google_trends",
+        "temu_trending",
+        "etsy_trending",
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0GVNPBH1F",
+      "name": "2 Pack Silk Eye Mask for Women, Blackout Sleep Mask with Adjustable Strap, Skin-Friendly Sleep Mask for Home & Travel, S",
+      "price": 6.66,
+      "reviews": 13,
+      "rating": 4.1,
+      "rank": 15,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "13 reviews, 4.1★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GVNPBH1F",
+      "image_url": "https://m.media-amazon.com/images/I/712WaQpLKnL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "satin sleep mask 2 pack, silk sleep mask set, eye mask for sleeping, travel sleep mask, blackout eye mask adjustable, eye cover for sleep, sleep mask for women men, night eye mask",
+      "sources": [
+        "趋势发现",
+        "Google趋势",
+        "Reddit需求",
+        "TikTok趋势",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.224,
+      "net_profit": 1.49,
+      "cost_breakdown": {
+        "vat": 1.11,
+        "commission": 1.0,
+        "fba": 1.46,
+        "ads": 0.67,
+        "returns": 0.13,
+        "sourcing": 0.8,
+        "total_cost": 5.17
+      },
+      "off_season": false,
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy",
+        "Reddit"
+      ],
+      "internal_sources": [],
+      "score": 147,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "💬 Reddit": 5,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(travel)": 23,
+        "🌊 蓝海": 15,
+        "❓ 品类存疑": -5,
+        "🌴 当季(summer)": 10,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-07-27",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "multi_source",
+        "tiktok_verified",
+        "google_trends",
+        "temu_trending",
+        "etsy_trending",
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0H4ZPCY5W",
+      "name": "Slow Feeder Dog Bowl, Blue Silicone Maze Slows Eating 10X, Reduces Anxiety | Improves Digestion, For Dry Wet Raw Food, 2",
+      "price": 9.98,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 10,
+      "category": "Pets",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H4ZPCY5W",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/6137sKQ8xXL._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "Temu热销",
+        "Etsy趋势",
+        "TikTok趋势"
+      ],
+      "profit_margin": 0.437,
+      "net_profit": 4.36,
+      "cost_breakdown": {
+        "vat": 1.67,
+        "commission": 0.5,
+        "fba": 1.46,
+        "ads": 1.0,
+        "returns": 0.2,
+        "sourcing": 0.8,
+        "total_cost": 5.62
+      },
+      "off_season": false,
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 7.4,
+        "demand": 100,
+        "supply": 722819,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 141,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(pets)": 23,
+        "⏳ 待验证": -8,
+        "💰 超高利润": 12,
+        "🌊 深蓝海": 20,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-07-23",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "multi_source",
+        "tiktok_verified",
+        "new_releases",
+        "temu_trending",
+        "etsy_trending"
+      ]
+    },
+    {
+      "asin": "B0FPBG3FQ4",
+      "name": "LIQWEI 2 Pack Natural Fish Net Decorations for Party, Under The Sea Pirate | Nautical Themed Cotton Fishnet, Under The S",
+      "price": 6.66,
+      "reviews": 14,
+      "rating": 4.0,
+      "rank": 42,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "14 reviews, 4.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FPBG3FQ4",
+      "image_url": "https://m.media-amazon.com/images/I/71ov4ZUM5-L._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "pirate decorations",
+      "festival_event": "海盗说话日",
+      "festival_icon": "🏴‍☠️",
+      "festival_deadline": "2026-08-03",
+      "is_event": false,
+      "sources": [
+        "📅 海盗说话日",
+        "Google趋势",
+        "Reddit需求",
+        "TikTok趋势",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.224,
+      "net_profit": 1.49,
+      "cost_breakdown": {
+        "vat": 1.11,
+        "commission": 1.0,
+        "fba": 1.46,
+        "ads": 0.67,
+        "returns": 0.13,
+        "sourcing": 0.8,
+        "total_cost": 5.17
+      },
+      "off_season": false,
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy",
+        "Reddit"
+      ],
+      "internal_sources": [],
+      "score": 137,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "💬 Reddit": 5,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(crafts)": 23,
+        "🌊 蓝海": 15,
+        "❓ 品类存疑": -5,
+        "📈 排名上升": 10,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-07-22",
+      "is_multi": true,
+      "channel_tags": [
+        "multi_source",
+        "tiktok_verified",
+        "google_trends",
+        "temu_trending",
+        "etsy_trending",
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0CGCSVZG9",
+      "name": "ZERODECO Nautical Decor, Natural Fish Net Party Decorations for Pirate Party, Wedding, Birthday Party, Beach Theme Party",
+      "price": 8.32,
+      "reviews": 81,
+      "rating": 4.3,
+      "rank": 47,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "81 reviews, 4.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CGCSVZG9",
+      "image_url": "https://m.media-amazon.com/images/I/81IyhDlhn8L._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "pirate decorations",
+      "festival_event": "海盗说话日",
+      "festival_icon": "🏴‍☠️",
+      "festival_deadline": "2026-08-03",
+      "is_event": false,
+      "sources": [
+        "📅 海盗说话日",
+        "Google趋势",
+        "Reddit需求",
+        "TikTok趋势",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.291,
+      "net_profit": 2.42,
+      "cost_breakdown": {
+        "vat": 1.39,
+        "commission": 1.25,
+        "fba": 1.46,
+        "ads": 0.83,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 5.9
+      },
+      "off_season": false,
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy",
+        "Reddit"
+      ],
+      "internal_sources": [],
+      "score": 131,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "💬 Reddit": 5,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(crafts)": 23,
+        "🟡 中等竞争": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "🌴 当季(summer)": 10,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-07-21",
+      "is_multi": true,
+      "channel_tags": [
+        "multi_source",
+        "tiktok_verified",
+        "google_trends",
+        "temu_trending",
+        "etsy_trending",
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0DGXRNMN9",
+      "name": "Spinosaurus 7 Pcs Pirate Accessories for Adult Kids,Pirate Bandana Eye Patch Telescopes Earring Wallet with Gold Coins f",
+      "price": 10.82,
+      "reviews": 60,
+      "rating": 4.6,
+      "rank": 42,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "60 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DGXRNMN9",
+      "image_url": "https://m.media-amazon.com/images/I/71hjBMWnwjL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "pirate party",
+      "festival_event": "海盗说话日",
+      "festival_icon": "🏴‍☠️",
+      "festival_deadline": "2026-08-03",
+      "is_event": false,
+      "sources": [
+        "📅 海盗说话日",
+        "Google趋势",
+        "TikTok趋势",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.354,
+      "net_profit": 3.83,
+      "cost_breakdown": {
+        "vat": 1.81,
+        "commission": 1.62,
+        "fba": 1.46,
+        "ads": 1.08,
+        "returns": 0.22,
+        "sourcing": 0.8,
+        "total_cost": 6.99
+      },
+      "off_season": false,
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 124,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "📈 趋势(baby)": 8,
+        "🟡 中等竞争": 5,
+        "⭐ 高评分": 5,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-07-27",
+      "is_multi": true,
+      "channel_tags": [
+        "multi_source",
+        "tiktok_verified",
+        "google_trends",
+        "temu_trending",
+        "etsy_trending",
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0DSTCG11L",
+      "name": "Universal Silicone Bowl Lids Set of 5, Reusable Stretchy Food Covers for Pots, Bowls & Containers (10cm-24cm / 4\"-9.5\") ",
+      "price": 8.08,
+      "reviews": 56,
+      "rating": 4.5,
+      "rank": 31,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "56 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DSTCG11L",
+      "image_url": "https://m.media-amazon.com/images/I/61uv-POaPhL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "silicone stretch lids 12 pack, reusable food covers silicone, silicone bowl covers, stretch lids for food storage, reusable silicone lids, food container covers, eco friendly food wraps",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势",
+        "Google趋势",
+        "Reddit需求",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.283,
+      "net_profit": 2.29,
+      "cost_breakdown": {
+        "vat": 1.35,
+        "commission": 1.21,
+        "fba": 1.46,
+        "ads": 0.81,
+        "returns": 0.16,
+        "sourcing": 0.8,
+        "total_cost": 5.79
+      },
+      "off_season": false,
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy",
+        "Reddit"
+      ],
+      "internal_sources": [],
+      "score": 121,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "💬 Reddit": 5,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "📈 趋势(storage)": 8,
+        "🟡 中等竞争": 5,
+        "⭐ 高评分": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-07-27",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "multi_source",
+        "tiktok_verified",
+        "google_trends",
+        "temu_trending",
+        "etsy_trending",
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0F991QC47",
+      "name": "WDKXCN Pirate Treasure Chest, Treasure Chest Kids with Gold Coins, Fake Gems, Compass, Telescope and Pirate Accessories,",
+      "price": 12.49,
+      "reviews": 14,
+      "rating": 4.5,
+      "rank": 48,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "14 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0F991QC47",
+      "image_url": "https://m.media-amazon.com/images/I/71+v10+fwEL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "pirate party",
+      "festival_event": "海盗说话日",
+      "festival_icon": "🏴‍☠️",
+      "festival_deadline": "2026-08-03",
+      "is_event": false,
+      "sources": [
+        "📅 海盗说话日",
+        "TikTok趋势",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.382,
+      "net_profit": 4.77,
+      "cost_breakdown": {
+        "vat": 2.09,
+        "commission": 1.87,
+        "fba": 1.46,
+        "ads": 1.25,
+        "returns": 0.25,
+        "sourcing": 0.8,
+        "total_cost": 7.72
+      },
+      "off_season": false,
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 119,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "📈 趋势(baby)": 8,
+        "🌊 蓝海": 15,
+        "⭐ 高评分": 5,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "📈 排名上升": 10,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-07-21",
+      "is_multi": true,
+      "channel_tags": [
+        "multi_source",
+        "tiktok_verified",
+        "temu_trending",
+        "etsy_trending",
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0H1HCC75J",
+      "name": "Bird Bath Copper Tray, 99.99% Pure Copper Bird Bath Purification Disk 0.8mm Thick with Stable 3-Point Support, Suitable ",
+      "price": 6.02,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 3,
+      "category": "Pets",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H1HCC75J",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/712+UP1lVKL._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "TikTok趋势",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.288,
+      "net_profit": 1.73,
+      "cost_breakdown": {
+        "vat": 1.01,
+        "commission": 0.3,
+        "fba": 1.46,
+        "ads": 0.6,
+        "returns": 0.12,
+        "sourcing": 0.8,
+        "total_cost": 4.29
+      },
+      "off_season": false,
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 7.4,
+        "demand": 100,
+        "supply": 722819,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 118,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "📈 趋势(bathroom)": 8,
+        "⏳ 待验证": -8,
+        "💰 较好利润": 4,
+        "🌊 深蓝海": 20,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-07-21",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "multi_source",
+        "tiktok_verified",
+        "new_releases",
+        "temu_trending",
+        "etsy_trending"
+      ]
+    },
+    {
+      "asin": "B0BB1KXF1J",
+      "name": "WUERKIYA Pirate Treasure Map Backdrop Island Treasure Map Banner Nautical Tapestry Hanging Decoration for Treasure Hunt ",
+      "price": 7.39,
+      "reviews": 29,
+      "rating": 4.6,
+      "rank": 20,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "29 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0BB1KXF1J",
+      "image_url": "https://m.media-amazon.com/images/I/918GCnrRN5L._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "pirate decorations",
+      "festival_event": "海盗说话日",
+      "festival_icon": "🏴‍☠️",
+      "festival_deadline": "2026-08-03",
+      "is_event": false,
+      "sources": [
+        "📅 海盗说话日",
+        "TikTok趋势",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.257,
+      "net_profit": 1.9,
+      "cost_breakdown": {
+        "vat": 1.23,
+        "commission": 1.11,
+        "fba": 1.46,
+        "ads": 0.74,
+        "returns": 0.15,
+        "sourcing": 0.8,
+        "total_cost": 5.49
+      },
+      "off_season": false,
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 111,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(home decor)": 23,
+        "🟢 低竞争": 10,
+        "⭐ 高评分": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-07-21",
+      "is_multi": true,
+      "channel_tags": [
+        "multi_source",
+        "tiktok_verified",
+        "temu_trending",
+        "etsy_trending",
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0H5554H4N",
+      "name": "2 Pack Slow Feeder Cat Bowl, Silicone Anti-Choking Puzzle, Pink and Purple | 2-pk pink & purple silicone slow feeder bow",
+      "price": 8.32,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 6,
+      "category": "Pets",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H5554H4N",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/61EV9-dK4NL._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "Reddit需求"
+      ],
+      "profit_margin": 0.391,
+      "net_profit": 3.26,
+      "cost_breakdown": {
+        "vat": 1.39,
+        "commission": 0.42,
+        "fba": 1.46,
+        "ads": 0.83,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 5.06
+      },
+      "off_season": false,
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 7.4,
+        "demand": 100,
+        "supply": 722819,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "weak",
+      "signal_label": "🟡 弱信号",
+      "external_sources": [
+        "Reddit"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 110,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "💬 Reddit": 5,
+        "🔥 多源热门(pets)": 23,
+        "⏳ 待验证": -8,
+        "💰 超高利润": 12,
+        "🌊 深蓝海": 20,
+        "📈 排名上升": 10,
+        "📊 持续上升": 8,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-07-21",
+      "is_event": false,
+      "channel_tags": [
+        "new_releases"
+      ]
+    },
+    {
+      "asin": "B0F7HSW16C",
+      "name": "Bryndo Kids Pirate Costume Set Boys Pirate Captain Dress Up Kit with Hat Vest Sword Hook Eye Patch Earring Fancy Dress f",
+      "price": 9.16,
+      "reviews": 18,
+      "rating": 4.0,
+      "rank": 17,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "18 reviews, 4.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0F7HSW16C",
+      "image_url": "https://m.media-amazon.com/images/I/71J658zFg3L._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "pirate party",
+      "festival_event": "海盗说话日",
+      "festival_icon": "🏴‍☠️",
+      "festival_deadline": "2026-08-03",
+      "is_event": false,
+      "sources": [
+        "📅 海盗说话日",
+        "TikTok趋势",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.316,
+      "net_profit": 2.9,
+      "cost_breakdown": {
+        "vat": 1.53,
+        "commission": 1.37,
+        "fba": 1.46,
+        "ads": 0.92,
+        "returns": 0.18,
+        "sourcing": 0.8,
+        "total_cost": 6.26
+      },
+      "off_season": false,
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 110,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "📈 趋势(baby)": 8,
+        "🌊 蓝海": 15,
+        "💰 高利润": 8,
+        "❓ 品类存疑": -5,
+        "📈 排名上升": 10,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-07-21",
+      "is_multi": true,
+      "channel_tags": [
+        "multi_source",
+        "tiktok_verified",
+        "temu_trending",
+        "etsy_trending",
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0C4Y2PR2M",
+      "name": "FRIUSATE 10Pcs Pirate Costume Accessories Set, Kids Adult Captain Costume, Pirate Head Scarf Eye Patches Earrings Pirate",
+      "price": 6.66,
+      "reviews": 128,
+      "rating": 4.2,
+      "rank": 22,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "128 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0C4Y2PR2M",
+      "image_url": "https://m.media-amazon.com/images/I/714jfIvYKGL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "pirate party",
+      "festival_event": "海盗说话日",
+      "festival_icon": "🏴‍☠️",
+      "festival_deadline": "2026-08-03",
+      "is_event": false,
+      "sources": [
+        "📅 海盗说话日",
+        "Google趋势",
+        "TikTok趋势",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.224,
+      "net_profit": 1.49,
+      "cost_breakdown": {
+        "vat": 1.11,
+        "commission": 1.0,
+        "fba": 1.46,
+        "ads": 0.67,
+        "returns": 0.13,
+        "sourcing": 0.8,
+        "total_cost": 5.17
+      },
+      "off_season": false,
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 107,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "📈 趋势(car)": 8,
+        "🟡 中等竞争": 5,
+        "❓ 品类存疑": -5,
+        "📈 排名上升": 10,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-07-21",
+      "is_multi": true,
+      "channel_tags": [
+        "multi_source",
+        "tiktok_verified",
+        "google_trends",
+        "temu_trending",
+        "etsy_trending",
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0FJQ7F5BR",
+      "name": "Bryndo 6 Pcs Pirate Costume Accessories Set for Women Men, Pirate Fancy Dress with Hat Bandana Head Scarf Sash Eye Patch",
+      "price": 12.49,
+      "reviews": 27,
+      "rating": 3.9,
+      "rank": 1,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "27 reviews, 3.9★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FJQ7F5BR",
+      "image_url": "https://m.media-amazon.com/images/I/71vcVBm3f0L._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "pirate party",
+      "festival_event": "海盗说话日",
+      "festival_icon": "🏴‍☠️",
+      "festival_deadline": "2026-08-03",
+      "is_event": false,
+      "sources": [
+        "📅 海盗说话日",
+        "Google趋势",
+        "Reddit需求"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.382,
+      "net_profit": 4.77,
+      "cost_breakdown": {
+        "vat": 2.09,
+        "commission": 1.87,
+        "fba": 1.46,
+        "ads": 1.25,
+        "returns": 0.25,
+        "sourcing": 0.8,
+        "total_cost": 7.72
+      },
+      "off_season": false,
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "medium",
+      "signal_label": "🟠 中信号",
+      "external_sources": [
+        "Google",
+        "Reddit"
+      ],
+      "internal_sources": [],
+      "score": 75,
+      "score_breakdown": {
+        "📊 Google↑": 15,
+        "💬 Reddit": 5,
+        "🟠 中信号": 10,
+        "📈 趋势(car)": 8,
+        "🟢 低竞争": 10,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 3,
+      "is_new": false,
+      "first_seen": "2026-07-21",
+      "is_multi": true,
+      "channel_tags": [
+        "multi_source",
+        "keyword_search",
+        "google_trends"
+      ]
+    },
+    {
+      "asin": "B0D7TF728K",
+      "name": "70Pc Pirate Party Tableware Set,Pirate Treasure Hunt Theme Banner with Pirate Napkins Paper Plates Cups and Pirates Game",
+      "price": 9.41,
+      "reviews": 98,
+      "rating": 4.7,
+      "rank": 8,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "98 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0D7TF728K",
+      "image_url": "https://m.media-amazon.com/images/I/81OUia6YN-L._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "pirate party",
+      "festival_event": "海盗说话日",
+      "festival_icon": "🏴‍☠️",
+      "festival_deadline": "2026-08-03",
+      "is_event": false,
+      "sources": [
+        "📅 海盗说话日",
+        "Google趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.323,
+      "net_profit": 3.04,
+      "cost_breakdown": {
+        "vat": 1.57,
+        "commission": 1.41,
+        "fba": 1.46,
+        "ads": 0.94,
+        "returns": 0.19,
+        "sourcing": 0.8,
+        "total_cost": 6.37
+      },
+      "off_season": false,
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "weak",
+      "signal_label": "🟡 弱信号",
+      "external_sources": [
+        "Google"
+      ],
+      "internal_sources": [],
+      "score": 71,
+      "score_breakdown": {
+        "📊 Google↑": 15,
+        "🔥 多源热门(kitchen)": 23,
+        "🟡 中等竞争": 5,
+        "⭐ 高评分": 5,
+        "💰 高利润": 8,
+        "❓ 品类存疑": -5,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 3,
+      "is_new": false,
+      "first_seen": "2026-07-21",
+      "is_multi": true,
+      "channel_tags": [
+        "multi_source",
+        "keyword_search",
+        "google_trends"
+      ]
+    },
+    {
+      "asin": "B0CSYRY4LX",
+      "name": "2 Pack Sleep Mask Silk Eye Mask Cover for Sleeping, Soft Satin Blindfold with Elastic Strap, Comfortable Night Sleeping ",
+      "price": 12.46,
+      "reviews": 182,
+      "rating": 4.2,
+      "rank": 40,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "182 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CSYRY4LX",
+      "image_url": "https://m.media-amazon.com/images/I/7172K5dL+FL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "satin sleep mask 2 pack, silk sleep mask set, eye mask for sleeping, travel sleep mask, blackout eye mask adjustable, eye cover for sleep, sleep mask for women men, night eye mask",
+      "sources": [
+        "趋势发现",
+        "Google趋势",
+        "Reddit需求"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.382,
+      "net_profit": 4.75,
+      "cost_breakdown": {
+        "vat": 2.08,
+        "commission": 1.87,
+        "fba": 1.46,
+        "ads": 1.25,
+        "returns": 0.25,
+        "sourcing": 0.8,
+        "total_cost": 7.71
+      },
+      "off_season": false,
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "medium",
+      "signal_label": "🟠 中信号",
+      "external_sources": [
+        "Google",
+        "Reddit"
+      ],
+      "internal_sources": [],
+      "score": 67,
+      "score_breakdown": {
+        "📊 Google↑": 15,
+        "💬 Reddit": 5,
+        "🟠 中信号": 10,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 3,
+      "is_new": true,
+      "first_seen": "2026-07-27",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "multi_source",
+        "keyword_search",
+        "google_trends"
+      ]
+    },
+    {
+      "asin": "B0F7HTSK4L",
+      "name": "Bryndo 5PCS Pirate Costume Accessories for Adults – Hat Headscarf Sash Belt Eye Patch Anchor Necklace Fancy Dress for Ha",
+      "price": 9.16,
+      "reviews": 43,
+      "rating": 3.9,
+      "rank": 39,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "43 reviews, 3.9★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0F7HTSK4L",
+      "image_url": "https://m.media-amazon.com/images/I/71pXVpsCXsL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "pirate party",
+      "festival_event": "海盗说话日",
+      "festival_icon": "🏴‍☠️",
+      "festival_deadline": "2026-08-03",
+      "is_event": false,
+      "sources": [
+        "📅 海盗说话日",
+        "Google趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.316,
+      "net_profit": 2.9,
+      "cost_breakdown": {
+        "vat": 1.53,
+        "commission": 1.37,
+        "fba": 1.46,
+        "ads": 0.92,
+        "returns": 0.18,
+        "sourcing": 0.8,
+        "total_cost": 6.26
+      },
+      "off_season": false,
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "weak",
+      "signal_label": "🟡 弱信号",
+      "external_sources": [
+        "Google"
+      ],
+      "internal_sources": [],
+      "score": 66,
+      "score_breakdown": {
+        "📊 Google↑": 15,
+        "📈 趋势(car)": 8,
+        "🟢 低竞争": 10,
+        "💰 高利润": 8,
+        "❓ 品类存疑": -5,
+        "📈 排名上升": 10,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 3,
+      "is_new": false,
+      "first_seen": "2026-07-21",
+      "is_multi": true,
+      "channel_tags": [
+        "multi_source",
+        "keyword_search",
+        "google_trends"
+      ]
+    },
+    {
+      "asin": "B0F8R33MQ9",
+      "name": "Wanmu 3 Pcs Silk Sleep Mask for Sleeping, Silk Eye Mask with Adjustable Strap, Satin Blackout Eye Sleep Shade Cover, Bli",
+      "price": 12.68,
+      "reviews": 23,
+      "rating": 4.3,
+      "rank": 47,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "23 reviews, 4.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0F8R33MQ9",
+      "image_url": "https://m.media-amazon.com/images/I/81TJPZotBAL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "satin sleep mask 2 pack, silk sleep mask set, eye mask for sleeping, travel sleep mask, blackout eye mask adjustable, eye cover for sleep, sleep mask for women men, night eye mask",
+      "sources": [
+        "趋势发现",
+        "Google趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.385,
+      "net_profit": 4.88,
+      "cost_breakdown": {
+        "vat": 2.12,
+        "commission": 1.9,
+        "fba": 1.46,
+        "ads": 1.27,
+        "returns": 0.25,
+        "sourcing": 0.8,
+        "total_cost": 7.8
+      },
+      "off_season": false,
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "weak",
+      "signal_label": "🟡 弱信号",
+      "external_sources": [
+        "Google"
+      ],
+      "internal_sources": [],
+      "score": 62,
+      "score_breakdown": {
+        "📊 Google↑": 15,
+        "🟢 低竞争": 10,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 3,
+      "is_new": true,
+      "first_seen": "2026-07-27",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "multi_source",
+        "keyword_search",
+        "google_trends"
+      ]
+    },
+    {
+      "asin": "B0CBP11PW8",
+      "name": "BDSHUNBF 6-Piece Silk Sleep Masks - Soft Blackout Eye Masks for Women & Men with Adjustable Strap (6 Colors)",
+      "price": 7.97,
+      "reviews": 51,
+      "rating": 4.4,
+      "rank": 36,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "51 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CBP11PW8",
+      "image_url": "https://m.media-amazon.com/images/I/71Pl6fxUqLL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "satin sleep mask 2 pack, silk sleep mask set, eye mask for sleeping, travel sleep mask, blackout eye mask adjustable, eye cover for sleep, sleep mask for women men, night eye mask",
+      "sources": [
+        "趋势发现",
+        "Google趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.279,
+      "net_profit": 2.23,
+      "cost_breakdown": {
+        "vat": 1.33,
+        "commission": 1.2,
+        "fba": 1.46,
+        "ads": 0.8,
+        "returns": 0.16,
+        "sourcing": 0.8,
+        "total_cost": 5.74
+      },
+      "off_season": false,
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "weak",
+      "signal_label": "🟡 弱信号",
+      "external_sources": [
+        "Google"
+      ],
+      "internal_sources": [],
+      "score": 49,
+      "score_breakdown": {
+        "📊 Google↑": 15,
+        "🟡 中等竞争": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 2,
+      "is_new": true,
+      "first_seen": "2026-07-27",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "multi_source",
+        "keyword_search",
+        "google_trends"
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "keyword": "garden",
+      "category": "garden",
+      "heat": 95,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "flower",
+        "garden",
+        "bbq",
+        "plant",
+        "patio"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "flower",
+        "garden tool set",
+        "garden light",
+        "garden decor",
+        "plant pot",
+        "plant stand",
+        "plant hanger",
+        "patio"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 95,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=flower",
+      "url_google": "https://trends.google.com/trends/explore?q=flower&geo=GB"
+    },
+    {
+      "keyword": "phone",
+      "category": "phone",
+      "heat": 100,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "holder",
+        "charger",
+        "case",
+        "earbuds",
+        "phone"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "holder",
+        "phone charger",
+        "wireless charger",
+        "car charger",
+        "case",
+        "earbuds case",
+        "wireless earbuds",
+        "phone case"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=holder",
+      "url_google": "https://trends.google.com/trends/explore?q=holder&geo=GB"
+    },
+    {
+      "keyword": "office",
+      "category": "office",
+      "heat": 85,
+      "score": 73,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "office",
+        "organiser",
+        "desk",
+        "pen",
+        "mouse"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "office supplies",
+        "desk organizer",
+        "pen holder",
+        "organiser",
+        "desk lamp",
+        "desk mat",
+        "pen set",
+        "fountain pen"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 85,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=office+supplies",
+      "url_google": "https://trends.google.com/trends/explore?q=office+supplies&geo=GB"
+    },
+    {
+      "keyword": "crafts",
+      "category": "crafts",
+      "heat": 81,
+      "score": 72,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "paint",
+        "craft",
+        "stickers",
+        "art",
+        "sewing"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "acrylic paint set",
+        "paint brush set",
+        "paint by numbers",
+        "craft knife",
+        "craft supplies",
+        "DIY craft kit",
+        "stickers",
+        "art supplies"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 81,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=acrylic+paint+set",
+      "url_google": "https://trends.google.com/trends/explore?q=acrylic+paint+set&geo=GB"
+    },
+    {
+      "keyword": "lighting",
+      "category": "lighting",
+      "heat": 79,
+      "score": 71,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "lamp",
+        "solar light",
+        "strip",
+        "fairy",
+        "light"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "desk lamp",
+        "night light",
+        "table lamp",
+        "solar light",
+        "LED strip",
+        "LED strip light",
+        "RGB strip",
+        "fairy lights"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 79,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=desk+lamp",
+      "url_google": "https://trends.google.com/trends/explore?q=desk+lamp&geo=GB"
+    },
+    {
+      "keyword": "home decor",
+      "category": "home decor",
+      "heat": 79,
+      "score": 71,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "frame",
+        "mirror",
+        "clock",
+        "decor",
+        "vase"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "photo frame",
+        "picture frame",
+        "wall frame",
+        "makeup mirror",
+        "vanity mirror",
+        "LED mirror",
+        "wall clock",
+        "desk clock"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 79,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=photo+frame",
+      "url_google": "https://trends.google.com/trends/explore?q=photo+frame&geo=GB"
+    },
+    {
+      "keyword": "kitchen",
+      "category": "kitchen",
+      "heat": 74,
+      "score": 69,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "utensil",
+        "spice",
+        "gadget",
+        "mug",
+        "organiser"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "utensil",
+        "spice rack",
+        "spice jar set",
+        "spice organizer",
+        "gadget",
+        "organiser",
+        "kitchen",
+        "cooking"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 74,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=utensil",
+      "url_google": "https://trends.google.com/trends/explore?q=utensil&geo=GB"
+    },
+    {
+      "keyword": "sports",
+      "category": "sports",
+      "heat": 70,
+      "score": 68,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "water bottle",
+        "resistance",
+        "sport",
+        "fitness",
+        "gym"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "water bottle",
+        "resistance",
+        "sport",
+        "resistance band",
+        "fitness tracker",
+        "foam roller",
+        "gym bag",
+        "gym gloves"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 70,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=water+bottle",
+      "url_google": "https://trends.google.com/trends/explore?q=water+bottle&geo=GB"
+    },
+    {
+      "keyword": "travel",
+      "category": "travel",
+      "heat": 70,
+      "score": 68,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "neck pillow",
+        "luggage",
+        "packing",
+        "passport",
+        "travel"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "neck pillow",
+        "luggage",
+        "packing",
+        "passport",
+        "travel",
+        "toiletry"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 70,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=neck+pillow",
+      "url_google": "https://trends.google.com/trends/explore?q=neck+pillow&geo=GB"
+    },
+    {
+      "keyword": "beauty",
+      "category": "beauty",
+      "heat": 70,
+      "score": 68,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "mirror",
+        "organiser",
+        "skincare",
+        "hair",
+        "makeup"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "makeup mirror",
+        "vanity mirror",
+        "LED mirror",
+        "organiser",
+        "face roller",
+        "gua sha",
+        "face mask",
+        "hair clip"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 70,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=makeup+mirror",
+      "url_google": "https://trends.google.com/trends/explore?q=makeup+mirror&geo=GB"
+    },
+    {
+      "keyword": "eco",
+      "category": "eco",
+      "heat": 67,
+      "score": 67,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "bamboo",
+        "sustainable",
+        "eco",
+        "reusable",
+        "organic"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "bamboo cutlery",
+        "bamboo toothbrush",
+        "bamboo organizer",
+        "sustainable products",
+        "eco friendly",
+        "eco products",
+        "reusable bag",
+        "bamboo products"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 67,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=bamboo+cutlery",
+      "url_google": "https://trends.google.com/trends/explore?q=bamboo+cutlery&geo=GB"
+    },
+    {
+      "keyword": "storage",
+      "category": "storage",
+      "heat": 65,
+      "score": 66,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "shelf",
+        "organiser",
+        "drawer",
+        "storage",
+        "basket"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "floating shelf",
+        "wall shelf",
+        "corner shelf",
+        "organiser",
+        "drawer",
+        "food storage",
+        "kitchen storage",
+        "container set"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 65,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=floating+shelf",
+      "url_google": "https://trends.google.com/trends/explore?q=floating+shelf&geo=GB"
+    },
+    {
+      "keyword": "seasonal",
+      "category": "seasonal",
+      "heat": 54,
+      "score": 63,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "halloween",
+        "gift",
+        "christmas",
+        "birthday"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "halloween decoration",
+        "halloween costume",
+        "gift ideas",
+        "gift set",
+        "gift box",
+        "christmas decoration",
+        "christmas gift",
+        "christmas stocking"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 54,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=halloween+decoration",
+      "url_google": "https://trends.google.com/trends/explore?q=halloween+decoration&geo=GB"
+    },
+    {
+      "keyword": "cleaning",
+      "category": "cleaning",
+      "heat": 51,
+      "score": 62,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "vacuum",
+        "cleaning",
+        "sponge",
+        "mop",
+        "brush"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "vacuum",
+        "cleaning",
+        "sponge",
+        "brush",
+        "cleaner"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 51,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=vacuum",
+      "url_google": "https://trends.google.com/trends/explore?q=vacuum&geo=GB"
+    },
+    {
+      "keyword": "car",
+      "category": "car",
+      "heat": 51,
+      "score": 62,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "automotive",
+        "organiser",
+        "vehicle",
+        "dashboard",
+        "phone holder"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "automotive",
+        "organiser",
+        "vehicle",
+        "dashboard",
+        "phone holder",
+        "car accessories",
+        "car organizer",
+        "car phone holder"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 51,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=automotive",
+      "url_google": "https://trends.google.com/trends/explore?q=automotive&geo=GB"
+    },
+    {
+      "keyword": "bedding",
+      "category": "bedding",
+      "heat": 51,
+      "score": 62,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "throw",
+        "cushion",
+        "sheet",
+        "bedding",
+        "blanket"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "throw",
+        "cushion",
+        "sheet",
+        "bedding",
+        "blanket",
+        "pillow"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 51,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=throw",
+      "url_google": "https://trends.google.com/trends/explore?q=throw&geo=GB"
+    },
+    {
+      "keyword": "baby",
+      "category": "baby",
+      "heat": 51,
+      "score": 62,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "kids",
+        "baby",
+        "child",
+        "nursery"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "kids",
+        "baby",
+        "child",
+        "nursery"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 51,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=kids",
+      "url_google": "https://trends.google.com/trends/explore?q=kids&geo=GB"
+    },
+    {
+      "keyword": "bathroom",
+      "category": "bathroom",
+      "heat": 47,
+      "score": 60,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "bathroom",
+        "mirror",
+        "shower",
+        "toilet",
+        "bath"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "bathroom",
+        "makeup mirror",
+        "vanity mirror",
+        "LED mirror",
+        "shower caddy",
+        "shower head",
+        "shower curtain",
+        "toilet"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 47,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=bathroom",
+      "url_google": "https://trends.google.com/trends/explore?q=bathroom&geo=GB"
+    }
+  ],
+  "trend_summary": {
+    "top_categories": [
+      [
+        "pets",
+        100
+      ],
+      [
+        "phone",
+        100
+      ],
+      [
+        "garden",
+        95
+      ],
+      [
+        "office",
+        85
+      ],
+      [
+        "crafts",
+        81
+      ],
+      [
+        "lighting",
+        79
+      ]
+    ],
+    "cross_validated": [
+      "kitchen",
+      "garden",
+      "bathroom",
+      "cleaning",
+      "car",
+      "office",
+      "storage",
+      "lighting",
+      "pets",
+      "sports",
+      "crafts",
+      "bedding",
+      "travel",
+      "phone",
+      "beauty",
+      "home decor",
+      "baby",
+      "eco",
+      "seasonal"
+    ],
+    "demand_keywords": [
+      "#explore #vypシ #foryou",
+      "#هبيدكو \\",
+      ") #هبيدكو",
+      "accent",
+      "activate the battery",
+      "active demand",
+      "and highlighted by",
+      "and shows the most diverse",
+      "anniversary gift",
+      "arched mirror"
+    ],
+    "season": "summer",
+    "sources_scanned": [
+      "tiktok",
+      "temu",
+      "etsy",
+      "market_intel"
+    ]
+  }
+}
