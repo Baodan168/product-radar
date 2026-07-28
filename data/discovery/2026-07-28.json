@@ -25,7 +25,17 @@
 
       "action": "027新店测品启动：上架Soft Touch Silicone Pencil Case - Large Capacity Pen Pouch for School，定价£7.99，1688搜索'硅胶笔袋 大容量 软触感 跨境 亚马逊 英国 文具 学生铅笔袋'，首批300个。选6个流行色（黑色/灰色/粉色/薰衣草紫/薄荷绿/米白），配英文品牌卡纸+OPP袋。关键词：silicone pencil case + soft touch pencil pouch + pen bag large capacity + silicone stationery organizer + aesthetic pencil case + cute pen pouch for school。差异化：加厚食品级硅胶（1.5mm厚度不塌陷vs市面薄款）+ 大容量设计（可容纳30+支笔）+ 多色马卡龙色系 + 品牌卡纸提升perceived value。注意：100%食品级硅胶（BPA Free认证标注），无电子/电池/电机/液体，完全合规。",
 
-      "competition": "中等竞争——Silicone pencil case品类在UK站处于增长早期至中期阶段，约138个tracked ASIN活跃。品牌集中度低（Mr. Pen/Sooez等品牌各占份额但无垄断者）。£6-10区间约30-40个ASIN活跃，大部分为中国卖家无品牌。差异化窗口：加厚硅胶（手感更好不塌陷vs竞品薄款）+ 大容量设计（30+支笔vs标准15-20支）+ 马卡龙多色系 + 品牌卡纸包装。差评核心concern：'too thin/loses shape'和'zipper breaks'，选品需确认硅胶厚度（≥1.5mm）和拉链质量。"
+      "competition": "中等竞争——Silicone pencil case品类在UK站处于增长早期至中期阶段，约138个tracked ASIN活跃。品牌集中度低（Mr. Pen/Sooez等品牌各占份额但无垄断者）。£6-10区间约30-40个ASIN活跃，大部分为中国卖家无品牌。差异化窗口：加厚硅胶（手感更好不塌陷vs竞品薄款）+ 大容量设计（30+支笔vs标准15-20支）+ 马卡龙多色系 + 品牌卡纸包装。差评核心concern：'too thin/loses shape'和'zipper breaks'，选品需确认硅胶厚度（≥1.5mm）和拉链质量。",
+
+      "signal_scores": {
+        "trend": 78,
+        "gap": 72,
+        "profit": 82,
+        "final": 77.2,
+        "recommendation": "BUY",
+        "gap_level": "中等竞争（Silicone pencil case UK站约138个ASIN活跃，加厚硅胶+马卡龙色系+大容量可切出差异化份额）",
+        "profit_window": "1688 ¥15以内可保47%+利润（售价£7.99，采购¥12≈£1.26，FBA Small Parcel约£2.00，佣金8%约£0.64，净利约£4.09，毛利率约47%。80-100g/个，FBA运费较小）"
+      }
     },
 
     {
@@ -48,7 +58,17 @@
 
       "action": "007店测品增长：上架Hair Claw Clips Set 6-Pack - Mixed Sizes Acetate Matte Claw Clips for Women，定价£7.99，1688搜索'发抓夹套装 多尺寸混合 醋酸 磨砂 跨境 亚马逊 英国 发夹套装 鲨鱼夹'，首批300套。选3种配色方案：经典（玳瑁+黑+棕）、马卡龙（粉+紫+蓝）、中性（灰+白+卡其）。每个方案含2Large+2Medium+2Mini，配品牌展示盒+英文卡纸。关键词：hair claw clips set + claw clips for thick hair + mini claw clips 6 pack + acetate claw clip set + matte hair claw set + mixed size hair clips + non slip hair claw + jaw clips for hair。差异化：三尺寸混合套装（vs市场单一尺寸）+ 醋酸材质（质感优于普通PS塑料）+ 马卡龙+经典双色系方案 + 品牌展示盒（vs普通塑料袋）+ 适配所有发量。注意：纯醋酸/亚克力+金属弹簧，无电子/电池/电机/化学品，完全合规。英国CE合规标注。",
 
-      "competition": "中高竞争但品类容量极大——Hair Claws子类目数千ASIN活跃，品牌集中度中低（Kitsch在mini clip细分领先但非垄断，大量无品牌/小品牌共存）。£6-9区间约100+ ASIN活跃，竞争激烈。差异化窗口：6件套Multi-size混合（vs市场单一size套装）+ 醋酸材质（质感vs普通plastic）+ 品牌展示盒（提升perceived value）+ £7.99合理定价（低于Kitsch 6pc £8.20+）。风险提示：UK消费者差评核心concern是'snags hair'和'doesn't hold thick hair'，选品需确认弹簧力度和牙齿光滑度。"
+      "competition": "中高竞争但品类容量极大——Hair Claws子类目数千ASIN活跃，品牌集中度中低（Kitsch在mini clip细分领先但非垄断，大量无品牌/小品牌共存）。£6-9区间约100+ ASIN活跃，竞争激烈。差异化窗口：6件套Multi-size混合（vs市场单一size套装）+ 醋酸材质（质感vs普通plastic）+ 品牌展示盒（提升perceived value）+ £7.99合理定价（低于Kitsch 6pc £8.20+）。风险提示：UK消费者差评核心concern是'snags hair'和'doesn't hold thick hair'，选品需确认弹簧力度和牙齿光滑度。",
+
+      "signal_scores": {
+        "trend": 82,
+        "gap": 75,
+        "profit": 85,
+        "final": 80.6,
+        "recommendation": "STRONG_BUY",
+        "gap_level": "中高竞争但品类容量极大（数千ASIN活跃，Multi-size混合+醋酸材质+品牌展示盒可切分细分需求）",
+        "profit_window": "1688 ¥12以内可保51%+利润（售价£7.99，采购¥10/6个装≈£1.05，FBA Small Envelope约£1.70，佣金8%约£0.64，净利约£4.60，毛利率约51%。80g/套，FBA运费最低档）"
+      }
     },
 
     {
@@ -70,7 +90,17 @@
 
       "action": "322老店推新：上架Stainless Steel Cutlery Set 3-Piece with Case - Reusable Travel Utensils for School Lunch，定价£6.99，1688搜索'便携餐具三件套 不锈钢 带盒子 跨境 亚马逊 英国 学生 午餐 刀叉勺'，首批300套。选3种配色（大理石白盒/磨砂黑盒/莫兰迪粉盒），含304不锈钢刀叉勺+收纳盒。关键词：portable cutlery set + stainless steel travel utensils + reusable cutlery set with case + camping cutlery set + lunch box utensils + travel knife fork spoon set + reusable flatware set。差异化：莫兰迪色收纳盒（vs市场单调黑灰）+ 304不锈钢加厚（不弯曲vs竞品薄款易弯）+ 挂钩设计（可挂在午餐袋上）+ 低于Brabantia £10+定价的性价比定位。注意：100%不锈钢+食品级塑料盒，无电子/电池/电机/液体，完全合规。刀叉非尖锐（无管制刀具争议），适合儿童使用。",
 
-      "competition": "中高竞争但品类容量极大——Cutlery Sets类目在UK站有数千ASIN活跃，品牌分散（Brabantia/Chilly's/Acehome/Herogo/无品牌中国卖家共存）。£4-9区间约80+ ASIN，竞争激烈但需求天花板高。差异化窗口：莫兰迪色系收纳盒（vs黑灰塑料盒）+ 加厚304不锈钢（vs薄款易弯）+ 挂钩设计便携 + £6.99定价（vs Brabantia £10+/Chilly's £15+）。风险提示：UK消费者concern包括'case doesn't stay closed'和'cutlery too thin'，选品需确认盒扣牢固度和不锈钢厚度（推荐18/0或18/8 304不锈钢，厚度≥1.2mm）。"
+      "competition": "中高竞争但品类容量极大——Cutlery Sets类目在UK站有数千ASIN活跃，品牌分散（Brabantia/Chilly's/Acehome/Herogo/无品牌中国卖家共存）。£4-9区间约80+ ASIN，竞争激烈但需求天花板高。差异化窗口：莫兰迪色系收纳盒（vs黑灰塑料盒）+ 加厚304不锈钢（vs薄款易弯）+ 挂钩设计便携 + £6.99定价（vs Brabantia £10+/Chilly's £15+）。风险提示：UK消费者concern包括'case doesn't stay closed'和'cutlery too thin'，选品需确认盒扣牢固度和不锈钢厚度（推荐18/0或18/8 304不锈钢，厚度≥1.2mm）。",
+
+      "signal_scores": {
+        "trend": 76,
+        "gap": 68,
+        "profit": 80,
+        "final": 75.0,
+        "recommendation": "BUY",
+        "gap_level": "中高竞争但品类容量极大（数千ASIN活跃，莫兰迪色盒+挂钩设计+加厚304不锈钢可切分细分需求）",
+        "profit_window": "1688 ¥15以内可保42%+利润（售价£6.99，采购¥12≈£1.26，FBA Small Parcel约£2.00，佣金8%约£0.56，净利约£3.17，毛利率约42%。130g/套，FBA运费约£2.00）"
+      }
     }
   ],
 
