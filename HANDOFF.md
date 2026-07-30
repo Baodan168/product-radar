@@ -41,7 +41,50 @@
 
 ---
 
-## 启动提示词（在生产机上开新会话时，把下面整段贴进去）
+## 怎么驱动生产机上的工作
+
+负责人平时不开 WSL 前台，hermes 在后台跑、通过**飞书**交互。所以驱动方式按优先级是：
+
+| 方式 | 什么时候用 | 需要什么 |
+|------|-----------|---------|
+| **① 飞书让 hermes 干** | 日常首选。跑体检、部署、跑生成器 | 什么都不用装 |
+| ② 生产机上的 Claude Code | 要改 `~/product-analysis/` 那些没进 GitHub 的源码时 | 装 CLI + 开一次终端 |
+| ③ Claude Code 云端会话 | 改本仓库的代码 | 已在用，但碰不到生产机 |
+
+### ① 飞书发给 hermes 的消息（复制即用）
+
+**第一条 —— 只体检，不动任何东西：**
+
+```
+读 /home/lee/product-radar/HANDOFF.md 和 DEPLOY-CHECKLIST.md，
+然后在 /home/lee/product-radar 下跑：
+
+  python3 tools/preflight.py --fetch
+
+把完整输出发我。这个脚本是只读的，不改任何东西。
+如果有阻塞项，先别修，等我确认。
+```
+
+**第二条 —— 看过体检结果、确认要部署之后再发：**
+
+```
+在 /home/lee/product-radar 下按 DEPLOY-CHECKLIST.md 做：
+
+1. 如果 preflight 有阻塞项，按它给的修法修掉，重跑到绿
+2. 合并 claude/oa-portal-ui-upgrade-ts4zrf 到 main 并推送
+3. 等 3 分钟，确认 GitHub Actions 的 Deploy Product Radar 是绿的
+4. 手动跑 bash cron_scan.sh，把日志最后 40 行发我
+5. 跑 python3 generate_portal.py（cron_scan.sh 不含这步）
+6. 跑 python3 -m pytest tests/ -q，确认 123 项全绿
+
+不要动 crontab，不要碰任何凭据，不要改 config.json。
+做完把每一步的结果发我。
+```
+
+> 部署的其余部分不需要机器：合并可以在 GitHub 网页上点，
+> 线上七项验收就是用浏览器打开看。所以整个部署可以做到**一次终端都不用开**。
+
+## 启动提示词（如果在生产机上开 Claude Code 会话，把下面整段贴进去）
 
 ```
 先读 CLAUDE.md、HANDOFF.md、DEPLOY-CHECKLIST.md 三份文档，再动手。
