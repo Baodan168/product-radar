@@ -1,0 +1,952 @@
+{
+  "scan_date": "2026-07-30",
+  "scan_time": "09:10",
+  "scan_ts": "2026-07-30_0910",
+  "stats": {
+    "total_scanned": 150,
+    "passed_filter": 4,
+    "rejected": 146,
+    "channels": {
+      "keyword_search": 4,
+      "multi_source": 3,
+      "temu_trending": 3,
+      "etsy_trending": 3
+    },
+    "trend_categories": {
+      "crafts": 100,
+      "pets": 100,
+      "kitchen": 95,
+      "garden": 75,
+      "seasonal": 75,
+      "car": 65
+    },
+    "supply_demand": {
+      "kitchen": {
+        "ratio": 8.3,
+        "demand": 95,
+        "supply": 89411,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "pets": {
+        "ratio": 7.9,
+        "demand": 100,
+        "supply": 316144,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "kitchen_gadgets": {
+        "ratio": 0.9,
+        "demand": 10,
+        "supply": 89411,
+        "label": "🔴 红海",
+        "level": "red_ocean"
+      },
+      "garden": {
+        "ratio": 0,
+        "demand": 75,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "car": {
+        "ratio": 0,
+        "demand": 65,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "sports": {
+        "ratio": 0,
+        "demand": 20,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "beauty": {
+        "ratio": 0,
+        "demand": 50,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "seasonal": {
+        "ratio": 0,
+        "demand": 75,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      }
+    },
+    "divergences": {
+      "kitchen": {
+        "current_heat": 71,
+        "previous_heat": 76,
+        "heat_change_pct": -6.6,
+        "direction": "stable",
+        "dates": [
+          "2026-07-29_0911",
+          "2026-07-29_1401"
+        ]
+      },
+      "cleaning": {
+        "current_heat": 59,
+        "previous_heat": 48,
+        "heat_change_pct": 22.9,
+        "direction": "stable",
+        "dates": [
+          "2026-07-29_0911",
+          "2026-07-29_1401"
+        ]
+      },
+      "car": {
+        "current_heat": 49,
+        "previous_heat": 44,
+        "heat_change_pct": 11.4,
+        "direction": "stable",
+        "dates": [
+          "2026-07-29_0911",
+          "2026-07-29_1401"
+        ]
+      },
+      "office": {
+        "current_heat": 91,
+        "previous_heat": 80,
+        "heat_change_pct": 13.8,
+        "direction": "stable",
+        "dates": [
+          "2026-07-29_0911",
+          "2026-07-29_1401"
+        ]
+      },
+      "storage": {
+        "current_heat": 76,
+        "previous_heat": 72,
+        "heat_change_pct": 5.6,
+        "direction": "stable",
+        "dates": [
+          "2026-07-29_0911",
+          "2026-07-29_1401"
+        ]
+      },
+      "lighting": {
+        "current_heat": 86,
+        "previous_heat": 84,
+        "heat_change_pct": 2.4,
+        "direction": "stable",
+        "dates": [
+          "2026-07-29_0911",
+          "2026-07-29_1401"
+        ]
+      },
+      "pets": {
+        "current_heat": 100,
+        "previous_heat": 95,
+        "heat_change_pct": 5.3,
+        "direction": "stable",
+        "dates": [
+          "2026-07-29_0911",
+          "2026-07-29_1401"
+        ]
+      },
+      "sports": {
+        "current_heat": 74,
+        "previous_heat": 86,
+        "heat_change_pct": -14.0,
+        "direction": "stable",
+        "dates": [
+          "2026-07-29_0911",
+          "2026-07-29_1401"
+        ]
+      },
+      "crafts": {
+        "current_heat": 88,
+        "previous_heat": 80,
+        "heat_change_pct": 10.0,
+        "direction": "stable",
+        "dates": [
+          "2026-07-29_0911",
+          "2026-07-29_1401"
+        ]
+      },
+      "phone": {
+        "current_heat": 100,
+        "previous_heat": 97,
+        "heat_change_pct": 3.1,
+        "direction": "stable",
+        "dates": [
+          "2026-07-29_0911",
+          "2026-07-29_1401"
+        ]
+      },
+      "beauty": {
+        "current_heat": 74,
+        "previous_heat": 72,
+        "heat_change_pct": 2.8,
+        "direction": "stable",
+        "dates": [
+          "2026-07-29_0911",
+          "2026-07-29_1401"
+        ]
+      },
+      "home decor": {
+        "current_heat": 69,
+        "previous_heat": 72,
+        "heat_change_pct": -4.2,
+        "direction": "stable",
+        "dates": [
+          "2026-07-29_0911",
+          "2026-07-29_1401"
+        ]
+      },
+      "eco": {
+        "current_heat": 64,
+        "previous_heat": 58,
+        "heat_change_pct": 10.3,
+        "direction": "stable",
+        "dates": [
+          "2026-07-29_0911",
+          "2026-07-29_1401"
+        ]
+      },
+      "seasonal": {
+        "current_heat": 64,
+        "previous_heat": 66,
+        "heat_change_pct": -3.0,
+        "direction": "stable",
+        "dates": [
+          "2026-07-29_0911",
+          "2026-07-29_1401"
+        ]
+      },
+      "garden": {
+        "current_heat": 100,
+        "previous_heat": 100,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-07-29_0911",
+          "2026-07-29_1401"
+        ]
+      },
+      "bathroom": {
+        "current_heat": 56,
+        "previous_heat": 54,
+        "heat_change_pct": 3.7,
+        "direction": "stable",
+        "dates": [
+          "2026-07-29_0911",
+          "2026-07-29_1401"
+        ]
+      },
+      "travel": {
+        "current_heat": 74,
+        "previous_heat": 64,
+        "heat_change_pct": 15.6,
+        "direction": "stable",
+        "dates": [
+          "2026-07-29_0911",
+          "2026-07-29_1401"
+        ]
+      },
+      "baby": {
+        "current_heat": 59,
+        "previous_heat": 64,
+        "heat_change_pct": -7.8,
+        "direction": "stable",
+        "dates": [
+          "2026-07-29_0911",
+          "2026-07-29_1401"
+        ]
+      },
+      "bedding": {
+        "current_heat": 54,
+        "previous_heat": 52,
+        "heat_change_pct": 3.8,
+        "direction": "stable",
+        "dates": [
+          "2026-07-29_0911",
+          "2026-07-29_1401"
+        ]
+      },
+      "kitchen_gadgets": {
+        "current_heat": 5,
+        "previous_heat": 4,
+        "heat_change_pct": 25.0,
+        "direction": "stable",
+        "dates": [
+          "2026-07-29_0911",
+          "2026-07-29_1401"
+        ]
+      }
+    },
+    "gap_opportunities": 10
+  },
+  "products": [
+    {
+      "asin": "B0FH61WJV8",
+      "name": "2pcs Fish Net Decorations for Party, 80x40in Hawaiian Fishing Net Nautical Themed Fishnet for Pirate Ocean Mermaid Party",
+      "price": 8.66,
+      "reviews": 17,
+      "rating": 4.6,
+      "rank": 16,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "17 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FH61WJV8",
+      "image_url": "https://m.media-amazon.com/images/I/71VDYPXcaGL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "pirate decorations",
+      "festival_event": "海盗说话日",
+      "festival_icon": "🏴‍☠️",
+      "festival_deadline": "2026-08-03",
+      "is_event": false,
+      "sources": [
+        "📅 海盗说话日",
+        "Etsy趋势",
+        "Temu热销"
+      ],
+      "profit_margin": 0.302,
+      "net_profit": 2.62,
+      "cost_breakdown": {
+        "vat": 1.45,
+        "commission": 1.3,
+        "fba": 1.46,
+        "ads": 0.87,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 6.04
+      },
+      "off_season": false,
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "medium",
+      "signal_label": "🟠 中信号",
+      "external_sources": [
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 93,
+      "score_breakdown": {
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🟠 中信号": 10,
+        "📈 趋势(eco)": 8,
+        "🌊 蓝海": 15,
+        "⭐ 高评分": 5,
+        "💰 高利润": 8,
+        "❓ 品类存疑": -5,
+        "📊 持续上升": 8
+      },
+      "stars": 4,
+      "is_new": false,
+      "first_seen": "2026-07-24",
+      "is_multi": true,
+      "channel_tags": [
+        "keyword_search",
+        "multi_source",
+        "temu_trending",
+        "etsy_trending"
+      ]
+    },
+    {
+      "asin": "B0FPBG3FQ4",
+      "name": "LIQWEI 2 Pack Natural Fish Net Decorations for Party, Under The Sea Pirate | Nautical Themed Cotton Fishnet, Under The S",
+      "price": 6.99,
+      "reviews": 14,
+      "rating": 4.0,
+      "rank": 47,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "14 reviews, 4.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FPBG3FQ4",
+      "image_url": "https://m.media-amazon.com/images/I/71ov4ZUM5-L._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "pirate decorations",
+      "festival_event": "海盗说话日",
+      "festival_icon": "🏴‍☠️",
+      "festival_deadline": "2026-08-03",
+      "is_event": false,
+      "sources": [
+        "📅 海盗说话日",
+        "Etsy趋势",
+        "Temu热销"
+      ],
+      "profit_margin": 0.24,
+      "net_profit": 1.68,
+      "cost_breakdown": {
+        "vat": 1.17,
+        "commission": 1.05,
+        "fba": 1.46,
+        "ads": 0.7,
+        "returns": 0.14,
+        "sourcing": 0.8,
+        "total_cost": 5.31
+      },
+      "off_season": false,
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "medium",
+      "signal_label": "🟠 中信号",
+      "external_sources": [
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 90,
+      "score_breakdown": {
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🟠 中信号": 10,
+        "📈 趋势(eco)": 8,
+        "🌊 蓝海": 15,
+        "❓ 品类存疑": -5,
+        "📈 排名上升": 10,
+        "📊 持续上升": 8
+      },
+      "stars": 4,
+      "is_new": false,
+      "first_seen": "2026-07-24",
+      "is_multi": true,
+      "channel_tags": [
+        "keyword_search",
+        "multi_source",
+        "temu_trending",
+        "etsy_trending"
+      ]
+    },
+    {
+      "asin": "B0BB1KXF1J",
+      "name": "WUERKIYA Pirate Treasure Map Backdrop Island Treasure Map Banner Nautical Tapestry Hanging Decoration for Treasure Hunt ",
+      "price": 7.24,
+      "reviews": 29,
+      "rating": 4.6,
+      "rank": 20,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "29 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0BB1KXF1J",
+      "image_url": "https://m.media-amazon.com/images/I/918GCnrRN5L._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "pirate decorations",
+      "festival_event": "海盗说话日",
+      "festival_icon": "🏴‍☠️",
+      "festival_deadline": "2026-08-03",
+      "is_event": false,
+      "sources": [
+        "📅 海盗说话日",
+        "Etsy趋势",
+        "Temu热销"
+      ],
+      "profit_margin": 0.251,
+      "net_profit": 1.82,
+      "cost_breakdown": {
+        "vat": 1.21,
+        "commission": 1.09,
+        "fba": 1.46,
+        "ads": 0.72,
+        "returns": 0.14,
+        "sourcing": 0.8,
+        "total_cost": 5.42
+      },
+      "off_season": false,
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "medium",
+      "signal_label": "🟠 中信号",
+      "external_sources": [
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 76,
+      "score_breakdown": {
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🟠 中信号": 10,
+        "📈 趋势(eco)": 8,
+        "🟢 低竞争": 10,
+        "⭐ 高评分": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5
+      },
+      "stars": 3,
+      "is_new": false,
+      "first_seen": "2026-07-24",
+      "is_multi": true,
+      "channel_tags": [
+        "keyword_search",
+        "multi_source",
+        "temu_trending",
+        "etsy_trending"
+      ]
+    },
+    {
+      "asin": "B0FG2GB718",
+      "name": "Sponsored Ad – Apple Cider Scalp Scrub, 2-in-1 AHA & BHA Exfoliator and Scalp Treatment, Detoxifying Purifying Scrub,wit",
+      "price": 8.32,
+      "reviews": 61,
+      "rating": 4.1,
+      "rank": 19,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "61 reviews, 4.1★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FG2GB718",
+      "image_url": "https://m.media-amazon.com/images/I/713nJ7TQK7L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "silicone scalp massager, shampoo brush for hair growth, scalp massager 2 pack, hair scalp massager brush, silicone shampoo brush for scalp, head massager for shower, scalp scrubber for dandruff, hair scrubber for wet dry hair, exfoliating scalp brush, silicone hair massager for hair loss",
+      "sources": [
+        "趋势发现"
+      ],
+      "profit_margin": 0.291,
+      "net_profit": 2.42,
+      "cost_breakdown": {
+        "vat": 1.39,
+        "commission": 1.25,
+        "fba": 1.46,
+        "ads": 0.83,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 5.9
+      },
+      "off_season": false,
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": 14,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🟡 中等竞争": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-07-30",
+      "is_event": false,
+      "channel_tags": [
+        "keyword_search"
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "keyword": "crafts",
+      "category": "crafts",
+      "heat": 100,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "craft",
+        "tape",
+        "art"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "craft knife",
+        "craft supplies",
+        "DIY craft kit",
+        "washi tape",
+        "decorative tape",
+        "masking tape",
+        "art supplies",
+        "paint set"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=craft+knife",
+      "url_google": "https://trends.google.com/trends/explore?q=craft+knife&geo=GB"
+    },
+    {
+      "keyword": "garden",
+      "category": "garden",
+      "heat": 75,
+      "score": 70,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "flower",
+        "garden",
+        "outdoor"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "flower",
+        "garden tool set",
+        "garden light",
+        "garden decor",
+        "outdoor"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 75,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=flower",
+      "url_google": "https://trends.google.com/trends/explore?q=flower&geo=GB"
+    },
+    {
+      "keyword": "seasonal",
+      "category": "seasonal",
+      "heat": 75,
+      "score": 70,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "gift"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "gift ideas",
+        "gift set",
+        "gift box"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 75,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=gift+ideas",
+      "url_google": "https://trends.google.com/trends/explore?q=gift+ideas&geo=GB"
+    },
+    {
+      "keyword": "car",
+      "category": "car",
+      "heat": 65,
+      "score": 66,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "car"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "car accessories",
+        "car organizer",
+        "car phone holder"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 65,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=car+accessories",
+      "url_google": "https://trends.google.com/trends/explore?q=car+accessories&geo=GB"
+    },
+    {
+      "keyword": "office",
+      "category": "office",
+      "heat": 65,
+      "score": 66,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "office",
+        "desk",
+        "pen"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "office supplies",
+        "desk organizer",
+        "pen holder",
+        "desk lamp",
+        "desk mat",
+        "pen set",
+        "fountain pen"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 65,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=office+supplies",
+      "url_google": "https://trends.google.com/trends/explore?q=office+supplies&geo=GB"
+    },
+    {
+      "keyword": "eco",
+      "category": "eco",
+      "heat": 65,
+      "score": 66,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "eco"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "eco products",
+        "reusable bag",
+        "bamboo products"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 65,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=eco+products",
+      "url_google": "https://trends.google.com/trends/explore?q=eco+products&geo=GB"
+    },
+    {
+      "keyword": "beauty",
+      "category": "beauty",
+      "heat": 50,
+      "score": 46,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "skincare",
+        "hair"
+      ],
+      "is_cross_validated": false,
+      "cross_sources": 0,
+      "suggestions": [
+        "face roller",
+        "gua sha",
+        "face mask",
+        "hair clip",
+        "hair accessories",
+        "hair band",
+        "hair tie"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 50,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=face+roller",
+      "url_google": "https://trends.google.com/trends/explore?q=face+roller&geo=GB"
+    },
+    {
+      "keyword": "home decor",
+      "category": "home decor",
+      "heat": 50,
+      "score": 46,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "decor",
+        "frame",
+        "wall art"
+      ],
+      "is_cross_validated": false,
+      "cross_sources": 0,
+      "suggestions": [
+        "home decor",
+        "room decor",
+        "table decor",
+        "photo frame",
+        "picture frame",
+        "wall frame",
+        "wall art print",
+        "wall hanging"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 50,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=home+decor",
+      "url_google": "https://trends.google.com/trends/explore?q=home+decor&geo=GB"
+    },
+    {
+      "keyword": "lighting",
+      "category": "lighting",
+      "heat": 50,
+      "score": 46,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "lamp",
+        "light",
+        "led"
+      ],
+      "is_cross_validated": false,
+      "cross_sources": 0,
+      "suggestions": [
+        "desk lamp",
+        "night light",
+        "table lamp",
+        "LED light",
+        "fairy lights",
+        "string lights",
+        "LED bulb",
+        "LED panel"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 50,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=desk+lamp",
+      "url_google": "https://trends.google.com/trends/explore?q=desk+lamp&geo=GB"
+    },
+    {
+      "keyword": "phone",
+      "category": "phone",
+      "heat": 50,
+      "score": 46,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "ring light",
+        "charger",
+        "earbuds",
+        "phone",
+        "case"
+      ],
+      "is_cross_validated": false,
+      "cross_sources": 0,
+      "suggestions": [
+        "ring light",
+        "phone charger",
+        "wireless charger",
+        "car charger",
+        "earbuds case",
+        "wireless earbuds",
+        "phone case",
+        "phone holder"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 50,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=ring+light",
+      "url_google": "https://trends.google.com/trends/explore?q=ring+light&geo=GB"
+    }
+  ],
+  "trend_summary": {
+    "top_categories": [
+      [
+        "crafts",
+        100
+      ],
+      [
+        "pets",
+        100
+      ],
+      [
+        "kitchen",
+        95
+      ],
+      [
+        "garden",
+        75
+      ],
+      [
+        "seasonal",
+        75
+      ],
+      [
+        "car",
+        65
+      ]
+    ],
+    "cross_validated": [
+      "kitchen",
+      "garden",
+      "car",
+      "seasonal",
+      "office",
+      "eco",
+      "crafts",
+      "pets"
+    ],
+    "demand_keywords": [
+      "best item you have bought",
+      "discover the",
+      "dollar oysters",
+      "pink cardigan",
+      "recommend some cool stuff from",
+      "right now on",
+      "scalloped knit tank",
+      "stay ahead with insights into",
+      "temu products selling on amazon",
+      "the best"
+    ],
+    "season": "summer",
+    "sources_scanned": [
+      "tiktok",
+      "temu",
+      "etsy",
+      "market_intel"
+    ]
+  }
+}
