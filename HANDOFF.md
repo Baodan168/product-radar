@@ -41,6 +41,38 @@
 
 ---
 
+## 启动提示词（在生产机上开新会话时，把下面整段贴进去）
+
+```
+先读 CLAUDE.md、HANDOFF.md、DEPLOY-CHECKLIST.md 三份文档，再动手。
+
+第一件事：python3 tools/preflight.py --fetch
+把结论原样告诉我。有阻塞项就按它给的修法修掉，修完重跑到绿。
+其中「restock_pipeline.sh 缺脱敏调用」这一项，直接在
+~/product-analysis/restock_pipeline.sh 里补上 python3 desensitize_analysis.py
+（位置：cp 产物之后、git push 之前）。
+
+preflight 全绿之后，按 DEPLOY-CHECKLIST.md 的阶段 2→3→4 做：
+合并 claude/oa-portal-ui-upgrade-ts4zrf 到 main、推送、
+手动跑一次 bash cron_scan.sh、补跑 python3 generate_portal.py、
+跑 pytest 确认 123 项全绿，然后把线上七项验收逐条检查并报告结果。
+
+之后如果还有时间，处理这三笔上游债（都在 ~/product-analysis/，
+以前因为不在仓库里所以够不到）：
+1. 详情页模板里未替换的字面量 {fba_days}（影响 16 个页面）
+2. 列表页 <header class="hero"> 末尾多一个 </div>
+3. 让脱敏成为管道里的固定一步，而不是靠人记得跑
+
+**这几件事必须先问我，不要自己做：**
+- 部署 Cloudflare Worker、设 Secret、改 config.json 的 kanban_sync.endpoint
+- 吊销任何凭据
+- 动 crontab
+- 新建板块（结构改动，先出方案 —— 广告板块的方案已经在 PROPOSAL-ads-module.md）
+
+hermes 的定时任务在 08:00 / 08:40 / 09:10 / 14:00，避开这几个时间点操作，
+或者先跟我确认要不要临时停 cron。
+```
+
 ## 写给 Claude Code 自己的约束
 
 - **不要提交 `output/index.html`、`output/platform.html`、`output/data/*.js`** 的重新生成结果 —— 那是 hermes 每次 cron 都会改的文件，提交它们必然制造冲突。改生成器和模板就够了，产物让 hermes（或将来的 CI）产。

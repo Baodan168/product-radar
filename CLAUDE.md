@@ -43,6 +43,7 @@ python3 -m http.server 8080    # 访问 http://localhost:8080/output/
 | `scanner.py` | 产品过滤规则（⚠️ is_forbidden()返回False非元组） |
 | `generate_platform.py` | 选品平台生成器 V6（薄壳，模板见 templates/platform.html） |
 | `generate_portal.py` | 门户生成器 V4（薄壳，配置见 oa/config.py） |
+| `tools/preflight.py` | **部署前体检（只读，一条命令出结论）** |
 | `tools/snapshot.py` | 视觉回归截图（改样式前后各跑一次） |
 | `tools/skinpreview.py` | 换肤方向对比（不改主题表就能预览） |
 | `calc_profit.py` | 利润计算 |

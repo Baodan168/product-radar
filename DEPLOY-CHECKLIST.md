@@ -23,27 +23,26 @@ git pull --rebase --autostash origin main 2>/dev/null || git merge --ff-only ori
 
 ---
 
-# 阶段 0 · 摸底（5 分钟，不改任何东西）
+# 阶段 0 · 体检（1 条命令，只读）
 
 ```bash
 cd /home/lee/product-radar
-git stash list                    # ① 积了多少层
-git status --short                # ② 有哪些本地改动
-git log --oneline -3              # ③ 本机在哪个 commit
-ls -t logs/cron_*.log | head -1 | xargs tail -30    # ④ 上次 cron 跑得怎么样
+python3 tools/preflight.py --fetch
 ```
 
-**判断：**
+它把原来那张判断表做成了脚本：环境、git 状态、stash 积压、产物新鲜度、
+脱敏门禁、123 项测试、补货管道有没有脱敏、上次 cron 成功没有 —— 一次跑完，
+最后给一行结论。**退出码 0 = 可以往下走，1 = 有阻塞项。**
 
-| 看到什么 | 意味着 | 怎么办 |
-|---|---|---|
-| ① 有若干条 `auto-scan-pre-sync` | 正常，`cron_scan.sh:11` 每次 push 但从不 pop | 确认都是自动产物快照后 `git stash clear` |
-| ② 只有 `output/` 下的文件 | 正常，是 cron 重新生成的产物 | 不用管，阶段 2 会被覆盖 |
-| ② 有你自己手改过的文件 | **停下** | 先 `git diff <文件>` 看清楚，单独备份出来 |
-| ③ 不是 `e13808b` | 本机领先于我看到的 main | 把 `git log --oneline -5` 发我，我重新判断 |
-| ④ 有 `❌` 或 Step 0 报错 | 同步早就有问题了 | **先解决这个再合并**，把日志发我 |
+阻塞项会直接告诉你怎么修。其中两项最要紧：
 
-> 这一步只看不动。结果决定后面走哪条路。
+| 阻塞项 | 为什么要紧 |
+|---|---|
+| `output/*.html` 比源文件旧 | 这就是「旧 markup + 新 CSS」混合体的成因 |
+| `restock_pipeline.sh` 里没有 `desensitize_analysis.py` | 下个周一/四会让 `--check` 门禁**拦下整个部署**，而失败只在 Actions 里可见 |
+
+> 这一步只读，不改任何东西。结论决定后面走哪条路。
+> 有阻塞项就先修，修完重跑到绿再进阶段 1。
 
 ---
 
