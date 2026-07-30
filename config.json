@@ -145,7 +145,21 @@
     "vacuum",
     "seat",
     "scratch",
-    "remover"
+    "remover",
+    "scalp",
+    "exfoliator",
+    "body lotion",
+    "hand cream",
+    "face cream",
+    "nail polish",
+    "cuticle",
+    "hair mask",
+    "hair treatment",
+    "hair oil",
+    "styling cream",
+    "styling gel",
+    "styling wax",
+    "beauty"
   ],
   "sources": {
     "amazon_uk": {
