@@ -6,10 +6,13 @@ set -a; source /home/lee/.hermes/.env; set +a
 set -e
 cd "$(dirname "$0")"
 
-# Step 0: 同步代码到 GitHub 最新（安全方式，保留本地产物）
+# Step 0: 同步代码到 GitHub 最新（autostash 自动保存并恢复未提交改动，冲突时保留stash并报警）
 git fetch origin
-git stash push -m "auto-scan-pre-sync" 2>/dev/null || true
-git pull --rebase --autostash origin main 2>/dev/null || git merge --ff-only origin/main 2>/dev/null || true
+git pull --rebase --autostash origin main 2>&1 || git merge --ff-only origin/main 2>&1 || true
+# 冲突检测：rebase 后 autostash 未能自动恢复时报警（改动保留在 refs/autostash，不会静默丢失）
+if git rev-parse --verify refs/autostash >/dev/null 2>&1; then
+    echo "⚠️ 警告: 扫描前未提交改动未自动恢复(autostash冲突), 请运行 git stash pop 处理" >&2
+fi
 
 # All detail goes to log file; cron only sees the one-line result
 LOG="$PWD/logs/cron_$(date '+%Y%m%d_%H%M%S').log"
