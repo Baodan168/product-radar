@@ -34,12 +34,15 @@ def _norm_weight(text):
     """'220 g' / '0.2 kg' / '7.05 oz' / '0.44 lb' → 克数；无数据返回 None"""
     if not text:
         return None
-    m = re.search(r"(\d+(?:\.\d+)?)\s*(g|kg|oz|lb|ounces?|pounds?)", text, re.I)
+    m = re.search(
+        r"(\d+(?:\.\d+)?)\s*(kilograms?|kilos?|kg|grams?|g|ounces?|oz|pounds?|lb)\b",
+        text, re.I,
+    )
     if not m:
         return None
     val = float(m.group(1))
     unit = m.group(2).lower()
-    if unit == "kg":
+    if unit in ("kg", "kilogram", "kilograms", "kilo", "kilos"):
         return val * 1000
     if unit in ("oz", "ounce", "ounces"):
         return val * 28.35
