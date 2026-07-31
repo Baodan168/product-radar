@@ -243,13 +243,20 @@ def check_last_cron(on_prod):
     latest = logs[0]
     age_h = (time.time() - latest.stat().st_mtime) / 3600
     text = latest.read_text(encoding='utf-8', errors='replace')
-    failed = '❌' in text
-    if failed:
-        bad = [l for l in text.splitlines() if '❌' in l or '⚠️' in l]
+    # 只有管线级失败才算失败。扫描器给每个被淘汰的产品也打 ❌
+    # （"❌ <标题> → 包装尺寸 60x50x0cm (限30x21x6cm)"），一次扫描能有几十条，
+    # 那是过滤器在干正事。区分靠缩进：cron_scan.sh 的失败 echo 顶格，
+    # 产品淘汰记录由 run_scan_v2.py 缩进打印。
+    hard = [l for l in text.splitlines() if l.startswith('❌')]
+    if hard:
         note(BLOCK, f'上次 cron 有失败（{latest.name}，{age_h:.1f} 小时前）',
-             '\n'.join(bad[:8]) + '\n合并前先解决这个 —— 同步失败会导致用旧代码生成。')
+             '\n'.join(hard[:8]) + '\n合并前先解决这个 —— 同步失败会导致用旧代码生成。')
         return True
     note(OK, f'上次 cron 正常（{latest.name}，{age_h:.1f} 小时前）')
+    # 降级告警（BSR 抓取、平台/门户生成）不阻塞，但值得看一眼
+    soft = [l.strip() for l in text.splitlines() if '⚠️' in l]
+    if soft:
+        note(INFO, f'有 {len(soft)} 条降级告警（不阻塞）', '\n'.join(soft[:5]))
     if age_h > 30:
         note(WARN, f'但已经 {age_h:.0f} 小时没跑了', '确认 crontab 还在生效')
     return False
