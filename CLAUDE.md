@@ -53,7 +53,7 @@ python3 -m http.server 8080    # 访问 http://localhost:8080/output/
 | `oa/desensitize.py` | 补货页发布边界脱敏（毛利率/销量→档位标签） |
 | `desensitize_analysis.py` | 脱敏 CLI（`--check` 供 CI 用） |
 | `cloudflare-worker.js` | 抓取代理 + 看板同步代理（Token 存 Worker Secret） |
-| `tests/` | pytest 回归（123 项） |
+| `tests/` | pytest 回归（162 项） |
 | `data/channels/` | 扫描数据（产品JSON） |
 | `data/discovery/` | 趋势发现数据 |
 | `output/` | 生成的 HTML |
@@ -132,7 +132,9 @@ python3 desensitize_analysis.py     # ← 必须！否则毛利率会重新出�
 
 ## 当前状态
 
-- 3+1 混合架构已跑通；**门户重构与 UI 升级尚未部署**（都在 claude/oa-portal-ui-upgrade-ts4zrf，main 未动）
+- 3+1 混合架构已跑通；**门户重构已落地 `main`**（含补货页脱敏 + `update.yml` 门禁）
+- **UI 升级还压在 `claude/oa-portal-ui-upgrade-ts4zrf`**，`main` 未合。线上侧栏仍是深色 `#1a1a2e`，
+  合并后才会变成 v6「暖石灰」。分支已并入最新 main，合过去是零冲突快进
 - **唯一功能缺口：广告异常监控板块未建**（见 ARCHITECTURE.md §4.4 + PROPOSAL-ads-module.md）
 - 距离交付团队还缺什么：见 **ARCHITECTURE.md §13**（不用每次重新盘）
 - 选品平台 V6，门户 V4，设计系统 **v6「暖石灰」**（分支 claude/oa-portal-ui-upgrade-ts4zrf）

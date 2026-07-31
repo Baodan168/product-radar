@@ -10,15 +10,11 @@
 ## 先理解一件事：为什么不能让 09:10 的 cron 当第一次验证
 
 `cron_scan.sh` 开头会 `git pull` 同步代码，所以**不会出现「hermes 用旧样子覆盖」**——
-这一层是设计好的。但那三行每一步都带 `2>/dev/null || true`：
+这一层是设计好的。Step 0 已经修过一轮（去掉了吞错误的 `2>/dev/null`，改 autostash 并在
+恢复失败时报警），比以前可靠得多。
 
-```bash
-git fetch origin
-git stash push -m "auto-scan-pre-sync" 2>/dev/null || true
-git pull --rebase --autostash origin main 2>/dev/null || git merge --ff-only origin/main 2>/dev/null || true
-```
-
-万一同步没成功，脚本会**继续用旧代码生成并推上去**，而 cron 只给你一行摘要，看不出来。
+但兜底那句 `|| true` 还在：万一 `pull` 和 `merge --ff-only` 都没成，脚本会
+**继续用旧代码生成并推上去**，而 cron 只给你一行摘要，看不出来。
 所以：**选一个你能盯着的时间合并，然后手动跑一遍完整链路。**
 
 ---
@@ -27,11 +23,13 @@ git pull --rebase --autostash origin main 2>/dev/null || git merge --ff-only ori
 
 ```bash
 cd /home/lee/product-radar
+git fetch origin
+git checkout claude/oa-portal-ui-upgrade-ts4zrf   # preflight.py 只在这个分支上，main 没有
 python3 tools/preflight.py --fetch
 ```
 
 它把原来那张判断表做成了脚本：环境、git 状态、stash 积压、产物新鲜度、
-脱敏门禁、123 项测试、补货管道有没有脱敏、上次 cron 成功没有 —— 一次跑完，
+脱敏门禁、162 项测试、补货管道有没有脱敏、上次 cron 成功没有 —— 一次跑完，
 最后给一行结论。**退出码 0 = 可以往下走，1 = 有阻塞项。**
 
 阻塞项会直接告诉你怎么修。其中两项最要紧：
@@ -101,7 +99,7 @@ ls -t logs/cron_*.log | head -1 | xargs tail -40
 
 ```bash
 python3 generate_portal.py        # ⚠️ cron_scan.sh 不含这步，必须手动补
-python3 -m pytest tests/ -q       # 应该 123 passed
+python3 -m pytest tests/ -q       # 应该 162 passed
 ```
 
 > `output/assets/portal.js` 由 `generate_portal.py` 同步，`cron_scan.sh` 不跑它。

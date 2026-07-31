@@ -1,129 +1,120 @@
-# 交接：Claude Code ↔ hermes agent
+# 交接：给生产机上的 Claude Code
 
 > **在这个仓库里工作的 agent，开工前先读这里。**
-> Claude Code 在临时容器里跑、只能推分支；hermes 在公司电脑上跑、直推 `main`。
-> 两边看不到对方的终端，这个文件是唯一的交接点。
->
-> 边界怎么划的、为什么这么划 → [`PROPOSAL-agent-collab.md`](./PROPOSAL-agent-collab.md)（待确认）
-> 最后更新：2026-07-26 by Claude Code
+> 最后更新：2026-07-31 by Claude Code（云端会话）
+
+现在这个项目有三个执行者，各自能碰到什么不一样：
+
+| 执行者 | 在哪 | 能碰到什么 | 推哪 |
+|--------|------|-----------|------|
+| **hermes** | 公司电脑，后台 cron，飞书交互 | 全部（凭据/ERP 导出/crontab） | 直推 `main`（产物+数据） |
+| **生产机 Claude Code** | 同一台电脑的 WSL 终端 | 全部，含 `~/product-analysis/` 等仓库外源码 | 分支 → 合 `main` |
+| **云端 Claude Code** | 临时容器 | 只有本仓库的代码 | 只推分支 |
 
 ---
 
-## 当前状态：有一批未部署的升级压在分支上
+## 一、现在的状态（2026-07-31）
 
-`main` 停在 `e13808b`。两轮工作全在 `claude/oa-portal-ui-upgrade-ts4zrf`：
+`main` 已经有了：门户重构（D1–D11）、补货页脱敏、`update.yml` 的 `--check` 门禁。
+最近 8 次 Actions 全绿，公开页上的毛利率已经是「达标 / 偏低」档位标签，不是数字了。
 
-- 门户重构（D1–D11）—— 今日概览、iframe 健康探针、看板 Worker 代理、补货页脱敏
-- 前端 UI 升级（D12–D15）—— 设计系统 v5 → v6「暖石灰」，密度与版式
+**还差最后一层：前端 UI 升级。** 全部在分支 `claude/oa-portal-ui-upgrade-ts4zrf`：
 
-线上 Pages 仍是重构前的版本。123 项 pytest 全绿，`desensitize_analysis.py --check` 通过。
+- 设计系统 v5 → **v6「暖石灰」**（D12–D15）：侧栏从近黑 `#1a1a2e` 改成浅面板 `#f1efeb`，
+  三层平面靠明度分层，全站无深色块
+- 收编 76 处散在 `:root` 外的硬编码颜色，顺带修好 5 处被批量替换弄坏的值
+  （`var(--oa-surface)7ed` 这种，当时静默干掉了节日 Tab 的标签底色）
+- 信息密度：门户加顶部六格指标条；补货表首屏 17 行 → 27 行；平台首屏洞察卡 2.2 → 3.5 张
+- 4 条新测试守住「改令牌就能换肤」这个前提（这前提以前是假的，见 D13）
+- 新增 `tools/preflight.py`（部署前只读体检）、`tools/skinpreview.py`（换肤预览）
 
----
-
-## 待 hermes 执行
-
-> 这些都要**等负责人确认合并之后**再做。合并前 hermes 照常跑，不受影响。
-
-- [ ] **合并落地后，手动跑一次 `python3 generate_portal.py`**
-      `cron_scan.sh` 不含这一步，而 `output/assets/portal.js` 由它同步。不跑的话那个文件会一直是旧的。
-- [ ] **清 stash 积压**：`git stash list`。`cron_scan.sh:11` 每次跑都 `git stash push` 但从不 pop，栈里大概积了不少。确认都是自动生成的产物快照后 `git stash clear`。
-- [ ] **确认 `restock_pipeline.sh`（在 `~/product-analysis/`）里有 `python3 desensitize_analysis.py`**
-      没有的话补上。否则下次补货管道会把未脱敏的 HTML 推到 `main`，`update.yml` 的 `--check` 门禁会拦下**整个部署** —— 站点那天完全不更新，而失败只在 GitHub Actions 里可见，不在 cron 摘要里。
-      `oa/desensitize.py` 幂等（D10），多跑一次无副作用。
-
-## 待人工确认（Claude Code 和 hermes 都做不到）
-
-- [ ] **合并到 `main`** —— 往公开站点发布，需要负责人拍板。步骤见 [`DEPLOY-CHECKLIST.md`](./DEPLOY-CHECKLIST.md)
-- [ ] **部署 Cloudflare Worker + 填 `config.json` 的 `kanban_sync.endpoint`**
-      不做的话选品看板的状态只存各人浏览器，A 同事标的「值得做」B 同事看不到。步骤见 DESIGN-DECISIONS「部署清单」
-- [ ] **吊销旧 GitHub Token** —— 它曾暴露在浏览器 `localStorage` 里，删代码不等于凭据失效
-- [ ] **决定广告板块的数据源与脱敏口径** —— 见 [`PROPOSAL-ads-module.md`](./PROPOSAL-ads-module.md) 末尾四个问题
+分支已经并入最新 `main`（含 verify_status、套装正则、`{fba_days}` 修复那批），
+**合过去是零冲突快进，162 项 pytest 全绿，`desensitize_analysis.py --check` 通过。**
 
 ---
 
-## 怎么驱动生产机上的工作
-
-负责人平时不开 WSL 前台，hermes 在后台跑、通过**飞书**交互。所以驱动方式按优先级是：
-
-| 方式 | 什么时候用 | 需要什么 |
-|------|-----------|---------|
-| **① 飞书让 hermes 干** | 日常首选。跑体检、部署、跑生成器 | 什么都不用装 |
-| ② 生产机上的 Claude Code | 要改 `~/product-analysis/` 那些没进 GitHub 的源码时 | 装 CLI + 开一次终端 |
-| ③ Claude Code 云端会话 | 改本仓库的代码 | 已在用，但碰不到生产机 |
-
-### ① 飞书发给 hermes 的消息（复制即用）
-
-**第一条 —— 只体检，不动任何东西：**
+## 二、生产机 Claude Code 的启动提示词（整段贴进终端）
 
 ```
-读 /home/lee/product-radar/HANDOFF.md 和 DEPLOY-CHECKLIST.md，
-然后在 /home/lee/product-radar 下跑：
+先读这三份再动手：CLAUDE.md、HANDOFF.md、DEPLOY-CHECKLIST.md。
 
+第一件事，只读体检：
+  cd /home/lee/product-radar
+  git fetch origin
+  git checkout claude/oa-portal-ui-upgrade-ts4zrf
   python3 tools/preflight.py --fetch
 
-把完整输出发我。这个脚本是只读的，不改任何东西。
-如果有阻塞项，先别修，等我确认。
-```
+把结论原样发我。有阻塞项就按它给的修法修，修完重跑到绿。
+（preflight.py 只在这个分支上，main 上没有，所以要先 checkout。）
 
-**第二条 —— 看过体检结果、确认要部署之后再发：**
+绿了之后按 DEPLOY-CHECKLIST.md 的阶段 2→3→4 走：
+  1. 合并 claude/oa-portal-ui-upgrade-ts4zrf 到 main 并推送
+  2. 去 Actions 确认 Deploy Product Radar 是绿的
+  3. bash cron_scan.sh 跑一次完整链路，日志最后 40 行发我
+  4. python3 generate_portal.py（cron_scan.sh 不含这步，必须手动补）
+  5. python3 -m pytest tests/ -q，应该 162 passed
+  6. 逐条走线上七项验收，结果发我
 
-```
-在 /home/lee/product-radar 下按 DEPLOY-CHECKLIST.md 做：
-
-1. 如果 preflight 有阻塞项，按它给的修法修掉，重跑到绿
-2. 合并 claude/oa-portal-ui-upgrade-ts4zrf 到 main 并推送
-3. 等 3 分钟，确认 GitHub Actions 的 Deploy Product Radar 是绿的
-4. 手动跑 bash cron_scan.sh，把日志最后 40 行发我
-5. 跑 python3 generate_portal.py（cron_scan.sh 不含这步）
-6. 跑 python3 -m pytest tests/ -q，确认 123 项全绿
-
-不要动 crontab，不要碰任何凭据，不要改 config.json。
-做完把每一步的结果发我。
-```
-
-> 部署的其余部分不需要机器：合并可以在 GitHub 网页上点，
-> 线上七项验收就是用浏览器打开看。所以整个部署可以做到**一次终端都不用开**。
-
-## 启动提示词（如果在生产机上开 Claude Code 会话，把下面整段贴进去）
-
-```
-先读 CLAUDE.md、HANDOFF.md、DEPLOY-CHECKLIST.md 三份文档，再动手。
-
-第一件事：python3 tools/preflight.py --fetch
-把结论原样告诉我。有阻塞项就按它给的修法修掉，修完重跑到绿。
-其中「restock_pipeline.sh 缺脱敏调用」这一项，直接在
-~/product-analysis/restock_pipeline.sh 里补上 python3 desensitize_analysis.py
-（位置：cp 产物之后、git push 之前）。
-
-preflight 全绿之后，按 DEPLOY-CHECKLIST.md 的阶段 2→3→4 做：
-合并 claude/oa-portal-ui-upgrade-ts4zrf 到 main、推送、
-手动跑一次 bash cron_scan.sh、补跑 python3 generate_portal.py、
-跑 pytest 确认 123 项全绿，然后把线上七项验收逐条检查并报告结果。
-
-之后如果还有时间，处理这三笔上游债（都在 ~/product-analysis/，
-以前因为不在仓库里所以够不到）：
-1. 详情页模板里未替换的字面量 {fba_days}（影响 16 个页面）
-2. 列表页 <header class="hero"> 末尾多一个 </div>
-3. 让脱敏成为管道里的固定一步，而不是靠人记得跑
-
-**这几件事必须先问我，不要自己做：**
+这几件事必须先问我，不要自己做：
 - 部署 Cloudflare Worker、设 Secret、改 config.json 的 kanban_sync.endpoint
 - 吊销任何凭据
 - 动 crontab
-- 新建板块（结构改动，先出方案 —— 广告板块的方案已经在 PROPOSAL-ads-module.md）
+- 新建板块（结构改动先出方案 —— 广告板块方案已在 PROPOSAL-ads-module.md）
 
-hermes 的定时任务在 08:00 / 08:40 / 09:10 / 14:00，避开这几个时间点操作，
-或者先跟我确认要不要临时停 cron。
+hermes 的定时任务在 08:00 / 08:40 / 09:10 / 14:00，避开这几个点操作。
 ```
 
-## 写给 Claude Code 自己的约束
+## 三、或者，一次终端都不用开
 
-- **不要提交 `output/index.html`、`output/platform.html`、`output/data/*.js`** 的重新生成结果 —— 那是 hermes 每次 cron 都会改的文件，提交它们必然制造冲突。改生成器和模板就够了，产物让 hermes（或将来的 CI）产。
-- **不要提交 `output/analysis/*.html`** —— 那批文件来自仓库外的 product-analysis，下次补货管道一跑就被覆盖。脱敏要放进管道，不是一次性提交。
-  ⚠️ 本轮已经违反了这条（提交了 47 个脱敏后的文件），处理办法见 PROPOSAL-agent-collab.md 末节。
-- **永不直推 `main`** —— hermes 靠 `main` 同步代码，直推会让它在不知情的情况下换掉运行中的代码。
+合并可以在 GitHub 网页上点 PR，线上七项验收就是用浏览器打开看。
+只有「跑一次 `cron_scan.sh` 验证完整链路」需要机器，那一步可以飞书让 hermes 干：
 
-## 写给 hermes 的约束
+```
+在 /home/lee/product-radar 下：
+1. git fetch origin && git checkout main && git pull origin main
+2. bash cron_scan.sh，把日志最后 40 行发我
+3. python3 generate_portal.py
+4. python3 -m pytest tests/ -q
+不要动 crontab，不要碰凭据，不要改 config.json。
+```
 
-- **代码改动不要直接提交到 `main`** —— 走分支，让 Claude Code 或负责人 review。`main` 目前既是部署分支又是 hermes 的代码来源，直接改代码会绕过所有测试门禁。
-- **产物和数据照常直推 `main`**，这是设计好的（`github_api_push.py`）。
+---
+
+## 四、合并之后还剩什么
+
+| 优先级 | 事项 | 卡在谁 |
+|---|---|---|
+| 1 | 部署 Cloudflare Worker + 填 `config.json` 的 `kanban_sync.endpoint`。不做的话选品看板只存各人浏览器，A 标的「值得做」B 看不到 | 负责人（部署 Worker + 设 Secret） |
+| 2 | 吊销旧 GitHub Token —— 它曾暴露在浏览器 `localStorage` 里，删代码不等于凭据失效 | 负责人（GitHub 后台） |
+| 3 | 确认 `~/product-analysis/restock_pipeline.sh` 里有 `python3 desensitize_analysis.py` | 生产机 Claude Code |
+| 4 | 写团队使用文档（「达标/偏低是什么意思」「可售天数怎么算」现在没地方查） | Claude 写初稿，负责人补业务口径 |
+| 5 | 广告异常监控板块 —— 唯一的功能缺口 | 负责人先定 PROPOSAL-ads-module.md 末尾四个问题，尤其**公开页怎么处理花费和 ACOS** |
+| 6 | 协作边界重构：把 `output/*.html` 的生成挪进 CI，让两边零重叠。见 PROPOSAL-agent-collab.md | 不着急，等这次部署稳了 |
+
+第 3 项的因果链值得记住：`restock_pipeline.sh` 在仓库外，`cp` 完产物就 git push。
+里面没有脱敏调用的话，未脱敏 HTML 会推上 `main`，`update.yml` 的 `--check` 会**拦下整个部署** ——
+站点那天完全不更新，而失败只在 Actions 里可见，不在 cron 摘要里。
+`oa/desensitize.py` 幂等（D10），补上去多跑一次没副作用。
+
+---
+
+## 五、三方各自的红线
+
+**云端 Claude Code**
+- 不提交 `output/index.html`、`output/platform.html`、`output/data/*.js` 的重新生成结果 ——
+  那是 hermes 每次 cron 都会改的文件。**唯一例外是合并冲突**：产物必须是
+  「合并后的代码 + 合并后的数据」的函数，这时候正确解法是重新生成，不是手挑冲突标记
+- 不提交 `output/analysis/*.html` —— 那批归补货管道所有，本轮已把分支上多持有的那些退回 `main` 版本
+- 永不直推 `main`
+
+**生产机 Claude Code**
+- 改代码走分支，别直推 `main`
+- 上面那四件事先问负责人
+
+**hermes**
+- 代码改动走分支，让人 review；`main` 既是部署分支又是 hermes 的代码来源，直推代码会绕过所有测试门禁
+- 产物和数据照常直推 `main`，这是设计好的（`github_api_push.py`）
+
+**共同**
+- **别本地和云端同时改同一个分支。** 这轮之后云端会话转只读，
+  `claude/oa-portal-ui-upgrade-ts4zrf` 归生产机。
