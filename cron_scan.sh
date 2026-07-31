@@ -20,10 +20,10 @@ find "$PWD/logs" -name "cron_*.log" -mtime +7 -delete 2>/dev/null
 echo "🔍 选品雷达自动扫描 | $(date '+%Y-%m-%d %H:%M')"
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 
-# Step 1: Run radar scan (timeout: 7 min)
+# Step 1: Run radar scan (timeout: 20 min — 含 [7a] 详情页尺寸验证, 78产品约需4-7分钟)
 echo ""
 echo "📡 Step 1: 雷达扫描..."
-timeout 800 python3 -u run_scan_v2.py 2>&1 || { echo "❌ 扫描超时或失败"; exit 1; }
+timeout 1200 python3 -u run_scan_v2.py 2>&1 || { echo "❌ 扫描超时或失败"; exit 1; }
 
 # Get latest data file
 LATEST=$(ls -t data/channels/*.json 2>/dev/null | grep -v rejected | grep -v trends | grep -v bsr_data | head -1)
