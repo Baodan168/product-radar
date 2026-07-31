@@ -1,0 +1,1009 @@
+{
+  "scan_date": "2026-07-31",
+  "scan_time": "14:00",
+  "scan_ts": "2026-07-31_1400",
+  "stats": {
+    "total_scanned": 75,
+    "passed_filter": 1,
+    "rejected": 74,
+    "channels": {
+      "keyword_search": 1,
+      "tiktok_verified": 1,
+      "temu_trending": 1,
+      "etsy_trending": 1,
+      "multi_source": 1
+    },
+    "trend_categories": {
+      "lighting": 100,
+      "pets": 100,
+      "phone": 100,
+      "beauty": 87,
+      "crafts": 84,
+      "home decor": 84
+    },
+    "supply_demand": {
+      "office": {
+        "ratio": 8.3,
+        "demand": 77,
+        "supply": 10292,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "sports": {
+        "ratio": 1.8,
+        "demand": 22,
+        "supply": 287860,
+        "label": "⚖️ 平衡",
+        "level": "balanced"
+      },
+      "kitchen": {
+        "ratio": 0,
+        "demand": 74,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "garden": {
+        "ratio": 0,
+        "demand": 71,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "bathroom": {
+        "ratio": 0,
+        "demand": 56,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "cleaning": {
+        "ratio": 0,
+        "demand": 47,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "car": {
+        "ratio": 0,
+        "demand": 53,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "storage": {
+        "ratio": 0,
+        "demand": 34,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      }
+    },
+    "divergences": {
+      "kitchen": {
+        "current_heat": 67,
+        "previous_heat": 61,
+        "heat_change_pct": 9.8,
+        "direction": "stable",
+        "dates": [
+          "2026-07-31_0911",
+          "2026-07-31_1209"
+        ]
+      },
+      "cleaning": {
+        "current_heat": 41,
+        "previous_heat": 42,
+        "heat_change_pct": -2.4,
+        "direction": "stable",
+        "dates": [
+          "2026-07-31_0911",
+          "2026-07-31_1209"
+        ]
+      },
+      "car": {
+        "current_heat": 56,
+        "previous_heat": 53,
+        "heat_change_pct": 5.7,
+        "direction": "stable",
+        "dates": [
+          "2026-07-31_0911",
+          "2026-07-31_1209"
+        ]
+      },
+      "office": {
+        "current_heat": 78,
+        "previous_heat": 73,
+        "heat_change_pct": 6.8,
+        "direction": "stable",
+        "dates": [
+          "2026-07-31_0911",
+          "2026-07-31_1209"
+        ]
+      },
+      "storage": {
+        "current_heat": 41,
+        "previous_heat": 38,
+        "heat_change_pct": 7.9,
+        "direction": "stable",
+        "dates": [
+          "2026-07-31_0911",
+          "2026-07-31_1209"
+        ]
+      },
+      "lighting": {
+        "current_heat": 100,
+        "previous_heat": 100,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-07-31_0911",
+          "2026-07-31_1209"
+        ]
+      },
+      "pets": {
+        "current_heat": 100,
+        "previous_heat": 88,
+        "heat_change_pct": 13.6,
+        "direction": "stable",
+        "dates": [
+          "2026-07-31_0911",
+          "2026-07-31_1209"
+        ]
+      },
+      "sports": {
+        "current_heat": 19,
+        "previous_heat": 23,
+        "heat_change_pct": -17.4,
+        "direction": "stable",
+        "dates": [
+          "2026-07-31_0911",
+          "2026-07-31_1209"
+        ]
+      },
+      "crafts": {
+        "current_heat": 85,
+        "previous_heat": 84,
+        "heat_change_pct": 1.2,
+        "direction": "stable",
+        "dates": [
+          "2026-07-31_0911",
+          "2026-07-31_1209"
+        ]
+      },
+      "phone": {
+        "current_heat": 100,
+        "previous_heat": 92,
+        "heat_change_pct": 8.7,
+        "direction": "stable",
+        "dates": [
+          "2026-07-31_0911",
+          "2026-07-31_1209"
+        ]
+      },
+      "beauty": {
+        "current_heat": 85,
+        "previous_heat": 80,
+        "heat_change_pct": 6.2,
+        "direction": "stable",
+        "dates": [
+          "2026-07-31_0911",
+          "2026-07-31_1209"
+        ]
+      },
+      "home decor": {
+        "current_heat": 85,
+        "previous_heat": 80,
+        "heat_change_pct": 6.2,
+        "direction": "stable",
+        "dates": [
+          "2026-07-31_0911",
+          "2026-07-31_1209"
+        ]
+      },
+      "eco": {
+        "current_heat": 59,
+        "previous_heat": 69,
+        "heat_change_pct": -14.5,
+        "direction": "stable",
+        "dates": [
+          "2026-07-31_0911",
+          "2026-07-31_1209"
+        ]
+      },
+      "seasonal": {
+        "current_heat": 74,
+        "previous_heat": 80,
+        "heat_change_pct": -7.5,
+        "direction": "stable",
+        "dates": [
+          "2026-07-31_0911",
+          "2026-07-31_1209"
+        ]
+      },
+      "garden": {
+        "current_heat": 71,
+        "previous_heat": 53,
+        "heat_change_pct": 34.0,
+        "direction": "rising",
+        "dates": [
+          "2026-07-31_0911",
+          "2026-07-31_1209"
+        ]
+      },
+      "bedding": {
+        "current_heat": 34,
+        "previous_heat": 12,
+        "heat_change_pct": 183.3,
+        "direction": "rising",
+        "dates": [
+          "2026-07-31_0911",
+          "2026-07-31_1209"
+        ]
+      },
+      "baby": {
+        "current_heat": 45,
+        "previous_heat": 42,
+        "heat_change_pct": 7.1,
+        "direction": "stable",
+        "dates": [
+          "2026-07-31_0911",
+          "2026-07-31_1209"
+        ]
+      },
+      "bathroom": {
+        "current_heat": 45,
+        "previous_heat": 46,
+        "heat_change_pct": -2.2,
+        "direction": "stable",
+        "dates": [
+          "2026-07-31_0911",
+          "2026-07-31_1209"
+        ]
+      },
+      "kitchen_gadgets": {
+        "current_heat": 34,
+        "previous_heat": 34,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-07-31_0911",
+          "2026-07-31_1209"
+        ]
+      },
+      "travel": {
+        "current_heat": 19,
+        "previous_heat": 19,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-07-31_0911",
+          "2026-07-31_1209"
+        ]
+      }
+    },
+    "gap_opportunities": 16
+  },
+  "products": [
+    {
+      "asin": "B0DJNWK9TC",
+      "name": "Sponsored Ad – Avezano Canvas Tote Bag for Women & Girls - Colorful Floral Design, Reusable for Shopping, Work & Travel",
+      "price": 6.32,
+      "reviews": 22,
+      "rating": 4.6,
+      "rank": 63,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "22 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DJNWK9TC",
+      "image_url": "https://m.media-amazon.com/images/I/71sJ38mZBxL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "foldable reusable shopping bag, packable tote bag, reusable grocery bag with pouch, foldable shopping tote, portable shopping bag, eco friendly shopping bag, lightweight foldable bag, reusable bag with carabiner, packable bag for travel, foldaway shopper bag",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势",
+        "Etsy趋势",
+        "Temu热销"
+      ],
+      "profit_margin": 0.205,
+      "net_profit": 1.3,
+      "cost_breakdown": {
+        "vat": 1.06,
+        "commission": 0.95,
+        "fba": 1.46,
+        "ads": 0.63,
+        "returns": 0.13,
+        "sourcing": 0.8,
+        "total_cost": 5.02
+      },
+      "off_season": false,
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 122,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "📈 趋势(travel)": 8,
+        "🟢 低竞争": 10,
+        "⭐ 高评分": 5,
+        "❓ 品类存疑": -5,
+        "🌴 当季(summer)": 10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-07-31",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "keyword_search",
+        "tiktok_verified",
+        "temu_trending",
+        "etsy_trending",
+        "multi_source"
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "keyword": "lighting",
+      "category": "lighting",
+      "heat": 100,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "strip",
+        "fairy",
+        "lamp",
+        "led",
+        "light"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "LED strip",
+        "LED strip light",
+        "RGB strip",
+        "fairy lights",
+        "fairy light curtain",
+        "desk lamp",
+        "night light",
+        "table lamp"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=LED+strip",
+      "url_google": "https://trends.google.com/trends/explore?q=LED+strip&geo=GB"
+    },
+    {
+      "keyword": "pets",
+      "category": "pets",
+      "heat": 100,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "toy",
+        "grooming",
+        "cat",
+        "pet",
+        "dog"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "dog chew toy",
+        "cat interactive toy",
+        "pet ball",
+        "pet grooming brush",
+        "dog grooming kit",
+        "deshedding tool",
+        "cat toy",
+        "cat bed"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=dog+chew+toy",
+      "url_google": "https://trends.google.com/trends/explore?q=dog+chew+toy&geo=GB"
+    },
+    {
+      "keyword": "phone",
+      "category": "phone",
+      "heat": 100,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "stand",
+        "case",
+        "cable",
+        "phone",
+        "earbuds"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "stand",
+        "case",
+        "charging cable",
+        "USB cable",
+        "phone cable",
+        "phone case",
+        "phone holder",
+        "phone stand"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=stand",
+      "url_google": "https://trends.google.com/trends/explore?q=stand&geo=GB"
+    },
+    {
+      "keyword": "beauty",
+      "category": "beauty",
+      "heat": 87,
+      "score": 74,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "hair",
+        "nail",
+        "makeup",
+        "mirror",
+        "brush"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "hair clip",
+        "hair accessories",
+        "hair band",
+        "hair tie",
+        "nail art kit",
+        "nail tools",
+        "nail stickers",
+        "makeup brush set"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 87,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=hair+clip",
+      "url_google": "https://trends.google.com/trends/explore?q=hair+clip&geo=GB"
+    },
+    {
+      "keyword": "crafts",
+      "category": "crafts",
+      "heat": 84,
+      "score": 73,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "stickers",
+        "craft",
+        "paint",
+        "brush",
+        "art"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "stickers",
+        "craft knife",
+        "craft supplies",
+        "DIY craft kit",
+        "acrylic paint set",
+        "paint brush set",
+        "paint by numbers",
+        "brush"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 84,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=stickers",
+      "url_google": "https://trends.google.com/trends/explore?q=stickers&geo=GB"
+    },
+    {
+      "keyword": "home decor",
+      "category": "home decor",
+      "heat": 84,
+      "score": 73,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "frame",
+        "candle",
+        "mirror",
+        "wall art",
+        "decor"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "photo frame",
+        "picture frame",
+        "wall frame",
+        "candle holder",
+        "scented candle",
+        "candle set",
+        "makeup mirror",
+        "vanity mirror"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 84,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=photo+frame",
+      "url_google": "https://trends.google.com/trends/explore?q=photo+frame&geo=GB"
+    },
+    {
+      "keyword": "kitchen",
+      "category": "kitchen",
+      "heat": 74,
+      "score": 69,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "cup",
+        "mug",
+        "cooking",
+        "gadget",
+        "kitchen"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "cooking",
+        "gadget",
+        "kitchen"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 74,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=cooking",
+      "url_google": "https://trends.google.com/trends/explore?q=cooking&geo=GB"
+    },
+    {
+      "keyword": "garden",
+      "category": "garden",
+      "heat": 71,
+      "score": 68,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "patio",
+        "plant",
+        "bird",
+        "solar",
+        "bbq"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "patio",
+        "plant pot",
+        "plant stand",
+        "plant hanger",
+        "bird feeder",
+        "bird bath",
+        "bird house",
+        "solar light"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 71,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=patio",
+      "url_google": "https://trends.google.com/trends/explore?q=patio&geo=GB"
+    },
+    {
+      "keyword": "seasonal",
+      "category": "seasonal",
+      "heat": 65,
+      "score": 66,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "halloween",
+        "christmas",
+        "valentine",
+        "gift",
+        "birthday"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "halloween decoration",
+        "halloween costume",
+        "christmas decoration",
+        "christmas gift",
+        "christmas stocking",
+        "valentine gift",
+        "valentine card",
+        "gift ideas"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 65,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=halloween+decoration",
+      "url_google": "https://trends.google.com/trends/explore?q=halloween+decoration&geo=GB"
+    },
+    {
+      "keyword": "eco",
+      "category": "eco",
+      "heat": 59,
+      "score": 64,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "reusable",
+        "eco",
+        "sustainable",
+        "organic"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "reusable food wrap",
+        "reusable straws",
+        "reusable bags",
+        "eco products",
+        "reusable bag",
+        "bamboo products",
+        "sustainable products",
+        "eco friendly"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 59,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=reusable+food+wrap",
+      "url_google": "https://trends.google.com/trends/explore?q=reusable+food+wrap&geo=GB"
+    },
+    {
+      "keyword": "bathroom",
+      "category": "bathroom",
+      "heat": 56,
+      "score": 63,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "soap",
+        "bath",
+        "mirror",
+        "bathroom",
+        "toilet"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "soap dispenser",
+        "soap dish",
+        "soap holder",
+        "bath mat",
+        "bath caddy",
+        "bath pillow",
+        "makeup mirror",
+        "vanity mirror"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 56,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=soap+dispenser",
+      "url_google": "https://trends.google.com/trends/explore?q=soap+dispenser&geo=GB"
+    },
+    {
+      "keyword": "car",
+      "category": "car",
+      "heat": 53,
+      "score": 62,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "dashboard",
+        "car",
+        "automotive"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "dashboard",
+        "car accessories",
+        "car organizer",
+        "car phone holder",
+        "automotive"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 53,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=dashboard",
+      "url_google": "https://trends.google.com/trends/explore?q=dashboard&geo=GB"
+    },
+    {
+      "keyword": "travel",
+      "category": "travel",
+      "heat": 43,
+      "score": 59,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "travel",
+        "toiletry",
+        "packing"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "travel",
+        "toiletry",
+        "packing"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 43,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=travel",
+      "url_google": "https://trends.google.com/trends/explore?q=travel&geo=GB"
+    },
+    {
+      "keyword": "baby",
+      "category": "baby",
+      "heat": 43,
+      "score": 59,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "kids",
+        "nursery",
+        "baby"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "kids",
+        "nursery",
+        "baby"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 43,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=kids",
+      "url_google": "https://trends.google.com/trends/explore?q=kids&geo=GB"
+    },
+    {
+      "keyword": "office",
+      "category": "office",
+      "heat": 77,
+      "score": 50,
+      "gap_level": "weak",
+      "amazon_count": 5,
+      "amazon_reviews": 10292,
+      "evidence": [
+        "stationery",
+        "office",
+        "pen",
+        "desk",
+        "laptop"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "stationery set",
+        "notebook",
+        "pen set",
+        "office supplies",
+        "desk organizer",
+        "pen holder",
+        "fountain pen",
+        "desk lamp"
+      ],
+      "sd_info": {
+        "ratio": 8.3,
+        "demand": 77,
+        "supply": 10292,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=stationery+set",
+      "url_google": "https://trends.google.com/trends/explore?q=stationery+set&geo=GB"
+    },
+    {
+      "keyword": "cleaning",
+      "category": "cleaning",
+      "heat": 47,
+      "score": 45,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "vacuum",
+        "brush",
+        "cleaner",
+        "mop",
+        "cleaning"
+      ],
+      "is_cross_validated": false,
+      "cross_sources": 0,
+      "suggestions": [
+        "vacuum",
+        "brush",
+        "cleaner",
+        "cleaning"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 47,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=vacuum",
+      "url_google": "https://trends.google.com/trends/explore?q=vacuum&geo=GB"
+    }
+  ],
+  "trend_summary": {
+    "top_categories": [
+      [
+        "lighting",
+        100
+      ],
+      [
+        "pets",
+        100
+      ],
+      [
+        "phone",
+        100
+      ],
+      [
+        "beauty",
+        87
+      ],
+      [
+        "crafts",
+        84
+      ],
+      [
+        "home decor",
+        84
+      ]
+    ],
+    "cross_validated": [
+      "kitchen",
+      "garden",
+      "bathroom",
+      "car",
+      "office",
+      "storage",
+      "lighting",
+      "pets",
+      "crafts",
+      "bedding",
+      "travel",
+      "phone",
+      "beauty",
+      "home decor",
+      "baby",
+      "kitchen_gadgets",
+      "eco",
+      "seasonal"
+    ],
+    "demand_keywords": [
+      "10xcrew",
+      "10xcrew team",
+      "5-star rated",
+      "@adityamadiraju",
+      "@ashleyjazmine",
+      "@carlannaw",
+      "@charlotteparler",
+      "@fruitylilbeverage",
+      "@genelle_",
+      "@jordantalexander"
+    ],
+    "season": "summer",
+    "sources_scanned": [
+      "tiktok",
+      "temu",
+      "etsy",
+      "market_intel"
+    ]
+  }
+}
