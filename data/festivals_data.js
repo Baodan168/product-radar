@@ -103,7 +103,7 @@ const FESTIVALS = [
 {
   id: "pancake-day-2027",
   name: "煎饼日/忏悔星期二", nameEn: "Pancake Day / Shrove Tuesday", icon: "🥞",
-  date: "2027-02-16", month: 2, importance: "B", category: "festival",
+  date: "2027-02-09", month: 2, importance: "B", category: "festival",
   themeColor: "#f59e0b",
   products: [
     { sku: "不粘煎饼锅(平底)", skuEn: "Non-Stick Crepe Pan", category: "home", costRange: "¥15-25", priceRange: "£8.99-9.99", margin: "约35-45%", matchScore: 5, riskLevel: "低", riskNote: "煎饼日刚需；食品级涂层", keywords: ["crepe pan","pancake pan","non stick pan"], sourcing: "1688: 煎饼锅" },
@@ -225,7 +225,7 @@ const FESTIVALS = [
 {
   id: "mothers-day-uk-2027",
   name: "英国母亲节", nameEn: "Mothering Sunday (UK)", icon: "💐",
-  date: "2027-03-14", month: 3, importance: "S", category: "festival",
+  date: "2027-03-07", month: 3, importance: "S", category: "festival",
   themeColor: "#f472b6",
   products: [
     { sku: "母亲节花束礼盒(永生花)", skuEn: "Mother's Day Preserved Flower Box", category: "gift", costRange: "¥15-30", priceRange: "£8.99-9.99", margin: "约35-45%", matchScore: 5, riskLevel: "低", riskNote: "母亲节TOP1礼品；需防震", keywords: ["mothers day flower","preserved flower","flower box"], sourcing: "1688: 永生花礼盒" },
@@ -335,7 +335,7 @@ const FESTIVALS = [
 {
   id: "easter-2027",
   name: "复活节", nameEn: "Easter", icon: "🐣",
-  date: "2027-04-05", month: 4, importance: "S", category: "festival",
+  date: "2027-03-28", month: 3, importance: "S", category: "festival",
   themeColor: "#fbbf24",
   products: [
     { sku: "复活节彩蛋套装(巧克力)", skuEn: "Easter Chocolate Egg Set", category: "gift", costRange: "¥10-25", priceRange: "£8.99-9.99", margin: "约35-45%", matchScore: 5, riskLevel: "中", riskNote: "食品需UK认证；温控物流", keywords: ["easter egg","chocolate egg","easter candy"], sourcing: "1688: 巧克力彩蛋" },
@@ -667,7 +667,7 @@ const FESTIVALS = [
   date: "2026-07-20", month: 7, importance: "A", category: "activity",
   themeColor: "#0ea5e9",
   products: [
-    { sku: "旅行收纳袋套装", skuEn: "Travel Packing Cube Set", category: "home", costRange: "¥8-15", priceRange: "£7.99-9.99", margin: "约45-55%", matchScore: 4, riskLevel: "低", riskNote: "暑假旅行刚需", keywords: ["packing cubes","travel organizer","luggage set"], sourcing: "1688: 旅行收纳" },
+    { sku: "旅行收纳袋套装(暑假出行)", skuEn: "Travel Packing Cube Set", category: "home", costRange: "¥8-15", priceRange: "£7.99-9.99", margin: "约45-55%", matchScore: 4, riskLevel: "低", riskNote: "暑假旅行刚需", keywords: ["packing cubes","travel organizer","luggage set"], sourcing: "1688: 旅行收纳" },
     { sku: "便携急救包(旅行)", skuEn: "Portable First Aid Kit Travel", category: "home", costRange: "¥8-15", priceRange: "£7.99-9.99", margin: "约45-55%", matchScore: 4, riskLevel: "低", riskNote: "旅行安全必备", keywords: ["first aid kit","travel kit","safety kit"], sourcing: "1688: 急救包" },
   ],
   validation: {
@@ -1105,7 +1105,7 @@ const FESTIVALS = [
     { sku: "冬季围巾", skuEn: "Winter Scarf", category: "apparel", costRange: "¥8-15", priceRange: "£7.99-9.99", margin: "约45-50%", matchScore: 4, riskLevel: "低", riskNote: "UK尺码", keywords: ["winter scarf","warm scarf","mens scarf"], sourcing: "1688: 冬季围巾" },
     { sku: "手机支架(床头)", skuEn: "Phone Bed Stand Holder", category: "home", costRange: "¥6-12", priceRange: "£6.99-8.99", margin: "约45-55%", matchScore: 5, riskLevel: "低", riskNote: "实用刚需", keywords: ["phone stand","bed stand","phone holder"], sourcing: "1688: 手机支架" },
     { sku: "保温杯(不锈钢)", skuEn: "Insulated Tumbler", category: "home", costRange: "¥10-18", priceRange: "£8.99-9.99", margin: "约40-50%", matchScore: 4, riskLevel: "中", riskNote: "食品级认证", keywords: ["tumbler","insulated cup","thermal flask"], sourcing: "1688: 保温杯" },
-    { sku: "旅行收纳袋套装", skuEn: "Travel Organizer Bags Set", category: "gift", costRange: "¥8-15", priceRange: "£7.99-9.99", margin: "约45-55%", matchScore: 5, riskLevel: "低", riskNote: "实用", keywords: ["travel organizer","packing cubes","luggage bags"], sourcing: "1688: 旅行收纳套装" },
+    { sku: "旅行收纳袋套装(黑五特惠装)", skuEn: "Travel Organizer Bags Set", category: "gift", costRange: "¥8-15", priceRange: "£7.99-9.99", margin: "约45-55%", matchScore: 4, riskLevel: "低", riskNote: "实用；黑五折扣款", keywords: ["travel organizer","packing cubes","luggage bags"], sourcing: "1688: 旅行收纳套装" },
     { sku: "宠物玩具套装", skuEn: "Pet Toy Set", category: "gift", costRange: "¥6-12", priceRange: "£6.99-8.99", margin: "约45-55%", matchScore: 4, riskLevel: "低", riskNote: "注意宠物安全材质", keywords: ["dog toys","pet toys","chew toys"], sourcing: "1688: 宠物玩具" },
     { sku: "厨房收纳架", skuEn: "Kitchen Organizer Rack", category: "home", costRange: "¥10-18", priceRange: "£8.99-9.99", margin: "约40-45%", matchScore: 3, riskLevel: "低", riskNote: "体积偏大", keywords: ["kitchen organizer","storage rack","pantry organizer"], sourcing: "1688: 厨房收纳" },
     { sku: "圣诞预热装饰小件", skuEn: "Mini Christmas Decorations", category: "decor", costRange: "¥5-10", priceRange: "£6.49-8.49", margin: "约50-55%", matchScore: 5, riskLevel: "低", riskNote: "衔接圣诞", keywords: ["mini christmas","small decor","tree ornaments"], sourcing: "1688: 迷你圣诞装饰" },
