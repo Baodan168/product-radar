@@ -1,0 +1,1885 @@
+{
+  "scan_date": "2026-07-31",
+  "scan_time": "09:11",
+  "scan_ts": "2026-07-31_0911",
+  "stats": {
+    "total_scanned": 101,
+    "passed_filter": 13,
+    "rejected": 88,
+    "channels": {
+      "temu_trending": 10,
+      "etsy_trending": 10,
+      "multi_source": 11,
+      "google_trends": 8,
+      "tiktok_verified": 11,
+      "new_releases": 3,
+      "keyword_search": 10
+    },
+    "trend_categories": {
+      "lighting": 100,
+      "phone": 92,
+      "pets": 88,
+      "crafts": 84,
+      "beauty": 80,
+      "home decor": 80
+    },
+    "supply_demand": {
+      "office": {
+        "ratio": 7.9,
+        "demand": 73,
+        "supply": 10292,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "kitchen": {
+        "ratio": 5.3,
+        "demand": 61,
+        "supply": 90215,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "kitchen_gadgets": {
+        "ratio": 3.0,
+        "demand": 34,
+        "supply": 90215,
+        "label": "⚖️ 平衡",
+        "level": "balanced"
+      },
+      "sports": {
+        "ratio": 2.7,
+        "demand": 23,
+        "supply": 4715,
+        "label": "⚖️ 平衡",
+        "level": "balanced"
+      },
+      "cleaning": {
+        "ratio": 0,
+        "demand": 42,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "car": {
+        "ratio": 0,
+        "demand": 53,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "storage": {
+        "ratio": 0,
+        "demand": 38,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "lighting": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      }
+    },
+    "divergences": {
+      "kitchen": {
+        "current_heat": 67,
+        "previous_heat": 95,
+        "heat_change_pct": -29.5,
+        "direction": "falling",
+        "dates": [
+          "2026-07-30_0910",
+          "2026-07-30_1400"
+        ]
+      },
+      "cleaning": {
+        "current_heat": 70,
+        "previous_heat": 20,
+        "heat_change_pct": 250.0,
+        "direction": "rising",
+        "dates": [
+          "2026-07-30_0910",
+          "2026-07-30_1400"
+        ]
+      },
+      "car": {
+        "current_heat": 49,
+        "previous_heat": 65,
+        "heat_change_pct": -24.6,
+        "direction": "falling",
+        "dates": [
+          "2026-07-30_0910",
+          "2026-07-30_1400"
+        ]
+      },
+      "office": {
+        "current_heat": 84,
+        "previous_heat": 65,
+        "heat_change_pct": 29.2,
+        "direction": "stable",
+        "dates": [
+          "2026-07-30_0910",
+          "2026-07-30_1400"
+        ]
+      },
+      "storage": {
+        "current_heat": 46,
+        "previous_heat": 20,
+        "heat_change_pct": 130.0,
+        "direction": "rising",
+        "dates": [
+          "2026-07-30_0910",
+          "2026-07-30_1400"
+        ]
+      },
+      "lighting": {
+        "current_heat": 100,
+        "previous_heat": 50,
+        "heat_change_pct": 100.0,
+        "direction": "rising",
+        "dates": [
+          "2026-07-30_0910",
+          "2026-07-30_1400"
+        ]
+      },
+      "pets": {
+        "current_heat": 100,
+        "previous_heat": 100,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-07-30_0910",
+          "2026-07-30_1400"
+        ]
+      },
+      "sports": {
+        "current_heat": 21,
+        "previous_heat": 20,
+        "heat_change_pct": 5.0,
+        "direction": "stable",
+        "dates": [
+          "2026-07-30_0910",
+          "2026-07-30_1400"
+        ]
+      },
+      "crafts": {
+        "current_heat": 87,
+        "previous_heat": 100,
+        "heat_change_pct": -13.0,
+        "direction": "stable",
+        "dates": [
+          "2026-07-30_0910",
+          "2026-07-30_1400"
+        ]
+      },
+      "phone": {
+        "current_heat": 100,
+        "previous_heat": 50,
+        "heat_change_pct": 100.0,
+        "direction": "rising",
+        "dates": [
+          "2026-07-30_0910",
+          "2026-07-30_1400"
+        ]
+      },
+      "beauty": {
+        "current_heat": 91,
+        "previous_heat": 50,
+        "heat_change_pct": 82.0,
+        "direction": "rising",
+        "dates": [
+          "2026-07-30_0910",
+          "2026-07-30_1400"
+        ]
+      },
+      "home decor": {
+        "current_heat": 77,
+        "previous_heat": 50,
+        "heat_change_pct": 54.0,
+        "direction": "rising",
+        "dates": [
+          "2026-07-30_0910",
+          "2026-07-30_1400"
+        ]
+      },
+      "eco": {
+        "current_heat": 60,
+        "previous_heat": 65,
+        "heat_change_pct": -7.7,
+        "direction": "stable",
+        "dates": [
+          "2026-07-30_0910",
+          "2026-07-30_1400"
+        ]
+      },
+      "seasonal": {
+        "current_heat": 77,
+        "previous_heat": 75,
+        "heat_change_pct": 2.7,
+        "direction": "stable",
+        "dates": [
+          "2026-07-30_0910",
+          "2026-07-30_1400"
+        ]
+      },
+      "travel": {
+        "current_heat": 60,
+        "previous_heat": 30,
+        "heat_change_pct": 100.0,
+        "direction": "rising",
+        "dates": [
+          "2026-07-30_0910",
+          "2026-07-30_1400"
+        ]
+      },
+      "bathroom": {
+        "current_heat": 46,
+        "previous_heat": 10,
+        "heat_change_pct": 360.0,
+        "direction": "rising",
+        "dates": [
+          "2026-07-30_0910",
+          "2026-07-30_1400"
+        ]
+      },
+      "kitchen_gadgets": {
+        "current_heat": 14,
+        "previous_heat": 10,
+        "heat_change_pct": 40.0,
+        "direction": "rising",
+        "dates": [
+          "2026-07-30_0910",
+          "2026-07-30_1400"
+        ]
+      },
+      "garden": {
+        "current_heat": 67,
+        "previous_heat": 75,
+        "heat_change_pct": -10.7,
+        "direction": "stable",
+        "dates": [
+          "2026-07-30_0910",
+          "2026-07-30_1400"
+        ]
+      },
+      "baby": {
+        "current_heat": 46,
+        "previous_heat": 10,
+        "heat_change_pct": 360.0,
+        "direction": "rising",
+        "dates": [
+          "2026-07-30_0910",
+          "2026-07-30_1400"
+        ]
+      }
+    },
+    "gap_opportunities": 15
+  },
+  "products": [
+    {
+      "asin": "B0H3LPP3W5",
+      "name": "KAYMAN Sports Foam Roller Sports Recovery, Deep Tissue Muscle Tension Relief & Circulation Increase Portable & Lightweig",
+      "price": 9.16,
+      "reviews": 131,
+      "rating": 4.4,
+      "rank": 12,
+      "category": "Sports",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "131 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H3LPP3W5",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71Wrl6WUcAL._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "TikTok趋势",
+        "Google趋势",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.316,
+      "net_profit": 2.9,
+      "cost_breakdown": {
+        "vat": 1.53,
+        "commission": 1.37,
+        "fba": 1.46,
+        "ads": 0.92,
+        "returns": 0.18,
+        "sourcing": 0.8,
+        "total_cost": 6.26
+      },
+      "off_season": false,
+      "sd_score": 0,
+      "sd_label": "⚖️ 平衡",
+      "sd_info": {
+        "ratio": 2.7,
+        "demand": 23,
+        "supply": 4715,
+        "label": "⚖️ 平衡",
+        "level": "balanced"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 173,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(lighting)": 23,
+        "🟡 中等竞争": 5,
+        "💰 高利润": 8,
+        "📈 排名上升": 10,
+        "📊 持续上升": 8
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-07-25",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "temu_trending",
+        "etsy_trending",
+        "multi_source",
+        "google_trends",
+        "tiktok_verified",
+        "new_releases"
+      ]
+    },
+    {
+      "asin": "B0GQ4N3HZ4",
+      "name": "Alpine WaterSafe Ear Plugs for Swimming, Keep Water Out, Hear Sound, Secure Fit, Soft, Comfortable, Reusable, Swimmers, ",
+      "price": 12.46,
+      "reviews": 126,
+      "rating": 4.1,
+      "rank": 16,
+      "category": "Sports",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "126 reviews, 4.1★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GQ4N3HZ4",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71Is992ih4L._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "TikTok趋势",
+        "Google趋势",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.382,
+      "net_profit": 4.75,
+      "cost_breakdown": {
+        "vat": 2.08,
+        "commission": 1.87,
+        "fba": 1.46,
+        "ads": 1.25,
+        "returns": 0.25,
+        "sourcing": 0.8,
+        "total_cost": 7.71
+      },
+      "off_season": false,
+      "sd_score": 0,
+      "sd_label": "⚖️ 平衡",
+      "sd_info": {
+        "ratio": 2.7,
+        "demand": 23,
+        "supply": 4715,
+        "label": "⚖️ 平衡",
+        "level": "balanced"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 146,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🟡 中等竞争": 5,
+        "💰 超高利润": 12,
+        "❓ 品类不符": -10,
+        "🌴 当季(summer)": 10,
+        "📈 排名上升": 10
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-07-25",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "temu_trending",
+        "etsy_trending",
+        "multi_source",
+        "google_trends",
+        "tiktok_verified",
+        "new_releases"
+      ]
+    },
+    {
+      "asin": "B0FH61WJV8",
+      "name": "2pcs Fish Net Decorations for Party, 80x40in Hawaiian Fishing Net Nautical Themed Fishnet for Pirate Ocean Mermaid Party",
+      "price": 8.66,
+      "reviews": 17,
+      "rating": 4.6,
+      "rank": 27,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "17 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FH61WJV8",
+      "image_url": "https://m.media-amazon.com/images/I/71VDYPXcaGL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "pirate decorations",
+      "festival_event": "海盗说话日",
+      "festival_icon": "🏴‍☠️",
+      "festival_deadline": "2026-08-03",
+      "is_event": false,
+      "sources": [
+        "📅 海盗说话日",
+        "Google趋势",
+        "Temu热销",
+        "TikTok趋势",
+        "Etsy趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.302,
+      "net_profit": 2.62,
+      "cost_breakdown": {
+        "vat": 1.45,
+        "commission": 1.3,
+        "fba": 1.46,
+        "ads": 0.87,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 6.04
+      },
+      "off_season": false,
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 145,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(crafts)": 23,
+        "🌊 蓝海": 15,
+        "⭐ 高评分": 5,
+        "💰 高利润": 8,
+        "❓ 品类存疑": -5,
+        "📈 排名上升": 10,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-07-25",
+      "is_multi": true,
+      "channel_tags": [
+        "temu_trending",
+        "etsy_trending",
+        "multi_source",
+        "google_trends",
+        "tiktok_verified",
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0GTMVMRBK",
+      "name": "Sponsored Ad – Compression Packing Cubes 5 Set Double Sided Expandable for Suitcases & Carry On Hand Luggage | Travel Or",
+      "price": 10.82,
+      "reviews": 24,
+      "rating": 4.6,
+      "rank": 2,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "24 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GTMVMRBK",
+      "image_url": "https://m.media-amazon.com/images/I/71dZjpjzRyL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "compression packing cubes 4 set, travel packing cubes for suitcase, luggage organizer bags, compression packing cubes for travel, suitcase organiser bags 4 pack, travel compression packing cubes, packing cubes for backpack, expandable packing cubes, travel storage bags for luggage",
+      "sources": [
+        "趋势发现",
+        "Google趋势",
+        "Temu热销",
+        "TikTok趋势",
+        "Etsy趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.354,
+      "net_profit": 3.83,
+      "cost_breakdown": {
+        "vat": 1.81,
+        "commission": 1.62,
+        "fba": 1.46,
+        "ads": 1.08,
+        "returns": 0.22,
+        "sourcing": 0.8,
+        "total_cost": 6.99
+      },
+      "off_season": false,
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 139,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "📈 趋势(car)": 8,
+        "🟢 低竞争": 10,
+        "⭐ 高评分": 5,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "🌴 当季(summer)": 10,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-07-31",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "temu_trending",
+        "etsy_trending",
+        "multi_source",
+        "google_trends",
+        "tiktok_verified",
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0FHHVV2Y7",
+      "name": "Sponsored Ad – 5 Set Compression Packing Cubes for Suitcases, Travel Organiser for Carry on Hand Luggage Newest Double S",
+      "price": 10.82,
+      "reviews": 36,
+      "rating": 4.8,
+      "rank": 11,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "36 reviews, 4.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FHHVV2Y7",
+      "image_url": "https://m.media-amazon.com/images/I/71oN5PJOM4L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "compression packing cubes 4 set, travel packing cubes for suitcase, luggage organizer bags, compression packing cubes for travel, suitcase organiser bags 4 pack, travel compression packing cubes, packing cubes for backpack, expandable packing cubes, travel storage bags for luggage",
+      "sources": [
+        "趋势发现",
+        "Google趋势",
+        "Temu热销",
+        "TikTok趋势",
+        "Etsy趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.354,
+      "net_profit": 3.83,
+      "cost_breakdown": {
+        "vat": 1.81,
+        "commission": 1.62,
+        "fba": 1.46,
+        "ads": 1.08,
+        "returns": 0.22,
+        "sourcing": 0.8,
+        "total_cost": 6.99
+      },
+      "off_season": false,
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 139,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "📈 趋势(car)": 8,
+        "🟢 低竞争": 10,
+        "⭐ 高评分": 5,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "🌴 当季(summer)": 10,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-07-31",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "temu_trending",
+        "etsy_trending",
+        "multi_source",
+        "google_trends",
+        "tiktok_verified",
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0FPBG3FQ4",
+      "name": "LIQWEI 2 Pack Natural Fish Net Decorations for Party, Under The Sea Pirate | Nautical Themed Cotton Fishnet, Under The S",
+      "price": 6.99,
+      "reviews": 14,
+      "rating": 4.0,
+      "rank": 48,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "14 reviews, 4.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FPBG3FQ4",
+      "image_url": "https://m.media-amazon.com/images/I/71ov4ZUM5-L._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "pirate decorations",
+      "festival_event": "海盗说话日",
+      "festival_icon": "🏴‍☠️",
+      "festival_deadline": "2026-08-03",
+      "is_event": false,
+      "sources": [
+        "📅 海盗说话日",
+        "Google趋势",
+        "Reddit需求",
+        "Temu热销",
+        "TikTok趋势",
+        "Etsy趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.24,
+      "net_profit": 1.68,
+      "cost_breakdown": {
+        "vat": 1.17,
+        "commission": 1.05,
+        "fba": 1.46,
+        "ads": 0.7,
+        "returns": 0.14,
+        "sourcing": 0.8,
+        "total_cost": 5.31
+      },
+      "off_season": false,
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy",
+        "Reddit"
+      ],
+      "internal_sources": [],
+      "score": 137,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "💬 Reddit": 5,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(crafts)": 23,
+        "🌊 蓝海": 15,
+        "❓ 品类存疑": -5,
+        "📈 排名上升": 10,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-07-25",
+      "is_multi": true,
+      "channel_tags": [
+        "temu_trending",
+        "etsy_trending",
+        "multi_source",
+        "google_trends",
+        "tiktok_verified",
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0DZ711ZWF",
+      "name": "Sponsored Ad – Compression Packing Cubes 7-Piece Set with Multi- Compartment Travel Bag, Waterproof Suitcase Organiser B",
+      "price": 10.62,
+      "reviews": 82,
+      "rating": 4.2,
+      "rank": 10,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "82 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DZ711ZWF",
+      "image_url": "https://m.media-amazon.com/images/I/71RSQkP7MvL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "compression packing cubes 4 set, travel packing cubes for suitcase, luggage organizer bags, compression packing cubes for travel, suitcase organiser bags 4 pack, travel compression packing cubes, packing cubes for backpack, expandable packing cubes, travel storage bags for luggage",
+      "sources": [
+        "趋势发现",
+        "Temu热销",
+        "TikTok趋势",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.35,
+      "net_profit": 3.72,
+      "cost_breakdown": {
+        "vat": 1.77,
+        "commission": 1.59,
+        "fba": 1.46,
+        "ads": 1.06,
+        "returns": 0.21,
+        "sourcing": 0.8,
+        "total_cost": 6.9
+      },
+      "off_season": false,
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 129,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(crafts)": 23,
+        "🟡 中等竞争": 5,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "🌴 当季(summer)": 10,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-07-31",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "temu_trending",
+        "etsy_trending",
+        "multi_source",
+        "tiktok_verified",
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0CGCSVZG9",
+      "name": "ZERODECO Nautical Decor, Natural Fish Net Party Decorations for Pirate Party, Wedding, Birthday Party, Beach Theme Party",
+      "price": 8.32,
+      "reviews": 84,
+      "rating": 4.4,
+      "rank": 52,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "84 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CGCSVZG9",
+      "image_url": "https://m.media-amazon.com/images/I/81IyhDlhn8L._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "pirate decorations",
+      "festival_event": "海盗说话日",
+      "festival_icon": "🏴‍☠️",
+      "festival_deadline": "2026-08-03",
+      "is_event": false,
+      "sources": [
+        "📅 海盗说话日",
+        "Google趋势",
+        "Temu热销",
+        "TikTok趋势",
+        "Etsy趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.291,
+      "net_profit": 2.42,
+      "cost_breakdown": {
+        "vat": 1.39,
+        "commission": 1.25,
+        "fba": 1.46,
+        "ads": 0.83,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 5.9
+      },
+      "off_season": false,
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 126,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(crafts)": 23,
+        "🟡 中等竞争": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "🌴 当季(summer)": 10,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-07-27",
+      "is_multi": true,
+      "channel_tags": [
+        "temu_trending",
+        "etsy_trending",
+        "multi_source",
+        "google_trends",
+        "tiktok_verified",
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0BB1KXF1J",
+      "name": "WUERKIYA Pirate Treasure Map Backdrop Island Treasure Map Banner Nautical Tapestry Hanging Decoration for Treasure Hunt ",
+      "price": 6.52,
+      "reviews": 29,
+      "rating": 4.6,
+      "rank": 29,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "29 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0BB1KXF1J",
+      "image_url": "https://m.media-amazon.com/images/I/918GCnrRN5L._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "pirate decorations",
+      "festival_event": "海盗说话日",
+      "festival_icon": "🏴‍☠️",
+      "festival_deadline": "2026-08-03",
+      "is_event": false,
+      "sources": [
+        "📅 海盗说话日",
+        "Temu热销",
+        "TikTok趋势",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.216,
+      "net_profit": 1.41,
+      "cost_breakdown": {
+        "vat": 1.09,
+        "commission": 0.98,
+        "fba": 1.46,
+        "ads": 0.65,
+        "returns": 0.13,
+        "sourcing": 0.8,
+        "total_cost": 5.11
+      },
+      "off_season": false,
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 117,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(home decor)": 23,
+        "🟢 低竞争": 10,
+        "⭐ 高评分": 5,
+        "❓ 品类存疑": -5,
+        "📈 排名上升": 10,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-07-25",
+      "is_multi": true,
+      "channel_tags": [
+        "temu_trending",
+        "etsy_trending",
+        "multi_source",
+        "tiktok_verified",
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0CKXN1KJW",
+      "name": "4Pcs Compression Packing Cubes Set for Suitcase, Expandable Travel Luggage Storage Bags Travel Accessories Organizers (B",
+      "price": 7.91,
+      "reviews": 84,
+      "rating": 4.2,
+      "rank": 43,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "84 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CKXN1KJW",
+      "image_url": "https://m.media-amazon.com/images/I/61pQUIILa0L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "compression packing cubes 4 set, travel packing cubes for suitcase, luggage organizer bags, compression packing cubes for travel, suitcase organiser bags 4 pack, travel compression packing cubes, packing cubes for backpack, expandable packing cubes, travel storage bags for luggage",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势",
+        "Google趋势",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.277,
+      "net_profit": 2.19,
+      "cost_breakdown": {
+        "vat": 1.32,
+        "commission": 1.19,
+        "fba": 1.46,
+        "ads": 0.79,
+        "returns": 0.16,
+        "sourcing": 0.8,
+        "total_cost": 5.72
+      },
+      "off_season": false,
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 113,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🟡 中等竞争": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "🌴 当季(summer)": 10,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-07-31",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "temu_trending",
+        "etsy_trending",
+        "multi_source",
+        "google_trends",
+        "tiktok_verified",
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0FTMV9KHD",
+      "name": "PUMA STELLAR Play Premier League 2026/27 Reactivity Football",
+      "price": 9.02,
+      "reviews": 32,
+      "rating": 4.9,
+      "rank": 2,
+      "category": "Sports",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "32 reviews, 4.9★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FTMV9KHD",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/7126KS3hFyL._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "TikTok趋势"
+      ],
+      "profit_margin": 0.312,
+      "net_profit": 2.82,
+      "cost_breakdown": {
+        "vat": 1.51,
+        "commission": 1.35,
+        "fba": 1.46,
+        "ads": 0.9,
+        "returns": 0.18,
+        "sourcing": 0.8,
+        "total_cost": 6.2
+      },
+      "off_season": false,
+      "sd_score": 0,
+      "sd_label": "⚖️ 平衡",
+      "sd_info": {
+        "ratio": 2.7,
+        "demand": 23,
+        "supply": 4715,
+        "label": "⚖️ 平衡",
+        "level": "balanced"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "weak",
+      "signal_label": "🟡 弱信号",
+      "external_sources": [
+        "TikTok"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 101,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "🎵 TikTok": 20,
+        "🟢 低竞争": 10,
+        "⭐ 高评分": 5,
+        "💰 高利润": 8,
+        "❓ 品类不符": -10,
+        "📈 排名上升": 10,
+        "📊 持续上升": 8
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-07-25",
+      "is_event": false,
+      "channel_tags": [
+        "tiktok_verified",
+        "new_releases"
+      ]
+    },
+    {
+      "asin": "B0DZ1QVMLY",
+      "name": "Sponsored Ad – Merefame Pack of 6 Money Bags - Dollar Sign Purses, Coin Purses, Drawstring Bags, Ideal for Party Favours",
+      "price": 7.24,
+      "reviews": 16,
+      "rating": 4.9,
+      "rank": 56,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "16 reviews, 4.9★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DZ1QVMLY",
+      "image_url": "https://m.media-amazon.com/images/I/71jtrJAiKBL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "pirate decorations",
+      "festival_event": "海盗说话日",
+      "festival_icon": "🏴‍☠️",
+      "festival_deadline": "2026-08-03",
+      "is_event": false,
+      "sources": [
+        "📅 海盗说话日",
+        "Reddit需求"
+      ],
+      "profit_margin": 0.251,
+      "net_profit": 1.82,
+      "cost_breakdown": {
+        "vat": 1.21,
+        "commission": 1.09,
+        "fba": 1.46,
+        "ads": 0.72,
+        "returns": 0.14,
+        "sourcing": 0.8,
+        "total_cost": 5.42
+      },
+      "off_season": false,
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "weak",
+      "signal_label": "🟡 弱信号",
+      "external_sources": [
+        "Reddit"
+      ],
+      "internal_sources": [],
+      "score": 77,
+      "score_breakdown": {
+        "💬 Reddit": 5,
+        "🔥 多源热门(crafts)": 23,
+        "🌊 蓝海": 15,
+        "⭐ 高评分": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 3,
+      "is_new": true,
+      "first_seen": "2026-07-31",
+      "is_multi": true,
+      "channel_tags": [
+        "multi_source",
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0D3XMNPYG",
+      "name": "Sponsored Ad – GOLDGE 100 Pieces Gold Coins Pirate Treasure Set with 50 Gold Coins Children and 50 Pirate Gemstones Perf",
+      "price": 6.66,
+      "reviews": 71,
+      "rating": 4.5,
+      "rank": 9,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "71 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0D3XMNPYG",
+      "image_url": "https://m.media-amazon.com/images/I/81aAMb7H09L._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "pirate decorations",
+      "festival_event": "海盗说话日",
+      "festival_icon": "🏴‍☠️",
+      "festival_deadline": "2026-08-03",
+      "is_event": false,
+      "sources": [
+        "📅 海盗说话日"
+      ],
+      "profit_margin": 0.224,
+      "net_profit": 1.49,
+      "cost_breakdown": {
+        "vat": 1.11,
+        "commission": 1.0,
+        "fba": 1.46,
+        "ads": 0.67,
+        "returns": 0.13,
+        "sourcing": 0.8,
+        "total_cost": 5.17
+      },
+      "off_season": false,
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": -5,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🟡 中等竞争": 5,
+        "⭐ 高评分": 5,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 1,
+      "is_new": false,
+      "first_seen": "2026-07-29",
+      "channel_tags": [
+        "keyword_search"
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "keyword": "lighting",
+      "category": "lighting",
+      "heat": 100,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "lamp",
+        "light",
+        "led",
+        "strip",
+        "fairy"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "desk lamp",
+        "night light",
+        "table lamp",
+        "LED light",
+        "fairy lights",
+        "string lights",
+        "LED bulb",
+        "LED panel"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=desk+lamp",
+      "url_google": "https://trends.google.com/trends/explore?q=desk+lamp&geo=GB"
+    },
+    {
+      "keyword": "phone",
+      "category": "phone",
+      "heat": 92,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "holder",
+        "case",
+        "stand",
+        "charger",
+        "cable"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "holder",
+        "case",
+        "stand",
+        "phone charger",
+        "wireless charger",
+        "car charger",
+        "charging cable",
+        "USB cable"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 92,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=holder",
+      "url_google": "https://trends.google.com/trends/explore?q=holder&geo=GB"
+    },
+    {
+      "keyword": "pets",
+      "category": "pets",
+      "heat": 88,
+      "score": 74,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "pet",
+        "bed",
+        "cat",
+        "dog",
+        "toy"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "pet grooming",
+        "pet bed",
+        "pet feeder",
+        "cat bed",
+        "dog bed",
+        "pet cushion",
+        "cat toy",
+        "cat collar"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 88,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=pet+grooming",
+      "url_google": "https://trends.google.com/trends/explore?q=pet+grooming&geo=GB"
+    },
+    {
+      "keyword": "crafts",
+      "category": "crafts",
+      "heat": 84,
+      "score": 73,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "art",
+        "paint",
+        "brush",
+        "craft"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "art supplies",
+        "paint set",
+        "drawing kit",
+        "acrylic paint set",
+        "paint brush set",
+        "paint by numbers",
+        "brush",
+        "craft knife"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 84,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=art+supplies",
+      "url_google": "https://trends.google.com/trends/explore?q=art+supplies&geo=GB"
+    },
+    {
+      "keyword": "beauty",
+      "category": "beauty",
+      "heat": 80,
+      "score": 71,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "mirror",
+        "hair",
+        "nail",
+        "skincare",
+        "brush"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "makeup mirror",
+        "vanity mirror",
+        "LED mirror",
+        "hair clip",
+        "hair accessories",
+        "hair band",
+        "hair tie",
+        "nail art kit"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 80,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=makeup+mirror",
+      "url_google": "https://trends.google.com/trends/explore?q=makeup+mirror&geo=GB"
+    },
+    {
+      "keyword": "home decor",
+      "category": "home decor",
+      "heat": 80,
+      "score": 71,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "mirror",
+        "decor",
+        "vase",
+        "candle",
+        "frame"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "makeup mirror",
+        "vanity mirror",
+        "LED mirror",
+        "home decor",
+        "room decor",
+        "table decor",
+        "flower vase",
+        "decorative vase"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 80,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=makeup+mirror",
+      "url_google": "https://trends.google.com/trends/explore?q=makeup+mirror&geo=GB"
+    },
+    {
+      "keyword": "seasonal",
+      "category": "seasonal",
+      "heat": 80,
+      "score": 71,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "halloween",
+        "christmas",
+        "valentine",
+        "gift",
+        "birthday"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "halloween decoration",
+        "halloween costume",
+        "christmas decoration",
+        "christmas gift",
+        "christmas stocking",
+        "valentine gift",
+        "valentine card",
+        "gift ideas"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 80,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=halloween+decoration",
+      "url_google": "https://trends.google.com/trends/explore?q=halloween+decoration&geo=GB"
+    },
+    {
+      "keyword": "eco",
+      "category": "eco",
+      "heat": 69,
+      "score": 68,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "reusable",
+        "eco",
+        "sustainable"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "reusable food wrap",
+        "reusable straws",
+        "reusable bags",
+        "eco products",
+        "reusable bag",
+        "bamboo products",
+        "sustainable products",
+        "eco friendly"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 69,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=reusable+food+wrap",
+      "url_google": "https://trends.google.com/trends/explore?q=reusable+food+wrap&geo=GB"
+    },
+    {
+      "keyword": "car",
+      "category": "car",
+      "heat": 53,
+      "score": 62,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "automotive",
+        "dashboard",
+        "car"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "automotive",
+        "dashboard",
+        "car accessories",
+        "car organizer",
+        "car phone holder"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 53,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=automotive",
+      "url_google": "https://trends.google.com/trends/explore?q=automotive&geo=GB"
+    },
+    {
+      "keyword": "garden",
+      "category": "garden",
+      "heat": 53,
+      "score": 62,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "plant",
+        "bbq",
+        "flower",
+        "bird",
+        "patio"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "plant pot",
+        "plant stand",
+        "plant hanger",
+        "flower",
+        "bird feeder",
+        "bird bath",
+        "bird house",
+        "patio"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 53,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=plant+pot",
+      "url_google": "https://trends.google.com/trends/explore?q=plant+pot&geo=GB"
+    },
+    {
+      "keyword": "bathroom",
+      "category": "bathroom",
+      "heat": 46,
+      "score": 60,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "mirror",
+        "shower",
+        "bath",
+        "towel",
+        "soap"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "makeup mirror",
+        "vanity mirror",
+        "LED mirror",
+        "shower caddy",
+        "shower head",
+        "shower curtain",
+        "bath mat",
+        "bath caddy"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 46,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=makeup+mirror",
+      "url_google": "https://trends.google.com/trends/explore?q=makeup+mirror&geo=GB"
+    },
+    {
+      "keyword": "baby",
+      "category": "baby",
+      "heat": 42,
+      "score": 59,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "nursery",
+        "baby",
+        "kids"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "nursery",
+        "baby",
+        "kids"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 42,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=nursery",
+      "url_google": "https://trends.google.com/trends/explore?q=nursery&geo=GB"
+    },
+    {
+      "keyword": "office",
+      "category": "office",
+      "heat": 73,
+      "score": 49,
+      "gap_level": "weak",
+      "amazon_count": 5,
+      "amazon_reviews": 10292,
+      "evidence": [
+        "office",
+        "laptop",
+        "pen",
+        "desk",
+        "stationery"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "office supplies",
+        "desk organizer",
+        "pen holder",
+        "laptop stand",
+        "laptop sleeve",
+        "laptop cooler",
+        "pen set",
+        "fountain pen"
+      ],
+      "sd_info": {
+        "ratio": 7.9,
+        "demand": 73,
+        "supply": 10292,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=office+supplies",
+      "url_google": "https://trends.google.com/trends/explore?q=office+supplies&geo=GB"
+    },
+    {
+      "keyword": "kitchen",
+      "category": "kitchen",
+      "heat": 61,
+      "score": 45,
+      "gap_level": "weak",
+      "amazon_count": 7,
+      "amazon_reviews": 90215,
+      "evidence": [
+        "cup",
+        "mug",
+        "kitchen",
+        "gadget"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "kitchen",
+        "gadget"
+      ],
+      "sd_info": {
+        "ratio": 5.3,
+        "demand": 61,
+        "supply": 90215,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=kitchen",
+      "url_google": "https://trends.google.com/trends/explore?q=kitchen&geo=GB"
+    },
+    {
+      "keyword": "cleaning",
+      "category": "cleaning",
+      "heat": 42,
+      "score": 44,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "brush",
+        "cleaner",
+        "vacuum",
+        "cleaning"
+      ],
+      "is_cross_validated": false,
+      "cross_sources": 0,
+      "suggestions": [
+        "brush",
+        "cleaner",
+        "vacuum",
+        "cleaning"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 42,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=brush",
+      "url_google": "https://trends.google.com/trends/explore?q=brush&geo=GB"
+    }
+  ],
+  "trend_summary": {
+    "top_categories": [
+      [
+        "lighting",
+        100
+      ],
+      [
+        "phone",
+        92
+      ],
+      [
+        "pets",
+        88
+      ],
+      [
+        "crafts",
+        84
+      ],
+      [
+        "beauty",
+        80
+      ],
+      [
+        "home decor",
+        80
+      ]
+    ],
+    "cross_validated": [
+      "kitchen",
+      "car",
+      "office",
+      "storage",
+      "lighting",
+      "pets",
+      "crafts",
+      "phone",
+      "beauty",
+      "home decor",
+      "eco",
+      "seasonal",
+      "bathroom",
+      "kitchen_gadgets",
+      "garden",
+      "baby"
+    ],
+    "demand_keywords": [
+      "5-star rated",
+      "aesthetic desk setup",
+      "ambient and sculptural lighting has",
+      "aquabrush,",
+      "best seller",
+      "best sellers",
+      "chart data sourced from",
+      "christmas searches dominated by",
+      "cleantok",
+      "coastal whimsy"
+    ],
+    "season": "summer",
+    "sources_scanned": [
+      "tiktok",
+      "temu",
+      "etsy",
+      "market_intel"
+    ]
+  }
+}
