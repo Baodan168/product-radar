@@ -206,6 +206,35 @@ def check_tests():
     return rc not in (0, 127) and 'No module named pytest' not in out
 
 
+def check_festival_fallback(on_prod):
+    """仓库内的节日兜底源有没有落后于上游。
+
+    FESTIVAL_SOURCES 第 1 级是 ~/uk-festival-planner/（只在生产机上），
+    第 2 级是仓库内的 data/festivals_data.js。云端和 CI 上只有第 2 级 ——
+    所以它一旦变旧，那些环境生成的页面就和生产机的对不上。
+    2026-07-31 实测：上游 65 个节日、兜底 64 个，CI 页面因此少一个节日。
+    这个兜底源以前没有任何脚本维护，现在归 tools/sync_festivals.py 管。
+    """
+    section('节日兜底源')
+    if not on_prod:
+        note(INFO, '不在生产机上，跳过', '上游只在生产机上，比不了')
+        return False
+    script = BASE / 'tools' / 'sync_festivals.py'
+    if not script.exists():
+        note(WARN, '找不到 tools/sync_festivals.py')
+        return False
+    rc, out = sh('python3', str(script), '--check')
+    if rc == 0:
+        note(OK, (out.strip().splitlines() or ['兜底源是最新的'])[-1].lstrip('✅ ').strip())
+        return False
+    if rc == 1:
+        note(BLOCK, '节日兜底源落后于上游',
+             out.strip() + '\n修法：python3 tools/sync_festivals.py 然后提交。')
+        return True
+    note(WARN, '兜底源检查跑不了', out.strip()[:200])
+    return False
+
+
 def check_restock_pipeline(on_prod):
     """最阴的那个隐患：补货管道少了脱敏那一步。"""
     section('补货管道（仓库外）')
@@ -303,6 +332,7 @@ def main():
         check_artifacts_fresh(),
         check_desensitize(),
         check_tests(),
+        check_festival_fallback(on_prod),
         check_restock_pipeline(on_prod),
         check_last_cron(on_prod),
     ]

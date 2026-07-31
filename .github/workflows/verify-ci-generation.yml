@@ -16,6 +16,14 @@ on:
 jobs:
   verify:
     runs-on: ubuntu-latest
+    env:
+      # 数据里的时间戳（scan_date、补货页的「分析日期」）都是北京时间，
+      # 而 runner 默认 UTC —— 差 8 小时。「数据新鲜度」卡拿 now 减这些时间戳，
+      # 不设时区的话补货那行会显示「刚刚」，而那张卡的用处恰恰是
+      # 「扫描断了要一眼看出来」。2026-07-31 的验证实测到过这个。
+      # oa/health.py 开头警告过别用文件 mtime（clone 会刷新 mtime），
+      # 当初绕开了 mtime，但没料到时区 —— 换个方式踩进同一个坑。
+      TZ: Asia/Shanghai
     steps:
       - uses: actions/checkout@v4
 

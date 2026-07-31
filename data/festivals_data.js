@@ -1,3 +1,6 @@
+// 节日数据 —— 由 tools/sync_festivals.py 从 ~/uk-festival-planner/index.html 同步。
+// 不要手工改这个文件：改上游，然后跑同步脚本。
+// 这是 festival_engine.FESTIVAL_SOURCES 的第 2 级回退，CI 里没有上游时用的就是它。
 const FESTIVALS = [
 
 // ===== 2027年1月（4个）=====
@@ -719,7 +722,28 @@ const FESTIVALS = [
   }
 },
 
-// ===== 8月（5个）=====
+// ===== 8月（6个）=====
+{
+  id: "back-to-school-peak-2026",
+  name: "返校购物旺季",
+  nameEn: "Back to School Shopping Peak", icon: "🛍️",
+  date: "2026-08-01", month: 8, importance: "A", category: "activity",
+  themeColor: "#f97316",
+  products: [
+    { sku: "书包午餐袋水壶套装", skuEn: "Backpack Lunch Bag Water Bottle Set", category: "gift", costRange: "¥10-20", priceRange: "£8.99-9.99", margin: "约40-50%", matchScore: 5, riskLevel: "低", riskNote: "UK返校刚需；套装热卖", keywords: ["backpack set","school bag set","travel water bottle"], sourcing: "1688: 书包套装" },
+    { sku: "透明考试笔袋(大号)", skuEn: "Clear Exam Pencil Case Large", category: "gift", costRange: "¥5-10", priceRange: "£6.49-8.99", margin: "约50-60%", matchScore: 5, riskLevel: "低", riskNote: "GCSE考试必备", keywords: ["clear pencil case","exam pencil case","transparent pouch"], sourcing: "1688: 透明笔袋" },
+    { sku: "文具综合礼盒", skuEn: "Stationery Gift Box Set", category: "gift", costRange: "¥8-15", priceRange: "£7.99-9.99", margin: "约45-55%", matchScore: 5, riskLevel: "低", riskNote: "返校送礼/自用", keywords: ["stationery set","school supply kit","gift box"], sourcing: "1688: 文具礼盒" },
+    { sku: "荧光笔+修正带组合装", skuEn: "Highlighter Correction Tape Combo", category: "gift", costRange: "¥3-6", priceRange: "£5.99-7.99", margin: "约55-65%", matchScore: 5, riskLevel: "低", riskNote: "学生刚需组合；轻小件", keywords: ["highlighter set","correction tape","study supplies"], sourcing: "1688: 荧光笔套装" },
+    { sku: "课程表磁贴(可写可擦)", skuEn: "Writable Timetable Magnet", category: "home", costRange: "¥3-6", priceRange: "£5.99-7.99", margin: "约55-65%", matchScore: 4, riskLevel: "低", riskNote: "学生必备", keywords: ["timetable","school planner","magnetic schedule"], sourcing: "1688: 课程表磁贴" },
+    { sku: "算数练习本套装", skuEn: "Maths Exercise Book Set", category: "gift", costRange: "¥5-10", priceRange: "£6.49-8.49", margin: "约50-60%", matchScore: 4, riskLevel: "低", riskNote: "UK小学常用方格本", keywords: ["exercise book","maths book","school notebook"], sourcing: "1688: 练习本" }
+  ],
+  validation: {
+    googleTrends: ["back to school shopping 2026","school supplies uk","kids backpack set"],
+    amazonCheck: "BSR < 3000；7月底-8月中UK返校购物最高峰；书包套装/透明笔袋/文具礼盒TOP品类",
+    sourcing: "1688搜索：书包套装/笔袋/文具礼盒/午餐包",
+    riskFlags: ["食品接触材质需认证（水壶/午餐包）","注意卡通IP侵权"]
+  }
+},
 {
   id: "youth-day-2026",
   name: "国际青年节/亲子主题", nameEn: "International Youth Day", icon: "👨‍👩‍👧",
@@ -1307,4 +1331,4 @@ const FESTIVALS = [
   }
 }
 
-]
+];
