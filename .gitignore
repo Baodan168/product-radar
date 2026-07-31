@@ -25,4 +25,6 @@ output/*
 
 # Internal team docs — not for public repo
 OA系统介绍-团队版.md
-OA系统介绍-对外版.mdbitable_sync.py
+OA系统介绍-对外版.md
+bitable_sync.py
+
