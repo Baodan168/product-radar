@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>${system_name}</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📋</text></svg>">
+<link rel="stylesheet" href="shared/oa-theme.css?v=${asset_version}">
+</head>
+<body class="oa-portal-page">
+
+<a class="oa-skip-link" href="#main-content">跳到主内容</a>
+
+<!-- Sidebar -->
+<div id="sidebar-overlay" class="oa-sidebar-overlay"></div>
+<aside id="sidebar" class="oa-sidebar">
+    <div class="oa-sidebar-header">
+        <div class="logo">
+            <span class="logo-icon">📋</span>
+            <div class="logo-text">
+                <span class="logo-title">${system_name}</span>
+                <span class="logo-sub">${system_sub}</span>
+            </div>
+        </div>
+    </div>
+    <nav id="nav" class="oa-nav" aria-label="板块导航">
+        ${nav_items}
+    </nav>
+    <div class="oa-sidebar-footer">
+        ${system_name} ${portal_version} · ${build_date}
+    </div>
+</aside>
+
+<!-- Main -->
+<div id="main" class="oa-main">
+    <div id="topbar" class="oa-topbar">
+        <div class="oa-topbar-left">
+            <button id="menuBtn" class="oa-menu-btn" aria-label="打开导航" aria-expanded="false">☰</button>
+            <div class="module-title">
+                <span class="dot" id="statusDot"></span>
+                <span id="current-module">${first_label}</span>
+            </div>
+        </div>
+        <div class="topbar-right">
+            <span class="last-update" id="last-update"></span>
+            <span id="clock" class="oa-clock">--:--:--</span>
+        </div>
+    </div>
+
+    <div id="main-content" class="oa-content-wrap" tabindex="-1">
+        <!-- 今日概览：同源直渲染，不走 iframe（DESIGN-DECISIONS D6） -->
+        <div id="dashboard" class="oa-dashboard">
+${dashboard_html}
+        </div>
+
+        <!-- 板块 iframe -->
+        <iframe id="content-frame" class="oa-content-frame" title="板块内容" hidden></iframe>
+
+        <!-- 加载中 -->
+        <div id="loading" class="oa-loading">
+            <div class="spinner"></div>
+            <span class="load-text">加载中…</span>
+        </div>
+
+        <!-- 加载失败：audit P2 —— iframe 的 error 事件识别不了 HTTP 404/500，
+             所以四种结果都要有明确 UI，不能让空白页伪装成加载成功 -->
+        <div id="frameError" class="oa-frame-error" role="alert">
+            <div class="fe-icon" id="feIcon">⚠️</div>
+            <div class="fe-title" id="feTitle">板块加载失败</div>
+            <div class="fe-desc" id="feDesc"></div>
+            <div class="fe-detail" id="feDetail"></div>
+            <div class="fe-actions">
+                <button class="oa-btn oa-btn-primary" id="feRetry">重试</button>
+                <a class="oa-btn" id="feOpen" target="_blank" rel="noopener noreferrer">新窗口打开</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>window.OA_PORTAL = ${portal_config};</script>
+<script src="assets/portal.js?v=${asset_version}"></script>
+</body>
+</html>

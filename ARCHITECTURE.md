@@ -250,13 +250,13 @@ restock_pipeline.sh
 | 规则 | 说明 |
 |------|------|
 | 改数据不直接改 HTML | 改数据源 JSON → 重新生成 |
-| 改样式不走内联 CSS | 走 `shared/oa-theme.css` |
-| 加新板块 | 只改 `generate_portal.py` 的 `MODULES` 数组 |
+| 改样式不走内联 CSS | 走 `shared/oa-theme.css`（分层：令牌/暗色/组件/页面私有/遗留 shim） |
+| 加新板块 | 只改 `oa/config.py` 的 `MODULES` 数组（v4.0 起，见 DESIGN-DECISIONS D8） |
 | 结构改动 | 必须先出方案讨论，不直接改 |
 | 改 `data/channels/*.json` | 先备份 |
 | 跨境雷达 | 注意 `master` 分支是部署分支 |
 | 补货跟进 | 不独立部署，走 `output/analysis/` 本地路径 |
-| 部署验证 | 检查门户根页 iframe 内容（非仅 platform.html） |
+| 部署验证 | 检查门户根页 iframe 内容（非仅 platform.html）；确认 `assets/portal.js` 已随产物部署 |
 
 ---
 
@@ -265,6 +265,10 @@ restock_pipeline.sh
 | 坑 | 细节 |
 |----|------|
 | `is_forbidden()` 返回 `False`（非元组） | 用 `if is_forbidden():` 判断，不是 `if is_forbidden() is not None:` |
+| 看板同步需要 Worker | Token 已从浏览器移除，走 Cloudflare Worker 代理。未部署时页面显示「已存本地」，见 DESIGN-DECISIONS「部署清单」 |
+| 数据文件写入有塌缩保护 | 新数据为空或不足旧数据一半会被拒绝写入，见 `oa/safe_write.py` |
+| 补货页需脱敏后才能部署 | `output/analysis/*.html` 来自仓库外项目、含毛利率与销量，须跑 `desensitize_analysis.py`；`update.yml` 部署前有 `--check` 门禁 |
+| 节日数据有三级回退 | `/home/lee/uk-festival-planner/` → `data/festivals_data.js` → 上次产物 |
 | PP 缓存是单日快照 | 30 天累计数据用 `pp_30day_export.py` |
 | 选品平台过滤参数 | 从 `config.json` 读取，代码默认值需与 config 保持一致 |
 | 部署验证 | CDN 缓存 600s，部署后等 2-3 分钟再验证 |

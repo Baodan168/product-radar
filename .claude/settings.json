@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "permissions": {
+    "allow": [
+      "Bash(python3 -m pytest *)",
+      "Bash(python3 generate_portal.py)",
+      "Bash(python3 generate_platform.py)",
+      "Bash(python3 desensitize_analysis.py)",
+      "Bash(python3 desensitize_analysis.py *)",
+      "Bash(python3 tools/snapshot.py *)",
+      "Bash(node --check *)",
+      "Bash(git status *)",
+      "Bash(git diff *)",
+      "Bash(git log *)",
+      "Bash(git show *)"
+    ],
+    "deny": [
+      "Read(//home/lee/.hermes/**)"
+    ]
+  }
+}

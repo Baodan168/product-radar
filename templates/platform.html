@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>选品平台 | ${scan_date}</title>
+<link rel='icon' type='image/svg+xml' href='data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"%3E%3Ccircle cx="24" cy="24" r="22" fill="none" stroke="%235856D6" stroke-width="2"/%3E%3Ccircle cx="24" cy="24" r="3" fill="%235856D6"/%3E%3C/svg%3E'>
+<link rel="stylesheet" href="shared/oa-theme.css?v=${asset_version}">
+
+</head>
+<body>
+<main class="shell">
+
+  <header class="hero" id="sectionTop">
+    <div class="hero-main">
+      <div class="hero-headline">
+        <div class="hero-logo">🎯</div>
+        <div>
+          <p class="hero-tag">SELECTION PLATFORM</p>
+          <h1>选品平台</h1>
+        </div>
+      </div>
+      <p class="hero-sub">每天上下午定时运行、实时多源搜索、提供趋势选品方向</p>
+    </div>
+  </header>
+
+<div class="date-bar">
+  <label>📅 日期：</label>
+  <select id="datePicker"></select>
+  <div class="stats" id="dateStats"></div>
+</div>
+
+<div class="main-tabs">
+  <button class="main-tab active" data-tab="discovery" style="--tc:var(--purple)">🔍 趋势发现 <span class="cnt" id="discCnt">0</span></button>
+  <button class="main-tab" data-tab="radar" style="--tc:var(--blue)">📡 雷达扫描 <span class="cnt" id="radarCnt">0</span></button>
+  <button class="main-tab" data-tab="festival" style="--tc:var(--orange)">📅 节日选品 <span class="cnt">${festival_count}</span></button>
+  <button class="main-tab" data-tab="kanban" style="--tc:var(--green)">📋 选品看板</button>
+  </div>
+
+<!-- DISCOVERY -->
+<div class="section active" id="sec-discovery">
+  <div id="forecastArea"></div>
+  <div id="seasonBar" class="season-bar"></div>
+  <div class="insight-list" id="insightList"></div>
+  <div class="empty" id="emptyDisc" style="display:none">
+    <div style="font-size:48px;margin-bottom:12px">🔍</div>
+    <p>该日期无趋势发现数据</p>
+  </div>
+</div>
+
+<!-- RADAR -->
+<div class="section" id="sec-radar">
+  <div class="st-filter">
+    <span class="lbl">状态:</span>
+    <button class="st-tab" data-status="pending" style="--s-c:#8e8e93">待评估</button>
+    <button class="st-tab" data-status="supplier" style="--s-c:#007AFF">找供应商</button>
+    <button class="st-tab" data-status="sample" style="--s-c:#FF9500">已采样</button>
+    <button class="st-tab" data-status="listed" style="--s-c:#34C759">已上架</button>
+    <button class="st-tab" data-status="rejected" style="--s-c:#FF3B30">不考虑</button>
+    <button class="st-tab active" data-status="all">全部</button>
+  </div>
+  <div class="filter-bar">
+    <div class="search-box"><input type="text" id="radarSearch" placeholder="🔍 搜索产品名称..."/></div>
+    <div class="fg"><label>利润率:</label><select id="fMargin"><option value="all">全部</option><option value="30">≥30%</option><option value="25">≥25%</option><option value="20">≥20%</option></select></div>
+    <div class="fg"><label>排序:</label><select id="fSort"><option value="score">评分↓</option><option value="margin">利润率↓</option><option value="new">新发现优先</option></select></div>
+    <button class="btn-export" data-act="export-csv">📥 导出CSV</button>
+  </div>
+  <div class="product-grid" id="radarGrid"></div>
+  <div class="empty" id="emptyRadar" style="display:none">
+    <div style="font-size:48px;margin-bottom:12px">📡</div>
+    <p>该日期无雷达数据</p>
+  </div>
+</div>
+
+<!-- FESTIVAL -->
+<div class="section" id="sec-festival">
+  ${festival_html}
+</div>
+
+<!-- KANBAN -->
+<div class="section" id="sec-kanban">
+  <div class="metrics-row" id="metricsRow"></div>
+  <div class="filter-bar">
+    <div class="search-box"><input type="text" id="kanbanSearch" placeholder="🔍 搜索关键词..."/></div>
+    <button class="btn-export" data-act="export-kanban">📥 导出看板</button>
+    <button class="btn-export" id="pauseInjectBtn" data-act="toggle-inject">⏸️ 暂停注入</button>
+    <span id="syncStatus" class="oa-sync-status" title="看板同步状态">⚪ 未同步</span>
+  </div>
+  <div class="kanban-board" id="kanbanBoard"></div>
+</div>
+
+</main>
+<div class="search-overlay" id="searchOverlay">
+  <div class="search-modal">
+    <div class="search-modal-hd">
+      <span style="font-size:18px">🔍</span>
+      <input type="text" id="globalSearchInput" placeholder="搜索关键词、产品名称..." autocomplete="off"/>
+      <button class="close-btn" data-act="toggle-search">ESC</button>
+    </div>
+    <div class="search-results" id="searchResults"></div>
+  </div>
+</div>
+
+<script src="data/radar-all.js"></script>
+<script src="data/disc-all.js"></script>
+<script src="data/festivals.js"></script>
+<script>window.PLATFORM_DATA = ${platform_data};</script>
+<script src="assets/platform.js?v=${asset_version}"></script>
+
+<!-- Phase 2.3: Debug panel (?debug=1 to show) -->
+<div id="debugPanel" style="display:none;position:fixed;bottom:0;left:0;right:0;background:#1d1d1f;color:#f5f5f7;padding:12px 20px;font-size:12px;font-family:monospace;z-index:9999;max-height:240px;overflow-y:auto;border-top:2px solid #FF9500">
+  <div style="font-weight:bold;margin-bottom:8px;color:#FF9500">Data Load Status</div>
+  <div id="debugContent"></div>
+</div>
+<script>
+(function () {
+  var errs = (window.PLATFORM_DATA && window.PLATFORM_DATA.LOAD_ERRORS) || [];
+  var dc = document.getElementById('debugContent');
+  if (!errs.length) {
+    var okEl = document.createElement('span');
+    okEl.style.color = '#34C759';
+    okEl.textContent = 'All modules loaded OK';
+    dc.appendChild(okEl);
+  } else {
+    errs.forEach(function (e) {
+      var d = document.createElement('div');
+      d.style.cssText = 'color:#FF3B30;padding:2px 0';
+      d.textContent = 'FAIL: ' + e;   // textContent，不拼 innerHTML
+      dc.appendChild(d);
+    });
+  }
+  if (new URLSearchParams(location.search).get('debug') === '1') {
+    document.getElementById('debugPanel').style.display = 'block';
+  }
+})();
+</script>
+</body>
+</html>

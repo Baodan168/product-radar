@@ -24,15 +24,25 @@ python3 -m http.server 8080    # 访问 http://localhost:8080/output/
 |------|------|
 | `ARCHITECTURE.md` | 系统架构文档（数据流/设计原则/调度/运维） |
 | `PROJECT-VISION.md` | 产品愿景文档（项目目标/选品哲学/设计理念） |
+| `DESIGN-DECISIONS.md` | 重构决策记录（每条决策的选择/理由/代价/已知限制） |
+| `oa/config.py` | **门户板块配置（加新板块改这里）** |
+| `oa/urls.py` | URL 协议+主机白名单 |
+| `oa/render.py` | 模板装配 + 分语境转义（html/attr/js/url） |
+| `templates/` `assets/` | 门户与平台的 HTML 模板、JS 资源 |
 | `config.json` | 主配置（价格区间/重量/尺寸/禁售词） |
 | `cron_scan.sh` | 定时扫描入口 |
 | `run_scan_v2.py` | 扫描引擎 |
 | `scanner.py` | 产品过滤规则（⚠️ is_forbidden()返回False非元组） |
-| `generate_platform.py` | 选品平台生成器 V5（~1146行，职责重） |
-| `generate_portal.py` | 门户生成器 V3（MODULES数组配置化） |
+| `generate_platform.py` | 选品平台生成器 V6（薄壳，模板见 templates/platform.html） |
+| `generate_portal.py` | 门户生成器 V4（薄壳，配置见 oa/config.py） |
 | `calc_profit.py` | 利润计算 |
 | `festival_engine.py` | 节日引擎 |
 | `github_api_push.py` | GitHub API 推送 |
+| `oa/safe_write.py` | 数据文件写入防塌缩 |
+| `oa/desensitize.py` | 补货页发布边界脱敏（毛利率/销量→档位标签） |
+| `desensitize_analysis.py` | 脱敏 CLI（`--check` 供 CI 用） |
+| `cloudflare-worker.js` | 抓取代理 + 看板同步代理（Token 存 Worker Secret） |
+| `tests/` | pytest 回归（119 项） |
 | `data/channels/` | 扫描数据（产品JSON） |
 | `data/discovery/` | 趋势发现数据 |
 | `output/` | 生成的 HTML |
@@ -57,7 +67,8 @@ python3 -m http.server 8080    # 访问 http://localhost:8080/output/
 - ❌ **改数据不直接改HTML** — 改数据源JSON，重新生成
 - ❌ **改样式不走内联CSS** — 走 shared/oa-theme.css
 - ❌ **修改data/channels/*.json前必须备份**
-- ✅ **加新板块只改 generate_portal.py 的 MODULES 数组**
+- ✅ **加新板块只改 `oa/config.py` 的 MODULES 数组**（v4.0 起从 generate_portal.py 移出，见 DESIGN-DECISIONS D8）
+- ✅ **改门户交互改 `assets/portal.js`，改结构改 `templates/portal.html`**
 
 ## 关键坑
 
@@ -65,15 +76,52 @@ python3 -m http.server 8080    # 访问 http://localhost:8080/output/
 - PP每日缓存是单日快照非月累计，30天数据用 `pp_30day_export.py`
 - 选品平台过滤参数从 `config.json` 读取，代码默认值需与 config 一致
 - 部署验证需检查门户根页 iframe 内容（非仅 platform.html），CDN 缓存 600s
+- 看板同步走 Cloudflare Worker，浏览器不再持有 GitHub Token；未部署 Worker 时只存本地
+- 改数据文件走 `oa/safe_write.py`，空数据会被拒绝写入（防止数据源挂掉时覆盖好数据）
+- **补货页产物提交前必须跑 `python3 desensitize_analysis.py`**，否则部署会被 CI 拦下（毛利率/销量不能上公开页）
+
+## 本地运行（WSL）
+
+这个项目只能在搭它的那台机器上完整跑起来 —— 有 16 处路径绑死在本机。
+云端会话（Claude Code on the web）能改仓库内的一切，但碰不到下面这些。
+
+**环境要求：Python 3.12+**（Hermes venv 就是 3.12）。低版本历史上炸过一次：
+`festival_engine.py` 曾用嵌套同类三引号 f-string，要 PEP 701 才能解析。
+
+| 类别 | 路径 | 缺了会怎样 |
+|------|------|-----------|
+| Hermes 凭据 | `~/.hermes/.env`、`github_token.txt`、`scraperapi_key.txt` | 扫描抓不到数据、推不上 GitHub |
+| Hermes 运行时 | `/home/lee/hermes-agent`、`hermes-venv/` | `sources/_extract_helper.py` 导入失败 |
+| 补货数据源 | `~/product-analysis/gh-pages/index.html` | `transform_analysis.py` 跑不了 |
+| 节日数据源 | `~/uk-festival-planner/index.html` | 自动回退到 `data/festivals_data.js`（有兜底，不会挂） |
+| 抓取浏览器 | `~/.cloakbrowser/chromium-*` | BSR 抓取失败（不影响主流程） |
+
+### ⚠️ 跑完补货管线必须补一步
+
+```bash
+python3 transform_analysis.py       # 从 ~/product-analysis/gh-pages/ 重新产出
+python3 desensitize_analysis.py     # ← 必须！否则毛利率会重新出现在公开页
+```
+
+上游产出的是**带毛利率/7天销量/日均**的版本，会把已脱敏的 47 个文件盖回去。
+漏了这步，`update.yml` 的 `--check` 门禁会拦下部署（这是设计如此，见 D10）。
+
+### 其他
+
+- `cron_scan.sh` 第一行 `source ~/.hermes/.env`，没有该文件会直接失败退出
+- **别本地和云端同时改同一个分支** —— 会撞车。要么本地为主云端只读，要么反过来
+- `.claude/settings.json` 已预置常用命令的权限允许列表；个人覆盖写 `.claude/settings.local.json`（不入库）
 
 ## 数据安全
 
-- GitHub Pages 公开部署，敏感字段（毛利率/月销量/库存）已脱敏
+- GitHub Pages 公开部署，敏感字段（毛利率/月销量/库存）已脱敏 —— 补货页由 `oa/desensitize.py` 在发布边界换成档位标签，CI 有 `--check` 门禁
 - 保留板块入口和功能（趋势/日历/补货/竞品），仅隐藏数字
 
 ## 当前状态
 
 - 3+1 混合架构已部署运行
-- 选品平台 V5，门户 V3
+- 选品平台 V6，门户 V4（重构分支 claude/oa-portal-redesign-9vaqif）
+- **下一轮做前端 UI 升级（视觉换新 + 信息密度）— 开工前先读 `DESIGN-DECISIONS.md` 的「下一轮：前端 UI 升级（交接）」章节**
+- 无暗色模式（曾加过又移除，原因见 DESIGN-DECISIONS D11）
 - 每天 08:40 趋势发现 + 09:10/14:00 雷达扫描
 - 周一/四 08:00 补货跟进

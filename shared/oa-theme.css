@@ -1,7 +1,14 @@
 /* ════════════════════════════════════════════
-   三店运营OA — 设计系统 v3.0
+   三店运营OA — 设计系统 v4.0
    Shared Design System
    参考: Apple HIG / DashKit / Adminator 4.0
+
+   分层结构（改样式请对号入座，不要往 HTML 里塞内联 CSS）：
+     1. Reset
+     2. 令牌层 :root          ← 唯一的令牌命名空间 --oa-*
+     3. 组件层 .oa-*          ← 通用组件
+     4. 页面私有类            ← .shell/.hero/.pc/.kanban-* 等存量类
+     5. 遗留 shim（已废弃）   ← 裸变量别名，仅为存量页面兜底
    ════════════════════════════════════════════ */
 
 
@@ -11,6 +18,8 @@
 
 /* ══════ Design Tokens ══════ */
 :root {
+  color-scheme: light;
+
   /* ── Surfaces ── */
   --oa-bg:         #f2f2f7;
   --oa-surface:    #ffffff;
@@ -74,6 +83,33 @@
 
   /* ── v3.1 Additions ── */
   --oa-radius-lg:  18px;
+
+  /* ── v4.0: 间距阶 ── */
+  --oa-space-1:  4px;
+  --oa-space-2:  8px;
+  --oa-space-3:  12px;
+  --oa-space-4:  16px;
+  --oa-space-5:  20px;
+  --oa-space-6:  24px;
+  --oa-space-8:  32px;
+  --oa-space-10: 40px;
+
+  /* ── v4.0: 层级 ── */
+  --oa-z-base:     1;
+  --oa-z-sticky:   50;
+  --oa-z-sidebar:  100;
+  --oa-z-overlay:  150;
+  --oa-z-drawer:   200;
+  --oa-z-modal:    9999;
+
+  /* ── v4.0: 状态色（板块健康 / 数据新鲜度）── */
+  --oa-status-ok:      var(--oa-green);
+  --oa-status-warn:    var(--oa-orange);
+  --oa-status-error:   var(--oa-red);
+  --oa-status-unknown: var(--oa-light);
+
+  /* 顶栏半透明底色（毛玻璃） */
+  --oa-topbar-bg:      rgba(255,255,255,0.82);
 }
 
 
@@ -792,7 +828,12 @@ body {
 }
 
 
-/* ══════ Legacy CSS variable mappings (backward compat) ══════ */
+/* ══════ Legacy CSS variable mappings ══════
+   ⚠️ 已废弃 — 新代码一律用 --oa-* 令牌。
+   这些裸变量名（--blue / --muted / --r）只为存量页面兜底：
+   platform 页和 output/analysis/*.html 还在引用。
+   裸名字容易和第三方样式撞车，且改一个颜色要改两处，所以不再扩充。
+   ══════════════════════════════════════════ */
 :root {
   --bg: var(--oa-bg);
   --card: var(--oa-surface);
@@ -914,11 +955,11 @@ body {
 .oa-topbar {
     display: flex; align-items: center; justify-content: space-between;
     padding: 0 28px; height: 50px; min-height: 50px;
-    background: rgba(255,255,255,0.82);
+    background: var(--oa-topbar-bg, rgba(255,255,255,0.82));
     backdrop-filter: blur(16px) saturate(1.2);
     -webkit-backdrop-filter: blur(16px) saturate(1.2);
-    border-bottom: 1px solid rgba(0,0,0,0.06);
-    z-index: 50;
+    border-bottom: 1px solid var(--oa-border-2);
+    z-index: var(--oa-z-sticky);
 }
 .oa-topbar .module-title {
     font-size: var(--oa-font-size-body); font-weight: 600; color: var(--oa-text);
@@ -1381,3 +1422,289 @@ body{font-family:var(--oa-font);background:var(--oa-bg);color:var(--oa-text);lin
   .pc-meta { gap:8px; font-size:13px; }
 }
 
+
+
+/* ════════════════════════════════════════════
+   v4.0 — 门户壳与今日概览组件
+   配套 templates/portal.html + assets/portal.js
+   ════════════════════════════════════════════ */
+
+/* ── 跳过导航（键盘/读屏器）── */
+.oa-skip-link {
+    position: absolute; left: -9999px; top: 0; z-index: var(--oa-z-modal);
+    padding: var(--oa-space-2) var(--oa-space-4);
+    background: var(--oa-primary); color: #fff;
+    border-radius: 0 0 var(--oa-radius-xs) 0;
+    font-size: 13px; text-decoration: none;
+}
+.oa-skip-link:focus { left: 0; }
+
+/* ── 今日概览与 iframe 互斥显示 ── */
+.oa-dashboard[hidden] { display: none; }
+.oa-content-frame[hidden] { display: none; }
+.oa-content-wrap:focus { outline: none; }
+
+/* ── 导航项改为真链接后的补充（a 元素默认带下划线/颜色）── */
+.oa-nav-item { text-decoration: none; }
+.oa-nav-item:focus-visible {
+    outline: 2px solid var(--oa-sidebar-accent);
+    outline-offset: -2px;
+}
+
+/* ── 板块健康指示点（侧栏导航右侧）── */
+.oa-nav-health {
+    margin-left: auto; width: 6px; height: 6px; border-radius: 50%;
+    flex-shrink: 0; background: var(--oa-status-unknown);
+}
+.oa-nav-health[data-health="ok"]      { background: var(--oa-status-ok); }
+.oa-nav-health[data-health="warn"]    { background: var(--oa-status-warn); }
+.oa-nav-health[data-health="error"]   { background: var(--oa-status-error); }
+.oa-nav-health[data-health="unknown"] { background: var(--oa-status-unknown); }
+
+/* ── iframe 错误态 ──
+   audit P2：iframe 的 error 事件识别不了 HTTP 404/500，
+   所以四种结果（正常/HTTP错误/网络失败/超时）都要有明确 UI，
+   不能再让空白页伪装成加载成功。 */
+.oa-frame-error {
+    position: absolute; inset: 0; z-index: 30;
+    display: none; flex-direction: column;
+    align-items: center; justify-content: center; gap: var(--oa-space-4);
+    padding: var(--oa-space-8); text-align: center;
+    background: var(--oa-bg);
+}
+.oa-frame-error.show { display: flex; }
+.oa-frame-error .fe-icon { font-size: 44px; line-height: 1; }
+.oa-frame-error .fe-title { font-size: 17px; font-weight: 600; color: var(--oa-text); }
+.oa-frame-error .fe-desc {
+    font-size: 13px; color: var(--oa-sub); line-height: 1.6;
+    max-width: 460px; overflow-wrap: break-word;
+}
+.oa-frame-error .fe-detail {
+    font-family: var(--oa-font-mono); font-size: 11.5px;
+    color: var(--oa-light); overflow-wrap: anywhere;
+}
+.oa-frame-error .fe-actions { display: flex; gap: var(--oa-space-2); flex-wrap: wrap; justify-content: center; }
+
+/* ── 今日概览 ── */
+.oa-dashboard {
+    padding: var(--oa-space-6) var(--oa-space-8) var(--oa-space-10);
+    max-width: 1400px; margin: 0 auto;
+}
+.oa-dash-head { margin-bottom: var(--oa-space-6); }
+.oa-dash-eyebrow {
+    font-size: 11px; font-weight: 600; letter-spacing: .08em;
+    text-transform: uppercase; color: var(--oa-sub);
+}
+.oa-dash-title {
+    font-size: 26px; font-weight: 700; letter-spacing: -0.02em;
+    color: var(--oa-text); margin-top: var(--oa-space-1);
+}
+.oa-dash-sub {
+    font-size: 14px; color: var(--oa-sub);
+    margin-top: var(--oa-space-2); line-height: 1.6;
+}
+
+.oa-dash-grid {
+    display: grid; gap: var(--oa-space-5);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: start;
+}
+
+.oa-dash-card {
+    background: var(--oa-surface);
+    border: 1px solid var(--oa-border-2);
+    border-radius: var(--oa-radius);
+    box-shadow: var(--oa-shadow-sm);
+    padding: var(--oa-space-5);
+    display: flex; flex-direction: column; gap: var(--oa-space-4);
+    min-width: 0;
+}
+.oa-dash-card-head {
+    display: flex; align-items: center; gap: var(--oa-space-2);
+}
+.oa-dash-card-icon { font-size: 18px; line-height: 1; flex-shrink: 0; }
+.oa-dash-card-title {
+    font-size: 15px; font-weight: 600; color: var(--oa-text);
+}
+.oa-dash-card-link {
+    margin-left: auto; font-size: 12px; font-weight: 500;
+    color: var(--oa-primary); text-decoration: none; flex-shrink: 0;
+}
+.oa-dash-card-link:hover { text-decoration: underline; }
+
+/* 卡内指标行 */
+.oa-dash-metrics {
+    display: flex; gap: var(--oa-space-5); flex-wrap: wrap;
+}
+.oa-dash-metric { min-width: 0; }
+.oa-dash-metric-value {
+    font-size: 24px; font-weight: 700; line-height: 1.1;
+    color: var(--oa-text); font-variant-numeric: tabular-nums;
+}
+.oa-dash-metric-value.is-alert { color: var(--oa-red); }
+.oa-dash-metric-value.is-warn  { color: var(--oa-orange); }
+.oa-dash-metric-label {
+    font-size: 11.5px; color: var(--oa-sub); margin-top: 2px;
+}
+
+/* 缺数据 / 出错时的占位 —— 见 DESIGN-DECISIONS D7：
+   不能用 0 兜底，「真实为 0」和「没抓到」必须长得不一样 */
+.oa-dash-nodata {
+    display: flex; align-items: center; gap: var(--oa-space-2);
+    padding: var(--oa-space-4);
+    border: 1px dashed var(--oa-border);
+    border-radius: var(--oa-radius-sm);
+    background: var(--oa-surface-2);
+    font-size: 13px; color: var(--oa-sub);
+}
+.oa-dash-nodata .nd-icon { font-size: 15px; flex-shrink: 0; }
+.oa-dash-nodata .nd-reason {
+    font-family: var(--oa-font-mono); font-size: 11px;
+    color: var(--oa-light); overflow-wrap: anywhere;
+}
+
+/* 产品迷你卡（今日选品战情 Top 3）*/
+.oa-dash-picks { display: flex; flex-direction: column; gap: var(--oa-space-2); }
+.oa-pick {
+    display: flex; align-items: center; gap: var(--oa-space-3);
+    padding: var(--oa-space-2);
+    border-radius: var(--oa-radius-sm);
+    text-decoration: none; color: inherit;
+    transition: background .15s ease;
+    min-width: 0;
+}
+.oa-pick:hover { background: var(--oa-surface-2); }
+.oa-pick-rank {
+    flex-shrink: 0; width: 20px; text-align: center;
+    font-size: 12px; font-weight: 700; color: var(--oa-light);
+    font-variant-numeric: tabular-nums;
+}
+.oa-pick-img {
+    flex-shrink: 0; width: 44px; height: 44px;
+    border-radius: var(--oa-radius-xs);
+    border: 1px solid var(--oa-border-2);
+    background: var(--oa-surface-2);
+    object-fit: contain;
+}
+.oa-pick-body { min-width: 0; flex: 1; display: flex; flex-direction: column; }
+.oa-pick-name {
+    display: -webkit-box;
+    font-size: 13px; font-weight: 500; color: var(--oa-text);
+    line-height: 1.4;
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.oa-pick-meta {
+    display: flex; gap: var(--oa-space-2); align-items: center;
+    margin-top: 3px; font-size: 11.5px; color: var(--oa-sub);
+    flex-wrap: wrap;
+}
+.oa-pick-price { font-weight: 600; color: var(--oa-text); font-variant-numeric: tabular-nums; }
+
+/* 告警行（补货）*/
+.oa-dash-alerts { display: flex; flex-direction: column; gap: var(--oa-space-1); }
+.oa-alert-row {
+    display: flex; align-items: center; gap: var(--oa-space-2);
+    padding: var(--oa-space-2) var(--oa-space-2) var(--oa-space-2) var(--oa-space-3);
+    border-left: 3px solid var(--oa-border);
+    border-radius: 0 var(--oa-radius-xs) var(--oa-radius-xs) 0;
+    background: var(--oa-surface-2);
+    font-size: 12.5px; min-width: 0;
+    text-decoration: none; color: inherit;
+}
+.oa-alert-row:hover { background: var(--oa-surface-3); }
+.oa-alert-row[data-level="urgent"] { border-left-color: var(--oa-red); }
+.oa-alert-row[data-level="watch"]  { border-left-color: var(--oa-orange); }
+.oa-alert-row[data-level="steady"] { border-left-color: var(--oa-green); }
+.oa-alert-sku {
+    font-family: var(--oa-font-mono); font-size: 11px;
+    color: var(--oa-text); overflow: hidden; text-overflow: ellipsis;
+    white-space: nowrap; min-width: 0; flex: 1;
+}
+.oa-alert-tag { flex-shrink: 0; font-size: 11px; color: var(--oa-sub); }
+
+/* 节日倒计时 */
+.oa-dash-festivals { display: flex; flex-direction: column; gap: var(--oa-space-2); }
+.oa-fest-row {
+    display: flex; align-items: center; gap: var(--oa-space-3);
+    padding: var(--oa-space-2) 0; min-width: 0;
+}
+.oa-fest-row + .oa-fest-row { border-top: 1px solid var(--oa-border-2); }
+.oa-fest-icon { font-size: 20px; line-height: 1; flex-shrink: 0; }
+.oa-fest-body { min-width: 0; flex: 1; display: flex; flex-direction: column; }
+.oa-fest-name { display: block; font-size: 13px; font-weight: 600; color: var(--oa-text); line-height: 1.35; }
+.oa-fest-cats {
+    display: block;
+    font-size: 11.5px; color: var(--oa-sub); margin-top: 2px;
+    overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.oa-fest-days {
+    flex-shrink: 0; text-align: right; min-width: 48px;
+    font-size: 18px; font-weight: 700; color: var(--oa-primary);
+    font-variant-numeric: tabular-nums; line-height: 1.1;
+}
+.oa-fest-days.is-soon { color: var(--oa-orange); }
+.oa-fest-days small { display: block; font-size: 10.5px; font-weight: 500; color: var(--oa-sub); }
+
+/* 数据新鲜度 */
+.oa-dash-health { display: flex; flex-direction: column; gap: var(--oa-space-1); }
+.oa-health-row {
+    display: flex; align-items: center; gap: var(--oa-space-2);
+    padding: var(--oa-space-2) 0; font-size: 12.5px; min-width: 0;
+}
+.oa-health-row + .oa-health-row { border-top: 1px solid var(--oa-border-2); }
+.oa-health-dot {
+    width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0;
+    background: var(--oa-status-unknown);
+}
+.oa-health-dot[data-health="ok"]      { background: var(--oa-status-ok); }
+.oa-health-dot[data-health="warn"]    { background: var(--oa-status-warn); }
+.oa-health-dot[data-health="error"]   { background: var(--oa-status-error); }
+.oa-health-dot[data-health="unknown"] { background: var(--oa-status-unknown); }
+.oa-health-name { color: var(--oa-text); flex-shrink: 0; }
+.oa-health-detail {
+    margin-left: auto; color: var(--oa-sub); font-size: 11.5px;
+    text-align: right; overflow-wrap: anywhere;
+}
+
+/* 骨架屏（探针未回来时占位，避免布局跳动）*/
+.oa-skeleton {
+    background: linear-gradient(90deg,
+        var(--oa-surface-2) 25%, var(--oa-surface-3) 37%, var(--oa-surface-2) 63%);
+    background-size: 400% 100%;
+    animation: oa-shimmer 1.4s ease infinite;
+    border-radius: var(--oa-radius-xs);
+}
+@keyframes oa-shimmer {
+    from { background-position: 100% 50%; }
+    to   { background-position: 0 50%; }
+}
+@media (prefers-reduced-motion: reduce) {
+    .oa-skeleton { animation: none; }
+    .oa-topbar .module-title .dot { animation: none; }
+}
+
+/* ── 今日概览响应式 ── */
+@media (max-width: 900px) {
+    .oa-dash-grid { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 768px) {
+    .oa-dashboard { padding: var(--oa-space-4) var(--oa-space-4) var(--oa-space-8); }
+    .oa-dash-title { font-size: 21px; }
+    .oa-dash-metric-value { font-size: 20px; }
+}
+
+
+/* ════════════════════════════════════════════
+   遗留 shim（已废弃，勿在新代码使用）
+
+   下面的裸变量别名只为存量页面兜底：platform 页和
+   output/analysis/*.html 还在引用 --blue / --muted / --r 这类名字。
+   新代码一律用 --oa-* 令牌。
+
+   ⚠️ output/analysis/*.html 由仓库外的本地项目
+   ~/product-analysis/ 生成，自带硬编码颜色的内联 <style>，且那段
+   <style> 排在 <link> 之后 —— 同特异度下它会赢。以后要覆盖那些页面的
+   样式，选择器特异度必须比裸类选择器高（例如加 :root 前缀）。
+   见 DESIGN-DECISIONS.md「已知限制」。
+   ════════════════════════════════════════════ */

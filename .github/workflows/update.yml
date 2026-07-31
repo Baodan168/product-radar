@@ -18,17 +18,32 @@ jobs:
 
       - uses: actions/configure-pages@v5
 
+      # 补货页由仓库外的项目生成，会带毛利率/销量等敏感字段。
+      # 在拷进 deploy/ 之前拦一道：有人直接提交了未脱敏的文件，
+      # 这里会红，而不是静默上线。修法是本地跑
+      # `python3 desensitize_analysis.py` 后重新提交。
+      - name: Check restock pages are desensitized
+        run: python3 desensitize_analysis.py --check
+
       - name: Prepare deployment
         run: |
           # Create deploy directory
           mkdir -p deploy/data/channels
-          
+
           # Copy output files
           cp -r output/* deploy/
           
           # Copy shared design system
           if [ -d shared ]; then
             cp -r shared deploy/shared
+          fi
+
+          # Copy portal assets (JS/CSS extracted out of the generators).
+          # Source of truth is assets/ at repo root; output/assets/ is only a
+          # local mirror for the github_api_push.py path and is gitignored.
+          if [ -d assets ]; then
+            mkdir -p deploy/assets
+            cp -r assets/* deploy/assets/
           fi
           
           # Copy data files for date picker

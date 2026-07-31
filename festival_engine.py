@@ -3,12 +3,24 @@
 Festival Planner — 从 uk-festival-planner 提取数据，集成到选品平台
 """
 
+import html as htmlmod
 import json
+import re
 import subprocess
 import tempfile
 import urllib.parse
 from datetime import datetime, timedelta
 from pathlib import Path
+
+
+def _safe_slug(value, fallback='other'):
+    """把外部字段收紧成只含 [A-Za-z0-9_-] 的 slug。
+
+    用在会进入 HTML 属性 / JS 字符串的位置。这类值本来就该是标识符，
+    与其去猜哪一层转义够用，不如直接限定字符集。
+    """
+    slug = re.sub(r'[^A-Za-z0-9_-]', '', str(value or ''))
+    return slug[:40] or fallback
 
 BASE = Path(__file__).parent
 
@@ -34,54 +46,90 @@ CATEGORY_MAP = {
 }
 
 
-def load_festivals():
-    """加载 Festival 数据"""
-    html_file = Path('/home/lee/uk-festival-planner/index.html')
-    if not html_file.exists():
-        return []
-    
-    content = html_file.read_text(encoding='utf-8')
-    start = content.find('const FESTIVALS = [')
+# 数据源，按优先级从高到低。
+# 原本只有第一个 —— 一台机器上的绝对路径。那台机器上的目录一改名，
+# load_festivals() 就静默返回 []，generate_platform.py 照样生成一个
+# 节日 Tab 全空的页面，把上一份好数据覆盖掉。加两级仓库内的回退。
+FESTIVAL_SOURCES = [
+    Path('/home/lee/uk-festival-planner/index.html'),   # 原始项目（若在本机）
+    BASE / 'data' / 'festivals_data.js',                # 仓库内副本
+    BASE / 'output' / 'data' / 'festivals.js',          # 上次生成的产物（纯 JSON）
+]
+
+
+def _extract_js_array(content, marker):
+    """从 JS 源码里按括号配对切出 marker 之后的数组字面量。"""
+    start = content.find(marker)
     if start == -1:
-        return []
-    
-    bracket_count = 0
-    i = start + len('const FESTIVALS = ')
-    end = None
+        return None
+    i = start + len(marker)
+    depth = 0
     while i < len(content):
         if content[i] == '[':
-            bracket_count += 1
+            depth += 1
         elif content[i] == ']':
-            bracket_count -= 1
-            if bracket_count == 0:
-                end = i + 1
-                break
+            depth -= 1
+            if depth == 0:
+                return content[start + len(marker):i + 1]
         i += 1
-    
-    if not end:
-        return []
-    
-    js_array = content[start + len('const FESTIVALS = '):end]
-    
+    return None
+
+
+def _parse_js_array(js_array):
+    """用 node 把 JS 对象字面量转成 JSON（键没引号，json 模块吃不下）。"""
+    temp_file = None
     try:
-        with tempfile.NamedTemporaryFile(mode='w', suffix='.js', delete=False, encoding='utf-8') as f:
+        with tempfile.NamedTemporaryFile(mode='w', suffix='.js', delete=False,
+                                         encoding='utf-8') as f:
             f.write(f'const FESTIVALS = {js_array};\n')
             f.write('console.log(JSON.stringify(FESTIVALS));\n')
             temp_file = f.name
-        
-        result = subprocess.run(
-            ['node', temp_file],
-            capture_output=True, text=True, timeout=30
-        )
-        
-        import os
-        os.unlink(temp_file)
-        
+        result = subprocess.run(['node', temp_file], capture_output=True,
+                                text=True, timeout=30)
         if result.returncode == 0:
             return json.loads(result.stdout)
+        print(f"  ⚠️ node 解析节日数据失败: {result.stderr.strip()[:200]}")
     except Exception as e:
-        print(f"Node.js 解析失败: {e}")
-    
+        print(f"  ⚠️ 节日数据解析异常: {e}")
+    finally:
+        if temp_file:
+            Path(temp_file).unlink(missing_ok=True)
+    return None
+
+
+def load_festivals():
+    """加载 Festival 数据，按 FESTIVAL_SOURCES 顺序回退。
+
+    返回空列表代表「一个源都没读到」，调用方必须把它当异常处理，
+    不能当成「今年没有节日」——那会覆盖掉好数据。
+    """
+    for src in FESTIVAL_SOURCES:
+        if not src.exists():
+            continue
+        try:
+            content = src.read_text(encoding='utf-8')
+        except OSError:
+            continue
+
+        # output/data/festivals.js 是上次生成的产物，已经是合法 JSON
+        if src.suffix == '.js' and content.lstrip().startswith('window.FESTIVALS'):
+            try:
+                data = json.loads(content.split('=', 1)[1].strip().rstrip(';'))
+                if data:
+                    return data
+            except (json.JSONDecodeError, IndexError):
+                pass
+            continue
+
+        js_array = _extract_js_array(content, 'const FESTIVALS = ')
+        if not js_array:
+            continue
+        data = _parse_js_array(js_array)
+        if data:
+            print(f"  ℹ️ 节日数据来自 {src}")
+            return data
+
+    print("  ⚠️ 所有节日数据源都读不到，节日 Tab 将为空")
     return []
 
 
@@ -167,15 +215,29 @@ def generate_festival_html(festivals):
             if upcoming is None or deadline < upcoming['deadline']:
                 upcoming = {"festival": f, "deadline": deadline, "urgency": urgency}
     
+    # 最近备货节点那段先单独拼好。
+    # 原本是把这段 f-string 直接嵌在下面的外层 f'''...''' 里，同类三引号
+    # 套同类三引号要 Python 3.12+（PEP 701）才能解析，3.11 及以下直接
+    # SyntaxError。拆出来就没有版本门槛了。
+    if upcoming:
+        fest = upcoming['festival']
+        countdown_html = (
+            f"· 最近备货节点：<strong>{fest['icon']} {fest['name']}</strong>"
+            f"（{fest['date']}）· 选品截止 "
+            f"<strong>{upcoming['deadline'].strftime('%Y-%m-%d')}</strong> · "
+            f"<span class=\"badge {upcoming['urgency']}\">"
+            f"{get_urgency_label(upcoming['urgency'])}</span>"
+        )
+    else:
+        countdown_html = ''
+
     # 生成 HTML
     html = f'''
     <div class="festival-header">
       <h2>📅 Festival Planner 2026 Jul - 2027 Jun | {len(festivals)} Events | 300+ SKUs</h2>
       <div class="countdown">
         今日 <strong>{today}</strong>
-        {f'''· 最近备货节点：<strong>{upcoming['festival']['icon']} {upcoming['festival']['name']}</strong>
-           （{upcoming['festival']['date']}）· 选品截止 <strong>{upcoming['deadline'].strftime('%Y-%m-%d')}</strong>
-           · <span class="badge {upcoming['urgency']}">{get_urgency_label(upcoming['urgency'])}</span>''' if upcoming else ''}
+        {countdown_html}
       </div>
     </div>
     
@@ -273,11 +335,18 @@ def generate_festival_html(festivals):
                 products_by_category[cat] += 1
             
             # 品类筛选按钮（放在标题后面）
+            # cat 来自节日数据的 category 字段，属于外部数据。原本直接拼进
+            # onclick 的 JS 字符串里，数据里一个单引号就能跳出字符串执行代码
+            # （audit P0 描述的同一类问题）。品类是个 slug，用字符白名单收紧。
             cat_tabs_html = '<span class="cat-tabs-inline">'
             cat_tabs_html += f'<button class="cat-pill active" onclick="filterProductCat(this, \'\')">全部 ({len(products)})</button>'
             for cat, count in products_by_category.items():
                 cat_info = CATEGORY_MAP.get(cat, {"label": cat, "icon": "📦", "color": "#6b7280"})
-                cat_tabs_html += f'<button class="cat-pill" onclick="filterProductCat(this, \'{cat}\')">{cat_info["icon"]} {cat_info["label"]} ({count})</button>'
+                cat_slug = _safe_slug(cat)
+                label = htmlmod.escape(str(cat_info["label"]))
+                icon = htmlmod.escape(str(cat_info["icon"]))
+                cat_tabs_html += (f'<button class="cat-pill" onclick="filterProductCat(this, \'{cat_slug}\')">'
+                                  f'{icon} {label} ({count})</button>')
             cat_tabs_html += '</span>'
             
             # 生成产品表格
@@ -333,20 +402,28 @@ def generate_festival_html(festivals):
                     ali_html = ''
                     if search_term:
                         encoded_term = urllib.parse.quote(search_term, encoding='gbk', safe='')
-                        ali_html = f'<a class="kw-link ali" href="https://s.1688.com/selloffer/offer_search.htm?keywords={encoded_term}" target="_blank">🏭 {search_term}</a>'
+                        ali_html = (f'<a class="kw-link ali" rel="noopener noreferrer" '
+                                    f'href="https://s.1688.com/selloffer/offer_search.htm?keywords={encoded_term}" '
+                                    f'target="_blank">🏭 {htmlmod.escape(search_term)}</a>')
                     
+                    # data-cat 必须和上面按钮传的 slug 一致，否则筛选点不中；
+                    # 其余字段一律 HTML 转义，别裸拼进标签
+                    row_cat = _safe_slug(p.get('category', ''))
+                    e = lambda v: htmlmod.escape(str(v if v is not None else ''))
+                    _score = p.get('matchScore', 0)
+                    _score = _score if isinstance(_score, int) and 0 <= _score <= 5 else 0
                     products_html += f'''
-              <tr data-cat="{p.get('category', '')}">
+              <tr data-cat="{row_cat}">
                 <td>
-                  <div class="sku-name">{p.get('sku', '')}</div>
-                  <div class="sku-en">{p.get('skuEn', '')}</div>
+                  <div class="sku-name">{e(p.get('sku', ''))}</div>
+                  <div class="sku-en">{e(p.get('skuEn', ''))}</div>
                 </td>
-                <td><span class="cat-tag" style="background:{cat_info['color']}15;color:{cat_info['color']}">{cat_info['icon']} {cat_info['label']}</span></td>
-                <td class="cost">{p.get('costRange', '')}</td>
-                <td class="price">{p.get('priceRange', '')}</td>
-                <td class="margin">{p.get('margin', '')}</td>
-                <td class="match">{"★" * p.get('matchScore', 0)}{"☆" * (5 - p.get('matchScore', 0))}</td>
-                <td><span class="risk {risk_cls}">{p.get('riskLevel', '')}</span></td>
+                <td><span class="cat-tag" style="background:{e(cat_info['color'])}15;color:{e(cat_info['color'])}">{e(cat_info['icon'])} {e(cat_info['label'])}</span></td>
+                <td class="cost">{e(p.get('costRange', ''))}</td>
+                <td class="price">{e(p.get('priceRange', ''))}</td>
+                <td class="margin">{e(p.get('margin', ''))}</td>
+                <td class="match">{"★" * _score}{"☆" * (5 - _score)}</td>
+                <td><span class="risk {e(risk_cls)}">{e(p.get('riskLevel', ''))}</span></td>
                 <td class="links">{keywords_html}</td>
                 <td class="links">{ali_html}</td>
               </tr>
