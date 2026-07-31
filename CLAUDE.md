@@ -80,6 +80,38 @@ python3 -m http.server 8080    # 访问 http://localhost:8080/output/
 - 改数据文件走 `oa/safe_write.py`，空数据会被拒绝写入（防止数据源挂掉时覆盖好数据）
 - **补货页产物提交前必须跑 `python3 desensitize_analysis.py`**，否则部署会被 CI 拦下（毛利率/销量不能上公开页）
 
+## 本地运行（WSL）
+
+这个项目只能在搭它的那台机器上完整跑起来 —— 有 16 处路径绑死在本机。
+云端会话（Claude Code on the web）能改仓库内的一切，但碰不到下面这些。
+
+**环境要求：Python 3.12+**（Hermes venv 就是 3.12）。低版本历史上炸过一次：
+`festival_engine.py` 曾用嵌套同类三引号 f-string，要 PEP 701 才能解析。
+
+| 类别 | 路径 | 缺了会怎样 |
+|------|------|-----------|
+| Hermes 凭据 | `~/.hermes/.env`、`github_token.txt`、`scraperapi_key.txt` | 扫描抓不到数据、推不上 GitHub |
+| Hermes 运行时 | `/home/lee/hermes-agent`、`hermes-venv/` | `sources/_extract_helper.py` 导入失败 |
+| 补货数据源 | `~/product-analysis/gh-pages/index.html` | `transform_analysis.py` 跑不了 |
+| 节日数据源 | `~/uk-festival-planner/index.html` | 自动回退到 `data/festivals_data.js`（有兜底，不会挂） |
+| 抓取浏览器 | `~/.cloakbrowser/chromium-*` | BSR 抓取失败（不影响主流程） |
+
+### ⚠️ 跑完补货管线必须补一步
+
+```bash
+python3 transform_analysis.py       # 从 ~/product-analysis/gh-pages/ 重新产出
+python3 desensitize_analysis.py     # ← 必须！否则毛利率会重新出现在公开页
+```
+
+上游产出的是**带毛利率/7天销量/日均**的版本，会把已脱敏的 47 个文件盖回去。
+漏了这步，`update.yml` 的 `--check` 门禁会拦下部署（这是设计如此，见 D10）。
+
+### 其他
+
+- `cron_scan.sh` 第一行 `source ~/.hermes/.env`，没有该文件会直接失败退出
+- **别本地和云端同时改同一个分支** —— 会撞车。要么本地为主云端只读，要么反过来
+- `.claude/settings.json` 已预置常用命令的权限允许列表；个人覆盖写 `.claude/settings.local.json`（不入库）
+
 ## 数据安全
 
 - GitHub Pages 公开部署，敏感字段（毛利率/月销量/库存）已脱敏 —— 补货页由 `oa/desensitize.py` 在发布边界换成档位标签，CI 有 `--check` 门禁
