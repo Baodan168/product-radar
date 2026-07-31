@@ -1173,6 +1173,7 @@ body{font-family:var(--oa-font);background:var(--oa-bg);color:var(--oa-text);lin
 .pc:hover{transform:translateY(-2px);box-shadow:var(--oa-shadow-lg)}
 .pc[data-status="listed"]{opacity:.6}.pc[data-status="rejected"]{opacity:.4}
 .badge-new{position:absolute;top:12px;right:12px;padding:3px 8px;border-radius:8px;font-size:10.5px;font-weight:700;background:var(--oa-green);color:var(--oa-surface)}
+.badge-warn{position:absolute;top:12px;right:12px;padding:3px 8px;border-radius:8px;font-size:10.5px;font-weight:700;background:var(--oa-orange);color:#fff;transform:translateY(24px)}
 .badge-repeat{position:absolute;top:12px;right:12px;padding:3px 8px;border-radius:8px;font-size:10.5px;font-weight:600;background:var(--oa-surface-3);color:var(--oa-sub)}
 .card-hd{display:flex;justify-content:space-between;align-items:center;gap:8px}
 .src-badge{padding:3px 8px;border-radius:8px;font-size:10.5px;font-weight:700;background:var(--oa-blue);color:var(--oa-surface)}

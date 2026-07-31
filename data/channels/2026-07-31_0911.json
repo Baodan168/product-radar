@@ -4,8 +4,8 @@
   "scan_ts": "2026-07-31_0911",
   "stats": {
     "total_scanned": 101,
-    "passed_filter": 11,
-    "rejected": 90,
+    "passed_filter": 9,
+    "rejected": 94,
     "channels": {
       "temu_trending": 10,
       "etsy_trending": 10,
@@ -273,9 +273,96 @@
         ]
       }
     },
-    "gap_opportunities": 15
+    "gap_opportunities": 15,
+    "detail_reject": {
+      "尺寸超标": 1,
+      "重量超标": 3
+    }
   },
   "products": [
+    {
+      "asin": "B0FH61WJV8",
+      "name": "2pcs Fish Net Decorations for Party, 80x40in Hawaiian Fishing Net Nautical Themed Fishnet for Pirate Ocean Mermaid Party",
+      "price": 8.66,
+      "reviews": 17,
+      "rating": 4.6,
+      "rank": 27,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "17 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FH61WJV8",
+      "image_url": "https://m.media-amazon.com/images/I/71VDYPXcaGL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "pirate decorations",
+      "festival_event": "海盗说话日",
+      "festival_icon": "🏴‍☠️",
+      "festival_deadline": "2026-08-03",
+      "is_event": false,
+      "sources": [
+        "📅 海盗说话日",
+        "Google趋势",
+        "Temu热销",
+        "TikTok趋势",
+        "Etsy趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.302,
+      "net_profit": 2.62,
+      "cost_breakdown": {
+        "vat": 1.45,
+        "commission": 1.3,
+        "fba": 1.46,
+        "ads": 0.87,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 6.04
+      },
+      "off_season": false,
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 145,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(crafts)": 23,
+        "🌊 蓝海": 15,
+        "⭐ 高评分": 5,
+        "💰 高利润": 8,
+        "❓ 品类存疑": -5,
+        "📈 排名上升": 10,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-07-25",
+      "is_multi": true,
+      "channel_tags": [
+        "temu_trending",
+        "etsy_trending",
+        "multi_source",
+        "google_trends",
+        "tiktok_verified",
+        "keyword_search"
+      ],
+      "verify_status": "unverified"
+    },
     {
       "asin": "B0GQ4N3HZ4",
       "name": "Alpine WaterSafe Ear Plugs for Swimming, Keep Water Out, Hear Sound, Secure Fit, Soft, Comfortable, Reusable, Swimmers, ",
@@ -357,89 +444,8 @@
         "google_trends",
         "tiktok_verified",
         "new_releases"
-      ]
-    },
-    {
-      "asin": "B0FH61WJV8",
-      "name": "2pcs Fish Net Decorations for Party, 80x40in Hawaiian Fishing Net Nautical Themed Fishnet for Pirate Ocean Mermaid Party",
-      "price": 8.66,
-      "reviews": 17,
-      "rating": 4.6,
-      "rank": 27,
-      "category": "Search",
-      "channel": "keyword_search",
-      "channel_name": "关键词搜索(festival)",
-      "review_info": "17 reviews, 4.6★",
-      "amazon_url": "https://www.amazon.co.uk/dp/B0FH61WJV8",
-      "image_url": "https://m.media-amazon.com/images/I/71VDYPXcaGL._AC_UL320_.jpg",
-      "keyword_source": "festival",
-      "matched_keyword": "pirate decorations",
-      "festival_event": "海盗说话日",
-      "festival_icon": "🏴‍☠️",
-      "festival_deadline": "2026-08-03",
-      "is_event": false,
-      "sources": [
-        "📅 海盗说话日",
-        "Google趋势",
-        "Temu热销",
-        "TikTok趋势",
-        "Etsy趋势"
       ],
-      "google_trend": "rising",
-      "profit_margin": 0.302,
-      "net_profit": 2.62,
-      "cost_breakdown": {
-        "vat": 1.45,
-        "commission": 1.3,
-        "fba": 1.46,
-        "ads": 0.87,
-        "returns": 0.17,
-        "sourcing": 0.8,
-        "total_cost": 6.04
-      },
-      "off_season": false,
-      "sd_score": 0,
-      "sd_label": "",
-      "sd_info": {},
-      "div_score": 0,
-      "div_label": "",
-      "div_info": {},
-      "signal_level": "strong",
-      "signal_label": "🔴 强信号",
-      "external_sources": [
-        "TikTok",
-        "Google",
-        "Temu",
-        "Etsy"
-      ],
-      "internal_sources": [],
-      "score": 145,
-      "score_breakdown": {
-        "🎵 TikTok": 20,
-        "📊 Google↑": 15,
-        "🛒 Temu": 8,
-        "🎨 Etsy": 6,
-        "🔴 强信号": 20,
-        "🔥 多源热门(crafts)": 23,
-        "🌊 蓝海": 15,
-        "⭐ 高评分": 5,
-        "💰 高利润": 8,
-        "❓ 品类存疑": -5,
-        "📈 排名上升": 10,
-        "⚠️ 品类过密": -10
-      },
-      "stars": 5,
-      "is_new": false,
-      "first_seen": "2026-07-25",
-      "is_multi": true,
-      "channel_tags": [
-        "temu_trending",
-        "etsy_trending",
-        "multi_source",
-        "google_trends",
-        "tiktok_verified",
-        "keyword_search"
-      ]
+      "verify_status": "unverified"
     },
     {
       "asin": "B0GTMVMRBK",
@@ -519,7 +525,8 @@
         "google_trends",
         "tiktok_verified",
         "keyword_search"
-      ]
+      ],
+      "verify_status": "unverified"
     },
     {
       "asin": "B0FHHVV2Y7",
@@ -599,7 +606,83 @@
         "google_trends",
         "tiktok_verified",
         "keyword_search"
-      ]
+      ],
+      "verify_status": "verified"
+    },
+    {
+      "asin": "B0DZ711ZWF",
+      "name": "Sponsored Ad – Compression Packing Cubes 7-Piece Set with Multi- Compartment Travel Bag, Waterproof Suitcase Organiser B",
+      "price": 10.62,
+      "reviews": 82,
+      "rating": 4.2,
+      "rank": 10,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "82 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DZ711ZWF",
+      "image_url": "https://m.media-amazon.com/images/I/71RSQkP7MvL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "compression packing cubes 4 set, travel packing cubes for suitcase, luggage organizer bags, compression packing cubes for travel, suitcase organiser bags 4 pack, travel compression packing cubes, packing cubes for backpack, expandable packing cubes, travel storage bags for luggage",
+      "sources": [
+        "趋势发现",
+        "Temu热销",
+        "TikTok趋势",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.35,
+      "net_profit": 3.72,
+      "cost_breakdown": {
+        "vat": 1.77,
+        "commission": 1.59,
+        "fba": 1.46,
+        "ads": 1.06,
+        "returns": 0.21,
+        "sourcing": 0.8,
+        "total_cost": 6.9
+      },
+      "off_season": false,
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 129,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(crafts)": 23,
+        "🟡 中等竞争": 5,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "🌴 当季(summer)": 10,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-07-31",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "temu_trending",
+        "etsy_trending",
+        "multi_source",
+        "tiktok_verified",
+        "keyword_search"
+      ],
+      "verify_status": "unverified"
     },
     {
       "asin": "B0FPBG3FQ4",
@@ -682,39 +765,44 @@
         "google_trends",
         "tiktok_verified",
         "keyword_search"
-      ]
+      ],
+      "verify_status": "verified"
     },
     {
-      "asin": "B0DZ711ZWF",
-      "name": "Sponsored Ad – Compression Packing Cubes 7-Piece Set with Multi- Compartment Travel Bag, Waterproof Suitcase Organiser B",
-      "price": 10.62,
-      "reviews": 82,
-      "rating": 4.2,
-      "rank": 10,
+      "asin": "B0BB1KXF1J",
+      "name": "WUERKIYA Pirate Treasure Map Backdrop Island Treasure Map Banner Nautical Tapestry Hanging Decoration for Treasure Hunt ",
+      "price": 6.52,
+      "reviews": 29,
+      "rating": 4.6,
+      "rank": 29,
       "category": "Search",
       "channel": "keyword_search",
-      "channel_name": "关键词搜索(discovery)",
-      "review_info": "82 reviews, 4.2★",
-      "amazon_url": "https://www.amazon.co.uk/dp/B0DZ711ZWF",
-      "image_url": "https://m.media-amazon.com/images/I/71RSQkP7MvL._AC_UL320_.jpg",
-      "keyword_source": "discovery",
-      "matched_keyword": "compression packing cubes 4 set, travel packing cubes for suitcase, luggage organizer bags, compression packing cubes for travel, suitcase organiser bags 4 pack, travel compression packing cubes, packing cubes for backpack, expandable packing cubes, travel storage bags for luggage",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "29 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0BB1KXF1J",
+      "image_url": "https://m.media-amazon.com/images/I/918GCnrRN5L._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "pirate decorations",
+      "festival_event": "海盗说话日",
+      "festival_icon": "🏴‍☠️",
+      "festival_deadline": "2026-08-03",
+      "is_event": false,
       "sources": [
-        "趋势发现",
+        "📅 海盗说话日",
         "Temu热销",
         "TikTok趋势",
         "Etsy趋势"
       ],
-      "profit_margin": 0.35,
-      "net_profit": 3.72,
+      "profit_margin": 0.216,
+      "net_profit": 1.41,
       "cost_breakdown": {
-        "vat": 1.77,
-        "commission": 1.59,
+        "vat": 1.09,
+        "commission": 0.98,
         "fba": 1.46,
-        "ads": 1.06,
-        "returns": 0.21,
+        "ads": 0.65,
+        "returns": 0.13,
         "sourcing": 0.8,
-        "total_cost": 6.9
+        "total_cost": 5.11
       },
       "off_season": false,
       "sd_score": 0,
@@ -731,32 +819,31 @@
         "Etsy"
       ],
       "internal_sources": [],
-      "score": 129,
+      "score": 117,
       "score_breakdown": {
         "🎵 TikTok": 20,
         "🛒 Temu": 8,
         "🎨 Etsy": 6,
         "🔴 强信号": 20,
-        "🔥 多源热门(crafts)": 23,
-        "🟡 中等竞争": 5,
-        "💰 超高利润": 12,
+        "🔥 多源热门(home decor)": 23,
+        "🟢 低竞争": 10,
+        "⭐ 高评分": 5,
         "❓ 品类存疑": -5,
-        "🌴 当季(summer)": 10,
-        "⚠️ 品类过密": -10,
-        "✨ 新发现": 10
+        "📈 排名上升": 10,
+        "⚠️ 品类过密": -10
       },
       "stars": 5,
-      "is_new": true,
-      "first_seen": "2026-07-31",
+      "is_new": false,
+      "first_seen": "2026-07-25",
       "is_multi": true,
-      "is_event": false,
       "channel_tags": [
         "temu_trending",
         "etsy_trending",
         "multi_source",
         "tiktok_verified",
         "keyword_search"
-      ]
+      ],
+      "verify_status": "unverified"
     },
     {
       "asin": "B0CGCSVZG9",
@@ -837,151 +924,8 @@
         "google_trends",
         "tiktok_verified",
         "keyword_search"
-      ]
-    },
-    {
-      "asin": "B0BB1KXF1J",
-      "name": "WUERKIYA Pirate Treasure Map Backdrop Island Treasure Map Banner Nautical Tapestry Hanging Decoration for Treasure Hunt ",
-      "price": 6.52,
-      "reviews": 29,
-      "rating": 4.6,
-      "rank": 29,
-      "category": "Search",
-      "channel": "keyword_search",
-      "channel_name": "关键词搜索(festival)",
-      "review_info": "29 reviews, 4.6★",
-      "amazon_url": "https://www.amazon.co.uk/dp/B0BB1KXF1J",
-      "image_url": "https://m.media-amazon.com/images/I/918GCnrRN5L._AC_UL320_.jpg",
-      "keyword_source": "festival",
-      "matched_keyword": "pirate decorations",
-      "festival_event": "海盗说话日",
-      "festival_icon": "🏴‍☠️",
-      "festival_deadline": "2026-08-03",
-      "is_event": false,
-      "sources": [
-        "📅 海盗说话日",
-        "Temu热销",
-        "TikTok趋势",
-        "Etsy趋势"
       ],
-      "profit_margin": 0.216,
-      "net_profit": 1.41,
-      "cost_breakdown": {
-        "vat": 1.09,
-        "commission": 0.98,
-        "fba": 1.46,
-        "ads": 0.65,
-        "returns": 0.13,
-        "sourcing": 0.8,
-        "total_cost": 5.11
-      },
-      "off_season": false,
-      "sd_score": 0,
-      "sd_label": "",
-      "sd_info": {},
-      "div_score": 0,
-      "div_label": "",
-      "div_info": {},
-      "signal_level": "strong",
-      "signal_label": "🔴 强信号",
-      "external_sources": [
-        "TikTok",
-        "Temu",
-        "Etsy"
-      ],
-      "internal_sources": [],
-      "score": 117,
-      "score_breakdown": {
-        "🎵 TikTok": 20,
-        "🛒 Temu": 8,
-        "🎨 Etsy": 6,
-        "🔴 强信号": 20,
-        "🔥 多源热门(home decor)": 23,
-        "🟢 低竞争": 10,
-        "⭐ 高评分": 5,
-        "❓ 品类存疑": -5,
-        "📈 排名上升": 10,
-        "⚠️ 品类过密": -10
-      },
-      "stars": 5,
-      "is_new": false,
-      "first_seen": "2026-07-25",
-      "is_multi": true,
-      "channel_tags": [
-        "temu_trending",
-        "etsy_trending",
-        "multi_source",
-        "tiktok_verified",
-        "keyword_search"
-      ]
-    },
-    {
-      "asin": "B0FTMV9KHD",
-      "name": "PUMA STELLAR Play Premier League 2026/27 Reactivity Football",
-      "price": 9.02,
-      "reviews": 32,
-      "rating": 4.9,
-      "rank": 2,
-      "category": "Sports",
-      "channel": "new_releases",
-      "channel_name": "Amazon新品榜",
-      "review_info": "32 reviews, 4.9★",
-      "amazon_url": "https://www.amazon.co.uk/dp/B0FTMV9KHD",
-      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/7126KS3hFyL._AC_UL300_SR300,200_.jpg",
-      "sources": [
-        "TikTok趋势"
-      ],
-      "profit_margin": 0.312,
-      "net_profit": 2.82,
-      "cost_breakdown": {
-        "vat": 1.51,
-        "commission": 1.35,
-        "fba": 1.46,
-        "ads": 0.9,
-        "returns": 0.18,
-        "sourcing": 0.8,
-        "total_cost": 6.2
-      },
-      "off_season": false,
-      "sd_score": 0,
-      "sd_label": "⚖️ 平衡",
-      "sd_info": {
-        "ratio": 2.7,
-        "demand": 23,
-        "supply": 4715,
-        "label": "⚖️ 平衡",
-        "level": "balanced"
-      },
-      "div_score": 0,
-      "div_label": "",
-      "div_info": {},
-      "signal_level": "weak",
-      "signal_label": "🟡 弱信号",
-      "external_sources": [
-        "TikTok"
-      ],
-      "internal_sources": [
-        "新品榜"
-      ],
-      "score": 101,
-      "score_breakdown": {
-        "🆕 新品榜": 20,
-        "🎵 TikTok": 20,
-        "🟢 低竞争": 10,
-        "⭐ 高评分": 5,
-        "💰 高利润": 8,
-        "❓ 品类不符": -10,
-        "📈 排名上升": 10,
-        "📊 持续上升": 8
-      },
-      "stars": 5,
-      "is_new": false,
-      "first_seen": "2026-07-25",
-      "is_event": false,
-      "channel_tags": [
-        "tiktok_verified",
-        "new_releases"
-      ]
+      "verify_status": "unverified"
     },
     {
       "asin": "B0DZ1QVMLY",
@@ -1048,67 +992,8 @@
       "channel_tags": [
         "multi_source",
         "keyword_search"
-      ]
-    },
-    {
-      "asin": "B0D3XMNPYG",
-      "name": "Sponsored Ad – GOLDGE 100 Pieces Gold Coins Pirate Treasure Set with 50 Gold Coins Children and 50 Pirate Gemstones Perf",
-      "price": 6.66,
-      "reviews": 71,
-      "rating": 4.5,
-      "rank": 9,
-      "category": "Search",
-      "channel": "keyword_search",
-      "channel_name": "关键词搜索(festival)",
-      "review_info": "71 reviews, 4.5★",
-      "amazon_url": "https://www.amazon.co.uk/dp/B0D3XMNPYG",
-      "image_url": "https://m.media-amazon.com/images/I/81aAMb7H09L._AC_UL320_.jpg",
-      "keyword_source": "festival",
-      "matched_keyword": "pirate decorations",
-      "festival_event": "海盗说话日",
-      "festival_icon": "🏴‍☠️",
-      "festival_deadline": "2026-08-03",
-      "is_event": false,
-      "sources": [
-        "📅 海盗说话日"
       ],
-      "profit_margin": 0.224,
-      "net_profit": 1.49,
-      "cost_breakdown": {
-        "vat": 1.11,
-        "commission": 1.0,
-        "fba": 1.46,
-        "ads": 0.67,
-        "returns": 0.13,
-        "sourcing": 0.8,
-        "total_cost": 5.17
-      },
-      "off_season": false,
-      "sd_score": 0,
-      "sd_label": "",
-      "sd_info": {},
-      "div_score": 0,
-      "div_label": "",
-      "div_info": {},
-      "signal_level": "none",
-      "signal_label": "⚪ 无信号",
-      "external_sources": [],
-      "internal_sources": [],
-      "score": -5,
-      "score_breakdown": {
-        "⚪ 无信号": -15,
-        "🟡 中等竞争": 5,
-        "⭐ 高评分": 5,
-        "❓ 品类存疑": -5,
-        "📉 无需求信号": -15,
-        "⚠️ 品类过密": -10
-      },
-      "stars": 1,
-      "is_new": false,
-      "first_seen": "2026-07-29",
-      "channel_tags": [
-        "keyword_search"
-      ]
+      "verify_status": "unverified"
     }
   ],
   "gaps": [

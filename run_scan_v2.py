@@ -306,6 +306,47 @@ def limit_event_products(products, max_per_event=2):
     return limited
 
 
+def limit_theme_products(products, max_per_theme=3):
+    """标题主题聚类去重：同主题（共享高频词，如 travel bottles / pirate）最多保留
+    max_per_theme 个（保留高分），其余从 passed 移除（记录到 stats，不进 rejected）。
+
+    单例主题（无共享词）不限制。返回 (kept, trimmed)。"""
+    import re as _re
+    from collections import Counter, defaultdict
+
+    STOP = {
+        'sponsored', 'ad', 'set', 'pack', 'pcs', 'piece', 'pieces', 'for', 'with',
+        'and', 'the', 'of', 'to', 'in', 'on', 'a', 'an', 'new', '2026', '2025',
+        'uk', 'cm', 'ml', 'g', 'kg', 'inch', 'fits', 'fit', 'compatible',
+        'accessory', 'accessories', 'replacement', 'style', 'color', 'design',
+        'bottle', 'bottles', 'size', 'holder', 'storage',
+    }
+    word_freq = Counter()
+    wordset = {}
+    for p in products:
+        words = set(w for w in _re.findall(r'[a-z]{3,}', (p.get('name') or '').lower()) if w not in STOP)
+        wordset[id(p)] = words
+        for w in words:
+            word_freq[w] += 1
+
+    groups = defaultdict(list)
+    for p in products:
+        shared = [w for w in wordset[id(p)] if word_freq[w] >= 2]
+        theme = max(shared, key=lambda w: word_freq[w]) if shared else None
+        groups[theme].append(p)
+
+    kept, trimmed = [], []
+    for theme, items in groups.items():
+        if theme is None:
+            kept.extend(items)
+            continue
+        items.sort(key=lambda x: -x.get('score', 0))
+        kept.extend(items[:max_per_theme])
+        if len(items) > max_per_theme:
+            trimmed.extend(items[max_per_theme:])
+    return kept, trimmed
+
+
 def dedup_products(products):
     by_asin = {}
     result = []
@@ -496,7 +537,6 @@ def main():
         rejected.extend(detail_rejected)
     except Exception as e:
         print(f"  ⚠️ [7a] 详情页验证失败 (non-fatal): {e}", file=sys.stderr)
-
     history = load_history(days=7)
 
     # 7b. Market Intelligence (supply-demand + trend divergence)
@@ -551,6 +591,17 @@ def main():
     passed = limit_event_products(passed, max_per_event=2)
     print(f"  Before: {passed_before} → After: {len(passed)}", file=sys.stderr)
 
+    # 7e. Theme dedup: 同主题产品最多保留 3 个（防止 travel bottles/pirate 刷屏）
+    print("\n[7e] Theme Dedup...", file=sys.stderr)
+    th_before = len(passed)
+    passed, trimmed = limit_theme_products(passed, max_per_theme=3)
+    theme_trimmed = [{"asin": p.get("asin"), "name": p.get("name", "")} for p in trimmed]
+    if trimmed:
+        print(f"  🎯 主题去重: {th_before} → {len(passed)} (移除 {len(trimmed)}): "
+              f"{', '.join(p.get('name', '')[:25] for p in trimmed)}", file=sys.stderr)
+    else:
+        print(f"  无主题拥挤，保留 {len(passed)}", file=sys.stderr)
+
     # Assign channel tags
     for p in passed:
         assign_channel_tags(p)
@@ -566,11 +617,24 @@ def main():
         for ch in p.get("channel_tags", [p.get("channel", "other")]):
             channel_counts[ch] = channel_counts.get(ch, 0) + 1
 
+    # 拦截原因归类统计（[7a] 详情页验证拦截的产品）
+    from collections import Counter as _Counter
+    rej_buckets = _Counter()
+    for r in rejected:
+        reason = r.get("detail_reject_reason", "")
+        if "重量" in reason:
+            rej_buckets["重量超标"] += 1
+        elif "尺寸" in reason or "包装" in reason:
+            rej_buckets["尺寸超标"] += 1
+    detail_reject_stats = dict(rej_buckets)
+
     stats = {
         "total_scanned": len(products),
         "passed_filter": len(passed),
         "rejected": len(rejected),
         "channels": channel_counts,
+        "detail_reject": detail_reject_stats,
+        "theme_trimmed": theme_trimmed,
         "trend_categories": dict(top_cats),
         "supply_demand": {cat: info for cat, info in sorted(sd_ratios.items(), key=lambda x: -x[1]["ratio"])[:8]} if sd_ratios else {},
         "divergences": divergences if divergences else {},

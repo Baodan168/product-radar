@@ -136,8 +136,22 @@ rep_c = sum(1 for p in prods if p.get('is_new')==False)
 print(f'{new_c},{rep_c},{len(prods)}')
 ")
 fi
+# [7a] 详情页拦截统计（重量/尺寸超标），拼到摘要行尾
+DETAIL_REJ=""
+if [ -n "$LATEST" ]; then
+    DETAIL_REJ=$(python3 -c "
+import json
+try:
+    d=json.load(open('$LATEST'))
+    s=d.get('stats',{}).get('detail_reject',{})
+    if s:
+        print(' | [7a]拦截 ' + ' '.join(f'{v}个{k}' for k,v in s.items()))
+except Exception:
+    pass
+" 2>/dev/null)
+fi
 if [ "$REPEAT_COUNT" -gt 0 ] 2>/dev/null; then
-    echo "✅ 选品雷达扫描完成 | $(date '+%Y-%m-%d %H:%M') | ${PRODUCTS}个通过筛选（🆕${NEW_COUNT}新品 ♻️${REPEAT_COUNT}重复）→ 已部署GitHub"
+    echo "✅ 选品雷达扫描完成 | $(date '+%Y-%m-%d %H:%M') | ${PRODUCTS}个通过筛选（🆕${NEW_COUNT}新品 ♻️${REPEAT_COUNT}重复）→ 已部署GitHub${DETAIL_REJ}"
 else
-    echo "✅ 选品雷达扫描完成 | $(date '+%Y-%m-%d %H:%M') | ${PRODUCTS}个新品通过筛选 → 已部署GitHub"
+    echo "✅ 选品雷达扫描完成 | $(date '+%Y-%m-%d %H:%M') | ${PRODUCTS}个新品通过筛选 → 已部署GitHub${DETAIL_REJ}"
 fi

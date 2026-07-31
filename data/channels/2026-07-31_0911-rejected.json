@@ -601,5 +601,137 @@
       "keyword_search"
     ],
     "detail_reject_reason": "重量 370g (限200g)"
+  },
+  {
+    "asin": "B0FTMV9KHD",
+    "name": "PUMA STELLAR Play Premier League 2026/27 Reactivity Football",
+    "price": 9.02,
+    "reviews": 32,
+    "rating": 4.9,
+    "rank": 2,
+    "category": "Sports",
+    "channel": "new_releases",
+    "channel_name": "Amazon新品榜",
+    "review_info": "32 reviews, 4.9★",
+    "amazon_url": "https://www.amazon.co.uk/dp/B0FTMV9KHD",
+    "image_url": "https://images-eu.ssl-images-amazon.com/images/I/7126KS3hFyL._AC_UL300_SR300,200_.jpg",
+    "sources": [
+      "TikTok趋势"
+    ],
+    "profit_margin": 0.312,
+    "net_profit": 2.82,
+    "cost_breakdown": {
+      "vat": 1.51,
+      "commission": 1.35,
+      "fba": 1.46,
+      "ads": 0.9,
+      "returns": 0.18,
+      "sourcing": 0.8,
+      "total_cost": 6.2
+    },
+    "off_season": false,
+    "sd_score": 0,
+    "sd_label": "⚖️ 平衡",
+    "sd_info": {
+      "ratio": 2.7,
+      "demand": 23,
+      "supply": 4715,
+      "label": "⚖️ 平衡",
+      "level": "balanced"
+    },
+    "div_score": 0,
+    "div_label": "",
+    "div_info": {},
+    "signal_level": "weak",
+    "signal_label": "🟡 弱信号",
+    "external_sources": [
+      "TikTok"
+    ],
+    "internal_sources": [
+      "新品榜"
+    ],
+    "score": 101,
+    "score_breakdown": {
+      "🆕 新品榜": 20,
+      "🎵 TikTok": 20,
+      "🟢 低竞争": 10,
+      "⭐ 高评分": 5,
+      "💰 高利润": 8,
+      "❓ 品类不符": -10,
+      "📈 排名上升": 10,
+      "📊 持续上升": 8
+    },
+    "stars": 5,
+    "is_new": false,
+    "first_seen": "2026-07-25",
+    "is_event": false,
+    "channel_tags": [
+      "tiktok_verified",
+      "new_releases"
+    ],
+    "detail_reject_reason": "重量超标 (详情页二次验证)",
+    "verify_status": "rejected"
+  },
+  {
+    "asin": "B0D3XMNPYG",
+    "name": "Sponsored Ad – GOLDGE 100 Pieces Gold Coins Pirate Treasure Set with 50 Gold Coins Children and 50 Pirate Gemstones Perf",
+    "price": 6.66,
+    "reviews": 71,
+    "rating": 4.5,
+    "rank": 9,
+    "category": "Search",
+    "channel": "keyword_search",
+    "channel_name": "关键词搜索(festival)",
+    "review_info": "71 reviews, 4.5★",
+    "amazon_url": "https://www.amazon.co.uk/dp/B0D3XMNPYG",
+    "image_url": "https://m.media-amazon.com/images/I/81aAMb7H09L._AC_UL320_.jpg",
+    "keyword_source": "festival",
+    "matched_keyword": "pirate decorations",
+    "festival_event": "海盗说话日",
+    "festival_icon": "🏴‍☠️",
+    "festival_deadline": "2026-08-03",
+    "is_event": false,
+    "sources": [
+      "📅 海盗说话日"
+    ],
+    "profit_margin": 0.224,
+    "net_profit": 1.49,
+    "cost_breakdown": {
+      "vat": 1.11,
+      "commission": 1.0,
+      "fba": 1.46,
+      "ads": 0.67,
+      "returns": 0.13,
+      "sourcing": 0.8,
+      "total_cost": 5.17
+    },
+    "off_season": false,
+    "sd_score": 0,
+    "sd_label": "",
+    "sd_info": {},
+    "div_score": 0,
+    "div_label": "",
+    "div_info": {},
+    "signal_level": "none",
+    "signal_label": "⚪ 无信号",
+    "external_sources": [],
+    "internal_sources": [],
+    "score": -5,
+    "score_breakdown": {
+      "⚪ 无信号": -15,
+      "🟡 中等竞争": 5,
+      "⭐ 高评分": 5,
+      "❓ 品类存疑": -5,
+      "📉 无需求信号": -15,
+      "⚠️ 品类过密": -10
+    },
+    "stars": 1,
+    "is_new": false,
+    "first_seen": "2026-07-29",
+    "channel_tags": [
+      "keyword_search"
+    ],
+    "detail_reject_reason": "重量超标 (详情页二次验证)",
+    "verify_status": "rejected"
   }
 ]

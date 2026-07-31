@@ -4,8 +4,8 @@
   "scan_ts": "2026-07-31_1209",
   "stats": {
     "total_scanned": 255,
-    "passed_filter": 28,
-    "rejected": 227,
+    "passed_filter": 26,
+    "rejected": 229,
     "channels": {
       "wished": 1,
       "multi_source": 24,
@@ -283,88 +283,13 @@
         ]
       }
     },
-    "gap_opportunities": 15
+    "gap_opportunities": 15,
+    "detail_reject": {
+      "尺寸超标": 3,
+      "重量超标": 2
+    }
   },
   "products": [
-    {
-      "asin": "B08B4GT4D8",
-      "name": "Unique style paws Dog Collar with Detachable Bow tie, Adjustable Dog Collars with Bow for Small Medium Large Dogs or Cat",
-      "price": 9.16,
-      "reviews": 90,
-      "rating": 4.5,
-      "rank": 21,
-      "category": "Pets",
-      "channel": "wished",
-      "channel_name": "Amazon心愿榜",
-      "review_info": "90 reviews, 4.5★",
-      "amazon_url": "https://www.amazon.co.uk/dp/B08B4GT4D8",
-      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71PDey2WBzL._AC_UL300_SR300,200_.jpg",
-      "sources": [
-        "Etsy趋势",
-        "Temu热销",
-        "TikTok趋势"
-      ],
-      "profit_margin": 0.416,
-      "net_profit": 3.81,
-      "cost_breakdown": {
-        "vat": 1.53,
-        "commission": 0.46,
-        "fba": 1.46,
-        "ads": 0.92,
-        "returns": 0.18,
-        "sourcing": 0.8,
-        "total_cost": 5.35
-      },
-      "off_season": false,
-      "sd_score": 20,
-      "sd_label": "🌊 深蓝海",
-      "sd_info": {
-        "ratio": 7.2,
-        "demand": 100,
-        "supply": 1061000,
-        "label": "🌊 深蓝海",
-        "level": "deep_blue"
-      },
-      "div_score": 0,
-      "div_label": "",
-      "div_info": {},
-      "signal_level": "strong",
-      "signal_label": "🔴 强信号",
-      "external_sources": [
-        "TikTok",
-        "Temu",
-        "Etsy"
-      ],
-      "internal_sources": [
-        "心愿榜"
-      ],
-      "score": 174,
-      "score_breakdown": {
-        "💝 心愿榜": 15,
-        "🎵 TikTok": 20,
-        "🛒 Temu": 8,
-        "🎨 Etsy": 6,
-        "🔴 强信号": 20,
-        "🔥 多源热门(pets)": 23,
-        "🟡 中等竞争": 5,
-        "⭐ 高评分": 5,
-        "💰 超高利润": 12,
-        "🌊 深蓝海": 20,
-        "✨ 新发现": 10
-      },
-      "stars": 5,
-      "is_new": true,
-      "first_seen": "2026-07-31",
-      "is_multi": true,
-      "is_event": false,
-      "channel_tags": [
-        "wished",
-        "multi_source",
-        "tiktok_verified",
-        "etsy_trending",
-        "temu_trending"
-      ]
-    },
     {
       "asin": "B0F48K5PPM",
       "name": "Sponsored Ad – 100 ml Leakproof Travel Bottles 5 Pcs with Clear Toiletry Bag | PET Plastic, Refillable Squeeze Design, S",
@@ -442,7 +367,8 @@
         "keyword_search",
         "google_trends",
         "temu_trending"
-      ]
+      ],
+      "verify_status": "unverified"
     },
     {
       "asin": "B0GVN82M7X",
@@ -517,7 +443,88 @@
         "etsy_trending",
         "keyword_search",
         "temu_trending"
-      ]
+      ],
+      "verify_status": "unverified"
+    },
+    {
+      "asin": "B08B4GT4D8",
+      "name": "Unique style paws Dog Collar with Detachable Bow tie, Adjustable Dog Collars with Bow for Small Medium Large Dogs or Cat",
+      "price": 9.16,
+      "reviews": 90,
+      "rating": 4.5,
+      "rank": 21,
+      "category": "Pets",
+      "channel": "wished",
+      "channel_name": "Amazon心愿榜",
+      "review_info": "90 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B08B4GT4D8",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71PDey2WBzL._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "Etsy趋势",
+        "Temu热销",
+        "TikTok趋势"
+      ],
+      "profit_margin": 0.416,
+      "net_profit": 3.81,
+      "cost_breakdown": {
+        "vat": 1.53,
+        "commission": 0.46,
+        "fba": 1.46,
+        "ads": 0.92,
+        "returns": 0.18,
+        "sourcing": 0.8,
+        "total_cost": 5.35
+      },
+      "off_season": false,
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 7.2,
+        "demand": 100,
+        "supply": 1061000,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [
+        "心愿榜"
+      ],
+      "score": 174,
+      "score_breakdown": {
+        "💝 心愿榜": 15,
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(pets)": 23,
+        "🟡 中等竞争": 5,
+        "⭐ 高评分": 5,
+        "💰 超高利润": 12,
+        "🌊 深蓝海": 20,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-07-31",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "wished",
+        "multi_source",
+        "tiktok_verified",
+        "etsy_trending",
+        "temu_trending"
+      ],
+      "verify_status": "unverified"
     },
     {
       "asin": "B0BJ2CM93H",
@@ -599,7 +606,8 @@
         "keyword_search",
         "google_trends",
         "temu_trending"
-      ]
+      ],
+      "verify_status": "unverified"
     },
     {
       "asin": "B0GM45YHNW",
@@ -673,7 +681,8 @@
         "etsy_trending",
         "keyword_search",
         "temu_trending"
-      ]
+      ],
+      "verify_status": "unverified"
     },
     {
       "asin": "B0FH61WJV8",
@@ -750,7 +759,8 @@
         "etsy_trending",
         "keyword_search",
         "temu_trending"
-      ]
+      ],
+      "verify_status": "unverified"
     },
     {
       "asin": "B0GQTCC4LG",
@@ -824,7 +834,8 @@
         "etsy_trending",
         "keyword_search",
         "temu_trending"
-      ]
+      ],
+      "verify_status": "unverified"
     },
     {
       "asin": "B0FPBG3FQ4",
@@ -902,7 +913,8 @@
         "etsy_trending",
         "keyword_search",
         "temu_trending"
-      ]
+      ],
+      "verify_status": "verified"
     },
     {
       "asin": "B0DZXBJJ8L",
@@ -976,157 +988,8 @@
         "etsy_trending",
         "keyword_search",
         "temu_trending"
-      ]
-    },
-    {
-      "asin": "B0BB1KXF1J",
-      "name": "WUERKIYA Pirate Treasure Map Backdrop Island Treasure Map Banner Nautical Tapestry Hanging Decoration for Treasure Hunt ",
-      "price": 6.52,
-      "reviews": 29,
-      "rating": 4.6,
-      "rank": 32,
-      "category": "Search",
-      "channel": "keyword_search",
-      "channel_name": "关键词搜索(festival)",
-      "review_info": "29 reviews, 4.6★",
-      "amazon_url": "https://www.amazon.co.uk/dp/B0BB1KXF1J",
-      "image_url": "https://m.media-amazon.com/images/I/918GCnrRN5L._AC_UL320_.jpg",
-      "keyword_source": "festival",
-      "matched_keyword": "pirate decorations",
-      "festival_event": "海盗说话日",
-      "festival_icon": "🏴‍☠️",
-      "festival_deadline": "2026-08-03",
-      "is_event": false,
-      "sources": [
-        "📅 海盗说话日",
-        "Etsy趋势",
-        "Temu热销",
-        "TikTok趋势"
       ],
-      "profit_margin": 0.216,
-      "net_profit": 1.41,
-      "cost_breakdown": {
-        "vat": 1.09,
-        "commission": 0.98,
-        "fba": 1.46,
-        "ads": 0.65,
-        "returns": 0.13,
-        "sourcing": 0.8,
-        "total_cost": 5.11
-      },
-      "off_season": false,
-      "sd_score": 0,
-      "sd_label": "",
-      "sd_info": {},
-      "div_score": 0,
-      "div_label": "",
-      "div_info": {},
-      "signal_level": "strong",
-      "signal_label": "🔴 强信号",
-      "external_sources": [
-        "TikTok",
-        "Temu",
-        "Etsy"
-      ],
-      "internal_sources": [],
-      "score": 115,
-      "score_breakdown": {
-        "🎵 TikTok": 20,
-        "🛒 Temu": 8,
-        "🎨 Etsy": 6,
-        "🔴 强信号": 20,
-        "🔥 多源热门(home decor)": 23,
-        "🟢 低竞争": 10,
-        "⭐ 高评分": 5,
-        "❓ 品类存疑": -5,
-        "📊 持续上升": 8,
-        "⚠️ 品类过密": -10
-      },
-      "stars": 5,
-      "is_new": false,
-      "first_seen": "2026-07-25",
-      "is_multi": true,
-      "channel_tags": [
-        "multi_source",
-        "tiktok_verified",
-        "etsy_trending",
-        "keyword_search",
-        "temu_trending"
-      ]
-    },
-    {
-      "asin": "B0D8TSHWZ3",
-      "name": "Rikval Silicone Travel Bottles for Toiletries – 4 Pack Refillable Travel Bottles – Squeezable Travel Containers for Crea",
-      "price": 6.75,
-      "reviews": 30,
-      "rating": 4.5,
-      "rank": 40,
-      "category": "Search",
-      "channel": "keyword_search",
-      "channel_name": "关键词搜索(discovery)",
-      "review_info": "30 reviews, 4.5★",
-      "amazon_url": "https://www.amazon.co.uk/dp/B0D8TSHWZ3",
-      "image_url": "https://m.media-amazon.com/images/I/61xOlKcuPGL._AC_UL320_.jpg",
-      "keyword_source": "discovery",
-      "matched_keyword": "silicone travel bottles 4 pack, travel bottles for toiletries, leak proof travel bottles, refillable travel containers, TSA approved travel bottles, silicone squeeze bottles travel, travel size containers for shampoo, travel bottles with clear bag, travel toiletries set 4 pack, holiday travel essentials",
-      "sources": [
-        "趋势发现",
-        "Etsy趋势",
-        "Temu热销",
-        "TikTok趋势"
-      ],
-      "profit_margin": 0.228,
-      "net_profit": 1.54,
-      "cost_breakdown": {
-        "vat": 1.13,
-        "commission": 1.01,
-        "fba": 1.46,
-        "ads": 0.68,
-        "returns": 0.14,
-        "sourcing": 0.8,
-        "total_cost": 5.21
-      },
-      "off_season": false,
-      "sd_score": 0,
-      "sd_label": "",
-      "sd_info": {},
-      "div_score": 0,
-      "div_label": "",
-      "div_info": {},
-      "signal_level": "strong",
-      "signal_label": "🔴 强信号",
-      "external_sources": [
-        "TikTok",
-        "Temu",
-        "Etsy"
-      ],
-      "internal_sources": [],
-      "score": 112,
-      "score_breakdown": {
-        "🎵 TikTok": 20,
-        "🛒 Temu": 8,
-        "🎨 Etsy": 6,
-        "🔴 强信号": 20,
-        "📈 趋势(storage)": 8,
-        "🟢 低竞争": 10,
-        "⭐ 高评分": 5,
-        "❓ 品类存疑": -5,
-        "🌴 当季(summer)": 10,
-        "⚠️ 品类过密": -10,
-        "✨ 新发现": 10
-      },
-      "stars": 5,
-      "is_new": true,
-      "first_seen": "2026-07-31",
-      "is_multi": true,
-      "is_event": false,
-      "channel_tags": [
-        "multi_source",
-        "tiktok_verified",
-        "etsy_trending",
-        "keyword_search",
-        "temu_trending"
-      ]
+      "verify_status": "unverified"
     },
     {
       "asin": "B0CGCTTQ67",
@@ -1202,39 +1065,44 @@
         "etsy_trending",
         "keyword_search",
         "temu_trending"
-      ]
+      ],
+      "verify_status": "unverified"
     },
     {
-      "asin": "B0FH9RW9VX",
-      "name": "Sponsored Ad – Alyvisun Silicone Travel Bottles Set, 100ml Toiletry Bottles and 30ml Travel Pots, Travel Size Bottles wi",
-      "price": 9.99,
-      "reviews": 111,
-      "rating": 4.2,
-      "rank": 10,
+      "asin": "B0BB1KXF1J",
+      "name": "WUERKIYA Pirate Treasure Map Backdrop Island Treasure Map Banner Nautical Tapestry Hanging Decoration for Treasure Hunt ",
+      "price": 6.52,
+      "reviews": 29,
+      "rating": 4.6,
+      "rank": 32,
       "category": "Search",
       "channel": "keyword_search",
-      "channel_name": "关键词搜索(discovery)",
-      "review_info": "111 reviews, 4.2★",
-      "amazon_url": "https://www.amazon.co.uk/dp/B0FH9RW9VX",
-      "image_url": "https://m.media-amazon.com/images/I/61ULrFykRuL._AC_UL320_.jpg",
-      "keyword_source": "discovery",
-      "matched_keyword": "silicone travel bottles 4 pack, travel bottles for toiletries, leak proof travel bottles, refillable travel containers, TSA approved travel bottles, silicone squeeze bottles travel, travel size containers for shampoo, travel bottles with clear bag, travel toiletries set 4 pack, holiday travel essentials",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "29 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0BB1KXF1J",
+      "image_url": "https://m.media-amazon.com/images/I/918GCnrRN5L._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "pirate decorations",
+      "festival_event": "海盗说话日",
+      "festival_icon": "🏴‍☠️",
+      "festival_deadline": "2026-08-03",
+      "is_event": false,
       "sources": [
-        "趋势发现",
+        "📅 海盗说话日",
         "Etsy趋势",
         "Temu热销",
         "TikTok趋势"
       ],
-      "profit_margin": 0.337,
-      "net_profit": 3.36,
+      "profit_margin": 0.216,
+      "net_profit": 1.41,
       "cost_breakdown": {
-        "vat": 1.67,
-        "commission": 1.5,
+        "vat": 1.09,
+        "commission": 0.98,
         "fba": 1.46,
-        "ads": 1.0,
-        "returns": 0.2,
+        "ads": 0.65,
+        "returns": 0.13,
         "sourcing": 0.8,
-        "total_cost": 6.63
+        "total_cost": 5.11
       },
       "off_season": false,
       "sd_score": 0,
@@ -1251,32 +1119,31 @@
         "Etsy"
       ],
       "internal_sources": [],
-      "score": 110,
+      "score": 115,
       "score_breakdown": {
         "🎵 TikTok": 20,
         "🛒 Temu": 8,
         "🎨 Etsy": 6,
         "🔴 强信号": 20,
-        "📈 趋势(bathroom)": 8,
-        "🟡 中等竞争": 5,
-        "💰 高利润": 8,
+        "🔥 多源热门(home decor)": 23,
+        "🟢 低竞争": 10,
+        "⭐ 高评分": 5,
         "❓ 品类存疑": -5,
-        "🌴 当季(summer)": 10,
-        "⚠️ 品类过密": -10,
-        "✨ 新发现": 10
+        "📊 持续上升": 8,
+        "⚠️ 品类过密": -10
       },
       "stars": 5,
-      "is_new": true,
-      "first_seen": "2026-07-31",
+      "is_new": false,
+      "first_seen": "2026-07-25",
       "is_multi": true,
-      "is_event": false,
       "channel_tags": [
         "multi_source",
         "tiktok_verified",
         "etsy_trending",
         "keyword_search",
         "temu_trending"
-      ]
+      ],
+      "verify_status": "unverified"
     },
     {
       "asin": "B0F991QC47",
@@ -1352,7 +1219,83 @@
         "etsy_trending",
         "keyword_search",
         "temu_trending"
-      ]
+      ],
+      "verify_status": "unverified"
+    },
+    {
+      "asin": "B0D8TSHWZ3",
+      "name": "Rikval Silicone Travel Bottles for Toiletries – 4 Pack Refillable Travel Bottles – Squeezable Travel Containers for Crea",
+      "price": 6.75,
+      "reviews": 30,
+      "rating": 4.5,
+      "rank": 40,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "30 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0D8TSHWZ3",
+      "image_url": "https://m.media-amazon.com/images/I/61xOlKcuPGL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "silicone travel bottles 4 pack, travel bottles for toiletries, leak proof travel bottles, refillable travel containers, TSA approved travel bottles, silicone squeeze bottles travel, travel size containers for shampoo, travel bottles with clear bag, travel toiletries set 4 pack, holiday travel essentials",
+      "sources": [
+        "趋势发现",
+        "Etsy趋势",
+        "Temu热销",
+        "TikTok趋势"
+      ],
+      "profit_margin": 0.228,
+      "net_profit": 1.54,
+      "cost_breakdown": {
+        "vat": 1.13,
+        "commission": 1.01,
+        "fba": 1.46,
+        "ads": 0.68,
+        "returns": 0.14,
+        "sourcing": 0.8,
+        "total_cost": 5.21
+      },
+      "off_season": false,
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 112,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "📈 趋势(storage)": 8,
+        "🟢 低竞争": 10,
+        "⭐ 高评分": 5,
+        "❓ 品类存疑": -5,
+        "🌴 当季(summer)": 10,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-07-31",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "multi_source",
+        "tiktok_verified",
+        "etsy_trending",
+        "keyword_search",
+        "temu_trending"
+      ],
+      "verify_status": "unverified"
     },
     {
       "asin": "B0DGXRNMN9",
@@ -1429,7 +1372,8 @@
         "etsy_trending",
         "keyword_search",
         "temu_trending"
-      ]
+      ],
+      "verify_status": "unverified"
     },
     {
       "asin": "B0DL35VN7X",
@@ -1506,80 +1450,8 @@
         "etsy_trending",
         "keyword_search",
         "temu_trending"
-      ]
-    },
-    {
-      "asin": "B0FPCMLVLQ",
-      "name": "Fadvan 100ml Silicone Travel Bottle for Toiletries,travel bottles for toiletries,4 Pack Leak Proof Refillable Squeezable",
-      "price": 6.66,
-      "reviews": 97,
-      "rating": 4.2,
-      "rank": 21,
-      "category": "Search",
-      "channel": "keyword_search",
-      "channel_name": "关键词搜索(discovery)",
-      "review_info": "97 reviews, 4.2★",
-      "amazon_url": "https://www.amazon.co.uk/dp/B0FPCMLVLQ",
-      "image_url": "https://m.media-amazon.com/images/I/71amBE2BHpL._AC_UL320_.jpg",
-      "keyword_source": "discovery",
-      "matched_keyword": "silicone travel bottles 4 pack, travel bottles for toiletries, leak proof travel bottles, refillable travel containers, TSA approved travel bottles, silicone squeeze bottles travel, travel size containers for shampoo, travel bottles with clear bag, travel toiletries set 4 pack, holiday travel essentials",
-      "sources": [
-        "趋势发现",
-        "Etsy趋势",
-        "Temu热销",
-        "TikTok趋势"
       ],
-      "profit_margin": 0.224,
-      "net_profit": 1.49,
-      "cost_breakdown": {
-        "vat": 1.11,
-        "commission": 1.0,
-        "fba": 1.46,
-        "ads": 0.67,
-        "returns": 0.13,
-        "sourcing": 0.8,
-        "total_cost": 5.17
-      },
-      "off_season": false,
-      "sd_score": 0,
-      "sd_label": "",
-      "sd_info": {},
-      "div_score": 0,
-      "div_label": "",
-      "div_info": {},
-      "signal_level": "strong",
-      "signal_label": "🔴 强信号",
-      "external_sources": [
-        "TikTok",
-        "Temu",
-        "Etsy"
-      ],
-      "internal_sources": [],
-      "score": 102,
-      "score_breakdown": {
-        "🎵 TikTok": 20,
-        "🛒 Temu": 8,
-        "🎨 Etsy": 6,
-        "🔴 强信号": 20,
-        "📈 趋势(bathroom)": 8,
-        "🟡 中等竞争": 5,
-        "❓ 品类存疑": -5,
-        "🌴 当季(summer)": 10,
-        "⚠️ 品类过密": -10,
-        "✨ 新发现": 10
-      },
-      "stars": 5,
-      "is_new": true,
-      "first_seen": "2026-07-31",
-      "is_multi": true,
-      "is_event": false,
-      "channel_tags": [
-        "multi_source",
-        "tiktok_verified",
-        "etsy_trending",
-        "keyword_search",
-        "temu_trending"
-      ]
+      "verify_status": "unverified"
     },
     {
       "asin": "B0F7HSW16C",
@@ -1654,7 +1526,82 @@
         "etsy_trending",
         "keyword_search",
         "temu_trending"
-      ]
+      ],
+      "verify_status": "unverified"
+    },
+    {
+      "asin": "B0FPCMLVLQ",
+      "name": "Fadvan 100ml Silicone Travel Bottle for Toiletries,travel bottles for toiletries,4 Pack Leak Proof Refillable Squeezable",
+      "price": 6.66,
+      "reviews": 97,
+      "rating": 4.2,
+      "rank": 21,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "97 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FPCMLVLQ",
+      "image_url": "https://m.media-amazon.com/images/I/71amBE2BHpL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "silicone travel bottles 4 pack, travel bottles for toiletries, leak proof travel bottles, refillable travel containers, TSA approved travel bottles, silicone squeeze bottles travel, travel size containers for shampoo, travel bottles with clear bag, travel toiletries set 4 pack, holiday travel essentials",
+      "sources": [
+        "趋势发现",
+        "Etsy趋势",
+        "Temu热销",
+        "TikTok趋势"
+      ],
+      "profit_margin": 0.224,
+      "net_profit": 1.49,
+      "cost_breakdown": {
+        "vat": 1.11,
+        "commission": 1.0,
+        "fba": 1.46,
+        "ads": 0.67,
+        "returns": 0.13,
+        "sourcing": 0.8,
+        "total_cost": 5.17
+      },
+      "off_season": false,
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 102,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "📈 趋势(bathroom)": 8,
+        "🟡 中等竞争": 5,
+        "❓ 品类存疑": -5,
+        "🌴 当季(summer)": 10,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-07-31",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "multi_source",
+        "tiktok_verified",
+        "etsy_trending",
+        "keyword_search",
+        "temu_trending"
+      ],
+      "verify_status": "unverified"
     },
     {
       "asin": "B0D9K2X9DT",
@@ -1729,7 +1676,78 @@
         "etsy_trending",
         "keyword_search",
         "temu_trending"
-      ]
+      ],
+      "verify_status": "verified"
+    },
+    {
+      "asin": "B0FGHXGSDG",
+      "name": "Sponsored Ad – WILD+ Cooling Eye Patches, 12Pcs Ice Eye Mask Instant Cold Therapy Cooling Eye Mask for Puffy Eyes, Fast ",
+      "price": 7.4,
+      "reviews": 13,
+      "rating": 4.6,
+      "rank": 56,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "13 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FGHXGSDG",
+      "image_url": "https://m.media-amazon.com/images/I/71YDEPMbSSL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "eye patch",
+      "festival_event": "海盗说话日",
+      "festival_icon": "🏴‍☠️",
+      "festival_deadline": "2026-08-03",
+      "is_event": false,
+      "sources": [
+        "📅 海盗说话日",
+        "Google趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.258,
+      "net_profit": 1.91,
+      "cost_breakdown": {
+        "vat": 1.24,
+        "commission": 1.11,
+        "fba": 1.46,
+        "ads": 0.74,
+        "returns": 0.15,
+        "sourcing": 0.8,
+        "total_cost": 5.49
+      },
+      "off_season": false,
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "weak",
+      "signal_label": "🟡 弱信号",
+      "external_sources": [
+        "Google"
+      ],
+      "internal_sources": [],
+      "score": 74,
+      "score_breakdown": {
+        "📊 Google↑": 15,
+        "🌊 蓝海": 15,
+        "⭐ 高评分": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "🌴 当季(summer)": 10,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 3,
+      "is_new": true,
+      "first_seen": "2026-07-31",
+      "is_multi": true,
+      "channel_tags": [
+        "google_trends",
+        "keyword_search",
+        "multi_source"
+      ],
+      "verify_status": "unverified"
     },
     {
       "asin": "B0C4Y2PR2M",
@@ -1803,76 +1821,8 @@
         "etsy_trending",
         "keyword_search",
         "temu_trending"
-      ]
-    },
-    {
-      "asin": "B0FGHXGSDG",
-      "name": "Sponsored Ad – WILD+ Cooling Eye Patches, 12Pcs Ice Eye Mask Instant Cold Therapy Cooling Eye Mask for Puffy Eyes, Fast ",
-      "price": 7.4,
-      "reviews": 13,
-      "rating": 4.6,
-      "rank": 56,
-      "category": "Search",
-      "channel": "keyword_search",
-      "channel_name": "关键词搜索(festival)",
-      "review_info": "13 reviews, 4.6★",
-      "amazon_url": "https://www.amazon.co.uk/dp/B0FGHXGSDG",
-      "image_url": "https://m.media-amazon.com/images/I/71YDEPMbSSL._AC_UL320_.jpg",
-      "keyword_source": "festival",
-      "matched_keyword": "eye patch",
-      "festival_event": "海盗说话日",
-      "festival_icon": "🏴‍☠️",
-      "festival_deadline": "2026-08-03",
-      "is_event": false,
-      "sources": [
-        "📅 海盗说话日",
-        "Google趋势"
       ],
-      "google_trend": "rising",
-      "profit_margin": 0.258,
-      "net_profit": 1.91,
-      "cost_breakdown": {
-        "vat": 1.24,
-        "commission": 1.11,
-        "fba": 1.46,
-        "ads": 0.74,
-        "returns": 0.15,
-        "sourcing": 0.8,
-        "total_cost": 5.49
-      },
-      "off_season": false,
-      "sd_score": 0,
-      "sd_label": "",
-      "sd_info": {},
-      "div_score": 0,
-      "div_label": "",
-      "div_info": {},
-      "signal_level": "weak",
-      "signal_label": "🟡 弱信号",
-      "external_sources": [
-        "Google"
-      ],
-      "internal_sources": [],
-      "score": 74,
-      "score_breakdown": {
-        "📊 Google↑": 15,
-        "🌊 蓝海": 15,
-        "⭐ 高评分": 5,
-        "💰 较好利润": 4,
-        "❓ 品类存疑": -5,
-        "🌴 当季(summer)": 10,
-        "⚠️ 品类过密": -10,
-        "✨ 新发现": 10
-      },
-      "stars": 3,
-      "is_new": true,
-      "first_seen": "2026-07-31",
-      "is_multi": true,
-      "channel_tags": [
-        "google_trends",
-        "keyword_search",
-        "multi_source"
-      ]
+      "verify_status": "unverified"
     },
     {
       "asin": "B0DZ1QVMLY",
@@ -1938,7 +1888,8 @@
       "channel_tags": [
         "keyword_search",
         "multi_source"
-      ]
+      ],
+      "verify_status": "unverified"
     },
     {
       "asin": "B0FJQ7F5BR",
@@ -2005,7 +1956,8 @@
         "google_trends",
         "keyword_search",
         "multi_source"
-      ]
+      ],
+      "verify_status": "unverified"
     },
     {
       "asin": "B0F7HTSK4L",
@@ -2072,7 +2024,8 @@
         "google_trends",
         "keyword_search",
         "multi_source"
-      ]
+      ],
+      "verify_status": "unverified"
     },
     {
       "asin": "B00A26NIN8",
@@ -2133,7 +2086,8 @@
       "first_seen": "2026-07-29",
       "channel_tags": [
         "keyword_search"
-      ]
+      ],
+      "verify_status": "unverified"
     },
     {
       "asin": "B0D7TF728K",
@@ -2196,7 +2150,8 @@
       "first_seen": "2026-07-27",
       "channel_tags": [
         "keyword_search"
-      ]
+      ],
+      "verify_status": "unverified"
     },
     {
       "asin": "B0D9QG5S8R",
@@ -2256,67 +2211,8 @@
       "first_seen": "2026-07-31",
       "channel_tags": [
         "keyword_search"
-      ]
-    },
-    {
-      "asin": "B0D3XMNPYG",
-      "name": "Sponsored Ad – GOLDGE 100 Pieces Gold Coins Pirate Treasure Set with 50 Gold Coins Children and 50 Pirate Gemstones Perf",
-      "price": 6.66,
-      "reviews": 71,
-      "rating": 4.5,
-      "rank": 2,
-      "category": "Search",
-      "channel": "keyword_search",
-      "channel_name": "关键词搜索(festival)",
-      "review_info": "71 reviews, 4.5★",
-      "amazon_url": "https://www.amazon.co.uk/dp/B0D3XMNPYG",
-      "image_url": "https://m.media-amazon.com/images/I/81aAMb7H09L._AC_UL320_.jpg",
-      "keyword_source": "festival",
-      "matched_keyword": "pirate party",
-      "festival_event": "海盗说话日",
-      "festival_icon": "🏴‍☠️",
-      "festival_deadline": "2026-08-03",
-      "is_event": false,
-      "sources": [
-        "📅 海盗说话日"
       ],
-      "profit_margin": 0.224,
-      "net_profit": 1.49,
-      "cost_breakdown": {
-        "vat": 1.11,
-        "commission": 1.0,
-        "fba": 1.46,
-        "ads": 0.67,
-        "returns": 0.13,
-        "sourcing": 0.8,
-        "total_cost": 5.17
-      },
-      "off_season": false,
-      "sd_score": 0,
-      "sd_label": "",
-      "sd_info": {},
-      "div_score": 0,
-      "div_label": "",
-      "div_info": {},
-      "signal_level": "none",
-      "signal_label": "⚪ 无信号",
-      "external_sources": [],
-      "internal_sources": [],
-      "score": -5,
-      "score_breakdown": {
-        "⚪ 无信号": -15,
-        "🟡 中等竞争": 5,
-        "⭐ 高评分": 5,
-        "❓ 品类存疑": -5,
-        "📉 无需求信号": -15,
-        "⚠️ 品类过密": -10
-      },
-      "stars": 1,
-      "is_new": false,
-      "first_seen": "2026-07-29",
-      "channel_tags": [
-        "keyword_search"
-      ]
+      "verify_status": "unverified"
     }
   ],
   "gaps": [

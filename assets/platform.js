@@ -349,7 +349,7 @@ function renderRadar() {
     const barC=margin>=30?'var(--green)':margin>=20?'var(--orange)':'var(--red)';
     const sc=p.score||0;
     const scCls=sc>=120?'hot':sc>=80?'high':sc>=40?'mid':'low';
-    const badge=p.is_new?'<span class="badge-new">NEW</span>':(p.is_new===false?'<span class="badge-repeat">重复</span>':'');
+    const badge=p.is_new?'<span class="badge-new">NEW</span>':(p.is_new===false?'<span class="badge-repeat">重复</span>':'')+(p.verify_status==='unverified'?'<span class="badge-warn">⚠️未验证</span>':'');
     const img=p.image_url?`<div class="pc-img"><img src="${safeUrl(p.image_url)}" alt="${esc(p.name)}" loading="lazy"/></div>`:'<div class="pc-img"><div class="ph">📦</div></div>';
     const url=p.amazon_url||(p.asin?`https://www.amazon.co.uk/dp/${p.asin}`:'#');
     const cb=p.cost_breakdown||{};

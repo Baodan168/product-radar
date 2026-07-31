@@ -119,7 +119,12 @@ def is_forbidden(name, category=""):
     # --- Multi-piece kit check (sets with 5+ pieces risk bulky packaging) ---
     # Exclude obviously small items (e.g. pimple patches 36/72 pack, baking mats 2 pack)
     SET_SMALL_EXEMPT = {'patch', 'sheet', 'strip', 'stick', 'bag', 'sachet', 'lining', 'mouse', 'mice', 'feather', 'rattle', 'ball', 'catnip', 'cat'}
-    set_match = re.search(r'(\d+)\s*(?:-pack|pack|piece|pcs|件|片|个|枚|套)[^a-z]', text)
+    # 覆盖格式: N-Piece / N Piece / N Pack / N pcs / N件 / N Set（数字在前，允许连字符）
+    # 注意: "4-in-1"/"N in 1" 是"多合一"非套装，不能误拦（'in' 不在关键词表内，天然安全）
+    set_match = re.search(r'(\d+)\s*-?\s*(?:pack|piece|pcs|件|片|个|枚|套|set)[^a-z]', text)
+    # 数字在后的格式: "Pack of 6" / "Set of 6"
+    if not set_match:
+        set_match = re.search(r'\b(?:pack|set)\s+of\s+(\d+)\b', text)
     if set_match:
         qty = int(set_match.group(1))
         if qty >= 5 and not any(s in text for s in SET_SMALL_EXEMPT):

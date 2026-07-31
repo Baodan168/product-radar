@@ -88,6 +88,9 @@ def _norm_dims(text):
     # 英寸值换算：值 > 200 视为英寸（亚马逊常见 80x40in 渔网装饰）
     if "in" in text.lower() or "inch" in text.lower():
         vals = [round(v * 2.54, 1) for v in vals]
+    elif "mm" in text.lower():
+        # 明确 mm 单位：全部 /10（如 450 x 300 x 60 mm → 45 x 30 x 6 cm）
+        vals = [round(v / 10, 1) for v in vals]
     else:
         # 无单位时数值 > 200 大概率是 mm → cm
         vals = [v / 10 if v > 200 else v for v in vals]
@@ -97,10 +100,14 @@ def _norm_dims(text):
 # ---------- 单个产品验证 ----------
 
 def verify_product(p, config):
-    """验证单个产品。返回 (passed: bool, reason: str|None)。抓取失败/无数据 → 放过（不误杀）。"""
+    """验证单个产品。返回 (passed: bool, reason: str|None, data_found: bool)。
+
+    data_found=False 表示详情页无重量/尺寸数据（未验证，不拦截但调用方应标记）。
+    抓取失败 → data_found=False（不误杀）。
+    """
     asin = p.get("asin")
     if not asin:
-        return True, None
+        return True, None, False
     max_w = config.get("max_weight_g", 200)
     md = config.get("max_package_dimensions", {"l_cm": 30, "w_cm": 21, "h_cm": 6})
     max_l, max_wd, max_h = md["l_cm"], md["w_cm"], md["h_cm"]
@@ -108,15 +115,17 @@ def verify_product(p, config):
     try:
         html = _curl_fetch(f"https://www.amazon.co.uk/dp/{asin}")
     except Exception:
-        return True, None  # 抓取失败不误杀
+        return True, None, False  # 抓取失败不误杀
     if not html or len(html) < 2000:
-        return True, None
+        return True, None, False
 
     reasons = []
+    data_found = False
 
     # 重量
     wt_text = _extract_attr(html, "Item Weight") or _extract_attr(html, "Item weight")
     if wt_text:
+        data_found = True
         grams = _norm_weight(wt_text)
         if grams is not None and grams > max_w:
             reasons.append(f"重量 {grams:.0f}g (限{max_w}g)")
@@ -129,6 +138,7 @@ def verify_product(p, config):
         or _extract_attr(html, "Package dimensions")
     )
     if dim_text:
+        data_found = True
         dims = _norm_dims(dim_text)
         if dims and len(dims) >= 3:
             if dims[0] > max_l or dims[1] > max_wd or dims[2] > max_h:
@@ -145,8 +155,8 @@ def verify_product(p, config):
                 )
 
     if reasons:
-        return False, "; ".join(reasons)
-    return True, None
+        return False, "; ".join(reasons), data_found
+    return True, None, data_found
 
 
 # ---------- 批量验证 ----------
@@ -179,18 +189,25 @@ def batch_verify(products, config, max_workers=3, log=print):
         for fut in as_completed(futs):
             p = futs[fut]
             try:
-                ok, reason = fut.result()
+                ok, reason, data_found = fut.result()
             except Exception:
-                ok, reason = True, None
+                ok, reason, data_found = True, None, False
             if ok:
+                # verify_status: verified=详情页有数据且合规 / unverified=无数据(降权展示)
+                p["verify_status"] = "verified" if data_found else "unverified"
                 passed.append(p)
             else:
+                p["verify_status"] = "rejected"
                 p["detail_reject_reason"] = reason
                 rejected.append(p)
                 log(f"    ❌ {p.get('name', '')[:45]} → {reason}")
 
+    for p in skipped:
+        # 标题已含尺寸/重量信息（scanner 已校验合规）→ 视为已验证
+        p["verify_status"] = "verified"
     passed.extend(skipped)
-    log(f"  [7a] 完成: 通过 {len(passed)} | 拦截 {len(rejected)} (耗时 {time.time()-t0:.0f}s)")
+    n_unv = sum(1 for p in passed if p.get("verify_status") == "unverified")
+    log(f"  [7a] 完成: 通过 {len(passed)} | 拦截 {len(rejected)} | 未验证 {n_unv} (耗时 {time.time()-t0:.0f}s)")
     return passed, rejected
 
 
