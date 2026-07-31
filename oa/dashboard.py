@@ -50,7 +50,7 @@ def collect_radar_today(now=None) -> CardData:
 
     new_products = [p for p in products if p.get('is_new') is True]
     # is_new 缺失时不能当成新品，也不能当成非新品——按「总数」口径展示
-    picks = (new_products or products)[:3]
+    picks = (new_products or products)[:5]
 
     return CardData(payload={
         'date': date_key,
@@ -92,7 +92,7 @@ def collect_festivals(now=None, window_days=47) -> CardData:
         return CardData.absent(f'未来 {window_days} 天没有节点')
 
     rows = []
-    for ev in events[:4]:
+    for ev in events[:6]:
         cats = ev.get('recommended_categories') or []
         rows.append({
             'name': ev.get('event_name') or '',
@@ -150,13 +150,15 @@ def _nodata(card: CardData, fallback: str = '数据不可用') -> str:
     )
 
 
-def _card(icon: str, title: str, body: str, link=None, link_text='查看') -> str:
+def _card(icon: str, title: str, body: str, link=None, link_text='查看', span='') -> str:
+    """span 走 CSS 类（oa-dash-wide / oa-dash-narrow），控制在 12 栏网格里占几栏。"""
     link_html = (
         f'<a class="oa-dash-card-link" href="{render.attr(link)}">{render.h(link_text)} →</a>'
         if link else ''
     )
+    cls = 'oa-dash-card' + (f' {span}' if span else '')
     return (
-        f'<section class="oa-dash-card">'
+        f'<section class="{cls}">'
         f'<div class="oa-dash-card-head">'
         f'<span class="oa-dash-card-icon" aria-hidden="true">{render.h(icon)}</span>'
         f'<h2 class="oa-dash-card-title">{render.h(title)}</h2>'
@@ -176,20 +178,66 @@ def _metric(value, label, tone='') -> str:
     )
 
 
+# ── 顶部指标条 ──────────────────────────────────────────
+#
+# 六个数字原本埋在两张卡的卡头里，字号和卡内正文差不多，扫一眼看不出
+# 哪个是「今天的状态」。抽到页面顶部单独成条之后，概览页的阅读顺序变成
+# 「先看六个数 → 再看下面四张卡的明细」，卡片本身也因为只剩列表而变紧。
+#
+# 数据源挂了不补 0（D7）：整组换成一块「不可用 + 原因」的占位，
+# 而不是显示六个 0 让人以为今天真的什么都没有。
+
+def _tile(value, label, tone='') -> str:
+    cls = 'oa-dash-tile-value' + (f' {tone}' if tone else '')
+    shown = '—' if value is None else value
+    return (
+        f'<div class="oa-dash-tile">'
+        f'<div class="{cls}">{render.h(shown)}</div>'
+        f'<div class="oa-dash-tile-label">{render.h(label)}</div>'
+        f'</div>'
+    )
+
+
+def _tile_nodata(card: CardData, label: str) -> str:
+    icon = '⚠️' if card.status == 'failed' else 'ℹ️'
+    return (
+        f'<div class="oa-dash-tile is-nodata">'
+        f'<div class="oa-dash-tile-value">{icon}</div>'
+        f'<div class="oa-dash-tile-label">{render.h(label)}</div>'
+        f'</div>'
+    )
+
+
+def render_metric_strip(data: dict) -> str:
+    radar, restock = data['radar'], data['restock']
+    tiles = []
+
+    if radar.is_ok:
+        p = radar.payload
+        tiles += [_tile(p['new_count'], '新品'),
+                  _tile(p['passed'], '通过筛选'),
+                  _tile(p['scanned'], '扫描总量')]
+    else:
+        tiles.append(_tile_nodata(radar, '选品数据不可用'))
+
+    if restock.is_ok:
+        c = restock.payload['counts']
+        tiles += [_tile(c['urgent'], '紧急补货', 'is-alert' if c['urgent'] else ''),
+                  _tile(c['watch'], '观察', 'is-warn' if c['watch'] else ''),
+                  _tile(restock.payload['total'], '需补货 SKU')]
+    else:
+        tiles.append(_tile_nodata(restock, '补货数据不可用'))
+
+    return f'<div class="oa-dash-strip">{"".join(tiles)}</div>'
+
+
 def render_radar_card(card: CardData) -> str:
     if not card.is_ok:
         return _card('🎯', '今日选品战情', _nodata(card, '今日战情不可用'), '#/platform', '选品平台')
 
     p = card.payload
-    stale = '' if p['is_today'] else f'<div class="oa-dash-sub">最新数据为 {render.h(p["date"])}，今天还没扫</div>'
-
-    metrics = (
-        '<div class="oa-dash-metrics">'
-        + _metric(p['new_count'], '新品')
-        + _metric(p['passed'], '通过筛选')
-        + _metric(p['scanned'], '扫描总量')
-        + '</div>'
-    )
+    # 三个数字已经上了顶部指标条，卡里不再重复
+    stale = '' if p['is_today'] else f'<div class="oa-dash-note">最新数据为 {render.h(p["date"])}，今天还没扫</div>'
 
     picks = []
     for i, pick in enumerate(p['picks'], 1):
@@ -224,22 +272,17 @@ def render_radar_card(card: CardData) -> str:
         else '<div class="oa-dash-nodata"><span class="nd-icon">ℹ️</span>'
              '<span>该日期没有通过筛选的产品</span></div>'
     )
-    return _card('🎯', '今日选品战情', stale + metrics + picks_html, '#/platform', '选品平台')
+    return _card('🎯', '今日选品战情', stale + picks_html,
+                 '#/platform', '选品平台', span='oa-dash-wide')
 
 
 def render_restock_card(card: CardData) -> str:
     if not card.is_ok:
-        return _card('📦', '补货告警', _nodata(card, '补货数据不可用'), '#/analysis', '补货跟进')
+        return _card('📦', '补货告警', _nodata(card, '补货数据不可用'),
+                     '#/analysis', '补货跟进', span='oa-dash-narrow')
 
     p = card.payload
-    c = p['counts']
-    metrics = (
-        '<div class="oa-dash-metrics">'
-        + _metric(c['urgent'], '紧急', 'is-alert' if c['urgent'] else '')
-        + _metric(c['watch'], '观察', 'is-warn' if c['watch'] else '')
-        + _metric(p['total'], '需补货 SKU')
-        + '</div>'
-    )
+    # 三个计数已经上了顶部指标条，卡里只留最紧急的几条 SKU
     rows = ''.join(
         f'<div class="oa-alert-row" data-level="{render.attr(it["level"])}">'
         f'<span class="oa-alert-sku" title="{render.attr(it["name"])}">{render.h(it["sku"])}</span>'
@@ -247,8 +290,8 @@ def render_restock_card(card: CardData) -> str:
         f'</div>'
         for it in p['top']
     )
-    return _card('📦', '补货告警', metrics + f'<div class="oa-dash-alerts">{rows}</div>',
-                 '#/analysis', '补货跟进')
+    return _card('📦', '补货告警', f'<div class="oa-dash-alerts">{rows}</div>',
+                 '#/analysis', '补货跟进', span='oa-dash-narrow')
 
 
 def render_festival_card(card: CardData) -> str:
@@ -272,12 +315,12 @@ def render_festival_card(card: CardData) -> str:
             f'</div>'
         )
     return _card('📅', '节日倒计时', f'<div class="oa-dash-festivals">{"".join(rows)}</div>',
-                 '#/platform', '节日选品')
+                 '#/platform', '节日选品', span='oa-dash-wide')
 
 
 def render_health_card(card: CardData) -> str:
     if not card.is_ok:
-        return _card('🩺', '数据新鲜度', _nodata(card, '新鲜度不可用'))
+        return _card('🩺', '数据新鲜度', _nodata(card, '新鲜度不可用'), span='oa-dash-narrow')
 
     rows = ''.join(
         f'<div class="oa-health-row">'
@@ -287,9 +330,10 @@ def render_health_card(card: CardData) -> str:
         f'</div>'
         for r in card.payload['rows']
     )
-    note = ('<div class="oa-dash-sub" style="margin-top:0;font-size:11.5px">'
+    note = ('<div class="oa-dash-note">'
             '新鲜度按数据文件更新时间算；板块能否打开由侧栏的探针实时判断。</div>')
-    return _card('🩺', '数据新鲜度', f'<div class="oa-dash-health">{rows}</div>{note}')
+    return _card('🩺', '数据新鲜度', f'<div class="oa-dash-health">{rows}</div>{note}',
+                 span='oa-dash-narrow')
 
 
 def build_dashboard_html() -> str:
@@ -311,5 +355,6 @@ def build_dashboard_html() -> str:
         '<div class="oa-dash-sub">现在该选什么、补什么、关注什么 · '
         f'生成于 {render.h(now.strftime("%Y-%m-%d %H:%M"))}</div>'
         '</div>'
+        f'{render_metric_strip(data)}'
         f'<div class="oa-dash-grid">{cards}</div>'
     )

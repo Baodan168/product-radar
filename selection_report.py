@@ -34,13 +34,18 @@ def _get_discoveries_for_date(target_date=None):
 
 
 def _get_latest_radar():
-    """Load the most recent radar channel data."""
-    files = sorted(CHANNELS_DIR.glob("*.json"))
-    # Filter out trends/rejected files and non-scan files
-    main_files = [f for f in files if "-trends" not in f.name and "-rejected" not in f.name and f.name != "bsr_data.json"]
-    if not main_files:
+    """Load the most recent radar channel data (by mtime, not filename).
+
+    Filename ordering is unreliable: legacy files like ``20260720_140412.json``
+    sort after ``2026-07-31_1400.json`` lexicographically, so alphabetical
+    ordering could pick a weeks-old scan as "latest".
+    """
+    files = [f for f in CHANNELS_DIR.glob("*.json")
+             if "-trends" not in f.name and "-rejected" not in f.name and f.name != "bsr_data.json"]
+    if not files:
         return None
-    return _load_json(main_files[-1])
+    latest = max(files, key=lambda f: f.stat().st_mtime)
+    return _load_json(latest)
 
 
 def _get_discoveries_this_week():
@@ -102,7 +107,11 @@ def _get_radar_highlights(radar_data, top_n=5):
                 reviews = p.get("reviews", 0)
                 score = p.get("score", 0)
                 margin = p.get("profit_margin", 0)
-                sources = ", ".join(p.get("sources", [])[:3])
+                # sources entries are str in current format but were dicts
+                # ({'type','source','keyword'}) in legacy scans — normalize both.
+                raw_sources = p.get("sources", [])[:3]
+                source_names = [s if isinstance(s, str) else s.get("source", "") for s in raw_sources]
+                sources = ", ".join(n for n in source_names if n)
                 ocean = "🌊蓝海" if reviews < 20 else "🟢低竞争" if reviews <= 50 else "🟡中等"
                 highlights.append({
                     "category": name,

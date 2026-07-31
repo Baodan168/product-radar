@@ -40,11 +40,12 @@ SEA_LEAD_TIME = LOGISTICS_MODES["sea"]["leadTime"]  # 63天
 ARRIVAL_BUFFER = 14  # 到仓后入仓+缓冲
 
 # 品类映射
+# 颜色走类名不走 hex —— 色值住在 shared/oa-theme.css 的 .cat-tag.cat-* 里（见 D13）
 CATEGORY_MAP = {
-    "decor": {"label": "装饰", "icon": "🎀", "color": "#8b5cf6"},
-    "gift": {"label": "礼品", "icon": "🎁", "color": "#ec4899"},
-    "apparel": {"label": "服饰", "icon": "👕", "color": "#3b82f6"},
-    "home": {"label": "家居", "icon": "🏠", "color": "#10b981"},
+    "decor": {"label": "装饰", "icon": "🎀", "cls": "cat-decor"},
+    "gift": {"label": "礼品", "icon": "🎁", "cls": "cat-gift"},
+    "apparel": {"label": "服饰", "icon": "👕", "cls": "cat-apparel"},
+    "home": {"label": "家居", "icon": "🏠", "cls": "cat-home"},
 }
 
 
@@ -349,7 +350,7 @@ def generate_festival_html(festivals):
             cat_tabs_html = '<span class="cat-tabs-inline">'
             cat_tabs_html += f'<button class="cat-pill active" onclick="filterProductCat(this, \'\')">全部 ({len(products)})</button>'
             for cat, count in products_by_category.items():
-                cat_info = CATEGORY_MAP.get(cat, {"label": cat, "icon": "📦", "color": "#6b7280"})
+                cat_info = CATEGORY_MAP.get(cat, {"label": cat, "icon": "📦", "cls": "cat-other"})
                 cat_slug = _safe_slug(cat)
                 label = htmlmod.escape(str(cat_info["label"]))
                 icon = htmlmod.escape(str(cat_info["icon"]))
@@ -391,7 +392,7 @@ def generate_festival_html(festivals):
                         "高": "risk-high"
                     }.get(p.get('riskLevel', ''), 'risk-mid')
                     
-                    cat_info = CATEGORY_MAP.get(p.get('category', ''), {"label": p.get('category', ''), "icon": "📦", "color": "#6b7280"})
+                    cat_info = CATEGORY_MAP.get(p.get('category', ''), {"label": p.get('category', ''), "icon": "📦", "cls": "cat-other"})
                     
                     # Amazon 关键词链接（显示全部，最多4个）
                     keywords_html = "".join(
@@ -448,7 +449,7 @@ def generate_festival_html(festivals):
                   <div class="sku-en">{e(p.get('skuEn', ''))}</div>
                   {compliance_badge}
                 </td>
-                <td><span class="cat-tag" style="background:{e(cat_info['color'])}15;color:{e(cat_info['color'])}">{e(cat_info['icon'])} {e(cat_info['label'])}</span></td>
+                <td><span class="cat-tag {e(cat_info.get('cls', 'cat-other'))}">{e(cat_info['icon'])} {e(cat_info['label'])}</span></td>
                 <td class="cost">{e(p.get('costRange', ''))}</td>
                 <td class="price">{e(p.get('priceRange', ''))}</td>
                 <td class="margin">{e(p.get('margin', ''))}</td>
@@ -474,7 +475,7 @@ def generate_festival_html(festivals):
             )
             
             html += f'''
-      <div class="festival-card" id="festival-{festival_id}" data-urgency="{urgency}" data-category="{f.get('category', '')}" data-month="{month}" style="border-left-color:{f.get('themeColor', '#e5e7eb')}">
+      <div class="festival-card" id="festival-{festival_id}" data-urgency="{urgency}" data-category="{f.get('category', '')}" data-month="{month}">
         <div class="card-header" onclick="this.parentElement.classList.toggle('expanded')">
           <div class="card-left">
             <span class="festival-icon">{f.get('icon', '📅')}</span>

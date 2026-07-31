@@ -1,5 +1,9 @@
 # Product Radar — Amazon UK 选品运营 OA
 
+> **任何 agent 开工前先读 [`HANDOFF.md`](./HANDOFF.md)。**
+> 这个仓库有两个 agent 在写：Claude Code（临时容器，只推分支）和
+> hermes（公司电脑，直推 main）。两边看不到对方的终端，HANDOFF.md 是唯一的交接点。
+
 ## 一句话定位
 
 Amazon UK 三店（322·007·027）的选品与运营门户，3+1 混合架构：product-radar 仓库管门户/选品平台/补货跟进三个核心板块，kj-news-radar 独立仓库管跨境雷达。
@@ -25,6 +29,10 @@ python3 -m http.server 8080    # 访问 http://localhost:8080/output/
 | `ARCHITECTURE.md` | 系统架构文档（数据流/设计原则/调度/运维） |
 | `PROJECT-VISION.md` | 产品愿景文档（项目目标/选品哲学/设计理念） |
 | `DESIGN-DECISIONS.md` | 重构决策记录（每条决策的选择/理由/代价/已知限制） |
+| `HANDOFF.md` | **两个 agent 的交接点（开工先读）** |
+| `DEPLOY-CHECKLIST.md` | 部署到线上的逐条清单 + 回退方法 |
+| `PROPOSAL-agent-collab.md` | Claude Code 与 hermes 的协作边界方案（待确认） |
+| `PROPOSAL-ads-module.md` | **广告异常监控板块方案（待确认，未实施）** |
 | `oa/config.py` | **门户板块配置（加新板块改这里）** |
 | `oa/urls.py` | URL 协议+主机白名单 |
 | `oa/render.py` | 模板装配 + 分语境转义（html/attr/js/url） |
@@ -35,6 +43,9 @@ python3 -m http.server 8080    # 访问 http://localhost:8080/output/
 | `scanner.py` | 产品过滤规则（⚠️ is_forbidden()返回False非元组） |
 | `generate_platform.py` | 选品平台生成器 V6（薄壳，模板见 templates/platform.html） |
 | `generate_portal.py` | 门户生成器 V4（薄壳，配置见 oa/config.py） |
+| `tools/preflight.py` | **部署前体检（只读，一条命令出结论）** |
+| `tools/snapshot.py` | 视觉回归截图（改样式前后各跑一次） |
+| `tools/skinpreview.py` | 换肤方向对比（不改主题表就能预览） |
 | `calc_profit.py` | 利润计算 |
 | `festival_engine.py` | 节日引擎 |
 | `github_api_push.py` | GitHub API 推送 |
@@ -42,7 +53,7 @@ python3 -m http.server 8080    # 访问 http://localhost:8080/output/
 | `oa/desensitize.py` | 补货页发布边界脱敏（毛利率/销量→档位标签） |
 | `desensitize_analysis.py` | 脱敏 CLI（`--check` 供 CI 用） |
 | `cloudflare-worker.js` | 抓取代理 + 看板同步代理（Token 存 Worker Secret） |
-| `tests/` | pytest 回归（119 项） |
+| `tests/` | pytest 回归（162 项） |
 | `data/channels/` | 扫描数据（产品JSON） |
 | `data/discovery/` | 趋势发现数据 |
 | `output/` | 生成的 HTML |
@@ -65,10 +76,15 @@ python3 -m http.server 8080    # 访问 http://localhost:8080/output/
 
 - ❌ **结构改动必须先讨论** — 板块独立/合并/URL变更必须先出方案再执行，不能直接改
 - ❌ **改数据不直接改HTML** — 改数据源JSON，重新生成
-- ❌ **改样式不走内联CSS** — 走 shared/oa-theme.css
+- ❌ **改样式不走内联CSS** — 走 shared/oa-theme.css。颜色**只能**写在 `:root` 令牌里，
+  组件层 / 模板 / JS / 生成器里出现任何 `#hex` 或 `rgba()` 都会被 `tests/test_theme.py` 拦下。
+  「生成器」= 任何含 `class="` 的 `.py`，自动识别，新加的也算（见 D13、D16）
 - ❌ **修改data/channels/*.json前必须备份**
 - ✅ **加新板块只改 `oa/config.py` 的 MODULES 数组**（v4.0 起从 generate_portal.py 移出，见 DESIGN-DECISIONS D8）
 - ✅ **改门户交互改 `assets/portal.js`，改结构改 `templates/portal.html`**
+- ❌ **Claude Code 不提交 `output/*.html` 与 `output/data/*.js` 的重新生成结果** —— 那是
+  hermes 每次 cron 都会改的文件，提交必然撞车（见 HANDOFF.md）
+- ❌ **谁都不直推 `main` 改代码** —— hermes 靠 `main` 同步代码，直推会在它不知情时换掉运行中的代码
 
 ## 关键坑
 
@@ -117,9 +133,17 @@ python3 desensitize_analysis.py     # ← 必须！否则毛利率会重新出�
 
 ## 当前状态
 
-- 3+1 混合架构已部署运行
-- 选品平台 V6，门户 V4（重构分支 claude/oa-portal-redesign-9vaqif）
-- **下一轮做前端 UI 升级（视觉换新 + 信息密度）— 开工前先读 `DESIGN-DECISIONS.md` 的「下一轮：前端 UI 升级（交接）」章节**
+- 3+1 混合架构已跑通；**门户重构已落地 `main`**（含补货页脱敏 + `update.yml` 门禁）
+- **UI 升级还压在 `claude/oa-portal-ui-upgrade-ts4zrf`**，`main` 未合。线上侧栏仍是深色 `#1a1a2e`，
+  合并后才会变成 v6「暖石灰」。分支已并入最新 main，合过去是零冲突快进
+- **唯一功能缺口：广告异常监控板块未建**（见 ARCHITECTURE.md §4.4 + PROPOSAL-ads-module.md）
+- 距离交付团队还缺什么：见 **ARCHITECTURE.md §13**（不用每次重新盘）
+- 选品平台 V6，门户 V4，设计系统 **v6「暖石灰」**（分支 claude/oa-portal-ui-upgrade-ts4zrf）
+- 设计原则：**颜色只用来表意** —— 外壳走中性灰阶、主操作色是墨色，
+  饱和色只留给语义（红=紧急/琥珀=观察/绿=健康）和四个数据源。详见 DESIGN-DECISIONS D12
+- 配色是**暖石灰**低饱和路线，三层平面靠明度分层：侧栏 #f1efeb → 内容区 #f7f6f4 → 卡片白。
+  **全站无深色块**（侧栏曾是近黑，v6 改浅，见 D15）
+- 换肤入口：改 `shared/oa-theme.css` 顶部 `:root` 的令牌值，全站生效（这个前提由 4 条测试守着，见 D13）
 - 无暗色模式（曾加过又移除，原因见 DESIGN-DECISIONS D11）
 - 每天 08:40 趋势发现 + 09:10/14:00 雷达扫描
 - 周一/四 08:00 补货跟进

@@ -26,6 +26,8 @@ output/*
 # Internal team docs — not for public repo
 OA系统介绍-团队版.md
 OA系统介绍-对外版.md
+# 换肤对比用的临时候选层（定稿后合并进 shared/oa-theme.css）
+skins/
 bitable_sync.py
 
 
