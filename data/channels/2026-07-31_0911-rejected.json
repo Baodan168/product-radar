@@ -438,5 +438,89 @@
     "name": "Sponsored Ad – Tanganan Pirate Hat Costume, Halloween Woolen",
     "reason": "£24.99 不在区间",
     "asin": "B0FXXJZMND"
+  },
+  {
+    "asin": "B0H3LPP3W5",
+    "name": "KAYMAN Sports Foam Roller Sports Recovery, Deep Tissue Muscle Tension Relief & Circulation Increase Portable & Lightweig",
+    "price": 9.16,
+    "reviews": 131,
+    "rating": 4.4,
+    "rank": 12,
+    "category": "Sports",
+    "channel": "new_releases",
+    "channel_name": "Amazon新品榜",
+    "review_info": "131 reviews, 4.4★",
+    "amazon_url": "https://www.amazon.co.uk/dp/B0H3LPP3W5",
+    "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71Wrl6WUcAL._AC_UL300_SR300,200_.jpg",
+    "sources": [
+      "TikTok趋势",
+      "Google趋势",
+      "Temu热销",
+      "Etsy趋势"
+    ],
+    "google_trend": "rising",
+    "profit_margin": 0.316,
+    "net_profit": 2.9,
+    "cost_breakdown": {
+      "vat": 1.53,
+      "commission": 1.37,
+      "fba": 1.46,
+      "ads": 0.92,
+      "returns": 0.18,
+      "sourcing": 0.8,
+      "total_cost": 6.26
+    },
+    "off_season": false,
+    "sd_score": 0,
+    "sd_label": "⚖️ 平衡",
+    "sd_info": {
+      "ratio": 2.7,
+      "demand": 23,
+      "supply": 4715,
+      "label": "⚖️ 平衡",
+      "level": "balanced"
+    },
+    "div_score": 0,
+    "div_label": "",
+    "div_info": {},
+    "signal_level": "strong",
+    "signal_label": "🔴 强信号",
+    "external_sources": [
+      "TikTok",
+      "Google",
+      "Temu",
+      "Etsy"
+    ],
+    "internal_sources": [
+      "新品榜"
+    ],
+    "score": 173,
+    "score_breakdown": {
+      "🆕 新品榜": 20,
+      "🎵 TikTok": 20,
+      "📊 Google↑": 15,
+      "🛒 Temu": 8,
+      "🎨 Etsy": 6,
+      "🔴 强信号": 20,
+      "🔥 多源热门(lighting)": 23,
+      "🟡 中等竞争": 5,
+      "💰 高利润": 8,
+      "📈 排名上升": 10,
+      "📊 持续上升": 8
+    },
+    "stars": 5,
+    "is_new": false,
+    "first_seen": "2026-07-25",
+    "is_multi": true,
+    "is_event": false,
+    "channel_tags": [
+      "temu_trending",
+      "etsy_trending",
+      "multi_source",
+      "google_trends",
+      "tiktok_verified",
+      "new_releases"
+    ],
+    "detail_reject_reason": "包装尺寸 45x15x15cm (限30x21x6cm)"
   }
 ]
