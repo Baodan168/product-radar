@@ -1296,6 +1296,8 @@ body{font-family:var(--oa-font);background:var(--oa-bg);color:var(--oa-text);lin
 .festival-filter-bar select:focus{border-color:var(--oa-primary);box-shadow:0 0 0 3px rgba(0,113,227,.1)}
 .festival-filter-bar button{padding:8px 16px;border:1.5px solid var(--oa-border-2);border-radius:var(--oa-radius-sm);background:var(--oa-surface);cursor:pointer;font-size:var(--oa-font-size-body);font-weight:600;font-family:inherit;transition:all .15s}
 .festival-filter-bar button:hover{border-color:var(--oa-orange);color:var(--oa-orange);background:var(--oa-orange-soft)}
+.festival-filter-bar .filter-toggle{display:flex;align-items:center;gap:6px;font-size:13px;color:var(--oa-sub);font-weight:600;cursor:pointer;white-space:nowrap}
+.festival-filter-bar .filter-toggle input{cursor:pointer}
 
 .month-section{margin-bottom:36px}
 .month-section h2{font-size:16px;font-weight:700;margin-bottom:14px;padding-bottom:8px;border-bottom:1.5px solid var(--oa-border-2);color:var(--oa-text);letter-spacing:-0.015em}

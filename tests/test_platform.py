@@ -174,3 +174,56 @@ def test_generator_is_no_longer_a_monolith():
     """generate_platform.py 原本 1146 行，HTML/CSS/JS 全混在一个 f-string 里。"""
     n = len((BASE / 'generate_platform.py').read_text(encoding='utf-8').split('\n'))
     assert n < 400, f'generate_platform.py 又长回 {n} 行了'
+
+
+# ── 节日选品：SKU 计数 / 过期节日收起 / 看板联动 ──────────
+
+def _make_festival(id_, date, products=None):
+    return {
+        'id': id_, 'name': id_, 'nameEn': id_, 'icon': '📅',
+        'date': date, 'month': int(date.split('-')[1]), 'importance': 'A',
+        'category': 'festival', 'themeColor': '#000000',
+        'products': products or [],
+    }
+
+
+def test_festival_header_sku_count_is_dynamic():
+    """头部曾经写死 '300+ SKUs'，数据涨了文案不会跟着涨；改成实时统计。"""
+    from datetime import datetime, timedelta
+    from festival_engine import generate_festival_html
+
+    future = (datetime.now() + timedelta(days=100)).strftime('%Y-%m-%d')
+    festivals = [_make_festival('f1', future, products=[{'sku': 'a'}, {'sku': 'b'}, {'sku': 'c'}])]
+    html = generate_festival_html(festivals)
+    assert '300+ SKUs' not in html, '还在用写死的文案'
+    assert '3 SKUs' in html
+
+
+def test_past_festivals_hidden_by_default_but_reachable():
+    """已过节日不该无限堆积在列表里；默认收起，但紧急度筛选里选"已过"还能看到。"""
+    from datetime import datetime, timedelta
+    from festival_engine import generate_festival_html, get_urgency
+
+    past_date = (datetime.now() - timedelta(days=5)).strftime('%Y-%m-%d')
+    fest = _make_festival('old1', past_date)
+    assert get_urgency(fest) == 'past'
+
+    html = generate_festival_html([fest])
+    assert 'id="filterHidePast"' in html and 'checked' in html, '缺"隐藏已过节日"开关'
+    assert "hidePast && cardUrgency === 'past' && urgency !== 'past'" in html, \
+        '过滤逻辑没有把 hidePast 和显式选"已过"区分开'
+    assert '<option value="past">⚫已过</option>' in html, '紧急度筛选里应该还能选"已过"查看'
+    assert 'filterFestivals();\n    </script>' in html, '页面加载时没有立即收起已过节日'
+
+
+def test_kanban_festival_items_link_back_to_festival_card(platform_js):
+    """看板收件箱里的节日 SKU 要能跳回节日 Tab 对应的详情卡片。"""
+    assert 'festivalId: f.id' in platform_js, '注入看板的节日项没带 festival id'
+    assert "data-festival-id=\"${escAttr(item.festivalId)}\"" in platform_js, \
+        'festival id 写进 data-* 属性没走 escAttr'
+    assert 'function goToFestival(' in platform_js, '缺少跳转函数'
+    i = platform_js.find('function goToFestival(')
+    body = platform_js[i:i + 900]
+    assert "getElementById('sec-festival')" in body, '没有切换到节日 Tab'
+    assert 'scrollIntoView' in body and "classList.add('expanded')" in body, \
+        '没有滚动定位并展开目标卡片'

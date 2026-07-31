@@ -203,6 +203,8 @@ def generate_festival_html(festivals):
     for f in festivals:
         urgency = get_urgency(f)
         stats[urgency] += 1
+
+    total_skus = sum(len(f.get('products', [])) for f in festivals)
     
     # 找到最近的备货节点（用海运，周期最长）
     upcoming = None
@@ -234,7 +236,7 @@ def generate_festival_html(festivals):
     # 生成 HTML
     html = f'''
     <div class="festival-header">
-      <h2>📅 Festival Planner 2026 Jul - 2027 Jun | {len(festivals)} Events | 300+ SKUs</h2>
+      <h2>📅 Festival Planner 2026 Jul - 2027 Jun | {len(festivals)} Events | {total_skus} SKUs</h2>
       <div class="countdown">
         今日 <strong>{today}</strong>
         {countdown_html}
@@ -264,7 +266,7 @@ def generate_festival_html(festivals):
       {"".join(f'<a href="#month-{m}" onclick="scrollToMonth({m})">{m}月</a>' for m in range(1, 13))}
     </div>
     
-    <div class="filter-bar">
+    <div class="filter-bar festival-filter-bar">
       <div class="filter-group">
         <label>品类</label>
         <select id="filterCategory" onchange="filterFestivals()">
@@ -294,6 +296,10 @@ def generate_festival_html(festivals):
         </select>
       </div>
       <input type="text" id="filterSearch" placeholder="搜索节日/SKU/关键词..." oninput="filterFestivals()">
+      <label class="filter-toggle">
+        <input type="checkbox" id="filterHidePast" checked onchange="filterFestivals()">
+        隐藏已过节日
+      </label>
       <button id="resetFilter" onclick="resetFilters()">重置</button>
     </div>
     
@@ -485,19 +491,22 @@ def generate_festival_html(festivals):
       const month = document.getElementById('filterMonth').value;
       const urgency = document.getElementById('filterUrgency').value;
       const search = document.getElementById('filterSearch').value.toLowerCase();
-      
+      const hidePast = document.getElementById('filterHidePast').checked;
+
       document.querySelectorAll('.festival-card').forEach(card => {
         const cardMonth = card.dataset.month;
         const cardUrgency = card.dataset.urgency;
         const cardCategory = card.dataset.category;
         const cardText = card.textContent.toLowerCase();
-        
+
         let show = true;
+        // 已过节日默认收起，除非用户主动在紧急度里选"已过"查看
+        if (hidePast && cardUrgency === 'past' && urgency !== 'past') show = false;
         if (category && cardCategory !== category) show = false;
         if (month && cardMonth !== month) show = false;
         if (urgency && cardUrgency !== urgency) show = false;
         if (search && !cardText.includes(search)) show = false;
-        
+
         card.style.display = show ? '' : 'none';
       });
       
@@ -527,6 +536,7 @@ def generate_festival_html(festivals):
       document.getElementById('filterMonth').value = '';
       document.getElementById('filterUrgency').value = '';
       document.getElementById('filterSearch').value = '';
+      document.getElementById('filterHidePast').checked = true;
       filterFestivals();
     }
     
@@ -561,6 +571,9 @@ def generate_festival_html(festivals):
         btn.classList.toggle('show', window.scrollY > 300);
       }
     });
+
+    // 初始加载即收起已过节日（filterHidePast 默认勾选）
+    filterFestivals();
     </script>
     '''
     
