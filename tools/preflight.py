@@ -243,10 +243,10 @@ def check_last_cron(on_prod):
     latest = logs[0]
     age_h = (time.time() - latest.stat().st_mtime) / 3600
     text = latest.read_text(encoding='utf-8', errors='replace')
-    # 只有管线级失败才算失败。扫描器给每个被淘汰的产品也打 ❌
+    # 只有管线级失败才算失败。详情页验证给每个被淘汰的产品也打 ❌
     # （"❌ <标题> → 包装尺寸 60x50x0cm (限30x21x6cm)"），一次扫描能有几十条，
-    # 那是过滤器在干正事。区分靠缩进：cron_scan.sh 的失败 echo 顶格，
-    # 产品淘汰记录由 run_scan_v2.py 缩进打印。
+    # 那是过滤器在干正事。区分靠缩进：cron_scan.sh 的失败 echo 顶格输出，
+    # 产品淘汰记录由 detail_verifier.py:203/225 缩进打印。
     hard = [l for l in text.splitlines() if l.startswith('❌')]
     if hard:
         note(BLOCK, f'上次 cron 有失败（{latest.name}，{age_h:.1f} 小时前）',
