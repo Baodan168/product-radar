@@ -627,7 +627,7 @@ const FESTIVALS = [
 {
   id: "amazon-prime-day-2026",
   name: "Amazon Prime Day", nameEn: "Amazon Prime Day", icon: "📦",
-  date: "2026-07-12", month: 7, importance: "A", category: "activity",
+  date: "2026-06-23", month: 6, importance: "A", category: "activity",
   themeColor: "#f59e0b",
   products: [
     { sku: "手机壳(多型号)", skuEn: "Phone Case Multi-Model", category: "gift", costRange: "¥3-8", priceRange: "£5.99-7.99", margin: "约55-65%", matchScore: 5, riskLevel: "低", riskNote: "Prime Day TOP品类；多型号SKU", keywords: ["phone case","iphone case","samsung case"], sourcing: "1688: 手机壳" },
@@ -636,9 +636,9 @@ const FESTIVALS = [
   ],
   validation: {
     googleTrends: ["amazon prime day","prime day deals","best prime day"],
-    amazonCheck: "BSR < 5000；7月最大流量峰值；电子/家居品类",
+    amazonCheck: "BSR < 5000；6月最大流量峰值；电子/家居品类",
     sourcing: "1688搜索：电子配件/家居/智能家居",
-    riskFlags: ["电子产品UKCA认证","Prime Day价格战需核算利润","需提前6月备货入仓"]
+    riskFlags: ["电子产品UKCA认证","Prime Day价格战需核算利润","2026年首次从7月移到6月23-26日，2027年日期以Amazon官方公告为准，别再照抄上一年月份"]
   }
 },
 {
@@ -844,6 +844,25 @@ const FESTIVALS = [
   }
 },
 {
+  id: "freshers-week-2026",
+  name: "大学新生周/开学季", nameEn: "Freshers Week / Back to Uni", icon: "🎓",
+  date: "2026-09-14", month: 9, importance: "A", category: "activity",
+  themeColor: "#0ea5e9",
+  products: [
+    { sku: "宿舍收纳箱套装(可折叠)", skuEn: "Foldable Dorm Storage Box Set", category: "home", costRange: "¥10-18", priceRange: "£8.99-9.99", margin: "约40-50%", matchScore: 4, riskLevel: "低", riskNote: "大学生刚需；成人向，非返校季那批儿童品类", keywords: ["dorm storage","foldable storage box","student storage"], sourcing: "1688: 折叠收纳箱" },
+    { sku: "多层桌面置物架", skuEn: "Multi-Tier Desktop Organizer Rack", category: "home", costRange: "¥8-15", priceRange: "£7.99-9.99", margin: "约45-55%", matchScore: 4, riskLevel: "低", riskNote: "宿舍书桌空间有限；常规品类", keywords: ["desktop organizer","desk shelf","study organizer"], sourcing: "1688: 桌面置物架" },
+    { sku: "法兰绒加厚毯(宿舍款)", skuEn: "Fleece Throw Blanket Dorm", category: "home", costRange: "¥10-20", priceRange: "£8.99-9.99", margin: "约40-50%", matchScore: 4, riskLevel: "低", riskNote: "英国宿舍普遍偏冷；秋季刚需", keywords: ["fleece throw","dorm blanket","cosy blanket"], sourcing: "1688: 法兰绒毯" },
+    { sku: "淋浴收纳篮(浴室置物)", skuEn: "Shower Caddy Storage Basket", category: "home", costRange: "¥6-12", priceRange: "£6.99-8.99", margin: "约45-55%", matchScore: 3, riskLevel: "低", riskNote: "合租宿舍浴室共用刚需", keywords: ["shower caddy","bathroom storage","student essentials"], sourcing: "1688: 淋浴收纳篮" },
+    { sku: "床头多口袋收纳袋", skuEn: "Bedside Storage Caddy Multi-Pocket", category: "home", costRange: "¥5-10", priceRange: "£6.49-8.49", margin: "约50-60%", matchScore: 3, riskLevel: "低", riskNote: "宿舍床铺无床头柜；轻小件", keywords: ["bedside caddy","bed storage pocket","dorm essentials"], sourcing: "1688: 床头收纳袋" }
+  ],
+  validation: {
+    googleTrends: ["freshers week uk","back to uni essentials","dorm room checklist uk"],
+    amazonCheck: "BSR < 8000；9月中旬英国大学开学季峰值",
+    sourcing: "1688搜索：宿舍收纳/折叠置物架/淋浴收纳",
+    riskFlags: ["面向18岁以上大学生，非儿童品类，无toy/kids合规风险", "具体日期各校不同，9月中下旬为普遍窗口，仅供参考"]
+  }
+},
+{
   id: "pirate-day-2026",
   name: "海盗说话日", nameEn: "Talk Like a Pirate Day", icon: "🏴‍☠️",
   date: "2026-09-19", month: 9, importance: "B", category: "trend",
@@ -940,6 +959,24 @@ const FESTIVALS = [
   }
 },
 {
+  id: "prime-big-deal-days-2026",
+  name: "Prime Big Deal Days(10月Prime Day)", nameEn: "Amazon Prime Big Deal Days", icon: "🛍️",
+  date: "2026-10-06", month: 10, importance: "A", category: "activity",
+  themeColor: "#f59e0b",
+  products: [
+    { sku: "硅胶厨房工具套装", skuEn: "Silicone Kitchen Utensil Set", category: "home", costRange: "¥10-18", priceRange: "£8.99-9.99", margin: "约45-55%", matchScore: 4, riskLevel: "低", riskNote: "大促流量高峰；常规厨房品类", keywords: ["kitchen utensil set","silicone utensils","cooking tools"], sourcing: "1688: 硅胶厨具套装" },
+    { sku: "可折叠收纳箱(加大)", skuEn: "Foldable Storage Box Large", category: "home", costRange: "¥10-20", priceRange: "£8.99-9.99", margin: "约40-50%", matchScore: 4, riskLevel: "低", riskNote: "大促热卖品类；常规尺寸", keywords: ["foldable storage box","storage bin","home organizer"], sourcing: "1688: 折叠收纳箱" },
+    { sku: "不锈钢保温杯", skuEn: "Stainless Steel Insulated Cup", category: "home", costRange: "¥8-15", priceRange: "£7.99-9.99", margin: "约45-55%", matchScore: 3, riskLevel: "低", riskNote: "常规品类；秋冬季节性走高", keywords: ["insulated cup","travel mug","steel tumbler"], sourcing: "1688: 保温杯" },
+    { sku: "多层桌面收纳架", skuEn: "Multi-Tier Desktop Storage Rack", category: "home", costRange: "¥8-15", priceRange: "£7.99-9.99", margin: "约45-55%", matchScore: 3, riskLevel: "低", riskNote: "常规品类；居家办公需求", keywords: ["desktop storage rack","desk organizer","home office"], sourcing: "1688: 桌面收纳架" }
+  ],
+  validation: {
+    googleTrends: ["prime big deal days","october prime day","amazon october sale"],
+    amazonCheck: "BSR < 8000；10月上旬第二波Prime流量峰值，为黑五网一预热",
+    sourcing: "1688搜索：厨房用品/收纳/保温杯",
+    riskFlags: ["日期为估算(近年惯例10月上旬周二起)，Amazon官方公告一般提前1个月左右发布，临近需核实"]
+  }
+},
+{
   id: "mental-health-day-2026",
   name: "世界精神卫生日", nameEn: "World Mental Health Day", icon: "💚",
   date: "2026-10-10", month: 10, importance: "B", category: "trend",
@@ -988,6 +1025,23 @@ const FESTIVALS = [
     amazonCheck: "BSR < 10000；UK印度裔社区需求",
     sourcing: "1688搜索：排灯节/Diwali装饰",
     riskFlags: ["尊重宗教文化，避免不当元素"]
+  }
+},
+{
+  id: "clocks-go-back-2026",
+  name: "冬令时开始/拨钟", nameEn: "British Summer Time Ends (Clocks Go Back)", icon: "🕰️",
+  date: "2026-10-25", month: 10, importance: "B", category: "trend",
+  themeColor: "#78716c",
+  products: [
+    { sku: "香薰蜡烛套装(暖调)", skuEn: "Scented Candle Set Warm Tones", category: "decor", costRange: "¥8-15", priceRange: "£7.99-9.99", margin: "约45-55%", matchScore: 4, riskLevel: "低", riskNote: "天黑变早，居家温馨氛围需求上升", keywords: ["scented candle set","warm candle","cosy home"], sourcing: "1688: 香薰蜡烛套装" },
+    { sku: "羊毛混纺针织毯", skuEn: "Wool Blend Knitted Throw", category: "home", costRange: "¥15-25", priceRange: "£8.99-9.99", margin: "约40-50%", matchScore: 4, riskLevel: "低", riskNote: "秋冬保暖软装；常规品类", keywords: ["knitted throw","wool blanket","cosy throw"], sourcing: "1688: 针织毯" },
+    { sku: "暖色调抱枕套装", skuEn: "Warm Tone Cushion Cover Set", category: "home", costRange: "¥8-15", priceRange: "£7.99-9.99", margin: "约45-55%", matchScore: 3, riskLevel: "低", riskNote: "秋冬软装换新；轻小件", keywords: ["cushion cover set","autumn decor","home textiles"], sourcing: "1688: 抱枕套装" }
+  ],
+  validation: {
+    googleTrends: ["cosy home autumn","hygge home uk","autumn home decor"],
+    amazonCheck: "BSR < 15000；天黑提早带动居家氛围类目",
+    sourcing: "1688搜索：香薰蜡烛/针织毯/抱枕套",
+    riskFlags: ["日期为10月最后一个周日，逐年浮动，需按当年日历核对"]
   }
 },
 {
@@ -1199,7 +1253,9 @@ const FESTIVALS = [
     { sku: "圣诞主题蜡烛套装", skuEn: "Christmas Candle Set", category: "home", costRange: "¥8-15", priceRange: "£7.99-9.99", margin: "约45-50%", matchScore: 4, riskLevel: "中", riskNote: "蜡烛安全标签要求", keywords: ["christmas candles","scented candles","festive candle"], sourcing: "1688: 圣诞蜡烛" },
     { sku: "圣诞爆竹拉炮(4只)", skuEn: "Christmas Crackers 4 Pack", category: "decor", costRange: "¥8-15", priceRange: "£7.99-9.99", margin: "约45-55%", matchScore: 5, riskLevel: "低", riskNote: "英国圣诞传统必备；含小礼物", keywords: ["christmas crackers","xmas crackers","party crackers"], sourcing: "1688: 圣诞拉炮" },
     { sku: "圣诞主题围巾(格纹)", skuEn: "Christmas Tartan Scarf", category: "apparel", costRange: "¥8-15", priceRange: "£7.99-9.99", margin: "约45-55%", matchScore: 4, riskLevel: "低", riskNote: "圣诞格纹经典；UK尺码", keywords: ["christmas scarf","tartan scarf","festive scarf"], sourcing: "1688: 圣诞围巾" },
-    { sku: "圣诞糖果拐杖装饰", skuEn: "Candy Cane Decoration Set", category: "decor", costRange: "¥3-8", priceRange: "£5.99-7.99", margin: "约55-65%", matchScore: 4, riskLevel: "低", riskNote: "圣诞经典元素；轻小件", keywords: ["candy cane","christmas candy","xmas decor"], sourcing: "1688: 糖果拐杖" }
+    { sku: "圣诞糖果拐杖装饰", skuEn: "Candy Cane Decoration Set", category: "decor", costRange: "¥3-8", priceRange: "£5.99-7.99", margin: "约55-65%", matchScore: 4, riskLevel: "低", riskNote: "圣诞经典元素；轻小件", keywords: ["candy cane","christmas candy","xmas decor"], sourcing: "1688: 糖果拐杖" },
+    { sku: "圣诞倒数日历(文具贴纸款)", skuEn: "Christmas Advent Calendar Stationery", category: "gift", costRange: "¥8-15", priceRange: "£7.99-9.99", margin: "约45-55%", matchScore: 4, riskLevel: "低", riskNote: "非玩具倒数日历，成人/全年龄向；补充现有玩具款之外的选择", keywords: ["advent calendar","christmas countdown","stationery advent"], sourcing: "1688: 圣诞倒数日历文具" },
+    { sku: "圣诞倒数蜡烛(24日刻度)", skuEn: "Christmas Advent Countdown Candle", category: "decor", costRange: "¥8-15", priceRange: "£7.99-9.99", margin: "约45-50%", matchScore: 3, riskLevel: "中", riskNote: "蜡烛安全标签要求", keywords: ["advent candle","countdown candle","christmas candle"], sourcing: "1688: 倒数蜡烛" }
   ],
   validation: {
     googleTrends: ["christmas decorations 2026","christmas gifts uk"],
