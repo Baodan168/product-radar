@@ -87,6 +87,14 @@ if __name__ == '__main__':
                 continue
             files.append((f'{subdir}/{f}', os.path.join(full, f)))
 
+    # ⚠️ output/analysis 全量推送（补货详情页+列表页，不能截断）
+    # 2026-07-31 修复：此前 subdir 元组缺 output/analysis，补货数据从未推送到线上
+    ana_dir = os.path.join(base, 'output/analysis')
+    if os.path.isdir(ana_dir):
+        for f in sorted(os.listdir(ana_dir)):
+            if f.endswith('.html'):
+                files.append((f'output/analysis/{f}', os.path.join(ana_dir, f)))
+
     # Always-push files
     # 门户壳的 JS 从内联抽到了 output/assets/，漏推的话线上门户会白屏
     for f in ('output/platform.html', 'output/index.html', 'output/assets/portal.js',

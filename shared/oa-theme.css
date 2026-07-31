@@ -1487,6 +1487,7 @@ body{font-family:var(--oa-font);background:var(--oa-bg);color:var(--oa-text);lin
 .pc[data-status="listed"]{opacity:.6}.pc[data-status="rejected"]{opacity:.4}
 .badge-new{position:absolute;top:var(--oa-space-3);right:var(--oa-space-3);padding:1px 6px;border-radius:var(--oa-radius-xs);font-size:var(--oa-text-xs);font-weight:700;background:var(--oa-green-soft);color:var(--oa-green-ink)}
 .badge-repeat{position:absolute;top:var(--oa-space-3);right:var(--oa-space-3);padding:1px 6px;border-radius:var(--oa-radius-xs);font-size:var(--oa-text-xs);font-weight:600;background:var(--oa-surface-3);color:var(--oa-sub)}
+.badge-warn{position:absolute;top:var(--oa-space-3);right:var(--oa-space-3);padding:1px 6px;border-radius:var(--oa-radius-xs);font-size:var(--oa-text-xs);font-weight:700;background:var(--oa-orange-soft);color:var(--oa-orange-ink);transform:translateY(20px)}
 .card-hd{display:flex;justify-content:space-between;align-items:center;gap:var(--oa-space-2)}
 .src-badge{padding:1px 6px;border-radius:var(--oa-radius-xs);font-size:var(--oa-text-xs);font-weight:600;background:var(--oa-surface-3);color:var(--oa-sub)}
 .score-badge{padding:2px 8px;border-radius:var(--oa-radius-xs);font-size:var(--oa-text-sm);font-weight:700;white-space:nowrap;font-variant-numeric:tabular-nums}

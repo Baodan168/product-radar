@@ -235,6 +235,41 @@
 
 ---
 
+## WSL 接续（本地会话开场白）
+
+> 前面几轮都在云端容器里做（Claude Code on the web）—— 能改仓库内的一切，
+> 但碰不到本机的 `~/product-analysis/`、`~/.hermes/` 等等。
+> 要让 Claude 直接操作那些，在 WSL 里装 CLI 从项目目录启动：
+>
+> ```bash
+> npm install -g @anthropic-ai/claude-code
+> cd /home/lee/product-radar && claude
+> ```
+
+启动后可直接粘贴这段：
+
+```
+读 CLAUDE.md 的「本地运行（WSL）」章节，和 DESIGN-DECISIONS.md 的
+D1–D11。前面几轮重构都在云端做的，决策记录都在这两处。
+
+当前分支应该是 claude/oa-portal-redesign-9vaqif（main 是兜底，别动）。
+先确认能跑通：
+  python3 -m pytest tests/ -q          # 应 119 项全绿
+  python3 generate_platform.py && python3 generate_portal.py
+  python3 desensitize_analysis.py --check
+
+这一轮要做的是 <填你的目标>。
+```
+
+### 本地才能做、云端一直做不了的三件
+
+1. **`~/product-analysis/` 生成器根因** —— 让它直接输出档位标签，
+   本仓库的 `oa/desensitize.py` 就退化成冗余保险（见 D10）
+2. **`{fba_days}` 占位符未渲染** —— 16 个详情页公开显示这个字面量
+3. **真实管线端到端验证** —— 带凭据跑 `cron_scan.sh`，云端没凭据没外网
+
+---
+
 ## 部署清单（Phase 5 之后需要手动做的）
 
 看板同步改走 Worker 代理后，**在下面三步做完之前同步不可用**（页面显示「已存本地」，状态只保存在本机浏览器，不会静默失败）：

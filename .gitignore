@@ -20,8 +20,16 @@ output/*
 # Visual regression baselines (本地回归辅助，重构期间用，不入库)
 .screenshots/
 
+# Claude Code 的个人覆盖配置（.claude/settings.json 入库，local 不入库）
+.claude/settings.local.json
+
 # Internal team docs — not for public repo
 OA系统介绍-团队版.md
 OA系统介绍-对外版.md
 # 换肤对比用的临时候选层（定稿后合并进 shared/oa-theme.css）
 skins/
+bitable_sync.py
+
+
+# 视觉提案样板（用户选定后再清理）
+.design-proposals/

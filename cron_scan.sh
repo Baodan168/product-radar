@@ -6,10 +6,13 @@ set -a; source /home/lee/.hermes/.env; set +a
 set -e
 cd "$(dirname "$0")"
 
-# Step 0: 同步代码到 GitHub 最新（安全方式，保留本地产物）
+# Step 0: 同步代码到 GitHub 最新（autostash 自动保存并恢复未提交改动，冲突时保留stash并报警）
 git fetch origin
-git stash push -m "auto-scan-pre-sync" 2>/dev/null || true
-git pull --rebase --autostash origin main 2>/dev/null || git merge --ff-only origin/main 2>/dev/null || true
+git pull --rebase --autostash origin main 2>&1 || git merge --ff-only origin/main 2>&1 || true
+# 冲突检测：rebase 后 autostash 未能自动恢复时报警（改动保留在 refs/autostash，不会静默丢失）
+if git rev-parse --verify refs/autostash >/dev/null 2>&1; then
+    echo "⚠️ 警告: 扫描前未提交改动未自动恢复(autostash冲突), 请运行 git stash pop 处理" >&2
+fi
 
 # All detail goes to log file; cron only sees the one-line result
 LOG="$PWD/logs/cron_$(date '+%Y%m%d_%H%M%S').log"
@@ -20,10 +23,10 @@ find "$PWD/logs" -name "cron_*.log" -mtime +7 -delete 2>/dev/null
 echo "🔍 选品雷达自动扫描 | $(date '+%Y-%m-%d %H:%M')"
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 
-# Step 1: Run radar scan (timeout: 7 min)
+# Step 1: Run radar scan (timeout: 20 min — 含 [7a] 详情页尺寸验证, 78产品约需4-7分钟)
 echo ""
 echo "📡 Step 1: 雷达扫描..."
-timeout 800 python3 -u run_scan_v2.py 2>&1 || { echo "❌ 扫描超时或失败"; exit 1; }
+timeout 1200 python3 -u run_scan_v2.py 2>&1 || { echo "❌ 扫描超时或失败"; exit 1; }
 
 # Get latest data file
 LATEST=$(ls -t data/channels/*.json 2>/dev/null | grep -v rejected | grep -v trends | grep -v bsr_data | head -1)
@@ -41,6 +44,12 @@ timeout 180 python3 bsr_scraper.py --enrich 2>&1 || echo "  ⚠️ BSR抓取失�
 echo ""
 echo "🔧 Step 3: 生成平台页面..."
 timeout 60 python3 generate_platform.py 2>&1 || echo "  ⚠️ 平台生成失败"
+
+# Step 3b: 重新生成门户页（重构后「今日概览」dashboard 是服务端渲染的，
+# 必须跑 generate_portal.py 才能刷新数据，否则战情/补货告警卡显示旧快照）
+echo ""
+echo "🔧 Step 3b: 刷新门户 dashboard..."
+timeout 60 python3 generate_portal.py 2>&1 || echo "  ⚠️ 门户页生成失败（dashboard 可能显示旧数据）"
 
 # Extract summary
 PRODUCTS=$(python3 -c "import json; d=json.load(open('$LATEST')); print(len(d.get('products',[])))")
@@ -88,7 +97,8 @@ for i, p in enumerate(d.get('products',[])[:3], 1):
 # Step 4: Deploy to GitHub
 echo ""
 echo "📦 Step 4: 部署到 GitHub Pages..."
-timeout 60 python3 github_api_push.py "auto-scan $(date -u '+%Y-%m-%d %H:%M')" 2>&1 || {
+# timeout 180: output/analysis 全量推送后 API 调用约 30 批，60s 不够会误判失败走 fallback
+timeout 180 python3 github_api_push.py "auto-scan $(date -u '+%Y-%m-%d %H:%M')" 2>&1 || {
     # Fallback to git push (with longer timeout for 1.3MB platform.html)
     timeout 60 git add data/ output/ status.json -f 2>/dev/null
     git diff --cached --quiet && echo "  无变更" && exit 0
@@ -126,8 +136,22 @@ rep_c = sum(1 for p in prods if p.get('is_new')==False)
 print(f'{new_c},{rep_c},{len(prods)}')
 ")
 fi
+# [7a] 详情页拦截统计（重量/尺寸超标），拼到摘要行尾
+DETAIL_REJ=""
+if [ -n "$LATEST" ]; then
+    DETAIL_REJ=$(python3 -c "
+import json
+try:
+    d=json.load(open('$LATEST'))
+    s=d.get('stats',{}).get('detail_reject',{})
+    if s:
+        print(' | [7a]拦截 ' + ' '.join(f'{v}个{k}' for k,v in s.items()))
+except Exception:
+    pass
+" 2>/dev/null)
+fi
 if [ "$REPEAT_COUNT" -gt 0 ] 2>/dev/null; then
-    echo "✅ 选品雷达扫描完成 | $(date '+%Y-%m-%d %H:%M') | ${PRODUCTS}个通过筛选（🆕${NEW_COUNT}新品 ♻️${REPEAT_COUNT}重复）→ 已部署GitHub"
+    echo "✅ 选品雷达扫描完成 | $(date '+%Y-%m-%d %H:%M') | ${PRODUCTS}个通过筛选（🆕${NEW_COUNT}新品 ♻️${REPEAT_COUNT}重复）→ 已部署GitHub${DETAIL_REJ}"
 else
-    echo "✅ 选品雷达扫描完成 | $(date '+%Y-%m-%d %H:%M') | ${PRODUCTS}个新品通过筛选 → 已部署GitHub"
+    echo "✅ 选品雷达扫描完成 | $(date '+%Y-%m-%d %H:%M') | ${PRODUCTS}个新品通过筛选 → 已部署GitHub${DETAIL_REJ}"
 fi

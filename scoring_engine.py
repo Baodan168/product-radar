@@ -418,6 +418,18 @@ def score_all_products(products, trend_data=None, history=None):
     for p in products:
         score, breakdown = score_product(p, trend_data, history)
 
+        # Sponsored Ad 降权：广告位产品 = 该关键词竞争激烈 + 多为低质测品，信号不可靠
+        if (p.get("name") or "").lower().startswith("sponsored ad"):
+            pts = -10
+            score += pts
+            breakdown["📢 广告位"] = pts
+
+        # 未验证降权：详情页无重量/尺寸数据（[7a] 抓不到）→ 有超标风险，降权展示
+        if p.get("verify_status") == "unverified":
+            pts = -8
+            score += pts
+            breakdown["⚠️ 未验证"] = pts
+
         # Category diversity penalty: if same category has too many products
         category = p.get("category", "unknown")
         cat_count = cat_counts.get(category, 0)
