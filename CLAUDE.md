@@ -67,8 +67,30 @@ python3 -m http.server 8080    # 访问 http://localhost:8080/output/
 - ❌ **改数据不直接改HTML** — 改数据源JSON，重新生成
 - ❌ **改样式不走内联CSS** — 走 shared/oa-theme.css
 - ❌ **修改data/channels/*.json前必须备份**
+- ❌ **改配色/字号别和结构重构放同一个分支** — 见下节，这条是拿真钱买来的
 - ✅ **加新板块只改 `oa/config.py` 的 MODULES 数组**（v4.0 起从 generate_portal.py 移出，见 DESIGN-DECISIONS D8）
 - ✅ **改门户交互改 `assets/portal.js`，改结构改 `templates/portal.html`**
+
+### 视觉改动怎么分批
+
+审美是可以被否掉的，结构不是。两者放同一条分支，否掉审美就得连结构一起退。
+
+2026-07-31 实测过一次：v6 那轮把「把颜色从 Python 搬进 CSS 类名」（纯结构改进，
+无争议）和「换成暖石灰配色」（审美决策）打包在一条分支里。配色被否时，
+`generate_platform.py` 发的 `st-supplier`、`festival_engine.py` 发的 `cat-gift`
+这些类名在旧样式表里根本不存在 —— 只退 CSS 会让状态徽章和品类标签变成没颜色的
+裸标签。结果整条分支陪葬，连带 `tools/preflight.py` 都得单独捞回来。
+
+所以分两批：
+
+1. **结构批** — 颜色/字号搬进令牌、组件层改用 `var(--oa-*)`。
+   验收标准是**新旧配色都能正常渲染**。这批合进去不改变任何视觉。
+2. **审美批** — 只动 `:root` 里的令牌值。
+   退起来就是 revert 一个 commit，不牵连任何生成器。
+
+第二批必须**先出截图给人看过再合**（`python3 tools/snapshot.py --out .screenshots/after`，
+或 `tools/skinpreview.py` 并排对比多个方向）。配色和字号这种事，
+看图三十秒能定的，别用一次线上部署去试。
 
 ## 关键坑
 

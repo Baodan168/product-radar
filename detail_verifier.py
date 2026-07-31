@@ -77,19 +77,39 @@ def _extract_attr(html, label):
     return None
 
 
+# 只认 "A x B" / "A x B x C" 这种真正的尺寸表达式。
+# 不能用 findall 扫全串取前三个数：详情页的属性值常带尾巴（"25 x 20 cm; 15 g"），
+# 那个 15 是克重，会被当成 15cm 的第三维，于是 2D 商品按 3D 判、15>6 被误杀。
+_DIM_EXPR = re.compile(
+    r"(\d+(?:\.\d+)?)\s*[x×*]\s*(\d+(?:\.\d+)?)"
+    r"(?:\s*[x×*]\s*(\d+(?:\.\d+)?))?",
+    re.I,
+)
+# 单位必须按词边界认。曾经写成 `"in" in text.lower()`，结果命中的是材质词里的 in ——
+# Stainless / Linen / Printed 全中，尺寸被乘 2.54。"30 x 21 x 6 cm; Stainless Steel"
+# 这种正好卡在限值上的合格品会被算成 76x53x15 毙掉，而限值就是 30x21x6，
+# 越贴近限值的合格品越容易中招。
+_UNIT_INCH = re.compile(r'(?:\binch(?:es)?\b|\bins?\b|["″])', re.I)
+_UNIT_MM = re.compile(r"\b(?:mm|millimet(?:er|re)s?)\b", re.I)
+
+
 def _norm_dims(text):
-    """'15 x 15 x 45 centimetres' / '44.5 x 15cm' / '80 x 40in' → cm 数值列表(降序)；无数据返回 None"""
+    """'15 x 15 x 45 centimetres' / '44.5 x 15cm' / '80 x 40in' → cm 数值列表(降序)。
+
+    无法解析出尺寸表达式时返回 None（调用方据此判为「未验证」，不拦截）。
+    """
     if not text:
         return None
-    nums = re.findall(r"(\d+(?:\.\d+)?)", text)
-    if len(nums) < 2:
+    m = _DIM_EXPR.search(text)
+    if not m:
         return None
-    vals = [float(x) for x in nums[:3]]
-    # 英寸值换算：值 > 200 视为英寸（亚马逊常见 80x40in 渔网装饰）
-    if "in" in text.lower() or "inch" in text.lower():
+    vals = [float(g) for g in m.groups() if g is not None]
+
+    # 单位只看尺寸表达式后面那一小段，避免被属性值尾巴上的材质、克重干扰
+    tail = text[m.end():m.end() + 24]
+    if _UNIT_INCH.search(tail):
         vals = [round(v * 2.54, 1) for v in vals]
-    elif "mm" in text.lower():
-        # 明确 mm 单位：全部 /10（如 450 x 300 x 60 mm → 45 x 30 x 6 cm）
+    elif _UNIT_MM.search(tail):
         vals = [round(v / 10, 1) for v in vals]
     else:
         # 无单位时数值 > 200 大概率是 mm → cm

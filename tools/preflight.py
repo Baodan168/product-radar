@@ -14,6 +14,7 @@
     python3 tools/preflight.py --fetch      # 先 git fetch（会写 .git，但不动工作区）
 """
 import argparse
+import json
 import os
 import re
 import subprocess
@@ -233,32 +234,52 @@ def check_restock_pipeline(on_prod):
 
 
 def check_last_cron(on_prod):
+    """读 logs/last_run.json 判定上次跑的结果。
+
+    别回去 grep 日志里的 ❌：详情页验证给每个被淘汰的产品也打 ❌，一次几十条，
+    那是过滤器在干正事。这个函数最早就是那么写的（`'❌' in text`），把一次
+    完全成功的扫描报成了阻塞项。emoji 同时当装饰和状态信号，靠缩进之类的
+    形状特征去区分只是权宜之计 —— 排版一改就又破了。
+    现在 cron_scan.sh 直接写机器可读的状态，这里只读它。
+    """
     section('上次 cron')
+    status_file = BASE / 'logs' / 'last_run.json'
     logs = sorted((BASE / 'logs').glob('cron_*.log'),
                   key=lambda p: p.stat().st_mtime, reverse=True) \
         if (BASE / 'logs').is_dir() else []
-    if not logs:
-        note(INFO, '没有 cron 日志', '这台机器可能不跑定时任务')
+
+    if not status_file.exists():
+        if not logs:
+            note(INFO, '没有 cron 日志', '这台机器可能不跑定时任务')
+        else:
+            # 状态文件是随本轮改动引入的；老日志还在但没有状态文件时不臆测成败
+            age_h = (time.time() - logs[0].stat().st_mtime) / 3600
+            note(INFO, f'还没有运行状态文件（上次日志 {age_h:.1f} 小时前）',
+                 'logs/last_run.json 由 cron_scan.sh 写，下次跑完就有了。\n'
+                 '在那之前这一项不做判断 —— 猜一个成败还不如不猜。')
         return False
-    latest = logs[0]
-    age_h = (time.time() - latest.stat().st_mtime) / 3600
-    text = latest.read_text(encoding='utf-8', errors='replace')
-    # 只有管线级失败才算失败。详情页验证给每个被淘汰的产品也打 ❌
-    # （"❌ <标题> → 包装尺寸 60x50x0cm (限30x21x6cm)"），一次扫描能有几十条，
-    # 那是过滤器在干正事。区分靠缩进：cron_scan.sh 的失败 echo 顶格输出，
-    # 产品淘汰记录由 detail_verifier.py:203/225 缩进打印。
-    hard = [l for l in text.splitlines() if l.startswith('❌')]
-    if hard:
-        note(BLOCK, f'上次 cron 有失败（{latest.name}，{age_h:.1f} 小时前）',
-             '\n'.join(hard[:8]) + '\n合并前先解决这个 —— 同步失败会导致用旧代码生成。')
+
+    try:
+        st = json.loads(status_file.read_text(encoding='utf-8'))
+    except Exception as e:
+        note(BLOCK, '运行状态文件读不了', f'{status_file}: {e}')
         return True
-    note(OK, f'上次 cron 正常（{latest.name}，{age_h:.1f} 小时前）')
-    # 降级告警（BSR 抓取、平台/门户生成）不阻塞，但值得看一眼
-    soft = [l.strip() for l in text.splitlines() if '⚠️' in l]
-    if soft:
-        note(INFO, f'有 {len(soft)} 条降级告警（不阻塞）', '\n'.join(soft[:5]))
+
+    age_h = (time.time() - status_file.stat().st_mtime) / 3600
+    log_name = Path(st.get('log') or '?').name
+
+    if not st.get('ok'):
+        note(BLOCK, f'上次 cron 失败于 {st.get("failed_step") or "未知步骤"}'
+                    f'（{age_h:.1f} 小时前）',
+             f'日志：{log_name}\n合并前先解决这个 —— 同步失败会导致用旧代码生成。')
+        return True
+
+    note(OK, f'上次 cron 正常（{log_name}，{age_h:.1f} 小时前）')
+    warns = st.get('warnings') or []
+    if warns:
+        note(INFO, f'有 {len(warns)} 条降级告警（不阻塞）', '\n'.join(warns[:5]))
     if age_h > 30:
-        note(WARN, f'但已经 {age_h:.0f} 小时没跑了', '确认 crontab 还在生效')
+        note(WARN, f'但已经 {age_h:.0f} 小时没跑了', '确认调度还在生效')
     return False
 
 

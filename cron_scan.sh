@@ -8,7 +8,19 @@ cd "$(dirname "$0")"
 
 # Step 0: 同步代码到 GitHub 最新（autostash 自动保存并恢复未提交改动，冲突时保留stash并报警）
 git fetch origin
-git pull --rebase --autostash origin main 2>&1 || git merge --ff-only origin/main 2>&1 || true
+# 同步失败必须中止。这里曾是 `... || ... || true`：两种同步都没成时脚本会继续
+# 用旧代码生成并推上去，而 cron 只给一行摘要，看不出用的是哪个版本 ——
+# 「静默发布错版本」的唯一入口。宁可这次不更新，也不要发布一个说不清来源的产物。
+if ! git pull --rebase --autostash origin main 2>&1; then
+    if ! git merge --ff-only origin/main 2>&1; then
+        echo "❌ 代码同步失败 | $(date '+%Y-%m-%d %H:%M')"
+        echo "   git pull --rebase 和 git merge --ff-only 都没成功。"
+        echo "   本地 $(git rev-parse --short HEAD) / origin/main $(git rev-parse --short origin/main)"
+        echo "   本次跳过扫描，不发布 —— 继续跑会用旧代码生成并推上线。"
+        echo "   处理：到仓库里手工解决分叉（git status / git log --oneline -5）后重跑。"
+        exit 1
+    fi
+fi
 # 冲突检测：rebase 后 autostash 未能自动恢复时报警（改动保留在 refs/autostash，不会静默丢失）
 if git rev-parse --verify refs/autostash >/dev/null 2>&1; then
     echo "⚠️ 警告: 扫描前未提交改动未自动恢复(autostash冲突), 请运行 git stash pop 处理" >&2
@@ -19,12 +31,49 @@ LOG="$PWD/logs/cron_$(date '+%Y%m%d_%H%M%S').log"
 mkdir -p "$PWD/logs"
 find "$PWD/logs" -name "cron_*.log" -mtime +7 -delete 2>/dev/null
 
+# ── 运行状态（机器可读）──
+# 判定「这次跑成功没有」不要去 grep 日志里的 ❌：详情页验证给每个被淘汰的
+# 产品也打 ❌，一次几十条，那是过滤器在干正事。emoji 同时当装饰和状态信号，
+# 谁都会踩。真相写在这里，preflight 和任何监控都读这个文件。
+STATUS_FILE="$PWD/logs/last_run.json"
+STEP_FILE=$(mktemp)
+WARN_FILE=$(mktemp)
+STARTED_AT=$(date '+%Y-%m-%dT%H:%M:%S%z')
+trap 'rm -f "$STEP_FILE" "$WARN_FILE"' EXIT
+
+step() { echo "$1" > "$STEP_FILE"; }
+warn() { echo "$1" >> "$WARN_FILE"; }
+
+write_status() {  # write_status <ok:true|false>
+    python3 - "$1" "$STATUS_FILE" "$LOG" "$STARTED_AT" "$STEP_FILE" "$WARN_FILE" <<'PY'
+import json, sys, datetime, pathlib
+ok, out, log, started, step_f, warn_f = sys.argv[1:7]
+def read(p, default=''):
+    try:
+        return pathlib.Path(p).read_text(encoding='utf-8').strip()
+    except Exception:
+        return default
+warns = [w for w in read(warn_f).splitlines() if w]
+step = read(step_f) or 'unknown'
+pathlib.Path(out).write_text(json.dumps({
+    'ok': ok == 'true',
+    'started_at': started,
+    'finished_at': datetime.datetime.now().astimezone().strftime('%Y-%m-%dT%H:%M:%S%z'),
+    'failed_step': None if ok == 'true' else step,
+    'last_step': step,
+    'warnings': warns,          # 降级但不致命的（BSR 抓取失败等）
+    'log': log,
+}, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+PY
+}
+
 {
 echo "🔍 选品雷达自动扫描 | $(date '+%Y-%m-%d %H:%M')"
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 
 # Step 1: Run radar scan (timeout: 20 min — 含 [7a] 详情页尺寸验证, 78产品约需4-7分钟)
 echo ""
+step "scan"
 echo "📡 Step 1: 雷达扫描..."
 timeout 1200 python3 -u run_scan_v2.py 2>&1 || { echo "❌ 扫描超时或失败"; exit 1; }
 
@@ -37,19 +86,22 @@ fi
 
 # Step 2: BSR enrichment using Playwright (timeout: 3 min)
 echo ""
+step "bsr"
 echo "📊 Step 2: BSR数据抓取..."
-timeout 180 python3 bsr_scraper.py --enrich 2>&1 || echo "  ⚠️ BSR抓取失败（不影响主流程）"
+timeout 180 python3 bsr_scraper.py --enrich 2>&1 || { echo "  ⚠️ BSR抓取失败（不影响主流程）"; warn "BSR抓取失败"; }
 
 # Step 3: Generate platform page
 echo ""
+step "generate_platform"
 echo "🔧 Step 3: 生成平台页面..."
-timeout 60 python3 generate_platform.py 2>&1 || echo "  ⚠️ 平台生成失败"
+timeout 60 python3 generate_platform.py 2>&1 || { echo "  ⚠️ 平台生成失败"; warn "平台页生成失败"; }
 
 # Step 3b: 重新生成门户页（重构后「今日概览」dashboard 是服务端渲染的，
 # 必须跑 generate_portal.py 才能刷新数据，否则战情/补货告警卡显示旧快照）
 echo ""
+step "generate_portal"
 echo "🔧 Step 3b: 刷新门户 dashboard..."
-timeout 60 python3 generate_portal.py 2>&1 || echo "  ⚠️ 门户页生成失败（dashboard 可能显示旧数据）"
+timeout 60 python3 generate_portal.py 2>&1 || { echo "  ⚠️ 门户页生成失败（dashboard 可能显示旧数据）"; warn "门户页生成失败"; }
 
 # Extract summary
 PRODUCTS=$(python3 -c "import json; d=json.load(open('$LATEST')); print(len(d.get('products',[])))")
@@ -96,6 +148,7 @@ for i, p in enumerate(d.get('products',[])[:3], 1):
 
 # Step 4: Deploy to GitHub
 echo ""
+step "deploy"
 echo "📦 Step 4: 部署到 GitHub Pages..."
 # timeout 180: output/analysis 全量推送后 API 调用约 30 批，60s 不够会误判失败走 fallback
 timeout 180 python3 github_api_push.py "auto-scan $(date -u '+%Y-%m-%d %H:%M')" 2>&1 || {
@@ -115,10 +168,12 @@ echo "✅ 部署完成：https://liyuhong168.github.io/product-radar/platform.ht
 
 } > "$LOG" 2>&1 || {
     # On failure, output error for cron alert
+    write_status false
     echo "❌ 选品雷达扫描失败 | $(date '+%Y-%m-%d %H:%M')"
     tail -5 "$LOG"
     exit 1
 }
+write_status true
 
 # On success, one-line summary for cron delivery
 # Re-extract counts (outside the subshell where main logic ran)

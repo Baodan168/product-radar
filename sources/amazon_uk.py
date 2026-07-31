@@ -125,9 +125,6 @@ def _is_valid_response(html):
 
 CLOAKBROWSER_CHROME = '/home/lee/.cloakbrowser/chromium-146.0.7680.177.5/chrome'
 
-# Thread-safety lock for CloakBrowser (Playwright greenlets are not thread-safe)
-_cloak_lock = __import__('threading').Lock()
-
 # ── 12-hour cache ────────────────────────────────────────────────
 CACHE_FILE = BASE / "data" / "amazon_cache.json"
 CACHE_TTL = 12 * 3600  # 12 hours
@@ -159,63 +156,87 @@ def _set_cache(url, html):
     cache[url] = {"t": time.time(), "h": html}
     _save_cache(cache)
 
-# ── Browser singleton (thread-safe via _amazon_fetch_lock) ──────
-_BROWSER = None
-_BROWSER_CTX = None
+# ── Browser：每个线程各持一个（不是全局单例）──────────────────
+# Playwright 的 sync API 绑定创建它的线程/greenlet，跨线程复用必抛
+# "Cannot switch to a different thread"。原来是全局单例 + 一把锁 —— 锁只挡住
+# 并发，挡不住「不是同一个线程」，于是线程池里每次调用都抛错、退化成新建独立
+# 实例。日志里连刷几十条 "singleton error → fallback → dedicated instance"
+# 就是这么来的：32 个产品 32 次冷启动，详情页验证因此成了整条链路最慢的一步。
+# thread-local 之后每个线程只启一次，池里 3 个线程总共 3 次。
+# 同样的结论 keyword_scanner.py 早就得出过（见那里的 "avoids the greenlet
+# thread conflict in the shared CloakBrowser"），只是没回头改这里。
+_tls = threading.local()
 _amazon_fetch_lock = threading.Lock()
 
 def _get_browser():
-    global _BROWSER, _BROWSER_CTX
-    if _BROWSER is None:
+    if getattr(_tls, 'ctx', None) is None:
         from playwright.sync_api import sync_playwright
         p = sync_playwright().start()
-        _BROWSER = p.chromium.launch(executable_path=CLOAKBROWSER_CHROME, headless=True)
-        _BROWSER_CTX = _BROWSER.new_context(
+        browser = p.chromium.launch(executable_path=CLOAKBROWSER_CHROME, headless=True)
+        _tls.pw = p
+        _tls.browser = browser
+        _tls.ctx = browser.new_context(
             locale='en-GB',
             timezone_id='Europe/London',
             user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
         )
-        print("  🚀 CloakBrowser launched (singleton, reused across categories)", file=sys.stderr)
-    return _BROWSER, _BROWSER_CTX
+        print(f"  🚀 CloakBrowser launched (thread {threading.current_thread().name})",
+              file=sys.stderr)
+    return _tls.browser, _tls.ctx
+
+
+def close_thread_browser():
+    """关掉当前线程持有的 browser。线程退出前调用，不调用则等进程结束由 OS 收。"""
+    for attr, closer in (('ctx', 'close'), ('browser', 'close'), ('pw', 'stop')):
+        obj = getattr(_tls, attr, None)
+        if obj is not None:
+            try:
+                getattr(obj, closer)()
+            except Exception:
+                pass
+            setattr(_tls, attr, None)
 
 def _cloakbrowser_fetch(url):
-    """Fetch a page using CloakBrowser — reuses global browser singleton.
-    On greenlet thread error, falls back to a dedicated fresh instance.
+    """Fetch a page using CloakBrowser — 复用本线程的 browser。
+    出错时退化成一次性独立实例。
     """
     if not os.path.exists(CLOAKBROWSER_CHROME):
         return ""
 
-    with _cloak_lock:
+    # 这里原来套了一把全局锁。thread-local 之后每个线程有自己的 browser，
+    # 再串行化只会把并发白白丢掉 —— 锁挡的是并发，而当初要挡的是跨线程，
+    # 那本来就不是锁能解决的问题。
+    try:
+        browser, ctx = _get_browser()
+        page = ctx.new_page()
         try:
-            browser, ctx = _get_browser()
-            page = ctx.new_page()
+            page.goto(url, timeout=45000)
+            page.wait_for_timeout(2000)
+
+            # Accept cookies if present
             try:
-                page.goto(url, timeout=45000)
-                page.wait_for_timeout(2000)
+                accept = page.query_selector('#sp-cc-accept')
+                if accept:
+                    accept.click()
+                    page.wait_for_timeout(500)
+            except Exception:
+                pass
 
-                # Accept cookies if present
-                try:
-                    accept = page.query_selector('#sp-cc-accept')
-                    if accept:
-                        accept.click()
-                        page.wait_for_timeout(500)
-                except Exception:
-                    pass
-
-                html = page.content()
-                if len(html) > 1000:
-                    return html
-                # Short response may be a 503 / captcha — fall through to fresh instance
-            finally:
-                page.close()
-        except Exception as e:
-            err_str = str(e)
-            print(f"  CloakBrowser singleton error: {err_str[:80]}", file=sys.stderr)
-            # If greenlet thread conflict or short response, try a dedicated fresh instance
-            if "greenlet" in err_str or "Cannot switch" in err_str or "different thread" in err_str:
-                pass  # fall through
-            else:
-                return ""
+            html = page.content()
+            if len(html) > 1000:
+                return html
+            # Short response may be a 503 / captcha — fall through to fresh instance
+        finally:
+            page.close()
+    except Exception as e:
+        err_str = str(e)
+        print(f"  CloakBrowser thread-local error: {err_str[:80]}", file=sys.stderr)
+        # 本线程的 browser 可能已经坏了，丢掉，下次调用会重建
+        close_thread_browser()
+        if "greenlet" in err_str or "Cannot switch" in err_str or "different thread" in err_str:
+            pass  # fall through
+        else:
+            return ""
 
     # Fallback: dedicated fresh browser instance (avoids greenlet thread conflict)
     print("  CloakBrowser fallback → dedicated instance", file=sys.stderr)
