@@ -56,14 +56,20 @@ jobs:
             echo "::warning::生成器在 CI 里跑失败（platform=$rc1 portal=$rc2）—— 方案的前提不成立"
           fi
 
-      # 产物里有构建时间戳和缓存串（builtAt / ?v=YYYYMMDDHHMM），
-      # 那些必然不同，不算差异。归一化后再比。
+      # 产物里有几类东西必然不同，不算差异，归一化后再比：
+      #   - 构建时间戳 builtAt / 生成于 / SEARCH_INDEX.generated
+      #   - 缓存串 ?v=YYYYMMDDHHMM
+      #   - 「数据新鲜度」卡的相对时间（刚刚 / N 小时前 / N 天前）——
+      #     它是 now 的函数，两次生成隔一小时值就不一样，永远不可能字节稳定。
+      #     这一项漏掉的话比对会一直报假的不一致。
       - name: Compare
         run: |
           norm() {
             sed -E -e 's/"builtAt": "[^"]*"/"builtAt": "X"/g' \
+                   -e 's/"generated": "[^"]*"/"generated": "X"/g' \
                    -e 's/\?v=[0-9]{8,14}/?v=X/g' \
                    -e 's/生成于 [0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}/生成于 X/g' \
+                   -e 's/>(刚刚|[0-9]+ (小时|天)前)</>FRESH</g' \
                    "$1"
           }
           fail=0
