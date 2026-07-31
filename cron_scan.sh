@@ -42,6 +42,12 @@ echo ""
 echo "🔧 Step 3: 生成平台页面..."
 timeout 60 python3 generate_platform.py 2>&1 || echo "  ⚠️ 平台生成失败"
 
+# Step 3b: 重新生成门户页（重构后「今日概览」dashboard 是服务端渲染的，
+# 必须跑 generate_portal.py 才能刷新数据，否则战情/补货告警卡显示旧快照）
+echo ""
+echo "🔧 Step 3b: 刷新门户 dashboard..."
+timeout 60 python3 generate_portal.py 2>&1 || echo "  ⚠️ 门户页生成失败（dashboard 可能显示旧数据）"
+
 # Extract summary
 PRODUCTS=$(python3 -c "import json; d=json.load(open('$LATEST')); print(len(d.get('products',[])))")
 SCANNED=$(python3 -c "import json; d=json.load(open('$LATEST')); print(d.get('stats',{}).get('total_scanned',0))")
@@ -88,7 +94,8 @@ for i, p in enumerate(d.get('products',[])[:3], 1):
 # Step 4: Deploy to GitHub
 echo ""
 echo "📦 Step 4: 部署到 GitHub Pages..."
-timeout 60 python3 github_api_push.py "auto-scan $(date -u '+%Y-%m-%d %H:%M')" 2>&1 || {
+# timeout 180: output/analysis 全量推送后 API 调用约 30 批，60s 不够会误判失败走 fallback
+timeout 180 python3 github_api_push.py "auto-scan $(date -u '+%Y-%m-%d %H:%M')" 2>&1 || {
     # Fallback to git push (with longer timeout for 1.3MB platform.html)
     timeout 60 git add data/ output/ status.json -f 2>/dev/null
     git diff --cached --quiet && echo "  无变更" && exit 0
