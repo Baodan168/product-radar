@@ -20,20 +20,18 @@ from oa import render
 
 BASE = Path(__file__).parent
 
-# 第二项是 CSS 类名，不是色值 —— 配色统一由 shared/oa-theme.css 的令牌决定，
-# 生成器不再持有颜色（CLAUDE.md：改样式不走内联 CSS）。
 STATUS_CONFIG = {
-    "pending":   ("待评估",   "st-pending"),
-    "supplier":  ("找供应商", "st-supplier"),
-    "sample":    ("已采样",   "st-sample"),
-    "listed":    ("已上架",   "st-listed"),
-    "rejected":  ("不考虑",   "st-rejected"),
+    "pending":   ("待评估",   "#8e8e93"),
+    "supplier":  ("找供应商", "#007AFF"),
+    "sample":    ("已采样",   "#FF9500"),
+    "listed":    ("已上架",   "#34C759"),
+    "rejected":  ("不考虑",   "#FF3B30"),
 }
 
 KANBAN_COLUMNS = [
-    ("inbox",     "📥 收件箱",   "kc-inbox"),
-    ("starred",   "⭐ 值得做",   "kc-starred"),
-    ("verified",  "✅ 已验证",   "kc-verified"),
+    ("inbox",     "📥 收件箱",   "#007AFF"),
+    ("starred",   "⭐ 值得做",   "#FF9500"),
+    ("verified",  "✅ 已验证",   "#34C759"),
 ]
 
 

@@ -171,8 +171,8 @@ picker.addEventListener('change', () => { curDate = picker.value; renderAll(); }
 // ===== Main Tabs =====
 document.querySelector('.main-tabs').addEventListener('click', e => {
   const t = e.target.closest('.main-tab'); if (!t) return;
-  document.querySelectorAll('.main-tab').forEach(b => b.classList.remove('active'));
-  t.classList.add('active');
+  document.querySelectorAll('.main-tab').forEach(b => { b.classList.remove('active'); b.style.background='var(--card)'; b.style.color='var(--muted)' });
+  t.classList.add('active'); t.style.background='var(--tc)'; t.style.color='#fff';
   document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
   document.getElementById('sec-'+t.dataset.tab).classList.add('active');
   
@@ -182,7 +182,8 @@ document.querySelector('.main-tabs').addEventListener('click', e => {
   if (t.dataset.tab === 'kanban') renderKanban();
   renderAll();
 });
-
+document.querySelector('.main-tab.active').style.background='var(--tc)';
+document.querySelector('.main-tab.active').style.color='#fff';
 
 // ===== Season Events =====
 function renderSeasonEvents() {
@@ -232,9 +233,9 @@ function renderDiscovery() {
       const gapVal = ss.gap || ss.gap_score || 0;
       const profitVal = ss.profit || ss.profit_score || 0;
       signalBarsHtml = `<div class="signal-bars">
-        <div class="signal-bar-row"><span class="signal-bar-label">趋势</span><div class="signal-bar-track"><div class="signal-bar-fill trend" style="width:${Math.min(trendVal, 100)}%"></div></div><span class="signal-bar-val">${trendVal}</span></div>
-        <div class="signal-bar-row"><span class="signal-bar-label">缺口</span><div class="signal-bar-track"><div class="signal-bar-fill gap" style="width:${Math.min(gapVal, 100)}%"></div></div><span class="signal-bar-val">${gapVal}</span></div>
-        <div class="signal-bar-row"><span class="signal-bar-label">利润</span><div class="signal-bar-track"><div class="signal-bar-fill profit" style="width:${Math.min(profitVal, 100)}%"></div></div><span class="signal-bar-val">${profitVal}</span></div>
+        <div class="signal-bar-row"><span class="signal-bar-label">趋势</span><div class="signal-bar-track"><div class="signal-bar-fill trend" style="width:${Math.min(trendVal, 100)}%"></div></div><span class="signal-bar-val" style="color:#AF52DE">${trendVal}</span></div>
+        <div class="signal-bar-row"><span class="signal-bar-label">缺口</span><div class="signal-bar-track"><div class="signal-bar-fill gap" style="width:${Math.min(gapVal, 100)}%"></div></div><span class="signal-bar-val" style="color:var(--blue)">${gapVal}</span></div>
+        <div class="signal-bar-row"><span class="signal-bar-label">利润</span><div class="signal-bar-track"><div class="signal-bar-fill profit" style="width:${Math.min(profitVal, 100)}%"></div></div><span class="signal-bar-val" style="color:var(--green)">${profitVal}</span></div>
       </div>`;
     }
 
@@ -364,7 +365,7 @@ function renderRadar() {
       <div class="profit-bar-wrap"><div class="profit-bar-bg"><div class="profit-bar" style="width:${Math.min(margin,50)*2}%;background:${barC}"></div></div><span class="profit-txt ${mCls}">${margin}%</span></div>
       ${costH}
       <div class="status-btns">
-        ${Object.entries(STATUS).map(([k,[l,c]])=>`<button class="st-btn ${escAttr(c)} ${st===k?'active':''}" data-act="set-status" data-asin="${escAttr(p.asin)}" data-status="${escAttr(k)}">${l}</button>`).join('')}
+        ${Object.entries(STATUS).map(([k,[l,c]])=>`<button class="st-btn ${st===k?'active':''}" style="--s-c:${c}" data-act="set-status" data-asin="${escAttr(p.asin)}" data-status="${escAttr(k)}">${l}</button>`).join('')}
         <a class="btn-amz" href="${safeUrl(url)}" target="_blank" rel="noopener noreferrer">🛒 Amazon</a>
       </div>
     </div>`;
@@ -580,9 +581,9 @@ function renderKanban() {
 
   // --- Build board ---
   const columns = [
-    {key:'inbox', label:'📥 收件箱', items:inbox, empty:'三源自动注入，每天更新'},
-    {key:'starred', label:'⭐ 值得做', items:starred, empty:'点击卡片的"⭐ 值得做"按钮'},
-    {key:'verified', label:'✅ 已验证', items:verified, empty:'团队确认可做后标记'},
+    {key:'inbox', label:'📥 收件箱', color:'#007AFF', items:inbox, empty:'三源自动注入，每天更新'},
+    {key:'starred', label:'⭐ 值得做', color:'#FF9500', items:starred, empty:'点击卡片的"⭐ 值得做"按钮'},
+    {key:'verified', label:'✅ 已验证', color:'#34C759', items:verified, empty:'团队确认可做后标记'},
   ];
 
   board.innerHTML = columns.map(col => {
@@ -590,7 +591,7 @@ function renderKanban() {
       ? col.items.map(item => renderCard(item, col.key)).join('')
       : `<div class="kanban-empty">${col.empty}</div>`;
     return `<div class="kanban-col" data-status="${escAttr(col.key)}">
-      <div class="kanban-col-hd"><span class="dot"></span>${col.label}<span class="cnt">${col.items.length}</span></div>
+      <div class="kanban-col-hd"><span class="dot" style="background:${col.color}"></span>${col.label}<span class="cnt">${col.items.length}</span></div>
       <div class="kanban-cards">${cardsHtml}</div>
     </div>`;
   }).join('');
@@ -698,8 +699,8 @@ function searchNavigate(type, date) {
   // Switch to the right tab
   const tabBtn = document.querySelector(`.main-tab[data-tab="${type === 'discovery' ? 'discovery' : 'radar'}"]`);
   if (tabBtn) {
-    document.querySelectorAll('.main-tab').forEach(b => b.classList.remove('active'));
-    tabBtn.classList.add('active');
+    document.querySelectorAll('.main-tab').forEach(b => { b.classList.remove('active'); b.style.background='var(--card)'; b.style.color='var(--muted)' });
+    tabBtn.classList.add('active'); tabBtn.style.background='var(--tc)'; tabBtn.style.color='#fff';
     document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
     document.getElementById('sec-'+tabBtn.dataset.tab).classList.add('active');
   }
@@ -715,8 +716,8 @@ function searchNavigate(type, date) {
 function goToFestival(festivalId) {
   const tabBtn = document.querySelector('.main-tab[data-tab="festival"]');
   if (tabBtn) {
-    document.querySelectorAll('.main-tab').forEach(b => b.classList.remove('active'));
-    tabBtn.classList.add('active');
+    document.querySelectorAll('.main-tab').forEach(b => { b.classList.remove('active'); b.style.background='var(--card)'; b.style.color='var(--muted)' });
+    tabBtn.classList.add('active'); tabBtn.style.background='var(--tc)'; tabBtn.style.color='#fff';
     document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
     document.getElementById('sec-festival').classList.add('active');
     curTab = 'festival';
