@@ -487,6 +487,16 @@ def main():
     passed, rejected = filter_products(products, config)
     print(f"  Passed: {len(passed)} | Rejected: {len(rejected)}", file=sys.stderr)
 
+    # 7a. Detail page verification (weight/dimensions via Product Information)
+    #     2026-07-31 重建：原版 2026-07-24 丢失导致尺寸验证静默失效，
+    #     重建版用 curl_cffi（sources.amazon_uk._curl_fetch），Scrapling 被 Amazon 空响应拦截。
+    try:
+        from detail_verifier import batch_verify
+        passed, detail_rejected = batch_verify(passed, config)
+        rejected.extend(detail_rejected)
+    except Exception as e:
+        print(f"  ⚠️ [7a] 详情页验证失败 (non-fatal): {e}", file=sys.stderr)
+
     history = load_history(days=7)
 
     # 7b. Market Intelligence (supply-demand + trend divergence)
