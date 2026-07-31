@@ -522,5 +522,84 @@
       "new_releases"
     ],
     "detail_reject_reason": "包装尺寸 45x15x15cm (限30x21x6cm)"
+  },
+  {
+    "asin": "B0CKXN1KJW",
+    "name": "4Pcs Compression Packing Cubes Set for Suitcase, Expandable Travel Luggage Storage Bags Travel Accessories Organizers (B",
+    "price": 7.91,
+    "reviews": 84,
+    "rating": 4.2,
+    "rank": 43,
+    "category": "Search",
+    "channel": "keyword_search",
+    "channel_name": "关键词搜索(discovery)",
+    "review_info": "84 reviews, 4.2★",
+    "amazon_url": "https://www.amazon.co.uk/dp/B0CKXN1KJW",
+    "image_url": "https://m.media-amazon.com/images/I/61pQUIILa0L._AC_UL320_.jpg",
+    "keyword_source": "discovery",
+    "matched_keyword": "compression packing cubes 4 set, travel packing cubes for suitcase, luggage organizer bags, compression packing cubes for travel, suitcase organiser bags 4 pack, travel compression packing cubes, packing cubes for backpack, expandable packing cubes, travel storage bags for luggage",
+    "sources": [
+      "趋势发现",
+      "TikTok趋势",
+      "Google趋势",
+      "Temu热销",
+      "Etsy趋势"
+    ],
+    "google_trend": "rising",
+    "profit_margin": 0.277,
+    "net_profit": 2.19,
+    "cost_breakdown": {
+      "vat": 1.32,
+      "commission": 1.19,
+      "fba": 1.46,
+      "ads": 0.79,
+      "returns": 0.16,
+      "sourcing": 0.8,
+      "total_cost": 5.72
+    },
+    "off_season": false,
+    "sd_score": 0,
+    "sd_label": "",
+    "sd_info": {},
+    "div_score": 0,
+    "div_label": "",
+    "div_info": {},
+    "signal_level": "strong",
+    "signal_label": "🔴 强信号",
+    "external_sources": [
+      "TikTok",
+      "Google",
+      "Temu",
+      "Etsy"
+    ],
+    "internal_sources": [],
+    "score": 113,
+    "score_breakdown": {
+      "🎵 TikTok": 20,
+      "📊 Google↑": 15,
+      "🛒 Temu": 8,
+      "🎨 Etsy": 6,
+      "🔴 强信号": 20,
+      "🟡 中等竞争": 5,
+      "💰 较好利润": 4,
+      "❓ 品类存疑": -5,
+      "🌴 当季(summer)": 10,
+      "⚠️ 品类过密": -10,
+      "✨ 新发现": 10
+    },
+    "stars": 5,
+    "is_new": true,
+    "first_seen": "2026-07-31",
+    "is_multi": true,
+    "is_event": false,
+    "channel_tags": [
+      "temu_trending",
+      "etsy_trending",
+      "multi_source",
+      "google_trends",
+      "tiktok_verified",
+      "keyword_search"
+    ],
+    "detail_reject_reason": "重量 370g (限200g)"
   }
 ]
