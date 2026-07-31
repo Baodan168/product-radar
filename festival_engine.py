@@ -12,6 +12,8 @@ import urllib.parse
 from datetime import datetime, timedelta
 from pathlib import Path
 
+from scanner import is_forbidden
+
 
 def _safe_slug(value, fallback='other'):
     """把外部字段收紧成只含 [A-Za-z0-9_-] 的 slug。
@@ -418,11 +420,33 @@ def generate_festival_html(festivals):
                     e = lambda v: htmlmod.escape(str(v if v is not None else ''))
                     _score = p.get('matchScore', 0)
                     _score = _score if isinstance(_score, int) and 0 <= _score <= 5 else 0
+
+                    # 合规徽章：riskLevel 是人工手填的，会和店铺实际的禁售规则脱节
+                    # （审计发现过 44 条标"低风险"其实是 is_forbidden() 会拦的违禁品）。
+                    # 这里现算，跟雷达扫描用的是同一套判定，标签不会撒谎。
+                    _compliance_text = ' '.join([
+                        str(p.get('sku', '')), str(p.get('skuEn', '')),
+                        ' '.join(p.get('keywords', []) or []),
+                    ])
+                    _forbidden_result = is_forbidden(_compliance_text, p.get('category', ''))
+                    _is_forbidden = _forbidden_result[0] if isinstance(_forbidden_result, tuple) else _forbidden_result
+                    _needs_review = str(p.get('riskNote', '')).startswith('⚠️待复核')
+                    compliance_badge = ''
+                    # 先判"已标记待复核"——这些人已经看过一遍、判断大概率是过滤词
+                    # 误伤，不该再跟真违禁品混在一起显示成同一种"🚫"警示。
+                    if _needs_review:
+                        compliance_badge = ('<span class="compliance-flag review" '
+                                             'title="疑似被过滤词误伤，需人工复核合规性">⚠️ 待复核</span>')
+                    elif _is_forbidden:
+                        compliance_badge = ('<span class="compliance-flag forbidden" '
+                                             'title="命中店铺禁售规则，不建议选品">🚫 违禁风险</span>')
+
                     products_html += f'''
               <tr data-cat="{row_cat}">
                 <td>
                   <div class="sku-name">{e(p.get('sku', ''))}</div>
                   <div class="sku-en">{e(p.get('skuEn', ''))}</div>
+                  {compliance_badge}
                 </td>
                 <td><span class="cat-tag" style="background:{e(cat_info['color'])}15;color:{e(cat_info['color'])}">{e(cat_info['icon'])} {e(cat_info['label'])}</span></td>
                 <td class="cost">{e(p.get('costRange', ''))}</td>

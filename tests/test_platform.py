@@ -16,6 +16,7 @@ sys.path.insert(0, str(BASE))
 
 from oa import urls  # noqa: E402
 from oa.safe_write import write_data_js  # noqa: E402
+from scanner import is_forbidden  # noqa: E402
 
 
 @pytest.fixture(scope='module')
@@ -227,3 +228,43 @@ def test_kanban_festival_items_link_back_to_festival_card(platform_js):
     assert "getElementById('sec-festival')" in body, '没有切换到节日 Tab'
     assert 'scrollIntoView' in body and "classList.add('expanded')" in body, \
         '没有滚动定位并展开目标卡片'
+
+
+# ── 节日选品：合规性（不能推荐店铺自己都上不了架的品类）───
+
+def test_festival_data_file_has_no_unflagged_compliance_violations():
+    """审计发现过 73/423 条节日 SKU 建议其实会被雷达扫描自己的
+    is_forbidden() 拦下（儿童/电子/美妆/食品等），其中 44 条还标着
+    "riskLevel: 低"。这里直接读仓库内的 data/festivals_data.js（不走
+    festival_engine.load_festivals() 的多源回退——本机会优先读
+    ~/uk-festival-planner/index.html，测试要认仓库里提交的这份，不能
+    跟着本机环境漂移），跑一遍真实的 is_forbidden()，确保没有漏网的。
+
+    riskNote 标了"⚠️待复核"前缀的（过滤词表过宽导致的疑似误伤，比如
+    "figurine"/"seat"）豁免——这些是已知的、留给人工复核的，不是自动
+    门禁能替人下判断的。
+    """
+    from festival_engine import _extract_js_array, _parse_js_array, BASE as FESTIVAL_BASE
+
+    content = (FESTIVAL_BASE / 'data' / 'festivals_data.js').read_text(encoding='utf-8')
+    js_array = _extract_js_array(content, 'const FESTIVALS = ')
+    assert js_array, 'data/festivals_data.js 里没找到 FESTIVALS 数组'
+    data = _parse_js_array(js_array)
+    assert data, 'data/festivals_data.js 解析失败或为空'
+
+    violations = []
+    for f in data:
+        for p in f.get('products', []):
+            if str(p.get('riskNote', '')).startswith('⚠️待复核'):
+                continue
+            text = ' '.join([
+                str(p.get('sku', '')), str(p.get('skuEn', '')),
+                ' '.join(p.get('keywords', []) or []),
+            ])
+            result = is_forbidden(text, p.get('category', ''))
+            forbidden = result[0] if isinstance(result, tuple) else result
+            if forbidden:
+                reason = result[1] if isinstance(result, tuple) else ''
+                violations.append(f"[{f.get('name')}] {p.get('sku')} <- {reason}")
+
+    assert not violations, '节日数据里有未标记的违禁 SKU 建议：\n' + '\n'.join(violations)
