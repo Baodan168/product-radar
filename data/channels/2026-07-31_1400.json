@@ -355,7 +355,8 @@
         "temu_trending",
         "etsy_trending",
         "multi_source"
-      ]
+      ],
+      "verify_status": "unverified"
     }
   ],
   "gaps": [
