@@ -12,6 +12,8 @@ import urllib.parse
 from datetime import datetime, timedelta
 from pathlib import Path
 
+from scanner import is_forbidden
+
 
 def _safe_slug(value, fallback='other'):
     """把外部字段收紧成只含 [A-Za-z0-9_-] 的 slug。
@@ -38,11 +40,12 @@ SEA_LEAD_TIME = LOGISTICS_MODES["sea"]["leadTime"]  # 63天
 ARRIVAL_BUFFER = 14  # 到仓后入仓+缓冲
 
 # 品类映射
+# 颜色走类名不走 hex —— 色值住在 shared/oa-theme.css 的 .cat-tag.cat-* 里（见 D13）
 CATEGORY_MAP = {
-    "decor": {"label": "装饰", "icon": "🎀", "color": "#8b5cf6"},
-    "gift": {"label": "礼品", "icon": "🎁", "color": "#ec4899"},
-    "apparel": {"label": "服饰", "icon": "👕", "color": "#3b82f6"},
-    "home": {"label": "家居", "icon": "🏠", "color": "#10b981"},
+    "decor": {"label": "装饰", "icon": "🎀", "cls": "cat-decor"},
+    "gift": {"label": "礼品", "icon": "🎁", "cls": "cat-gift"},
+    "apparel": {"label": "服饰", "icon": "👕", "cls": "cat-apparel"},
+    "home": {"label": "家居", "icon": "🏠", "cls": "cat-home"},
 }
 
 
@@ -203,6 +206,8 @@ def generate_festival_html(festivals):
     for f in festivals:
         urgency = get_urgency(f)
         stats[urgency] += 1
+
+    total_skus = sum(len(f.get('products', [])) for f in festivals)
     
     # 找到最近的备货节点（用海运，周期最长）
     upcoming = None
@@ -234,7 +239,7 @@ def generate_festival_html(festivals):
     # 生成 HTML
     html = f'''
     <div class="festival-header">
-      <h2>📅 Festival Planner 2026 Jul - 2027 Jun | {len(festivals)} Events | 300+ SKUs</h2>
+      <h2>📅 Festival Planner 2026 Jul - 2027 Jun | {len(festivals)} Events | {total_skus} SKUs</h2>
       <div class="countdown">
         今日 <strong>{today}</strong>
         {countdown_html}
@@ -264,7 +269,7 @@ def generate_festival_html(festivals):
       {"".join(f'<a href="#month-{m}" onclick="scrollToMonth({m})">{m}月</a>' for m in range(1, 13))}
     </div>
     
-    <div class="filter-bar">
+    <div class="filter-bar festival-filter-bar">
       <div class="filter-group">
         <label>品类</label>
         <select id="filterCategory" onchange="filterFestivals()">
@@ -294,6 +299,10 @@ def generate_festival_html(festivals):
         </select>
       </div>
       <input type="text" id="filterSearch" placeholder="搜索节日/SKU/关键词..." oninput="filterFestivals()">
+      <label class="filter-toggle">
+        <input type="checkbox" id="filterHidePast" checked onchange="filterFestivals()">
+        隐藏已过节日
+      </label>
       <button id="resetFilter" onclick="resetFilters()">重置</button>
     </div>
     
@@ -341,7 +350,7 @@ def generate_festival_html(festivals):
             cat_tabs_html = '<span class="cat-tabs-inline">'
             cat_tabs_html += f'<button class="cat-pill active" onclick="filterProductCat(this, \'\')">全部 ({len(products)})</button>'
             for cat, count in products_by_category.items():
-                cat_info = CATEGORY_MAP.get(cat, {"label": cat, "icon": "📦", "color": "#6b7280"})
+                cat_info = CATEGORY_MAP.get(cat, {"label": cat, "icon": "📦", "cls": "cat-other"})
                 cat_slug = _safe_slug(cat)
                 label = htmlmod.escape(str(cat_info["label"]))
                 icon = htmlmod.escape(str(cat_info["icon"]))
@@ -383,7 +392,7 @@ def generate_festival_html(festivals):
                         "高": "risk-high"
                     }.get(p.get('riskLevel', ''), 'risk-mid')
                     
-                    cat_info = CATEGORY_MAP.get(p.get('category', ''), {"label": p.get('category', ''), "icon": "📦", "color": "#6b7280"})
+                    cat_info = CATEGORY_MAP.get(p.get('category', ''), {"label": p.get('category', ''), "icon": "📦", "cls": "cat-other"})
                     
                     # Amazon 关键词链接（显示全部，最多4个）
                     keywords_html = "".join(
@@ -412,13 +421,35 @@ def generate_festival_html(festivals):
                     e = lambda v: htmlmod.escape(str(v if v is not None else ''))
                     _score = p.get('matchScore', 0)
                     _score = _score if isinstance(_score, int) and 0 <= _score <= 5 else 0
+
+                    # 合规徽章：riskLevel 是人工手填的，会和店铺实际的禁售规则脱节
+                    # （审计发现过 44 条标"低风险"其实是 is_forbidden() 会拦的违禁品）。
+                    # 这里现算，跟雷达扫描用的是同一套判定，标签不会撒谎。
+                    _compliance_text = ' '.join([
+                        str(p.get('sku', '')), str(p.get('skuEn', '')),
+                        ' '.join(p.get('keywords', []) or []),
+                    ])
+                    _forbidden_result = is_forbidden(_compliance_text, p.get('category', ''))
+                    _is_forbidden = _forbidden_result[0] if isinstance(_forbidden_result, tuple) else _forbidden_result
+                    _needs_review = str(p.get('riskNote', '')).startswith('⚠️待复核')
+                    compliance_badge = ''
+                    # 先判"已标记待复核"——这些人已经看过一遍、判断大概率是过滤词
+                    # 误伤，不该再跟真违禁品混在一起显示成同一种"🚫"警示。
+                    if _needs_review:
+                        compliance_badge = ('<span class="compliance-flag review" '
+                                             'title="疑似被过滤词误伤，需人工复核合规性">⚠️ 待复核</span>')
+                    elif _is_forbidden:
+                        compliance_badge = ('<span class="compliance-flag forbidden" '
+                                             'title="命中店铺禁售规则，不建议选品">🚫 违禁风险</span>')
+
                     products_html += f'''
               <tr data-cat="{row_cat}">
                 <td>
                   <div class="sku-name">{e(p.get('sku', ''))}</div>
                   <div class="sku-en">{e(p.get('skuEn', ''))}</div>
+                  {compliance_badge}
                 </td>
-                <td><span class="cat-tag" style="background:{e(cat_info['color'])}15;color:{e(cat_info['color'])}">{e(cat_info['icon'])} {e(cat_info['label'])}</span></td>
+                <td><span class="cat-tag {e(cat_info.get('cls', 'cat-other'))}">{e(cat_info['icon'])} {e(cat_info['label'])}</span></td>
                 <td class="cost">{e(p.get('costRange', ''))}</td>
                 <td class="price">{e(p.get('priceRange', ''))}</td>
                 <td class="margin">{e(p.get('margin', ''))}</td>
@@ -444,7 +475,7 @@ def generate_festival_html(festivals):
             )
             
             html += f'''
-      <div class="festival-card" id="festival-{festival_id}" data-urgency="{urgency}" data-category="{f.get('category', '')}" data-month="{month}" style="border-left-color:{f.get('themeColor', '#e5e7eb')}">
+      <div class="festival-card" id="festival-{festival_id}" data-urgency="{urgency}" data-category="{f.get('category', '')}" data-month="{month}">
         <div class="card-header" onclick="this.parentElement.classList.toggle('expanded')">
           <div class="card-left">
             <span class="festival-icon">{f.get('icon', '📅')}</span>
@@ -485,19 +516,22 @@ def generate_festival_html(festivals):
       const month = document.getElementById('filterMonth').value;
       const urgency = document.getElementById('filterUrgency').value;
       const search = document.getElementById('filterSearch').value.toLowerCase();
-      
+      const hidePast = document.getElementById('filterHidePast').checked;
+
       document.querySelectorAll('.festival-card').forEach(card => {
         const cardMonth = card.dataset.month;
         const cardUrgency = card.dataset.urgency;
         const cardCategory = card.dataset.category;
         const cardText = card.textContent.toLowerCase();
-        
+
         let show = true;
+        // 已过节日默认收起，除非用户主动在紧急度里选"已过"查看
+        if (hidePast && cardUrgency === 'past' && urgency !== 'past') show = false;
         if (category && cardCategory !== category) show = false;
         if (month && cardMonth !== month) show = false;
         if (urgency && cardUrgency !== urgency) show = false;
         if (search && !cardText.includes(search)) show = false;
-        
+
         card.style.display = show ? '' : 'none';
       });
       
@@ -527,6 +561,7 @@ def generate_festival_html(festivals):
       document.getElementById('filterMonth').value = '';
       document.getElementById('filterUrgency').value = '';
       document.getElementById('filterSearch').value = '';
+      document.getElementById('filterHidePast').checked = true;
       filterFestivals();
     }
     
@@ -561,6 +596,9 @@ def generate_festival_html(festivals):
         btn.classList.toggle('show', window.scrollY > 300);
       }
     });
+
+    // 初始加载即收起已过节日（filterHidePast 默认勾选）
+    filterFestivals();
     </script>
     '''
     

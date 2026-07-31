@@ -77,7 +77,8 @@ python3 -m http.server 8080    # 访问 http://localhost:8080/output/
 - ❌ **结构改动必须先讨论** — 板块独立/合并/URL变更必须先出方案再执行，不能直接改
 - ❌ **改数据不直接改HTML** — 改数据源JSON，重新生成
 - ❌ **改样式不走内联CSS** — 走 shared/oa-theme.css。颜色**只能**写在 `:root` 令牌里，
-  组件层 / 模板 / JS / 生成器里出现任何 `#hex` 或 `rgba()` 都会被 `tests/test_theme.py` 拦下（见 D13）
+  组件层 / 模板 / JS / 生成器里出现任何 `#hex` 或 `rgba()` 都会被 `tests/test_theme.py` 拦下。
+  「生成器」= 任何含 `class="` 的 `.py`，自动识别，新加的也算（见 D13、D16）
 - ❌ **修改data/channels/*.json前必须备份**
 - ✅ **加新板块只改 `oa/config.py` 的 MODULES 数组**（v4.0 起从 generate_portal.py 移出，见 DESIGN-DECISIONS D8）
 - ✅ **改门户交互改 `assets/portal.js`，改结构改 `templates/portal.html`**

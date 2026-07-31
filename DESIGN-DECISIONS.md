@@ -222,6 +222,30 @@
 
 ---
 
+## D16 — 节日卡片的左边框改为编码紧急度；把 `festival_engine.py` 纳入颜色门禁
+
+**起因：** `main` 上「节日选品」这一块又迭代了几轮（动态 SKU 计数、过期节日默认收起、看板联动跳转、合规徽章）。把它并进 v6 分支时，两条 v6 的门禁测试直接红了。逐条查下去，发现漏的不是这几个新 commit，而是 D13 当时的覆盖面。
+
+**三件事：**
+
+1. **`.compliance-flag` 用了 `#fef2f2` / `#fffbeb` 两个字面色**，`goToFestival()` 用 `el.style.background='var(--tc)'` / `.style.color='#fff'` 切 Tab —— 正是 D13 清掉的那两种写法，在新代码里复活了。前者收进 `--oa-red-soft` / `--oa-orange-soft`，后者删掉内联赋值，跟同文件里另外两处切 Tab 的写法对齐（纯 `classList`）。v6 的 Tab 是灰底分段控件，靠 `.active` 类驱动，那几行内联样式本来就会跟它打架。
+
+2. **`festival_engine.py` 一直没被门禁覆盖。** `test_no_inline_color_in_templates_and_assets` 的目标是**手写的四个文件名**（两个 glob + `generate_platform.py` + `generate_portal.py`）。`festival_engine.py` 也拼 HTML，但不在名单里，于是 7 处字面色安然存活至今。名单改成「凡是 `class="` 出现过的 `.py` 都算」，以后新加生成器自动进门禁。
+
+   唯一显式豁免 `generate_analysis.py`（38 处 hex）—— 全仓库没有任何地方引用它，补货页现在由仓库外的 `~/product-analysis/generate_html.py` 产。是死代码，不值得改，但也不该让门禁长红。豁免名单和这段理由都写在 `tests/test_theme.py` 顶部。
+
+3. **节日卡片的左边框，从「每个节日一种色」改成「编码紧急度」。** 原本是 `festival_engine.py` 往 `style` 里塞 `border-left-color:{themeColor}`，数据里有 **34 种不同的饱和色**。两个问题：
+   - 跟 D12 的原则正面冲突。64 张卡片、34 种颜色，颜色在这里等于「这是哪个节日」—— 而节日名字就写在卡片上，这条信息不需要用颜色再说一遍。真正该抢眼的「哪个该先动手」反而没有视觉编码。
+   - `.festival-card.urgent{border-left-color:var(--oa-red)}` 这条规则**一直是死的**：`urgent` 类从来没被挂上（生成器出的是 `data-urgency` 属性），而且就算挂上，内联样式也压得过类选择器。
+
+   改成 `.festival-card[data-urgency="..."]` 五档，跟同一张卡上的 `.urgency-tag` 用同一套语义色（紧急=红／本周·本月=琥珀／规划=绿／已过=n-300）。顺带删掉 `:hover` 那句 `border-left-color:var(--oa-primary)` —— 悬停不该改掉一个表意的颜色。
+
+**代价：** 节日失去了各自的颜色身份。如果之后想要回来，正确做法不是恢复内联 `themeColor`，而是给节日图标加一个小色点 —— 别再占用那条已经在表意的边框。恢复只需要在 `festival_engine.py` 里加回一行 `style=`，但那样就会被门禁拦下，届时得先在这里改决定。
+
+**验收：** 166 项 pytest 全绿。扩容后的门禁做过缺陷注入 —— 把 `CATEGORY_MAP` 里一个 `cls` 改回 `color: "#8b5cf6"`，测试立刻报出文件名和那一行。截图见 `.screenshots/festival-v6/`。
+
+---
+
 ## 下一轮可以做的（没有承诺）
 
 这一轮把视觉和密度都做完了，下面是过程中看到但没动的：

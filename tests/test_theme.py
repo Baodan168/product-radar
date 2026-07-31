@@ -17,6 +17,12 @@ from pathlib import Path
 import pytest
 
 ROOT = Path(__file__).resolve().parent.parent
+
+# 不纳入颜色检查的生成器。
+# generate_analysis.py：全仓库没有任何地方引用它（cron_scan.sh / workflow / import 都没有），
+# 补货页现在由仓库外的 ~/product-analysis/generate_html.py 产。里面 38 处 hex 是死代码，
+# 不值得改，但也别让它把门禁一直卡红。要么确认后删掉，要么删掉这行。
+SKIP_GENERATORS = {'generate_analysis.py'}
 CSS_PATH = ROOT / 'shared' / 'oa-theme.css'
 
 # 令牌层的结束位置：这一行之后就不许再出现字面颜色
@@ -163,10 +169,18 @@ def test_no_inline_color_in_templates_and_assets():
     切 Tab 时覆盖 CSS，generate_platform.py 的 STATUS_CONFIG 直接存 hex。
     三处加起来的效果是：改令牌改不动 Tab 和状态按钮的颜色。
     颜色只能住在 shared/oa-theme.css。
+
+    v6 补充：原先这里是手写的四个文件名，`festival_engine.py` 就从缝里漏了过去
+    （34 个节日各一个 themeColor 的内联 style + 品类色 hex 拼 "15" 当透明度）。
+    改成「凡是产出 HTML 的 .py 都算」，以后新加生成器自动被覆盖。
     """
+    # 拼 HTML 的 Python 文件用 `class="` 认，不再手写名单
+    generators = [f for f in sorted(list(ROOT.glob('*.py')) + list(ROOT.glob('oa/*.py')))
+                  if f.name not in SKIP_GENERATORS
+                  and 'class="' in f.read_text(encoding='utf-8')]
     targets = (list(ROOT.glob('templates/*.html'))
                + list(ROOT.glob('assets/*.js'))
-               + [ROOT / 'generate_platform.py', ROOT / 'generate_portal.py'])
+               + generators)
     hits = []
     for f in targets:
         if not f.exists():

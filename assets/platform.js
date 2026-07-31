@@ -427,6 +427,7 @@ function renderKanban() {
           name: kw,
           nameCn: p.sku || '',
           source: 'festival',
+          festivalId: f.id || '',
           score: p.matchScore ? p.matchScore * 20 : 50,
           profit: p.margin || '',
           deadline: f.date,
@@ -553,6 +554,7 @@ function renderKanban() {
     let actionsHtml = '';
     if (amazonUrl) actionsHtml += `<a class="kc-btn" href="${safeUrl(amazonUrl)}" target="_blank" rel="noopener noreferrer">🛒 Amazon</a>`;
     if (aliUrl) actionsHtml += `<a class="kc-btn" href="${safeUrl(aliUrl)}" target="_blank" rel="noopener noreferrer">🏭 1688</a>`;
+    if (item.source === 'festival' && item.festivalId) actionsHtml += `<button class="kc-btn" data-act="goto-festival" data-festival-id="${escAttr(item.festivalId)}">📅 查看节日</button>`;
 
     if (colKey === 'inbox') {
       actionsHtml += `<button class="kc-btn primary" data-act="kanban" data-kanban-id="${escAttr(item.id)}" data-kanban-to="starred">⭐ 值得做</button>`;
@@ -709,6 +711,23 @@ function searchNavigate(type, date) {
   }
 }
 
+// 从看板卡片跳回节日 Tab 里对应的详情卡片
+function goToFestival(festivalId) {
+  const tabBtn = document.querySelector('.main-tab[data-tab="festival"]');
+  if (tabBtn) {
+    document.querySelectorAll('.main-tab').forEach(b => b.classList.remove('active'));
+    tabBtn.classList.add('active');
+    document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+    document.getElementById('sec-festival').classList.add('active');
+    curTab = 'festival';
+  }
+  const card = document.getElementById('festival-' + festivalId);
+  if (card) {
+    card.classList.add('expanded');
+    card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }
+}
+
 // Keyboard shortcut: Ctrl+K / Cmd+K
 document.addEventListener('keydown', e => {
   if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
@@ -781,6 +800,11 @@ document.addEventListener('click', function (e) {
     case 'kanban':
       e.stopPropagation();
       moveKanban(el.dataset.kanbanId, el.dataset.kanbanTo);
+      break;
+
+    case 'goto-festival':
+      e.stopPropagation();
+      goToFestival(el.dataset.festivalId);
       break;
 
     case 'search-nav':
