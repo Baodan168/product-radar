@@ -99,12 +99,10 @@ python3 -m http.server 8080    # 访问 http://localhost:8080/output/
 ### ⚠️ 跑完补货管线必须补一步
 
 ```bash
-python3 transform_analysis.py       # 从 ~/product-analysis/gh-pages/ 重新产出
 python3 desensitize_analysis.py     # ← 必须！否则毛利率会重新出现在公开页
 ```
 
-上游产出的是**带毛利率/7天销量/日均**的版本，会把已脱敏的 47 个文件盖回去。
-漏了这步，`update.yml` 的 `--check` 门禁会拦下部署（这是设计如此，见 D10）。
+> 注：`transform_analysis.py` 已过时（重构后 `generate_html.py` 直接输出 radar 风格+oa-theme.css，transform 的 assert 匹配不上新结构）。列表页样式由上游保证，不再需要转换步骤。
 
 ### 其他
 
