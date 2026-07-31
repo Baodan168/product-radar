@@ -136,6 +136,36 @@ def test_no_literal_colors_outside_token_layer(below_tokens):
     )
 
 
+MIN_FONT_PX = 12.0
+
+
+def test_no_tiny_font_sizes_outside_token_layer(below_tokens):
+    """令牌层之外不许出现小于 12px 的字面字号。
+
+    颜色有 test_no_literal_colors_outside_token_layer 守着，字号一直没有 ——
+    「改令牌就能换肤」这个前提对字号其实是不成立的。实际后果：组件层散着
+    9.5 / 10 / 11 / 11.5px 共 33 处，调 --oa-text-* 完全带不动它们。
+
+    这个团队全天盯屏幕，12px 是下限。要更小的字先问「这条信息是不是根本
+    不该出现在首屏」，而不是把它缩到看不见。
+    """
+    bad = [m for m in re.findall(r'font-size:\s*([0-9.]+)px', below_tokens)
+           if float(m) < MIN_FONT_PX]
+    assert not bad, (
+        f'令牌层之外出现 {len(bad)} 处小于 {MIN_FONT_PX:g}px 的字号：'
+        f'{sorted(set(bad), key=float)}\n'
+        f'请改用 var(--oa-text-xs) 及以上，改 :root 不会影响写死的 px。'
+    )
+
+
+def test_type_scale_floor_holds(css):
+    """字号阶自身的下限也要守住 —— 免得有人直接把 --oa-text-xs 调小。"""
+    scale = dict(re.findall(r'(--oa-text-(?:xs|sm|body|h3|h2|h1|display)):\s*([0-9.]+)px', css))
+    assert scale, '没解析到字号阶'
+    too_small = {k: v for k, v in scale.items() if float(v) < MIN_FONT_PX}
+    assert not too_small, f'字号阶跌破 {MIN_FONT_PX:g}px 下限：{too_small}'
+
+
 def test_no_corrupted_var_values(css_nocomments):
     """拦 `var(--oa-surface)7ed` 这种被批量替换弄坏的值。
 
