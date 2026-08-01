@@ -1715,3 +1715,38 @@ body{font-family:var(--oa-font);background:var(--oa-bg);color:var(--oa-text);lin
    样式，选择器特异度必须比裸类选择器高（例如加 :root 前缀）。
    见 DESIGN-DECISIONS.md「已知限制」。
    ════════════════════════════════════════════ */
+
+/* ── 回到顶部按钮（2026-08-01，OA 各页共享）── */
+.to-top {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid var(--oa-border-2, #d2d2d7);
+  background: var(--oa-surface, #fff);
+  color: var(--oa-sub, #6e6e73);
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s, visibility 0.2s, background 0.15s, color 0.15s;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  z-index: 999;
+  font-size: 18px;
+  line-height: 1;
+}
+.to-top.visible {
+  opacity: 1;
+  visibility: visible;
+}
+.to-top:hover {
+  background: var(--oa-primary, #5856D6);
+  color: #fff;
+  border-color: var(--oa-primary, #5856D6);
+}
+@media (prefers-reduced-motion: reduce) {
+  .to-top { transition: none; }
+}

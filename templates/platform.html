@@ -107,6 +107,26 @@
 <script>window.PLATFORM_DATA = ${platform_data};</script>
 <script src="assets/platform.js?v=${asset_version}"></script>
 
+<!-- 回到顶部 -->
+<button class="to-top" id="toTop" aria-label="回到顶部" title="回到顶部">↑</button>
+<script>
+(function () {
+  var b = document.getElementById('toTop');
+  if (!b) return;
+  var ticking = false;
+  window.addEventListener('scroll', function () {
+    if (!ticking) {
+      requestAnimationFrame(function () {
+        b.classList.toggle('visible', window.scrollY > 400);
+        ticking = false;
+      });
+      ticking = true;
+    }
+  }, { passive: true });
+  b.addEventListener('click', function () { window.scrollTo({ top: 0, behavior: 'smooth' }); });
+})();
+</script>
+
 <!-- Phase 2.3: Debug panel (?debug=1 to show) -->
 <div id="debugPanel" style="display:none;position:fixed;bottom:0;left:0;right:0;background:#1d1d1f;color:#f5f5f7;padding:12px 20px;font-size:12px;font-family:monospace;z-index:9999;max-height:240px;overflow-y:auto;border-top:2px solid #FF9500">
   <div style="font-weight:bold;margin-bottom:8px;color:#FF9500">Data Load Status</div>
