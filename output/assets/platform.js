@@ -138,7 +138,7 @@ function escAttr(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){
 // 外链统一过白名单，挡住 javascript: / data: 和任意第三方域
 var URL_HOSTS=[/^([a-z0-9-]+\.)*amazon\.co\.uk$/,/^([a-z0-9-]+\.)*media-amazon\.com$/,
   /^([a-z0-9-]+\.)*ssl-images-amazon\.com$/,/^([a-z0-9-]+\.)*1688\.com$/,
-  /^trends\.google\.(com|co\.uk)$/,/^liyuhong168\.github\.io$/];
+  /^trends\.google\.(com|co\.uk)$/,/^Baodan168\.github\.io$/];
 function safeUrl(u){
   if(!u) return '';
   try{ var x=new URL(u,location.href);
