@@ -86,18 +86,30 @@ ${dashboard_html}
 (function () {
   var b = document.getElementById('toTop');
   if (!b) return;
-  function findScroller() {
+  function scrollTop() {
     var sc = document.scrollingElement || document.documentElement;
-    if (sc.scrollHeight > sc.clientHeight + 50) return sc;
+    if (sc.scrollTop > 0) sc.scrollTo({ top: 0, behavior: 'smooth' });
     var els = document.querySelectorAll('.oa-content-wrap, .content-wrap, [class*="scroll"], main, body');
     for (var i = 0; i < els.length; i++) {
-      if (els[i].scrollHeight > els[i].clientHeight + 50) return els[i];
+      if (els[i].scrollTop > 0) els[i].scrollTo({ top: 0, behavior: 'smooth' });
     }
-    return sc;
+    // 同域 iframe 内部滚动联动（如跨境雷达：cross_origin 不拉高 iframe，滚动在 iframe 内部）
+    var fr = document.querySelector('iframe');
+    if (fr && fr.contentWindow) {
+      try {
+        var iw = fr.contentWindow;
+        if (iw.scrollY > 0) iw.scrollTo({ top: 0, behavior: 'smooth' });
+        var idoc = fr.contentDocument;
+        if (idoc) {
+          var ies = idoc.querySelectorAll('.oa-content-wrap, .content-wrap, [class*="scroll"], main, body');
+          for (var j = 0; j < ies.length; j++) {
+            if (ies[j].scrollTop > 0) ies[j].scrollTo({ top: 0, behavior: 'smooth' });
+          }
+        }
+      } catch (e) { /* 跨域 iframe 无法访问，忽略 */ }
+    }
   }
-  b.addEventListener('click', function () {
-    findScroller().scrollTo({ top: 0, behavior: 'smooth' });
-  });
+  b.addEventListener('click', scrollTop);
 })();
 </script>
 </body>
