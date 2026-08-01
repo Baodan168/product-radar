@@ -14,6 +14,28 @@ import json
 from pathlib import Path
 
 
+def _record_count(data):
+    """估算数据量，供塌缩护栏比较。
+
+    list 按元素数；dict 按嵌套 insights/products 记录总数
+    （月度合并会压键数但不减记录数，按键数比会误杀合法合并），
+    没有嵌套列表时退回键数。
+    """
+    if isinstance(data, dict):
+        total = 0
+        for v in data.values():
+            if isinstance(v, dict):
+                for k in ('insights', 'products'):
+                    if isinstance(v.get(k), list):
+                        total += len(v[k])
+            elif isinstance(v, list):
+                total += len(v)
+        return total or len(data)
+    if isinstance(data, list):
+        return len(data)
+    return None
+
+
 def _payload_len(text: str):
     """估算 JS 数据文件里承载了多少条记录。
 
@@ -25,9 +47,7 @@ def _payload_len(text: str):
         data = json.loads(body)
     except (IndexError, json.JSONDecodeError):
         return None
-    if isinstance(data, (list, dict)):
-        return len(data)
-    return None
+    return _record_count(data)
 
 
 def write_data_js(path: Path, var_name: str, payload, min_ratio: float = 0.5):
@@ -40,7 +60,7 @@ def write_data_js(path: Path, var_name: str, payload, min_ratio: float = 0.5):
     """
     path = Path(path)
     text = f'window.{var_name} = {json.dumps(payload, ensure_ascii=False)};'
-    new_len = len(payload) if isinstance(payload, (list, dict)) else None
+    new_len = _record_count(payload)
 
     if path.exists() and new_len is not None:
         try:

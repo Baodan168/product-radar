@@ -1,0 +1,103 @@
+# 产物出库方案的第 1 步：只读验证。
+#
+# 问的是一个问题：CI 环境里能不能生成出和入库产物一模一样的东西？
+#   能 → PROPOSAL-artifacts-out-of-git.md 的方案成立，可以往下走
+#   不能 → 方案不成立，就此打住
+#
+# 这个 workflow 不删任何文件、不改任何流程、不参与部署，纯对比后报告。
+# 验证通过并完成迁移之后，整个文件应该删掉。
+name: Verify CI can generate artifacts
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [claude/oa-robustness]
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    env:
+      # 数据里的时间戳（scan_date、补货页的「分析日期」）都是北京时间，
+      # 而 runner 默认 UTC —— 差 8 小时。「数据新鲜度」卡拿 now 减这些时间戳，
+      # 不设时区的话补货那行会显示「刚刚」，而那张卡的用处恰恰是
+      # 「扫描断了要一眼看出来」。2026-07-31 的验证实测到过这个。
+      # oa/health.py 开头警告过别用文件 mtime（clone 会刷新 mtime），
+      # 当初绕开了 mtime，但没料到时区 —— 换个方式踩进同一个坑。
+      TZ: Asia/Shanghai
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'   # festival_engine 用了 PEP 701 的嵌套 f-string
+
+      # 生成链路全程只用标准库（已核对 generate_platform / generate_portal /
+      # festival_engine / season_engine / success_tracker / platform_search /
+      # scanner / oa/* 的全部 import），所以这里不装依赖。
+      # 如果哪天有人引入了第三方包，这一步会直接报 ModuleNotFoundError ——
+      # 那本身就是需要知道的信息。
+      - name: Snapshot committed artifacts
+        run: |
+          mkdir -p /tmp/committed
+          cp output/index.html    /tmp/committed/ 2>/dev/null || echo "⚠️ output/index.html 不在库里"
+          cp output/platform.html /tmp/committed/ 2>/dev/null || echo "⚠️ output/platform.html 不在库里"
+
+      - name: Generate in CI
+        id: gen
+        run: |
+          set +e
+          echo "=== generate_platform.py ==="
+          python3 generate_platform.py; rc1=$?
+          echo "=== generate_portal.py ==="
+          python3 generate_portal.py; rc2=$?
+          echo "platform_rc=$rc1" >> "$GITHUB_OUTPUT"
+          echo "portal_rc=$rc2"   >> "$GITHUB_OUTPUT"
+          if [ $rc1 -ne 0 ] || [ $rc2 -ne 0 ]; then
+            echo "::warning::生成器在 CI 里跑失败（platform=$rc1 portal=$rc2）—— 方案的前提不成立"
+          fi
+
+      # 产物里有几类东西必然不同，不算差异，归一化后再比：
+      #   - 构建时间戳 builtAt / 生成于 / SEARCH_INDEX.generated
+      #   - 缓存串 ?v=YYYYMMDDHHMM
+      #   - 「数据新鲜度」卡的相对时间（刚刚 / N 小时前 / N 天前）——
+      #     它是 now 的函数，两次生成隔一小时值就不一样，永远不可能字节稳定。
+      #     这一项漏掉的话比对会一直报假的不一致。
+      - name: Compare
+        run: |
+          norm() {
+            sed -E -e 's/"builtAt": "[^"]*"/"builtAt": "X"/g' \
+                   -e 's/"generated": "[^"]*"/"generated": "X"/g' \
+                   -e 's/\?v=[0-9]{8,14}/?v=X/g' \
+                   -e 's/生成于 [0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}/生成于 X/g' \
+                   -e 's/>(刚刚|[0-9]+ (小时|天)前)</>FRESH</g' \
+                   "$1"
+          }
+          fail=0
+          for f in index.html platform.html; do
+            echo "──────── $f ────────"
+            if [ ! -f "/tmp/committed/$f" ]; then
+              echo "跳过：入库版本不存在"; continue
+            fi
+            norm "/tmp/committed/$f" > /tmp/a.html
+            norm "output/$f"        > /tmp/b.html
+            if diff -q /tmp/a.html /tmp/b.html >/dev/null; then
+              echo "✅ 一致"
+            else
+              fail=1
+              echo "❌ 不一致，差异行数：$(diff /tmp/a.html /tmp/b.html | grep -c '^[<>]')"
+              echo "--- 前 40 行差异 ---"
+              diff /tmp/a.html /tmp/b.html | head -40 || true
+            fi
+          done
+          echo
+          echo "════════════════════════════════════════"
+          if [ $fail -eq 0 ]; then
+            echo "✅ 结论：CI 能生成一致的产物 —— 方案成立，可以走第 2 步"
+          else
+            echo "❌ 结论：CI 产物与入库产物不一致"
+            echo "   大概率是仓库外数据源缺失（节日 ~/uk-festival-planner、"
+            echo "   补货 ~/product-analysis）。看上面的差异定位到底缺什么。"
+            echo "   这不是 bug，是这一步要问的问题得到了否定答案。"
+          fi
+          echo "════════════════════════════════════════"
+          # 故意不 exit 1：这是一次探查，不是门禁。结论看日志。

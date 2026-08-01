@@ -13,6 +13,12 @@ permissions:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    env:
+      # 数据里的时间戳都是北京时间，runner 默认 UTC，差 8 小时。
+      # 现在这个 workflow 只拷产物、不生成，所以还影响不到页面内容；
+      # 等产物生成挪进 CI（PROPOSAL-artifacts-out-of-git.md）就会影响 ——
+      # 提前设好，免得迁移时漏掉，那会让「数据新鲜度」卡永远显示「刚刚」。
+      TZ: Asia/Shanghai
     steps:
       - uses: actions/checkout@v4
 

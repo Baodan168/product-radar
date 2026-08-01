@@ -72,6 +72,30 @@ def test_norm_dims(text, expected):
         assert got == pytest.approx(expected, abs=0.1)
 
 
+# 单位曾用 `"in" in text.lower()` 判断，命中的是材质词里的 in（Sta-in-less /
+# L-in-en / Pr-in-ted），尺寸被乘 2.54。限值正好是 30x21x6，所以越贴近限值的
+# 合格品越容易被算成 2.5 倍超标毙掉 —— 静默丢货，日志里只显示一个超标数字。
+@pytest.mark.parametrize("text,expected", [
+    ("30 x 21 x 6 cm; Stainless Steel", [30.0, 21.0, 6.0]),
+    ("20 x 10 x 5 cm; Linen", [20.0, 10.0, 5.0]),
+    ("12 x 8 x 3 cm, Printed", [12.0, 8.0, 3.0]),
+    ("18 x 12 x 4 cm; Satin finish", [18.0, 12.0, 4.0]),
+])
+def test_norm_dims_material_words_do_not_trigger_inch(text, expected):
+    assert _norm_dims(text) == pytest.approx(expected, abs=0.1)
+
+
+# 属性值常带尾巴，尾巴里的数字曾被当成尺寸。findall 取前三个数的写法下，
+# "25 x 20 cm; 15 g" 会解析成 3D 的 25x20x15，15>6 于是 2D 合格品被误杀。
+@pytest.mark.parametrize("text,expected", [
+    ("25 x 20 cm; 15 g", [25.0, 20.0]),
+    ("60 x 50 cm; 0.5 kg", [60.0, 50.0]),        # 0.5 曾显示成 "0cm" 第三维
+    ("28 x 19 cm; 200 Grams", [28.0, 19.0]),
+])
+def test_norm_dims_ignores_trailing_numbers(text, expected):
+    assert _norm_dims(text) == pytest.approx(expected, abs=0.1)
+
+
 # ---------- 3. verify_product 验证状态 ----------
 
 def _fake_fetch(html):
