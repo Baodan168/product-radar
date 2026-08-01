@@ -90,6 +90,12 @@ def load_all_radar():
         try:
             data = json.loads(f.read_text(encoding='utf-8'))
             if 'products' in data and data.get('scan_date'):
+                # 规范化 sources：历史数据曾写入 dict（如 {'type':'keyword_scan',...}），
+                # 前端按字符串数组渲染，非字符串会抛 TypeError 中断整页渲染
+                for p in data.get('products', []):
+                    srcs = p.get('sources')
+                    if isinstance(srcs, list):
+                        p['sources'] = [s if isinstance(s, str) else (s.get('source') if isinstance(s, dict) else str(s)) for s in srcs]
                 date = data['scan_date']
                 if date in result:
                     # 同一天的多个文件，合并产品（去重）

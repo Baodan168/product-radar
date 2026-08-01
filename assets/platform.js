@@ -354,7 +354,7 @@ function renderRadar() {
     const url=p.amazon_url||(p.asin?`https://www.amazon.co.uk/dp/${p.asin}`:'#');
     const cb=p.cost_breakdown||{};
     const costH=cb.vat?`<button class="cost-tog" data-act="toggle-cost">💰 成本明细</button><div class="cost-det">VAT: £${cb.vat?.toFixed(2)||'-'} · 佣金: £${cb.commission?.toFixed(2)||'-'} · FBA: £${cb.fba?.toFixed(2)||'-'}<br>广告: £${cb.ads?.toFixed(2)||'-'} · 退货: £${cb.returns?.toFixed(2)||'-'} · 采购: £${cb.sourcing?.toFixed(2)||'-'}<br><b>总成本: £${cb.total_cost?.toFixed(2)||'-'} · 净利润: £${(p.net_profit||0).toFixed(2)}</b></div>`:'';
-    const sigs=(p.sources||[]).map(s=>{let c='';if(s.includes('TikTok'))c='tiktok';if(s.includes('多源'))c='multi';return`<span class="sig ${escAttr(c)}">${s}</span>`}).join('');
+    const sigs=(p.sources||[]).filter(s=>typeof s==='string').map(s=>{let c='';if(s.includes('TikTok'))c='tiktok';if(s.includes('多源'))c='multi';return`<span class="sig ${escAttr(c)}">${s}</span>`}).join('');
     const sd=p.sd_label?`<span class="sig sd">${p.sd_label}</span>`:'';
     return `<div class="pc" data-status="${escAttr(st)}" data-asin="${escAttr(p.asin||'')}">
       ${badge}
