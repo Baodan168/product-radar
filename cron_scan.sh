@@ -194,7 +194,7 @@ timeout 180 python3 github_api_push.py "auto-scan $(date -u '+%Y-%m-%d %H:%M')" 
 }
 
 echo ""
-echo "✅ 部署完成：https://liyuhong168.github.io/product-radar/platform.html"
+echo "✅ 部署完成：https://Baodan168.github.io/product-radar/platform.html"
 
 } > "$LOG" 2>&1 || {
     # On failure, output error for cron alert

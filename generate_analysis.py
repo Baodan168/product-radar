@@ -267,7 +267,7 @@ a.product-name:hover{{color:#007AFF}}
 </div>
 
 <div class="footer">
-  Product Radar \u00b7 Built with <a href="https://github.com/liyuhong168/ai-news-radar">Hermes Agent</a>
+  Product Radar \u00b7 Built with <a href="https://github.com/Baodan168/ai-news-radar">Hermes Agent</a>
 </div>
 
 <script>

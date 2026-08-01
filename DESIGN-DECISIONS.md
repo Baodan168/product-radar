@@ -113,7 +113,7 @@
 
 **选择：** 在 product-radar 内做发布边界脱敏（`oa/desensitize.py`），把毛利率、7 天销量、日均换成档位标签；售价、可售天数、建议补货量、库存状态保持原样。
 
-**理由：** 上一轮把这条记为「仓库外，改不到」。这次把 `liyuhong168/product-analysis` 加进会话核实后发现两件事：
+**理由：** 上一轮把这条记为「仓库外，改不到」。这次把 `Baodan168/product-analysis` 加进会话核实后发现两件事：
 
 1. 那个仓库里**只有生成好的 HTML，没有任何 `.py`** —— 生成器源码根本没上 GitHub，确实改不到。
 2. 而且那个仓库自己发布的那份表头是「评分 / BSR / 趋势」，**本来就不含毛利率**。含毛利率的是 `product-radar/output/analysis/` 这份，来源是本机 `/home/lee/product-analysis/gh-pages/`（`transform_analysis.py:5` 读的就是这个路径）。
@@ -237,7 +237,7 @@ D1–D11。前面几轮重构都在云端做的，决策记录都在这两处。
 2. 设置 Secret 与变量：
    ```
    wrangler secret put GITHUB_TOKEN        # 只需 Actions:write，不要给 contents:write
-   # 环境变量 ALLOWED_ORIGIN = https://liyuhong168.github.io
+   # 环境变量 ALLOWED_ORIGIN = https://Baodan168.github.io
    ```
 3. 把 Worker 地址填进 `config.json` 的 `kanban_sync.endpoint`，重新生成平台页。
 

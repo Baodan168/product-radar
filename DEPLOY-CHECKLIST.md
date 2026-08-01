@@ -50,7 +50,7 @@ python3 tools/preflight.py --fetch
 
 **GitHub → Actions → Deploy Product Radar → Run workflow → 分支选 `claude/oa-portal-ui-upgrade-ts4zrf` → Run**
 
-等 2–3 分钟（CDN 缓存 600s），打开 https://liyuhong168.github.io/product-radar/
+等 2–3 分钟（CDN 缓存 600s），打开 https://Baodan168.github.io/product-radar/
 
 **两个代价，别当成正式发布：**
 1. 那段时间线上就是新版本，团队如果正在用会看到变化

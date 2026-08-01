@@ -27,7 +27,7 @@ SYSTEM_SUB = ''
 PORTAL_VERSION = 'v4.0'
 
 # GitHub Pages 站点根，postMessage 校验和探针都用它
-SITE_ORIGIN = 'https://liyuhong168.github.io'
+SITE_ORIGIN = 'https://Baodan168.github.io'
 SITE_BASE = f'{SITE_ORIGIN}/product-radar'
 
 # 首页 key：不是 iframe 板块，由生成器直接渲染进主区（DESIGN-DECISIONS D6）
@@ -49,7 +49,7 @@ MODULES = [
                 'key': 'radar',
                 'label': '跨境雷达',
                 'icon': '📡',
-                'url': 'https://liyuhong168.github.io/kj-news-radar/',
+                'url': 'https://Baodan168.github.io/kj-news-radar/',
                 'desc': '24h跨境电商情报聚合',
                 'cross_origin': True,
             },

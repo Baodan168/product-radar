@@ -17,7 +17,7 @@
  *   2. wrangler secret put GITHUB_TOKEN
  *      Token 只需要 Actions:write（触发 workflow），不需要 contents:write；
  *      实际写文件由 Actions 内置的 GITHUB_TOKEN 完成，带格式校验。
- *   3. 环境变量 ALLOWED_ORIGIN = https://liyuhong168.github.io
+ *   3. 环境变量 ALLOWED_ORIGIN = https://Baodan168.github.io
  *   4. 把 Worker 地址填进 config.json 的 kanban_sync.endpoint
  *
  * 没配 Secret 时 /kanban-sync 返回 501，前端显示「同步未配置」，
@@ -33,7 +33,7 @@ const ALLOWED_PATHS = [
   '/gp/gifts/', '/gp/movers-and-shakers/', '/s?k=', '/dp/',
 ];
 
-const REPO = 'liyuhong168/product-radar';
+const REPO = 'Baodan168/product-radar';
 const DISPATCH_EVENT = 'status-sync';
 
 // 看板状态的体量上限，挡住把 Worker 当免费存储用
@@ -57,7 +57,7 @@ function hostAllowed(hostname) {
 }
 
 function corsHeaders(env) {
-  const origin = (env && env.ALLOWED_ORIGIN) || 'https://liyuhong168.github.io';
+  const origin = (env && env.ALLOWED_ORIGIN) || 'https://Baodan168.github.io';
   return {
     'Access-Control-Allow-Origin': origin,
     'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',

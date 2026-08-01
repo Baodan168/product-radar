@@ -4,7 +4,7 @@
 import json, os, sys, base64
 import urllib.request
 
-REPO = 'liyuhong168/product-radar'
+REPO = 'Baodan168/product-radar'
 BRANCH = 'main'
 
 def get_token():

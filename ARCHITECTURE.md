@@ -1,7 +1,7 @@
 # Amazon UK 选品运营 OA — 架构文档
 
-> 对应仓库：[liyuhong168/product-radar](https://github.com/liyuhong168/product-radar)
-> 门户地址：https://liyuhong168.github.io/product-radar/
+> 对应仓库：[Baodan168/product-radar](https://github.com/Baodan168/product-radar)
+> 门户地址：https://Baodan168.github.io/product-radar/
 
 ---
 

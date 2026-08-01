@@ -258,7 +258,7 @@ def generate_daily_report(target_date=None):
     # ── Bitable link ──
     lines.append("---")
     lines.append("📋 [飞书多维表格](https://feishu.cn) — 团队协作选品追踪")
-    lines.append("🔗 [选品平台](https://liyuhong168.github.io/product-radar/platform.html)")
+    lines.append("🔗 [选品平台](https://Baodan168.github.io/product-radar/platform.html)")
 
     return "\n".join(lines)
 

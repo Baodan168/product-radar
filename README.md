@@ -4,7 +4,7 @@
 
 > **架构：** 3+1 混合方案 — 门户/选品平台/补货跟进同仓库，跨境雷达独立仓库（iframe 直链）
 > **架构文档：** [ARCHITECTURE.md](./ARCHITECTURE.md) — 系统全景、数据流、设计原则、调度说明
-> **访问：** [liyuhong168.github.io/product-radar](https://liyuhong168.github.io/product-radar/)
+> **访问：** [Baodan168.github.io/product-radar](https://Baodan168.github.io/product-radar/)
 
 ## 三大板块
 

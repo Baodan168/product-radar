@@ -34,7 +34,7 @@ ALLOWED_HOSTS = {
     'trends.google.com': False,
     'trends.google.co.uk': False,
     # 本站
-    'liyuhong168.github.io': False,
+    'Baodan168.github.io': False,
 }
 
 
