@@ -280,6 +280,8 @@ def generate_platform_html(radar_all=None, discovery_all=None, output_path=None)
     # 走 write_data_js 而不是裸 write_text：数据源挂掉时会返回空列表，
     # 裸写会把好数据覆盖成 []，页面照常生成、只是 Tab 空了，很难发现。
     from oa.safe_write import write_data_js
+    # 护栏按 insights/products 记录总数比较（见 safe_write._record_count）：
+    # 月度合并压键数不压记录数，默认 0.5 即可放行，无需放宽比例。
     write_data_js(BASE / 'output' / 'data' / 'disc-all.js', 'DISC_ALL', discovery_js)
     ok, note = write_data_js(BASE / 'output' / 'data' / 'festivals.js', 'FESTIVALS', festivals_payload)
     if not ok:
