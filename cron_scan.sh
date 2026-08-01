@@ -6,6 +6,36 @@ set -a; source /home/lee/.hermes/.env; set +a
 set -e
 cd "$(dirname "$0")"
 
+# Step 0 前置：确认仓库处于可安全同步的状态。
+#
+# 这个脚本一直假定 checkout 在 main，但从不检查。2026-08-01 真出过事：
+# 前一晚有人把仓库留在特性分支上，早上定时任务照跑，下面那句
+# `git pull --rebase origin main` 于是把**那条特性分支**往 main 上重放，
+# 在产物上撞了冲突，仓库卡在 rebase 进行中的半途状态。
+# 那次没发布错产物（下面「同步失败即退出」挡住了），但根因在这儿：
+# 挡住的是症状，这里才是病因。
+GIT_DIR_PATH=$(git rev-parse --git-dir)
+BRANCH=$(git rev-parse --abbrev-ref HEAD)
+if [ "$BRANCH" != "main" ]; then
+    echo "❌ 仓库不在 main 上（当前：$BRANCH）| $(date '+%Y-%m-%d %H:%M')"
+    echo "   本脚本会跑 git pull --rebase origin main —— 在别的分支上跑，"
+    echo "   重放的是那条分支，撞冲突就会把仓库卡在半途。"
+    echo "   本次跳过扫描，不发布。"
+    echo "   处理：把该分支上的活提交或 stash 掉，git checkout main，再重跑。"
+    exit 1
+fi
+
+# 上一次同步留下的半成品状态。带着它继续跑，生成的产物来自一个
+# 「一半新一半旧」的工作区，而 cron 摘要看不出任何异常。
+if [ -d "$GIT_DIR_PATH/rebase-merge" ] || [ -d "$GIT_DIR_PATH/rebase-apply" ] \
+   || [ -f "$GIT_DIR_PATH/MERGE_HEAD" ] || [ -f "$GIT_DIR_PATH/CHERRY_PICK_HEAD" ]; then
+    echo "❌ 仓库有未完成的 rebase/merge/cherry-pick | $(date '+%Y-%m-%d %H:%M')"
+    echo "   工作区处于半合并状态，此时生成的产物来源说不清。"
+    echo "   本次跳过扫描，不发布。"
+    echo "   处理：git status 看清楚，然后 --continue 或 --abort 收尾后重跑。"
+    exit 1
+fi
+
 # Step 0: 同步代码到 GitHub 最新（autostash 自动保存并恢复未提交改动，冲突时保留stash并报警）
 git fetch origin
 # 同步失败必须中止。这里曾是 `... || ... || true`：两种同步都没成时脚本会继续
