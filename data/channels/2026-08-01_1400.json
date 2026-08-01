@@ -1,0 +1,1461 @@
+{
+  "scan_date": "2026-08-01",
+  "scan_time": "14:00",
+  "scan_ts": "2026-08-01_1400",
+  "stats": {
+    "total_scanned": 175,
+    "passed_filter": 6,
+    "rejected": 158,
+    "channels": {
+      "keyword_search": 6,
+      "multi_source": 6,
+      "etsy_trending": 6,
+      "tiktok_verified": 6,
+      "temu_trending": 6
+    },
+    "detail_reject": {},
+    "theme_trimmed": [
+      {
+        "asin": "B0DDBZGXKS",
+        "name": "GAOHAN 2 Pack Large Microfibre Hair Drying Towel Wrap | Anti-frizz Hair Turbans for Wet Hair Super Absorbent Hair Turban"
+      },
+      {
+        "asin": "B0CL5SQHBX",
+        "name": "Tyrzol 4Pcs Rapid Drying Microfibre Hair Towel Wrap - Super Absorbent Anti Frizz Dry Hair Hat for Women and Girls"
+      },
+      {
+        "asin": "B0D86JT42M",
+        "name": "Sponsored Ad – Eyeleaf Microfiber Hair Drying Towels,100 x 60cm,Quick Dry,Super Absorbent, for Long,Thick, Curly Hair (P"
+      },
+      {
+        "asin": "B0FBMDLPRQ",
+        "name": "FUL Microfibre Hair Towel Wrap, Quick Drying Turban for Wet Hair | Ultra absorbent and frizz-reducing. Suits curly and l"
+      },
+      {
+        "asin": "B0CJ2DKPLV",
+        "name": "Sponsored Ad – Heacoz Microfibre Hair Towel Wrap, Super Absorbent Hair Drying Towel (2pcs) | Reduces drying time and fri"
+      },
+      {
+        "asin": "B0DYST9GP2",
+        "name": "Curly Hair Drying Towel Dryer Shower Cap & Hair Accessories Care | Curly Hair Drying Towel Dryer Shower Cap & Hair Acces"
+      },
+      {
+        "asin": "B0C4Y2PR2M",
+        "name": "FRIUSATE 10 Pcs Pirate Costume Accessories Set, Kids Captain Costume | Includes Pirate Head Scarf, Eye Patches, Earrings"
+      },
+      {
+        "asin": "B0FJQ7F5BR",
+        "name": "Bryndo 6 Pcs Pirate Costume Accessories Set for Women Men, Pirate Fancy Dress with Hat Bandana Head Scarf Sash Eye Patch"
+      },
+      {
+        "asin": "B0F7HTSK4L",
+        "name": "Bryndo 5PCS Pirate Costume Accessories for Adults – Hat Headscarf Sash Belt Eye Patch Anchor Necklace Fancy Dress for Ha"
+      },
+      {
+        "asin": "B0D7TF728K",
+        "name": "70Pc Pirate Party Tableware Set,Pirate Treasure Hunt Theme Banner with Pirate Napkins Paper Plates Cups and Pirates Game"
+      },
+      {
+        "asin": "B0G2BM266T",
+        "name": "GYIOFAI 6 Pcs Pirate Costume Accessories for Women, Pirates Bandana Neckalce Earrings Corset Waist Chain Eye Patch for C"
+      }
+    ],
+    "trend_categories": {
+      "lighting": 100,
+      "pets": 100,
+      "phone": 100,
+      "crafts": 89,
+      "beauty": 83,
+      "home decor": 83
+    },
+    "supply_demand": {
+      "lighting": {
+        "ratio": 11.7,
+        "demand": 100,
+        "supply": 4998,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "phone": {
+        "ratio": 9.7,
+        "demand": 100,
+        "supply": 29633,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "pets": {
+        "ratio": 7.2,
+        "demand": 100,
+        "supply": 1039194,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "kitchen": {
+        "ratio": 6.7,
+        "demand": 76,
+        "supply": 89427,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "sports": {
+        "ratio": 3.3,
+        "demand": 42,
+        "supply": 287879,
+        "label": "💧 浅蓝海",
+        "level": "light_blue"
+      },
+      "kitchen_gadgets": {
+        "ratio": 3.0,
+        "demand": 34,
+        "supply": 89427,
+        "label": "⚖️ 平衡",
+        "level": "balanced"
+      },
+      "cleaning": {
+        "ratio": 0,
+        "demand": 67,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "car": {
+        "ratio": 0,
+        "demand": 60,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      }
+    },
+    "divergences": {
+      "kitchen": {
+        "current_heat": 78,
+        "previous_heat": 74,
+        "heat_change_pct": 5.4,
+        "direction": "stable",
+        "dates": [
+          "2026-07-31_1400",
+          "2026-08-01_1113"
+        ]
+      },
+      "cleaning": {
+        "current_heat": 53,
+        "previous_heat": 47,
+        "heat_change_pct": 12.8,
+        "direction": "stable",
+        "dates": [
+          "2026-07-31_1400",
+          "2026-08-01_1113"
+        ]
+      },
+      "car": {
+        "current_heat": 55,
+        "previous_heat": 53,
+        "heat_change_pct": 3.8,
+        "direction": "stable",
+        "dates": [
+          "2026-07-31_1400",
+          "2026-08-01_1113"
+        ]
+      },
+      "office": {
+        "current_heat": 75,
+        "previous_heat": 77,
+        "heat_change_pct": -2.6,
+        "direction": "stable",
+        "dates": [
+          "2026-07-31_1400",
+          "2026-08-01_1113"
+        ]
+      },
+      "storage": {
+        "current_heat": 42,
+        "previous_heat": 34,
+        "heat_change_pct": 23.5,
+        "direction": "stable",
+        "dates": [
+          "2026-07-31_1400",
+          "2026-08-01_1113"
+        ]
+      },
+      "lighting": {
+        "current_heat": 100,
+        "previous_heat": 100,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-07-31_1400",
+          "2026-08-01_1113"
+        ]
+      },
+      "pets": {
+        "current_heat": 100,
+        "previous_heat": 100,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-07-31_1400",
+          "2026-08-01_1113"
+        ]
+      },
+      "sports": {
+        "current_heat": 33,
+        "previous_heat": 22,
+        "heat_change_pct": 50.0,
+        "direction": "rising",
+        "dates": [
+          "2026-07-31_1400",
+          "2026-08-01_1113"
+        ]
+      },
+      "crafts": {
+        "current_heat": 88,
+        "previous_heat": 84,
+        "heat_change_pct": 4.8,
+        "direction": "stable",
+        "dates": [
+          "2026-07-31_1400",
+          "2026-08-01_1113"
+        ]
+      },
+      "phone": {
+        "current_heat": 100,
+        "previous_heat": 100,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-07-31_1400",
+          "2026-08-01_1113"
+        ]
+      },
+      "beauty": {
+        "current_heat": 82,
+        "previous_heat": 87,
+        "heat_change_pct": -5.7,
+        "direction": "stable",
+        "dates": [
+          "2026-07-31_1400",
+          "2026-08-01_1113"
+        ]
+      },
+      "home decor": {
+        "current_heat": 95,
+        "previous_heat": 84,
+        "heat_change_pct": 13.1,
+        "direction": "stable",
+        "dates": [
+          "2026-07-31_1400",
+          "2026-08-01_1113"
+        ]
+      },
+      "eco": {
+        "current_heat": 62,
+        "previous_heat": 59,
+        "heat_change_pct": 5.1,
+        "direction": "stable",
+        "dates": [
+          "2026-07-31_1400",
+          "2026-08-01_1113"
+        ]
+      },
+      "seasonal": {
+        "current_heat": 72,
+        "previous_heat": 65,
+        "heat_change_pct": 10.8,
+        "direction": "stable",
+        "dates": [
+          "2026-07-31_1400",
+          "2026-08-01_1113"
+        ]
+      },
+      "garden": {
+        "current_heat": 75,
+        "previous_heat": 71,
+        "heat_change_pct": 5.6,
+        "direction": "stable",
+        "dates": [
+          "2026-07-31_1400",
+          "2026-08-01_1113"
+        ]
+      },
+      "bathroom": {
+        "current_heat": 62,
+        "previous_heat": 56,
+        "heat_change_pct": 10.7,
+        "direction": "stable",
+        "dates": [
+          "2026-07-31_1400",
+          "2026-08-01_1113"
+        ]
+      },
+      "bedding": {
+        "current_heat": 45,
+        "previous_heat": 34,
+        "heat_change_pct": 32.4,
+        "direction": "rising",
+        "dates": [
+          "2026-07-31_1400",
+          "2026-08-01_1113"
+        ]
+      },
+      "travel": {
+        "current_heat": 48,
+        "previous_heat": 43,
+        "heat_change_pct": 11.6,
+        "direction": "stable",
+        "dates": [
+          "2026-07-31_1400",
+          "2026-08-01_1113"
+        ]
+      },
+      "baby": {
+        "current_heat": 45,
+        "previous_heat": 43,
+        "heat_change_pct": 4.7,
+        "direction": "stable",
+        "dates": [
+          "2026-07-31_1400",
+          "2026-08-01_1113"
+        ]
+      },
+      "kitchen_gadgets": {
+        "current_heat": 35,
+        "previous_heat": 34,
+        "heat_change_pct": 2.9,
+        "direction": "stable",
+        "dates": [
+          "2026-07-31_1400",
+          "2026-08-01_1113"
+        ]
+      }
+    },
+    "gap_opportunities": 16
+  },
+  "products": [
+    {
+      "asin": "B0FX4JXSB9",
+      "name": "FUFUSING Microfibre Hair Drying Towel Wrap, 2 Pack Large Quick Dry Hair Turban for Women Super Absorbent Soft Anti-Frizz",
+      "price": 10.82,
+      "reviews": 12,
+      "rating": 4.6,
+      "rank": 26,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "12 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FX4JXSB9",
+      "image_url": "https://m.media-amazon.com/images/I/81wlWV5qFNL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "microfiber hair towel, hair towel wrap for long hair, hair drying turban, hair wrap towel women, microfiber hair turban, anti frizz hair towel, hair towel for curly hair, quick dry hair towel, hair towel wrap 2 pack, plopping towel curly hair",
+      "sources": [
+        "趋势发现",
+        "Etsy趋势",
+        "TikTok趋势",
+        "Temu热销"
+      ],
+      "profit_margin": 0.354,
+      "net_profit": 3.83,
+      "cost_breakdown": {
+        "vat": 1.81,
+        "commission": 1.62,
+        "fba": 1.46,
+        "ads": 1.08,
+        "returns": 0.22,
+        "sourcing": 0.8,
+        "total_cost": 6.99
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 116,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(beauty)": 23,
+        "🌊 蓝海": 15,
+        "⭐ 高评分": 5,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-08-01",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "keyword_search",
+        "multi_source",
+        "etsy_trending",
+        "tiktok_verified",
+        "temu_trending"
+      ]
+    },
+    {
+      "asin": "B0FX4PVS5H",
+      "name": "FUFUSING Microfibre Hair Towel Wraps for Women, 2-Pack Super Absorbent Microfibre Towel for Curly Long Thick Wet Hair, 1",
+      "price": 11.66,
+      "reviews": 12,
+      "rating": 4.6,
+      "rank": 34,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "12 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FX4PVS5H",
+      "image_url": "https://m.media-amazon.com/images/I/81yX8qj-M-L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "microfiber hair towel, hair towel wrap for long hair, hair drying turban, hair wrap towel women, microfiber hair turban, anti frizz hair towel, hair towel for curly hair, quick dry hair towel, hair towel wrap 2 pack, plopping towel curly hair",
+      "sources": [
+        "趋势发现",
+        "Etsy趋势",
+        "TikTok趋势",
+        "Temu热销"
+      ],
+      "profit_margin": 0.369,
+      "net_profit": 4.3,
+      "cost_breakdown": {
+        "vat": 1.95,
+        "commission": 1.75,
+        "fba": 1.46,
+        "ads": 1.17,
+        "returns": 0.23,
+        "sourcing": 0.8,
+        "total_cost": 7.36
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 116,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(beauty)": 23,
+        "🌊 蓝海": 15,
+        "⭐ 高评分": 5,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-08-01",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "keyword_search",
+        "multi_source",
+        "etsy_trending",
+        "tiktok_verified",
+        "temu_trending"
+      ]
+    },
+    {
+      "asin": "B0G7M2883S",
+      "name": "Bingobang Microfibre Hair Towel Wrap 3 Pack Hair Head Turban for Women | Super Absorbent Rapid Drying, for Curly Long We",
+      "price": 7.49,
+      "reviews": 14,
+      "rating": 4.0,
+      "rank": 27,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "14 reviews, 4.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0G7M2883S",
+      "image_url": "https://m.media-amazon.com/images/I/61IYfxnWOQL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "microfiber hair towel, hair towel wrap for long hair, hair drying turban, hair wrap towel women, microfiber hair turban, anti frizz hair towel, hair towel for curly hair, quick dry hair towel, hair towel wrap 2 pack, plopping towel curly hair",
+      "sources": [
+        "趋势发现",
+        "Etsy趋势",
+        "TikTok趋势",
+        "Temu热销"
+      ],
+      "profit_margin": 0.261,
+      "net_profit": 1.96,
+      "cost_breakdown": {
+        "vat": 1.25,
+        "commission": 1.12,
+        "fba": 1.46,
+        "ads": 0.75,
+        "returns": 0.15,
+        "sourcing": 0.8,
+        "total_cost": 5.53
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 113,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(beauty)": 23,
+        "🌊 蓝海": 15,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-01",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "keyword_search",
+        "multi_source",
+        "etsy_trending",
+        "tiktok_verified",
+        "temu_trending"
+      ]
+    },
+    {
+      "asin": "B0F7HSW16C",
+      "name": "Bryndo Kids Pirate Costume Set Boys Pirate Captain Dress Up Kit with Hat Vest Sword Hook Eye Patch Earring Fancy Dress f",
+      "price": 9.16,
+      "reviews": 19,
+      "rating": 4.0,
+      "rank": 24,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "19 reviews, 4.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0F7HSW16C",
+      "image_url": "https://m.media-amazon.com/images/I/71J658zFg3L._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "pirate party",
+      "festival_event": "海盗说话日",
+      "festival_icon": "🏴‍☠️",
+      "festival_deadline": "2026-08-03",
+      "is_event": false,
+      "sources": [
+        "📅 海盗说话日",
+        "Etsy趋势",
+        "TikTok趋势",
+        "Temu热销"
+      ],
+      "profit_margin": 0.316,
+      "net_profit": 2.9,
+      "cost_breakdown": {
+        "vat": 1.53,
+        "commission": 1.37,
+        "fba": 1.46,
+        "ads": 0.92,
+        "returns": 0.18,
+        "sourcing": 0.8,
+        "total_cost": 6.26
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 92,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "📈 趋势(baby)": 8,
+        "🌊 蓝海": 15,
+        "💰 高利润": 8,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 4,
+      "is_new": false,
+      "first_seen": "2026-07-27",
+      "is_multi": true,
+      "channel_tags": [
+        "keyword_search",
+        "multi_source",
+        "etsy_trending",
+        "tiktok_verified",
+        "temu_trending"
+      ]
+    },
+    {
+      "asin": "B0DGXRNMN9",
+      "name": "Spinosaurus 7 Pcs Pirate Accessories for Adult Kids,Pirate Bandana Eye Patch Telescopes Earring Wallet with Gold Coins f",
+      "price": 11.66,
+      "reviews": 61,
+      "rating": 4.6,
+      "rank": 56,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "61 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DGXRNMN9",
+      "image_url": "https://m.media-amazon.com/images/I/71hjBMWnwjL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "pirate party",
+      "festival_event": "海盗说话日",
+      "festival_icon": "🏴‍☠️",
+      "festival_deadline": "2026-08-03",
+      "is_event": false,
+      "sources": [
+        "📅 海盗说话日",
+        "Etsy趋势",
+        "TikTok趋势",
+        "Temu热销"
+      ],
+      "profit_margin": 0.369,
+      "net_profit": 4.3,
+      "cost_breakdown": {
+        "vat": 1.95,
+        "commission": 1.75,
+        "fba": 1.46,
+        "ads": 1.17,
+        "returns": 0.23,
+        "sourcing": 0.8,
+        "total_cost": 7.36
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 91,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "📈 趋势(baby)": 8,
+        "🟡 中等竞争": 5,
+        "⭐ 高评分": 5,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 4,
+      "is_new": false,
+      "first_seen": "2026-07-27",
+      "is_multi": true,
+      "channel_tags": [
+        "keyword_search",
+        "multi_source",
+        "etsy_trending",
+        "tiktok_verified",
+        "temu_trending"
+      ]
+    },
+    {
+      "asin": "B0D3XMNPYG",
+      "name": "Sponsored Ad – GOLDGE 100 Pieces Gold Coins Pirate Treasure Set with 50 Gold Coins Children and 50 Pirate Gemstones Perf",
+      "price": 6.66,
+      "reviews": 71,
+      "rating": 4.5,
+      "rank": 10,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "71 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0D3XMNPYG",
+      "image_url": "https://m.media-amazon.com/images/I/81aAMb7H09L._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "pirate party",
+      "festival_event": "海盗说话日",
+      "festival_icon": "🏴‍☠️",
+      "festival_deadline": "2026-08-03",
+      "is_event": false,
+      "sources": [
+        "📅 海盗说话日",
+        "Etsy趋势",
+        "TikTok趋势",
+        "Temu热销"
+      ],
+      "profit_margin": 0.224,
+      "net_profit": 1.49,
+      "cost_breakdown": {
+        "vat": 1.11,
+        "commission": 1.0,
+        "fba": 1.46,
+        "ads": 0.67,
+        "returns": 0.13,
+        "sourcing": 0.8,
+        "total_cost": 5.17
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 79,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "📈 趋势(baby)": 8,
+        "🟡 中等竞争": 5,
+        "⭐ 高评分": 5,
+        "❓ 品类存疑": -5,
+        "📈 排名上升": 10,
+        "📢 广告位": -10,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 3,
+      "is_new": false,
+      "first_seen": "2026-07-29",
+      "is_multi": true,
+      "channel_tags": [
+        "keyword_search",
+        "multi_source",
+        "etsy_trending",
+        "tiktok_verified",
+        "temu_trending"
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "keyword": "crafts",
+      "category": "crafts",
+      "heat": 89,
+      "score": 74,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "tape",
+        "paint",
+        "craft",
+        "brush",
+        "art"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "washi tape",
+        "decorative tape",
+        "masking tape",
+        "acrylic paint set",
+        "paint brush set",
+        "paint by numbers",
+        "craft knife",
+        "craft supplies"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 89,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=washi+tape",
+      "url_google": "https://trends.google.com/trends/explore?q=washi+tape&geo=GB"
+    },
+    {
+      "keyword": "beauty",
+      "category": "beauty",
+      "heat": 83,
+      "score": 72,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "makeup",
+        "hair",
+        "skincare",
+        "nail",
+        "brush"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "makeup brush set",
+        "makeup bag",
+        "makeup organizer",
+        "hair clip",
+        "hair accessories",
+        "hair band",
+        "hair tie",
+        "face roller"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 83,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=makeup+brush+set",
+      "url_google": "https://trends.google.com/trends/explore?q=makeup+brush+set&geo=GB"
+    },
+    {
+      "keyword": "home decor",
+      "category": "home decor",
+      "heat": 83,
+      "score": 72,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "vase",
+        "frame",
+        "wall art",
+        "decor",
+        "mirror"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "flower vase",
+        "decorative vase",
+        "photo frame",
+        "picture frame",
+        "wall frame",
+        "wall art print",
+        "wall hanging",
+        "wall decal"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 83,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=flower+vase",
+      "url_google": "https://trends.google.com/trends/explore?q=flower+vase&geo=GB"
+    },
+    {
+      "keyword": "office",
+      "category": "office",
+      "heat": 80,
+      "score": 71,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "office",
+        "pen",
+        "laptop",
+        "desk",
+        "mouse"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "office supplies",
+        "desk organizer",
+        "pen holder",
+        "pen set",
+        "fountain pen",
+        "laptop stand",
+        "laptop sleeve",
+        "laptop cooler"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 80,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=office+supplies",
+      "url_google": "https://trends.google.com/trends/explore?q=office+supplies&geo=GB"
+    },
+    {
+      "keyword": "garden",
+      "category": "garden",
+      "heat": 80,
+      "score": 71,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "garden",
+        "outdoor",
+        "bbq",
+        "flower",
+        "grill"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "garden tool set",
+        "garden light",
+        "garden decor",
+        "outdoor",
+        "flower",
+        "grill",
+        "bird feeder",
+        "bird bath"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 80,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=garden+tool+set",
+      "url_google": "https://trends.google.com/trends/explore?q=garden+tool+set&geo=GB"
+    },
+    {
+      "keyword": "seasonal",
+      "category": "seasonal",
+      "heat": 73,
+      "score": 69,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "easter",
+        "halloween",
+        "birthday",
+        "valentine",
+        "gift"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "easter egg",
+        "easter decoration",
+        "halloween decoration",
+        "halloween costume",
+        "birthday gift",
+        "birthday decoration",
+        "birthday card",
+        "valentine gift"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 73,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=easter+egg",
+      "url_google": "https://trends.google.com/trends/explore?q=easter+egg&geo=GB"
+    },
+    {
+      "keyword": "cleaning",
+      "category": "cleaning",
+      "heat": 67,
+      "score": 67,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "cleaning",
+        "brush",
+        "vacuum",
+        "cleaner",
+        "duster"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "cleaning",
+        "brush",
+        "vacuum",
+        "cleaner",
+        "duster"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 67,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=cleaning",
+      "url_google": "https://trends.google.com/trends/explore?q=cleaning&geo=GB"
+    },
+    {
+      "keyword": "eco",
+      "category": "eco",
+      "heat": 67,
+      "score": 67,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "bamboo",
+        "reusable",
+        "eco",
+        "sustainable",
+        "organic"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "bamboo cutlery",
+        "bamboo toothbrush",
+        "bamboo organizer",
+        "reusable food wrap",
+        "reusable straws",
+        "reusable bags",
+        "eco products",
+        "reusable bag"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 67,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=bamboo+cutlery",
+      "url_google": "https://trends.google.com/trends/explore?q=bamboo+cutlery&geo=GB"
+    },
+    {
+      "keyword": "car",
+      "category": "car",
+      "heat": 60,
+      "score": 65,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "motor",
+        "car",
+        "dashboard",
+        "vehicle",
+        "automotive"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "motorcycle accessories",
+        "motorcycle cover",
+        "car accessories",
+        "car organizer",
+        "car phone holder",
+        "dashboard",
+        "vehicle",
+        "automotive"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 60,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=motorcycle+accessories",
+      "url_google": "https://trends.google.com/trends/explore?q=motorcycle+accessories&geo=GB"
+    },
+    {
+      "keyword": "bathroom",
+      "category": "bathroom",
+      "heat": 57,
+      "score": 64,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "shower",
+        "toilet",
+        "bathroom",
+        "bath",
+        "towel"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "shower caddy",
+        "shower head",
+        "shower curtain",
+        "toilet",
+        "bathroom",
+        "bath mat",
+        "bath caddy",
+        "bath pillow"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 57,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=shower+caddy",
+      "url_google": "https://trends.google.com/trends/explore?q=shower+caddy&geo=GB"
+    },
+    {
+      "keyword": "baby",
+      "category": "baby",
+      "heat": 50,
+      "score": 61,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "baby",
+        "kids",
+        "nursery",
+        "child",
+        "toddler"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "baby",
+        "kids",
+        "nursery",
+        "child",
+        "toddler"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 50,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=baby",
+      "url_google": "https://trends.google.com/trends/explore?q=baby&geo=GB"
+    },
+    {
+      "keyword": "bedding",
+      "category": "bedding",
+      "heat": 47,
+      "score": 60,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "sheet",
+        "bedding",
+        "blanket",
+        "pillow",
+        "cushion"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "sheet",
+        "bedding",
+        "blanket",
+        "pillow",
+        "cushion",
+        "throw",
+        "duvet"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 47,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=sheet",
+      "url_google": "https://trends.google.com/trends/explore?q=sheet&geo=GB"
+    },
+    {
+      "keyword": "storage",
+      "category": "storage",
+      "heat": 41,
+      "score": 58,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "container",
+        "box",
+        "storage",
+        "shelf",
+        "basket"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "container",
+        "food storage",
+        "kitchen storage",
+        "container set",
+        "floating shelf",
+        "wall shelf",
+        "corner shelf",
+        "basket"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 41,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=container",
+      "url_google": "https://trends.google.com/trends/explore?q=container&geo=GB"
+    },
+    {
+      "keyword": "lighting",
+      "category": "lighting",
+      "heat": 100,
+      "score": 55,
+      "gap_level": "weak",
+      "amazon_count": 5,
+      "amazon_reviews": 4998,
+      "evidence": [
+        "lamp",
+        "light",
+        "led",
+        "strip",
+        "fairy"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "desk lamp",
+        "night light",
+        "table lamp",
+        "LED light",
+        "fairy lights",
+        "string lights",
+        "LED bulb",
+        "LED panel"
+      ],
+      "sd_info": {
+        "ratio": 11.7,
+        "demand": 100,
+        "supply": 4998,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=desk+lamp",
+      "url_google": "https://trends.google.com/trends/explore?q=desk+lamp&geo=GB"
+    },
+    {
+      "keyword": "phone",
+      "category": "phone",
+      "heat": 100,
+      "score": 55,
+      "gap_level": "weak",
+      "amazon_count": 5,
+      "amazon_reviews": 29633,
+      "evidence": [
+        "charger",
+        "stand",
+        "phone",
+        "holder",
+        "earbuds"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "phone charger",
+        "wireless charger",
+        "car charger",
+        "stand",
+        "phone case",
+        "phone holder",
+        "phone stand",
+        "holder"
+      ],
+      "sd_info": {
+        "ratio": 9.7,
+        "demand": 100,
+        "supply": 29633,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=phone+charger",
+      "url_google": "https://trends.google.com/trends/explore?q=phone+charger&geo=GB"
+    },
+    {
+      "keyword": "kitchen",
+      "category": "kitchen",
+      "heat": 76,
+      "score": 50,
+      "gap_level": "weak",
+      "amazon_count": 6,
+      "amazon_reviews": 89427,
+      "evidence": [
+        "cooking",
+        "gadget",
+        "kitchen",
+        "cup",
+        "mug"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "cooking",
+        "gadget",
+        "kitchen",
+        "utensil"
+      ],
+      "sd_info": {
+        "ratio": 6.7,
+        "demand": 76,
+        "supply": 89427,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=cooking",
+      "url_google": "https://trends.google.com/trends/explore?q=cooking&geo=GB"
+    }
+  ],
+  "trend_summary": {
+    "top_categories": [
+      [
+        "lighting",
+        100
+      ],
+      [
+        "pets",
+        100
+      ],
+      [
+        "phone",
+        100
+      ],
+      [
+        "crafts",
+        89
+      ],
+      [
+        "beauty",
+        83
+      ],
+      [
+        "home decor",
+        83
+      ]
+    ],
+    "cross_validated": [
+      "kitchen",
+      "cleaning",
+      "car",
+      "office",
+      "storage",
+      "lighting",
+      "pets",
+      "crafts",
+      "phone",
+      "beauty",
+      "home decor",
+      "eco",
+      "seasonal",
+      "garden",
+      "baby",
+      "bathroom",
+      "kitchen_gadgets",
+      "bedding",
+      "travel"
+    ],
+    "demand_keywords": [
+      "5-star rated",
+      "aesthetic desk setup",
+      "alcoholic beverages",
+      "also rank among the top",
+      "amazon logo",
+      "ambient and sculptural lighting has",
+      "and the",
+      "ant traps",
+      "aquabrush,",
+      "are a good choice for"
+    ],
+    "season": "summer",
+    "sources_scanned": [
+      "tiktok",
+      "temu",
+      "etsy",
+      "market_intel"
+    ]
+  }
+}
