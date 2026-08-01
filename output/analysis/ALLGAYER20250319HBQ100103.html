@@ -118,17 +118,29 @@ tr.steady-row td:first-child { padding-left: 8px; }
 (function () {
   var b = document.getElementById('toTop');
   if (!b) return;
+  function findScroller() {
+    var sc = document.scrollingElement || document.documentElement;
+    if (sc.scrollTop > 50) return sc;
+    var els = document.querySelectorAll('.oa-content-wrap, .content-wrap, [class*="scroll"], main, body');
+    for (var i = 0; i < els.length; i++) {
+      if (els[i].scrollTop > 50) return els[i];
+    }
+    return sc;
+  }
   var ticking = false;
-  window.addEventListener('scroll', function () {
+  document.addEventListener('scroll', function () {
     if (!ticking) {
       requestAnimationFrame(function () {
-        b.classList.toggle('visible', window.scrollY > 400);
+        b.classList.toggle('visible', findScroller().scrollTop > 400);
         ticking = false;
       });
       ticking = true;
     }
-  }, { passive: true });
-  b.addEventListener('click', function () { window.scrollTo({ top: 0, behavior: 'smooth' }); });
+  }, { passive: true, capture: true });
+  b.addEventListener('click', function () {
+    var s = findScroller();
+    s.scrollTo({ top: 0, behavior: 'smooth' });
+  });
 })();
 </script>
 </body></html>
