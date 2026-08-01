@@ -1716,7 +1716,7 @@ body{font-family:var(--oa-font);background:var(--oa-bg);color:var(--oa-text);lin
    见 DESIGN-DECISIONS.md「已知限制」。
    ════════════════════════════════════════════ */
 
-/* ── 回到顶部按钮（2026-08-01，OA 各页共享）── */
+/* ── 回到顶部按钮（2026-08-01，OA 各页共享；固定显示，不随滚动出现）── */
 .to-top {
   position: fixed;
   bottom: 24px;
@@ -1730,23 +1730,16 @@ body{font-family:var(--oa-font);background:var(--oa-bg);color:var(--oa-text);lin
   cursor: pointer;
   display: grid;
   place-items: center;
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity 0.2s, visibility 0.2s, background 0.15s, color 0.15s;
+  opacity: 1;
+  visibility: visible;
+  transition: background 0.15s, color 0.15s;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   z-index: 999;
   font-size: 18px;
   line-height: 1;
 }
-.to-top.visible {
-  opacity: 1;
-  visibility: visible;
-}
 .to-top:hover {
   background: var(--oa-primary, #5856D6);
   color: #fff;
   border-color: var(--oa-primary, #5856D6);
-}
-@media (prefers-reduced-motion: reduce) {
-  .to-top { transition: none; }
 }

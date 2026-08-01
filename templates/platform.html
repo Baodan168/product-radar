@@ -107,7 +107,7 @@
 <script>window.PLATFORM_DATA = ${platform_data};</script>
 <script src="assets/platform.js?v=${asset_version}"></script>
 
-<!-- 回到顶部 -->
+<!-- 回到顶部（固定显示） -->
 <button class="to-top" id="toTop" aria-label="回到顶部" title="回到顶部">↑</button>
 <script>
 (function () {
@@ -115,26 +115,15 @@
   if (!b) return;
   function findScroller() {
     var sc = document.scrollingElement || document.documentElement;
-    if (sc.scrollTop > 50) return sc;
+    if (sc.scrollHeight > sc.clientHeight + 50) return sc;
     var els = document.querySelectorAll('.oa-content-wrap, .content-wrap, [class*="scroll"], main, body');
     for (var i = 0; i < els.length; i++) {
-      if (els[i].scrollTop > 50) return els[i];
+      if (els[i].scrollHeight > els[i].clientHeight + 50) return els[i];
     }
     return sc;
   }
-  var ticking = false;
-  document.addEventListener('scroll', function () {
-    if (!ticking) {
-      requestAnimationFrame(function () {
-        b.classList.toggle('visible', findScroller().scrollTop > 400);
-        ticking = false;
-      });
-      ticking = true;
-    }
-  }, { passive: true, capture: true });
   b.addEventListener('click', function () {
-    var s = findScroller();
-    s.scrollTo({ top: 0, behavior: 'smooth' });
+    findScroller().scrollTo({ top: 0, behavior: 'smooth' });
   });
 })();
 </script>
