@@ -1,0 +1,114 @@
+{
+  "date": "2026-08-03",
+  "updated_at": "2026-08-03T08:40:00+08:00",
+  "scan_date": "2026-08-03",
+  "scan_time": "08:40",
+  "summary": "2026-08-03 选品发现：4个严格符合小件铺货标准的返校季(Back-to-School)趋势产品——Amazon UK 8月是返校采购峰值月(8月初意图集中+9月仍领跑30%购买意图)，叠加夏季收尾。全部非电子、≤200g、无海运。",
+  "insights": [
+    {
+      "keyword": "kids sandwich cutter set bento lunchbox 20pcs pp plastic",
+      "keyword_cn": "儿童三明治切模/Bento便当模具套装 20件 食品级PP塑料",
+      "amazon_keyword": "sandwich cutters for kids, bento lunch box cutters, kids lunchbox cookie cutters, sandwich shape cutter set",
+      "search_1688": "三明治模具 便当 切模 PP塑料 20件 儿童 跨境",
+      "demand_signals": [
+        "Amazon UK BSR 验证 — GET FRESH(20件PP塑料套装, 2152评论) / MESMERISER 20件(105评论) 吃进 £9.99-12.99 区间，Cookie Cutters 子类大量 4.4-4.6 分 listing，需求真实且持续",
+        "1638/1688 跨境热卖 — ‘跨境热卖三明治模具’ 义乌/阳江源头厂 报价 ¥4.2-¥16.9（一套 20-32 件），有专门出口英文 PVC 彩盒（跨境专供口粮），说明 UK 市场是被国内供应链单独喂的品类",
+        "英国开学午餐场景季节性 — 8-9月英国中小学生返校，家长做便当/上午点心的痛点 (#SchoolLunchTok 家长日常内容在8月集中)，‘Picky Eater 挑食’是 UK 父母高频搜索词",
+        "Amazon August 返校报告 — 8月 Amazon 返校季午餐相关搜索仍在前列，学生每日带饭场景 vs 女儿食安需求持续（见 8 月报告中零食/便当周边增长）"
+      ],
+      "trend_score": 82,
+      "trend_direction": "rising",
+      "reason": "开学季午餐做形是 UK 家长8月的刚需场景：孩子挑食、便当没兴趣，切模把普通三明治变有趣。纯 PP 食品级塑料绝对无电子件，一套 20 件 ~200g（1093 西游记，含盒子约200g），但要避开 1060g 的 32 件不锈钢大套装（太重，单人运费不划算）。1688 采购 ¥12-16/套（PP塑料20件+食物签+刷子），Amazon UK £9.99-10.99 定价，Home&Kitchen 佣金 8%，FBA 约 £2.40，毛利率可达 45%+。差异化：多主题动物/恐龙/独角兽 + 配无毒砧板收纳 + 带‘挑食孩子的便当’英文场景文案套词组。这是从未推荐过的新品类，且紧贴返校季节峰值。",
+      "action": "007测品启动店测款：上架 20 件 PP塑料儿童三明治切模套装，定价 £9.99，1688 搜索‘三明治模具 儿童 便当 PP 跨境’，首批 200 套（选 20 件塑料版本，避开 30-32 件不锈钢重版）。关键词：'sandwich cutters for kids' + 'bento lunch box cutters' + 'kids snack shapes' + 'school lunch ideas'。配收纳盒+儿童彩盒提升开箱。",
+      "competition": "中等竞争力——类目容量大（$Cookie Cutters 子类）但差异化在套装组合与视觉。£9-13 区间 20+ 个 ASIN，有 GET FRESH(2k+ reviews)、MzSm 等老炮，但大量无品牌化包装的小卖家可打。核心是包装（彩盒）与套装多样性；注意清点重量选塑料版。",
+      "signal_scores": {
+        "trend": 82,
+        "gap": 72,
+        "profit": 88,
+        "final": 79.8,
+        "recommendation": "STRONG_BUY",
+        "gap_level": "中等竞争",
+        "profit_window": "1688 ¥20以内(20件PP塑料)可保 40%+ 毛利(毛利率约43%，佣金8%，FBA £2.40)；务必避开 ¥69 的32件不锈钢1060g版(超单件重量) "
+      }
+    },
+    {
+      "keyword": "pencil grips for kids handwriting set 20pcs silicone",
+      "keyword_cn": "儿童握笔器 矫正握姿 硅胶 20支装 左右手通用",
+      "amazon_keyword": "pencil grips for kids handwriting, ergonomic pencil grips set 20, writing aid grip for children, left right handed pencil gripper",
+      "search_1688": "握笔器 儿童 矫正 硅胶 三指 小学生 批发",
+      "demand_signals": [
+        "Amazon UK 验证 — Stylo/GripGo/Retec 等多个 SKU 4.3-5.0 爆，6-28 支装 £5-£9.99，GripGo 726 评、多家≥4.3 分，专辑在返学写作辅助细分持续",
+        "1688 像素价 — 生抽硅握笔器批发 ¥0.9-¥4.5/个，三凹位式 5-1元档大量跨境现货（义乌专供儿童礼品）；一套 20个只十几元。",
+        "英国开学季写作季 — 8月返校新学龄期（Reception/一年级 5-6岁学写字）家长高搜索‘pencil grip poem’「握笔正姿」短语，返校stationery 高意图购买",
+        "TikTok #StudyTok kid writere older — 育儿/写字内容 #schooltok 碎片——UK 家长团对握笔矫正细分旋转，返校季 get-ready-for-fall 注意力"
+      ],
+      "trend_score": 78,
+      "trend_direction": "rising",
+      "reason": "验牌 5岁-6 岁小孩返校开始写字，握笔姿势差是 UK 家长最多困扰的场景之一，握笔器正好单重轻（20支装约 120g）、纯硅胶无毒、无电子件。1688 采购一套 20 支 ¥60-80（约 £11.5-1.4），Amazon £6.99-£7.99 定价。注意：这类通常挂在文具/办公类，佣金可能到 15%（Stationery），须用低价+轻 FBA 摊薄；毛利仍在 25-40% 之间（office商品8-15%佣金是变量）。它是我没推荐过的全新文具子品类，与以往推荐的和纸/荧光笔等不同。差异化：左右手分版 + 卡通动物+赠 Nib cap + 四种形状（stepped/two-finger/nest/soft)",
+      "action": "322老店推新：上架 Pencil Grips 20 支装四件校正套装，定价 £6.99(可试 £7.99 看ACOS)，1688 搜索‘握笔器 儿童 矫正 硅胶 二十套装’，首批 500 套（单套低，风险极低）。关键词：'pencil grips kids' + 'learning to write' + 'ergonomic pencil grip 20' + 'left hand'。做四形状组合+赠 nib protector 当差异化。",
+      "competition": "红海—stationery 写辅助类 listing 密集，但都低价 low 位，£6-10 区间约 20 个 ASIN 以小白为主。差异化靠组合包装与多形状选择。风险：若无法少佣金到 8% (文具类 15% would 吃掉毛利)，先小额 100-200 套测，若 1688 更便宜(¥1/个)可把 40 支装→£8.99 拉高客单。",
+      "signal_scores": {
+        "trend": 85,
+        "gap": 62,
+        "profit": 70,
+        "final": 71.5,
+        "recommendation": "BUY",
+        "gap_level": "红海",
+        "profit_window": "1688 ¥75以内(20支净)可保 25%+ 利润(佣金若15%仅约20%、8%则约30%)；请先确认 listing 佣金定位"
+      }
+    },
+    {
+      "keyword": "water bottle straw cleaning brush set 5in1 compact",
+      "keyword_cn": "水杯吸管清洗刷套装 5合1 便携 收纳合一",
+      "amazon_keyword": "bottle brush set straw cleaner, water bottle cleaning kit, straw brush cup lid brush, tumbler cleaning brush",
+      "search_1688": "奶瓶刷 吸管刷 水杯刷 套装 硅胶 5件 便携",
+      "demand_signals": [
+        "Amazon UK 有大量真实 SKU — b.box 5件套(£7.74,4.5分/47) + 多个 5-in-1 品牌款（£5.79-£10.99），Amazon Choice 的 MR.SIGA 等，说明刚性消耗场景真实",
+        "UK 回校季水杯潮流 — 8月返校 Stanley/保温杯 水杯搜索走高（water bottles +263%），配套清洗套件随之增长；水杯被孩子用脏洗完更难洗",
+        "1688 母婴清洁专区 — 硅胶奶瓶刷套装 ¥0.92-¥7/套，56%回购率数据(真实口碑)，出口跨境英文包装主力",
+        "可拆收纳一体 — 多件刷 + 收纳架一体，冲动购买 10 元内，ac beyond — 自收可补做杯/吸管卫生"
+      ],
+      "trend_score": 76,
+      "trend_direction": "stable",
+      "reason": "返校季水杯场景带来的后装需求：保温杯/吸管洗不净是 UK 家长日常抱怨，硅胶+不锈钢无电子件，完全合规。选 10x10cm '5-井-1' 便携拆盖款（轻约 100g），避开 MR 39.5cm 长柄(超尺寸32cm)。1688 采购 ¥60-100（约 £1.1-1.7），Amazon £7.99-£9.99 定价，毛估佣金按 Home/Kitchen 8% 或 母婴 15% 在 27-38%之间。差异化：一套刷子+磁吸收纳挂架+杯刷专用，做小红书 YouTube 洗杯切题场景内容。",
+      "action": "007测品店：上架 Portable Water Bottle Cleaning Kit 5-in-1（适合吸管杯/保温杯），定价 £8.99，1688 搜索 '奶瓶刷 吸管 水杯刷 5件 便携套装'，首批 300 套。词库：'bottle brush set' + 'straw cleaner tumbler' + 'water bottle cleaning kit' + 'travel cleaning brush'。用可拆收纳款+带收纳袋差异化。注：不选 39.5cm 长柄款（超 32cm 尺寸限制）。",
+      "competition": "中等——注册轻量；竞争但多 5-in-1 低价小 ISO。£6-9 区段 15-20 ASIN。差异化集中在收纳、串扣挂架与颜色。是一个干净不做电子不通电的合规品。",
+      "signal_scores": {
+        "trend": 80,
+        "gap": 66,
+        "profit": 78,
+        "final": 74.7,
+        "recommendation": "BUY",
+        "gap_level": "中等竞争",
+        "profit_window": "1688 ¥10以内可保 35%+ 毛利(佣金按8%-15%)；挑选便携式，避免 MR-SIGA 39.5cm 超尺寸款"
+      }
+    },
+    {
+      "keyword": "kids lunch box notes cards positive affirmation set",
+      "keyword_cn": "儿童便当盒暖心留言卡片 正面肯定纸条套装",
+      "amazon_keyword": "lunch box notes for kids, positive affirmation cards kids lunchbox, funny lunch notes 100, lunch love notes",
+      "search_1688": "便当留言卡 小学生 学校用语 早安 卡片 套装 儿童积极",
+      "demand_signals": [
+        "Amazon UK 真实品类 — 'lunch box notes for kids' 有大量 listing（100-380张套装 £5-£9），多 4.4-4.8 高分，返校 8 月Downloaded 便当卡需求高峰（家长开学前囤货）",
+        "UK 开学第一周（8月底-9月初）亲子关怀 — 返校一年级新生分离焦虑，父母在便当里放鼓励卡是 UK 热门育儿习惯，TikTok #SchoolLunchTok 内容持续",
+        "纯纸品极致轻小 — 100张卡 重 <150g，包装信封/铁盒 ≤尺寸，FBA 最小标准系统中上壳",
+        "二次开学常青补货 — 除了开学季，无特殊假日需求，全年 学生家长 等场景（生日/考试周）"
+      ],
+      "trend_score": 77,
+      "trend_direction": "rising",
+      "reason": "与已做的姓名贴、和纸胶带、魔法水画本不同，这是「返校关怀」轻纸品：一张张正面孩子笑脸，各家长装进便当盒。1688 直接印刷成本极低（¥4-8/100张，一桶 ¥6-10），Amazon £5.99-£6.99 定价，毛利可高达 40-50%（纯消耗品复购好）。100-180 张按量多款装提高客单，会员 Buy 框铺垫复购。包装纸盒≤32cm。完全非电子，且越轻越高毛利，定点半。",
+      "action": "027新店测款：上架 'Lunch Box Notes for Kids, 100-Count 鼓励卡套装'，定价 £6.99，1688 搜索 '便当留言卡 小学生 100sc 套装 英文'（找英文包装印刷厂），首批 500 套（单项成本极低）。关键词：'lunch box notes' + 'notes for kids' + 'positive affirmation cards' + 'school lunch love notes'。做 6 主题×多样化插图+回收牛皮纸铁盒收纳。",
+      "competition": "中等偏低——Amazon listing 多但品牌集中度低，多为杂牌印刷。差异化在：铁盒/盒子包装 + 主题多样（暖心/丑萌/鼓励/正能量）+ 搭配订制 5款。若 1688 印刷质量好可稳定锁客。曾一大风险：便宜纸品被刷低价，但季度返校场景够重。",
+      "signal_scores": {
+        "trend": 82,
+        "gap": 74,
+        "profit": 90,
+        "final": 81.0,
+        "recommendation": "STRONG_BUY",
+        "gap_level": "中低竞争",
+        "profit_window": "1688 ¥8以内/100张可保 40%+利润(毛利约45%，佣金约8%，FBA约£2.00) "
+      }
+    }
+  ],
+  "trend_forecast": "未来2个月（2026年8-9月）三大趋势方向：①808返校季峰值（8月初购买意图最集中，9月仍领先购买意图29%），学校午餐(lunchbox)+文具+写字辅助是核心高意图场景——本次 4 品全部直接命中；②UK 水杯/保温杯返校后劲上扬（water cooler 搜索+263%），带动清洗配件；③夏末强劲纸品/关怀礼物（温暖卡片），笑back-to-school（sep 1) 是全网 UK 家长共同 calendar。\\n\\n⚠️ 本次推荐全部遵守小标准件红线（≤200g/≤32×22×6cm/无电子件无电池无液体），并且全部为未推荐过的新品类（避开 烤箱/Bento/美发/干发帽/握笔器以外的文具重复）。佣金率注意落差：Home&Kitchen 8%、Sweet载/母婴可达15%，先确认品类佣金再定价。"
+}
