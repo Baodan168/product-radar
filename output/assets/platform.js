@@ -319,7 +319,12 @@ function renderRadar() {
   const radarData = RADAR_ALL[curDate];
   const products = radarData ? radarData.products || [] : [];
 
-  if (!products.length) { grid.innerHTML=''; empty.style.display='block'; return; }
+  if (!products.length) { grid.innerHTML=''; empty.style.display='block';
+    // 2026-08-03: 区分「今日扫描但无新品」与「该日期无雷达数据」。
+    // 有 has_scan 标记（今日确实扫描过，只是全为重复）→ 显示「今日暂无新品推荐」，不回退其他日期
+    const msgEl = document.getElementById('emptyRadarMsg');
+    if (msgEl) msgEl.textContent = (radarData && radarData.has_scan) ? '今日暂无新品推荐' : '该日期无雷达数据';
+    return; }
   empty.style.display='none';
 
   const search = document.getElementById('radarSearch').value.toLowerCase();
