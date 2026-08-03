@@ -149,7 +149,10 @@ function safeUrl(u){
   }catch(e){ return ''; }
 }
 
-let curDate = DATES[0] || '';
+// curDate 初始化为最近有雷达新品数据的日期（RADAR_DATES[0]）。
+// 2026-08-03 修复：原 DATES[0] 可能只有发现数据而无雷达数据（零新品日被
+// generate_platform.py 从 RADAR_DATES 过滤），导致雷达 tab 空白。
+let curDate = (RADAR_DATES.length ? RADAR_DATES[0] : DATES[0]) || '';
 let curTab = 'discovery';
 
 // ===== Date Picker (unified) =====
