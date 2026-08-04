@@ -36,20 +36,20 @@ if [ -d "$GIT_DIR_PATH/rebase-merge" ] || [ -d "$GIT_DIR_PATH/rebase-apply" ] \
     exit 1
 fi
 
-# Step 0: 同步代码到 GitHub 最新（autostash 自动保存并恢复未提交改动，冲突时保留stash并报警）
-git fetch origin
-# 同步失败必须中止。这里曾是 `... || ... || true`：两种同步都没成时脚本会继续
-# 用旧代码生成并推上去，而 cron 只给一行摘要，看不出用的是哪个版本 ——
-# 「静默发布错版本」的唯一入口。宁可这次不更新，也不要发布一个说不清来源的产物。
-if ! git pull --rebase --autostash origin main 2>&1; then
-    if ! git merge --ff-only origin/main 2>&1; then
-        echo "❌ 代码同步失败 | $(date '+%Y-%m-%d %H:%M')"
-        echo "   git pull --rebase 和 git merge --ff-only 都没成功。"
-        echo "   本地 $(git rev-parse --short HEAD) / origin/main $(git rev-parse --short origin/main)"
-        echo "   本次跳过扫描，不发布 —— 继续跑会用旧代码生成并推上线。"
-        echo "   处理：到仓库里手工解决分叉（git status / git log --oneline -5）后重跑。"
-        exit 1
-    fi
+# Step 0: 检查本地代码与 GitHub 远程是否一致（API 方式，不走 git/SSH 协议）
+# 2026-08-03 修复：原 git fetch/pull 走 SSH，SSH key 失效导致 cron 在第一步就挂。
+# 本机是唯一完整开发环境（16 处路径绑死本机），代码变更都在本地发生，
+# 远程 main 只是发布载体（部署走 github_api_push.py，API 推送）。
+# 因此用 api.github.com 对比版本 —— 与项目其他 cron 一致，零 SSH 依赖。
+# 判断标准：本地 HEAD 是否在远程最近 100 个 commit 里。API 推送的产物 commit
+# 会让远程领先本地（正常，不警告）；只有本地与远程分叉/被 force push 才警告。
+LOCAL_SHA=$(git rev-parse HEAD)
+REMOTE_COMMITS=$(curl -s --max-time 20 -H "Authorization: token $GITHUB_TOKEN" \
+  "https://api.github.com/repos/Baodan168/product-radar/commits?sha=main&per_page=100" 2>/dev/null \
+  | python3 -c "import json,sys; print(' '.join(c['sha'] for c in json.load(sys.stdin)))" 2>/dev/null || echo "")
+if [ -n "$REMOTE_COMMITS" ] && ! echo "$REMOTE_COMMITS" | grep -qw "$LOCAL_SHA"; then
+    echo "⚠️ 警告: 本地 HEAD ($(echo $LOCAL_SHA | cut -c1-7)) 不在远程 main 历史中，可能与远程分叉" >&2
+    echo "   本机为唯一开发环境，继续使用本地代码。如需同步请手动 git pull（本机需配好 SSH key）。" >&2
 fi
 # 冲突检测：rebase 后 autostash 未能自动恢复时报警（改动保留在 refs/autostash，不会静默丢失）
 if git rev-parse --verify refs/autostash >/dev/null 2>&1; then
@@ -183,17 +183,19 @@ echo ""
 step "deploy"
 echo "📦 Step 4: 部署到 GitHub Pages..."
 # timeout 180: output/analysis 全量推送后 API 调用约 30 批，60s 不够会误判失败走 fallback
-timeout 180 python3 github_api_push.py "auto-scan $(date -u '+%Y-%m-%d %H:%M')" 2>&1 || {
-    # Fallback to git push (with longer timeout for 1.3MB platform.html)
-    timeout 60 git add data/ output/ status.json -f 2>/dev/null
-    git diff --cached --quiet && echo "  无变更" && exit 0
-    timeout 20 git commit -m "auto-scan $(date -u '+%Y-%m-%d %H:%M')" 2>/dev/null
-    timeout 60 git pull --rebase 2>/dev/null || true
-    timeout 120 git push origin main 2>&1
-} || {
-    echo "❌ 部署到 GitHub 失败"
-    exit 1
-}
+# ⚠️ 2026-08-03: 移除 SSH git push fallback（SSH key 已废弃，fallback 永远失败且白耗 120s）。
+#    github_api_push.py 已内置 3 次重试（GFW 间歇断连 api.github.com 443 → RemoteDisconnected 可过）
+if timeout 180 python3 github_api_push.py "auto-scan $(date -u '+%Y-%m-%d %H:%M')" 2>&1; then
+    :
+else
+    echo "  ⚠️ API 推送失败，重试一次..."
+    if timeout 180 python3 github_api_push.py "auto-scan $(date -u '+%Y-%m-%d %H:%M')" 2>&1; then
+        :
+    else
+        echo "❌ 部署到 GitHub 失败（API 推送两次均失败）"
+        exit 1
+    fi
+fi
 
 echo ""
 echo "✅ 部署完成：https://Baodan168.github.io/product-radar/platform.html"

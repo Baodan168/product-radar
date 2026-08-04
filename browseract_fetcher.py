@@ -20,10 +20,10 @@ from pathlib import Path
 
 BROWSER_ID = "chrome_local_103642719185797272"
 SESSION_PREFIX = "radar"
-TIMEOUT_NAV = 20
-TIMEOUT_EVAL = 15
+TIMEOUT_NAV = 10
+TIMEOUT_EVAL = 8
 TIMEOUT_CLICK = 5
-MAX_RETRIES = 1
+MAX_RETRIES = 0  # 失败即弃：BrowserAct 不稳定时重试会把 cron 600s 预算拖爆（2026-08-03 实测 5 通道 × 重试 ≈ 500s）
 MAX_CONCURRENT = 6  # Max concurrent Chrome sessions
 
 # Semaphore for concurrency control (queue with longer timeout instead of skip)

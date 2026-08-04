@@ -167,6 +167,9 @@ def _set_cache(url, html):
 # thread conflict in the shared CloakBrowser"），只是没回头改这里。
 _tls = threading.local()
 _amazon_fetch_lock = threading.Lock()
+# BrowserAct 熔断：连续 2 次失败后本批次跳过（不稳定时省预算，2026-08-03）
+_browseract_circuit_open = False
+_browseract_consec_fail = 0
 
 def _get_browser():
     if getattr(_tls, 'ctx', None) is None:
@@ -210,7 +213,7 @@ def _cloakbrowser_fetch(url):
         browser, ctx = _get_browser()
         page = ctx.new_page()
         try:
-            page.goto(url, timeout=45000)
+            page.goto(url, timeout=30000)
             page.wait_for_timeout(2000)
 
             # Accept cookies if present
@@ -253,7 +256,7 @@ def _cloakbrowser_fetch(url):
                 )
                 page = ctx.new_page()
                 try:
-                    page.goto(url, timeout=45000, wait_until='domcontentloaded')
+                    page.goto(url, timeout=30000, wait_until='domcontentloaded')
                     page.wait_for_timeout(3000)
                     html = page.content()
                     return html
@@ -293,7 +296,7 @@ def _curl_fetch(url):
             "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
             "Accept-Language": "en-GB,en;q=0.9",
         }
-        resp = cffi_req.get(url, impersonate="chrome", headers=cffi_headers, timeout=30)
+        resp = cffi_req.get(url, impersonate="chrome", headers=cffi_headers, timeout=15)
         if resp.status_code == 200 and _is_valid_response(resp.text):
             print(f"  curl_cffi OK (len={len(resp.text)})", file=sys.stderr)
             return resp.text
@@ -501,6 +504,7 @@ def fetch(max_per_channel_type=5):
 
     # Fetch URLs with rate limiting — serialized via lock + cache
     def _fetch_one(item):
+        global _browseract_circuit_open, _browseract_consec_fail
         category, channel_type, url = item
 
         # Serialize: only one Amazon request at a time (true sequential delay)
@@ -521,16 +525,23 @@ def fetch(max_per_channel_type=5):
                 print(f"  warn {category}/{channel_type}: empty", file=sys.stderr)
                 # Try search fallback with delay
                 search_query = SEARCH_FALLBACKS.get(category)
-                if search_query:
+                if search_query and not _browseract_circuit_open:
                     time.sleep(3)  # Extra delay before BrowserAct
                     from browseract_fetcher import search_amazon
                     search_products = search_amazon(search_query, max_products=max_per_channel_type, category=category)
                     if search_products:
+                        _browseract_consec_fail = 0
                         for p in search_products:
                             p['channel'] = channel_type
                             p['channel_name'] = CHANNEL_NAMES.get(channel_type, channel_type)
                         print(f"  ok {category}/{channel_type}: {len(search_products)} from search fallback", file=sys.stderr)
                         return (category, channel_type, search_products)
+                    else:
+                        # BrowserAct 失败——计数熔断，连续 2 次失败后本批次不再调用
+                        _browseract_consec_fail += 1
+                        if _browseract_consec_fail >= 2:
+                            _browseract_circuit_open = True
+                            print("  🔌 BrowserAct 连续失败，熔断本批次", file=sys.stderr)
                 return (category, channel_type, [])
 
             # Save successful fetch to cache

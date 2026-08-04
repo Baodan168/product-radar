@@ -112,13 +112,16 @@ def load_all_radar():
     # 合并过去月份（如6月）到月度 key
     result = _consolidate_past_months(result)
 
-    # 过滤：只保留有新品的日期/月份
+    # 过滤：保留所有有扫描记录的日期；products 只保留新品（is_new=True）
+    # 2026-08-03: has_scan=True 标记该日期确实有扫描（零新品日 products=[] 也保留，
+    # 前端据此显示「今日暂无新品推荐」而非回退其他日期 / 误判为无数据）
     filtered = {}
     for date, data in result.items():
         products = data.get('products', [])
         new_products = [p for p in products if p.get('is_new') == True]
-        if new_products:
-            filtered[date] = data
+        data['products'] = new_products
+        data['has_scan'] = True
+        filtered[date] = data
 
     return filtered
 
@@ -162,6 +165,8 @@ def generate_platform_html(radar_all=None, discovery_all=None, output_path=None)
             'products': data.get('products', []),
             'stats': data.get('stats', {}),
             'scan_time': data.get('scan_time', ''),
+            # 2026-08-03: 零新品日标记，前端据此显示「今日暂无新品推荐」
+            'has_scan': data.get('has_scan', True),
         }
 
     # Build discovery JS data, converting products to insights format if needed

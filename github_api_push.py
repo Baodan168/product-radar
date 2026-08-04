@@ -1,8 +1,10 @@
 """通过GitHub API推送文件到仓库（绕过git push超时问题）
 用法: python3 github_api_push.py "commit message"
 """
-import json, os, sys, base64
+import json, os, sys, base64, time
 import urllib.request
+import urllib.error
+import http.client
 
 REPO = 'Baodan168/product-radar'
 BRANCH = 'main'
@@ -19,14 +21,23 @@ def get_token():
             return f.read().strip()
     raise RuntimeError("GITHUB_TOKEN not set in environment or ~/.hermes/github_token.txt")
 
-def api(method, path, data=None):
+def api(method, path, data=None, _retries=3):
+    """GitHub API 调用，带重试（GFW 间歇阻断 api.github.com 443 → RemoteDisconnected，重试可过）"""
     token = get_token()
     headers = {'Authorization': f'token {token}', 'Content-Type': 'application/json', 'User-Agent': 'hermes'}
     body = json.dumps(data).encode() if data else None
-    req = urllib.request.Request(f'https://api.github.com{path}', headers=headers, data=body)
-    if method != 'POST':
-        req.get_method = lambda: method
-    return json.loads(urllib.request.urlopen(req, timeout=60).read())
+    last_err = None
+    for attempt in range(_retries):
+        try:
+            req = urllib.request.Request(f'https://api.github.com{path}', headers=headers, data=body)
+            if method != 'POST':
+                req.get_method = lambda: method
+            return json.loads(urllib.request.urlopen(req, timeout=60).read())
+        except (urllib.error.URLError, TimeoutError, ConnectionError, http.client.RemoteDisconnected) as e:
+            last_err = e
+            if attempt < _retries - 1:
+                time.sleep(2 * (attempt + 1))  # 2s, 4s backoff
+    raise last_err
 
 def push_files(files, message):
     """推送指定文件列表到GitHub"""
@@ -98,7 +109,11 @@ if __name__ == '__main__':
     # Always-push files
     # 门户壳的 JS 从内联抽到了 output/assets/，漏推的话线上门户会白屏
     for f in ('output/platform.html', 'output/index.html', 'output/assets/portal.js',
-              'output/data/radar-all.js', 'output/data/disc-all.js', 'output/data/festivals.js', 'status.json'):
+              'output/data/radar-all.js', 'output/data/disc-all.js', 'output/data/festivals.js', 'status.json',
+              # ⚠️ 2026-08-03: platform.html 模板引用 assets/platform.js（仓库根路径），
+              # 但此前只推 output/assets/ → 线上顶层 platform.js 一直是旧版（雷达tab空白根因之一）。
+              # 顶层 assets/ 必须同步，模板引用才会命中新版。
+              'assets/platform.js', 'assets/portal.js'):
         fp = os.path.join(base, f)
         if os.path.exists(fp):
             files.append((f, fp))
