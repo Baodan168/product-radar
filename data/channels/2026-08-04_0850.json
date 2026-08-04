@@ -1,0 +1,1826 @@
+{
+  "scan_date": "2026-08-04",
+  "scan_time": "08:50",
+  "scan_ts": "2026-08-04_0850",
+  "stats": {
+    "total_scanned": 241,
+    "passed_filter": 11,
+    "rejected": 225,
+    "channels": {
+      "etsy_trending": 9,
+      "keyword_search": 11,
+      "tiktok_verified": 9,
+      "google_trends": 11,
+      "temu_trending": 9,
+      "multi_source": 11
+    },
+    "detail_reject": {
+      "重量超标": 2
+    },
+    "theme_trimmed": [
+      {
+        "asin": "B0DSC6CP5F",
+        "name": "New English Teas Victorian Floral Tea Tin with 40 Tea Bags - Sunflower | Black Tea, English Afternoon Blend, Gifts for T"
+      },
+      {
+        "asin": "B0GRZLZW18",
+        "name": "Oleegil 3-Tiers Cake Stand - 2 Pack White Afternoon Tea Stands | Cup Cake Fruit Dessert Party Stands for Weddings Birthd"
+      },
+      {
+        "asin": "0600639800",
+        "name": "The Jane Austen Recipe Book: Picnics, Feasts and Afternoon Teas Inspired by Jane Austen"
+      },
+      {
+        "asin": "1529434998",
+        "name": "Harry Potter Afternoon Tea Magic: Official Snacks, Sips and Sweets Inspired by the Wizarding World (Official Harry Potte"
+      },
+      {
+        "asin": "B08LVL4BT8",
+        "name": "MIAOQI Foldable Magnetic Chess Set, Mini Pocket Student Mini Portable Traditional Fun Magnetic Folding Board Games for T"
+      }
+    ],
+    "trend_categories": {
+      "phone": 100,
+      "garden": 100,
+      "pets": 99,
+      "lighting": 93,
+      "home decor": 85,
+      "office": 77
+    },
+    "supply_demand": {
+      "pets": {
+        "ratio": 7.1,
+        "demand": 99,
+        "supply": 1052063,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "kitchen": {
+        "ratio": 5.6,
+        "demand": 64,
+        "supply": 89496,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "sports": {
+        "ratio": 4.5,
+        "demand": 50,
+        "supply": 71825,
+        "label": "💧 浅蓝海",
+        "level": "light_blue"
+      },
+      "kitchen_gadgets": {
+        "ratio": 0.4,
+        "demand": 5,
+        "supply": 89496,
+        "label": "🔴 红海",
+        "level": "red_ocean"
+      },
+      "cleaning": {
+        "ratio": 0,
+        "demand": 32,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "car": {
+        "ratio": 0,
+        "demand": 47,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "office": {
+        "ratio": 0,
+        "demand": 77,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "storage": {
+        "ratio": 0,
+        "demand": 61,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      }
+    },
+    "divergences": {
+      "kitchen": {
+        "current_heat": 71,
+        "previous_heat": 76,
+        "heat_change_pct": -6.6,
+        "direction": "stable",
+        "dates": [
+          "2026-08-01_1400",
+          "2026-08-03_1538"
+        ]
+      },
+      "garden": {
+        "current_heat": 82,
+        "previous_heat": 80,
+        "heat_change_pct": 2.5,
+        "direction": "stable",
+        "dates": [
+          "2026-08-01_1400",
+          "2026-08-03_1538"
+        ]
+      },
+      "bathroom": {
+        "current_heat": 46,
+        "previous_heat": 57,
+        "heat_change_pct": -19.3,
+        "direction": "stable",
+        "dates": [
+          "2026-08-01_1400",
+          "2026-08-03_1538"
+        ]
+      },
+      "cleaning": {
+        "current_heat": 61,
+        "previous_heat": 67,
+        "heat_change_pct": -9.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-01_1400",
+          "2026-08-03_1538"
+        ]
+      },
+      "car": {
+        "current_heat": 50,
+        "previous_heat": 60,
+        "heat_change_pct": -16.7,
+        "direction": "stable",
+        "dates": [
+          "2026-08-01_1400",
+          "2026-08-03_1538"
+        ]
+      },
+      "office": {
+        "current_heat": 82,
+        "previous_heat": 80,
+        "heat_change_pct": 2.5,
+        "direction": "stable",
+        "dates": [
+          "2026-08-01_1400",
+          "2026-08-03_1538"
+        ]
+      },
+      "storage": {
+        "current_heat": 50,
+        "previous_heat": 41,
+        "heat_change_pct": 22.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-01_1400",
+          "2026-08-03_1538"
+        ]
+      },
+      "lighting": {
+        "current_heat": 82,
+        "previous_heat": 100,
+        "heat_change_pct": -18.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-01_1400",
+          "2026-08-03_1538"
+        ]
+      },
+      "pets": {
+        "current_heat": 100,
+        "previous_heat": 100,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-01_1400",
+          "2026-08-03_1538"
+        ]
+      },
+      "sports": {
+        "current_heat": 53,
+        "previous_heat": 42,
+        "heat_change_pct": 26.2,
+        "direction": "stable",
+        "dates": [
+          "2026-08-01_1400",
+          "2026-08-03_1538"
+        ]
+      },
+      "crafts": {
+        "current_heat": 73,
+        "previous_heat": 89,
+        "heat_change_pct": -18.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-01_1400",
+          "2026-08-03_1538"
+        ]
+      },
+      "bedding": {
+        "current_heat": 40,
+        "previous_heat": 47,
+        "heat_change_pct": -14.9,
+        "direction": "stable",
+        "dates": [
+          "2026-08-01_1400",
+          "2026-08-03_1538"
+        ]
+      },
+      "travel": {
+        "current_heat": 57,
+        "previous_heat": 34,
+        "heat_change_pct": 67.6,
+        "direction": "rising",
+        "dates": [
+          "2026-08-01_1400",
+          "2026-08-03_1538"
+        ]
+      },
+      "phone": {
+        "current_heat": 100,
+        "previous_heat": 100,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-01_1400",
+          "2026-08-03_1538"
+        ]
+      },
+      "beauty": {
+        "current_heat": 73,
+        "previous_heat": 83,
+        "heat_change_pct": -12.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-01_1400",
+          "2026-08-03_1538"
+        ]
+      },
+      "home decor": {
+        "current_heat": 71,
+        "previous_heat": 83,
+        "heat_change_pct": -14.5,
+        "direction": "stable",
+        "dates": [
+          "2026-08-01_1400",
+          "2026-08-03_1538"
+        ]
+      },
+      "baby": {
+        "current_heat": 57,
+        "previous_heat": 50,
+        "heat_change_pct": 14.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-01_1400",
+          "2026-08-03_1538"
+        ]
+      },
+      "kitchen_gadgets": {
+        "current_heat": 27,
+        "previous_heat": 34,
+        "heat_change_pct": -20.6,
+        "direction": "falling",
+        "dates": [
+          "2026-08-01_1400",
+          "2026-08-03_1538"
+        ]
+      },
+      "eco": {
+        "current_heat": 61,
+        "previous_heat": 67,
+        "heat_change_pct": -9.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-01_1400",
+          "2026-08-03_1538"
+        ]
+      },
+      "seasonal": {
+        "current_heat": 67,
+        "previous_heat": 73,
+        "heat_change_pct": -8.2,
+        "direction": "stable",
+        "dates": [
+          "2026-08-01_1400",
+          "2026-08-03_1538"
+        ]
+      }
+    },
+    "gap_opportunities": 15
+  },
+  "products": [
+    {
+      "asin": "B0DKTDM5DD",
+      "name": "Wooden Trays for Serving, Large Wooden Serving Tray with Handles | Rectangular Kitchen Tray, for Serving Coffee, Tea, Br",
+      "price": 9.26,
+      "reviews": 19,
+      "rating": 4.0,
+      "rank": 48,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "19 reviews, 4.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DKTDM5DD",
+      "image_url": "https://m.media-amazon.com/images/I/71hqwf7AEeL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "serving tray",
+      "festival_event": "下午茶季/Apple Day",
+      "festival_icon": "🫖",
+      "festival_deadline": "2026-08-05",
+      "is_event": false,
+      "sources": [
+        "📅 下午茶季/Apple Day",
+        "Google趋势",
+        "Reddit需求",
+        "Temu热销",
+        "Etsy趋势",
+        "TikTok趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.319,
+      "net_profit": 2.95,
+      "cost_breakdown": {
+        "vat": 1.55,
+        "commission": 1.39,
+        "fba": 1.46,
+        "ads": 0.93,
+        "returns": 0.19,
+        "sourcing": 0.8,
+        "total_cost": 6.31
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 5.6,
+        "demand": 64,
+        "supply": 89496,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy",
+        "Reddit"
+      ],
+      "internal_sources": [],
+      "score": 142,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "💬 Reddit": 5,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "📈 趋势(kitchen)": 8,
+        "🌊 蓝海": 15,
+        "💰 高利润": 8,
+        "❓ 品类存疑": -5,
+        "🌊 深蓝海": 20,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-04",
+      "is_multi": true,
+      "channel_tags": [
+        "etsy_trending",
+        "keyword_search",
+        "tiktok_verified",
+        "google_trends",
+        "temu_trending",
+        "multi_source"
+      ]
+    },
+    {
+      "asin": "B0CZDPNV6B",
+      "name": "MAGLAUG Afternoon Tea Party Decorations Paper Tableware Set | Floral Disposable Tableware Table Cloth for Tea Party Moth",
+      "price": 10.82,
+      "reviews": 13,
+      "rating": 4.7,
+      "rank": 28,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "13 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CZDPNV6B",
+      "image_url": "https://m.media-amazon.com/images/I/71UvWUfqkIL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "afternoon tea",
+      "festival_event": "下午茶季/Apple Day",
+      "festival_icon": "🫖",
+      "festival_deadline": "2026-08-05",
+      "is_event": false,
+      "sources": [
+        "📅 下午茶季/Apple Day",
+        "Google趋势",
+        "Temu热销",
+        "Etsy趋势",
+        "TikTok趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.354,
+      "net_profit": 3.83,
+      "cost_breakdown": {
+        "vat": 1.81,
+        "commission": 1.62,
+        "fba": 1.46,
+        "ads": 1.08,
+        "returns": 0.22,
+        "sourcing": 0.8,
+        "total_cost": 6.99
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 141,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(crafts)": 23,
+        "🌊 蓝海": 15,
+        "⭐ 高评分": 5,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-04",
+      "is_multi": true,
+      "channel_tags": [
+        "etsy_trending",
+        "keyword_search",
+        "tiktok_verified",
+        "google_trends",
+        "temu_trending",
+        "multi_source"
+      ]
+    },
+    {
+      "asin": "B0DGQ6DW7D",
+      "name": "GHKJOK Afternoon Tea Decorations - Floral Tablecloth and Napkins Set, 2 PCS Disposable Tablecloth 137x274cm with 20 PCS ",
+      "price": 8.32,
+      "reviews": 15,
+      "rating": 4.5,
+      "rank": 24,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "15 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DGQ6DW7D",
+      "image_url": "https://m.media-amazon.com/images/I/71xBiocopIL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "afternoon tea",
+      "festival_event": "下午茶季/Apple Day",
+      "festival_icon": "🫖",
+      "festival_deadline": "2026-08-05",
+      "is_event": false,
+      "sources": [
+        "📅 下午茶季/Apple Day",
+        "Google趋势",
+        "Temu热销",
+        "Etsy趋势",
+        "TikTok趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.291,
+      "net_profit": 2.42,
+      "cost_breakdown": {
+        "vat": 1.39,
+        "commission": 1.25,
+        "fba": 1.46,
+        "ads": 0.83,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 5.9
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 141,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(home decor)": 23,
+        "🌊 蓝海": 15,
+        "⭐ 高评分": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-04",
+      "is_multi": true,
+      "channel_tags": [
+        "etsy_trending",
+        "keyword_search",
+        "tiktok_verified",
+        "google_trends",
+        "temu_trending",
+        "multi_source"
+      ]
+    },
+    {
+      "asin": "B0D6W439JK",
+      "name": "MAGLAUG Afternoon Tea Decorations Paper Party Plates Tableware Set | Floral Paper Disposable Tableware Table Cloth for T",
+      "price": 10.82,
+      "reviews": 28,
+      "rating": 4.6,
+      "rank": 19,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "28 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0D6W439JK",
+      "image_url": "https://m.media-amazon.com/images/I/81-RS3JRLqL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "afternoon tea",
+      "festival_event": "下午茶季/Apple Day",
+      "festival_icon": "🫖",
+      "festival_deadline": "2026-08-05",
+      "is_event": false,
+      "sources": [
+        "📅 下午茶季/Apple Day",
+        "Google趋势",
+        "Temu热销",
+        "Etsy趋势",
+        "TikTok趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.354,
+      "net_profit": 3.83,
+      "cost_breakdown": {
+        "vat": 1.81,
+        "commission": 1.62,
+        "fba": 1.46,
+        "ads": 1.08,
+        "returns": 0.22,
+        "sourcing": 0.8,
+        "total_cost": 6.99
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 136,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(crafts)": 23,
+        "🟢 低竞争": 10,
+        "⭐ 高评分": 5,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-04",
+      "is_multi": true,
+      "channel_tags": [
+        "etsy_trending",
+        "keyword_search",
+        "tiktok_verified",
+        "google_trends",
+        "temu_trending",
+        "multi_source"
+      ]
+    },
+    {
+      "asin": "B0GCMDNXNW",
+      "name": "Hydro2Go Disposable Rain Ponchos for Adults, 4 Pack Clear Ponchos with Hood, 40 x 50 Inches Lightweight Emergency Poncho",
+      "price": 11.82,
+      "reviews": 10,
+      "rating": 4.2,
+      "rank": 37,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "10 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GCMDNXNW",
+      "image_url": "https://m.media-amazon.com/images/I/710LpxSy99L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "rain poncho 4 pack, festival rain poncho, emergency rain ponchos with hood, disposable rain poncho adults, waterproof poncho festival essentials",
+      "sources": [
+        "趋势发现",
+        "Google趋势",
+        "Temu热销",
+        "Etsy趋势",
+        "TikTok趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.372,
+      "net_profit": 4.39,
+      "cost_breakdown": {
+        "vat": 1.97,
+        "commission": 1.77,
+        "fba": 1.46,
+        "ads": 1.18,
+        "returns": 0.24,
+        "sourcing": 0.8,
+        "total_cost": 7.43
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 136,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(lighting)": 23,
+        "🌊 蓝海": 15,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-04",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "etsy_trending",
+        "keyword_search",
+        "tiktok_verified",
+        "google_trends",
+        "temu_trending",
+        "multi_source"
+      ]
+    },
+    {
+      "asin": "B0CJJJ119Q",
+      "name": "Bug Bite Thing Original Suction Tool for Insect Bites | CE-marked medical device. Reusable, chemical-free suction tool o",
+      "price": 12.95,
+      "reviews": 29,
+      "rating": 3.8,
+      "rank": 5,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "29 reviews, 3.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CJJJ119Q",
+      "image_url": "https://m.media-amazon.com/images/I/41pxam3ycsL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "bug bite thing, insect bite suction tool, mosquito bite relief pen, bite away suction, chemical free insect bite relief, bug bite suction pump, mosquito bite itch relief tool",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势",
+        "Google趋势",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.388,
+      "net_profit": 5.03,
+      "cost_breakdown": {
+        "vat": 2.16,
+        "commission": 1.94,
+        "fba": 1.46,
+        "ads": 1.29,
+        "returns": 0.26,
+        "sourcing": 0.8,
+        "total_cost": 7.92
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 126,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "📈 趋势(eco)": 8,
+        "🟢 低竞争": 10,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "🌴 当季(summer)": 10,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-04",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "etsy_trending",
+        "keyword_search",
+        "tiktok_verified",
+        "google_trends",
+        "temu_trending",
+        "multi_source"
+      ]
+    },
+    {
+      "asin": "B0CY8D79ND",
+      "name": "SOL 4 in 1 Travel Games Set - Snakes and Ladders, Chess, Ludo, Draughts | Mini magnetic board games compact for travel, ",
+      "price": 6.99,
+      "reviews": 39,
+      "rating": 4.3,
+      "rank": 11,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "39 reviews, 4.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CY8D79ND",
+      "image_url": "https://m.media-amazon.com/images/I/81GYIWDT93L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "magnetic travel games, travel chess set magnetic, travel games for kids on plane, magnetic board games set of 4, car journey games, portable chess and draughts, screen free travel activities",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势",
+        "Google趋势",
+        "Reddit需求",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.24,
+      "net_profit": 1.68,
+      "cost_breakdown": {
+        "vat": 1.17,
+        "commission": 1.05,
+        "fba": 1.46,
+        "ads": 0.7,
+        "returns": 0.14,
+        "sourcing": 0.8,
+        "total_cost": 5.31
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy",
+        "Reddit"
+      ],
+      "internal_sources": [],
+      "score": 119,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "💬 Reddit": 5,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "📈 趋势(travel)": 8,
+        "🟢 低竞争": 10,
+        "❓ 品类存疑": -5,
+        "🌴 当季(summer)": 10,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-04",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "etsy_trending",
+        "keyword_search",
+        "tiktok_verified",
+        "google_trends",
+        "temu_trending",
+        "multi_source"
+      ]
+    },
+    {
+      "asin": "B0FL7YHHRV",
+      "name": "GCNWW Mini Magnetic Chess Set, Folding Chess Board for Adults | Portable Mini Chess Set for Travel and Outings, Traditio",
+      "price": 6.66,
+      "reviews": 10,
+      "rating": 4.1,
+      "rank": 33,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "10 reviews, 4.1★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FL7YHHRV",
+      "image_url": "https://m.media-amazon.com/images/I/71v5A0voOhL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "magnetic travel games, travel chess set magnetic, travel games for kids on plane, magnetic board games set of 4, car journey games, portable chess and draughts, screen free travel activities",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势",
+        "Google趋势",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.224,
+      "net_profit": 1.49,
+      "cost_breakdown": {
+        "vat": 1.11,
+        "commission": 1.0,
+        "fba": 1.46,
+        "ads": 0.67,
+        "returns": 0.13,
+        "sourcing": 0.8,
+        "total_cost": 5.17
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 119,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "📈 趋势(travel)": 8,
+        "🌊 蓝海": 15,
+        "❓ 品类存疑": -5,
+        "🌴 当季(summer)": 10,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-04",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "etsy_trending",
+        "keyword_search",
+        "tiktok_verified",
+        "google_trends",
+        "temu_trending",
+        "multi_source"
+      ]
+    },
+    {
+      "asin": "B0FMXLG87Y",
+      "name": "Magnetic Game,Logic Training Board Game for Kids,Magnetic Chesss Set with 20 Pieces Chess, For Birthdays And Family Gath",
+      "price": 7.49,
+      "reviews": 196,
+      "rating": 3.9,
+      "rank": 25,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "196 reviews, 3.9★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FMXLG87Y",
+      "image_url": "https://m.media-amazon.com/images/I/71ly3BqZPYL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "magnetic travel games, travel chess set magnetic, travel games for kids on plane, magnetic board games set of 4, car journey games, portable chess and draughts, screen free travel activities",
+      "sources": [
+        "趋势发现",
+        "Google趋势",
+        "Reddit需求",
+        "Temu热销",
+        "Etsy趋势",
+        "TikTok趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.261,
+      "net_profit": 1.96,
+      "cost_breakdown": {
+        "vat": 1.25,
+        "commission": 1.12,
+        "fba": 1.46,
+        "ads": 0.75,
+        "returns": 0.15,
+        "sourcing": 0.8,
+        "total_cost": 5.53
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy",
+        "Reddit"
+      ],
+      "internal_sources": [],
+      "score": 118,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "💬 Reddit": 5,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(seasonal)": 23,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-04",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "etsy_trending",
+        "keyword_search",
+        "tiktok_verified",
+        "google_trends",
+        "temu_trending",
+        "multi_source"
+      ]
+    },
+    {
+      "asin": "B0GHYC4L5X",
+      "name": "2 Pcs Black Serving Trays, Rectangular Serving Trayss, Black Plastic Trays for Food Servings, Non Slip Breakfast Tray fo",
+      "price": 6.66,
+      "reviews": 16,
+      "rating": 4.3,
+      "rank": 42,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "16 reviews, 4.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GHYC4L5X",
+      "image_url": "https://m.media-amazon.com/images/I/61cCfp6iEIL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "serving tray",
+      "festival_event": "下午茶季/Apple Day",
+      "festival_icon": "🫖",
+      "festival_deadline": "2026-08-05",
+      "is_event": false,
+      "sources": [
+        "📅 下午茶季/Apple Day",
+        "Google趋势",
+        "Reddit需求"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.224,
+      "net_profit": 1.49,
+      "cost_breakdown": {
+        "vat": 1.11,
+        "commission": 1.0,
+        "fba": 1.46,
+        "ads": 0.67,
+        "returns": 0.13,
+        "sourcing": 0.8,
+        "total_cost": 5.17
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "medium",
+      "signal_label": "🟠 中信号",
+      "external_sources": [
+        "Google",
+        "Reddit"
+      ],
+      "internal_sources": [],
+      "score": 62,
+      "score_breakdown": {
+        "📊 Google↑": 15,
+        "💬 Reddit": 5,
+        "🟠 中信号": 10,
+        "🌊 蓝海": 15,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 3,
+      "is_new": true,
+      "first_seen": "2026-08-04",
+      "is_multi": true,
+      "channel_tags": [
+        "keyword_search",
+        "google_trends",
+        "multi_source"
+      ]
+    },
+    {
+      "asin": "B0BBH9CQ6F",
+      "name": "Lifesystems Mini Bite Relief Click",
+      "price": 7.95,
+      "reviews": 147,
+      "rating": 4.2,
+      "rank": 14,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "147 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0BBH9CQ6F",
+      "image_url": "https://m.media-amazon.com/images/I/61UIbSVRkiL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "bug bite thing, insect bite suction tool, mosquito bite relief pen, bite away suction, chemical free insect bite relief, bug bite suction pump, mosquito bite itch relief tool",
+      "sources": [
+        "趋势发现",
+        "Google趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.279,
+      "net_profit": 2.22,
+      "cost_breakdown": {
+        "vat": 1.33,
+        "commission": 1.19,
+        "fba": 1.46,
+        "ads": 0.8,
+        "returns": 0.16,
+        "sourcing": 0.8,
+        "total_cost": 5.73
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "weak",
+      "signal_label": "🟡 弱信号",
+      "external_sources": [
+        "Google"
+      ],
+      "internal_sources": [],
+      "score": 41,
+      "score_breakdown": {
+        "📊 Google↑": 15,
+        "🟡 中等竞争": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 2,
+      "is_new": true,
+      "first_seen": "2026-08-04",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "keyword_search",
+        "google_trends",
+        "multi_source"
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "keyword": "lighting",
+      "category": "lighting",
+      "heat": 93,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "led",
+        "solar light",
+        "light",
+        "strip",
+        "lamp"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "LED bulb",
+        "LED light",
+        "LED panel",
+        "solar light",
+        "fairy lights",
+        "string lights",
+        "LED strip",
+        "LED strip light"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 93,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=LED+bulb",
+      "url_google": "https://trends.google.com/trends/explore?q=LED+bulb&geo=GB"
+    },
+    {
+      "keyword": "phone",
+      "category": "phone",
+      "heat": 100,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "charger",
+        "holder",
+        "stand",
+        "case",
+        "cable"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "phone charger",
+        "wireless charger",
+        "car charger",
+        "holder",
+        "stand",
+        "case",
+        "charging cable",
+        "USB cable"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=phone+charger",
+      "url_google": "https://trends.google.com/trends/explore?q=phone+charger&geo=GB"
+    },
+    {
+      "keyword": "garden",
+      "category": "garden",
+      "heat": 100,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "solar",
+        "patio",
+        "garden",
+        "bbq",
+        "plant"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "solar light",
+        "solar garden light",
+        "solar lamp",
+        "patio",
+        "garden tool set",
+        "garden light",
+        "garden decor",
+        "plant pot"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=solar+light",
+      "url_google": "https://trends.google.com/trends/explore?q=solar+light&geo=GB"
+    },
+    {
+      "keyword": "home decor",
+      "category": "home decor",
+      "heat": 85,
+      "score": 73,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "wall art",
+        "clock",
+        "candle",
+        "frame",
+        "decor"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "wall art print",
+        "wall hanging",
+        "wall decal",
+        "wall clock",
+        "desk clock",
+        "digital clock",
+        "candle holder",
+        "scented candle"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 85,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=wall+art+print",
+      "url_google": "https://trends.google.com/trends/explore?q=wall+art+print&geo=GB"
+    },
+    {
+      "keyword": "office",
+      "category": "office",
+      "heat": 77,
+      "score": 70,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "pen",
+        "office",
+        "laptop",
+        "stationery",
+        "notebook"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "pen holder",
+        "pen set",
+        "fountain pen",
+        "office supplies",
+        "desk organizer",
+        "laptop stand",
+        "laptop sleeve",
+        "laptop cooler"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 77,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=pen+holder",
+      "url_google": "https://trends.google.com/trends/explore?q=pen+holder&geo=GB"
+    },
+    {
+      "keyword": "crafts",
+      "category": "crafts",
+      "heat": 74,
+      "score": 69,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "craft",
+        "brush",
+        "stickers",
+        "art",
+        "tape"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "craft knife",
+        "craft supplies",
+        "DIY craft kit",
+        "brush",
+        "stickers",
+        "art supplies",
+        "paint set",
+        "drawing kit"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 74,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=craft+knife",
+      "url_google": "https://trends.google.com/trends/explore?q=craft+knife&geo=GB"
+    },
+    {
+      "keyword": "seasonal",
+      "category": "seasonal",
+      "heat": 74,
+      "score": 69,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "halloween",
+        "christmas",
+        "easter",
+        "valentine",
+        "gift"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "halloween decoration",
+        "halloween costume",
+        "christmas decoration",
+        "christmas gift",
+        "christmas stocking",
+        "easter egg",
+        "easter decoration",
+        "valentine gift"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 74,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=halloween+decoration",
+      "url_google": "https://trends.google.com/trends/explore?q=halloween+decoration&geo=GB"
+    },
+    {
+      "keyword": "beauty",
+      "category": "beauty",
+      "heat": 69,
+      "score": 68,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "brush",
+        "nail",
+        "hair",
+        "makeup",
+        "skincare"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "brush",
+        "nail art kit",
+        "nail tools",
+        "nail stickers",
+        "hair clip",
+        "hair accessories",
+        "hair band",
+        "hair tie"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 69,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=brush",
+      "url_google": "https://trends.google.com/trends/explore?q=brush&geo=GB"
+    },
+    {
+      "keyword": "bathroom",
+      "category": "bathroom",
+      "heat": 64,
+      "score": 66,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "shower",
+        "toilet",
+        "bath",
+        "towel",
+        "bathroom"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "shower caddy",
+        "shower head",
+        "shower curtain",
+        "toilet",
+        "bath mat",
+        "bath caddy",
+        "bath pillow",
+        "towel rail"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 64,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=shower+caddy",
+      "url_google": "https://trends.google.com/trends/explore?q=shower+caddy&geo=GB"
+    },
+    {
+      "keyword": "storage",
+      "category": "storage",
+      "heat": 61,
+      "score": 65,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "drawer",
+        "container",
+        "basket",
+        "storage",
+        "shelf"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "drawer",
+        "container",
+        "basket",
+        "food storage",
+        "kitchen storage",
+        "container set",
+        "floating shelf",
+        "wall shelf"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 61,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=drawer",
+      "url_google": "https://trends.google.com/trends/explore?q=drawer&geo=GB"
+    },
+    {
+      "keyword": "baby",
+      "category": "baby",
+      "heat": 61,
+      "score": 65,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "nursery",
+        "kids",
+        "toddler",
+        "child",
+        "baby"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "nursery",
+        "kids",
+        "toddler",
+        "child",
+        "baby"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 61,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=nursery",
+      "url_google": "https://trends.google.com/trends/explore?q=nursery&geo=GB"
+    },
+    {
+      "keyword": "eco",
+      "category": "eco",
+      "heat": 56,
+      "score": 63,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "organic",
+        "reusable",
+        "bamboo",
+        "sustainable",
+        "eco"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "organic products",
+        "organic cotton",
+        "reusable food wrap",
+        "reusable straws",
+        "reusable bags",
+        "bamboo cutlery",
+        "bamboo toothbrush",
+        "bamboo organizer"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 56,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=organic+products",
+      "url_google": "https://trends.google.com/trends/explore?q=organic+products&geo=GB"
+    },
+    {
+      "keyword": "car",
+      "category": "car",
+      "heat": 47,
+      "score": 60,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "car",
+        "automotive",
+        "dashboard"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "car accessories",
+        "car organizer",
+        "car phone holder",
+        "automotive",
+        "dashboard"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 47,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=car+accessories",
+      "url_google": "https://trends.google.com/trends/explore?q=car+accessories&geo=GB"
+    },
+    {
+      "keyword": "travel",
+      "category": "travel",
+      "heat": 42,
+      "score": 59,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "packing",
+        "travel",
+        "luggage"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "packing",
+        "travel",
+        "luggage"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 42,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=packing",
+      "url_google": "https://trends.google.com/trends/explore?q=packing&geo=GB"
+    },
+    {
+      "keyword": "kitchen",
+      "category": "kitchen",
+      "heat": 64,
+      "score": 46,
+      "gap_level": "weak",
+      "amazon_count": 6,
+      "amazon_reviews": 89496,
+      "evidence": [
+        "utensil",
+        "kitchen",
+        "baking",
+        "gadget",
+        "mug"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "utensil",
+        "kitchen",
+        "baking set",
+        "baking tray",
+        "cake mould",
+        "gadget",
+        "spice rack",
+        "spice jar set"
+      ],
+      "sd_info": {
+        "ratio": 5.6,
+        "demand": 64,
+        "supply": 89496,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=utensil",
+      "url_google": "https://trends.google.com/trends/explore?q=utensil&geo=GB"
+    }
+  ],
+  "trend_summary": {
+    "top_categories": [
+      [
+        "phone",
+        100
+      ],
+      [
+        "garden",
+        100
+      ],
+      [
+        "pets",
+        99
+      ],
+      [
+        "lighting",
+        93
+      ],
+      [
+        "home decor",
+        85
+      ],
+      [
+        "office",
+        77
+      ]
+    ],
+    "cross_validated": [
+      "kitchen",
+      "car",
+      "office",
+      "storage",
+      "lighting",
+      "pets",
+      "sports",
+      "crafts",
+      "phone",
+      "beauty",
+      "home decor",
+      "eco",
+      "seasonal",
+      "garden",
+      "bathroom",
+      "travel",
+      "baby",
+      "bedding"
+    ],
+    "demand_keywords": [
+      "activate the battery",
+      "active demand",
+      "ambient and sculptural lighting has",
+      "amy, please. we've heard enough about it.",
+      "and he was like,",
+      "and shows the most diverse",
+      "and yeah",
+      "are they comfortable for all",
+      "backed by",
+      "best seller"
+    ],
+    "season": "summer",
+    "sources_scanned": [
+      "tiktok",
+      "temu",
+      "etsy",
+      "market_intel"
+    ]
+  }
+}
