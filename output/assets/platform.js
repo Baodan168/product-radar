@@ -320,6 +320,8 @@ function renderRadar() {
   const products = radarData ? radarData.products || [] : [];
 
   if (!products.length) { grid.innerHTML=''; empty.style.display='block';
+    // 2026-08-04: 空态也必须重置计数，否则切到零新品日计数残留上一日期（如 08-03 显示 11）
+    document.getElementById('radarCnt').textContent = 0;
     // 2026-08-03: 区分「今日扫描但无新品」与「该日期无雷达数据」。
     // 有 has_scan 标记（今日确实扫描过，只是全为重复）→ 显示「今日暂无新品推荐」，不回退其他日期
     const msgEl = document.getElementById('emptyRadarMsg');
