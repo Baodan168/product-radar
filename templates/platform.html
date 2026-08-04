@@ -68,7 +68,7 @@
   <div class="product-grid" id="radarGrid"></div>
   <div class="empty" id="emptyRadar" style="display:none">
     <div style="font-size:48px;margin-bottom:12px">📡</div>
-    <p>该日期无雷达数据</p>
+    <p id="emptyRadarMsg">该日期无雷达数据</p>
   </div>
 </div>
 
@@ -101,9 +101,9 @@
   </div>
 </div>
 
-<script src="data/radar-all.js"></script>
-<script src="data/disc-all.js"></script>
-<script src="data/festivals.js"></script>
+<script src="data/radar-all.js?v=${asset_version}"></script>
+<script src="data/disc-all.js?v=${asset_version}"></script>
+<script src="data/festivals.js?v=${asset_version}"></script>
 <script>window.PLATFORM_DATA = ${platform_data};</script>
 <script src="assets/platform.js?v=${asset_version}"></script>
 
