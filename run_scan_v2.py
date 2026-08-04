@@ -494,15 +494,30 @@ def main():
         print(f"  ⚠️  Checkpoint save failed: {e}", file=sys.stderr)
 
     # 4. Google Trends (with error protection)
-    print("\\n[4/7] Google Trends UK...", file=sys.stderr)
+    # ⚠️ 2026-08-04 加固：14:00 cron 卡死在此步 600s 超时（subprocess timeout=30
+    # 理论上 3 query ≤90s，但实际卡满 600s 说明存在穿透——anysearch CLI 的
+    # requests 层若被网络黑洞挂起，subprocess.run 的 timeout 也可能失效）。
+    # 用线程池整体兜底（同 [1b] keyword scan 模式），超时丢弃结果不阻塞管道。
+    print("\n[4/7] Google Trends UK...", file=sys.stderr)
+    GT_TIMEOUT = 120
+    with concurrent.futures.ThreadPoolExecutor(
+            max_workers=1, thread_name_prefix='gtrends') as _gt_pool:
+        _gt_future = _gt_pool.submit(fetch_demand_signals)
+        try:
+            gtrends_text = _gt_future.result(timeout=GT_TIMEOUT)
+        except concurrent.futures.TimeoutError:
+            print(f"  ⏰ Google Trends 超时（>{GT_TIMEOUT}s），跳过", file=sys.stderr)
+            gtrends_text = ""
+        except Exception as e:
+            print(f"  ⚠️ Google Trends error (non-fatal): {e}", file=sys.stderr)
+            gtrends_text = ""
+        _gt_pool.shutdown(wait=False)
     try:
-        gtrends_text = fetch_demand_signals()
         amazon_products = enrich_google_trends(amazon_products, gtrends_text)
         gt_count = sum(1 for p in amazon_products if p.get("google_trend") == "rising")
         print(f"  Google Trends → {gt_count} products", file=sys.stderr)
     except Exception as e:
-        print(f"  ⚠️ Google Trends error (non-fatal): {e}", file=sys.stderr)
-        gtrends_text = ""
+        print(f"  ⚠️ Google Trends enrich error (non-fatal): {e}", file=sys.stderr)
 
     # 5. Reddit
     print("\\n[5/7] Reddit demand...", file=sys.stderr)
