@@ -192,11 +192,36 @@ def batch_verify(products, config, max_workers=3, log=print):
     to_verify, skipped = [], []
     for p in products:
         name = (p.get("name") or "").lower()
-        # 标题明确标注小重量/尺寸（单位 g/kg/cm）→ scanner 已处理
-        if re.search(r"\d+\s*(g|kg|cm)\b", name):
-            skipped.append(p)
+        # ⚠️ 2026-08-04 修复：跳过条件收紧为「标题尺寸明确合规」。
+        # 旧逻辑「标题含 g/kg/cm 就跳过」建立在错误假设上——scanner 只校验
+        # 3D 尺寸（32x22x6cm），2D 尺寸（137x274cm 桌布）scanner 不匹配，
+        # 却被跳过规则当作"已校验"放行 → 桌布/可折叠大件漏网。
+        # 折叠类产品（桌布/雨披）标题尺寸是展开尺寸，不代表包装尺寸，
+        # 必须以详情页 Package Dimensions 为准。只有标题尺寸所有维度
+        # ≤ 限值（scanner 已校验且合规）才跳过；含 2D 尺寸/超标/无法判断
+        # 的标题一律抓详情页验证。
+        max_w = config.get("max_weight_g", 200)
+        md = config.get("max_package_dimensions", {"l_cm": 30, "w_cm": 21, "h_cm": 6})
+        _max_l, _max_w, _max_h = md["l_cm"], md["w_cm"], md["h_cm"]
+        # 3D 尺寸（scanner 同款正则）：32x22x6cm / 32×22×6 cm / 32*22*6mm
+        m3d = re.search(
+            r"(\d+(?:\.\d+)?)\s*[x×*]\s*(\d+(?:\.\d+)?)\s*[x×*]\s*(\d+(?:\.\d+)?)\s*(?:cm|mm)?",
+            name,
+        )
+        if m3d:
+            d1, d2, d3 = (float(m3d.group(i)) for i in (1, 2, 3))
+            # mm 值 >200 视为 cm（与 scanner 一致）
+            if d1 > 200: d1 /= 10
+            if d2 > 200: d2 /= 10
+            if d3 > 200: d3 /= 10
+            dims = sorted([d1, d2, d3], reverse=True)
+            # 只有全部维度 ≤ 限值才信任标题（scanner 已验证合规）
+            if dims[0] <= _max_l and dims[1] <= _max_w and dims[2] <= _max_h:
+                skipped.append(p)
+            else:
+                to_verify.append(p)  # 标题尺寸超标 → 详情页复核（含2D展开尺寸误报场景）
         else:
-            to_verify.append(p)
+            to_verify.append(p)  # 无3D尺寸信息（含2D尺寸如137x274cm）→ 必须详情页验证
 
     log(f"  [7a] 详情页验证: {len(to_verify)}个待验, {len(skipped)}个标题已含尺寸跳过")
     if not to_verify:
