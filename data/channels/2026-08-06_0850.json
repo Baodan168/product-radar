@@ -1,0 +1,1668 @@
+{
+  "scan_date": "2026-08-06",
+  "scan_time": "08:50",
+  "scan_ts": "2026-08-06_0850",
+  "stats": {
+    "total_scanned": 219,
+    "passed_filter": 9,
+    "rejected": 209,
+    "channels": {
+      "etsy_trending": 9,
+      "tiktok_verified": 9,
+      "multi_source": 9,
+      "temu_trending": 9,
+      "new_releases": 3,
+      "google_trends": 5,
+      "keyword_search": 6,
+      "event_product": 2
+    },
+    "detail_reject": {
+      "重量超标": 8,
+      "尺寸超标": 1
+    },
+    "theme_trimmed": [
+      {
+        "asin": "B0BV27KJ33",
+        "name": "Sponsored Ad – Hollyone 3PCS Glittery Artificial Maple Leaves Branches, Fake Leaves Stems for Autumn Decorations, Silk F"
+      }
+    ],
+    "trend_categories": {
+      "lighting": 100,
+      "pets": 100,
+      "phone": 100,
+      "kitchen": 96,
+      "crafts": 96,
+      "beauty": 96
+    },
+    "supply_demand": {
+      "kitchen": {
+        "ratio": 8.8,
+        "demand": 96,
+        "supply": 55488,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "lighting": {
+        "ratio": 8.1,
+        "demand": 100,
+        "supply": 234803,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "pets": {
+        "ratio": 7.9,
+        "demand": 100,
+        "supply": 316353,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "sports": {
+        "ratio": 5.5,
+        "demand": 69,
+        "supply": 308745,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "kitchen_gadgets": {
+        "ratio": 3.1,
+        "demand": 34,
+        "supply": 55488,
+        "label": "💧 浅蓝海",
+        "level": "light_blue"
+      },
+      "bathroom": {
+        "ratio": 0,
+        "demand": 69,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "cleaning": {
+        "ratio": 0,
+        "demand": 62,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "car": {
+        "ratio": 0,
+        "demand": 61,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      }
+    },
+    "divergences": {
+      "kitchen": {
+        "current_heat": 94,
+        "previous_heat": 74,
+        "heat_change_pct": 27.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-05_0850",
+          "2026-08-05_1400"
+        ]
+      },
+      "cleaning": {
+        "current_heat": 65,
+        "previous_heat": 66,
+        "heat_change_pct": -1.5,
+        "direction": "stable",
+        "dates": [
+          "2026-08-05_0850",
+          "2026-08-05_1400"
+        ]
+      },
+      "car": {
+        "current_heat": 48,
+        "previous_heat": 61,
+        "heat_change_pct": -21.3,
+        "direction": "falling",
+        "dates": [
+          "2026-08-05_0850",
+          "2026-08-05_1400"
+        ]
+      },
+      "office": {
+        "current_heat": 82,
+        "previous_heat": 87,
+        "heat_change_pct": -5.7,
+        "direction": "stable",
+        "dates": [
+          "2026-08-05_0850",
+          "2026-08-05_1400"
+        ]
+      },
+      "storage": {
+        "current_heat": 67,
+        "previous_heat": 59,
+        "heat_change_pct": 13.6,
+        "direction": "stable",
+        "dates": [
+          "2026-08-05_0850",
+          "2026-08-05_1400"
+        ]
+      },
+      "lighting": {
+        "current_heat": 89,
+        "previous_heat": 87,
+        "heat_change_pct": 2.3,
+        "direction": "stable",
+        "dates": [
+          "2026-08-05_0850",
+          "2026-08-05_1400"
+        ]
+      },
+      "pets": {
+        "current_heat": 100,
+        "previous_heat": 100,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-05_0850",
+          "2026-08-05_1400"
+        ]
+      },
+      "sports": {
+        "current_heat": 70,
+        "previous_heat": 77,
+        "heat_change_pct": -9.1,
+        "direction": "stable",
+        "dates": [
+          "2026-08-05_0850",
+          "2026-08-05_1400"
+        ]
+      },
+      "crafts": {
+        "current_heat": 86,
+        "previous_heat": 84,
+        "heat_change_pct": 2.4,
+        "direction": "stable",
+        "dates": [
+          "2026-08-05_0850",
+          "2026-08-05_1400"
+        ]
+      },
+      "phone": {
+        "current_heat": 100,
+        "previous_heat": 100,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-05_0850",
+          "2026-08-05_1400"
+        ]
+      },
+      "beauty": {
+        "current_heat": 82,
+        "previous_heat": 89,
+        "heat_change_pct": -7.9,
+        "direction": "stable",
+        "dates": [
+          "2026-08-05_0850",
+          "2026-08-05_1400"
+        ]
+      },
+      "home decor": {
+        "current_heat": 98,
+        "previous_heat": 77,
+        "heat_change_pct": 27.3,
+        "direction": "stable",
+        "dates": [
+          "2026-08-05_0850",
+          "2026-08-05_1400"
+        ]
+      },
+      "eco": {
+        "current_heat": 72,
+        "previous_heat": 64,
+        "heat_change_pct": 12.5,
+        "direction": "stable",
+        "dates": [
+          "2026-08-05_0850",
+          "2026-08-05_1400"
+        ]
+      },
+      "seasonal": {
+        "current_heat": 82,
+        "previous_heat": 74,
+        "heat_change_pct": 10.8,
+        "direction": "stable",
+        "dates": [
+          "2026-08-05_0850",
+          "2026-08-05_1400"
+        ]
+      },
+      "garden": {
+        "current_heat": 100,
+        "previous_heat": 100,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-05_0850",
+          "2026-08-05_1400"
+        ]
+      },
+      "bathroom": {
+        "current_heat": 86,
+        "previous_heat": 64,
+        "heat_change_pct": 34.4,
+        "direction": "rising",
+        "dates": [
+          "2026-08-05_0850",
+          "2026-08-05_1400"
+        ]
+      },
+      "travel": {
+        "current_heat": 60,
+        "previous_heat": 74,
+        "heat_change_pct": -18.9,
+        "direction": "stable",
+        "dates": [
+          "2026-08-05_0850",
+          "2026-08-05_1400"
+        ]
+      },
+      "baby": {
+        "current_heat": 70,
+        "previous_heat": 51,
+        "heat_change_pct": 37.3,
+        "direction": "rising",
+        "dates": [
+          "2026-08-05_0850",
+          "2026-08-05_1400"
+        ]
+      },
+      "bedding": {
+        "current_heat": 65,
+        "previous_heat": 43,
+        "heat_change_pct": 51.2,
+        "direction": "rising",
+        "dates": [
+          "2026-08-05_0850",
+          "2026-08-05_1400"
+        ]
+      },
+      "kitchen_gadgets": {
+        "current_heat": 32,
+        "previous_heat": 36,
+        "heat_change_pct": -11.1,
+        "direction": "stable",
+        "dates": [
+          "2026-08-05_0850",
+          "2026-08-05_1400"
+        ]
+      }
+    },
+    "gap_opportunities": 15
+  },
+  "products": [
+    {
+      "asin": "B0GWMT8Z7N",
+      "name": "Olivia Rocco Womens Poncho Changing Robe for Swim Surf Beach Gym Towels Hooded Large Absorbent Quick Dry Microfibre Towe",
+      "price": 7.46,
+      "reviews": 15,
+      "rating": 4.9,
+      "rank": 21,
+      "category": "Sports",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "15 reviews, 4.9★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GWMT8Z7N",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71vp8ON+ZzL._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "Temu热销",
+        "Etsy趋势",
+        "TikTok趋势"
+      ],
+      "profit_margin": 0.26,
+      "net_profit": 1.94,
+      "cost_breakdown": {
+        "vat": 1.25,
+        "commission": 1.12,
+        "fba": 1.46,
+        "ads": 0.75,
+        "returns": 0.15,
+        "sourcing": 0.8,
+        "total_cost": 5.52
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 5.5,
+        "demand": 69,
+        "supply": 308745,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 168,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "📈 趋势(bathroom)": 8,
+        "🌊 蓝海": 15,
+        "⭐ 高评分": 5,
+        "💰 较好利润": 4,
+        "🌴 当季(summer)": 10,
+        "🌊 深蓝海": 20,
+        "⚠️ 未验证": -8,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-06",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "etsy_trending",
+        "tiktok_verified",
+        "multi_source",
+        "temu_trending",
+        "new_releases"
+      ]
+    },
+    {
+      "asin": "B0H7R6H7HZ",
+      "name": "Coomoors 2PC Cooling Towel for Neck,Cooling Towel for hot weather,100x30 cm | Multi-Sport Neck Towel: Ideal for Running,",
+      "price": 9.2,
+      "reviews": 3,
+      "rating": 4.2,
+      "rank": 17,
+      "category": "Sports",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "3 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H7R6H7HZ",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71O1KFRKEnL._AC_UL300_SR300,200_.jpg",
+      "google_trend": "rising",
+      "sources": [
+        "Google趋势",
+        "Temu热销",
+        "Etsy趋势",
+        "TikTok趋势"
+      ],
+      "profit_margin": 0.317,
+      "net_profit": 2.92,
+      "cost_breakdown": {
+        "vat": 1.54,
+        "commission": 1.38,
+        "fba": 1.46,
+        "ads": 0.92,
+        "returns": 0.18,
+        "sourcing": 0.8,
+        "total_cost": 6.28
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 5.5,
+        "demand": 69,
+        "supply": 308745,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 149,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "📈 趋势(bathroom)": 8,
+        "⏳ 评论偏少": -8,
+        "💰 高利润": 8,
+        "🌊 深蓝海": 20,
+        "⚠️ 未验证": -8,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-06",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "google_trends",
+        "etsy_trending",
+        "tiktok_verified",
+        "multi_source",
+        "temu_trending",
+        "new_releases"
+      ]
+    },
+    {
+      "asin": "B0GQ4N3HZ4",
+      "name": "Alpine WaterSafe Swimming Earplugs | Blocks Water | Comes with 2 tip Sizes | Reusable & secure fit | For swimming, showe",
+      "price": 12.46,
+      "reviews": 172,
+      "rating": 4.2,
+      "rank": 20,
+      "category": "Sports",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "172 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GQ4N3HZ4",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71Is992ih4L._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "TikTok趋势",
+        "Reddit需求",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.382,
+      "net_profit": 4.75,
+      "cost_breakdown": {
+        "vat": 2.08,
+        "commission": 1.87,
+        "fba": 1.46,
+        "ads": 1.25,
+        "returns": 0.25,
+        "sourcing": 0.8,
+        "total_cost": 7.71
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 5.5,
+        "demand": 69,
+        "supply": 308745,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy",
+        "Reddit"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 141,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "🎵 TikTok": 20,
+        "💬 Reddit": 5,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "📈 趋势(sports)": 8,
+        "💰 超高利润": 12,
+        "❓ 品类不符": -10,
+        "🌴 当季(summer)": 10,
+        "🌊 深蓝海": 20,
+        "⚠️ 未验证": -8
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-07-31",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "etsy_trending",
+        "tiktok_verified",
+        "multi_source",
+        "temu_trending",
+        "new_releases"
+      ]
+    },
+    {
+      "asin": "B0FFGHVZXD",
+      "name": "AWARDSEN Pumpkin Decor Emotional Support Crochet Pumpkin Positive Gifts for Women Men Cute Stuff Pumpkins Ornament Autum",
+      "price": 8.32,
+      "reviews": 96,
+      "rating": 4.7,
+      "rank": 41,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "96 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FFGHVZXD",
+      "image_url": "https://m.media-amazon.com/images/I/71KToGbNFVL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "pumpkin decor",
+      "festival_event": "收获节",
+      "festival_icon": "🌾",
+      "festival_deadline": "2026-08-11",
+      "is_event": false,
+      "sources": [
+        "📅 收获节",
+        "Google趋势",
+        "Temu热销",
+        "Etsy趋势",
+        "TikTok趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.291,
+      "net_profit": 2.42,
+      "cost_breakdown": {
+        "vat": 1.39,
+        "commission": 1.25,
+        "fba": 1.46,
+        "ads": 0.83,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 5.9
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 136,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(home decor)": 23,
+        "🟡 中等竞争": 5,
+        "⭐ 高评分": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "⚠️ 品类较多": -5,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-06",
+      "is_multi": true,
+      "channel_tags": [
+        "google_trends",
+        "etsy_trending",
+        "keyword_search",
+        "tiktok_verified",
+        "multi_source",
+        "temu_trending"
+      ]
+    },
+    {
+      "asin": "B0D7HFBJ5X",
+      "name": "Rattan Hearts Wall Hanging Decoration, Heart Shape Wicker Wreath Ornament for Wedding Party, Autumn Wreath Home Bedroom ",
+      "price": 8.98,
+      "reviews": 51,
+      "rating": 4.4,
+      "rank": 42,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "51 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0D7HFBJ5X",
+      "image_url": "https://m.media-amazon.com/images/I/71WwI8NqyXL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "autumn wreath",
+      "festival_event": "收获节",
+      "festival_icon": "🌾",
+      "festival_deadline": "2026-08-11",
+      "is_event": false,
+      "sources": [
+        "📅 收获节",
+        "Google趋势",
+        "Temu热销",
+        "Etsy趋势",
+        "TikTok趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.311,
+      "net_profit": 2.8,
+      "cost_breakdown": {
+        "vat": 1.5,
+        "commission": 1.35,
+        "fba": 1.46,
+        "ads": 0.9,
+        "returns": 0.18,
+        "sourcing": 0.8,
+        "total_cost": 6.18
+      },
+      "off_season": true,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 115,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(pets)": 23,
+        "🟡 中等竞争": 5,
+        "💰 高利润": 8,
+        "❓ 品类存疑": -5,
+        "❄️ 过季降权": -20,
+        "⚠️ 品类较多": -5,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-06",
+      "is_multi": true,
+      "channel_tags": [
+        "google_trends",
+        "etsy_trending",
+        "keyword_search",
+        "tiktok_verified",
+        "multi_source",
+        "temu_trending"
+      ]
+    },
+    {
+      "asin": "B0FNR35DCJ",
+      "name": "GADITIEK 2 PCS Autumn Cushion Covers 45 x 45 cm Decorative Pumpkin Pillow Cover Halloween Plush Pillow Case Autumn Decor",
+      "price": 8.32,
+      "reviews": 20,
+      "rating": 4.4,
+      "rank": 9,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "20 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FNR35DCJ",
+      "image_url": "https://m.media-amazon.com/images/I/814BA5yMp0L._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "pumpkin decor",
+      "festival_event": "收获节",
+      "festival_icon": "🌾",
+      "festival_deadline": "2026-08-11",
+      "is_event": true,
+      "sources": [
+        "📅 收获节",
+        "Google趋势",
+        "Temu热销",
+        "Etsy趋势",
+        "TikTok趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.291,
+      "net_profit": 2.42,
+      "cost_breakdown": {
+        "vat": 1.39,
+        "commission": 1.25,
+        "fba": 1.46,
+        "ads": 0.83,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 5.9
+      },
+      "off_season": true,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 93,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "📈 趋势(bedding)": 8,
+        "🟢 低竞争": 10,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "❄️ 过季降权": -20,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类较多": -5,
+        "✨ 新发现": 10
+      },
+      "stars": 4,
+      "is_new": true,
+      "first_seen": "2026-08-06",
+      "is_multi": true,
+      "channel_tags": [
+        "google_trends",
+        "etsy_trending",
+        "keyword_search",
+        "tiktok_verified",
+        "event_product",
+        "multi_source",
+        "temu_trending"
+      ]
+    },
+    {
+      "asin": "B0CSVSX3S5",
+      "name": "LOMOHOO Door Wreath Decorative Artificial Flowers Wreath Garland Welcome Garland Door Wreath Autumn Wall Wreath Metal De",
+      "price": 7.49,
+      "reviews": 179,
+      "rating": 4.0,
+      "rank": 29,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "179 reviews, 4.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CSVSX3S5",
+      "image_url": "https://m.media-amazon.com/images/I/61CyY5Ao9SL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "autumn wreath",
+      "festival_event": "收获节",
+      "festival_icon": "🌾",
+      "festival_deadline": "2026-08-11",
+      "is_event": false,
+      "sources": [
+        "📅 收获节",
+        "Temu热销",
+        "Etsy趋势",
+        "TikTok趋势"
+      ],
+      "profit_margin": 0.261,
+      "net_profit": 1.96,
+      "cost_breakdown": {
+        "vat": 1.25,
+        "commission": 1.12,
+        "fba": 1.46,
+        "ads": 0.75,
+        "returns": 0.15,
+        "sourcing": 0.8,
+        "total_cost": 5.53
+      },
+      "off_season": true,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 91,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(crafts)": 23,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "❄️ 过季降权": -20,
+        "⚠️ 品类较多": -5,
+        "✨ 新发现": 10
+      },
+      "stars": 4,
+      "is_new": true,
+      "first_seen": "2026-08-06",
+      "is_multi": true,
+      "channel_tags": [
+        "etsy_trending",
+        "keyword_search",
+        "tiktok_verified",
+        "multi_source",
+        "temu_trending"
+      ]
+    },
+    {
+      "asin": "B0FHPLDS3J",
+      "name": "Gifts for Women, Engraved Lantern with Inscription Gifts for Women, Unique Glass Tealight Candle Holders Gift for Birthd",
+      "price": 6.66,
+      "reviews": 12,
+      "rating": 4.3,
+      "rank": 5,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "12 reviews, 4.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FHPLDS3J",
+      "image_url": "https://m.media-amazon.com/images/I/61PfwyAhtjL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "leaf candle holder",
+      "festival_event": "收获节",
+      "festival_icon": "🌾",
+      "festival_deadline": "2026-08-11",
+      "is_event": false,
+      "sources": [
+        "📅 收获节",
+        "TikTok趋势",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.224,
+      "net_profit": 1.49,
+      "cost_breakdown": {
+        "vat": 1.11,
+        "commission": 1.0,
+        "fba": 1.46,
+        "ads": 0.67,
+        "returns": 0.13,
+        "sourcing": 0.8,
+        "total_cost": 5.17
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 114,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(lighting)": 23,
+        "🌊 蓝海": 15,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类较多": -5,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-06",
+      "is_multi": true,
+      "channel_tags": [
+        "etsy_trending",
+        "keyword_search",
+        "tiktok_verified",
+        "multi_source",
+        "temu_trending"
+      ]
+    },
+    {
+      "asin": "B0995GKHKT",
+      "name": "Sponsored Ad – 2 Pieces 30 cm Large Natural Grapevine Wreathes Vine Branch Wreath Halloween Rattan Wreath for Easter Doo",
+      "price": 9.91,
+      "reviews": 131,
+      "rating": 4.3,
+      "rank": 49,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "131 reviews, 4.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0995GKHKT",
+      "image_url": "https://m.media-amazon.com/images/I/71w4h2e3vdL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "autumn wreath",
+      "festival_event": "收获节",
+      "festival_icon": "🌾",
+      "festival_deadline": "2026-08-11",
+      "is_event": true,
+      "sources": [
+        "📅 收获节",
+        "Google趋势",
+        "Temu热销",
+        "Etsy趋势",
+        "TikTok趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.335,
+      "net_profit": 3.32,
+      "cost_breakdown": {
+        "vat": 1.65,
+        "commission": 1.49,
+        "fba": 1.46,
+        "ads": 0.99,
+        "returns": 0.2,
+        "sourcing": 0.8,
+        "total_cost": 6.59
+      },
+      "off_season": true,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 97,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(seasonal)": 23,
+        "🟡 中等竞争": 5,
+        "💰 高利润": 8,
+        "❓ 品类存疑": -5,
+        "❄️ 过季降权": -20,
+        "📢 广告位": -10,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类较多": -5,
+        "✨ 新发现": 10
+      },
+      "stars": 4,
+      "is_new": true,
+      "first_seen": "2026-08-06",
+      "is_multi": true,
+      "channel_tags": [
+        "google_trends",
+        "etsy_trending",
+        "keyword_search",
+        "tiktok_verified",
+        "event_product",
+        "multi_source",
+        "temu_trending"
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "keyword": "crafts",
+      "category": "crafts",
+      "heat": 96,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "art",
+        "brush",
+        "craft",
+        "tape",
+        "stickers"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "art supplies",
+        "paint set",
+        "drawing kit",
+        "brush",
+        "craft knife",
+        "craft supplies",
+        "DIY craft kit",
+        "washi tape"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 96,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=art+supplies",
+      "url_google": "https://trends.google.com/trends/explore?q=art+supplies&geo=GB"
+    },
+    {
+      "keyword": "phone",
+      "category": "phone",
+      "heat": 100,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "cable",
+        "earbuds",
+        "phone",
+        "stand",
+        "holder"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "charging cable",
+        "USB cable",
+        "phone cable",
+        "earbuds case",
+        "wireless earbuds",
+        "phone case",
+        "phone holder",
+        "phone stand"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=charging+cable",
+      "url_google": "https://trends.google.com/trends/explore?q=charging+cable&geo=GB"
+    },
+    {
+      "keyword": "beauty",
+      "category": "beauty",
+      "heat": 96,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "mirror",
+        "hair",
+        "makeup",
+        "brush",
+        "skincare"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "makeup mirror",
+        "vanity mirror",
+        "LED mirror",
+        "hair clip",
+        "hair accessories",
+        "hair band",
+        "hair tie",
+        "makeup brush set"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 96,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=makeup+mirror",
+      "url_google": "https://trends.google.com/trends/explore?q=makeup+mirror&geo=GB"
+    },
+    {
+      "keyword": "office",
+      "category": "office",
+      "heat": 88,
+      "score": 74,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "notebook",
+        "laptop",
+        "office",
+        "mouse",
+        "pen"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "notebook",
+        "laptop stand",
+        "laptop sleeve",
+        "laptop cooler",
+        "office supplies",
+        "desk organizer",
+        "pen holder",
+        "mouse"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 88,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=notebook",
+      "url_google": "https://trends.google.com/trends/explore?q=notebook&geo=GB"
+    },
+    {
+      "keyword": "seasonal",
+      "category": "seasonal",
+      "heat": 88,
+      "score": 74,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "valentine",
+        "easter",
+        "christmas",
+        "gift",
+        "birthday"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "valentine gift",
+        "valentine card",
+        "easter egg",
+        "easter decoration",
+        "christmas decoration",
+        "christmas gift",
+        "christmas stocking",
+        "gift ideas"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 88,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=valentine+gift",
+      "url_google": "https://trends.google.com/trends/explore?q=valentine+gift&geo=GB"
+    },
+    {
+      "keyword": "home decor",
+      "category": "home decor",
+      "heat": 80,
+      "score": 71,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "mirror",
+        "clock",
+        "decor",
+        "frame",
+        "wall art"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "makeup mirror",
+        "vanity mirror",
+        "LED mirror",
+        "wall clock",
+        "desk clock",
+        "digital clock",
+        "home decor",
+        "room decor"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 80,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=makeup+mirror",
+      "url_google": "https://trends.google.com/trends/explore?q=makeup+mirror&geo=GB"
+    },
+    {
+      "keyword": "eco",
+      "category": "eco",
+      "heat": 77,
+      "score": 70,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "sustainable",
+        "organic",
+        "reusable",
+        "eco",
+        "bamboo"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "sustainable products",
+        "eco friendly",
+        "organic products",
+        "organic cotton",
+        "reusable food wrap",
+        "reusable straws",
+        "reusable bags",
+        "eco products"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 77,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=sustainable+products",
+      "url_google": "https://trends.google.com/trends/explore?q=sustainable+products&geo=GB"
+    },
+    {
+      "keyword": "bathroom",
+      "category": "bathroom",
+      "heat": 69,
+      "score": 68,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "mirror",
+        "shower",
+        "bath",
+        "soap",
+        "towel"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "makeup mirror",
+        "vanity mirror",
+        "LED mirror",
+        "shower caddy",
+        "shower head",
+        "shower curtain",
+        "bath mat",
+        "bath caddy"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 69,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=makeup+mirror",
+      "url_google": "https://trends.google.com/trends/explore?q=makeup+mirror&geo=GB"
+    },
+    {
+      "keyword": "travel",
+      "category": "travel",
+      "heat": 69,
+      "score": 68,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "passport",
+        "travel",
+        "packing",
+        "luggage",
+        "toiletry"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "passport",
+        "travel",
+        "packing",
+        "luggage",
+        "toiletry",
+        "neck pillow"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 69,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=passport",
+      "url_google": "https://trends.google.com/trends/explore?q=passport&geo=GB"
+    },
+    {
+      "keyword": "garden",
+      "category": "garden",
+      "heat": 69,
+      "score": 68,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "flower",
+        "outdoor",
+        "garden",
+        "plant",
+        "solar"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "flower",
+        "outdoor",
+        "garden tool set",
+        "garden light",
+        "garden decor",
+        "plant pot",
+        "plant stand",
+        "plant hanger"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 69,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=flower",
+      "url_google": "https://trends.google.com/trends/explore?q=flower&geo=GB"
+    },
+    {
+      "keyword": "car",
+      "category": "car",
+      "heat": 61,
+      "score": 65,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "dashboard",
+        "car",
+        "vehicle",
+        "automotive",
+        "phone holder"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "dashboard",
+        "car accessories",
+        "car organizer",
+        "car phone holder",
+        "vehicle",
+        "automotive",
+        "phone holder"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 61,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=dashboard",
+      "url_google": "https://trends.google.com/trends/explore?q=dashboard&geo=GB"
+    },
+    {
+      "keyword": "storage",
+      "category": "storage",
+      "heat": 50,
+      "score": 61,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "drawer",
+        "box",
+        "storage",
+        "shelf",
+        "container"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "drawer",
+        "food storage",
+        "kitchen storage",
+        "container set",
+        "floating shelf",
+        "wall shelf",
+        "corner shelf",
+        "container"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 50,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=drawer",
+      "url_google": "https://trends.google.com/trends/explore?q=drawer&geo=GB"
+    },
+    {
+      "keyword": "bedding",
+      "category": "bedding",
+      "heat": 50,
+      "score": 61,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "blanket",
+        "sheet",
+        "pillow",
+        "cushion",
+        "throw"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "blanket",
+        "sheet",
+        "pillow",
+        "cushion",
+        "throw"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 50,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=blanket",
+      "url_google": "https://trends.google.com/trends/explore?q=blanket&geo=GB"
+    },
+    {
+      "keyword": "baby",
+      "category": "baby",
+      "heat": 50,
+      "score": 61,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "child",
+        "kids",
+        "baby",
+        "nursery"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "child",
+        "kids",
+        "baby",
+        "nursery"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 50,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=child",
+      "url_google": "https://trends.google.com/trends/explore?q=child&geo=GB"
+    },
+    {
+      "keyword": "cleaning",
+      "category": "cleaning",
+      "heat": 62,
+      "score": 50,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "vacuum",
+        "brush",
+        "mop",
+        "cleaning",
+        "cleaner"
+      ],
+      "is_cross_validated": false,
+      "cross_sources": 0,
+      "suggestions": [
+        "vacuum",
+        "brush",
+        "cleaning",
+        "cleaner",
+        "sponge"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 62,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=vacuum",
+      "url_google": "https://trends.google.com/trends/explore?q=vacuum&geo=GB"
+    }
+  ],
+  "trend_summary": {
+    "top_categories": [
+      [
+        "lighting",
+        100
+      ],
+      [
+        "pets",
+        100
+      ],
+      [
+        "phone",
+        100
+      ],
+      [
+        "kitchen",
+        96
+      ],
+      [
+        "crafts",
+        96
+      ],
+      [
+        "beauty",
+        96
+      ]
+    ],
+    "cross_validated": [
+      "kitchen",
+      "bathroom",
+      "car",
+      "office",
+      "storage",
+      "lighting",
+      "pets",
+      "sports",
+      "crafts",
+      "bedding",
+      "travel",
+      "phone",
+      "beauty",
+      "home decor",
+      "baby",
+      "kitchen_gadgets",
+      "eco",
+      "seasonal",
+      "garden"
+    ],
+    "demand_keywords": [
+      "5-star rated",
+      "about solving specific",
+      "aesthetic desk setup",
+      "aquabrush,",
+      "artwork and prints",
+      "australia trending products | tiktok",
+      "authentic",
+      "baby floral jogger set",
+      "be your own boss with",
+      "beauty supplements"
+    ],
+    "season": "summer",
+    "sources_scanned": [
+      "tiktok",
+      "temu",
+      "etsy",
+      "market_intel"
+    ]
+  }
+}
