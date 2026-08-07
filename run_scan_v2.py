@@ -520,21 +520,29 @@ def main():
     # ⚠️ 2026-08-04 加固：14:00 cron 卡死在此步 600s 超时（subprocess timeout=30
     # 理论上 3 query ≤90s，但实际卡满 600s 说明存在穿透——anysearch CLI 的
     # requests 层若被网络黑洞挂起，subprocess.run 的 timeout 也可能失效）。
-    # 用线程池整体兜底（同 [1b] keyword scan 模式），超时丢弃结果不阻塞管道。
+    # ⚠️ 2026-08-07 再修：原实现用 `with ThreadPoolExecutor`，块退出时
+    #    shutdown(wait=True) 仍会等待卡死的 fetch 线程，120s 超时形同虚设
+    #    （08-04 14:00 cron 就死在这里）。改 daemon 线程 + join(timeout)，
+    #    线程随进程退出，超时真正生效。
     print("\n[4/7] Google Trends UK...", file=sys.stderr)
     GT_TIMEOUT = 120
-    with concurrent.futures.ThreadPoolExecutor(
-            max_workers=1, thread_name_prefix='gtrends') as _gt_pool:
-        _gt_future = _gt_pool.submit(fetch_demand_signals)
+    _gt_box = {}
+    def _run_gtrends_bg():
         try:
-            gtrends_text = _gt_future.result(timeout=GT_TIMEOUT)
-        except concurrent.futures.TimeoutError:
-            print(f"  ⏰ Google Trends 超时（>{GT_TIMEOUT}s），跳过", file=sys.stderr)
-            gtrends_text = ""
+            _gt_box["text"] = fetch_demand_signals()
         except Exception as e:
-            print(f"  ⚠️ Google Trends error (non-fatal): {e}", file=sys.stderr)
-            gtrends_text = ""
-        _gt_pool.shutdown(wait=False)
+            _gt_box["error"] = e
+    _gt_thread = threading.Thread(target=_run_gtrends_bg, daemon=True, name='gtrends')
+    _gt_thread.start()
+    _gt_thread.join(timeout=GT_TIMEOUT)
+    if "error" in _gt_box:
+        print(f"  ⚠️ Google Trends error (non-fatal): {_gt_box['error']}", file=sys.stderr)
+        gtrends_text = ""
+    elif _gt_thread.is_alive():
+        print(f"  ⏰ Google Trends 超时（>{GT_TIMEOUT}s），跳过", file=sys.stderr)
+        gtrends_text = ""
+    else:
+        gtrends_text = _gt_box.get("text", "")
     try:
         amazon_products = enrich_google_trends(amazon_products, gtrends_text)
         gt_count = sum(1 for p in amazon_products if p.get("google_trend") == "rising")
