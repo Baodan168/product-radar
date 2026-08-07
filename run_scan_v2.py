@@ -5,6 +5,7 @@ Sources: Amazon (New/BSR/Wished/Gifts), TikTok, HotUKDeals, Temu, Etsy, YouTube,
 """
 import json, sys, os
 import concurrent.futures
+import threading
 from datetime import datetime
 from pathlib import Path
 
@@ -466,8 +467,30 @@ def main():
             print(f"  ⚠️ 关键词扫描失败，跳过: {e}", file=sys.stderr)
 
     # 2. AnySearch trends (TikTok+HotUKDeals+Temu+Etsy+YouTube+Google+Reddit)
+    # ⚠️ 2026-08-07 加固：21 个查询同步跑，_run_anysearch 的 subprocess timeout=30
+    # 会被网络黑洞穿透，整步卡满 600s 拖垮扫描（14:00 cron 连续两天失败于此步）。
+    # 用 daemon 线程整体兜底（同 [4/7] Google Trends 模式）：超时丢弃结果不阻塞管道，
+    # 线程随进程退出，不会让 600s 硬超时把整个扫描杀掉。
     print("\n[2/7] AnySearch 多源趋势分析...", file=sys.stderr)
-    trend_data, trend_raw = fetch_trend_signals()
+    AS_TIMEOUT = 180
+    _as_box = {}
+    def _run_anysearch_bg():
+        try:
+            _as_box["trend"] = fetch_trend_signals()
+        except Exception as e:
+            _as_box["error"] = e
+    _as_thread = threading.Thread(target=_run_anysearch_bg, daemon=True, name='anysearch')
+    _as_thread.start()
+    _as_thread.join(timeout=AS_TIMEOUT)
+    if "error" in _as_box:
+        print(f"  ⚠️ AnySearch error (non-fatal): {_as_box['error']}", file=sys.stderr)
+        trend_data, trend_raw = {}, []
+    elif _as_thread.is_alive():
+        print(f"  ⏰ AnySearch 超时（>{AS_TIMEOUT}s），跳过趋势分析", file=sys.stderr)
+        trend_data, trend_raw = {}, []
+    else:
+        trend_data, trend_raw = _as_box.get("trend", ({}, []))
+        print(f"  ✅ AnySearch 完成 ({len(trend_raw)} queries)", file=sys.stderr)
     top_cats = sorted(trend_data.get("category_scores", {}).items(), key=lambda x: -x[1])[:6]
     print(f"  Top categories:", file=sys.stderr)
     for cat, score in top_cats:
