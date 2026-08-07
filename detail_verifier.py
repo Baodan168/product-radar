@@ -181,13 +181,16 @@ def verify_product(p, config):
 
 # ---------- 批量验证 ----------
 
-def batch_verify(products, config, max_workers=3, log=print):
+def batch_verify(products, config, max_workers=3, time_budget=240, log=print):
     """3并发批量验证。返回 (passed, rejected)。
 
     - 跳过标题已含 g/kg/cm 尺寸信息的产品（scanner.is_forbidden 已用标题正则
       过滤，能通过即合规，无需再抓详情页）
     - 抓取失败/详情页无数据的放过（不误杀）
     - 被拦截产品写入 detail_reject_reason 字段
+    - ⚠️ time_budget（秒）：[7a] 总时间预算。超过预算后未完成的产品按
+      unverified 放行（不拦截），防止 Amazon 抓取变慢时拖垮整个扫描
+      （2026-08-07：37个待验×最坏2分钟/个，600s scan 预算被 [7a] 吃光 → cron 超时）
     """
     to_verify, skipped = [], []
     for p in products:
@@ -229,10 +232,14 @@ def batch_verify(products, config, max_workers=3, log=print):
 
     passed, rejected = [], []
     t0 = time.time()
-    with ThreadPoolExecutor(max_workers=max_workers) as ex:
-        futs = {ex.submit(verify_product, p, config): p for p in to_verify}
+    ex = ThreadPoolExecutor(max_workers=max_workers)
+    futs = {ex.submit(verify_product, p, config): p for p in to_verify}
+    remaining = set(futs)
+    budget_hit = False
+    try:
         for fut in as_completed(futs):
             p = futs[fut]
+            remaining.discard(fut)
             try:
                 ok, reason, data_found = fut.result()
             except Exception:
@@ -246,6 +253,20 @@ def batch_verify(products, config, max_workers=3, log=print):
                 p["detail_reject_reason"] = reason
                 rejected.append(p)
                 log(f"    ❌ {p.get('name', '')[:45]} → {reason}")
+            # 总时间预算：超时后剩余未完成产品按 unverified 放行（不误杀、不拖垮扫描）
+            if remaining and time.time() - t0 > time_budget:
+                for p2 in (futs[f2] for f2 in remaining):
+                    p2["verify_status"] = "unverified"
+                    passed.append(p2)
+                log(f"  ⚠️ [7a] 超过 {time_budget}s 预算，剩余 {len(remaining)} 个未验证按 unverified 放行")
+                budget_hit = True
+                break
+    finally:
+        # ⚠️ 不能等线程池：shutdown(wait=True) 会等已在跑的慢任务（最坏2分钟/个）跑完，
+        #    让 time_budget 形同虚设。cancel_futures=True 取消未启动任务，立即返回。
+        ex.shutdown(wait=False, cancel_futures=True)
+    if budget_hit:
+        log(f"  [7a] 完成(截断): 通过 {len(passed)} | 拦截 {len(rejected)} | 预算内未验完 (总耗时 {time.time()-t0:.0f}s)")
 
     for p in skipped:
         # 标题已含尺寸/重量信息（scanner 已校验合规）→ 视为已验证
