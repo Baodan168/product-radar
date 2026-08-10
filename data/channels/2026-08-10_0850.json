@@ -1,0 +1,2708 @@
+{
+  "scan_date": "2026-08-10",
+  "scan_time": "08:50",
+  "scan_ts": "2026-08-10_0850",
+  "stats": {
+    "total_scanned": 316,
+    "passed_filter": 21,
+    "rejected": 279,
+    "channels": {
+      "etsy_trending": 16,
+      "wished": 1,
+      "google_trends": 16,
+      "tiktok_verified": 17,
+      "multi_source": 19,
+      "temu_trending": 14,
+      "keyword_search": 15,
+      "new_releases": 5,
+      "event_product": 3
+    },
+    "detail_reject": {},
+    "theme_trimmed": [
+      {
+        "asin": "B0GJB33XSX",
+        "name": "Reusable Shoe Washing Machine Bags, 2 PcsShoe Washing Bags for Machine Shoe Cleaning Bag Laundry Bag with Zipper for Tra"
+      },
+      {
+        "asin": "B0D73K8DDH",
+        "name": "2Pcs Shoe Washing Machine Bag, Shoe Cleaning Bag with Zipper & Hook, Reusable Shoe Laundry Bag, Trainer Washing Machine "
+      },
+      {
+        "asin": "B0DP81BV2H",
+        "name": "2-Pack Strong and Durable Shoe Laundry Bag for Washing Machine, Zippered & Reusable Mesh Cleaning Bags, Protects All Sho"
+      },
+      {
+        "asin": "B0FKY46MW7",
+        "name": "CHENYU Autumn Wreath 45cm Reusable Autumn Wreaths For Front Door Decorate | Autumn Decorations With Pumpkin Berries And "
+      },
+      {
+        "asin": "B0FGXJK8HD",
+        "name": "2 Pack Shoe Washing Machine Bag Shoe Trainer Washing Machine Bag Mesh Laundry Bags Shoe Bags for Travel Reusable Shoe Cl"
+      },
+      {
+        "asin": "B0FGXJWVY9",
+        "name": "2 Pack Shoe Washing Machine Bag Shoe Trainer Washing Machine Bag Mesh Laundry Bags Shoe Bags for Travel Reusable Shoe Cl"
+      },
+      {
+        "asin": "B0DFC1Z39R",
+        "name": "Silicone Straws Reusable,4 Sets Reusable Straws with Case Colorful Reusable Straw Kits with Cleaning Brush,Portable Sili"
+      },
+      {
+        "asin": "B0F9VDT47T",
+        "name": "6 Pcs Shoe Washing Machine Bag Set - Trainer Shoe Bag Laundry with Zips 360° Cleaning Reusable Shoe Cleaner for Sneakers"
+      },
+      {
+        "asin": "B0DPPZ52PB",
+        "name": "6 Pcs Shoe Washing Machine Bag Set - Trainer Shoe Bag Laundry with Zips 360° Cleaning Reusable Shoe Cleaner for Sneakers"
+      },
+      {
+        "asin": "B0DJW16NV9",
+        "name": "Shoe Washing Machine Bag Trainer Shoe Bag Laundry with Zips 360° Cleaning Reusable Shoe Cleaner for Sneakers Canvas Tenn"
+      },
+      {
+        "asin": "B0G4F2S5B3",
+        "name": "SPRIGLY Reusable Shoe Washing Machine Bag, 360° Protection Trainer Washing Bag with Zipper, Heavy-Duty Laundry Shoe Bag "
+      },
+      {
+        "asin": "B0D4LVCKRJ",
+        "name": "TSHAOUN 16 Pieces Silicone Straws Reusable, Colorful Bend Drinking Straws, Regular Size Replacement Smoothie Straws for "
+      },
+      {
+        "asin": "B0C61QKVX8",
+        "name": "cobee 4 Sets Reusable Silicone Straws Kit, Foldable Drinking Straws | Portable Straw Colorful Storage Box with Keychain "
+      },
+      {
+        "asin": "B0CSVSX3S5",
+        "name": "LOMOHOO Door Wreath Decorative Artificial Flowers Wreath Garland Welcome Garland Door Wreath Autumn Wall Wreath Metal De"
+      },
+      {
+        "asin": "B0DFPLLBMM",
+        "name": "2Pcs Shoe Washing Bags for Machine-40x20cm Laundry Bag with Secure Zipper | Wash Bag for Trainers, Sneakers, Bras, Delic"
+      }
+    ],
+    "trend_categories": {
+      "pets": 100,
+      "phone": 100,
+      "lighting": 91,
+      "crafts": 91,
+      "kitchen": 88,
+      "office": 85
+    },
+    "supply_demand": {
+      "pets": {
+        "ratio": 7.2,
+        "demand": 100,
+        "supply": 1023085,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "kitchen": {
+        "ratio": 7.0,
+        "demand": 88,
+        "supply": 309435,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "sports": {
+        "ratio": 4.9,
+        "demand": 42,
+        "supply": 5694,
+        "label": "💧 浅蓝海",
+        "level": "light_blue"
+      },
+      "kitchen_gadgets": {
+        "ratio": 0.5,
+        "demand": 6,
+        "supply": 309435,
+        "label": "🔴 红海",
+        "level": "red_ocean"
+      },
+      "cleaning": {
+        "ratio": 0,
+        "demand": 57,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "car": {
+        "ratio": 0,
+        "demand": 51,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "office": {
+        "ratio": 0,
+        "demand": 85,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "storage": {
+        "ratio": 0,
+        "demand": 63,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      }
+    },
+    "divergences": {
+      "kitchen": {
+        "current_heat": 91,
+        "previous_heat": 100,
+        "heat_change_pct": -9.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-08_0850",
+          "2026-08-08_1710"
+        ]
+      },
+      "cleaning": {
+        "current_heat": 48,
+        "previous_heat": 62,
+        "heat_change_pct": -22.6,
+        "direction": "falling",
+        "dates": [
+          "2026-08-08_0850",
+          "2026-08-08_1710"
+        ]
+      },
+      "car": {
+        "current_heat": 57,
+        "previous_heat": 53,
+        "heat_change_pct": 7.5,
+        "direction": "stable",
+        "dates": [
+          "2026-08-08_0850",
+          "2026-08-08_1710"
+        ]
+      },
+      "office": {
+        "current_heat": 91,
+        "previous_heat": 89,
+        "heat_change_pct": 2.2,
+        "direction": "stable",
+        "dates": [
+          "2026-08-08_0850",
+          "2026-08-08_1710"
+        ]
+      },
+      "storage": {
+        "current_heat": 63,
+        "previous_heat": 80,
+        "heat_change_pct": -21.2,
+        "direction": "falling",
+        "dates": [
+          "2026-08-08_0850",
+          "2026-08-08_1710"
+        ]
+      },
+      "lighting": {
+        "current_heat": 91,
+        "previous_heat": 94,
+        "heat_change_pct": -3.2,
+        "direction": "stable",
+        "dates": [
+          "2026-08-08_0850",
+          "2026-08-08_1710"
+        ]
+      },
+      "pets": {
+        "current_heat": 100,
+        "previous_heat": 100,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-08_0850",
+          "2026-08-08_1710"
+        ]
+      },
+      "sports": {
+        "current_heat": 63,
+        "previous_heat": 83,
+        "heat_change_pct": -24.1,
+        "direction": "falling",
+        "dates": [
+          "2026-08-08_0850",
+          "2026-08-08_1710"
+        ]
+      },
+      "crafts": {
+        "current_heat": 97,
+        "previous_heat": 89,
+        "heat_change_pct": 9.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-08_0850",
+          "2026-08-08_1710"
+        ]
+      },
+      "travel": {
+        "current_heat": 45,
+        "previous_heat": 74,
+        "heat_change_pct": -39.2,
+        "direction": "falling",
+        "dates": [
+          "2026-08-08_0850",
+          "2026-08-08_1710"
+        ]
+      },
+      "beauty": {
+        "current_heat": 82,
+        "previous_heat": 86,
+        "heat_change_pct": -4.7,
+        "direction": "stable",
+        "dates": [
+          "2026-08-08_0850",
+          "2026-08-08_1710"
+        ]
+      },
+      "home decor": {
+        "current_heat": 79,
+        "previous_heat": 77,
+        "heat_change_pct": 2.6,
+        "direction": "stable",
+        "dates": [
+          "2026-08-08_0850",
+          "2026-08-08_1710"
+        ]
+      },
+      "eco": {
+        "current_heat": 67,
+        "previous_heat": 77,
+        "heat_change_pct": -13.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-08_0850",
+          "2026-08-08_1710"
+        ]
+      },
+      "seasonal": {
+        "current_heat": 79,
+        "previous_heat": 89,
+        "heat_change_pct": -11.2,
+        "direction": "stable",
+        "dates": [
+          "2026-08-08_0850",
+          "2026-08-08_1710"
+        ]
+      },
+      "garden": {
+        "current_heat": 100,
+        "previous_heat": 100,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-08_0850",
+          "2026-08-08_1710"
+        ]
+      },
+      "bedding": {
+        "current_heat": 45,
+        "previous_heat": 62,
+        "heat_change_pct": -27.4,
+        "direction": "falling",
+        "dates": [
+          "2026-08-08_0850",
+          "2026-08-08_1710"
+        ]
+      },
+      "phone": {
+        "current_heat": 97,
+        "previous_heat": 100,
+        "heat_change_pct": -3.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-08_0850",
+          "2026-08-08_1710"
+        ]
+      },
+      "baby": {
+        "current_heat": 48,
+        "previous_heat": 50,
+        "heat_change_pct": -4.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-08_0850",
+          "2026-08-08_1710"
+        ]
+      },
+      "bathroom": {
+        "current_heat": 63,
+        "previous_heat": 74,
+        "heat_change_pct": -14.9,
+        "direction": "stable",
+        "dates": [
+          "2026-08-08_0850",
+          "2026-08-08_1710"
+        ]
+      },
+      "kitchen_gadgets": {
+        "current_heat": 18,
+        "previous_heat": 21,
+        "heat_change_pct": -14.3,
+        "direction": "stable",
+        "dates": [
+          "2026-08-08_0850",
+          "2026-08-08_1710"
+        ]
+      }
+    },
+    "gap_opportunities": 15
+  },
+  "products": [
+    {
+      "asin": "B08B4HS5QT",
+      "name": "Unique style paws Dog Collar with Detachable Bow tie, Adjustable Dog Collars with Bow for Small Medium Large Dogs or Cat",
+      "price": 9.16,
+      "reviews": 99,
+      "rating": 4.5,
+      "rank": 22,
+      "category": "Pets",
+      "channel": "wished",
+      "channel_name": "Amazon心愿榜",
+      "review_info": "99 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B08B4HS5QT",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71PDey2WBzL._AC_UL300_SR300,200_.jpg",
+      "google_trend": "rising",
+      "sources": [
+        "Google趋势",
+        "Reddit需求",
+        "Temu热销",
+        "Etsy趋势",
+        "TikTok趋势"
+      ],
+      "profit_margin": 0.416,
+      "net_profit": 3.81,
+      "cost_breakdown": {
+        "vat": 1.53,
+        "commission": 0.46,
+        "fba": 1.46,
+        "ads": 0.92,
+        "returns": 0.18,
+        "sourcing": 0.8,
+        "total_cost": 5.35
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 7.2,
+        "demand": 100,
+        "supply": 1023085,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy",
+        "Reddit"
+      ],
+      "internal_sources": [
+        "心愿榜"
+      ],
+      "score": 186,
+      "score_breakdown": {
+        "💝 心愿榜": 15,
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "💬 Reddit": 5,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(pets)": 23,
+        "🟡 中等竞争": 5,
+        "⭐ 高评分": 5,
+        "💰 超高利润": 12,
+        "🌊 深蓝海": 20,
+        "⚠️ 未验证": -8,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-10",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "etsy_trending",
+        "wished",
+        "google_trends",
+        "tiktok_verified",
+        "multi_source",
+        "temu_trending"
+      ]
+    },
+    {
+      "asin": "B07HKKKJGN",
+      "name": "Nemesis Now Wildwood Tealight Holder 18cm Brown",
+      "price": 9.47,
+      "reviews": 24,
+      "rating": 4.6,
+      "rank": 44,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "24 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B07HKKKJGN",
+      "image_url": "https://m.media-amazon.com/images/I/61XoOjgqI6L._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "leaf candle holder",
+      "festival_event": "收获节",
+      "festival_icon": "🌾",
+      "festival_deadline": "2026-08-11",
+      "is_event": false,
+      "sources": [
+        "📅 收获节",
+        "Temu热销",
+        "Etsy趋势",
+        "TikTok趋势"
+      ],
+      "profit_margin": 0.324,
+      "net_profit": 3.07,
+      "cost_breakdown": {
+        "vat": 1.58,
+        "commission": 1.42,
+        "fba": 1.46,
+        "ads": 0.95,
+        "returns": 0.19,
+        "sourcing": 0.8,
+        "total_cost": 6.4
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 107,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(lighting)": 23,
+        "🟢 低竞争": 10,
+        "⭐ 高评分": 5,
+        "💰 高利润": 8,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-08-08",
+      "is_multi": true,
+      "channel_tags": [
+        "etsy_trending",
+        "tiktok_verified",
+        "multi_source",
+        "temu_trending",
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0FTMV9KHD",
+      "name": "PUMA STELLAR Play Premier League 2026/27 Reactivity Football",
+      "price": 9.16,
+      "reviews": 47,
+      "rating": 4.7,
+      "rank": 7,
+      "category": "Sports",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "47 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FTMV9KHD",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/7126KS3hFyL._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "Etsy趋势",
+        "TikTok趋势"
+      ],
+      "profit_margin": 0.316,
+      "net_profit": 2.9,
+      "cost_breakdown": {
+        "vat": 1.53,
+        "commission": 1.37,
+        "fba": 1.46,
+        "ads": 0.92,
+        "returns": 0.18,
+        "sourcing": 0.8,
+        "total_cost": 6.26
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 10,
+      "sd_label": "💧 浅蓝海",
+      "sd_info": {
+        "ratio": 4.9,
+        "demand": 42,
+        "supply": 5694,
+        "label": "💧 浅蓝海",
+        "level": "light_blue"
+      },
+      "div_score": -10,
+      "div_label": "📉 品类降温(-24%)",
+      "div_info": {
+        "current_heat": 63,
+        "previous_heat": 83,
+        "heat_change_pct": -24.1,
+        "direction": "falling",
+        "dates": [
+          "2026-08-08_0850",
+          "2026-08-08_1710"
+        ]
+      },
+      "signal_level": "medium",
+      "signal_label": "🟠 中信号",
+      "external_sources": [
+        "TikTok",
+        "Etsy"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 104,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "🎵 TikTok": 20,
+        "🎨 Etsy": 6,
+        "🟠 中信号": 10,
+        "📈 趋势(sports)": 8,
+        "🟢 低竞争": 10,
+        "⭐ 高评分": 5,
+        "💰 高利润": 8,
+        "❓ 品类不符": -10,
+        "💧 浅蓝海": 10,
+        "📉 品类降温(-24%)": -10,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类较多": -5,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-10",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "etsy_trending",
+        "multi_source",
+        "new_releases",
+        "tiktok_verified"
+      ]
+    },
+    {
+      "asin": "B0H3M4L2RV",
+      "name": "KAYMAN Sports Foam Roller Sports Recovery, Deep Tissue Muscle Tension Relief & Circulation Increase Portable & Lightweig",
+      "price": 9.16,
+      "reviews": 133,
+      "rating": 4.4,
+      "rank": 5,
+      "category": "Sports",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "133 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H3M4L2RV",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/617Q5c59RNL._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "TikTok趋势",
+        "Google趋势",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.316,
+      "net_profit": 2.9,
+      "cost_breakdown": {
+        "vat": 1.53,
+        "commission": 1.37,
+        "fba": 1.46,
+        "ads": 0.92,
+        "returns": 0.18,
+        "sourcing": 0.8,
+        "total_cost": 6.26
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 10,
+      "sd_label": "💧 浅蓝海",
+      "sd_info": {
+        "ratio": 4.9,
+        "demand": 42,
+        "supply": 5694,
+        "label": "💧 浅蓝海",
+        "level": "light_blue"
+      },
+      "div_score": -10,
+      "div_label": "📉 品类降温(-24%)",
+      "div_info": {
+        "current_heat": 63,
+        "previous_heat": 83,
+        "heat_change_pct": -24.1,
+        "direction": "falling",
+        "dates": [
+          "2026-08-08_0850",
+          "2026-08-08_1710"
+        ]
+      },
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 152,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(lighting)": 23,
+        "🟡 中等竞争": 5,
+        "💰 高利润": 8,
+        "💧 浅蓝海": 10,
+        "📉 品类降温(-24%)": -10,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类较多": -5,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-10",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "etsy_trending",
+        "new_releases",
+        "google_trends",
+        "tiktok_verified",
+        "multi_source",
+        "temu_trending"
+      ]
+    },
+    {
+      "asin": "B0GY8SRW2C",
+      "name": "LockieFitness Foam Roller, Deep Tissue Massage Roller with Trigger Point Foam Roller Grid for Back, Legs, Calves & Fasci",
+      "price": 7.99,
+      "reviews": 20,
+      "rating": 4.7,
+      "rank": 17,
+      "category": "Sports",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "20 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GY8SRW2C",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71m5M30EJ3L._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "TikTok趋势",
+        "Google趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.28,
+      "net_profit": 2.24,
+      "cost_breakdown": {
+        "vat": 1.33,
+        "commission": 1.2,
+        "fba": 1.46,
+        "ads": 0.8,
+        "returns": 0.16,
+        "sourcing": 0.8,
+        "total_cost": 5.75
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 10,
+      "sd_label": "💧 浅蓝海",
+      "sd_info": {
+        "ratio": 4.9,
+        "demand": 42,
+        "supply": 5694,
+        "label": "💧 浅蓝海",
+        "level": "light_blue"
+      },
+      "div_score": -10,
+      "div_label": "📉 品类降温(-24%)",
+      "div_info": {
+        "current_heat": 63,
+        "previous_heat": 83,
+        "heat_change_pct": -24.1,
+        "direction": "falling",
+        "dates": [
+          "2026-08-08_0850",
+          "2026-08-08_1710"
+        ]
+      },
+      "signal_level": "medium",
+      "signal_label": "🟠 中信号",
+      "external_sources": [
+        "TikTok",
+        "Google"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 119,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "🟠 中信号": 10,
+        "📈 趋势(sports)": 8,
+        "🟢 低竞争": 10,
+        "⭐ 高评分": 5,
+        "💰 较好利润": 4,
+        "💧 浅蓝海": 10,
+        "📉 品类降温(-24%)": -10,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类较多": -5,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-10",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "multi_source",
+        "new_releases",
+        "tiktok_verified",
+        "google_trends"
+      ]
+    },
+    {
+      "asin": "B0FHK1B1NQ",
+      "name": "Egg Poacher Microwave Egg Cooker, 2 Cavity Edible Silicone Double Drain Poached Egg Cups, Microwave Egg Poacher Kitchen ",
+      "price": 9.99,
+      "reviews": 110,
+      "rating": 4.0,
+      "rank": 14,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "110 reviews, 4.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FHK1B1NQ",
+      "image_url": "https://m.media-amazon.com/images/I/51GXG8A2l8L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "silicone egg poacher cups, egg poaching cups 2 pack, microwave egg poacher, poached egg cooker, egg poacher pods, silicone egg cups, poached egg maker, egg poacher for microwave, non stick egg poacher, egg cooker silicone cups",
+      "sources": [
+        "趋势发现",
+        "Google趋势",
+        "Temu热销",
+        "Etsy趋势",
+        "TikTok趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.337,
+      "net_profit": 3.36,
+      "cost_breakdown": {
+        "vat": 1.67,
+        "commission": 1.5,
+        "fba": 1.46,
+        "ads": 1.0,
+        "returns": 0.2,
+        "sourcing": 0.8,
+        "total_cost": 6.63
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 7.0,
+        "demand": 88,
+        "supply": 309435,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 142,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(kitchen)": 23,
+        "🟡 中等竞争": 5,
+        "💰 高利润": 8,
+        "❓ 品类存疑": -5,
+        "🌊 深蓝海": 20,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-10",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "etsy_trending",
+        "google_trends",
+        "tiktok_verified",
+        "multi_source",
+        "temu_trending",
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0F9FW2CRJ",
+      "name": "Microwave Poached Egg Cooker Poacher Maker Pan Cups Steamer Silicone, 2 Pcs | Nonstick, Material Healthy, Non-stick, Thi",
+      "price": 6.62,
+      "reviews": 17,
+      "rating": 3.9,
+      "rank": 3,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "17 reviews, 3.9★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0F9FW2CRJ",
+      "image_url": "https://m.media-amazon.com/images/I/71WiHP07NJL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "silicone egg poacher cups, egg poaching cups 2 pack, microwave egg poacher, poached egg cooker, egg poacher pods, silicone egg cups, poached egg maker, egg poacher for microwave, non stick egg poacher, egg cooker silicone cups",
+      "sources": [
+        "趋势发现"
+      ],
+      "profit_margin": 0.222,
+      "net_profit": 1.47,
+      "cost_breakdown": {
+        "vat": 1.11,
+        "commission": 0.99,
+        "fba": 1.46,
+        "ads": 0.66,
+        "returns": 0.13,
+        "sourcing": 0.8,
+        "total_cost": 5.15
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": 25,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🔥 多源热门(kitchen)": 23,
+        "🌊 蓝海": 15,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-08-10",
+      "is_event": false,
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0GQ4N3HZ4",
+      "name": "Alpine WaterSafe Swimming Earplugs | Blocks Water | Comes with 2 tip Sizes | Reusable & secure fit | For swimming, showe",
+      "price": 12.46,
+      "reviews": 179,
+      "rating": 4.1,
+      "rank": 14,
+      "category": "Sports",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "179 reviews, 4.1★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GQ4N3HZ4",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71Is992ih4L._AC_UL300_SR300,200_.jpg",
+      "google_trend": "rising",
+      "sources": [
+        "Google趋势",
+        "Reddit需求",
+        "Temu热销",
+        "Etsy趋势",
+        "TikTok趋势"
+      ],
+      "profit_margin": 0.382,
+      "net_profit": 4.75,
+      "cost_breakdown": {
+        "vat": 2.08,
+        "commission": 1.87,
+        "fba": 1.46,
+        "ads": 1.25,
+        "returns": 0.25,
+        "sourcing": 0.8,
+        "total_cost": 7.71
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 10,
+      "sd_label": "💧 浅蓝海",
+      "sd_info": {
+        "ratio": 4.9,
+        "demand": 42,
+        "supply": 5694,
+        "label": "💧 浅蓝海",
+        "level": "light_blue"
+      },
+      "div_score": -10,
+      "div_label": "📉 品类降温(-24%)",
+      "div_info": {
+        "current_heat": 63,
+        "previous_heat": 83,
+        "heat_change_pct": -24.1,
+        "direction": "falling",
+        "dates": [
+          "2026-08-08_0850",
+          "2026-08-08_1710"
+        ]
+      },
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy",
+        "Reddit"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 141,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "💬 Reddit": 5,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "📈 趋势(sports)": 8,
+        "💰 超高利润": 12,
+        "❓ 品类不符": -10,
+        "🌴 当季(summer)": 10,
+        "💧 浅蓝海": 10,
+        "📉 品类降温(-24%)": -10,
+        "📈 排名上升": 10,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类较多": -5
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-08-06",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "etsy_trending",
+        "new_releases",
+        "google_trends",
+        "tiktok_verified",
+        "multi_source",
+        "temu_trending"
+      ]
+    },
+    {
+      "asin": "B0H39RT2RW",
+      "name": "2 PCS Shoe Washing Bag Sneaker Wash Bags for Washing Machine Reusable Laundry Bags with Zipper (Grey, 38×17cm) for Train",
+      "price": 9.16,
+      "reviews": 12,
+      "rating": 4.7,
+      "rank": 31,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "12 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H39RT2RW",
+      "image_url": "https://m.media-amazon.com/images/I/61dWsSopCeL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "sneaker laundry bag, shoe washing machine bag, shoe laundry bag for washing machine, mesh laundry bags for shoes, trainer washing bag, shoe cleaning bag, sneaker wash bag 2 pack, laundry bag for shoes, protective shoe bag washer, delicates laundry bag sneakers",
+      "sources": [
+        "趋势发现",
+        "Google趋势",
+        "Reddit需求",
+        "Temu热销",
+        "Etsy趋势",
+        "TikTok趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.316,
+      "net_profit": 2.9,
+      "cost_breakdown": {
+        "vat": 1.53,
+        "commission": 1.37,
+        "fba": 1.46,
+        "ads": 0.92,
+        "returns": 0.18,
+        "sourcing": 0.8,
+        "total_cost": 6.26
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy",
+        "Reddit"
+      ],
+      "internal_sources": [],
+      "score": 127,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "💬 Reddit": 5,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "📈 趋势(eco)": 8,
+        "🌊 蓝海": 15,
+        "⭐ 高评分": 5,
+        "💰 高利润": 8,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-10",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "etsy_trending",
+        "google_trends",
+        "tiktok_verified",
+        "multi_source",
+        "temu_trending",
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0FWCHK6P7",
+      "name": "2PCS Washing Machine Bags for Trainers, Reusable Shoe Wash Bag with Zipper | Microfiber Lining | 360° Deep Clean | Anti-",
+      "price": 10.82,
+      "reviews": 44,
+      "rating": 4.4,
+      "rank": 20,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "44 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FWCHK6P7",
+      "image_url": "https://m.media-amazon.com/images/I/71i+fFqEjlL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "sneaker laundry bag, shoe washing machine bag, shoe laundry bag for washing machine, mesh laundry bags for shoes, trainer washing bag, shoe cleaning bag, sneaker wash bag 2 pack, laundry bag for shoes, protective shoe bag washer, delicates laundry bag sneakers",
+      "sources": [
+        "趋势发现",
+        "Google趋势",
+        "Reddit需求",
+        "Temu热销",
+        "Etsy趋势",
+        "TikTok趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.354,
+      "net_profit": 3.83,
+      "cost_breakdown": {
+        "vat": 1.81,
+        "commission": 1.62,
+        "fba": 1.46,
+        "ads": 1.08,
+        "returns": 0.22,
+        "sourcing": 0.8,
+        "total_cost": 6.99
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy",
+        "Reddit"
+      ],
+      "internal_sources": [],
+      "score": 121,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "💬 Reddit": 5,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "📈 趋势(eco)": 8,
+        "🟢 低竞争": 10,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-10",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "etsy_trending",
+        "google_trends",
+        "tiktok_verified",
+        "multi_source",
+        "temu_trending",
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0FBG8YDMJ",
+      "name": "LOMOHOO Sunflower Door Wreath Summer Wreath Hanging for Front Door Outdoor with Green Leaves Artificial Sunflower Wreath",
+      "price": 12.03,
+      "reviews": 179,
+      "rating": 4.0,
+      "rank": 47,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "179 reviews, 4.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FBG8YDMJ",
+      "image_url": "https://m.media-amazon.com/images/I/717gsCNd9TL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "autumn wreath",
+      "festival_event": "收获节",
+      "festival_icon": "🌾",
+      "festival_deadline": "2026-08-11",
+      "is_event": false,
+      "sources": [
+        "📅 收获节",
+        "TikTok趋势",
+        "Google趋势",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.375,
+      "net_profit": 4.51,
+      "cost_breakdown": {
+        "vat": 2.01,
+        "commission": 1.8,
+        "fba": 1.46,
+        "ads": 1.2,
+        "returns": 0.24,
+        "sourcing": 0.8,
+        "total_cost": 7.52
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 131,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(crafts)": 23,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "🌴 当季(summer)": 10,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-10",
+      "is_multi": true,
+      "channel_tags": [
+        "etsy_trending",
+        "google_trends",
+        "tiktok_verified",
+        "multi_source",
+        "temu_trending",
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0CJ2VSVLK",
+      "name": "Maritown Artificial Christmas Wreath for Front Door | 30cm 40cm 50cm Plain Green Wreaths, DIY Wreath Making Supplies, fo",
+      "price": 10.79,
+      "reviews": 29,
+      "rating": 3.7,
+      "rank": 44,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "29 reviews, 3.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CJ2VSVLK",
+      "image_url": "https://m.media-amazon.com/images/I/71NEEnDdaxL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "autumn wreath",
+      "festival_event": "收获节",
+      "festival_icon": "🌾",
+      "festival_deadline": "2026-08-11",
+      "is_event": true,
+      "sources": [
+        "📅 收获节",
+        "Google趋势",
+        "Temu热销",
+        "Etsy趋势",
+        "TikTok趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.354,
+      "net_profit": 3.81,
+      "cost_breakdown": {
+        "vat": 1.8,
+        "commission": 1.62,
+        "fba": 1.46,
+        "ads": 1.08,
+        "returns": 0.22,
+        "sourcing": 0.8,
+        "total_cost": 6.98
+      },
+      "off_season": true,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 103,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(crafts)": 23,
+        "🟢 低竞争": 10,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "❄️ 过季降权": -20,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "🎯 事件过密": -8,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-10",
+      "is_multi": true,
+      "channel_tags": [
+        "etsy_trending",
+        "google_trends",
+        "tiktok_verified",
+        "multi_source",
+        "temu_trending",
+        "event_product",
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0C234GW7V",
+      "name": "Ykgutilu Halloween Wreaths for Front Door, Halloween Front Door Wreath with Hat Witches Legs Pumpkin, Halloween Decorati",
+      "price": 9.98,
+      "reviews": 135,
+      "rating": 4.3,
+      "rank": 36,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "135 reviews, 4.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0C234GW7V",
+      "image_url": "https://m.media-amazon.com/images/I/71drpOCayhL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "autumn wreath",
+      "festival_event": "收获节",
+      "festival_icon": "🌾",
+      "festival_deadline": "2026-08-11",
+      "is_event": true,
+      "sources": [
+        "📅 收获节",
+        "Google趋势",
+        "Temu热销",
+        "Etsy趋势",
+        "TikTok趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.337,
+      "net_profit": 3.36,
+      "cost_breakdown": {
+        "vat": 1.67,
+        "commission": 1.5,
+        "fba": 1.46,
+        "ads": 1.0,
+        "returns": 0.2,
+        "sourcing": 0.8,
+        "total_cost": 6.62
+      },
+      "off_season": true,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 94,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(home decor)": 23,
+        "🟡 中等竞争": 5,
+        "💰 高利润": 8,
+        "❓ 品类存疑": -5,
+        "❄️ 过季降权": -20,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "🎯 事件过密": -8,
+        "✨ 新发现": 10
+      },
+      "stars": 4,
+      "is_new": true,
+      "first_seen": "2026-08-10",
+      "is_multi": true,
+      "channel_tags": [
+        "etsy_trending",
+        "google_trends",
+        "tiktok_verified",
+        "multi_source",
+        "temu_trending",
+        "event_product",
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0GT4P9LV5",
+      "name": "Gylinm 1L Water Bottle Made of BPA-Free Tritan Material, Sports Water Bottle with Removable Straw & Hydration Time Marke",
+      "price": 7.07,
+      "reviews": 63,
+      "rating": 4.9,
+      "rank": 6,
+      "category": "Sports",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "63 reviews, 4.9★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GT4P9LV5",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71WtH1XDS0L._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "TikTok趋势",
+        "Google趋势",
+        "Reddit需求",
+        "Etsy趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.243,
+      "net_profit": 1.72,
+      "cost_breakdown": {
+        "vat": 1.18,
+        "commission": 1.06,
+        "fba": 1.46,
+        "ads": 0.71,
+        "returns": 0.14,
+        "sourcing": 0.8,
+        "total_cost": 5.35
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 10,
+      "sd_label": "💧 浅蓝海",
+      "sd_info": {
+        "ratio": 4.9,
+        "demand": 42,
+        "supply": 5694,
+        "label": "💧 浅蓝海",
+        "level": "light_blue"
+      },
+      "div_score": -10,
+      "div_label": "📉 品类降温(-24%)",
+      "div_info": {
+        "current_heat": 63,
+        "previous_heat": 83,
+        "heat_change_pct": -24.1,
+        "direction": "falling",
+        "dates": [
+          "2026-08-08_0850",
+          "2026-08-08_1710"
+        ]
+      },
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Etsy",
+        "Reddit"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 121,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "💬 Reddit": 5,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "📈 趋势(sports)": 8,
+        "🟡 中等竞争": 5,
+        "⭐ 高评分": 5,
+        "💧 浅蓝海": 10,
+        "📉 品类降温(-24%)": -10,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类较多": -5
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-08-08",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "etsy_trending",
+        "new_releases",
+        "google_trends",
+        "tiktok_verified",
+        "multi_source"
+      ]
+    },
+    {
+      "asin": "B0FFGHVZXD",
+      "name": "AWARDSEN Pumpkin Decor Emotional Support Crochet Pumpkin Positive Gifts for Women Men Cute Stuff Pumpkins Ornament Autum",
+      "price": 8.32,
+      "reviews": 96,
+      "rating": 4.7,
+      "rank": 43,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "96 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FFGHVZXD",
+      "image_url": "https://m.media-amazon.com/images/I/71KToGbNFVL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "pumpkin decor",
+      "festival_event": "收获节",
+      "festival_icon": "🌾",
+      "festival_deadline": "2026-08-11",
+      "is_event": false,
+      "sources": [
+        "📅 收获节",
+        "TikTok趋势",
+        "Google趋势",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.291,
+      "net_profit": 2.42,
+      "cost_breakdown": {
+        "vat": 1.39,
+        "commission": 1.25,
+        "fba": 1.46,
+        "ads": 0.83,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 5.9
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 113,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(home decor)": 23,
+        "🟡 中等竞争": 5,
+        "⭐ 高评分": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-08-06",
+      "is_multi": true,
+      "channel_tags": [
+        "etsy_trending",
+        "google_trends",
+        "tiktok_verified",
+        "multi_source",
+        "temu_trending",
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0D41MR6T4",
+      "name": "Sponsored Ad – 2Pcs Shoe Washing Machine Bag, Trainer Washing Machine Bag, Deep Cleaning Laundry Shoe Bags for Washing M",
+      "price": 9.16,
+      "reviews": 61,
+      "rating": 4.2,
+      "rank": 3,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "61 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0D41MR6T4",
+      "image_url": "https://m.media-amazon.com/images/I/71eOCN1PN-L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "sneaker laundry bag, shoe washing machine bag, shoe laundry bag for washing machine, mesh laundry bags for shoes, trainer washing bag, shoe cleaning bag, sneaker wash bag 2 pack, laundry bag for shoes, protective shoe bag washer, delicates laundry bag sneakers",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势",
+        "Google趋势",
+        "Reddit需求",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.316,
+      "net_profit": 2.9,
+      "cost_breakdown": {
+        "vat": 1.53,
+        "commission": 1.37,
+        "fba": 1.46,
+        "ads": 0.92,
+        "returns": 0.18,
+        "sourcing": 0.8,
+        "total_cost": 6.26
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy",
+        "Reddit"
+      ],
+      "internal_sources": [],
+      "score": 102,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "💬 Reddit": 5,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "📈 趋势(cleaning)": 8,
+        "🟡 中等竞争": 5,
+        "💰 高利润": 8,
+        "❓ 品类存疑": -5,
+        "📢 广告位": -10,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-10",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "etsy_trending",
+        "google_trends",
+        "tiktok_verified",
+        "multi_source",
+        "temu_trending",
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0D3V15PZ3",
+      "name": "2 Pcs Shoe Washing Machine Bag, Trainer Washing Machine Bag, Shoe Wash Bag | Trainer Wash Bag, Bags for Washing Machine,",
+      "price": 8.32,
+      "reviews": 21,
+      "rating": 4.3,
+      "rank": 34,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "21 reviews, 4.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0D3V15PZ3",
+      "image_url": "https://m.media-amazon.com/images/I/812WbXMxrbL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "sneaker laundry bag, shoe washing machine bag, shoe laundry bag for washing machine, mesh laundry bags for shoes, trainer washing bag, shoe cleaning bag, sneaker wash bag 2 pack, laundry bag for shoes, protective shoe bag washer, delicates laundry bag sneakers",
+      "sources": [
+        "趋势发现",
+        "Google趋势",
+        "Reddit需求"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.291,
+      "net_profit": 2.42,
+      "cost_breakdown": {
+        "vat": 1.39,
+        "commission": 1.25,
+        "fba": 1.46,
+        "ads": 0.83,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 5.9
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "medium",
+      "signal_label": "🟠 中信号",
+      "external_sources": [
+        "Google",
+        "Reddit"
+      ],
+      "internal_sources": [],
+      "score": 61,
+      "score_breakdown": {
+        "📊 Google↑": 15,
+        "💬 Reddit": 5,
+        "🟠 中信号": 10,
+        "🟢 低竞争": 10,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 3,
+      "is_new": true,
+      "first_seen": "2026-08-10",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "multi_source",
+        "keyword_search",
+        "google_trends"
+      ]
+    },
+    {
+      "asin": "B0DFPNN1F1",
+      "name": "2Pcs Shoe Washing Bags for Machine-40x20cm Wash bag for Trainers-Grey | Premium Laundry Bags with Military Zipper | Snea",
+      "price": 10.82,
+      "reviews": 99,
+      "rating": 4.1,
+      "rank": 2,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "99 reviews, 4.1★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DFPNN1F1",
+      "image_url": "https://m.media-amazon.com/images/I/81+q6Ucz8pL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "sneaker laundry bag, shoe washing machine bag, shoe laundry bag for washing machine, mesh laundry bags for shoes, trainer washing bag, shoe cleaning bag, sneaker wash bag 2 pack, laundry bag for shoes, protective shoe bag washer, delicates laundry bag sneakers",
+      "sources": [
+        "趋势发现",
+        "Google趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.354,
+      "net_profit": 3.83,
+      "cost_breakdown": {
+        "vat": 1.81,
+        "commission": 1.62,
+        "fba": 1.46,
+        "ads": 1.08,
+        "returns": 0.22,
+        "sourcing": 0.8,
+        "total_cost": 6.99
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "weak",
+      "signal_label": "🟡 弱信号",
+      "external_sources": [
+        "Google"
+      ],
+      "internal_sources": [],
+      "score": 49,
+      "score_breakdown": {
+        "📊 Google↑": 15,
+        "🟡 中等竞争": 5,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 2,
+      "is_new": true,
+      "first_seen": "2026-08-10",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "multi_source",
+        "keyword_search",
+        "google_trends"
+      ]
+    },
+    {
+      "asin": "B0FF58B5RX",
+      "name": "Benross 6 Soft Teddy Fabric Pumpkins in Autumnal Neutral Colours / 6cm Decorative Pumpkins for Cosy Autumn Home Décor 85",
+      "price": 6.66,
+      "reviews": 14,
+      "rating": 4.5,
+      "rank": 32,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "14 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FF58B5RX",
+      "image_url": "https://m.media-amazon.com/images/I/71mBNe7hynL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "pumpkin decor",
+      "festival_event": "收获节",
+      "festival_icon": "🌾",
+      "festival_deadline": "2026-08-11",
+      "is_event": false,
+      "sources": [
+        "📅 收获节",
+        "Temu热销",
+        "Etsy趋势",
+        "TikTok趋势"
+      ],
+      "profit_margin": 0.224,
+      "net_profit": 1.49,
+      "cost_breakdown": {
+        "vat": 1.11,
+        "commission": 1.0,
+        "fba": 1.46,
+        "ads": 0.67,
+        "returns": 0.13,
+        "sourcing": 0.8,
+        "total_cost": 5.17
+      },
+      "off_season": true,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 94,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(home decor)": 23,
+        "🌊 蓝海": 15,
+        "⭐ 高评分": 5,
+        "❓ 品类存疑": -5,
+        "❄️ 过季降权": -20,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 4,
+      "is_new": true,
+      "first_seen": "2026-08-10",
+      "is_multi": true,
+      "channel_tags": [
+        "etsy_trending",
+        "tiktok_verified",
+        "multi_source",
+        "temu_trending",
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0FZVQNFZQ",
+      "name": "OAKKMEL Egg Poacher Microwave Egg Cooker, Poached Egg Maker Microwave, Dishwasher Safe Microwave Egg Poacher Cups 2 Eggs",
+      "price": 11.99,
+      "reviews": 33,
+      "rating": 3.6,
+      "rank": 34,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "33 reviews, 3.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FZVQNFZQ",
+      "image_url": "https://m.media-amazon.com/images/I/61pehPlBoYL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "silicone egg poacher cups, egg poaching cups 2 pack, microwave egg poacher, poached egg cooker, egg poacher pods, silicone egg cups, poached egg maker, egg poacher for microwave, non stick egg poacher, egg cooker silicone cups",
+      "sources": [
+        "趋势发现"
+      ],
+      "profit_margin": 0.375,
+      "net_profit": 4.49,
+      "cost_breakdown": {
+        "vat": 2.0,
+        "commission": 1.8,
+        "fba": 1.46,
+        "ads": 1.2,
+        "returns": 0.24,
+        "sourcing": 0.8,
+        "total_cost": 7.5
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": 32,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🔥 多源热门(kitchen)": 23,
+        "🟢 低竞争": 10,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-08-10",
+      "is_event": false,
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0GRT6BFBB",
+      "name": "Gourd Amber Candlestick Holders Glass for Halloween/Thanksgiving Decor | Vohocandle Fall Decor Ribbed Glass Candle Stick",
+      "price": 12.49,
+      "reviews": 27,
+      "rating": 4.8,
+      "rank": 41,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "27 reviews, 4.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GRT6BFBB",
+      "image_url": "https://m.media-amazon.com/images/I/71p8ppODWsL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "leaf candle holder",
+      "festival_event": "收获节",
+      "festival_icon": "🌾",
+      "festival_deadline": "2026-08-11",
+      "is_event": true,
+      "sources": [
+        "📅 收获节",
+        "TikTok趋势",
+        "Google趋势",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.382,
+      "net_profit": 4.77,
+      "cost_breakdown": {
+        "vat": 2.09,
+        "commission": 1.87,
+        "fba": 1.46,
+        "ads": 1.25,
+        "returns": 0.25,
+        "sourcing": 0.8,
+        "total_cost": 7.72
+      },
+      "off_season": true,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 98,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(pets)": 23,
+        "🟢 低竞争": 10,
+        "⭐ 高评分": 5,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "❄️ 过季降权": -20,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "🎯 事件过密": -8
+      },
+      "stars": 4,
+      "is_new": false,
+      "first_seen": "2026-08-08",
+      "is_multi": true,
+      "channel_tags": [
+        "etsy_trending",
+        "google_trends",
+        "tiktok_verified",
+        "multi_source",
+        "temu_trending",
+        "event_product",
+        "keyword_search"
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "keyword": "lighting",
+      "category": "lighting",
+      "heat": 91,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "light",
+        "strip",
+        "led",
+        "night light",
+        "lamp"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "LED light",
+        "fairy lights",
+        "string lights",
+        "LED strip",
+        "LED strip light",
+        "RGB strip",
+        "LED bulb",
+        "LED panel"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 91,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=LED+light",
+      "url_google": "https://trends.google.com/trends/explore?q=LED+light&geo=GB"
+    },
+    {
+      "keyword": "crafts",
+      "category": "crafts",
+      "heat": 91,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "paint",
+        "stickers",
+        "craft",
+        "tape",
+        "brush"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "acrylic paint set",
+        "paint brush set",
+        "paint by numbers",
+        "stickers",
+        "craft knife",
+        "craft supplies",
+        "DIY craft kit",
+        "washi tape"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 91,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=acrylic+paint+set",
+      "url_google": "https://trends.google.com/trends/explore?q=acrylic+paint+set&geo=GB"
+    },
+    {
+      "keyword": "phone",
+      "category": "phone",
+      "heat": 100,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "holder",
+        "earbuds",
+        "stand",
+        "phone",
+        "case"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "holder",
+        "earbuds case",
+        "wireless earbuds",
+        "stand",
+        "phone case",
+        "phone holder",
+        "phone stand",
+        "case"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=holder",
+      "url_google": "https://trends.google.com/trends/explore?q=holder&geo=GB"
+    },
+    {
+      "keyword": "office",
+      "category": "office",
+      "heat": 85,
+      "score": 73,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "office",
+        "laptop",
+        "stationery",
+        "mouse",
+        "pen"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "office supplies",
+        "desk organizer",
+        "pen holder",
+        "laptop stand",
+        "laptop sleeve",
+        "laptop cooler",
+        "stationery set",
+        "notebook"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 85,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=office+supplies",
+      "url_google": "https://trends.google.com/trends/explore?q=office+supplies&geo=GB"
+    },
+    {
+      "keyword": "home decor",
+      "category": "home decor",
+      "heat": 85,
+      "score": 73,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "mirror",
+        "decor",
+        "candle",
+        "wall art",
+        "vase"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "makeup mirror",
+        "vanity mirror",
+        "LED mirror",
+        "home decor",
+        "room decor",
+        "table decor",
+        "candle holder",
+        "scented candle"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 85,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=makeup+mirror",
+      "url_google": "https://trends.google.com/trends/explore?q=makeup+mirror&geo=GB"
+    },
+    {
+      "keyword": "beauty",
+      "category": "beauty",
+      "heat": 73,
+      "score": 69,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "mirror",
+        "nail",
+        "makeup",
+        "hair",
+        "skincare"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "makeup mirror",
+        "vanity mirror",
+        "LED mirror",
+        "nail art kit",
+        "nail tools",
+        "nail stickers",
+        "makeup brush set",
+        "makeup bag"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 73,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=makeup+mirror",
+      "url_google": "https://trends.google.com/trends/explore?q=makeup+mirror&geo=GB"
+    },
+    {
+      "keyword": "seasonal",
+      "category": "seasonal",
+      "heat": 67,
+      "score": 67,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "easter",
+        "valentine",
+        "birthday",
+        "halloween",
+        "christmas"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "easter egg",
+        "easter decoration",
+        "valentine gift",
+        "valentine card",
+        "birthday gift",
+        "birthday decoration",
+        "birthday card",
+        "halloween decoration"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 67,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=easter+egg",
+      "url_google": "https://trends.google.com/trends/explore?q=easter+egg&geo=GB"
+    },
+    {
+      "keyword": "storage",
+      "category": "storage",
+      "heat": 63,
+      "score": 66,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "container",
+        "storage",
+        "box",
+        "drawer",
+        "basket"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "container",
+        "food storage",
+        "kitchen storage",
+        "container set",
+        "drawer",
+        "basket"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 63,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=container",
+      "url_google": "https://trends.google.com/trends/explore?q=container&geo=GB"
+    },
+    {
+      "keyword": "garden",
+      "category": "garden",
+      "heat": 60,
+      "score": 65,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "outdoor",
+        "bbq",
+        "bird",
+        "flower",
+        "garden"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "outdoor",
+        "bird feeder",
+        "bird bath",
+        "bird house",
+        "flower",
+        "garden tool set",
+        "garden light",
+        "garden decor"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 60,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=outdoor",
+      "url_google": "https://trends.google.com/trends/explore?q=outdoor&geo=GB"
+    },
+    {
+      "keyword": "cleaning",
+      "category": "cleaning",
+      "heat": 57,
+      "score": 64,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "vacuum",
+        "cleaning",
+        "cleaner",
+        "sponge",
+        "brush"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "vacuum",
+        "cleaning",
+        "cleaner",
+        "sponge",
+        "brush"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 57,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=vacuum",
+      "url_google": "https://trends.google.com/trends/explore?q=vacuum&geo=GB"
+    },
+    {
+      "keyword": "eco",
+      "category": "eco",
+      "heat": 57,
+      "score": 64,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "reusable",
+        "sustainable",
+        "eco",
+        "organic"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "reusable food wrap",
+        "reusable straws",
+        "reusable bags",
+        "sustainable products",
+        "eco friendly",
+        "eco products",
+        "reusable bag",
+        "bamboo products"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 57,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=reusable+food+wrap",
+      "url_google": "https://trends.google.com/trends/explore?q=reusable+food+wrap&geo=GB"
+    },
+    {
+      "keyword": "bathroom",
+      "category": "bathroom",
+      "heat": 57,
+      "score": 64,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "mirror",
+        "soap",
+        "bath",
+        "toilet",
+        "towel"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "makeup mirror",
+        "vanity mirror",
+        "LED mirror",
+        "soap dispenser",
+        "soap dish",
+        "soap holder",
+        "bath mat",
+        "bath caddy"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 57,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=makeup+mirror",
+      "url_google": "https://trends.google.com/trends/explore?q=makeup+mirror&geo=GB"
+    },
+    {
+      "keyword": "car",
+      "category": "car",
+      "heat": 51,
+      "score": 62,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "car",
+        "automotive",
+        "dashboard"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "car accessories",
+        "car organizer",
+        "car phone holder",
+        "automotive",
+        "dashboard"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 51,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=car+accessories",
+      "url_google": "https://trends.google.com/trends/explore?q=car+accessories&geo=GB"
+    },
+    {
+      "keyword": "baby",
+      "category": "baby",
+      "heat": 42,
+      "score": 59,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "baby",
+        "kids",
+        "nursery",
+        "child"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "baby",
+        "kids",
+        "nursery",
+        "child"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 42,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=baby",
+      "url_google": "https://trends.google.com/trends/explore?q=baby&geo=GB"
+    },
+    {
+      "keyword": "kitchen",
+      "category": "kitchen",
+      "heat": 88,
+      "score": 54,
+      "gap_level": "weak",
+      "amazon_count": 7,
+      "amazon_reviews": 309435,
+      "evidence": [
+        "kitchen",
+        "gadget",
+        "cup",
+        "spice",
+        "mug"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "kitchen",
+        "gadget",
+        "spice rack",
+        "spice jar set",
+        "spice organizer"
+      ],
+      "sd_info": {
+        "ratio": 7.0,
+        "demand": 88,
+        "supply": 309435,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=kitchen",
+      "url_google": "https://trends.google.com/trends/explore?q=kitchen&geo=GB"
+    }
+  ],
+  "trend_summary": {
+    "top_categories": [
+      [
+        "pets",
+        100
+      ],
+      [
+        "phone",
+        100
+      ],
+      [
+        "lighting",
+        91
+      ],
+      [
+        "crafts",
+        91
+      ],
+      [
+        "kitchen",
+        88
+      ],
+      [
+        "office",
+        85
+      ]
+    ],
+    "cross_validated": [
+      "kitchen",
+      "cleaning",
+      "car",
+      "office",
+      "storage",
+      "lighting",
+      "pets",
+      "sports",
+      "crafts",
+      "phone",
+      "beauty",
+      "home decor",
+      "eco",
+      "seasonal",
+      "garden",
+      "bathroom",
+      "bedding",
+      "baby"
+    ],
+    "demand_keywords": [
+      "+400 digital stickers",
+      "2025, 2026, 2027, 2028 & undated",
+      "25,500+ canva plr templates bundle.",
+      "5-star rated",
+      "a second viewer agreed:",
+      "aesthetic desk setup",
+      "all-in-one digital planner",
+      "all-in-one life planner 2.0",
+      "amelia",
+      "and a card says"
+    ],
+    "season": "summer",
+    "sources_scanned": [
+      "tiktok",
+      "temu",
+      "etsy",
+      "market_intel"
+    ]
+  }
+}

@@ -1,0 +1,305 @@
+{
+  "category_scores": {
+    "kitchen": 88,
+    "cleaning": 57,
+    "car": 51,
+    "office": 85,
+    "storage": 63,
+    "lighting": 91,
+    "pets": 100,
+    "sports": 42,
+    "crafts": 91,
+    "phone": 100,
+    "beauty": 73,
+    "home decor": 85,
+    "eco": 57,
+    "seasonal": 67,
+    "garden": 60,
+    "bathroom": 57,
+    "bedding": 39,
+    "baby": 42,
+    "travel": 6,
+    "kitchen_gadgets": 6
+  },
+  "category_evidence": {
+    "kitchen": [
+      "kitchen",
+      "gadget",
+      "cup",
+      "spice",
+      "mug"
+    ],
+    "cleaning": [
+      "vacuum",
+      "cleaning",
+      "cleaner",
+      "sponge",
+      "brush"
+    ],
+    "car": [
+      "car",
+      "automotive",
+      "dashboard"
+    ],
+    "office": [
+      "office",
+      "laptop",
+      "stationery",
+      "mouse",
+      "pen",
+      "notebook",
+      "desk"
+    ],
+    "storage": [
+      "container",
+      "storage",
+      "box",
+      "drawer",
+      "basket"
+    ],
+    "lighting": [
+      "light",
+      "strip",
+      "led",
+      "night light",
+      "lamp"
+    ],
+    "pets": [
+      "dog",
+      "cat",
+      "leash",
+      "bed",
+      "toy",
+      "pet",
+      "collar",
+      "grooming"
+    ],
+    "sports": [
+      "water bottle",
+      "exercise",
+      "sport"
+    ],
+    "crafts": [
+      "paint",
+      "stickers",
+      "craft",
+      "tape",
+      "brush",
+      "sewing",
+      "art"
+    ],
+    "phone": [
+      "holder",
+      "earbuds",
+      "stand",
+      "phone",
+      "case",
+      "cable",
+      "charger"
+    ],
+    "beauty": [
+      "mirror",
+      "nail",
+      "makeup",
+      "hair",
+      "skincare",
+      "brush"
+    ],
+    "home decor": [
+      "mirror",
+      "decor",
+      "candle",
+      "wall art",
+      "vase",
+      "clock",
+      "frame"
+    ],
+    "eco": [
+      "reusable",
+      "sustainable",
+      "eco",
+      "organic"
+    ],
+    "seasonal": [
+      "easter",
+      "valentine",
+      "birthday",
+      "halloween",
+      "christmas",
+      "gift"
+    ],
+    "garden": [
+      "outdoor",
+      "bbq",
+      "bird",
+      "flower",
+      "garden",
+      "plant"
+    ],
+    "bathroom": [
+      "mirror",
+      "soap",
+      "bath",
+      "toilet",
+      "towel",
+      "shower",
+      "bathroom"
+    ],
+    "bedding": [
+      "blanket",
+      "pillow",
+      "cushion",
+      "sheet",
+      "throw"
+    ],
+    "baby": [
+      "baby",
+      "kids",
+      "nursery",
+      "child"
+    ],
+    "travel": [
+      "travel"
+    ],
+    "kitchen_gadgets": [
+      "kitchen gadget"
+    ]
+  },
+  "source_signals": {
+    "tiktok": {
+      "kitchen": 6,
+      "cleaning": 7,
+      "car": 2,
+      "office": 7,
+      "storage": 6,
+      "lighting": 8,
+      "pets": 8,
+      "sports": 3,
+      "crafts": 5,
+      "phone": 5,
+      "beauty": 7,
+      "home decor": 5,
+      "eco": 4,
+      "seasonal": 2,
+      "garden": 1,
+      "bathroom": 4,
+      "bedding": 2,
+      "baby": 2
+    },
+    "temu": {
+      "kitchen": 7,
+      "garden": 2,
+      "cleaning": 6,
+      "car": 4,
+      "office": 4,
+      "lighting": 8,
+      "pets": 11,
+      "crafts": 6,
+      "bedding": 1,
+      "travel": 1,
+      "phone": 10,
+      "beauty": 5,
+      "home decor": 3,
+      "eco": 3,
+      "seasonal": 1,
+      "storage": 1,
+      "baby": 1,
+      "kitchen_gadgets": 1,
+      "bathroom": 1
+    },
+    "etsy": {
+      "kitchen": 9,
+      "garden": 9,
+      "bathroom": 8,
+      "cleaning": 1,
+      "car": 4,
+      "office": 10,
+      "storage": 8,
+      "lighting": 7,
+      "pets": 11,
+      "sports": 2,
+      "crafts": 12,
+      "bedding": 5,
+      "travel": 1,
+      "phone": 8,
+      "beauty": 5,
+      "home decor": 13,
+      "baby": 4,
+      "eco": 6,
+      "seasonal": 12
+    },
+    "market_intel": {
+      "kitchen": 2,
+      "bathroom": 1,
+      "car": 2,
+      "office": 2,
+      "storage": 1,
+      "lighting": 2,
+      "pets": 3,
+      "sports": 2,
+      "crafts": 2,
+      "phone": 5,
+      "beauty": 2,
+      "home decor": 2,
+      "baby": 2,
+      "kitchen_gadgets": 1,
+      "eco": 1,
+      "seasonal": 2
+    }
+  },
+  "cross_validated": {
+    "kitchen": 4,
+    "cleaning": 3,
+    "car": 4,
+    "office": 4,
+    "storage": 4,
+    "lighting": 4,
+    "pets": 4,
+    "sports": 3,
+    "crafts": 4,
+    "phone": 4,
+    "beauty": 4,
+    "home decor": 4,
+    "eco": 4,
+    "seasonal": 4,
+    "garden": 3,
+    "bathroom": 4,
+    "bedding": 3,
+    "baby": 4
+  },
+  "demand_keywords": [
+    "+400 digital stickers",
+    "2025, 2026, 2027, 2028 & undated",
+    "25,500+ canva plr templates bundle.",
+    "5-star rated",
+    "a second viewer agreed:",
+    "aesthetic desk setup",
+    "all-in-one digital planner",
+    "all-in-one life planner 2.0",
+    "amelia",
+    "and a card says",
+    "another suggested:",
+    "as personalization trends have reached",
+    "author profile",
+    "be you. the world will adjust",
+    "best seller",
+    "best sellers",
+    "both programs help you earn",
+    "both top sellers globally operate",
+    "bright blue",
+    "bubble wrap works well too.",
+    "build an email list through",
+    "but first, coffee",
+    "but it",
+    "but not everyone wants to",
+    "captures the mood well",
+    "chart data sourced from",
+    "choosing the right products to",
+    "christmas searches dominated by",
+    "cleantok",
+    "clutter hotspots can pop up"
+  ],
+  "season": "summer",
+  "total_queries": 10,
+  "total_results_chars": 354887
+}
