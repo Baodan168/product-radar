@@ -581,6 +581,13 @@ def main():
         from detail_verifier import batch_verify
         passed, detail_rejected = batch_verify(passed, config)
         rejected.extend(detail_rejected)
+        # ⚠️ 2026-08-10: unverified 异常比例告警。详情页大面积无数据 = 抓取链路
+        # 异常（Amazon 反爬降级/超时），产品未经重量/尺寸验证却静默通过。
+        # 实例: 08:50 扫描 37/37 unverified → KAYMAN 泡沫轴(45×15×15cm)漏网。
+        n_unv = sum(1 for p in passed if p.get("verify_status") == "unverified")
+        if passed and n_unv / len(passed) >= 0.5:
+            print(f"  ⚠️ [7a] 告警: {n_unv}/{len(passed)} 产品未验证（详情页无重量/尺寸数据），"
+                  f"本轮通过品未经过完整尺寸验证，需人工复核！", file=sys.stderr)
     except Exception as e:
         print(f"  ⚠️ [7a] 详情页验证失败 (non-fatal): {e}", file=sys.stderr)
     history = load_history(days=7)

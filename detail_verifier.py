@@ -176,6 +176,14 @@ def verify_product(p, config):
 
     if reasons:
         return False, "; ".join(reasons), data_found
+
+    # ⚠️ 2026-08-10 修复: Amazon 反爬"静默降级"检测。批量请求详情页时 Amazon
+    # 会返回精简版 HTML（实测 419KB~944KB vs 正常 150万+ 字节），不含 Product
+    # Information 表（prodDetTable/po-break-word）。此时解析不到数据 ≠ 卖家真
+    # 没填数据，标记 _degraded 由 batch_verify 重试一次（KAYMAN 泡沫轴案例：
+    # 08:50 降级页漏网，重抓完整页即拦截 45×15×15cm）。
+    if not data_found and "prodDetTable" not in html and "po-break-word" not in html:
+        p["_degraded"] = True
     return True, None, data_found
 
 
@@ -274,6 +282,32 @@ def batch_verify(products, config, max_workers=3, time_budget=240, log=print):
     passed.extend(skipped)
     n_unv = sum(1 for p in passed if p.get("verify_status") == "unverified")
     log(f"  [7a] 完成: 通过 {len(passed)} | 拦截 {len(rejected)} | 未验证 {n_unv} (耗时 {time.time()-t0:.0f}s)")
+
+    # ⚠️ 2026-08-10 修复: 降级页重试。首轮 unverified 且页面疑似降级（无 Product
+    # Information 表）的产品重试 1 次——反爬降级是瞬态的，二次抓取常能拿到完整页。
+    # 实例: 08:50 扫描 37/37 unverified（419KB~944KB 精简页），KAYMAN 泡沫轴
+    # （真实包装 45×15×15cm）漏网；重抓完整页即拦截。
+    retry_list = [p for p in passed if p.get("verify_status") == "unverified" and p.pop("_degraded", False)]
+    if retry_list:
+        log(f"  [7a] 重试 {len(retry_list)} 个降级页产品（首轮 HTML 不含 Product Information 表）")
+        for idx, p in enumerate(retry_list):
+            if time.time() - t0 > time_budget:
+                log(f"  ⚠️ [7a] 重试阶段超预算，剩余 {len(retry_list)-idx} 个保持 unverified")
+                break
+            try:
+                ok, reason, data_found = verify_product(p, config)
+            except Exception:
+                ok, reason, data_found = True, None, False
+            if not ok:
+                p["verify_status"] = "rejected"
+                p["detail_reject_reason"] = reason
+                passed.remove(p)
+                rejected.append(p)
+                log(f"    ❌ [重试] {p.get('name', '')[:45]} → {reason}")
+            elif data_found:
+                p["verify_status"] = "verified"
+        n_unv = sum(1 for p in passed if p.get("verify_status") == "unverified")
+        log(f"  [7a] 重试后: 通过 {len(passed)} | 拦截 {len(rejected)} | 未验证 {n_unv}")
     return passed, rejected
 
 
