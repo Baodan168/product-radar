@@ -1,0 +1,118 @@
+{
+  "date": "2026-08-11",
+  "updated_at": "2026-08-11T08:45:00+08:00",
+  "scan_date": "2026-08-11",
+  "scan_time": "08:40",
+  "summary": "2026-08-11 选品发现：4个严格符合轻小件标准（≤200g/≤32×22×6cm/无电子件）的趋势产品推荐，聚焦『返校季+宠物丰容+居家收纳』三线。",
+  "insights": [
+    {
+      "keyword": "dog snuffle ball interactive foraging toy treat dispenser",
+      "keyword_cn": "宠物嗅闻球 狗狗解闷益智藏食球 漏食玩具 慢食训练",
+      "amazon_keyword": "snuffle ball for dogs, dog enrichment toy, dog foraging toy treat dispenser, dog puzzle ball slow feeder",
+      "search_1688": "宠物嗅闻球 狗益智藏食玩具 摇粒绒 批发",
+      "demand_signals": [
+        "Amazon UK 'snuffle ball'共194个结果，主流无牌款定价£7.99-£9.99，Petface/Andiker等中端款£9.99-£12，价格带契合£6-10；DR CATCH等头部ASIN月销可达10K（asinsight 2026-08数据）",
+        "Amazon US 'snuffle ball'头部ASIN B08RY2YRFG月销10K、价格$9.99，类目Top10平均月销3.9K——趋势从美区向英区传导，英区仍处竞争分散期",
+        "TikTok UK宠物丰容内容大涨——#dogenrichment #snuffleball #treatdispenser等标签持续产出，'keep dog busy'场景是2026宠物内容高频选题",
+        "UK养宠家庭刚需——宠物玩具是消耗品，复购率高；购买决策非电子、无售后，FBA轻小件友好",
+        "1688供货充足——义乌朗宝/智爱等宠物工厂现货嗅闻球¥15-21/个（TPR+摇粒绒，球体14cm+布条），跨境专供款已有亚马逊详情图"
+      ],
+      "trend_score": 80,
+      "trend_direction": "rising",
+      "reason": "宠物丰容（enrichment）是2026 TikTok-亚马逊传导的确定性品类：美区snuffle球已验证头部月销过万，英区竞争仍分散（无品牌垄断、多白牌低价混战）。嗅闻球纯织物+TPR材质，无电子/电池/液体，单球约170g（含布条），球体14cm可压缩进20×20cm包装，符合小件标准。1688 ¥18-21/个（约£1.95-2.30），Amazon UK £8.99定价，宠物类目佣金5%，毛利率约33%。差异化方向：2枚装（球+胡萝卜发声插件）提升客单价，多色+收纳网袋。",
+      "action": "007店测款：上架Dog Snuffle Ball 2 Pack，定价£8.99，1688搜索'宠物嗅闻球 狗益智藏食玩具 摇粒绒 批发'，首批200套（单球+胡萝卜插件2枚装），3配色。主词'snuffle ball for dogs' + 长尾'dog foraging toy treat dispenser'。配网袋收纳开箱。",
+      "competition": "中等竞争——类目容量大但品牌集中度低。£7-12区间约60+个ASIN，以白牌为主、review普遍<500，头部Petface靠品牌名溢价。差异化靠2枚套装+收纳网袋+多彩配色。趋势仍在上升通道，返校后秋季宠物内容续火，8月尾上架可吃9-10月宠物换季消费。",
+      "signal_scores": {
+        "trend": 80,
+        "gap": 72,
+        "profit": 82,
+        "final": 78.2,
+        "recommendation": "BUY",
+        "gap_level": "中等竞争",
+        "profit_window": "1688 ¥21以内可保30%+利润（毛利率预估33%，宠物佣金5%，FBA配送约£3.50）"
+      }
+    },
+    {
+      "keyword": "reusable chalkboard labels for jars kitchen pantry",
+      "keyword_cn": "可擦写黑板标签贴 玻璃罐收纳标签 冰箱/厨房储物可重复使用",
+      "amazon_keyword": "chalkboard labels for jars, reusable kitchen labels, erasable jar labels, pantry organization stickers",
+      "search_1688": "黑板贴纸 冰箱收纳标签 可擦写 可重复使用 批发",
+      "demand_signals": [
+        "Amazon UK 'Removable Labels'类目常青——Armiz 64PCS可擦写黑板标签£8、Innoveem冷冻标签100片装、多款£4.99-£8.99霸榜Best Seller，验证稳定需求",
+        "TikTok UK #fridgescaping累计超19亿次播放，'pretty pantry'/'pretty fridge'成为2026居家美学主线，可擦写标签是fridgescaping核心道具（英国媒体Veranda/House Beautiful 2026趋势报道佐证）",
+        "英国刊物Wellbeing News/ravishmag报道'label-making提升幸福感'，Brother P-touch带火标签DIY，Brother UK官方推广label-making作为2026情绪价值趋势",
+        "UK开学季+厨房收纳双场景——学校储物/school labels和家庭pantry同步旺销",
+        "1688成本极低——可擦写黑板标签贴（含白板笔）拿货约¥3-6/套50-100片，超轻小件，FBA最低档费用"
+      ],
+      "trend_score": 78,
+      "trend_direction": "rising",
+      "reason": "标签贴是fridgescaping（冰箱美学）趋势的基建耗材，UK 2026居家收纳+情绪价值双概念加持，TikTok #fridgescaping 19亿+播放持续放大。纯纸/塑料标签+磁吸附件，无电子/液体，单套<50g，平铺包装≤20×15×0.5cm，超小标准件。1688 ¥4-6/套（约£0.45-0.65），Amazon UK £6.99定价，家居类目佣金8%，毛利率约48%。差异化方向：配白板笔+磁吸条+莫兰迪配色，做'整套fridgescaping入门盒'。",
+      "action": "027新店测款：上架Reusable Chalkboard Labels Set（64片+2白板笔+磁吸条），定价£6.99，1688搜索'黑板贴纸 冰箱收纳标签 可擦写 可重复使用 批发'，首批500套（成本极低风险小）。主词'chalkboard labels for jars' + 'reusable kitchen labels'。做莫兰迪色整套开箱。",
+      "competition": "红海但市场容量大——类目稳定日销。£4-8区间约40+个ASIN，品牌如Lakeland/Sellertree走中高端，白牌价格战激烈。差异化靠'整套套装（标签+笔+磁条）'和一键开箱，而非单品裸贴。8月厨房收纳+开学双场景重叠，可入。",
+      "signal_scores": {
+        "trend": 78,
+        "gap": 62,
+        "profit": 90,
+        "final": 76.8,
+        "recommendation": "BUY",
+        "gap_level": "红海",
+        "profit_window": "1688 ¥6以内可保40%+利润（毛利率预估48%，家居佣金8%，FBA配送约£2.50）"
+      }
+    },
+    {
+      "keyword": "magnetic dry erase chore reward chart for kids compact",
+      "keyword_cn": "磁性可擦写儿童行为奖励表 成长自律打卡表 冰箱贴 紧凑款",
+      "amazon_keyword": "chore chart for kids, magnetic reward chart, kids behavior chart fridge, dry erase chore board",
+      "search_1688": "儿童成长自律表 磁贴 可擦写 奖励表 批发",
+      "demand_signals": [
+        "Amazon US 'kids chore chart magnetic'头部ASIN B0C53B6DT6月销3K+，'reward chart'整体类目头部月销10K（asinsight 2026-07/08数据），需求稳定且返校季放量",
+        "UK返校季（8-9月）是行为育儿类刚需高峰——家长采购routine chart/奖励表激励孩子开学习惯，TikTok育儿内容（#gentleparenting #morningroutine）持续带火",
+        "Amazon UK Best Seller磁吸可擦写chore chart持续在列，含markers的紧凑款（A4/8.5×12寸'Shipped Flat'）最受欢迎，差异化在'可平铺'",
+        "UK小学/中学9月开学在即，行为管理+作息表是家长刚需，返校采购窗口正当时",
+        "1688供货充足——磁性星星奖励板/儿童成长自律表拿货约¥8-15/套（含磁贴+星星+可擦写板），跨境专供款已有"
+      ],
+      "trend_score": 75,
+      "trend_direction": "rising",
+      "reason": "儿童行为奖励表是返校季（8-9月）确定性刚需，Amazon类目已验证头部月销数千，UK开学在即需求放量。纯磁吸+纸板/软磁材质，无电子/电池/液体。⚠️尺寸是关键：必须选紧凑A4或8.5×12寸'Shipped Flat'平铺款（约21×29cm×薄），才能卡进≤32×22×6cm小件标准，避免14.5×11寸大尺寸超规格。1688 ¥10/套（约£1.10），Amazon UK £7.99定价，玩具类目佣金15%，毛利率约28%。差异化：含6支可擦笔+彩色星星磁贴增强开箱。",
+      "action": "322老店推新：上架Magnetic Chore Chart for Kids（紧凑A4平铺款，含6可擦笔+星星磁贴），定价£7.99，1688搜索'儿童成长自律表 磁贴 可擦写 奖励表 批发'，首批300套。⚠️务必确认包装≤32×22×6cm，选'Shipped Flat'平铺款。主词'chore chart for kids' + 'magnetic reward chart'。",
+      "competition": "红海但容量大——类目头部月销数千但品牌分散。£8-15区间约50+个ASIN，中高端品牌（inamio等）月销3K撑起需求。差异化靠紧凑A4平铺+含笔套装+多彩配色。返校季窗口8月中-9月，需尽快上架赶开学采购。",
+      "signal_scores": {
+        "trend": 75,
+        "gap": 58,
+        "profit": 78,
+        "final": 70.2,
+        "recommendation": "BUY",
+        "gap_level": "红海",
+        "profit_window": "1688 ¥12以内可保25%+利润（毛利率预估28%，玩具佣金15%，FBA配送约£3.50；⚠️需紧凑平铺款控制尺寸）"
+      }
+    },
+    {
+      "keyword": "book page holder reading finger grip thumb opener",
+      "keyword_cn": "书夹阅读手指握持器 拇指翻页夹 护手阅读神器",
+      "amazon_keyword": "book page holder, reading finger grip, thumb book opener, book page weight",
+      "search_1688": "阅读指套 翻书神器 拇指书夹 护手 批发",
+      "demand_signals": [
+        "Amazon US新兴品类——3D printed book page holder（拇指开书夹）Best Sellers Rank已进#85K Office/Bookmarks，含磁吸书签套装卖$3.99-5.99，验证需求",
+        "TikTok #BookTok UK持续火爆——'hands free reading'、'cookbook page holder'等场景内容带火护手阅读工具，阅读美学内容高频",
+        "UK开学季+阅读季——学期开始带动学生/爱书人购买阅读辅助工具，低竞争新兴细分",
+        "轻小件极致适配——单个<30g，塑料/木质拇指夹+磁吸书签，平铺包装≤10×5×2cm，FBA最低费用档",
+        "1688供货——阅读指套/翻书神器/拇指夹（3D打印或PP材质）拿货约¥1-3/个，可做多件套装"
+      ],
+      "trend_score": 70,
+      "trend_direction": "rising",
+      "reason": "书夹/拇指阅读器是BookTok衍生的小众蓝海——Amazon US已验证需求（3D printed page holder进Top，含磁吸书签$3.99-5.99），英区竞争仍低，UK开学+阅读季双场景叠加。纯塑料/木质，无电子/液体/<30g，极致小件。1688 ¥2/个（约£0.22），Amazon UK £5.99定价，佣金8%，毛利率约45%。差异化：套装含2个设计款书夹+2磁吸书签+礼品卡，做'BookTok阅读礼物盒'。",
+      "action": "027店测款：上架Book Page Holder Gift Set（2书夹+2磁吸书签+卡纸），定价£5.99，1688搜索'阅读指套 翻书神器 拇指书夹 护手 批发'，首批500套（单价极低风险小）。主词'book page holder' + 'reading finger grip'。做BookTok风格开箱。",
+      "competition": "蓝海/低竞争——英区成熟ASIN少，属新兴细分。£4-7区间约10-15个ASIN，以3D打印/木质小卖家为主。差异化靠套装+礼品化+BookTok视觉。风险提示：单品利润绝对值低（约£2/单），需量驱动；首批500套总投入约£150，风险极低。",
+      "signal_scores": {
+        "trend": 70,
+        "gap": 82,
+        "profit": 85,
+        "final": 79.0,
+        "recommendation": "STRONG_BUY",
+        "gap_level": "蓝海",
+        "profit_window": "1688 ¥3以内可保40%+利润（毛利率预估45%，佣金8%，FBA配送约£2.50）"
+      }
+    }
+  ],
+  "trend_forecast": "未来2个月（2026年8-9月）三大趋势方向：①UK返校季（8月中-9月开学）——行为奖励表/学校标签/文具耗材进入需求高峰；②宠物丰容（enrichment）持续放量——snuffle球/嗅闻玩具从美区向英区传导，秋季宠物换季内容续火；③居家收纳美学（fridgescaping/pretty pantry）——可擦写标签等基建耗材随#fridgescaping 19亿+播放持续放大。\\n\\n⚠️ 本次推荐严格遵守FBA小件标准：重量≤200g / 包装≤32×22×6cm / 无电子部件（不含电池/USB/充电/电机/电子元件）。其中chore chart务必选紧凑A4平铺款控制尺寸。"
+}
