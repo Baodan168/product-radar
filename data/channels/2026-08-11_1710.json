@@ -1,0 +1,2008 @@
+{
+  "scan_date": "2026-08-11",
+  "scan_time": "17:10",
+  "scan_ts": "2026-08-11_1710",
+  "stats": {
+    "total_scanned": 149,
+    "passed_filter": 13,
+    "rejected": 131,
+    "channels": {
+      "new_releases": 8,
+      "etsy_trending": 12,
+      "multi_source": 12,
+      "google_trends": 3,
+      "temu_trending": 12,
+      "tiktok_verified": 12,
+      "keyword_search": 5,
+      "event_product": 2
+    },
+    "detail_reject": {},
+    "theme_trimmed": [
+      {
+        "asin": "B0D3LVCS72",
+        "name": "VidFair Dog Toys,Pet Dog Snuffle Ball Pet Sniffing Training Toy Treat Dispenser Slow Feeder Dog Relieve Stress Nosework "
+      },
+      {
+        "asin": "B0CQYFHGPD",
+        "name": "VidFair Snuffle Ball for Dogs,Interactive Foraging Toys,Training Natural Foraging Skills,Dog Feeding Training,Pet Puzzle"
+      },
+      {
+        "asin": "B0CRQWLP7M",
+        "name": "KANGSIT Snuffle Ball, Interactive Dog Puzzle Toys - Enrichment Chew Toy, Natural Foraging & Food Training Feeders for Bo"
+      },
+      {
+        "asin": "B0C338DMV7",
+        "name": "Andiker Dog Snuffle Ball, Interactive Dog Toys Ball Dog Brain Stimulating Puzzle Toys for Dogs Enrichment Game Feeding M"
+      },
+      {
+        "asin": "B0D1CHPS1V",
+        "name": "JWTEEE Interactive dog toys, Enrichment puzzle feeders for dogs, Treat dispensing ball, Slow feeder for Boredom Relief, "
+      }
+    ],
+    "trend_categories": {
+      "pets": 100,
+      "phone": 100,
+      "kitchen": 94,
+      "beauty": 91,
+      "home decor": 91,
+      "lighting": 89
+    },
+    "supply_demand": {
+      "pets": {
+        "ratio": 7.9,
+        "demand": 100,
+        "supply": 315810,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "kitchen": {
+        "ratio": 7.3,
+        "demand": 94,
+        "supply": 367943,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "sports": {
+        "ratio": 7.0,
+        "demand": 89,
+        "supply": 329963,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "kitchen_gadgets": {
+        "ratio": 2.3,
+        "demand": 29,
+        "supply": 367943,
+        "label": "⚖️ 平衡",
+        "level": "balanced"
+      },
+      "cleaning": {
+        "ratio": 0,
+        "demand": 58,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "car": {
+        "ratio": 0,
+        "demand": 63,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "storage": {
+        "ratio": 0,
+        "demand": 86,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "lighting": {
+        "ratio": 0,
+        "demand": 89,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      }
+    },
+    "divergences": {
+      "kitchen": {
+        "current_heat": 82,
+        "previous_heat": 77,
+        "heat_change_pct": 6.5,
+        "direction": "stable",
+        "dates": [
+          "2026-08-10_1711",
+          "2026-08-11_0850"
+        ]
+      },
+      "cleaning": {
+        "current_heat": 71,
+        "previous_heat": 65,
+        "heat_change_pct": 9.2,
+        "direction": "stable",
+        "dates": [
+          "2026-08-10_1711",
+          "2026-08-11_0850"
+        ]
+      },
+      "car": {
+        "current_heat": 64,
+        "previous_heat": 55,
+        "heat_change_pct": 16.4,
+        "direction": "stable",
+        "dates": [
+          "2026-08-10_1711",
+          "2026-08-11_0850"
+        ]
+      },
+      "storage": {
+        "current_heat": 75,
+        "previous_heat": 75,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-10_1711",
+          "2026-08-11_0850"
+        ]
+      },
+      "lighting": {
+        "current_heat": 80,
+        "previous_heat": 86,
+        "heat_change_pct": -7.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-10_1711",
+          "2026-08-11_0850"
+        ]
+      },
+      "pets": {
+        "current_heat": 100,
+        "previous_heat": 100,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-10_1711",
+          "2026-08-11_0850"
+        ]
+      },
+      "sports": {
+        "current_heat": 71,
+        "previous_heat": 58,
+        "heat_change_pct": 22.4,
+        "direction": "stable",
+        "dates": [
+          "2026-08-10_1711",
+          "2026-08-11_0850"
+        ]
+      },
+      "crafts": {
+        "current_heat": 87,
+        "previous_heat": 86,
+        "heat_change_pct": 1.2,
+        "direction": "stable",
+        "dates": [
+          "2026-08-10_1711",
+          "2026-08-11_0850"
+        ]
+      },
+      "beauty": {
+        "current_heat": 71,
+        "previous_heat": 75,
+        "heat_change_pct": -5.3,
+        "direction": "stable",
+        "dates": [
+          "2026-08-10_1711",
+          "2026-08-11_0850"
+        ]
+      },
+      "home decor": {
+        "current_heat": 94,
+        "previous_heat": 75,
+        "heat_change_pct": 25.3,
+        "direction": "stable",
+        "dates": [
+          "2026-08-10_1711",
+          "2026-08-11_0850"
+        ]
+      },
+      "kitchen_gadgets": {
+        "current_heat": 29,
+        "previous_heat": 10,
+        "heat_change_pct": 190.0,
+        "direction": "rising",
+        "dates": [
+          "2026-08-10_1711",
+          "2026-08-11_0850"
+        ]
+      },
+      "eco": {
+        "current_heat": 73,
+        "previous_heat": 63,
+        "heat_change_pct": 15.9,
+        "direction": "stable",
+        "dates": [
+          "2026-08-10_1711",
+          "2026-08-11_0850"
+        ]
+      },
+      "garden": {
+        "current_heat": 96,
+        "previous_heat": 82,
+        "heat_change_pct": 17.1,
+        "direction": "stable",
+        "dates": [
+          "2026-08-10_1711",
+          "2026-08-11_0850"
+        ]
+      },
+      "bathroom": {
+        "current_heat": 57,
+        "previous_heat": 60,
+        "heat_change_pct": -5.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-10_1711",
+          "2026-08-11_0850"
+        ]
+      },
+      "office": {
+        "current_heat": 92,
+        "previous_heat": 72,
+        "heat_change_pct": 27.8,
+        "direction": "stable",
+        "dates": [
+          "2026-08-10_1711",
+          "2026-08-11_0850"
+        ]
+      },
+      "bedding": {
+        "current_heat": 68,
+        "previous_heat": 55,
+        "heat_change_pct": 23.6,
+        "direction": "stable",
+        "dates": [
+          "2026-08-10_1711",
+          "2026-08-11_0850"
+        ]
+      },
+      "phone": {
+        "current_heat": 82,
+        "previous_heat": 100,
+        "heat_change_pct": -18.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-10_1711",
+          "2026-08-11_0850"
+        ]
+      },
+      "baby": {
+        "current_heat": 62,
+        "previous_heat": 51,
+        "heat_change_pct": 21.6,
+        "direction": "stable",
+        "dates": [
+          "2026-08-10_1711",
+          "2026-08-11_0850"
+        ]
+      },
+      "seasonal": {
+        "current_heat": 85,
+        "previous_heat": 63,
+        "heat_change_pct": 34.9,
+        "direction": "rising",
+        "dates": [
+          "2026-08-10_1711",
+          "2026-08-11_0850"
+        ]
+      },
+      "travel": {
+        "current_heat": 36,
+        "previous_heat": 60,
+        "heat_change_pct": -40.0,
+        "direction": "falling",
+        "dates": [
+          "2026-08-10_1711",
+          "2026-08-11_0850"
+        ]
+      }
+    },
+    "gap_opportunities": 16
+  },
+  "products": [
+    {
+      "asin": "B0H7538XFD",
+      "name": "Dog Cooling Mat, Pet Cooling Mat for Cats, Cool Blanket or Large Dogs In Hot Summer, Durable Cool Pad Waterproof & Easy ",
+      "price": 7.99,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 2,
+      "category": "Pets",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H7538XFD",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71S6jUp23ML._AC_UL300_SR300,200_.jpg",
+      "google_trend": "rising",
+      "sources": [
+        "Google趋势",
+        "Reddit需求",
+        "TikTok趋势",
+        "Etsy趋势",
+        "Temu热销"
+      ],
+      "profit_margin": 0.38,
+      "net_profit": 3.04,
+      "cost_breakdown": {
+        "vat": 1.33,
+        "commission": 0.4,
+        "fba": 1.46,
+        "ads": 0.8,
+        "returns": 0.16,
+        "sourcing": 0.8,
+        "total_cost": 4.95
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 7.9,
+        "demand": 100,
+        "supply": 315810,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy",
+        "Reddit"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 168,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "💬 Reddit": 5,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(pets)": 23,
+        "⏳ 待验证": -8,
+        "💰 超高利润": 12,
+        "🌊 深蓝海": 20,
+        "📈 排名上升": 10,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类较多": -5
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-08-05",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "new_releases",
+        "etsy_trending",
+        "multi_source",
+        "google_trends",
+        "temu_trending",
+        "tiktok_verified"
+      ]
+    },
+    {
+      "asin": "B0D44VNW6W",
+      "name": "Benixmidart Dog Snuffle Ball, Interactive Dog Puzzle Feeder for Exercise, Sniff Training & Slow Feeding (Rainbow, 15CM)",
+      "price": 8.55,
+      "reviews": 13,
+      "rating": 3.6,
+      "rank": 33,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "13 reviews, 3.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0D44VNW6W",
+      "image_url": "https://m.media-amazon.com/images/I/61rQYw5c9pL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "snuffle ball for dogs, dog enrichment toy, dog foraging toy treat dispenser, dog puzzle ball slow feeder",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势",
+        "Etsy趋势",
+        "Temu热销"
+      ],
+      "profit_margin": 0.299,
+      "net_profit": 2.55,
+      "cost_breakdown": {
+        "vat": 1.43,
+        "commission": 1.28,
+        "fba": 1.46,
+        "ads": 0.86,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 6.0
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 113,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(pets)": 23,
+        "🌊 蓝海": 15,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-11",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "etsy_trending",
+        "multi_source",
+        "keyword_search",
+        "temu_trending",
+        "tiktok_verified"
+      ]
+    },
+    {
+      "asin": "B0DFQ2NF1F",
+      "name": "ZLLkeji Interactive Dog Snuffle Ball Encourages Natural Foraging Skills Toy Treat Dispenser Slow Feeder Dog Enrichment T",
+      "price": 11.66,
+      "reviews": 16,
+      "rating": 4.0,
+      "rank": 12,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "16 reviews, 4.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DFQ2NF1F",
+      "image_url": "https://m.media-amazon.com/images/I/7133NEJ8TSL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "snuffle ball for dogs, dog enrichment toy, dog foraging toy treat dispenser, dog puzzle ball slow feeder",
+      "sources": [
+        "趋势发现"
+      ],
+      "profit_margin": 0.369,
+      "net_profit": 4.3,
+      "cost_breakdown": {
+        "vat": 1.95,
+        "commission": 1.75,
+        "fba": 1.46,
+        "ads": 1.17,
+        "returns": 0.23,
+        "sourcing": 0.8,
+        "total_cost": 7.36
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": 37,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🔥 多源热门(pets)": 23,
+        "🌊 蓝海": 15,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-08-11",
+      "is_event": false,
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0H3NZ7QWD",
+      "name": "fjaldjfu Pet Cooling Mat, 2026 New Summer Multiple Specifications Cooling Mat for Dogs, reusable Durable Cat Cool Blanke",
+      "price": 8.99,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 6,
+      "category": "Pets",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H3NZ7QWD",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71FHPSv+J3L._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "TikTok趋势",
+        "Google趋势",
+        "Reddit需求",
+        "Etsy趋势",
+        "Temu热销"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.412,
+      "net_profit": 3.7,
+      "cost_breakdown": {
+        "vat": 1.5,
+        "commission": 0.45,
+        "fba": 1.46,
+        "ads": 0.9,
+        "returns": 0.18,
+        "sourcing": 0.8,
+        "total_cost": 5.29
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 7.9,
+        "demand": 100,
+        "supply": 315810,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy",
+        "Reddit"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 158,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "💬 Reddit": 5,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(pets)": 23,
+        "⏳ 待验证": -8,
+        "💰 超高利润": 12,
+        "🌊 深蓝海": 20,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类较多": -5
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-08-05",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "new_releases",
+        "etsy_trending",
+        "multi_source",
+        "google_trends",
+        "temu_trending",
+        "tiktok_verified"
+      ]
+    },
+    {
+      "asin": "B0H4ZCWQF8",
+      "name": "Flea Comb for Cats Dogs,Stainless Steel Rotate Brush Head Freely | Long Short Teeth for Massage and Shedding, Self Clean",
+      "price": 8.32,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 10,
+      "category": "Pets",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H4ZCWQF8",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/61Hj+Ctc1-L._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "Reddit需求",
+        "TikTok趋势",
+        "Etsy趋势",
+        "Temu热销"
+      ],
+      "profit_margin": 0.391,
+      "net_profit": 3.26,
+      "cost_breakdown": {
+        "vat": 1.39,
+        "commission": 0.42,
+        "fba": 1.46,
+        "ads": 0.83,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 5.06
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 7.9,
+        "demand": 100,
+        "supply": 315810,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy",
+        "Reddit"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 128,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "🎵 TikTok": 20,
+        "💬 Reddit": 5,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "📈 趋势(cleaning)": 8,
+        "⏳ 待验证": -8,
+        "💰 超高利润": 12,
+        "🌊 深蓝海": 20,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类较多": -5
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-08-05",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "new_releases",
+        "etsy_trending",
+        "multi_source",
+        "temu_trending",
+        "tiktok_verified"
+      ]
+    },
+    {
+      "asin": "B0H8J9QH81",
+      "name": "Summer Pet Cooling Collar Wrap, Instant Cooling Collar for Pet (#F) | Adjustable Reusable Pet Ice Scarf",
+      "price": 9.89,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 12,
+      "category": "Pets",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H8J9QH81",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/61GxsDkvDEL._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "TikTok趋势",
+        "Google趋势",
+        "Etsy趋势",
+        "Temu热销"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.434,
+      "net_profit": 4.3,
+      "cost_breakdown": {
+        "vat": 1.65,
+        "commission": 0.49,
+        "fba": 1.46,
+        "ads": 0.99,
+        "returns": 0.2,
+        "sourcing": 0.8,
+        "total_cost": 5.59
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 7.9,
+        "demand": 100,
+        "supply": 315810,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 158,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "📈 趋势(car)": 8,
+        "⏳ 待验证": -8,
+        "💰 超高利润": 12,
+        "🌴 当季(summer)": 10,
+        "🌊 深蓝海": 20,
+        "📈 排名上升": 10,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类较多": -5
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-08-05",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "new_releases",
+        "etsy_trending",
+        "multi_source",
+        "google_trends",
+        "temu_trending",
+        "tiktok_verified"
+      ]
+    },
+    {
+      "asin": "B0H5576R74",
+      "name": "Silicone Slow Feeder Cat Bowl, Green&Blue 2Pcs, Puzzle for Dry/Wet Food | Easy to Clean Non-Slip Puzzle Feeding Mat for ",
+      "price": 8.32,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 3,
+      "category": "Pets",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H5576R74",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/61i7VLoRdHL._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "Temu热销",
+        "Etsy趋势",
+        "TikTok趋势"
+      ],
+      "profit_margin": 0.391,
+      "net_profit": 3.26,
+      "cost_breakdown": {
+        "vat": 1.39,
+        "commission": 0.42,
+        "fba": 1.46,
+        "ads": 0.83,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 5.06
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 7.9,
+        "demand": 100,
+        "supply": 315810,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 138,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(pets)": 23,
+        "⏳ 待验证": -8,
+        "💰 超高利润": 12,
+        "🌊 深蓝海": 20,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类较多": -5
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-08-05",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "new_releases",
+        "etsy_trending",
+        "multi_source",
+        "temu_trending",
+        "tiktok_verified"
+      ]
+    },
+    {
+      "asin": "B0H1HCC75J",
+      "name": "Bird Bath Copper Tray, 99.99% Pure Copper Bird Bath Purification Disk 0.8mm Thick with Stable 3-Point Support, Suitable ",
+      "price": 6.02,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 5,
+      "category": "Pets",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H1HCC75J",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/712+UP1lVKL._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "TikTok趋势",
+        "Etsy趋势",
+        "Temu热销"
+      ],
+      "profit_margin": 0.288,
+      "net_profit": 1.73,
+      "cost_breakdown": {
+        "vat": 1.01,
+        "commission": 0.3,
+        "fba": 1.46,
+        "ads": 0.6,
+        "returns": 0.12,
+        "sourcing": 0.8,
+        "total_cost": 4.29
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 7.9,
+        "demand": 100,
+        "supply": 315810,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 130,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(pets)": 23,
+        "⏳ 待验证": -8,
+        "💰 较好利润": 4,
+        "🌊 深蓝海": 20,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类较多": -5
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-08-10",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "new_releases",
+        "etsy_trending",
+        "multi_source",
+        "temu_trending",
+        "tiktok_verified"
+      ]
+    },
+    {
+      "asin": "B0H3JTY9DK",
+      "name": "Silver Suction Cup Shower Head Holder Rotatable Shower Head Stand | Adjustable No-Drill Wall Mount Bracket, Removable & ",
+      "price": 7.48,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 5,
+      "category": "DIY",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H3JTY9DK",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71FEjK0JNKL._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "TikTok趋势",
+        "Etsy趋势",
+        "Temu热销"
+      ],
+      "profit_margin": 0.261,
+      "net_profit": 1.95,
+      "cost_breakdown": {
+        "vat": 1.25,
+        "commission": 1.12,
+        "fba": 1.46,
+        "ads": 0.75,
+        "returns": 0.15,
+        "sourcing": 0.8,
+        "total_cost": 5.53
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 125,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(kitchen)": 23,
+        "⏳ 待验证": -8,
+        "💰 较好利润": 4,
+        "⚠️ 未验证": -8,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-11",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "new_releases",
+        "etsy_trending",
+        "multi_source",
+        "temu_trending",
+        "tiktok_verified"
+      ]
+    },
+    {
+      "asin": "B0H74T99TX",
+      "name": "Shower Head Holder, 45° Rotatable No Drill Wall Mount Bracket with Hook | Heavy Duty Adhesive, Quick Stick-On Installati",
+      "price": 8.32,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 6,
+      "category": "DIY",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H74T99TX",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/61hd8E+TNHL._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "TikTok趋势",
+        "Etsy趋势",
+        "Temu热销"
+      ],
+      "profit_margin": 0.291,
+      "net_profit": 2.42,
+      "cost_breakdown": {
+        "vat": 1.39,
+        "commission": 1.25,
+        "fba": 1.46,
+        "ads": 0.83,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 5.9
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 123,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(bathroom)": 21,
+        "⏳ 待验证": -8,
+        "💰 较好利润": 4,
+        "⚠️ 未验证": -8,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-11",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "new_releases",
+        "etsy_trending",
+        "multi_source",
+        "temu_trending",
+        "tiktok_verified"
+      ]
+    },
+    {
+      "asin": "B0FF58B5RX",
+      "name": "Benross 6 Soft Teddy Fabric Pumpkins in Autumnal Neutral Colours / 6cm Decorative Pumpkins for Cosy Autumn Home Décor 85",
+      "price": 6.66,
+      "reviews": 14,
+      "rating": 4.5,
+      "rank": 32,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "14 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FF58B5RX",
+      "image_url": "https://m.media-amazon.com/images/I/71mBNe7hynL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "pumpkin decor",
+      "festival_event": "收获节",
+      "festival_icon": "🌾",
+      "festival_deadline": "2026-08-11",
+      "is_event": false,
+      "sources": [
+        "📅 收获节",
+        "TikTok趋势",
+        "Etsy趋势",
+        "Temu热销"
+      ],
+      "profit_margin": 0.224,
+      "net_profit": 1.49,
+      "cost_breakdown": {
+        "vat": 1.11,
+        "commission": 1.0,
+        "fba": 1.46,
+        "ads": 0.67,
+        "returns": 0.13,
+        "sourcing": 0.8,
+        "total_cost": 5.17
+      },
+      "off_season": true,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 84,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(home decor)": 23,
+        "🌊 蓝海": 15,
+        "⭐ 高评分": 5,
+        "❓ 品类存疑": -5,
+        "❄️ 过季降权": -20,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 4,
+      "is_new": false,
+      "first_seen": "2026-08-10",
+      "is_multi": true,
+      "channel_tags": [
+        "etsy_trending",
+        "multi_source",
+        "keyword_search",
+        "temu_trending",
+        "tiktok_verified"
+      ]
+    },
+    {
+      "asin": "B0FF5BS68S",
+      "name": "Benross 1.3m Felt Pumpkin Garland, 8 Orange Pumpkins, Autumn Halloween Home | Hanging Bunting Decoration on Cream Rope f",
+      "price": 7.49,
+      "reviews": 29,
+      "rating": 4.5,
+      "rank": 42,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "29 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FF5BS68S",
+      "image_url": "https://m.media-amazon.com/images/I/61H3fM9r7vL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "pumpkin decor",
+      "festival_event": "收获节",
+      "festival_icon": "🌾",
+      "festival_deadline": "2026-08-11",
+      "is_event": true,
+      "sources": [
+        "📅 收获节",
+        "TikTok趋势",
+        "Etsy趋势",
+        "Temu热销"
+      ],
+      "profit_margin": 0.261,
+      "net_profit": 1.96,
+      "cost_breakdown": {
+        "vat": 1.25,
+        "commission": 1.12,
+        "fba": 1.46,
+        "ads": 0.75,
+        "returns": 0.15,
+        "sourcing": 0.8,
+        "total_cost": 5.53
+      },
+      "off_season": true,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 83,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(home decor)": 23,
+        "🟢 低竞争": 10,
+        "⭐ 高评分": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "❄️ 过季降权": -20,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 4,
+      "is_new": false,
+      "first_seen": "2026-08-11",
+      "is_multi": true,
+      "channel_tags": [
+        "event_product",
+        "etsy_trending",
+        "multi_source",
+        "keyword_search",
+        "temu_trending",
+        "tiktok_verified"
+      ]
+    },
+    {
+      "asin": "B0FNR35DCJ",
+      "name": "GADITIEK 2 PCS Autumn Cushion Covers 45 x 45 cm Decorative Pumpkin Pillow Cover Halloween Plush Pillow Case Autumn Decor",
+      "price": 8.32,
+      "reviews": 20,
+      "rating": 4.4,
+      "rank": 14,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "20 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FNR35DCJ",
+      "image_url": "https://m.media-amazon.com/images/I/814BA5yMp0L._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "pumpkin decor",
+      "festival_event": "收获节",
+      "festival_icon": "🌾",
+      "festival_deadline": "2026-08-11",
+      "is_event": true,
+      "sources": [
+        "📅 收获节",
+        "TikTok趋势",
+        "Etsy趋势",
+        "Temu热销"
+      ],
+      "profit_margin": 0.291,
+      "net_profit": 2.42,
+      "cost_breakdown": {
+        "vat": 1.39,
+        "commission": 1.25,
+        "fba": 1.46,
+        "ads": 0.83,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 5.9
+      },
+      "off_season": true,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 78,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(home decor)": 23,
+        "🟢 低竞争": 10,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "❄️ 过季降权": -20,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 3,
+      "is_new": false,
+      "first_seen": "2026-08-06",
+      "is_multi": true,
+      "channel_tags": [
+        "event_product",
+        "etsy_trending",
+        "multi_source",
+        "keyword_search",
+        "temu_trending",
+        "tiktok_verified"
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "keyword": "beauty",
+      "category": "beauty",
+      "heat": 91,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "nail",
+        "mirror",
+        "makeup",
+        "skincare",
+        "hair"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "nail art kit",
+        "nail tools",
+        "nail stickers",
+        "makeup mirror",
+        "vanity mirror",
+        "LED mirror",
+        "makeup brush set",
+        "makeup bag"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 91,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=nail+art+kit",
+      "url_google": "https://trends.google.com/trends/explore?q=nail+art+kit&geo=GB"
+    },
+    {
+      "keyword": "home decor",
+      "category": "home decor",
+      "heat": 91,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "clock",
+        "vase",
+        "decor",
+        "wall art",
+        "mirror"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "wall clock",
+        "desk clock",
+        "digital clock",
+        "flower vase",
+        "decorative vase",
+        "home decor",
+        "room decor",
+        "table decor"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 91,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=wall+clock",
+      "url_google": "https://trends.google.com/trends/explore?q=wall+clock&geo=GB"
+    },
+    {
+      "keyword": "phone",
+      "category": "phone",
+      "heat": 100,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "ring light",
+        "stand",
+        "holder",
+        "case",
+        "cable"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "ring light",
+        "stand",
+        "holder",
+        "case",
+        "charging cable",
+        "USB cable",
+        "phone cable",
+        "phone case"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=ring+light",
+      "url_google": "https://trends.google.com/trends/explore?q=ring+light&geo=GB"
+    },
+    {
+      "keyword": "lighting",
+      "category": "lighting",
+      "heat": 89,
+      "score": 74,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "strip",
+        "solar light",
+        "lamp",
+        "light",
+        "night light"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "LED strip",
+        "LED strip light",
+        "RGB strip",
+        "solar light",
+        "desk lamp",
+        "night light",
+        "table lamp",
+        "LED light"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 89,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=LED+strip",
+      "url_google": "https://trends.google.com/trends/explore?q=LED+strip&geo=GB"
+    },
+    {
+      "keyword": "storage",
+      "category": "storage",
+      "heat": 86,
+      "score": 73,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "shelf",
+        "drawer",
+        "storage",
+        "basket",
+        "container"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "floating shelf",
+        "wall shelf",
+        "corner shelf",
+        "drawer",
+        "food storage",
+        "kitchen storage",
+        "container set",
+        "basket"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 86,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=floating+shelf",
+      "url_google": "https://trends.google.com/trends/explore?q=floating+shelf&geo=GB"
+    },
+    {
+      "keyword": "crafts",
+      "category": "crafts",
+      "heat": 86,
+      "score": 73,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "stickers",
+        "paint",
+        "craft",
+        "brush",
+        "art"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "stickers",
+        "acrylic paint set",
+        "paint brush set",
+        "paint by numbers",
+        "craft knife",
+        "craft supplies",
+        "DIY craft kit",
+        "brush"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 86,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=stickers",
+      "url_google": "https://trends.google.com/trends/explore?q=stickers&geo=GB"
+    },
+    {
+      "keyword": "garden",
+      "category": "garden",
+      "heat": 72,
+      "score": 69,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "outdoor",
+        "bbq",
+        "plant",
+        "flower",
+        "bird"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "outdoor",
+        "plant pot",
+        "plant stand",
+        "plant hanger",
+        "flower",
+        "bird feeder",
+        "bird bath",
+        "bird house"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 72,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=outdoor",
+      "url_google": "https://trends.google.com/trends/explore?q=outdoor&geo=GB"
+    },
+    {
+      "keyword": "office",
+      "category": "office",
+      "heat": 72,
+      "score": 69,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "office",
+        "desk",
+        "pen",
+        "notebook",
+        "laptop"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "office supplies",
+        "desk organizer",
+        "pen holder",
+        "desk lamp",
+        "desk mat",
+        "pen set",
+        "fountain pen",
+        "notebook"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 72,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=office+supplies",
+      "url_google": "https://trends.google.com/trends/explore?q=office+supplies&geo=GB"
+    },
+    {
+      "keyword": "seasonal",
+      "category": "seasonal",
+      "heat": 72,
+      "score": 69,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "christmas",
+        "valentine",
+        "gift",
+        "birthday",
+        "easter"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "christmas decoration",
+        "christmas gift",
+        "christmas stocking",
+        "valentine gift",
+        "valentine card",
+        "gift ideas",
+        "gift set",
+        "gift box"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 72,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=christmas+decoration",
+      "url_google": "https://trends.google.com/trends/explore?q=christmas+decoration&geo=GB"
+    },
+    {
+      "keyword": "bathroom",
+      "category": "bathroom",
+      "heat": 70,
+      "score": 68,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "towel",
+        "bath",
+        "toilet",
+        "mirror",
+        "shower"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "towel rail",
+        "towel rack",
+        "towel hook",
+        "bath mat",
+        "bath caddy",
+        "bath pillow",
+        "toilet",
+        "makeup mirror"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 70,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=towel+rail",
+      "url_google": "https://trends.google.com/trends/explore?q=towel+rail&geo=GB"
+    },
+    {
+      "keyword": "eco",
+      "category": "eco",
+      "heat": 67,
+      "score": 67,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "bamboo",
+        "reusable",
+        "eco",
+        "organic",
+        "sustainable"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "bamboo cutlery",
+        "bamboo toothbrush",
+        "bamboo organizer",
+        "reusable food wrap",
+        "reusable straws",
+        "reusable bags",
+        "eco products",
+        "reusable bag"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 67,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=bamboo+cutlery",
+      "url_google": "https://trends.google.com/trends/explore?q=bamboo+cutlery&geo=GB"
+    },
+    {
+      "keyword": "car",
+      "category": "car",
+      "heat": 63,
+      "score": 66,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "dashboard",
+        "automotive",
+        "car",
+        "vehicle",
+        "phone holder"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "dashboard",
+        "automotive",
+        "car accessories",
+        "car organizer",
+        "car phone holder",
+        "vehicle",
+        "phone holder"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 63,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=dashboard",
+      "url_google": "https://trends.google.com/trends/explore?q=dashboard&geo=GB"
+    },
+    {
+      "keyword": "cleaning",
+      "category": "cleaning",
+      "heat": 58,
+      "score": 64,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "cleaner",
+        "duster",
+        "cleaning",
+        "sponge",
+        "vacuum"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "cleaner",
+        "duster",
+        "cleaning",
+        "sponge",
+        "vacuum",
+        "brush"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 58,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=cleaner",
+      "url_google": "https://trends.google.com/trends/explore?q=cleaner&geo=GB"
+    },
+    {
+      "keyword": "travel",
+      "category": "travel",
+      "heat": 58,
+      "score": 64,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "packing",
+        "passport",
+        "luggage",
+        "toiletry",
+        "travel"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "packing",
+        "passport",
+        "luggage",
+        "toiletry",
+        "travel"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 58,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=packing",
+      "url_google": "https://trends.google.com/trends/explore?q=packing&geo=GB"
+    },
+    {
+      "keyword": "baby",
+      "category": "baby",
+      "heat": 58,
+      "score": 64,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "nursery",
+        "baby",
+        "child",
+        "kids",
+        "toddler"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "nursery",
+        "baby",
+        "child",
+        "kids",
+        "toddler"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 58,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=nursery",
+      "url_google": "https://trends.google.com/trends/explore?q=nursery&geo=GB"
+    },
+    {
+      "keyword": "bedding",
+      "category": "bedding",
+      "heat": 46,
+      "score": 60,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "sheet",
+        "bedding",
+        "throw",
+        "blanket",
+        "cushion"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "sheet",
+        "bedding",
+        "throw",
+        "blanket",
+        "cushion",
+        "pillow"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 46,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=sheet",
+      "url_google": "https://trends.google.com/trends/explore?q=sheet&geo=GB"
+    }
+  ],
+  "trend_summary": {
+    "top_categories": [
+      [
+        "pets",
+        100
+      ],
+      [
+        "phone",
+        100
+      ],
+      [
+        "kitchen",
+        94
+      ],
+      [
+        "beauty",
+        91
+      ],
+      [
+        "home decor",
+        91
+      ],
+      [
+        "lighting",
+        89
+      ]
+    ],
+    "cross_validated": [
+      "kitchen",
+      "cleaning",
+      "car",
+      "storage",
+      "lighting",
+      "pets",
+      "sports",
+      "crafts",
+      "beauty",
+      "home decor",
+      "eco",
+      "garden",
+      "bathroom",
+      "office",
+      "bedding",
+      "travel",
+      "phone",
+      "baby",
+      "kitchen_gadgets",
+      "seasonal"
+    ],
+    "demand_keywords": [
+      "** not",
+      "20 best selling items on temu [updated]",
+      "add the full",
+      "add to basket",
+      "addressing the",
+      "aesthetic desk setup",
+      "aggressively worth the hype",
+      "alamin ang",
+      "all generate real",
+      "always search with"
+    ],
+    "season": "summer",
+    "sources_scanned": [
+      "tiktok",
+      "temu",
+      "etsy",
+      "market_intel"
+    ]
+  }
+}
