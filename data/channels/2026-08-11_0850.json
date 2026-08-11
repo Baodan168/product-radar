@@ -1,0 +1,1699 @@
+{
+  "scan_date": "2026-08-11",
+  "scan_time": "08:50",
+  "scan_ts": "2026-08-11_0850",
+  "stats": {
+    "total_scanned": 355,
+    "passed_filter": 9,
+    "rejected": 340,
+    "channels": {
+      "multi_source": 8,
+      "etsy_trending": 8,
+      "tiktok_verified": 8,
+      "temu_trending": 8,
+      "new_releases": 2,
+      "keyword_search": 7,
+      "google_trends": 3,
+      "event_product": 2
+    },
+    "detail_reject": {
+      "重量超标": 13
+    },
+    "theme_trimmed": [
+      {
+        "asin": "B09TRM2W8L",
+        "name": "v2croft 168 Minimalist Pantry Labels Set for Organization Jars Canisters & Storage Bins, Preprinted Black Text on White "
+      },
+      {
+        "asin": "B0FF58B5RX",
+        "name": "Benross 6 Soft Teddy Fabric Pumpkins in Autumnal Neutral Colours / 6cm Decorative Pumpkins for Cosy Autumn Home Décor 85"
+      },
+      {
+        "asin": "B08GPBRF7L",
+        "name": "10M/32Ft Fall Orange Party Decorations Kit Bunting Banner Fabric Triangle Flag Cotton Garland Kit for Fall Autumn Weddin"
+      },
+      {
+        "asin": "B0D7HFBJ5X",
+        "name": "Rattan Hearts Wall Hanging Decoration, Heart Shape Wicker Wreath Ornament for Wedding Party, Autumn Wreath Home Bedroom "
+      },
+      {
+        "asin": "B0CSVSX3S5",
+        "name": "LOMOHOO Door Wreath Decorative Artificial Flowers Wreath Garland Welcome Garland Door Wreath Autumn Wall Wreath Metal De"
+      },
+      {
+        "asin": "B0FF53D5MT",
+        "name": "Benross Mrs Fox Autumn Ornament Woodland Animal Home Décor Tartan Fox | Tartan Fox Rustic Woodland Animal Ornament for H"
+      }
+    ],
+    "trend_categories": {
+      "pets": 100,
+      "garden": 96,
+      "home decor": 94,
+      "office": 92,
+      "crafts": 87,
+      "seasonal": 85
+    },
+    "supply_demand": {
+      "kitchen": {
+        "ratio": 19.5,
+        "demand": 82,
+        "supply": 66,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "pets": {
+        "ratio": 7.4,
+        "demand": 100,
+        "supply": 710657,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "kitchen_gadgets": {
+        "ratio": 6.9,
+        "demand": 29,
+        "supply": 66,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "sports": {
+        "ratio": 6.6,
+        "demand": 71,
+        "supply": 46864,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "lighting": {
+        "ratio": 6.4,
+        "demand": 80,
+        "supply": 263153,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "cleaning": {
+        "ratio": 0,
+        "demand": 71,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "car": {
+        "ratio": 0,
+        "demand": 64,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "storage": {
+        "ratio": 0,
+        "demand": 75,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      }
+    },
+    "divergences": {
+      "kitchen": {
+        "current_heat": 77,
+        "previous_heat": 88,
+        "heat_change_pct": -12.5,
+        "direction": "stable",
+        "dates": [
+          "2026-08-10_0850",
+          "2026-08-10_1711"
+        ]
+      },
+      "garden": {
+        "current_heat": 82,
+        "previous_heat": 60,
+        "heat_change_pct": 36.7,
+        "direction": "rising",
+        "dates": [
+          "2026-08-10_0850",
+          "2026-08-10_1711"
+        ]
+      },
+      "bathroom": {
+        "current_heat": 60,
+        "previous_heat": 57,
+        "heat_change_pct": 5.3,
+        "direction": "stable",
+        "dates": [
+          "2026-08-10_0850",
+          "2026-08-10_1711"
+        ]
+      },
+      "cleaning": {
+        "current_heat": 65,
+        "previous_heat": 57,
+        "heat_change_pct": 14.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-10_0850",
+          "2026-08-10_1711"
+        ]
+      },
+      "car": {
+        "current_heat": 55,
+        "previous_heat": 51,
+        "heat_change_pct": 7.8,
+        "direction": "stable",
+        "dates": [
+          "2026-08-10_0850",
+          "2026-08-10_1711"
+        ]
+      },
+      "office": {
+        "current_heat": 72,
+        "previous_heat": 85,
+        "heat_change_pct": -15.3,
+        "direction": "stable",
+        "dates": [
+          "2026-08-10_0850",
+          "2026-08-10_1711"
+        ]
+      },
+      "storage": {
+        "current_heat": 75,
+        "previous_heat": 63,
+        "heat_change_pct": 19.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-10_0850",
+          "2026-08-10_1711"
+        ]
+      },
+      "lighting": {
+        "current_heat": 86,
+        "previous_heat": 91,
+        "heat_change_pct": -5.5,
+        "direction": "stable",
+        "dates": [
+          "2026-08-10_0850",
+          "2026-08-10_1711"
+        ]
+      },
+      "pets": {
+        "current_heat": 100,
+        "previous_heat": 100,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-10_0850",
+          "2026-08-10_1711"
+        ]
+      },
+      "sports": {
+        "current_heat": 58,
+        "previous_heat": 42,
+        "heat_change_pct": 38.1,
+        "direction": "rising",
+        "dates": [
+          "2026-08-10_0850",
+          "2026-08-10_1711"
+        ]
+      },
+      "crafts": {
+        "current_heat": 86,
+        "previous_heat": 91,
+        "heat_change_pct": -5.5,
+        "direction": "stable",
+        "dates": [
+          "2026-08-10_0850",
+          "2026-08-10_1711"
+        ]
+      },
+      "bedding": {
+        "current_heat": 55,
+        "previous_heat": 39,
+        "heat_change_pct": 41.0,
+        "direction": "rising",
+        "dates": [
+          "2026-08-10_0850",
+          "2026-08-10_1711"
+        ]
+      },
+      "travel": {
+        "current_heat": 60,
+        "previous_heat": 6,
+        "heat_change_pct": 900.0,
+        "direction": "rising",
+        "dates": [
+          "2026-08-10_0850",
+          "2026-08-10_1711"
+        ]
+      },
+      "phone": {
+        "current_heat": 100,
+        "previous_heat": 100,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-10_0850",
+          "2026-08-10_1711"
+        ]
+      },
+      "beauty": {
+        "current_heat": 75,
+        "previous_heat": 73,
+        "heat_change_pct": 2.7,
+        "direction": "stable",
+        "dates": [
+          "2026-08-10_0850",
+          "2026-08-10_1711"
+        ]
+      },
+      "home decor": {
+        "current_heat": 75,
+        "previous_heat": 85,
+        "heat_change_pct": -11.8,
+        "direction": "stable",
+        "dates": [
+          "2026-08-10_0850",
+          "2026-08-10_1711"
+        ]
+      },
+      "baby": {
+        "current_heat": 51,
+        "previous_heat": 42,
+        "heat_change_pct": 21.4,
+        "direction": "stable",
+        "dates": [
+          "2026-08-10_0850",
+          "2026-08-10_1711"
+        ]
+      },
+      "kitchen_gadgets": {
+        "current_heat": 10,
+        "previous_heat": 6,
+        "heat_change_pct": 66.7,
+        "direction": "rising",
+        "dates": [
+          "2026-08-10_0850",
+          "2026-08-10_1711"
+        ]
+      },
+      "eco": {
+        "current_heat": 63,
+        "previous_heat": 57,
+        "heat_change_pct": 10.5,
+        "direction": "stable",
+        "dates": [
+          "2026-08-10_0850",
+          "2026-08-10_1711"
+        ]
+      },
+      "seasonal": {
+        "current_heat": 63,
+        "previous_heat": 67,
+        "heat_change_pct": -6.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-10_0850",
+          "2026-08-10_1711"
+        ]
+      }
+    },
+    "gap_opportunities": 15
+  },
+  "products": [
+    {
+      "asin": "B0GX1QHCKN",
+      "name": "Chicken Craft Personalised Campervan Enamel Mug with Name - Pop Top Custom Colour Design - Camping Gift",
+      "price": 12.99,
+      "reviews": 1,
+      "rating": 5.0,
+      "rank": 3,
+      "category": "Kitchen",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "1 reviews, 5.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GX1QHCKN",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71dMdzCuouL._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "TikTok趋势",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.459,
+      "net_profit": 5.96,
+      "cost_breakdown": {
+        "vat": 2.17,
+        "commission": 1.04,
+        "fba": 1.46,
+        "ads": 1.3,
+        "returns": 0.26,
+        "sourcing": 0.8,
+        "total_cost": 7.03
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 19.5,
+        "demand": 82,
+        "supply": 66,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": 15,
+      "div_label": "📈 品类升温(+67%)",
+      "div_info": {
+        "current_heat": 10,
+        "previous_heat": 6,
+        "heat_change_pct": 66.7,
+        "direction": "rising",
+        "dates": [
+          "2026-08-10_0850",
+          "2026-08-10_1711"
+        ]
+      },
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 183,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(kitchen)": 23,
+        "⏳ 评论偏少": -8,
+        "⭐ 高评分": 5,
+        "💰 超高利润": 12,
+        "🌴 当季(summer)": 10,
+        "🌊 深蓝海": 20,
+        "📈 品类升温(+67%)": 15,
+        "⚠️ 未验证": -8,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-11",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "multi_source",
+        "etsy_trending",
+        "tiktok_verified",
+        "temu_trending",
+        "new_releases"
+      ]
+    },
+    {
+      "asin": "B0H82XC8MS",
+      "name": "Travel Pillow Neck Support Cushion, Portable Cushion with Eye Mask | Great Companion for Long Trips and Commutes, Perfec",
+      "price": 11.66,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 2,
+      "category": "Kitchen",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H82XC8MS",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/61R4K0bWiyL._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "Reddit需求",
+        "Temu热销",
+        "Etsy趋势",
+        "TikTok趋势"
+      ],
+      "profit_margin": 0.439,
+      "net_profit": 5.12,
+      "cost_breakdown": {
+        "vat": 1.95,
+        "commission": 0.93,
+        "fba": 1.46,
+        "ads": 1.17,
+        "returns": 0.23,
+        "sourcing": 0.8,
+        "total_cost": 6.54
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 19.5,
+        "demand": 82,
+        "supply": 66,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": 15,
+      "div_label": "📈 品类升温(+67%)",
+      "div_info": {
+        "current_heat": 10,
+        "previous_heat": 6,
+        "heat_change_pct": 66.7,
+        "direction": "rising",
+        "dates": [
+          "2026-08-10_0850",
+          "2026-08-10_1711"
+        ]
+      },
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy",
+        "Reddit"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 183,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "🎵 TikTok": 20,
+        "💬 Reddit": 5,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(kitchen)": 23,
+        "⏳ 待验证": -8,
+        "💰 超高利润": 12,
+        "🌴 当季(summer)": 10,
+        "🌊 深蓝海": 20,
+        "📈 品类升温(+67%)": 15,
+        "⚠️ 未验证": -8,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-11",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "multi_source",
+        "etsy_trending",
+        "tiktok_verified",
+        "temu_trending",
+        "new_releases"
+      ]
+    },
+    {
+      "asin": "B0DS1ZNB2K",
+      "name": "180 Pcs Chalkboard Labels Waterproof,Labels for Jars | Kitchen Labels,Chalkboard Sticker Set Waterproof Reusable Chalkbo",
+      "price": 6.66,
+      "reviews": 23,
+      "rating": 4.3,
+      "rank": 36,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "23 reviews, 4.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DS1ZNB2K",
+      "image_url": "https://m.media-amazon.com/images/I/61I41MHEmwL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "chalkboard labels for jars, reusable kitchen labels, erasable jar labels, pantry organization stickers",
+      "sources": [
+        "趋势发现",
+        "Reddit需求",
+        "Temu热销",
+        "Etsy趋势",
+        "TikTok趋势"
+      ],
+      "profit_margin": 0.224,
+      "net_profit": 1.49,
+      "cost_breakdown": {
+        "vat": 1.11,
+        "commission": 1.0,
+        "fba": 1.46,
+        "ads": 0.67,
+        "returns": 0.13,
+        "sourcing": 0.8,
+        "total_cost": 5.17
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 19.5,
+        "demand": 82,
+        "supply": 66,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy",
+        "Reddit"
+      ],
+      "internal_sources": [],
+      "score": 129,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "💬 Reddit": 5,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(kitchen)": 23,
+        "🟢 低竞争": 10,
+        "❓ 品类存疑": -5,
+        "🌊 深蓝海": 20,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-11",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "multi_source",
+        "keyword_search",
+        "etsy_trending",
+        "tiktok_verified",
+        "temu_trending"
+      ]
+    },
+    {
+      "asin": "B09SZNRB9S",
+      "name": "v2croft 180 Kitchen Pantry Labels for containers, Preprinted Black Script Text on White Clear Vinyl Food Name Stickers,O",
+      "price": 8.32,
+      "reviews": 74,
+      "rating": 4.2,
+      "rank": 45,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "74 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B09SZNRB9S",
+      "image_url": "https://m.media-amazon.com/images/I/81i+rQlYr+L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "chalkboard labels for jars, reusable kitchen labels, erasable jar labels, pantry organization stickers",
+      "sources": [
+        "趋势发现",
+        "Reddit需求",
+        "Temu热销",
+        "Etsy趋势",
+        "TikTok趋势"
+      ],
+      "profit_margin": 0.291,
+      "net_profit": 2.42,
+      "cost_breakdown": {
+        "vat": 1.39,
+        "commission": 1.25,
+        "fba": 1.46,
+        "ads": 0.83,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 5.9
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 19.5,
+        "demand": 82,
+        "supply": 66,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy",
+        "Reddit"
+      ],
+      "internal_sources": [],
+      "score": 128,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "💬 Reddit": 5,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(kitchen)": 23,
+        "🟡 中等竞争": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "🌊 深蓝海": 20,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-11",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "multi_source",
+        "keyword_search",
+        "etsy_trending",
+        "tiktok_verified",
+        "temu_trending"
+      ]
+    },
+    {
+      "asin": "B0GFN7GK2C",
+      "name": "Livabl Pantry Labels for Jars, 420 White Minimalist Food Label Stickers | Waterproof Vinyl, UK Designed, Includes Tea Co",
+      "price": 11.66,
+      "reviews": 67,
+      "rating": 4.0,
+      "rank": 14,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "67 reviews, 4.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GFN7GK2C",
+      "image_url": "https://m.media-amazon.com/images/I/61dCohBjQjL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "chalkboard labels for jars, reusable kitchen labels, erasable jar labels, pantry organization stickers",
+      "sources": [
+        "趋势发现",
+        "Temu热销",
+        "Etsy趋势",
+        "TikTok趋势"
+      ],
+      "profit_margin": 0.369,
+      "net_profit": 4.3,
+      "cost_breakdown": {
+        "vat": 1.95,
+        "commission": 1.75,
+        "fba": 1.46,
+        "ads": 1.17,
+        "returns": 0.23,
+        "sourcing": 0.8,
+        "total_cost": 7.36
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 111,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(crafts)": 23,
+        "🟡 中等竞争": 5,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-11",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "multi_source",
+        "keyword_search",
+        "etsy_trending",
+        "tiktok_verified",
+        "temu_trending"
+      ]
+    },
+    {
+      "asin": "B0FF5BS68S",
+      "name": "Benross 1.3m Felt Pumpkin Garland, 8 Orange Pumpkins, Autumn Halloween Home | Hanging Bunting Decoration on Cream Rope f",
+      "price": 7.49,
+      "reviews": 29,
+      "rating": 4.5,
+      "rank": 41,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "29 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FF5BS68S",
+      "image_url": "https://m.media-amazon.com/images/I/61H3fM9r7vL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "pumpkin decor",
+      "festival_event": "收获节",
+      "festival_icon": "🌾",
+      "festival_deadline": "2026-08-11",
+      "is_event": true,
+      "sources": [
+        "📅 收获节",
+        "Google趋势",
+        "Temu热销",
+        "Etsy趋势",
+        "TikTok趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.261,
+      "net_profit": 1.96,
+      "cost_breakdown": {
+        "vat": 1.25,
+        "commission": 1.12,
+        "fba": 1.46,
+        "ads": 0.75,
+        "returns": 0.15,
+        "sourcing": 0.8,
+        "total_cost": 5.53
+      },
+      "off_season": true,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 116,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(home decor)": 23,
+        "🟢 低竞争": 10,
+        "⭐ 高评分": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "❄️ 过季降权": -20,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-11",
+      "is_multi": true,
+      "channel_tags": [
+        "google_trends",
+        "keyword_search",
+        "multi_source",
+        "event_product",
+        "etsy_trending",
+        "tiktok_verified",
+        "temu_trending"
+      ]
+    },
+    {
+      "asin": "B0GX9WK3ZB",
+      "name": "XIANNVXI 16 Bundles Autumnal Artificial Flowers for Outdoor,UV Resistant | Red Orange Realistic Fake Faux Silk Autumn Fl",
+      "price": 8.32,
+      "reviews": 39,
+      "rating": 4.5,
+      "rank": 29,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "39 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GX9WK3ZB",
+      "image_url": "https://m.media-amazon.com/images/I/917dXSFtRBL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "fall decorations",
+      "festival_event": "收获节",
+      "festival_icon": "🌾",
+      "festival_deadline": "2026-08-11",
+      "is_event": false,
+      "sources": [
+        "📅 收获节",
+        "TikTok趋势",
+        "Google趋势",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.291,
+      "net_profit": 2.42,
+      "cost_breakdown": {
+        "vat": 1.39,
+        "commission": 1.25,
+        "fba": 1.46,
+        "ads": 0.83,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 5.9
+      },
+      "off_season": true,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 108,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(crafts)": 23,
+        "🟢 低竞争": 10,
+        "⭐ 高评分": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "❄️ 过季降权": -20,
+        "📈 排名上升": 10,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-08-08",
+      "is_multi": true,
+      "channel_tags": [
+        "google_trends",
+        "keyword_search",
+        "multi_source",
+        "etsy_trending",
+        "tiktok_verified",
+        "temu_trending"
+      ]
+    },
+    {
+      "asin": "B0FNR35DCJ",
+      "name": "GADITIEK 2 PCS Autumn Cushion Covers 45 x 45 cm Decorative Pumpkin Pillow Cover Halloween Plush Pillow Case Autumn Decor",
+      "price": 8.32,
+      "reviews": 20,
+      "rating": 4.4,
+      "rank": 12,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "20 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FNR35DCJ",
+      "image_url": "https://m.media-amazon.com/images/I/814BA5yMp0L._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "pumpkin decor",
+      "festival_event": "收获节",
+      "festival_icon": "🌾",
+      "festival_deadline": "2026-08-11",
+      "is_event": true,
+      "sources": [
+        "📅 收获节",
+        "Google趋势",
+        "Temu热销",
+        "Etsy趋势",
+        "TikTok趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.291,
+      "net_profit": 2.42,
+      "cost_breakdown": {
+        "vat": 1.39,
+        "commission": 1.25,
+        "fba": 1.46,
+        "ads": 0.83,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 5.9
+      },
+      "off_season": true,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 93,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(home decor)": 23,
+        "🟢 低竞争": 10,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "❄️ 过季降权": -20,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 4,
+      "is_new": false,
+      "first_seen": "2026-08-06",
+      "is_multi": true,
+      "channel_tags": [
+        "google_trends",
+        "keyword_search",
+        "multi_source",
+        "event_product",
+        "etsy_trending",
+        "tiktok_verified",
+        "temu_trending"
+      ]
+    },
+    {
+      "asin": "B0FNCRZRTM",
+      "name": "Uniclife 24 Pack Mini Chalkboard Signs for Food, Small Chalkboard Signs with Strings Chalk Markers & Replacement Sticker",
+      "price": 11.24,
+      "reviews": 31,
+      "rating": 4.9,
+      "rank": 30,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "31 reviews, 4.9★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FNCRZRTM",
+      "image_url": "https://m.media-amazon.com/images/I/81XPwUcdK9L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "chalkboard labels for jars, reusable kitchen labels, erasable jar labels, pantry organization stickers",
+      "sources": [
+        "趋势发现"
+      ],
+      "profit_margin": 0.362,
+      "net_profit": 4.07,
+      "cost_breakdown": {
+        "vat": 1.88,
+        "commission": 1.69,
+        "fba": 1.46,
+        "ads": 1.12,
+        "returns": 0.22,
+        "sourcing": 0.8,
+        "total_cost": 7.17
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": 14,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🟢 低竞争": 10,
+        "⭐ 高评分": 5,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-08-11",
+      "is_event": false,
+      "channel_tags": [
+        "keyword_search"
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "keyword": "home decor",
+      "category": "home decor",
+      "heat": 94,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "vase",
+        "clock",
+        "frame",
+        "candle",
+        "wall art"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "flower vase",
+        "decorative vase",
+        "wall clock",
+        "desk clock",
+        "digital clock",
+        "photo frame",
+        "picture frame",
+        "wall frame"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 94,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=flower+vase",
+      "url_google": "https://trends.google.com/trends/explore?q=flower+vase&geo=GB"
+    },
+    {
+      "keyword": "garden",
+      "category": "garden",
+      "heat": 96,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "bird",
+        "patio",
+        "bbq",
+        "outdoor",
+        "flower"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "bird feeder",
+        "bird bath",
+        "bird house",
+        "patio",
+        "outdoor",
+        "flower",
+        "grill",
+        "garden tool set"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 96,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=bird+feeder",
+      "url_google": "https://trends.google.com/trends/explore?q=bird+feeder&geo=GB"
+    },
+    {
+      "keyword": "office",
+      "category": "office",
+      "heat": 92,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "laptop",
+        "office",
+        "desk",
+        "pen",
+        "stationery"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "laptop stand",
+        "laptop sleeve",
+        "laptop cooler",
+        "office supplies",
+        "desk organizer",
+        "pen holder",
+        "desk lamp",
+        "desk mat"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 92,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=laptop+stand",
+      "url_google": "https://trends.google.com/trends/explore?q=laptop+stand&geo=GB"
+    },
+    {
+      "keyword": "crafts",
+      "category": "crafts",
+      "heat": 87,
+      "score": 74,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "tape",
+        "stickers",
+        "brush",
+        "paint",
+        "craft"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "washi tape",
+        "decorative tape",
+        "masking tape",
+        "stickers",
+        "brush",
+        "acrylic paint set",
+        "paint brush set",
+        "paint by numbers"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 87,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=washi+tape",
+      "url_google": "https://trends.google.com/trends/explore?q=washi+tape&geo=GB"
+    },
+    {
+      "keyword": "seasonal",
+      "category": "seasonal",
+      "heat": 85,
+      "score": 73,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "birthday",
+        "christmas",
+        "halloween",
+        "valentine",
+        "gift"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "birthday gift",
+        "birthday decoration",
+        "birthday card",
+        "christmas decoration",
+        "christmas gift",
+        "christmas stocking",
+        "halloween decoration",
+        "halloween costume"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 85,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=birthday+gift",
+      "url_google": "https://trends.google.com/trends/explore?q=birthday+gift&geo=GB"
+    },
+    {
+      "keyword": "phone",
+      "category": "phone",
+      "heat": 82,
+      "score": 72,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "holder",
+        "cable",
+        "earbuds",
+        "ring light",
+        "case"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "holder",
+        "charging cable",
+        "USB cable",
+        "phone cable",
+        "earbuds case",
+        "wireless earbuds",
+        "ring light",
+        "case"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 82,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=holder",
+      "url_google": "https://trends.google.com/trends/explore?q=holder&geo=GB"
+    },
+    {
+      "keyword": "storage",
+      "category": "storage",
+      "heat": 75,
+      "score": 70,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "box",
+        "storage",
+        "container",
+        "shelf",
+        "basket"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "food storage",
+        "kitchen storage",
+        "container set",
+        "container",
+        "floating shelf",
+        "wall shelf",
+        "corner shelf",
+        "basket"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 75,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=food+storage",
+      "url_google": "https://trends.google.com/trends/explore?q=food+storage&geo=GB"
+    },
+    {
+      "keyword": "eco",
+      "category": "eco",
+      "heat": 73,
+      "score": 69,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "bamboo",
+        "eco",
+        "reusable",
+        "organic",
+        "sustainable"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "bamboo cutlery",
+        "bamboo toothbrush",
+        "bamboo organizer",
+        "eco products",
+        "reusable bag",
+        "bamboo products",
+        "reusable food wrap",
+        "reusable straws"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 73,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=bamboo+cutlery",
+      "url_google": "https://trends.google.com/trends/explore?q=bamboo+cutlery&geo=GB"
+    },
+    {
+      "keyword": "cleaning",
+      "category": "cleaning",
+      "heat": 71,
+      "score": 68,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "vacuum",
+        "brush",
+        "cleaning",
+        "mop",
+        "cleaner"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "vacuum",
+        "brush",
+        "cleaning",
+        "cleaner",
+        "duster",
+        "sponge"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 71,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=vacuum",
+      "url_google": "https://trends.google.com/trends/explore?q=vacuum&geo=GB"
+    },
+    {
+      "keyword": "beauty",
+      "category": "beauty",
+      "heat": 71,
+      "score": 68,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "brush",
+        "skincare",
+        "hair",
+        "nail",
+        "mirror"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "brush",
+        "face roller",
+        "gua sha",
+        "face mask",
+        "hair clip",
+        "hair accessories",
+        "hair band",
+        "hair tie"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 71,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=brush",
+      "url_google": "https://trends.google.com/trends/explore?q=brush&geo=GB"
+    },
+    {
+      "keyword": "kitchen",
+      "category": "kitchen",
+      "heat": 82,
+      "score": 67,
+      "gap_level": "moderate",
+      "amazon_count": 3,
+      "amazon_reviews": 66,
+      "evidence": [
+        "mug",
+        "cooking",
+        "spice",
+        "utensil",
+        "cup"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "cooking",
+        "spice rack",
+        "spice jar set",
+        "spice organizer",
+        "utensil",
+        "kitchen",
+        "gadget"
+      ],
+      "sd_info": {
+        "ratio": 19.5,
+        "demand": 82,
+        "supply": 66,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=cooking",
+      "url_google": "https://trends.google.com/trends/explore?q=cooking&geo=GB"
+    },
+    {
+      "keyword": "bedding",
+      "category": "bedding",
+      "heat": 68,
+      "score": 67,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "duvet",
+        "cushion",
+        "bedding",
+        "blanket",
+        "throw"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "duvet",
+        "cushion",
+        "bedding",
+        "blanket",
+        "throw",
+        "pillow",
+        "sheet"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 68,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=duvet",
+      "url_google": "https://trends.google.com/trends/explore?q=duvet&geo=GB"
+    },
+    {
+      "keyword": "car",
+      "category": "car",
+      "heat": 64,
+      "score": 66,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "dashboard",
+        "automotive",
+        "car",
+        "motor",
+        "vehicle"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "dashboard",
+        "automotive",
+        "car accessories",
+        "car organizer",
+        "car phone holder",
+        "motorcycle accessories",
+        "motorcycle cover",
+        "vehicle"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 64,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=dashboard",
+      "url_google": "https://trends.google.com/trends/explore?q=dashboard&geo=GB"
+    },
+    {
+      "keyword": "baby",
+      "category": "baby",
+      "heat": 62,
+      "score": 65,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "baby",
+        "nursery",
+        "child",
+        "toddler",
+        "kids"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "baby",
+        "nursery",
+        "child",
+        "toddler",
+        "kids"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 62,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=baby",
+      "url_google": "https://trends.google.com/trends/explore?q=baby&geo=GB"
+    },
+    {
+      "keyword": "bathroom",
+      "category": "bathroom",
+      "heat": 57,
+      "score": 64,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "shower",
+        "soap",
+        "toilet",
+        "bath",
+        "bathroom"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "shower caddy",
+        "shower head",
+        "shower curtain",
+        "soap dispenser",
+        "soap dish",
+        "soap holder",
+        "toilet",
+        "bath mat"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 57,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=shower+caddy",
+      "url_google": "https://trends.google.com/trends/explore?q=shower+caddy&geo=GB"
+    }
+  ],
+  "trend_summary": {
+    "top_categories": [
+      [
+        "pets",
+        100
+      ],
+      [
+        "garden",
+        96
+      ],
+      [
+        "home decor",
+        94
+      ],
+      [
+        "office",
+        92
+      ],
+      [
+        "crafts",
+        87
+      ],
+      [
+        "seasonal",
+        85
+      ]
+    ],
+    "cross_validated": [
+      "kitchen",
+      "cleaning",
+      "car",
+      "storage",
+      "lighting",
+      "pets",
+      "sports",
+      "crafts",
+      "beauty",
+      "home decor",
+      "kitchen_gadgets",
+      "eco",
+      "garden",
+      "bathroom",
+      "office",
+      "bedding",
+      "phone",
+      "baby",
+      "seasonal",
+      "travel"
+    ],
+    "demand_keywords": [
+      "** not",
+      "20 best selling items on temu [updated]",
+      "25,500+ canva plr templates bundle.",
+      "26051 electric kettle",
+      "7 best multichannel listing software in 2026 9",
+      "a bride in a tini bit",
+      "a second viewer agreed:",
+      "access the niche",
+      "add the full",
+      "add to basket"
+    ],
+    "season": "summer",
+    "sources_scanned": [
+      "tiktok",
+      "temu",
+      "etsy",
+      "market_intel"
+    ]
+  }
+}
