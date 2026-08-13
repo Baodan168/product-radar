@@ -103,7 +103,10 @@ echo "━━━━━━━━━━━━━━━━━━━━━━━━�
 
 # Step 1: Run radar scan (timeout: 10 min — 含 [7a] 详情页尺寸验证, 78产品约需4-7分钟)
 # ⚠️ cron 外层 900s 硬超时（no_agent 系统限制），全步骤 timeout 总和必须 ≤900s
-# 预算: scan 600 + bsr 45 + platform 30 + portal 30 + deploy 180 = 885s
+# 预算: scan 600 + bsr 30 + platform 20 + portal 20 + deploy 180 = 850s（留 50s 余量）
+# 2026-08-13 优化: bsr 45→30, platform/portal 30→20（均含 fallback 不致命）；
+#   部署已改为只推 hash 变更文件（138→~40 个），实际 deploy 通常 ~50s，
+#   850s 预算给扫描波动留出呼吸空间（上次 17:10 扫描波动吃掉部署配额致 900s 超时）。
 echo ""
 step "scan"
 echo "📡 Step 1: 雷达扫描..."
@@ -116,24 +119,24 @@ if [ -z "$LATEST" ]; then
     exit 1
 fi
 
-# Step 2: BSR enrichment using Playwright (timeout: 45s, 失败不影响主流程)
+# Step 2: BSR enrichment using Playwright (timeout: 30s, 失败不影响主流程)
 echo ""
 step "bsr"
 echo "📊 Step 2: BSR数据抓取..."
-timeout 45 python3 bsr_scraper.py --enrich 2>&1 || { echo "  ⚠️ BSR抓取失败（不影响主流程）"; warn "BSR抓取失败"; }
+timeout 30 python3 bsr_scraper.py --enrich 2>&1 || { echo "  ⚠️ BSR抓取失败（不影响主流程）"; warn "BSR抓取失败"; }
 
 # Step 3: Generate platform page
 echo ""
 step "generate_platform"
 echo "🔧 Step 3: 生成平台页面..."
-timeout 30 python3 generate_platform.py 2>&1 || { echo "  ⚠️ 平台生成失败"; warn "平台页生成失败"; }
+timeout 20 python3 generate_platform.py 2>&1 || { echo "  ⚠️ 平台生成失败"; warn "平台页生成失败"; }
 
 # Step 3b: 重新生成门户页（重构后「今日概览」dashboard 是服务端渲染的，
 # 必须跑 generate_portal.py 才能刷新数据，否则战情/补货告警卡显示旧快照）
 echo ""
 step "generate_portal"
 echo "🔧 Step 3b: 刷新门户 dashboard..."
-timeout 30 python3 generate_portal.py 2>&1 || { echo "  ⚠️ 门户页生成失败（dashboard 可能显示旧数据）"; warn "门户页生成失败"; }
+timeout 20 python3 generate_portal.py 2>&1 || { echo "  ⚠️ 门户页生成失败（dashboard 可能显示旧数据）"; warn "门户页生成失败"; }
 
 # Extract summary
 PRODUCTS=$(python3 -c "import json; d=json.load(open('$LATEST')); print(len(d.get('products',[])))")
