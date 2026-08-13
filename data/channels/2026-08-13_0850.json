@@ -1,0 +1,1765 @@
+{
+  "scan_date": "2026-08-13",
+  "scan_time": "08:50",
+  "scan_ts": "2026-08-13_0850",
+  "stats": {
+    "total_scanned": 199,
+    "passed_filter": 9,
+    "rejected": 176,
+    "channels": {
+      "etsy_trending": 8,
+      "temu_trending": 8,
+      "tiktok_verified": 8,
+      "google_trends": 3,
+      "keyword_search": 9,
+      "multi_source": 9,
+      "event_product": 1
+    },
+    "detail_reject": {
+      "尺寸超标": 1
+    },
+    "theme_trimmed": [
+      {
+        "asin": "B0H673HSKT",
+        "name": "Hioffer Women Sticky Push up Adhesive Bra Strapless Invisible Stick on Bras | Skin Friendly and Breathable, Reusable Sti"
+      },
+      {
+        "asin": "B0GY7HGP6J",
+        "name": "Thank You Gift, Handmade Crochet Gift, Thank You Gifts For Women Men, Teacher Gifts, Retirement Leaving Gifts For Women "
+      },
+      {
+        "asin": "B0GZ225CC5",
+        "name": "Sticky Bra Push Up Strapless Invisible Reusable Adhesive Bra for Women | Invisible under backless dresses & weddings. Do"
+      },
+      {
+        "asin": "B0F6LLTZL6",
+        "name": "Echehi Thank You Teacher Gifts, Teacher Gifts For Women With 4Pcs A6 Notebooks, Pens, Gift Bags, Gift For Teacher End Of"
+      },
+      {
+        "asin": "B0DW33M8MP",
+        "name": "GADITIEK 6 Sets Thank You Teacher Gifts, Teachers Notebook Gifts for Women Men, Gift Teacher Multipack with Pen and Orga"
+      },
+      {
+        "asin": "B0FM88QRQ9",
+        "name": "Sponsored Ad – Buthaor 2 Pairs Silicone Nipple Covers for Women Reusable Adhesive Pasties - Invisible Waterproof Seamles"
+      },
+      {
+        "asin": "B0GLN7DYWD",
+        "name": "FZGO Sticky Bra Push Up Invisible Backless Strapless Bras for Women | Reusable stick on bra, seamless ultra-thin, adhesi"
+      },
+      {
+        "asin": "B0F1SYW7RP",
+        "name": "Sponsored Ad – Quikobo 2 Pairs Nipple Covers for Women with Storage Board, Silicone Reusable Sticky Nipple Pasties Ultra"
+      },
+      {
+        "asin": "B0G2QB38Y8",
+        "name": "DODOING Upgrade Sticky Bra for Women - Strapless Stick on Bra, Invisible Backless Adhesive Bra with Strong Hold, Breatha"
+      },
+      {
+        "asin": "B0GJDG22K1",
+        "name": "ZipYeeou Sticky Bra for Women Strapless Bras Backless Stick on Bra Push up Support Invisible Women's Adhesive Bras Silic"
+      },
+      {
+        "asin": "B0GVDRZ45B",
+        "name": "UEKUR Sticky Bra for Women Strapless Backless Stick on Push up Adhesive Bra"
+      },
+      {
+        "asin": "B0GJDNDPVH",
+        "name": "ZipYeeou Sticky Bra for Women Strapless Bras Backless Stick on Bra Push up Support Invisible Women's Adhesive Bras Silic"
+      },
+      {
+        "asin": "B0GVF11RF6",
+        "name": "UEKUR Sticky Bra for Women Strapless Backless Stick on Push up Adhesive Bra"
+      },
+      {
+        "asin": "B0H81YJJJ5",
+        "name": "Sponsored Ad – Vety 2026 Sticky Bra Inserts, Reusable Stick On Bra Push Up Invisible Self-Adhesive Bras for Evening Dres"
+      }
+    ],
+    "trend_categories": {
+      "garden": 100,
+      "pets": 100,
+      "phone": 95,
+      "lighting": 89,
+      "kitchen": 81,
+      "crafts": 81
+    },
+    "supply_demand": {
+      "lighting": {
+        "ratio": 10.4,
+        "demand": 89,
+        "supply": 5000,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "pets": {
+        "ratio": 7.2,
+        "demand": 100,
+        "supply": 1023171,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "sports": {
+        "ratio": 4.9,
+        "demand": 61,
+        "supply": 266278,
+        "label": "💧 浅蓝海",
+        "level": "light_blue"
+      },
+      "kitchen": {
+        "ratio": 0,
+        "demand": 81,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "garden": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "bathroom": {
+        "ratio": 0,
+        "demand": 52,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "cleaning": {
+        "ratio": 0,
+        "demand": 55,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "car": {
+        "ratio": 0,
+        "demand": 46,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      }
+    },
+    "divergences": {
+      "kitchen": {
+        "current_heat": 66,
+        "previous_heat": 92,
+        "heat_change_pct": -28.3,
+        "direction": "falling",
+        "dates": [
+          "2026-08-12_0850",
+          "2026-08-12_1710"
+        ]
+      },
+      "cleaning": {
+        "current_heat": 51,
+        "previous_heat": 65,
+        "heat_change_pct": -21.5,
+        "direction": "falling",
+        "dates": [
+          "2026-08-12_0850",
+          "2026-08-12_1710"
+        ]
+      },
+      "car": {
+        "current_heat": 56,
+        "previous_heat": 75,
+        "heat_change_pct": -25.3,
+        "direction": "falling",
+        "dates": [
+          "2026-08-12_0850",
+          "2026-08-12_1710"
+        ]
+      },
+      "storage": {
+        "current_heat": 77,
+        "previous_heat": 72,
+        "heat_change_pct": 6.9,
+        "direction": "stable",
+        "dates": [
+          "2026-08-12_0850",
+          "2026-08-12_1710"
+        ]
+      },
+      "lighting": {
+        "current_heat": 87,
+        "previous_heat": 100,
+        "heat_change_pct": -13.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-12_0850",
+          "2026-08-12_1710"
+        ]
+      },
+      "pets": {
+        "current_heat": 100,
+        "previous_heat": 100,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-12_0850",
+          "2026-08-12_1710"
+        ]
+      },
+      "sports": {
+        "current_heat": 82,
+        "previous_heat": 62,
+        "heat_change_pct": 32.3,
+        "direction": "rising",
+        "dates": [
+          "2026-08-12_0850",
+          "2026-08-12_1710"
+        ]
+      },
+      "crafts": {
+        "current_heat": 79,
+        "previous_heat": 85,
+        "heat_change_pct": -7.1,
+        "direction": "stable",
+        "dates": [
+          "2026-08-12_0850",
+          "2026-08-12_1710"
+        ]
+      },
+      "beauty": {
+        "current_heat": 71,
+        "previous_heat": 88,
+        "heat_change_pct": -19.3,
+        "direction": "stable",
+        "dates": [
+          "2026-08-12_0850",
+          "2026-08-12_1710"
+        ]
+      },
+      "home decor": {
+        "current_heat": 74,
+        "previous_heat": 92,
+        "heat_change_pct": -19.6,
+        "direction": "stable",
+        "dates": [
+          "2026-08-12_0850",
+          "2026-08-12_1710"
+        ]
+      },
+      "eco": {
+        "current_heat": 61,
+        "previous_heat": 65,
+        "heat_change_pct": -6.2,
+        "direction": "stable",
+        "dates": [
+          "2026-08-12_0850",
+          "2026-08-12_1710"
+        ]
+      },
+      "garden": {
+        "current_heat": 100,
+        "previous_heat": 78,
+        "heat_change_pct": 28.2,
+        "direction": "stable",
+        "dates": [
+          "2026-08-12_0850",
+          "2026-08-12_1710"
+        ]
+      },
+      "office": {
+        "current_heat": 69,
+        "previous_heat": 82,
+        "heat_change_pct": -15.9,
+        "direction": "stable",
+        "dates": [
+          "2026-08-12_0850",
+          "2026-08-12_1710"
+        ]
+      },
+      "bedding": {
+        "current_heat": 53,
+        "previous_heat": 45,
+        "heat_change_pct": 17.8,
+        "direction": "stable",
+        "dates": [
+          "2026-08-12_0850",
+          "2026-08-12_1710"
+        ]
+      },
+      "phone": {
+        "current_heat": 87,
+        "previous_heat": 100,
+        "heat_change_pct": -13.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-12_0850",
+          "2026-08-12_1710"
+        ]
+      },
+      "baby": {
+        "current_heat": 53,
+        "previous_heat": 62,
+        "heat_change_pct": -14.5,
+        "direction": "stable",
+        "dates": [
+          "2026-08-12_0850",
+          "2026-08-12_1710"
+        ]
+      },
+      "bathroom": {
+        "current_heat": 61,
+        "previous_heat": 48,
+        "heat_change_pct": 27.1,
+        "direction": "stable",
+        "dates": [
+          "2026-08-12_0850",
+          "2026-08-12_1710"
+        ]
+      },
+      "travel": {
+        "current_heat": 53,
+        "previous_heat": 48,
+        "heat_change_pct": 10.4,
+        "direction": "stable",
+        "dates": [
+          "2026-08-12_0850",
+          "2026-08-12_1710"
+        ]
+      },
+      "kitchen_gadgets": {
+        "current_heat": 13,
+        "previous_heat": 32,
+        "heat_change_pct": -59.4,
+        "direction": "falling",
+        "dates": [
+          "2026-08-12_0850",
+          "2026-08-12_1710"
+        ]
+      },
+      "seasonal": {
+        "current_heat": 71,
+        "previous_heat": 75,
+        "heat_change_pct": -5.3,
+        "direction": "stable",
+        "dates": [
+          "2026-08-12_0850",
+          "2026-08-12_1710"
+        ]
+      }
+    },
+    "gap_opportunities": 17
+  },
+  "products": [
+    {
+      "asin": "B0GK65LVW2",
+      "name": "Craftique Teacher Gifts, Funny Things My Students Said Leather Notebook | Best Thank You Teacher Gifts for Women Men, Te",
+      "price": 8.32,
+      "reviews": 14,
+      "rating": 4.1,
+      "rank": 33,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "14 reviews, 4.1★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GK65LVW2",
+      "image_url": "https://m.media-amazon.com/images/I/71YOzfIDunL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "teacher gift",
+      "festival_event": "世界教师日",
+      "festival_icon": "🍎",
+      "festival_deadline": "2026-08-19",
+      "is_event": false,
+      "sources": [
+        "📅 世界教师日",
+        "Google趋势",
+        "Reddit需求",
+        "TikTok趋势",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.291,
+      "net_profit": 2.42,
+      "cost_breakdown": {
+        "vat": 1.39,
+        "commission": 1.25,
+        "fba": 1.46,
+        "ads": 0.83,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 5.9
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy",
+        "Reddit"
+      ],
+      "internal_sources": [],
+      "score": 123,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "💬 Reddit": 5,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(crafts)": 23,
+        "🌊 蓝海": 15,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-08-12",
+      "is_multi": true,
+      "channel_tags": [
+        "etsy_trending",
+        "temu_trending",
+        "tiktok_verified",
+        "google_trends",
+        "keyword_search",
+        "multi_source"
+      ]
+    },
+    {
+      "asin": "B0GWJPNDK2",
+      "name": "WITCOLOR Thank You Gifts for Women & Men – Mini Crochet Heart Flower with Positive Support Card, Handmade Appreciation G",
+      "price": 8.32,
+      "reviews": 52,
+      "rating": 4.9,
+      "rank": 40,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "52 reviews, 4.9★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GWJPNDK2",
+      "image_url": "https://m.media-amazon.com/images/I/715FKuDef2L._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "teacher gift",
+      "festival_event": "世界教师日",
+      "festival_icon": "🍎",
+      "festival_deadline": "2026-08-19",
+      "is_event": false,
+      "sources": [
+        "📅 世界教师日",
+        "Google趋势",
+        "Reddit需求",
+        "TikTok趋势",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.291,
+      "net_profit": 2.42,
+      "cost_breakdown": {
+        "vat": 1.39,
+        "commission": 1.25,
+        "fba": 1.46,
+        "ads": 0.83,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 5.9
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy",
+        "Reddit"
+      ],
+      "internal_sources": [],
+      "score": 118,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "💬 Reddit": 5,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(garden)": 23,
+        "🟡 中等竞争": 5,
+        "⭐ 高评分": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-08-12",
+      "is_multi": true,
+      "channel_tags": [
+        "etsy_trending",
+        "temu_trending",
+        "tiktok_verified",
+        "google_trends",
+        "keyword_search",
+        "multi_source"
+      ]
+    },
+    {
+      "asin": "B0FBR53JPQ",
+      "name": "Thank You Gift,Thank You Teacher Gifts for Women Birthday Christmas (peony) | Positive Handmade Crochet Flower Gifts for",
+      "price": 6.37,
+      "reviews": 27,
+      "rating": 4.6,
+      "rank": 21,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "27 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FBR53JPQ",
+      "image_url": "https://m.media-amazon.com/images/I/71K57H0EWyL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "teacher gift",
+      "festival_event": "世界教师日",
+      "festival_icon": "🍎",
+      "festival_deadline": "2026-08-19",
+      "is_event": true,
+      "sources": [
+        "📅 世界教师日",
+        "Google趋势",
+        "Reddit需求",
+        "TikTok趋势",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.208,
+      "net_profit": 1.33,
+      "cost_breakdown": {
+        "vat": 1.06,
+        "commission": 0.96,
+        "fba": 1.46,
+        "ads": 0.64,
+        "returns": 0.13,
+        "sourcing": 0.8,
+        "total_cost": 5.04
+      },
+      "off_season": true,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy",
+        "Reddit"
+      ],
+      "internal_sources": [],
+      "score": 117,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "💬 Reddit": 5,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(garden)": 23,
+        "🟢 低竞争": 10,
+        "⭐ 高评分": 5,
+        "❓ 品类存疑": -5,
+        "❄️ 过季降权": -20,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-13",
+      "is_multi": true,
+      "channel_tags": [
+        "etsy_trending",
+        "temu_trending",
+        "tiktok_verified",
+        "google_trends",
+        "keyword_search",
+        "event_product",
+        "multi_source"
+      ]
+    },
+    {
+      "asin": "B0GK6XJPZ4",
+      "name": "RUHSNJK Teacher Gifts, 2 Piece Large Teacher Tote Bag and Pouch Set, Rainbow Teachers Stuff Design for School Work Trave",
+      "price": 8.99,
+      "reviews": 15,
+      "rating": 5.0,
+      "rank": 27,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "15 reviews, 5.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GK6XJPZ4",
+      "image_url": "https://m.media-amazon.com/images/I/718rHAAzEXL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "teacher gift",
+      "festival_event": "世界教师日",
+      "festival_icon": "🍎",
+      "festival_deadline": "2026-08-19",
+      "is_event": false,
+      "sources": [
+        "📅 世界教师日",
+        "TikTok趋势",
+        "Reddit需求",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.312,
+      "net_profit": 2.8,
+      "cost_breakdown": {
+        "vat": 1.5,
+        "commission": 1.35,
+        "fba": 1.46,
+        "ads": 0.9,
+        "returns": 0.18,
+        "sourcing": 0.8,
+        "total_cost": 6.19
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy",
+        "Reddit"
+      ],
+      "internal_sources": [],
+      "score": 110,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "💬 Reddit": 5,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "📈 趋势(seasonal)": 8,
+        "🌊 蓝海": 15,
+        "⭐ 高评分": 5,
+        "💰 高利润": 8,
+        "❓ 品类存疑": -5,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-08-12",
+      "is_multi": true,
+      "channel_tags": [
+        "etsy_trending",
+        "temu_trending",
+        "tiktok_verified",
+        "keyword_search",
+        "multi_source"
+      ]
+    },
+    {
+      "asin": "B0CVTX6G33",
+      "name": "Teacher Planner 2026-2027 - Teacher Planner A4 from Aug. 2026 to Jul. 2027 | Teacher Gift, Week to View Diary with Back ",
+      "price": 7.91,
+      "reviews": 65,
+      "rating": 4.5,
+      "rank": 59,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "65 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CVTX6G33",
+      "image_url": "https://m.media-amazon.com/images/I/81YfU61KUOL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "teacher gift",
+      "festival_event": "世界教师日",
+      "festival_icon": "🍎",
+      "festival_deadline": "2026-08-19",
+      "is_event": false,
+      "sources": [
+        "📅 世界教师日",
+        "Reddit需求",
+        "TikTok趋势",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.277,
+      "net_profit": 2.19,
+      "cost_breakdown": {
+        "vat": 1.32,
+        "commission": 1.19,
+        "fba": 1.46,
+        "ads": 0.79,
+        "returns": 0.16,
+        "sourcing": 0.8,
+        "total_cost": 5.72
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy",
+        "Reddit"
+      ],
+      "internal_sources": [],
+      "score": 98,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "💬 Reddit": 5,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "📈 趋势(seasonal)": 8,
+        "🟡 中等竞争": 5,
+        "⭐ 高评分": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 4,
+      "is_new": true,
+      "first_seen": "2026-08-13",
+      "is_multi": true,
+      "channel_tags": [
+        "etsy_trending",
+        "temu_trending",
+        "tiktok_verified",
+        "keyword_search",
+        "multi_source"
+      ]
+    },
+    {
+      "asin": "B0GG93TPNF",
+      "name": "Teacher Planner 2026-2027 - Teacher Lesson Planner 2026-2027 from Aug 2025 - Jul 2026, A4 Week to View Academic Diary, C",
+      "price": 9.99,
+      "reviews": 100,
+      "rating": 4.6,
+      "rank": 44,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "100 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GG93TPNF",
+      "image_url": "https://m.media-amazon.com/images/I/81FqkeF2BuL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "teacher gift",
+      "festival_event": "世界教师日",
+      "festival_icon": "🍎",
+      "festival_deadline": "2026-08-19",
+      "is_event": false,
+      "sources": [
+        "📅 世界教师日",
+        "Reddit需求"
+      ],
+      "profit_margin": 0.337,
+      "net_profit": 3.36,
+      "cost_breakdown": {
+        "vat": 1.67,
+        "commission": 1.5,
+        "fba": 1.46,
+        "ads": 1.0,
+        "returns": 0.2,
+        "sourcing": 0.8,
+        "total_cost": 6.63
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "weak",
+      "signal_label": "🟡 弱信号",
+      "external_sources": [
+        "Reddit"
+      ],
+      "internal_sources": [],
+      "score": 40,
+      "score_breakdown": {
+        "💬 Reddit": 5,
+        "🟡 中等竞争": 5,
+        "⭐ 高评分": 5,
+        "💰 高利润": 8,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 2,
+      "is_new": true,
+      "first_seen": "2026-08-13",
+      "is_multi": true,
+      "channel_tags": [
+        "multi_source",
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0GTYQPNPW",
+      "name": "Curlady Sticky Bra, Double Sided Stick on Bra Inserts | Reusable Push Up Lift Enhancer Pads, Invisible Self Adhesive Bra",
+      "price": 9.2,
+      "reviews": 35,
+      "rating": 4.0,
+      "rank": 35,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "35 reviews, 4.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GTYQPNPW",
+      "image_url": "https://m.media-amazon.com/images/I/51oiTd6-YsL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "invisible bra, strapless adhesive bra, self adhesive bra, silicone bra, backless bra, no strap bra, sticky bra, invisible bra for backless dress, push up adhesive bra, strapless bra for wedding dress, backless dress bra",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势",
+        "Reddit需求",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.317,
+      "net_profit": 2.92,
+      "cost_breakdown": {
+        "vat": 1.54,
+        "commission": 1.38,
+        "fba": 1.46,
+        "ads": 0.92,
+        "returns": 0.18,
+        "sourcing": 0.8,
+        "total_cost": 6.28
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy",
+        "Reddit"
+      ],
+      "internal_sources": [],
+      "score": 102,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "💬 Reddit": 5,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "📈 趋势(eco)": 8,
+        "🟢 低竞争": 10,
+        "💰 高利润": 8,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-13",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "etsy_trending",
+        "temu_trending",
+        "tiktok_verified",
+        "keyword_search",
+        "multi_source"
+      ]
+    },
+    {
+      "asin": "B0G87ZWVZC",
+      "name": "ORGOT Sticky Bra, Adhesive Bra Skin Comfortable Invisible Push Up Reusable",
+      "price": 9.91,
+      "reviews": 26,
+      "rating": 4.4,
+      "rank": 38,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "26 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0G87ZWVZC",
+      "image_url": "https://m.media-amazon.com/images/I/51STSsp-CnL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "invisible bra, strapless adhesive bra, self adhesive bra, silicone bra, backless bra, no strap bra, sticky bra, invisible bra for backless dress, push up adhesive bra, strapless bra for wedding dress, backless dress bra",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势",
+        "Reddit需求",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.335,
+      "net_profit": 3.32,
+      "cost_breakdown": {
+        "vat": 1.65,
+        "commission": 1.49,
+        "fba": 1.46,
+        "ads": 0.99,
+        "returns": 0.2,
+        "sourcing": 0.8,
+        "total_cost": 6.59
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy",
+        "Reddit"
+      ],
+      "internal_sources": [],
+      "score": 102,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "💬 Reddit": 5,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "📈 趋势(eco)": 8,
+        "🟢 低竞争": 10,
+        "💰 高利润": 8,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-13",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "etsy_trending",
+        "temu_trending",
+        "tiktok_verified",
+        "keyword_search",
+        "multi_source"
+      ]
+    },
+    {
+      "asin": "B0G4M2QBK7",
+      "name": "ORGOT Sticky Bra, Adhesive Bra Skin Comfortable Invisible Push Up Reusable",
+      "price": 9.91,
+      "reviews": 26,
+      "rating": 4.4,
+      "rank": 58,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "26 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0G4M2QBK7",
+      "image_url": "https://m.media-amazon.com/images/I/61q9DQw3KdL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "invisible bra, strapless adhesive bra, self adhesive bra, silicone bra, backless bra, no strap bra, sticky bra, invisible bra for backless dress, push up adhesive bra, strapless bra for wedding dress, backless dress bra",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势",
+        "Reddit需求",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.335,
+      "net_profit": 3.32,
+      "cost_breakdown": {
+        "vat": 1.65,
+        "commission": 1.49,
+        "fba": 1.46,
+        "ads": 0.99,
+        "returns": 0.2,
+        "sourcing": 0.8,
+        "total_cost": 6.59
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy",
+        "Reddit"
+      ],
+      "internal_sources": [],
+      "score": 102,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "💬 Reddit": 5,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "📈 趋势(eco)": 8,
+        "🟢 低竞争": 10,
+        "💰 高利润": 8,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-13",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "etsy_trending",
+        "temu_trending",
+        "tiktok_verified",
+        "keyword_search",
+        "multi_source"
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "keyword": "garden",
+      "category": "garden",
+      "heat": 100,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "flower",
+        "garden",
+        "patio",
+        "solar",
+        "plant"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "flower",
+        "garden tool set",
+        "garden light",
+        "garden decor",
+        "patio",
+        "solar light",
+        "solar garden light",
+        "solar lamp"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=flower",
+      "url_google": "https://trends.google.com/trends/explore?q=flower&geo=GB"
+    },
+    {
+      "keyword": "phone",
+      "category": "phone",
+      "heat": 95,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "charger",
+        "cable",
+        "phone",
+        "earbuds",
+        "stand"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "phone charger",
+        "wireless charger",
+        "car charger",
+        "charging cable",
+        "USB cable",
+        "phone cable",
+        "phone case",
+        "phone holder"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 95,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=phone+charger",
+      "url_google": "https://trends.google.com/trends/explore?q=phone+charger&geo=GB"
+    },
+    {
+      "keyword": "kitchen",
+      "category": "kitchen",
+      "heat": 81,
+      "score": 72,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "cup",
+        "baking",
+        "mug",
+        "gadget",
+        "kitchen"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "baking set",
+        "baking tray",
+        "cake mould",
+        "gadget",
+        "kitchen"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 81,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=baking+set",
+      "url_google": "https://trends.google.com/trends/explore?q=baking+set&geo=GB"
+    },
+    {
+      "keyword": "crafts",
+      "category": "crafts",
+      "heat": 81,
+      "score": 72,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "tape",
+        "paint",
+        "brush",
+        "craft",
+        "stickers"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "washi tape",
+        "decorative tape",
+        "masking tape",
+        "acrylic paint set",
+        "paint brush set",
+        "paint by numbers",
+        "brush",
+        "craft knife"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 81,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=washi+tape",
+      "url_google": "https://trends.google.com/trends/explore?q=washi+tape&geo=GB"
+    },
+    {
+      "keyword": "office",
+      "category": "office",
+      "heat": 66,
+      "score": 67,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "stationery",
+        "office",
+        "desk",
+        "pen"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "stationery set",
+        "notebook",
+        "pen set",
+        "office supplies",
+        "desk organizer",
+        "pen holder",
+        "desk lamp",
+        "desk mat"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 66,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=stationery+set",
+      "url_google": "https://trends.google.com/trends/explore?q=stationery+set&geo=GB"
+    },
+    {
+      "keyword": "storage",
+      "category": "storage",
+      "heat": 66,
+      "score": 67,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "box",
+        "container",
+        "shelf",
+        "basket",
+        "storage"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "container",
+        "floating shelf",
+        "wall shelf",
+        "corner shelf",
+        "basket",
+        "food storage",
+        "kitchen storage",
+        "container set"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 66,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=container",
+      "url_google": "https://trends.google.com/trends/explore?q=container&geo=GB"
+    },
+    {
+      "keyword": "beauty",
+      "category": "beauty",
+      "heat": 66,
+      "score": 67,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "brush",
+        "mirror",
+        "skincare",
+        "makeup",
+        "hair"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "brush",
+        "makeup mirror",
+        "vanity mirror",
+        "LED mirror",
+        "face roller",
+        "gua sha",
+        "face mask",
+        "makeup brush set"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 66,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=brush",
+      "url_google": "https://trends.google.com/trends/explore?q=brush&geo=GB"
+    },
+    {
+      "keyword": "eco",
+      "category": "eco",
+      "heat": 64,
+      "score": 66,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "reusable",
+        "organic",
+        "sustainable",
+        "eco"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "reusable food wrap",
+        "reusable straws",
+        "reusable bags",
+        "organic products",
+        "organic cotton",
+        "sustainable products",
+        "eco friendly",
+        "eco products"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 64,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=reusable+food+wrap",
+      "url_google": "https://trends.google.com/trends/explore?q=reusable+food+wrap&geo=GB"
+    },
+    {
+      "keyword": "seasonal",
+      "category": "seasonal",
+      "heat": 61,
+      "score": 65,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "christmas",
+        "gift",
+        "easter",
+        "birthday"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "christmas decoration",
+        "christmas gift",
+        "christmas stocking",
+        "gift ideas",
+        "gift set",
+        "gift box",
+        "easter egg",
+        "easter decoration"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 61,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=christmas+decoration",
+      "url_google": "https://trends.google.com/trends/explore?q=christmas+decoration&geo=GB"
+    },
+    {
+      "keyword": "home decor",
+      "category": "home decor",
+      "heat": 58,
+      "score": 64,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "mirror",
+        "frame",
+        "clock",
+        "wall art",
+        "decor"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "makeup mirror",
+        "vanity mirror",
+        "LED mirror",
+        "photo frame",
+        "picture frame",
+        "wall frame",
+        "wall clock",
+        "desk clock"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 58,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=makeup+mirror",
+      "url_google": "https://trends.google.com/trends/explore?q=makeup+mirror&geo=GB"
+    },
+    {
+      "keyword": "cleaning",
+      "category": "cleaning",
+      "heat": 55,
+      "score": 63,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "vacuum",
+        "brush",
+        "cleaning",
+        "cleaner",
+        "duster"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "vacuum",
+        "brush",
+        "cleaning",
+        "cleaner",
+        "duster",
+        "sponge"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 55,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=vacuum",
+      "url_google": "https://trends.google.com/trends/explore?q=vacuum&geo=GB"
+    },
+    {
+      "keyword": "bathroom",
+      "category": "bathroom",
+      "heat": 52,
+      "score": 62,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "bathroom",
+        "shower",
+        "mirror",
+        "toilet",
+        "bath"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "bathroom",
+        "shower caddy",
+        "shower head",
+        "shower curtain",
+        "makeup mirror",
+        "vanity mirror",
+        "LED mirror",
+        "toilet"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 52,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=bathroom",
+      "url_google": "https://trends.google.com/trends/explore?q=bathroom&geo=GB"
+    },
+    {
+      "keyword": "bedding",
+      "category": "bedding",
+      "heat": 52,
+      "score": 62,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "pillow",
+        "bedding",
+        "cushion",
+        "blanket",
+        "sheet"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "pillow",
+        "bedding",
+        "cushion",
+        "blanket",
+        "sheet",
+        "throw"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 52,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=pillow",
+      "url_google": "https://trends.google.com/trends/explore?q=pillow&geo=GB"
+    },
+    {
+      "keyword": "travel",
+      "category": "travel",
+      "heat": 52,
+      "score": 62,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "passport",
+        "neck pillow",
+        "luggage",
+        "travel"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "passport",
+        "neck pillow",
+        "luggage",
+        "travel"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 52,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=passport",
+      "url_google": "https://trends.google.com/trends/explore?q=passport&geo=GB"
+    },
+    {
+      "keyword": "baby",
+      "category": "baby",
+      "heat": 49,
+      "score": 61,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "nursery",
+        "baby",
+        "child",
+        "kids"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "nursery",
+        "baby",
+        "child",
+        "kids"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 49,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=nursery",
+      "url_google": "https://trends.google.com/trends/explore?q=nursery&geo=GB"
+    },
+    {
+      "keyword": "car",
+      "category": "car",
+      "heat": 46,
+      "score": 60,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "car",
+        "motor",
+        "dashboard"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "car accessories",
+        "car organizer",
+        "car phone holder",
+        "motorcycle accessories",
+        "motorcycle cover",
+        "dashboard"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 46,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=car+accessories",
+      "url_google": "https://trends.google.com/trends/explore?q=car+accessories&geo=GB"
+    },
+    {
+      "keyword": "lighting",
+      "category": "lighting",
+      "heat": 89,
+      "score": 54,
+      "gap_level": "weak",
+      "amazon_count": 7,
+      "amazon_reviews": 5000,
+      "evidence": [
+        "led",
+        "lamp",
+        "fairy",
+        "strip",
+        "light"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "LED bulb",
+        "LED light",
+        "LED panel",
+        "desk lamp",
+        "night light",
+        "table lamp",
+        "fairy lights",
+        "fairy light curtain"
+      ],
+      "sd_info": {
+        "ratio": 10.4,
+        "demand": 89,
+        "supply": 5000,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=LED+bulb",
+      "url_google": "https://trends.google.com/trends/explore?q=LED+bulb&geo=GB"
+    }
+  ],
+  "trend_summary": {
+    "top_categories": [
+      [
+        "garden",
+        100
+      ],
+      [
+        "pets",
+        100
+      ],
+      [
+        "phone",
+        95
+      ],
+      [
+        "lighting",
+        89
+      ],
+      [
+        "kitchen",
+        81
+      ],
+      [
+        "crafts",
+        81
+      ]
+    ],
+    "cross_validated": [
+      "kitchen",
+      "garden",
+      "bathroom",
+      "cleaning",
+      "car",
+      "office",
+      "storage",
+      "lighting",
+      "pets",
+      "sports",
+      "crafts",
+      "bedding",
+      "travel",
+      "phone",
+      "beauty",
+      "baby",
+      "eco",
+      "seasonal",
+      "home decor"
+    ],
+    "demand_keywords": [
+      ", as they're now being called online. that's",
+      "3-in-1 cooling device.",
+      "5-star rated",
+      "aesthetic desk setup",
+      "among men",
+      "aquabrush,",
+      "at their core, yes, they're simple cakes,",
+      "before & after",
+      "best sandals for summer",
+      "best seller"
+    ],
+    "season": "summer",
+    "sources_scanned": [
+      "tiktok",
+      "temu",
+      "etsy",
+      "market_intel"
+    ]
+  }
+}
