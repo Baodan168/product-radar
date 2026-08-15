@@ -1,0 +1,1929 @@
+{
+  "scan_date": "2026-08-15",
+  "scan_time": "08:51",
+  "scan_ts": "2026-08-15_0851",
+  "stats": {
+    "total_scanned": 293,
+    "passed_filter": 12,
+    "rejected": 278,
+    "channels": {
+      "tiktok_verified": 11,
+      "multi_source": 12,
+      "temu_trending": 11,
+      "new_releases": 1,
+      "google_trends": 11,
+      "etsy_trending": 11,
+      "keyword_search": 11,
+      "event_product": 3
+    },
+    "detail_reject": {
+      "重量超标": 2,
+      "尺寸超标": 1
+    },
+    "theme_trimmed": [],
+    "trend_categories": {
+      "garden": 100,
+      "pets": 100,
+      "phone": 100,
+      "lighting": 99,
+      "crafts": 89,
+      "beauty": 87
+    },
+    "supply_demand": {
+      "lighting": {
+        "ratio": 8.1,
+        "demand": 99,
+        "supply": 196312,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "pets": {
+        "ratio": 7.9,
+        "demand": 100,
+        "supply": 302094,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "sports": {
+        "ratio": 7.2,
+        "demand": 78,
+        "supply": 51310,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "kitchen": {
+        "ratio": 0,
+        "demand": 82,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "garden": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "bathroom": {
+        "ratio": 0,
+        "demand": 66,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "cleaning": {
+        "ratio": 0,
+        "demand": 50,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "car": {
+        "ratio": 0,
+        "demand": 52,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      }
+    },
+    "divergences": {
+      "kitchen": {
+        "current_heat": 84,
+        "previous_heat": 77,
+        "heat_change_pct": 9.1,
+        "direction": "stable",
+        "dates": [
+          "2026-08-13_1710",
+          "2026-08-14_0850"
+        ]
+      },
+      "car": {
+        "current_heat": 68,
+        "previous_heat": 50,
+        "heat_change_pct": 36.0,
+        "direction": "rising",
+        "dates": [
+          "2026-08-13_1710",
+          "2026-08-14_0850"
+        ]
+      },
+      "office": {
+        "current_heat": 99,
+        "previous_heat": 71,
+        "heat_change_pct": 39.4,
+        "direction": "rising",
+        "dates": [
+          "2026-08-13_1710",
+          "2026-08-14_0850"
+        ]
+      },
+      "storage": {
+        "current_heat": 62,
+        "previous_heat": 77,
+        "heat_change_pct": -19.5,
+        "direction": "stable",
+        "dates": [
+          "2026-08-13_1710",
+          "2026-08-14_0850"
+        ]
+      },
+      "lighting": {
+        "current_heat": 100,
+        "previous_heat": 89,
+        "heat_change_pct": 12.4,
+        "direction": "stable",
+        "dates": [
+          "2026-08-13_1710",
+          "2026-08-14_0850"
+        ]
+      },
+      "pets": {
+        "current_heat": 100,
+        "previous_heat": 100,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-13_1710",
+          "2026-08-14_0850"
+        ]
+      },
+      "sports": {
+        "current_heat": 56,
+        "previous_heat": 56,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-13_1710",
+          "2026-08-14_0850"
+        ]
+      },
+      "crafts": {
+        "current_heat": 93,
+        "previous_heat": 80,
+        "heat_change_pct": 16.2,
+        "direction": "stable",
+        "dates": [
+          "2026-08-13_1710",
+          "2026-08-14_0850"
+        ]
+      },
+      "phone": {
+        "current_heat": 100,
+        "previous_heat": 86,
+        "heat_change_pct": 16.3,
+        "direction": "stable",
+        "dates": [
+          "2026-08-13_1710",
+          "2026-08-14_0850"
+        ]
+      },
+      "beauty": {
+        "current_heat": 84,
+        "previous_heat": 68,
+        "heat_change_pct": 23.5,
+        "direction": "stable",
+        "dates": [
+          "2026-08-13_1710",
+          "2026-08-14_0850"
+        ]
+      },
+      "home decor": {
+        "current_heat": 93,
+        "previous_heat": 68,
+        "heat_change_pct": 36.8,
+        "direction": "rising",
+        "dates": [
+          "2026-08-13_1710",
+          "2026-08-14_0850"
+        ]
+      },
+      "eco": {
+        "current_heat": 71,
+        "previous_heat": 56,
+        "heat_change_pct": 26.8,
+        "direction": "stable",
+        "dates": [
+          "2026-08-13_1710",
+          "2026-08-14_0850"
+        ]
+      },
+      "seasonal": {
+        "current_heat": 84,
+        "previous_heat": 47,
+        "heat_change_pct": 78.7,
+        "direction": "rising",
+        "dates": [
+          "2026-08-13_1710",
+          "2026-08-14_0850"
+        ]
+      },
+      "garden": {
+        "current_heat": 74,
+        "previous_heat": 91,
+        "heat_change_pct": -18.7,
+        "direction": "stable",
+        "dates": [
+          "2026-08-13_1710",
+          "2026-08-14_0850"
+        ]
+      },
+      "cleaning": {
+        "current_heat": 62,
+        "previous_heat": 53,
+        "heat_change_pct": 17.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-13_1710",
+          "2026-08-14_0850"
+        ]
+      },
+      "bedding": {
+        "current_heat": 49,
+        "previous_heat": 47,
+        "heat_change_pct": 4.3,
+        "direction": "stable",
+        "dates": [
+          "2026-08-13_1710",
+          "2026-08-14_0850"
+        ]
+      },
+      "baby": {
+        "current_heat": 53,
+        "previous_heat": 53,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-13_1710",
+          "2026-08-14_0850"
+        ]
+      },
+      "bathroom": {
+        "current_heat": 49,
+        "previous_heat": 53,
+        "heat_change_pct": -7.5,
+        "direction": "stable",
+        "dates": [
+          "2026-08-13_1710",
+          "2026-08-14_0850"
+        ]
+      },
+      "travel": {
+        "current_heat": 31,
+        "previous_heat": 53,
+        "heat_change_pct": -41.5,
+        "direction": "falling",
+        "dates": [
+          "2026-08-13_1710",
+          "2026-08-14_0850"
+        ]
+      },
+      "kitchen_gadgets": {
+        "current_heat": 12,
+        "previous_heat": 6,
+        "heat_change_pct": 100.0,
+        "direction": "rising",
+        "dates": [
+          "2026-08-13_1710",
+          "2026-08-14_0850"
+        ]
+      }
+    },
+    "gap_opportunities": 16
+  },
+  "products": [
+    {
+      "asin": "B0H7R6H7HZ",
+      "name": "Coomoors 2PC Cooling Towel for Neck,Cooling Towel for hot weather,100x30 cm | Multi-Sport Neck Towel: Ideal for Running,",
+      "price": 10.39,
+      "reviews": 10,
+      "rating": 4.6,
+      "rank": 5,
+      "category": "Sports",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "10 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H7R6H7HZ",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71NHPDgD+7L._AC_UL300_SR300,200_.jpg",
+      "google_trend": "rising",
+      "sources": [
+        "Google趋势",
+        "TikTok趋势",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.345,
+      "net_profit": 3.59,
+      "cost_breakdown": {
+        "vat": 1.74,
+        "commission": 1.56,
+        "fba": 1.46,
+        "ads": 1.04,
+        "returns": 0.21,
+        "sourcing": 0.8,
+        "total_cost": 6.8
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 7.2,
+        "demand": 78,
+        "supply": 51310,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 177,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "📈 趋势(bathroom)": 8,
+        "🌊 蓝海": 15,
+        "⭐ 高评分": 5,
+        "💰 高利润": 8,
+        "🌊 深蓝海": 20,
+        "⚠️ 未验证": -8,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-15",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "tiktok_verified",
+        "multi_source",
+        "temu_trending",
+        "new_releases",
+        "google_trends",
+        "etsy_trending"
+      ]
+    },
+    {
+      "asin": "B0BPTQR4JF",
+      "name": "Sponsored Ad – FOOGO Green 150pcs Bamboo Cocktail Sticks, 9cm Fancy Multi-Coloured Heart | FSC® Certified, Cocktail Acce",
+      "price": 8.99,
+      "reviews": 177,
+      "rating": 4.4,
+      "rank": 61,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "177 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0BPTQR4JF",
+      "image_url": "https://m.media-amazon.com/images/I/71GQnAdzgEL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "bamboo cutlery set, reusable cutlery travel set, bamboo fork and spoon, portable cutlery with case, eco friendly utensils, picnic cutlery set, camping cutlery, zero waste cutlery, bamboo travel utensils, lunch box cutlery set, sustainable flatware",
+      "sources": [
+        "趋势发现",
+        "Google趋势",
+        "TikTok趋势",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.312,
+      "net_profit": 2.8,
+      "cost_breakdown": {
+        "vat": 1.5,
+        "commission": 1.35,
+        "fba": 1.46,
+        "ads": 0.9,
+        "returns": 0.18,
+        "sourcing": 0.8,
+        "total_cost": 6.19
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 115,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(crafts)": 23,
+        "💰 高利润": 8,
+        "❓ 品类存疑": -5,
+        "📢 广告位": -10,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-15",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "tiktok_verified",
+        "multi_source",
+        "temu_trending",
+        "etsy_trending",
+        "google_trends",
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B07MQ4PLFP",
+      "name": "Sponsored Ad – Bamboo Dinnerware Set Japanese Reusable Flatware Travel Tableware Camping Cutlery Natural Wooden Fork Spo",
+      "price": 10.73,
+      "reviews": 148,
+      "rating": 4.1,
+      "rank": 21,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "148 reviews, 4.1★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B07MQ4PLFP",
+      "image_url": "https://m.media-amazon.com/images/I/61xPPOmaBHL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "bamboo cutlery set, reusable cutlery travel set, bamboo fork and spoon, portable cutlery with case, eco friendly utensils, picnic cutlery set, camping cutlery, zero waste cutlery, bamboo travel utensils, lunch box cutlery set, sustainable flatware",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势",
+        "Google趋势",
+        "Reddit需求",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.352,
+      "net_profit": 3.78,
+      "cost_breakdown": {
+        "vat": 1.79,
+        "commission": 1.61,
+        "fba": 1.46,
+        "ads": 1.07,
+        "returns": 0.21,
+        "sourcing": 0.8,
+        "total_cost": 6.95
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy",
+        "Reddit"
+      ],
+      "internal_sources": [],
+      "score": 139,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "💬 Reddit": 5,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(eco)": 23,
+        "🟡 中等竞争": 5,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "🌴 当季(summer)": 10,
+        "📢 广告位": -10,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-15",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "tiktok_verified",
+        "multi_source",
+        "temu_trending",
+        "etsy_trending",
+        "google_trends",
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B08P1FKG1C",
+      "name": "Portable Utensils, Reusable Travel Camping Cutlery Set,8-Piece Including Knife Fork Spoon Chopsticks Cleaning Brush Stra",
+      "price": 6.29,
+      "reviews": 196,
+      "rating": 4.5,
+      "rank": 47,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "196 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B08P1FKG1C",
+      "image_url": "https://m.media-amazon.com/images/I/61jQZRYy7PS._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "bamboo cutlery set, reusable cutlery travel set, bamboo fork and spoon, portable cutlery with case, eco friendly utensils, picnic cutlery set, camping cutlery, zero waste cutlery, bamboo travel utensils, lunch box cutlery set, sustainable flatware",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势",
+        "Google趋势",
+        "Reddit需求",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.204,
+      "net_profit": 1.28,
+      "cost_breakdown": {
+        "vat": 1.05,
+        "commission": 0.94,
+        "fba": 1.46,
+        "ads": 0.63,
+        "returns": 0.13,
+        "sourcing": 0.8,
+        "total_cost": 5.01
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy",
+        "Reddit"
+      ],
+      "internal_sources": [],
+      "score": 122,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "💬 Reddit": 5,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "📈 趋势(cleaning)": 8,
+        "⭐ 高评分": 5,
+        "❓ 品类存疑": -5,
+        "🌴 当季(summer)": 10,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-15",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "tiktok_verified",
+        "multi_source",
+        "temu_trending",
+        "etsy_trending",
+        "google_trends",
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B09NYGF412",
+      "name": "Sponsored Ad – VANRA Stainless Steel Cutlery Set 3 Piece Portable Flatware Set Travel Cutlery Set Reusable Fork Spoon Kn",
+      "price": 6.99,
+      "reviews": 51,
+      "rating": 4.3,
+      "rank": 62,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "51 reviews, 4.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B09NYGF412",
+      "image_url": "https://m.media-amazon.com/images/I/51uoZbEx-OL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "bamboo cutlery set, reusable cutlery travel set, bamboo fork and spoon, portable cutlery with case, eco friendly utensils, picnic cutlery set, camping cutlery, zero waste cutlery, bamboo travel utensils, lunch box cutlery set, sustainable flatware",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势",
+        "Google趋势",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.24,
+      "net_profit": 1.68,
+      "cost_breakdown": {
+        "vat": 1.17,
+        "commission": 1.05,
+        "fba": 1.46,
+        "ads": 0.7,
+        "returns": 0.14,
+        "sourcing": 0.8,
+        "total_cost": 5.31
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 122,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(eco)": 23,
+        "🟡 中等竞争": 5,
+        "❓ 品类存疑": -5,
+        "🌴 当季(summer)": 10,
+        "📢 广告位": -10,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-15",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "tiktok_verified",
+        "multi_source",
+        "temu_trending",
+        "etsy_trending",
+        "google_trends",
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0CR1W6RWM",
+      "name": "EKU Upcycle Cutlery Set of 3 - Knife, Fork & Spoon Made from 100% Upcycled Materials - Portable Travel Case for Lunchbox",
+      "price": 6.99,
+      "reviews": 20,
+      "rating": 4.5,
+      "rank": 25,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "20 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CR1W6RWM",
+      "image_url": "https://m.media-amazon.com/images/I/61rjWe8gEKL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "bamboo cutlery set, reusable cutlery travel set, bamboo fork and spoon, portable cutlery with case, eco friendly utensils, picnic cutlery set, camping cutlery, zero waste cutlery, bamboo travel utensils, lunch box cutlery set, sustainable flatware",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势",
+        "Google趋势",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.24,
+      "net_profit": 1.68,
+      "cost_breakdown": {
+        "vat": 1.17,
+        "commission": 1.05,
+        "fba": 1.46,
+        "ads": 0.7,
+        "returns": 0.14,
+        "sourcing": 0.8,
+        "total_cost": 5.31
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 119,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "📈 趋势(storage)": 8,
+        "🟢 低竞争": 10,
+        "⭐ 高评分": 5,
+        "❓ 品类存疑": -5,
+        "🌴 当季(summer)": 10,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-15",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "tiktok_verified",
+        "multi_source",
+        "temu_trending",
+        "etsy_trending",
+        "google_trends",
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0BJDKLLHX",
+      "name": "Jiayaus Wooden Cutlery Set, 1 Set of 2 Pieces, Dark Brown, Korean & Japanese Style, Travel & Daily Use, Lacquered Wooden",
+      "price": 6.99,
+      "reviews": 28,
+      "rating": 4.4,
+      "rank": 43,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "28 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0BJDKLLHX",
+      "image_url": "https://m.media-amazon.com/images/I/71F+uOPAG7L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "bamboo cutlery set, reusable cutlery travel set, bamboo fork and spoon, portable cutlery with case, eco friendly utensils, picnic cutlery set, camping cutlery, zero waste cutlery, bamboo travel utensils, lunch box cutlery set, sustainable flatware",
+      "sources": [
+        "趋势发现",
+        "Google趋势",
+        "TikTok趋势",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.24,
+      "net_profit": 1.68,
+      "cost_breakdown": {
+        "vat": 1.17,
+        "commission": 1.05,
+        "fba": 1.46,
+        "ads": 0.7,
+        "returns": 0.14,
+        "sourcing": 0.8,
+        "total_cost": 5.31
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 114,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "📈 趋势(travel)": 8,
+        "🟢 低竞争": 10,
+        "❓ 品类存疑": -5,
+        "🌴 当季(summer)": 10,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-15",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "tiktok_verified",
+        "multi_source",
+        "temu_trending",
+        "etsy_trending",
+        "google_trends",
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0B2L33VF8",
+      "name": "AMZQ Teacher Gifts Teacher Appreciation Bookmark for Women Men - 3PCS Thank You Gifts for Teacher",
+      "price": 6.99,
+      "reviews": 127,
+      "rating": 4.4,
+      "rank": 17,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "127 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0B2L33VF8",
+      "image_url": "https://m.media-amazon.com/images/I/814z9q6+C4L._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "teacher bookmark",
+      "festival_event": "世界教师日",
+      "festival_icon": "🍎",
+      "festival_deadline": "2026-08-19",
+      "is_event": false,
+      "sources": [
+        "📅 世界教师日",
+        "Google趋势",
+        "TikTok趋势",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.24,
+      "net_profit": 1.68,
+      "cost_breakdown": {
+        "vat": 1.17,
+        "commission": 1.05,
+        "fba": 1.46,
+        "ads": 0.7,
+        "returns": 0.14,
+        "sourcing": 0.8,
+        "total_cost": 5.31
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 122,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(seasonal)": 23,
+        "🟡 中等竞争": 5,
+        "❓ 品类存疑": -5,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-15",
+      "is_multi": true,
+      "channel_tags": [
+        "tiktok_verified",
+        "multi_source",
+        "temu_trending",
+        "etsy_trending",
+        "google_trends",
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0DRDBC7VC",
+      "name": "Sponsored Ad – CENCERY Dog Tuxedo Bandana with Bow Tie - Small (20-30 cm Neck) | Wedding & Formal Outfit for Small Dogs ",
+      "price": 6.99,
+      "reviews": 81,
+      "rating": 4.4,
+      "rank": 5,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "81 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DRDBC7VC",
+      "image_url": "https://m.media-amazon.com/images/I/71NgPj25B0L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "halloween dog bandana, halloween cat bandana, pet bandana 3 pack, dog neckerchief halloween, festive bandana for dogs, halloween pet accessories, pumpkin bandana dog, spooky pet bandana, trick or treat dog bandana, cotton bandana for cats, pet costume alternative",
+      "sources": [
+        "趋势发现",
+        "Google趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.24,
+      "net_profit": 1.68,
+      "cost_breakdown": {
+        "vat": 1.17,
+        "commission": 1.05,
+        "fba": 1.46,
+        "ads": 0.7,
+        "returns": 0.14,
+        "sourcing": 0.8,
+        "total_cost": 5.31
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "weak",
+      "signal_label": "🟡 弱信号",
+      "external_sources": [
+        "Google"
+      ],
+      "internal_sources": [],
+      "score": 50,
+      "score_breakdown": {
+        "📊 Google↑": 15,
+        "🔥 多源热门(pets)": 23,
+        "🟡 中等竞争": 5,
+        "❓ 品类存疑": -5,
+        "📢 广告位": -10,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 2,
+      "is_new": true,
+      "first_seen": "2026-08-15",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "google_trends",
+        "keyword_search",
+        "multi_source"
+      ]
+    },
+    {
+      "asin": "B0FHW594LH",
+      "name": "Sponsored Ad – CHUNZAI Winter Christmas Cookie Cutter Set of 4-Piece, Sweater, Hat, Mitten and Stockings",
+      "price": 10.99,
+      "reviews": 11,
+      "rating": 4.8,
+      "rank": 8,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "11 reviews, 4.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FHW594LH",
+      "image_url": "https://m.media-amazon.com/images/I/71-Fk5oic0L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "halloween cookie cutters, cookie cutters set, pumpkin cookie cutter, ghost cookie cutter, halloween baking, cookie cutters for kids, fall cookie cutters, spooky cookie cutters, halloween baking supplies, stainless steel cookie cutters, bat cookie cutter, witch hat cookie cutter",
+      "sources": [
+        "趋势发现",
+        "Google趋势",
+        "TikTok趋势",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.357,
+      "net_profit": 3.93,
+      "cost_breakdown": {
+        "vat": 1.84,
+        "commission": 1.65,
+        "fba": 1.46,
+        "ads": 1.1,
+        "returns": 0.22,
+        "sourcing": 0.8,
+        "total_cost": 7.06
+      },
+      "off_season": true,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 103,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(seasonal)": 23,
+        "🌊 蓝海": 15,
+        "⭐ 高评分": 5,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "❄️ 过季降权": -20,
+        "📢 广告位": -10,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "🎯 事件过密": -8,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-15",
+      "is_multi": true,
+      "is_event": true,
+      "channel_tags": [
+        "tiktok_verified",
+        "multi_source",
+        "temu_trending",
+        "etsy_trending",
+        "google_trends",
+        "keyword_search",
+        "event_product"
+      ]
+    },
+    {
+      "asin": "B0FGQ2CMR5",
+      "name": "ICEMOOD Halloween Dog Bandana, Too Cute To Spook Sign For Small Medium Pet | Cute Halloween slogan design for Halloween ",
+      "price": 7.99,
+      "reviews": 48,
+      "rating": 4.4,
+      "rank": 30,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "48 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FGQ2CMR5",
+      "image_url": "https://m.media-amazon.com/images/I/71AcL8oSoOL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "halloween dog bandana, halloween cat bandana, pet bandana 3 pack, dog neckerchief halloween, festive bandana for dogs, halloween pet accessories, pumpkin bandana dog, spooky pet bandana, trick or treat dog bandana, cotton bandana for cats, pet costume alternative",
+      "sources": [
+        "趋势发现",
+        "Google趋势",
+        "Reddit需求",
+        "TikTok趋势",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.28,
+      "net_profit": 2.24,
+      "cost_breakdown": {
+        "vat": 1.33,
+        "commission": 1.2,
+        "fba": 1.46,
+        "ads": 0.8,
+        "returns": 0.16,
+        "sourcing": 0.8,
+        "total_cost": 5.75
+      },
+      "off_season": true,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy",
+        "Reddit"
+      ],
+      "internal_sources": [],
+      "score": 100,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "💬 Reddit": 5,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(pets)": 23,
+        "🟢 低竞争": 10,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "❄️ 过季降权": -20,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "🎯 事件过密": -8,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-15",
+      "is_multi": true,
+      "is_event": true,
+      "channel_tags": [
+        "tiktok_verified",
+        "multi_source",
+        "temu_trending",
+        "etsy_trending",
+        "google_trends",
+        "keyword_search",
+        "event_product"
+      ]
+    },
+    {
+      "asin": "B0DGXD5MWR",
+      "name": "KOLZEMV 12 Pieces Halloween Cookie Cutters, Cookie Cutters, Cookie Cutters, Ghost Bat Pumpkin Halloween Cookie Cutters, ",
+      "price": 8.99,
+      "reviews": 23,
+      "rating": 4.4,
+      "rank": 48,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "23 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DGXD5MWR",
+      "image_url": "https://m.media-amazon.com/images/I/61K5pkEoa3L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "halloween cookie cutters, cookie cutters set, pumpkin cookie cutter, ghost cookie cutter, halloween baking, cookie cutters for kids, fall cookie cutters, spooky cookie cutters, halloween baking supplies, stainless steel cookie cutters, bat cookie cutter, witch hat cookie cutter",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.312,
+      "net_profit": 2.8,
+      "cost_breakdown": {
+        "vat": 1.5,
+        "commission": 1.35,
+        "fba": 1.46,
+        "ads": 0.9,
+        "returns": 0.18,
+        "sourcing": 0.8,
+        "total_cost": 6.19
+      },
+      "off_season": true,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 92,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(seasonal)": 23,
+        "🟢 低竞争": 10,
+        "💰 高利润": 8,
+        "❓ 品类存疑": -5,
+        "❄️ 过季降权": -20,
+        "⚠️ 品类过密": -10,
+        "🎯 事件过密": -8,
+        "✨ 新发现": 10
+      },
+      "stars": 4,
+      "is_new": true,
+      "first_seen": "2026-08-15",
+      "is_multi": true,
+      "is_event": true,
+      "channel_tags": [
+        "tiktok_verified",
+        "multi_source",
+        "temu_trending",
+        "etsy_trending",
+        "keyword_search",
+        "event_product"
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "keyword": "garden",
+      "category": "garden",
+      "heat": 100,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "garden",
+        "patio",
+        "solar",
+        "bbq",
+        "flower"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "garden tool set",
+        "garden light",
+        "garden decor",
+        "patio",
+        "solar light",
+        "solar garden light",
+        "solar lamp",
+        "flower"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=garden+tool+set",
+      "url_google": "https://trends.google.com/trends/explore?q=garden+tool+set&geo=GB"
+    },
+    {
+      "keyword": "phone",
+      "category": "phone",
+      "heat": 100,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "case",
+        "holder",
+        "stand",
+        "charger",
+        "earbuds"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "case",
+        "holder",
+        "stand",
+        "phone charger",
+        "wireless charger",
+        "car charger",
+        "earbuds case",
+        "wireless earbuds"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=case",
+      "url_google": "https://trends.google.com/trends/explore?q=case&geo=GB"
+    },
+    {
+      "keyword": "crafts",
+      "category": "crafts",
+      "heat": 89,
+      "score": 74,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "stickers",
+        "craft",
+        "sewing",
+        "paint",
+        "tape"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "stickers",
+        "craft knife",
+        "craft supplies",
+        "DIY craft kit",
+        "sewing",
+        "acrylic paint set",
+        "paint brush set",
+        "paint by numbers"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 89,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=stickers",
+      "url_google": "https://trends.google.com/trends/explore?q=stickers&geo=GB"
+    },
+    {
+      "keyword": "beauty",
+      "category": "beauty",
+      "heat": 87,
+      "score": 74,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "hair",
+        "nail",
+        "skincare",
+        "mirror",
+        "brush"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "hair clip",
+        "hair accessories",
+        "hair band",
+        "hair tie",
+        "nail art kit",
+        "nail tools",
+        "nail stickers",
+        "face roller"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 87,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=hair+clip",
+      "url_google": "https://trends.google.com/trends/explore?q=hair+clip&geo=GB"
+    },
+    {
+      "keyword": "kitchen",
+      "category": "kitchen",
+      "heat": 82,
+      "score": 72,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "gadget",
+        "cup",
+        "kitchen",
+        "cooking",
+        "spice"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "gadget",
+        "kitchen",
+        "cooking",
+        "spice rack",
+        "spice jar set",
+        "spice organizer",
+        "baking set",
+        "baking tray"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 82,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=gadget",
+      "url_google": "https://trends.google.com/trends/explore?q=gadget&geo=GB"
+    },
+    {
+      "keyword": "office",
+      "category": "office",
+      "heat": 80,
+      "score": 71,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "pen",
+        "desk",
+        "mouse",
+        "laptop",
+        "notebook"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "pen holder",
+        "pen set",
+        "fountain pen",
+        "desk organizer",
+        "desk lamp",
+        "desk mat",
+        "mouse",
+        "laptop stand"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 80,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=pen+holder",
+      "url_google": "https://trends.google.com/trends/explore?q=pen+holder&geo=GB"
+    },
+    {
+      "keyword": "seasonal",
+      "category": "seasonal",
+      "heat": 73,
+      "score": 69,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "halloween",
+        "christmas",
+        "easter",
+        "gift",
+        "birthday"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "halloween decoration",
+        "halloween costume",
+        "christmas decoration",
+        "christmas gift",
+        "christmas stocking",
+        "easter egg",
+        "easter decoration",
+        "gift ideas"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 73,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=halloween+decoration",
+      "url_google": "https://trends.google.com/trends/explore?q=halloween+decoration&geo=GB"
+    },
+    {
+      "keyword": "home decor",
+      "category": "home decor",
+      "heat": 73,
+      "score": 69,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "wall art",
+        "decor",
+        "vase",
+        "clock",
+        "mirror"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "wall art print",
+        "wall hanging",
+        "wall decal",
+        "home decor",
+        "room decor",
+        "table decor",
+        "flower vase",
+        "decorative vase"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 73,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=wall+art+print",
+      "url_google": "https://trends.google.com/trends/explore?q=wall+art+print&geo=GB"
+    },
+    {
+      "keyword": "eco",
+      "category": "eco",
+      "heat": 71,
+      "score": 68,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "sustainable",
+        "reusable",
+        "eco",
+        "organic",
+        "bamboo"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "sustainable products",
+        "eco friendly",
+        "reusable food wrap",
+        "reusable straws",
+        "reusable bags",
+        "eco products",
+        "reusable bag",
+        "bamboo products"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 71,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=sustainable+products",
+      "url_google": "https://trends.google.com/trends/explore?q=sustainable+products&geo=GB"
+    },
+    {
+      "keyword": "bathroom",
+      "category": "bathroom",
+      "heat": 66,
+      "score": 67,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "toilet",
+        "bathroom",
+        "shower",
+        "mirror",
+        "towel"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "toilet",
+        "bathroom",
+        "shower caddy",
+        "shower head",
+        "shower curtain",
+        "makeup mirror",
+        "vanity mirror",
+        "LED mirror"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 66,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=toilet",
+      "url_google": "https://trends.google.com/trends/explore?q=toilet&geo=GB"
+    },
+    {
+      "keyword": "storage",
+      "category": "storage",
+      "heat": 68,
+      "score": 67,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "storage",
+        "basket",
+        "box",
+        "shelf",
+        "drawer"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "food storage",
+        "kitchen storage",
+        "container set",
+        "basket",
+        "floating shelf",
+        "wall shelf",
+        "corner shelf",
+        "drawer"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 68,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=food+storage",
+      "url_google": "https://trends.google.com/trends/explore?q=food+storage&geo=GB"
+    },
+    {
+      "keyword": "baby",
+      "category": "baby",
+      "heat": 59,
+      "score": 64,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "child",
+        "baby",
+        "nursery",
+        "kids"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "child",
+        "baby",
+        "nursery",
+        "kids"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 59,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=child",
+      "url_google": "https://trends.google.com/trends/explore?q=child&geo=GB"
+    },
+    {
+      "keyword": "bedding",
+      "category": "bedding",
+      "heat": 55,
+      "score": 63,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "sheet",
+        "throw",
+        "cushion",
+        "blanket",
+        "bedding"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "sheet",
+        "throw",
+        "cushion",
+        "blanket",
+        "bedding",
+        "pillow"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 55,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=sheet",
+      "url_google": "https://trends.google.com/trends/explore?q=sheet&geo=GB"
+    },
+    {
+      "keyword": "car",
+      "category": "car",
+      "heat": 52,
+      "score": 62,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "vehicle",
+        "dashboard",
+        "automotive",
+        "phone holder",
+        "car"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "vehicle",
+        "dashboard",
+        "automotive",
+        "phone holder",
+        "car accessories",
+        "car organizer",
+        "car phone holder"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 52,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=vehicle",
+      "url_google": "https://trends.google.com/trends/explore?q=vehicle&geo=GB"
+    },
+    {
+      "keyword": "cleaning",
+      "category": "cleaning",
+      "heat": 50,
+      "score": 61,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "cleaning",
+        "cleaner",
+        "brush",
+        "sponge",
+        "vacuum"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "cleaning",
+        "cleaner",
+        "brush",
+        "sponge",
+        "vacuum"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 50,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=cleaning",
+      "url_google": "https://trends.google.com/trends/explore?q=cleaning&geo=GB"
+    },
+    {
+      "keyword": "travel",
+      "category": "travel",
+      "heat": 50,
+      "score": 61,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "neck pillow",
+        "luggage",
+        "travel",
+        "toiletry",
+        "passport"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "neck pillow",
+        "luggage",
+        "travel",
+        "toiletry",
+        "passport",
+        "packing"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 50,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=neck+pillow",
+      "url_google": "https://trends.google.com/trends/explore?q=neck+pillow&geo=GB"
+    }
+  ],
+  "trend_summary": {
+    "top_categories": [
+      [
+        "garden",
+        100
+      ],
+      [
+        "pets",
+        100
+      ],
+      [
+        "phone",
+        100
+      ],
+      [
+        "lighting",
+        99
+      ],
+      [
+        "crafts",
+        89
+      ],
+      [
+        "beauty",
+        87
+      ]
+    ],
+    "cross_validated": [
+      "kitchen",
+      "garden",
+      "bathroom",
+      "cleaning",
+      "car",
+      "office",
+      "storage",
+      "lighting",
+      "pets",
+      "sports",
+      "crafts",
+      "bedding",
+      "phone",
+      "beauty",
+      "baby",
+      "eco",
+      "seasonal",
+      "travel",
+      "home decor"
+    ],
+    "demand_keywords": [
+      "+400 digital stickers",
+      ", as they're now being called online. that's",
+      ", with readers",
+      ". she adds she is",
+      "100% soy candles",
+      "2025, 2026, 2027, 2028 & undated",
+      "25,500+ canva plr templates bundle.",
+      "3-in-1 cooling device.",
+      "35+ grab bag of charms, beads, and more",
+      "5-star rated"
+    ],
+    "season": "summer",
+    "sources_scanned": [
+      "tiktok",
+      "temu",
+      "etsy",
+      "market_intel"
+    ]
+  }
+}
