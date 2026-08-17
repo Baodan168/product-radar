@@ -1,0 +1,2263 @@
+{
+  "scan_date": "2026-08-17",
+  "scan_time": "17:11",
+  "scan_ts": "2026-08-17_1711",
+  "stats": {
+    "total_scanned": 263,
+    "passed_filter": 16,
+    "rejected": 234,
+    "channels": {
+      "tiktok_verified": 12,
+      "new_releases": 6,
+      "temu_trending": 12,
+      "google_trends": 5,
+      "multi_source": 12,
+      "etsy_trending": 12,
+      "keyword_search": 10,
+      "event_product": 1
+    },
+    "detail_reject": {
+      "重量超标": 6,
+      "尺寸超标": 2
+    },
+    "theme_trimmed": [
+      {
+        "asin": "B0F6LLTZL6",
+        "name": "Echehi Thank You Teacher Gifts, Teacher Gifts For Women With 4Pcs A6 Notebooks, Pens, Gift Bags, Gift For Teacher End Of"
+      },
+      {
+        "asin": "B0GWJPNDK2",
+        "name": "WITCOLOR Thank You Gifts for Women & Men – Mini Crochet Heart Flower with Positive Support Card, Handmade Appreciation G"
+      },
+      {
+        "asin": "B0GHXTB459",
+        "name": "24 Thank You Cards 300gsm Textured Cardstock Multipack | with Envelopes Stickers 6 Watercolour designs10 x 15cm Apprecia"
+      },
+      {
+        "asin": "B0GHXZJCBL",
+        "name": "6 Thank You Cards 350GSM with Handmade Heart Gold Foil Stickers Envelopes | 10.5 x 15 cm Blank Inside A Little Card To S"
+      },
+      {
+        "asin": "B0GXW2QWDX",
+        "name": "Thank You Gift, Handmade Crochet Puzzle Piece, Retirement Leaving Gifts For Colleagues Women Men,Thank You Teacher Gifts"
+      },
+      {
+        "asin": "B0GY7HGP6J",
+        "name": "Thank You Gift, Handmade Crochet Gift, Thank You Gifts For Women Men, Teacher Gifts, Retirement Leaving Gifts For Women "
+      },
+      {
+        "asin": "B0FQK3XXGS",
+        "name": "Giftinghouse 24 Thank You Cards Pack with Gold Foil Stickers and Kraft Envelopes, 11.5 x 11.5 cm – Blank Inside – Ideal "
+      },
+      {
+        "asin": "B095MNXRTY",
+        "name": "Sponsored Ad – TTOVEN Teacher Gifts Bracelet Thank You Teacher Gifts Thank You for Being Part of My Story"
+      },
+      {
+        "asin": "B0FBR53JPQ",
+        "name": "Thank You Gift,Thank You Teacher Gifts for Women Birthday Christmas (peony) | Positive Handmade Crochet Flower Gifts for"
+      },
+      {
+        "asin": "B0DP9L6BQ2",
+        "name": "TheGiffter Teacher Gifts for Women, Acrylic Thank You Decoration Gift | Thank You Teacher Gifts, Appreciation Gift for T"
+      },
+      {
+        "asin": "B0D2R9L3PZ",
+        "name": "AhfuLife Teacher Thank You Cards Multipack, Thank You Teacher Greeting Cards for Teacher Teaching Assistant Nursery, 6 F"
+      },
+      {
+        "asin": "B0GZNQMYF5",
+        "name": "Sponsored Ad – Thank You Gift, Handmade Crochet Heart,Thank You Teacher Gifts For Women, Appreciation Gifts, Retirement "
+      },
+      {
+        "asin": "B0B2L33VF8",
+        "name": "AMZQ Teacher Gifts Teacher Appreciation Bookmark for Women Men - 3PCS Thank You Gifts for Teacher"
+      }
+    ],
+    "trend_categories": {
+      "kitchen": 100,
+      "office": 100,
+      "pets": 100,
+      "phone": 100,
+      "home decor": 100,
+      "garden": 100
+    },
+    "supply_demand": {
+      "pets": {
+        "ratio": 40.2,
+        "demand": 100,
+        "supply": 11,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "sports": {
+        "ratio": 5.9,
+        "demand": 63,
+        "supply": 45578,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "kitchen": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "car": {
+        "ratio": 0,
+        "demand": 73,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "office": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "storage": {
+        "ratio": 0,
+        "demand": 94,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "lighting": {
+        "ratio": 0,
+        "demand": 91,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "crafts": {
+        "ratio": 0,
+        "demand": 94,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      }
+    },
+    "divergences": {
+      "kitchen": {
+        "current_heat": 81,
+        "previous_heat": 82,
+        "heat_change_pct": -1.2,
+        "direction": "stable",
+        "dates": [
+          "2026-08-15_0851",
+          "2026-08-15_1710"
+        ]
+      },
+      "car": {
+        "current_heat": 49,
+        "previous_heat": 52,
+        "heat_change_pct": -5.8,
+        "direction": "stable",
+        "dates": [
+          "2026-08-15_0851",
+          "2026-08-15_1710"
+        ]
+      },
+      "storage": {
+        "current_heat": 66,
+        "previous_heat": 68,
+        "heat_change_pct": -2.9,
+        "direction": "stable",
+        "dates": [
+          "2026-08-15_0851",
+          "2026-08-15_1710"
+        ]
+      },
+      "lighting": {
+        "current_heat": 76,
+        "previous_heat": 99,
+        "heat_change_pct": -23.2,
+        "direction": "falling",
+        "dates": [
+          "2026-08-15_0851",
+          "2026-08-15_1710"
+        ]
+      },
+      "pets": {
+        "current_heat": 100,
+        "previous_heat": 100,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-15_0851",
+          "2026-08-15_1710"
+        ]
+      },
+      "sports": {
+        "current_heat": 74,
+        "previous_heat": 78,
+        "heat_change_pct": -5.1,
+        "direction": "stable",
+        "dates": [
+          "2026-08-15_0851",
+          "2026-08-15_1710"
+        ]
+      },
+      "crafts": {
+        "current_heat": 81,
+        "previous_heat": 89,
+        "heat_change_pct": -9.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-15_0851",
+          "2026-08-15_1710"
+        ]
+      },
+      "beauty": {
+        "current_heat": 71,
+        "previous_heat": 87,
+        "heat_change_pct": -18.4,
+        "direction": "stable",
+        "dates": [
+          "2026-08-15_0851",
+          "2026-08-15_1710"
+        ]
+      },
+      "home decor": {
+        "current_heat": 78,
+        "previous_heat": 73,
+        "heat_change_pct": 6.8,
+        "direction": "stable",
+        "dates": [
+          "2026-08-15_0851",
+          "2026-08-15_1710"
+        ]
+      },
+      "kitchen_gadgets": {
+        "current_heat": 30,
+        "previous_heat": 12,
+        "heat_change_pct": 150.0,
+        "direction": "rising",
+        "dates": [
+          "2026-08-15_0851",
+          "2026-08-15_1710"
+        ]
+      },
+      "eco": {
+        "current_heat": 66,
+        "previous_heat": 71,
+        "heat_change_pct": -7.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-15_0851",
+          "2026-08-15_1710"
+        ]
+      },
+      "garden": {
+        "current_heat": 100,
+        "previous_heat": 100,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-15_0851",
+          "2026-08-15_1710"
+        ]
+      },
+      "cleaning": {
+        "current_heat": 56,
+        "previous_heat": 50,
+        "heat_change_pct": 12.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-15_0851",
+          "2026-08-15_1710"
+        ]
+      },
+      "office": {
+        "current_heat": 78,
+        "previous_heat": 80,
+        "heat_change_pct": -2.5,
+        "direction": "stable",
+        "dates": [
+          "2026-08-15_0851",
+          "2026-08-15_1710"
+        ]
+      },
+      "bedding": {
+        "current_heat": 54,
+        "previous_heat": 55,
+        "heat_change_pct": -1.8,
+        "direction": "stable",
+        "dates": [
+          "2026-08-15_0851",
+          "2026-08-15_1710"
+        ]
+      },
+      "phone": {
+        "current_heat": 93,
+        "previous_heat": 100,
+        "heat_change_pct": -7.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-15_0851",
+          "2026-08-15_1710"
+        ]
+      },
+      "baby": {
+        "current_heat": 49,
+        "previous_heat": 59,
+        "heat_change_pct": -16.9,
+        "direction": "stable",
+        "dates": [
+          "2026-08-15_0851",
+          "2026-08-15_1710"
+        ]
+      },
+      "bathroom": {
+        "current_heat": 71,
+        "previous_heat": 66,
+        "heat_change_pct": 7.6,
+        "direction": "stable",
+        "dates": [
+          "2026-08-15_0851",
+          "2026-08-15_1710"
+        ]
+      },
+      "travel": {
+        "current_heat": 24,
+        "previous_heat": 50,
+        "heat_change_pct": -52.0,
+        "direction": "falling",
+        "dates": [
+          "2026-08-15_0851",
+          "2026-08-15_1710"
+        ]
+      },
+      "seasonal": {
+        "current_heat": 74,
+        "previous_heat": 73,
+        "heat_change_pct": 1.4,
+        "direction": "stable",
+        "dates": [
+          "2026-08-15_0851",
+          "2026-08-15_1710"
+        ]
+      }
+    },
+    "gap_opportunities": 17
+  },
+  "products": [
+    {
+      "asin": "B0H8J9QH81",
+      "name": "Summer Pet Cooling Collar Wrap, Instant Cooling Collar for Pet (#F) | Adjustable Reusable Pet Ice Scarf",
+      "price": 9.89,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 14,
+      "category": "Pets",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H8J9QH81",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/61GxsDkvDEL._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "TikTok趋势",
+        "Google趋势",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.434,
+      "net_profit": 4.3,
+      "cost_breakdown": {
+        "vat": 1.65,
+        "commission": 0.49,
+        "fba": 1.46,
+        "ads": 0.99,
+        "returns": 0.2,
+        "sourcing": 0.8,
+        "total_cost": 5.59
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 40.2,
+        "demand": 100,
+        "supply": 11,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 168,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(car)": 23,
+        "⏳ 待验证": -8,
+        "💰 超高利润": 12,
+        "🌴 当季(summer)": 10,
+        "🌊 深蓝海": 20,
+        "⚠️ 未验证": -8
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-08-11",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "tiktok_verified",
+        "new_releases",
+        "temu_trending",
+        "google_trends",
+        "multi_source",
+        "etsy_trending"
+      ]
+    },
+    {
+      "asin": "B0FB8LFXDY",
+      "name": "benpen Halloween Decorations Outdoor Gaint Spider:50'' Halloween Spiders Decor Scary Hairy Fake Props for Indoor Outdoor",
+      "price": 9.99,
+      "reviews": 10,
+      "rating": 4.7,
+      "rank": 27,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "10 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FB8LFXDY",
+      "image_url": "https://m.media-amazon.com/images/I/91n4ENViuxL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "halloween spider web, spider web decoration, stretchy cobweb, halloween decorations indoor, spooky web decor, spider webs for halloween, haunted house decorations, spider web with spiders, halloween party supplies, cobweb decoration pack, outdoor halloween decorations",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势",
+        "Google趋势",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.337,
+      "net_profit": 3.36,
+      "cost_breakdown": {
+        "vat": 1.67,
+        "commission": 1.5,
+        "fba": 1.46,
+        "ads": 1.0,
+        "returns": 0.2,
+        "sourcing": 0.8,
+        "total_cost": 6.63
+      },
+      "off_season": true,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 117,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(car)": 23,
+        "🌊 蓝海": 15,
+        "⭐ 高评分": 5,
+        "💰 高利润": 8,
+        "❓ 品类存疑": -5,
+        "❄️ 过季降权": -20,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-17",
+      "is_multi": true,
+      "is_event": true,
+      "channel_tags": [
+        "keyword_search",
+        "tiktok_verified",
+        "temu_trending",
+        "google_trends",
+        "multi_source",
+        "etsy_trending",
+        "event_product"
+      ]
+    },
+    {
+      "asin": "B0HBP5SSKT",
+      "name": "Ground Bird Feeder Weatherproof Small Round Birding Tool | Garden Bird Feeder for Watching Viewing Feeding Round Food Wa",
+      "price": 9.43,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 9,
+      "category": "Pets",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HBP5SSKT",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71CkrT8JTVL._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "Reddit需求",
+        "Temu热销",
+        "TikTok趋势",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.423,
+      "net_profit": 3.99,
+      "cost_breakdown": {
+        "vat": 1.57,
+        "commission": 0.47,
+        "fba": 1.46,
+        "ads": 0.94,
+        "returns": 0.19,
+        "sourcing": 0.8,
+        "total_cost": 5.44
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 40.2,
+        "demand": 100,
+        "supply": 11,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy",
+        "Reddit"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 166,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "🎵 TikTok": 20,
+        "💬 Reddit": 5,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(pets)": 23,
+        "⏳ 待验证": -8,
+        "💰 超高利润": 12,
+        "🌴 当季(summer)": 10,
+        "🌊 深蓝海": 20
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-08-14",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "tiktok_verified",
+        "new_releases",
+        "temu_trending",
+        "multi_source",
+        "etsy_trending"
+      ]
+    },
+    {
+      "asin": "B0GS1T3MLD",
+      "name": "saerryor Thank You Gifts for Women,Glass Iced Coffee Cup for Bubble Tea | Appreciation Gifts for Employees Teachers Coll",
+      "price": 9.99,
+      "reviews": 10,
+      "rating": 4.7,
+      "rank": 60,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "10 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GS1T3MLD",
+      "image_url": "https://m.media-amazon.com/images/I/71gZaPkSnVL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "thank you gift",
+      "festival_event": "世界教师日",
+      "festival_icon": "🍎",
+      "festival_deadline": "2026-08-19",
+      "is_event": false,
+      "sources": [
+        "📅 世界教师日",
+        "Google趋势",
+        "Temu热销",
+        "TikTok趋势",
+        "Etsy趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.337,
+      "net_profit": 3.36,
+      "cost_breakdown": {
+        "vat": 1.67,
+        "commission": 1.5,
+        "fba": 1.46,
+        "ads": 1.0,
+        "returns": 0.2,
+        "sourcing": 0.8,
+        "total_cost": 6.63
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 147,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(kitchen)": 23,
+        "🌊 蓝海": 15,
+        "⭐ 高评分": 5,
+        "💰 高利润": 8,
+        "❓ 品类存疑": -5,
+        "🌴 当季(summer)": 10,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-17",
+      "is_multi": true,
+      "channel_tags": [
+        "keyword_search",
+        "tiktok_verified",
+        "temu_trending",
+        "google_trends",
+        "multi_source",
+        "etsy_trending"
+      ]
+    },
+    {
+      "asin": "B0GK65LVW2",
+      "name": "Craftique Teacher Gifts, Funny Things My Students Said Leather Notebook | Best Thank You Teacher Gifts for Women Men, Te",
+      "price": 9.99,
+      "reviews": 15,
+      "rating": 4.3,
+      "rank": 39,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "15 reviews, 4.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GK65LVW2",
+      "image_url": "https://m.media-amazon.com/images/I/71YOzfIDunL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "teacher gift",
+      "festival_event": "世界教师日",
+      "festival_icon": "🍎",
+      "festival_deadline": "2026-08-19",
+      "is_event": false,
+      "sources": [
+        "📅 世界教师日",
+        "Google趋势",
+        "Temu热销",
+        "TikTok趋势",
+        "Etsy趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.337,
+      "net_profit": 3.36,
+      "cost_breakdown": {
+        "vat": 1.67,
+        "commission": 1.5,
+        "fba": 1.46,
+        "ads": 1.0,
+        "returns": 0.2,
+        "sourcing": 0.8,
+        "total_cost": 6.63
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 122,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(office)": 23,
+        "🌊 蓝海": 15,
+        "💰 高利润": 8,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-08-12",
+      "is_multi": true,
+      "channel_tags": [
+        "keyword_search",
+        "tiktok_verified",
+        "temu_trending",
+        "google_trends",
+        "multi_source",
+        "etsy_trending"
+      ]
+    },
+    {
+      "asin": "B0F38J9MVG",
+      "name": "Johiux 12 Sets Thank You Gifts for Teacher,Best Teacher Appreciation Gifts Apple Ballpoint Pens,Apple Puzzle Keychain Ca",
+      "price": 10.99,
+      "reviews": 16,
+      "rating": 4.2,
+      "rank": 59,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "16 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0F38J9MVG",
+      "image_url": "https://m.media-amazon.com/images/I/81AL93-lMjL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "teacher gift",
+      "festival_event": "世界教师日",
+      "festival_icon": "🍎",
+      "festival_deadline": "2026-08-19",
+      "is_event": false,
+      "sources": [
+        "📅 世界教师日",
+        "Temu热销",
+        "TikTok趋势",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.357,
+      "net_profit": 3.93,
+      "cost_breakdown": {
+        "vat": 1.84,
+        "commission": 1.65,
+        "fba": 1.46,
+        "ads": 1.1,
+        "returns": 0.22,
+        "sourcing": 0.8,
+        "total_cost": 7.06
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 121,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(office)": 23,
+        "🌊 蓝海": 15,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-17",
+      "is_multi": true,
+      "channel_tags": [
+        "keyword_search",
+        "tiktok_verified",
+        "temu_trending",
+        "multi_source",
+        "etsy_trending"
+      ]
+    },
+    {
+      "asin": "B0H1HCC75J",
+      "name": "Bird Bath Copper Tray, 99.99% Pure Copper Bird Bath Purification Disk 0.8mm Thick with Stable 3-Point Support, Suitable ",
+      "price": 6.02,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 1,
+      "category": "Pets",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H1HCC75J",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/712+UP1lVKL._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "Temu热销",
+        "TikTok趋势",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.288,
+      "net_profit": 1.73,
+      "cost_breakdown": {
+        "vat": 1.01,
+        "commission": 0.3,
+        "fba": 1.46,
+        "ads": 0.6,
+        "returns": 0.12,
+        "sourcing": 0.8,
+        "total_cost": 4.29
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 40.2,
+        "demand": 100,
+        "supply": 11,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 143,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(pets)": 23,
+        "⏳ 待验证": -8,
+        "💰 较好利润": 4,
+        "🌊 深蓝海": 20,
+        "📊 持续上升": 8,
+        "⚠️ 未验证": -8
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-08-11",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "tiktok_verified",
+        "new_releases",
+        "temu_trending",
+        "multi_source",
+        "etsy_trending"
+      ]
+    },
+    {
+      "asin": "B0H8QH6Z81",
+      "name": "SYGMASET GCSE Scientific Calculator and Maths Geometry Set for Secondary School - 240 Functions, Clear Exam Pencil Case,",
+      "price": 11.99,
+      "reviews": 15,
+      "rating": 4.9,
+      "rank": 54,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "15 reviews, 4.9★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H8QH6Z81",
+      "image_url": "https://m.media-amazon.com/images/I/81EC7fCYKTL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "maths set, geometry set, maths set for school, compass and ruler set, kawaii stationery, cute pencil case accessories, maths set pink, pastel stationery set, compass geometry tools, back to school maths, GCSE maths equipment, secondary school stationery",
+      "sources": [
+        "趋势发现",
+        "Temu热销",
+        "TikTok趋势",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.375,
+      "net_profit": 4.49,
+      "cost_breakdown": {
+        "vat": 2.0,
+        "commission": 1.8,
+        "fba": 1.46,
+        "ads": 1.2,
+        "returns": 0.24,
+        "sourcing": 0.8,
+        "total_cost": 7.5
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 134,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(office)": 23,
+        "🌊 蓝海": 15,
+        "⭐ 高评分": 5,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-17",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "keyword_search",
+        "tiktok_verified",
+        "temu_trending",
+        "multi_source",
+        "etsy_trending"
+      ]
+    },
+    {
+      "asin": "B0CJJHH9BD",
+      "name": "Sponsored Ad – 2 Pcs Manual Pencil Sharpener with Eraser Pencil Sharpener with Container Mini 2-in-1 Pencil Sharpener Ma",
+      "price": 6.99,
+      "reviews": 77,
+      "rating": 4.1,
+      "rank": 65,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "77 reviews, 4.1★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CJJHH9BD",
+      "image_url": "https://m.media-amazon.com/images/I/5191F7BBOIL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "maths set, geometry set, maths set for school, compass and ruler set, kawaii stationery, cute pencil case accessories, maths set pink, pastel stationery set, compass geometry tools, back to school maths, GCSE maths equipment, secondary school stationery",
+      "sources": [
+        "趋势发现",
+        "Temu热销",
+        "TikTok趋势",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.24,
+      "net_profit": 1.68,
+      "cost_breakdown": {
+        "vat": 1.17,
+        "commission": 1.05,
+        "fba": 1.46,
+        "ads": 0.7,
+        "returns": 0.14,
+        "sourcing": 0.8,
+        "total_cost": 5.31
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 89,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(office)": 23,
+        "🟡 中等竞争": 5,
+        "❓ 品类存疑": -5,
+        "📢 广告位": -10,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 4,
+      "is_new": true,
+      "first_seen": "2026-08-17",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "keyword_search",
+        "tiktok_verified",
+        "temu_trending",
+        "multi_source",
+        "etsy_trending"
+      ]
+    },
+    {
+      "asin": "B0GK6XJPZ4",
+      "name": "RUHSNJK Teacher Gifts, 2 Piece Large Teacher Tote Bag and Pouch Set, Rainbow Teachers Stuff Design for School Work Trave",
+      "price": 8.99,
+      "reviews": 15,
+      "rating": 5.0,
+      "rank": 31,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "15 reviews, 5.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GK6XJPZ4",
+      "image_url": "https://m.media-amazon.com/images/I/718rHAAzEXL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "teacher gift",
+      "festival_event": "世界教师日",
+      "festival_icon": "🍎",
+      "festival_deadline": "2026-08-19",
+      "is_event": false,
+      "sources": [
+        "📅 世界教师日",
+        "TikTok趋势",
+        "Reddit需求",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.312,
+      "net_profit": 2.8,
+      "cost_breakdown": {
+        "vat": 1.5,
+        "commission": 1.35,
+        "fba": 1.46,
+        "ads": 0.9,
+        "returns": 0.18,
+        "sourcing": 0.8,
+        "total_cost": 6.19
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy",
+        "Reddit"
+      ],
+      "internal_sources": [],
+      "score": 125,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "💬 Reddit": 5,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(seasonal)": 23,
+        "🌊 蓝海": 15,
+        "⭐ 高评分": 5,
+        "💰 高利润": 8,
+        "❓ 品类存疑": -5,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-08-12",
+      "is_multi": true,
+      "channel_tags": [
+        "keyword_search",
+        "tiktok_verified",
+        "temu_trending",
+        "multi_source",
+        "etsy_trending"
+      ]
+    },
+    {
+      "asin": "B0CVTX6G33",
+      "name": "Teacher Planner 2026-2027 - Teacher Planner A4 from Aug. 2026 to Jul. 2027 | Teacher Gift, Week to View Diary with Back ",
+      "price": 9.49,
+      "reviews": 65,
+      "rating": 4.5,
+      "rank": 61,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "65 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CVTX6G33",
+      "image_url": "https://m.media-amazon.com/images/I/81YfU61KUOL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "teacher gift",
+      "festival_event": "世界教师日",
+      "festival_icon": "🍎",
+      "festival_deadline": "2026-08-19",
+      "is_event": false,
+      "sources": [
+        "📅 世界教师日",
+        "Temu热销",
+        "TikTok趋势",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.325,
+      "net_profit": 3.08,
+      "cost_breakdown": {
+        "vat": 1.58,
+        "commission": 1.42,
+        "fba": 1.46,
+        "ads": 0.95,
+        "returns": 0.19,
+        "sourcing": 0.8,
+        "total_cost": 6.41
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 102,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(seasonal)": 23,
+        "🟡 中等竞争": 5,
+        "⭐ 高评分": 5,
+        "💰 高利润": 8,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-08-13",
+      "is_multi": true,
+      "channel_tags": [
+        "keyword_search",
+        "tiktok_verified",
+        "temu_trending",
+        "multi_source",
+        "etsy_trending"
+      ]
+    },
+    {
+      "asin": "B0GG93TPNF",
+      "name": "Teacher Planner 2026-2027 - Teacher Lesson Planner 2026-2027 from Aug 2025 - Jul 2026, A4 Week to View Academic Diary, C",
+      "price": 11.99,
+      "reviews": 101,
+      "rating": 4.6,
+      "rank": 43,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "101 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GG93TPNF",
+      "image_url": "https://m.media-amazon.com/images/I/81FqkeF2BuL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "teacher gift",
+      "festival_event": "世界教师日",
+      "festival_icon": "🍎",
+      "festival_deadline": "2026-08-19",
+      "is_event": false,
+      "sources": [
+        "📅 世界教师日"
+      ],
+      "profit_margin": 0.375,
+      "net_profit": 4.49,
+      "cost_breakdown": {
+        "vat": 2.0,
+        "commission": 1.8,
+        "fba": 1.46,
+        "ads": 1.2,
+        "returns": 0.24,
+        "sourcing": 0.8,
+        "total_cost": 7.5
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": -1,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🟡 中等竞争": 5,
+        "⭐ 高评分": 5,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 1,
+      "is_new": false,
+      "first_seen": "2026-08-13",
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0GRJDTYWK",
+      "name": "Sponsored Ad – CSLGDMAI Inspirational A5 PU Leather Notebook and Pen Set | Journal with Magnetic Closure, Lined Notebook",
+      "price": 7.99,
+      "reviews": 13,
+      "rating": 4.6,
+      "rank": 68,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "13 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GRJDTYWK",
+      "image_url": "https://m.media-amazon.com/images/I/71J2Qvx7w6L._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "teacher gift",
+      "festival_event": "世界教师日",
+      "festival_icon": "🍎",
+      "festival_deadline": "2026-08-19",
+      "is_event": false,
+      "sources": [
+        "📅 世界教师日",
+        "Temu热销",
+        "TikTok趋势",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.28,
+      "net_profit": 2.24,
+      "cost_breakdown": {
+        "vat": 1.33,
+        "commission": 1.2,
+        "fba": 1.46,
+        "ads": 0.8,
+        "returns": 0.16,
+        "sourcing": 0.8,
+        "total_cost": 5.75
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 108,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(office)": 23,
+        "🌊 蓝海": 15,
+        "⭐ 高评分": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "📢 广告位": -10,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-17",
+      "is_multi": true,
+      "channel_tags": [
+        "keyword_search",
+        "tiktok_verified",
+        "temu_trending",
+        "multi_source",
+        "etsy_trending"
+      ]
+    },
+    {
+      "asin": "B0H5576R74",
+      "name": "Silicone Slow Feeder Cat Bowl, Green&Blue 2Pcs, Puzzle for Dry/Wet Food | Easy to Clean Non-Slip Puzzle Feeding Mat for ",
+      "price": 9.98,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 7,
+      "category": "Pets",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H5576R74",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/61i7VLoRdHL._AC_UL300_SR300,200_.jpg",
+      "google_trend": "rising",
+      "sources": [
+        "Google趋势"
+      ],
+      "profit_margin": 0.437,
+      "net_profit": 4.36,
+      "cost_breakdown": {
+        "vat": 1.67,
+        "commission": 0.5,
+        "fba": 1.46,
+        "ads": 1.0,
+        "returns": 0.2,
+        "sourcing": 0.8,
+        "total_cost": 5.62
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 40.2,
+        "demand": 100,
+        "supply": 11,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "weak",
+      "signal_label": "🟡 弱信号",
+      "external_sources": [
+        "Google"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 104,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "📊 Google↑": 15,
+        "🔥 多源热门(pets)": 23,
+        "⏳ 待验证": -8,
+        "💰 超高利润": 12,
+        "🌊 深蓝海": 20,
+        "⚠️ 未验证": -8
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-08-11",
+      "is_event": false,
+      "channel_tags": [
+        "google_trends",
+        "new_releases"
+      ]
+    },
+    {
+      "asin": "B0H8DK28GD",
+      "name": "12-in-1 Faucet Aerator Removal Wrench Set, Multi-Use Rustproof Hand Tool | Compatible with M16/M18/M20/M22/M24 Taps, Rus",
+      "price": 10.99,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 8,
+      "category": "DIY",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H8DK28GD",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/61isp63vBpL._AC_UL300_SR300,200_.jpg",
+      "profit_margin": 0.357,
+      "net_profit": 3.93,
+      "cost_breakdown": {
+        "vat": 1.84,
+        "commission": 1.65,
+        "fba": 1.46,
+        "ads": 1.1,
+        "returns": 0.22,
+        "sourcing": 0.8,
+        "total_cost": 7.06
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 仅Amazon",
+      "external_sources": [],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 31,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "⚪ 仅Amazon": -10,
+        "⏳ 待验证": -8,
+        "💰 超高利润": 12,
+        "📉 无需求信号": -15,
+        "⚠️ 未验证": -8,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-08-17",
+      "is_event": false,
+      "channel_tags": [
+        "new_releases"
+      ]
+    },
+    {
+      "asin": "B0H4VBMM7N",
+      "name": "JADUFHU 2 Pcs Sliding Door Latch, 90/180° Rotatable Flip Lock, Black | Aluminum, with Screws, Easy Mount Safety Lock for",
+      "price": 10.99,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 7,
+      "category": "DIY",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H4VBMM7N",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/61pm4WhFchL._AC_UL300_SR300,200_.jpg",
+      "profit_margin": 0.357,
+      "net_profit": 3.93,
+      "cost_breakdown": {
+        "vat": 1.84,
+        "commission": 1.65,
+        "fba": 1.46,
+        "ads": 1.1,
+        "returns": 0.22,
+        "sourcing": 0.8,
+        "total_cost": 7.06
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 仅Amazon",
+      "external_sources": [],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 31,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "⚪ 仅Amazon": -10,
+        "⏳ 待验证": -8,
+        "💰 超高利润": 12,
+        "📉 无需求信号": -15,
+        "⚠️ 未验证": -8,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-08-17",
+      "is_event": false,
+      "channel_tags": [
+        "new_releases"
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "keyword": "kitchen",
+      "category": "kitchen",
+      "heat": 100,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "kitchen",
+        "spice",
+        "mug",
+        "cup",
+        "gadget"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "kitchen",
+        "spice rack",
+        "spice jar set",
+        "spice organizer",
+        "gadget",
+        "baking set",
+        "baking tray",
+        "cake mould"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=kitchen",
+      "url_google": "https://trends.google.com/trends/explore?q=kitchen&geo=GB"
+    },
+    {
+      "keyword": "office",
+      "category": "office",
+      "heat": 100,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "desk",
+        "mouse",
+        "stationery",
+        "notebook",
+        "office"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "desk organizer",
+        "desk lamp",
+        "desk mat",
+        "mouse",
+        "stationery set",
+        "notebook",
+        "pen set",
+        "office supplies"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=desk+organizer",
+      "url_google": "https://trends.google.com/trends/explore?q=desk+organizer&geo=GB"
+    },
+    {
+      "keyword": "storage",
+      "category": "storage",
+      "heat": 94,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "basket",
+        "drawer",
+        "storage",
+        "organiser",
+        "shelf"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "basket",
+        "drawer",
+        "food storage",
+        "kitchen storage",
+        "container set",
+        "organiser",
+        "floating shelf",
+        "wall shelf"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 94,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=basket",
+      "url_google": "https://trends.google.com/trends/explore?q=basket&geo=GB"
+    },
+    {
+      "keyword": "lighting",
+      "category": "lighting",
+      "heat": 91,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "light",
+        "fairy",
+        "night light",
+        "lamp",
+        "led"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "LED light",
+        "fairy lights",
+        "string lights",
+        "fairy light curtain",
+        "night light",
+        "desk lamp",
+        "table lamp",
+        "LED bulb"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 91,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=LED+light",
+      "url_google": "https://trends.google.com/trends/explore?q=LED+light&geo=GB"
+    },
+    {
+      "keyword": "crafts",
+      "category": "crafts",
+      "heat": 94,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "paint",
+        "craft",
+        "brush",
+        "sewing",
+        "stickers"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "acrylic paint set",
+        "paint brush set",
+        "paint by numbers",
+        "craft knife",
+        "craft supplies",
+        "DIY craft kit",
+        "brush",
+        "sewing"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 94,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=acrylic+paint+set",
+      "url_google": "https://trends.google.com/trends/explore?q=acrylic+paint+set&geo=GB"
+    },
+    {
+      "keyword": "phone",
+      "category": "phone",
+      "heat": 100,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "cable",
+        "charger",
+        "holder",
+        "phone",
+        "ring light"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "charging cable",
+        "USB cable",
+        "phone cable",
+        "phone charger",
+        "wireless charger",
+        "car charger",
+        "holder",
+        "phone case"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=charging+cable",
+      "url_google": "https://trends.google.com/trends/explore?q=charging+cable&geo=GB"
+    },
+    {
+      "keyword": "beauty",
+      "category": "beauty",
+      "heat": 91,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "brush",
+        "nail",
+        "mirror",
+        "makeup",
+        "organiser"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "brush",
+        "nail art kit",
+        "nail tools",
+        "nail stickers",
+        "makeup mirror",
+        "vanity mirror",
+        "LED mirror",
+        "makeup brush set"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 91,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=brush",
+      "url_google": "https://trends.google.com/trends/explore?q=brush&geo=GB"
+    },
+    {
+      "keyword": "home decor",
+      "category": "home decor",
+      "heat": 100,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "vase",
+        "decor",
+        "frame",
+        "clock",
+        "mirror"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "flower vase",
+        "decorative vase",
+        "home decor",
+        "room decor",
+        "table decor",
+        "photo frame",
+        "picture frame",
+        "wall frame"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=flower+vase",
+      "url_google": "https://trends.google.com/trends/explore?q=flower+vase&geo=GB"
+    },
+    {
+      "keyword": "seasonal",
+      "category": "seasonal",
+      "heat": 94,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "birthday",
+        "valentine",
+        "halloween",
+        "easter",
+        "gift"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "birthday gift",
+        "birthday decoration",
+        "birthday card",
+        "valentine gift",
+        "valentine card",
+        "halloween decoration",
+        "halloween costume",
+        "easter egg"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 94,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=birthday+gift",
+      "url_google": "https://trends.google.com/trends/explore?q=birthday+gift&geo=GB"
+    },
+    {
+      "keyword": "garden",
+      "category": "garden",
+      "heat": 100,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "garden",
+        "outdoor",
+        "patio",
+        "flower",
+        "solar"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "garden tool set",
+        "garden light",
+        "garden decor",
+        "outdoor",
+        "patio",
+        "flower",
+        "solar light",
+        "solar garden light"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=garden+tool+set",
+      "url_google": "https://trends.google.com/trends/explore?q=garden+tool+set&geo=GB"
+    },
+    {
+      "keyword": "bathroom",
+      "category": "bathroom",
+      "heat": 82,
+      "score": 72,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "soap",
+        "toilet",
+        "shower",
+        "mirror",
+        "towel"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "soap dispenser",
+        "soap dish",
+        "soap holder",
+        "toilet",
+        "shower caddy",
+        "shower head",
+        "shower curtain",
+        "makeup mirror"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 82,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=soap+dispenser",
+      "url_google": "https://trends.google.com/trends/explore?q=soap+dispenser&geo=GB"
+    },
+    {
+      "keyword": "travel",
+      "category": "travel",
+      "heat": 82,
+      "score": 72,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "toiletry",
+        "travel",
+        "luggage",
+        "neck pillow",
+        "packing"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "toiletry",
+        "travel",
+        "luggage",
+        "neck pillow",
+        "packing"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 82,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=toiletry",
+      "url_google": "https://trends.google.com/trends/explore?q=toiletry&geo=GB"
+    },
+    {
+      "keyword": "cleaning",
+      "category": "cleaning",
+      "heat": 79,
+      "score": 71,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "cleaning",
+        "brush",
+        "vacuum",
+        "cleaner",
+        "mop"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "cleaning",
+        "brush",
+        "vacuum",
+        "cleaner",
+        "duster",
+        "sponge"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 79,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=cleaning",
+      "url_google": "https://trends.google.com/trends/explore?q=cleaning&geo=GB"
+    },
+    {
+      "keyword": "car",
+      "category": "car",
+      "heat": 73,
+      "score": 69,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "car",
+        "phone holder",
+        "vehicle",
+        "organiser",
+        "automotive"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "car accessories",
+        "car organizer",
+        "car phone holder",
+        "phone holder",
+        "vehicle",
+        "organiser",
+        "automotive",
+        "dashboard"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 73,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=car+accessories",
+      "url_google": "https://trends.google.com/trends/explore?q=car+accessories&geo=GB"
+    },
+    {
+      "keyword": "eco",
+      "category": "eco",
+      "heat": 73,
+      "score": 69,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "sustainable",
+        "reusable",
+        "organic",
+        "eco",
+        "bamboo"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "sustainable products",
+        "eco friendly",
+        "reusable food wrap",
+        "reusable straws",
+        "reusable bags",
+        "organic products",
+        "organic cotton",
+        "eco products"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 73,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=sustainable+products",
+      "url_google": "https://trends.google.com/trends/explore?q=sustainable+products&geo=GB"
+    },
+    {
+      "keyword": "bedding",
+      "category": "bedding",
+      "heat": 70,
+      "score": 68,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "bedding",
+        "sheet",
+        "cushion",
+        "duvet",
+        "blanket"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "bedding",
+        "sheet",
+        "cushion",
+        "duvet",
+        "blanket",
+        "pillow",
+        "throw"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 70,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=bedding",
+      "url_google": "https://trends.google.com/trends/explore?q=bedding&geo=GB"
+    },
+    {
+      "keyword": "baby",
+      "category": "baby",
+      "heat": 57,
+      "score": 64,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "baby",
+        "child",
+        "nursery",
+        "toddler",
+        "kids"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "baby",
+        "child",
+        "nursery",
+        "toddler",
+        "kids"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 57,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=baby",
+      "url_google": "https://trends.google.com/trends/explore?q=baby&geo=GB"
+    }
+  ],
+  "trend_summary": {
+    "top_categories": [
+      [
+        "kitchen",
+        100
+      ],
+      [
+        "office",
+        100
+      ],
+      [
+        "pets",
+        100
+      ],
+      [
+        "phone",
+        100
+      ],
+      [
+        "home decor",
+        100
+      ],
+      [
+        "garden",
+        100
+      ]
+    ],
+    "cross_validated": [
+      "kitchen",
+      "car",
+      "office",
+      "storage",
+      "lighting",
+      "pets",
+      "sports",
+      "crafts",
+      "phone",
+      "beauty",
+      "home decor",
+      "eco",
+      "seasonal",
+      "garden",
+      "bathroom",
+      "cleaning",
+      "bedding",
+      "travel",
+      "baby"
+    ],
+    "demand_keywords": [
+      "20 best selling items on temu [updated]",
+      "access the niche",
+      "aggressively worth the hype",
+      "amazon",
+      "amazon listing restrictions.",
+      "amazon sellers",
+      "amazon vs temu",
+      "amazon's",
+      "amazon's extensive storage",
+      "amazon's selling fees,"
+    ],
+    "season": "summer",
+    "sources_scanned": [
+      "tiktok",
+      "temu",
+      "etsy",
+      "market_intel"
+    ]
+  }
+}
