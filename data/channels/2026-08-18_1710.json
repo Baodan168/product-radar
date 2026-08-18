@@ -1,0 +1,1712 @@
+{
+  "scan_date": "2026-08-18",
+  "scan_time": "17:10",
+  "scan_ts": "2026-08-18_1710",
+  "stats": {
+    "total_scanned": 176,
+    "passed_filter": 9,
+    "rejected": 164,
+    "channels": {
+      "google_trends": 5,
+      "multi_source": 9,
+      "temu_trending": 7,
+      "tiktok_verified": 7,
+      "new_releases": 4,
+      "etsy_trending": 7,
+      "keyword_search": 5,
+      "event_product": 2
+    },
+    "detail_reject": {},
+    "theme_trimmed": [
+      {
+        "asin": "B0DL5R3CBQ",
+        "name": "QOPAHI 40Pcs Clothes Pegs for Washing Line with Bag, Strong Grip Non Slip Laundry Pegs and Bag Set, Plastic Clothespins "
+      },
+      {
+        "asin": "B0DZHHDV6X",
+        "name": "lohey 48Pcs Pegs for Washing Line with Bag, Windproof Plastic Washing Line Pegs, Non-Slip Strong Grip Laundry Clips, Per"
+      }
+    ],
+    "trend_categories": {
+      "kitchen": 100,
+      "garden": 100,
+      "office": 100,
+      "lighting": 100,
+      "pets": 100,
+      "phone": 100
+    },
+    "supply_demand": {
+      "pets": {
+        "ratio": 39.0,
+        "demand": 100,
+        "supply": 12,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "lighting": {
+        "ratio": 11.7,
+        "demand": 100,
+        "supply": 5002,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "kitchen": {
+        "ratio": 9.1,
+        "demand": 100,
+        "supply": 58478,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "sports": {
+        "ratio": 6.2,
+        "demand": 79,
+        "supply": 309526,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "kitchen_gadgets": {
+        "ratio": 2.6,
+        "demand": 29,
+        "supply": 58478,
+        "label": "⚖️ 平衡",
+        "level": "balanced"
+      },
+      "garden": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "bathroom": {
+        "ratio": 0,
+        "demand": 83,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "cleaning": {
+        "ratio": 0,
+        "demand": 47,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      }
+    },
+    "divergences": {
+      "kitchen": {
+        "current_heat": 81,
+        "previous_heat": 100,
+        "heat_change_pct": -19.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-17_1711",
+          "2026-08-18_0850"
+        ]
+      },
+      "garden": {
+        "current_heat": 95,
+        "previous_heat": 100,
+        "heat_change_pct": -5.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-17_1711",
+          "2026-08-18_0850"
+        ]
+      },
+      "bathroom": {
+        "current_heat": 69,
+        "previous_heat": 82,
+        "heat_change_pct": -15.9,
+        "direction": "stable",
+        "dates": [
+          "2026-08-17_1711",
+          "2026-08-18_0850"
+        ]
+      },
+      "cleaning": {
+        "current_heat": 47,
+        "previous_heat": 79,
+        "heat_change_pct": -40.5,
+        "direction": "falling",
+        "dates": [
+          "2026-08-17_1711",
+          "2026-08-18_0850"
+        ]
+      },
+      "car": {
+        "current_heat": 59,
+        "previous_heat": 73,
+        "heat_change_pct": -19.2,
+        "direction": "stable",
+        "dates": [
+          "2026-08-17_1711",
+          "2026-08-18_0850"
+        ]
+      },
+      "office": {
+        "current_heat": 76,
+        "previous_heat": 100,
+        "heat_change_pct": -24.0,
+        "direction": "falling",
+        "dates": [
+          "2026-08-17_1711",
+          "2026-08-18_0850"
+        ]
+      },
+      "storage": {
+        "current_heat": 91,
+        "previous_heat": 94,
+        "heat_change_pct": -3.2,
+        "direction": "stable",
+        "dates": [
+          "2026-08-17_1711",
+          "2026-08-18_0850"
+        ]
+      },
+      "lighting": {
+        "current_heat": 95,
+        "previous_heat": 91,
+        "heat_change_pct": 4.4,
+        "direction": "stable",
+        "dates": [
+          "2026-08-17_1711",
+          "2026-08-18_0850"
+        ]
+      },
+      "pets": {
+        "current_heat": 100,
+        "previous_heat": 100,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-17_1711",
+          "2026-08-18_0850"
+        ]
+      },
+      "sports": {
+        "current_heat": 86,
+        "previous_heat": 63,
+        "heat_change_pct": 36.5,
+        "direction": "rising",
+        "dates": [
+          "2026-08-17_1711",
+          "2026-08-18_0850"
+        ]
+      },
+      "crafts": {
+        "current_heat": 86,
+        "previous_heat": 94,
+        "heat_change_pct": -8.5,
+        "direction": "stable",
+        "dates": [
+          "2026-08-17_1711",
+          "2026-08-18_0850"
+        ]
+      },
+      "bedding": {
+        "current_heat": 54,
+        "previous_heat": 70,
+        "heat_change_pct": -22.9,
+        "direction": "falling",
+        "dates": [
+          "2026-08-17_1711",
+          "2026-08-18_0850"
+        ]
+      },
+      "phone": {
+        "current_heat": 91,
+        "previous_heat": 100,
+        "heat_change_pct": -9.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-17_1711",
+          "2026-08-18_0850"
+        ]
+      },
+      "beauty": {
+        "current_heat": 66,
+        "previous_heat": 91,
+        "heat_change_pct": -27.5,
+        "direction": "falling",
+        "dates": [
+          "2026-08-17_1711",
+          "2026-08-18_0850"
+        ]
+      },
+      "kitchen_gadgets": {
+        "current_heat": 27,
+        "previous_heat": 24,
+        "heat_change_pct": 12.5,
+        "direction": "stable",
+        "dates": [
+          "2026-08-17_1711",
+          "2026-08-18_0850"
+        ]
+      },
+      "eco": {
+        "current_heat": 61,
+        "previous_heat": 73,
+        "heat_change_pct": -16.4,
+        "direction": "stable",
+        "dates": [
+          "2026-08-17_1711",
+          "2026-08-18_0850"
+        ]
+      },
+      "seasonal": {
+        "current_heat": 76,
+        "previous_heat": 94,
+        "heat_change_pct": -19.1,
+        "direction": "stable",
+        "dates": [
+          "2026-08-17_1711",
+          "2026-08-18_0850"
+        ]
+      },
+      "home decor": {
+        "current_heat": 81,
+        "previous_heat": 100,
+        "heat_change_pct": -19.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-17_1711",
+          "2026-08-18_0850"
+        ]
+      },
+      "baby": {
+        "current_heat": 52,
+        "previous_heat": 57,
+        "heat_change_pct": -8.8,
+        "direction": "stable",
+        "dates": [
+          "2026-08-17_1711",
+          "2026-08-18_0850"
+        ]
+      },
+      "travel": {
+        "current_heat": 52,
+        "previous_heat": 82,
+        "heat_change_pct": -36.6,
+        "direction": "falling",
+        "dates": [
+          "2026-08-17_1711",
+          "2026-08-18_0850"
+        ]
+      }
+    },
+    "gap_opportunities": 17
+  },
+  "products": [
+    {
+      "asin": "B0H3NZ7QWD",
+      "name": "fjaldjfu Pet Cooling Mat, 2026 New Summer Multiple Specifications Cooling Mat for Dogs, reusable Durable Cat Cool Blanke",
+      "price": 8.99,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 8,
+      "category": "Pets",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H3NZ7QWD",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71FHPSv+J3L._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "TikTok趋势",
+        "Google趋势",
+        "Reddit需求",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.412,
+      "net_profit": 3.7,
+      "cost_breakdown": {
+        "vat": 1.5,
+        "commission": 0.45,
+        "fba": 1.46,
+        "ads": 0.9,
+        "returns": 0.18,
+        "sourcing": 0.8,
+        "total_cost": 5.29
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 39.0,
+        "demand": 100,
+        "supply": 12,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy",
+        "Reddit"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 163,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "💬 Reddit": 5,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(pets)": 23,
+        "⏳ 待验证": -8,
+        "💰 超高利润": 12,
+        "🌊 深蓝海": 20,
+        "⚠️ 未验证": -8
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-08-12",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "google_trends",
+        "multi_source",
+        "temu_trending",
+        "tiktok_verified",
+        "new_releases",
+        "etsy_trending"
+      ]
+    },
+    {
+      "asin": "B0H8J9QH81",
+      "name": "Summer Pet Cooling Collar Wrap, Instant Cooling Collar for Pet (#F) | Adjustable Reusable Pet Ice Scarf",
+      "price": 9.89,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 14,
+      "category": "Pets",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H8J9QH81",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/61GxsDkvDEL._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "TikTok趋势",
+        "Google趋势",
+        "Reddit需求",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.434,
+      "net_profit": 4.3,
+      "cost_breakdown": {
+        "vat": 1.65,
+        "commission": 0.49,
+        "fba": 1.46,
+        "ads": 0.99,
+        "returns": 0.2,
+        "sourcing": 0.8,
+        "total_cost": 5.59
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 39.0,
+        "demand": 100,
+        "supply": 12,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy",
+        "Reddit"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 158,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "💬 Reddit": 5,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "📈 趋势(car)": 8,
+        "⏳ 待验证": -8,
+        "💰 超高利润": 12,
+        "🌴 当季(summer)": 10,
+        "🌊 深蓝海": 20,
+        "⚠️ 未验证": -8
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-08-12",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "google_trends",
+        "multi_source",
+        "temu_trending",
+        "tiktok_verified",
+        "new_releases",
+        "etsy_trending"
+      ]
+    },
+    {
+      "asin": "B0HBP5SSKT",
+      "name": "Ground Bird Feeder Weatherproof Small Round Birding Tool | Garden Bird Feeder for Watching Viewing Feeding Round Food Wa",
+      "price": 9.43,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 10,
+      "category": "Pets",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HBP5SSKT",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71CkrT8JTVL._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "TikTok趋势",
+        "Reddit需求",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.423,
+      "net_profit": 3.99,
+      "cost_breakdown": {
+        "vat": 1.57,
+        "commission": 0.47,
+        "fba": 1.46,
+        "ads": 0.94,
+        "returns": 0.19,
+        "sourcing": 0.8,
+        "total_cost": 5.44
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 39.0,
+        "demand": 100,
+        "supply": 12,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy",
+        "Reddit"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 158,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "🎵 TikTok": 20,
+        "💬 Reddit": 5,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(garden)": 23,
+        "⏳ 待验证": -8,
+        "💰 超高利润": 12,
+        "🌴 当季(summer)": 10,
+        "🌊 深蓝海": 20,
+        "⚠️ 未验证": -8
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-08-14",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "multi_source",
+        "temu_trending",
+        "tiktok_verified",
+        "new_releases",
+        "etsy_trending"
+      ]
+    },
+    {
+      "asin": "B0H1HCC75J",
+      "name": "Bird Bath Copper Tray, 99.99% Pure Copper Bird Bath Purification Disk 0.8mm Thick with Stable 3-Point Support, Suitable ",
+      "price": 6.02,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 1,
+      "category": "Pets",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H1HCC75J",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/712+UP1lVKL._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "Temu热销",
+        "Etsy趋势",
+        "TikTok趋势"
+      ],
+      "profit_margin": 0.288,
+      "net_profit": 1.73,
+      "cost_breakdown": {
+        "vat": 1.01,
+        "commission": 0.3,
+        "fba": 1.46,
+        "ads": 0.6,
+        "returns": 0.12,
+        "sourcing": 0.8,
+        "total_cost": 4.29
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 39.0,
+        "demand": 100,
+        "supply": 12,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 143,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(garden)": 23,
+        "⏳ 待验证": -8,
+        "💰 较好利润": 4,
+        "🌊 深蓝海": 20,
+        "📊 持续上升": 8,
+        "⚠️ 未验证": -8
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-08-12",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "multi_source",
+        "temu_trending",
+        "tiktok_verified",
+        "new_releases",
+        "etsy_trending"
+      ]
+    },
+    {
+      "asin": "B0CRL9MTQG",
+      "name": "K-ONE Strong Clothes Pegs for Laundry Washing Line | Airer Clips Grip Dry Garden | Laundry Pegs for Strong Windproof Sup",
+      "price": 6.49,
+      "reviews": 48,
+      "rating": 4.5,
+      "rank": 45,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "48 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CRL9MTQG",
+      "image_url": "https://m.media-amazon.com/images/I/51MuiDCQerL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "clothes pegs, laundry pegs, clothes pegs for washing line, laundry pegs 50 pack, anti slip clothes pegs, strong grip clothes pegs, washing line pegs, non slip laundry pegs, clothes clips, peg bag, laundry clips, uv resistant pegs, windproof clothes pegs",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势",
+        "Google趋势",
+        "Reddit需求",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.215,
+      "net_profit": 1.39,
+      "cost_breakdown": {
+        "vat": 1.08,
+        "commission": 0.97,
+        "fba": 1.46,
+        "ads": 0.65,
+        "returns": 0.13,
+        "sourcing": 0.8,
+        "total_cost": 5.1
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy",
+        "Reddit"
+      ],
+      "internal_sources": [],
+      "score": 139,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "💬 Reddit": 5,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(garden)": 23,
+        "🟢 低竞争": 10,
+        "⭐ 高评分": 5,
+        "❓ 品类存疑": -5,
+        "🌴 当季(summer)": 10,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-18",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "keyword_search",
+        "multi_source",
+        "temu_trending",
+        "tiktok_verified",
+        "google_trends",
+        "etsy_trending"
+      ]
+    },
+    {
+      "asin": "B0C854MWSX",
+      "name": "JOYIN Halloween Pumpkin Plush Tote Bucket Candy Trick or Treat Bag with Handle with Handle for Party Favor Supplies , Ki",
+      "price": 11.99,
+      "reviews": 123,
+      "rating": 4.6,
+      "rank": 44,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "123 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0C854MWSX",
+      "image_url": "https://m.media-amazon.com/images/I/81OFWWQe9UL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "halloween treat bags, trick or treat bags, halloween candy bags, reusable halloween bags, fabric treat bags, halloween party favor bags, trick or treat bag kids, halloween goodie bags, drawstring candy bags, halloween party bags, pumpkin treat bag, spooky treat bags",
+      "sources": [
+        "趋势发现",
+        "Google趋势",
+        "Temu热销",
+        "Etsy趋势",
+        "TikTok趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.375,
+      "net_profit": 4.49,
+      "cost_breakdown": {
+        "vat": 2.0,
+        "commission": 1.8,
+        "fba": 1.46,
+        "ads": 1.2,
+        "returns": 0.24,
+        "sourcing": 0.8,
+        "total_cost": 7.5
+      },
+      "off_season": true,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 111,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(crafts)": 23,
+        "🟡 中等竞争": 5,
+        "⭐ 高评分": 5,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "❄️ 过季降权": -20,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-18",
+      "is_multi": true,
+      "is_event": true,
+      "channel_tags": [
+        "event_product",
+        "keyword_search",
+        "multi_source",
+        "temu_trending",
+        "tiktok_verified",
+        "google_trends",
+        "etsy_trending"
+      ]
+    },
+    {
+      "asin": "B0F97XZXD4",
+      "name": "60 Pack Clothes Pegs for Washing Line with Bag, Extra Strong Non Slip Laundry Pegs 4 Colors, Plastic Washing Pegs Rust R",
+      "price": 11.72,
+      "reviews": 149,
+      "rating": 4.5,
+      "rank": 1,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "149 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0F97XZXD4",
+      "image_url": "https://m.media-amazon.com/images/I/81kGEygVb6L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "clothes pegs, laundry pegs, clothes pegs for washing line, laundry pegs 50 pack, anti slip clothes pegs, strong grip clothes pegs, washing line pegs, non slip laundry pegs, clothes clips, peg bag, laundry clips, uv resistant pegs, windproof clothes pegs",
+      "sources": [
+        "趋势发现",
+        "Reddit需求"
+      ],
+      "profit_margin": 0.37,
+      "net_profit": 4.34,
+      "cost_breakdown": {
+        "vat": 1.96,
+        "commission": 1.76,
+        "fba": 1.46,
+        "ads": 1.17,
+        "returns": 0.23,
+        "sourcing": 0.8,
+        "total_cost": 7.38
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "weak",
+      "signal_label": "🟡 弱信号",
+      "external_sources": [
+        "Reddit"
+      ],
+      "internal_sources": [],
+      "score": 44,
+      "score_breakdown": {
+        "💬 Reddit": 5,
+        "🟡 中等竞争": 5,
+        "⭐ 高评分": 5,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 2,
+      "is_new": true,
+      "first_seen": "2026-08-18",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "multi_source",
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0F9863RZJ",
+      "name": "60 PCS Clothes Pegs for Washing Line with Bag, Plastic Pegs for Washing Line Waterproof, Black and White Washing Pegs, W",
+      "price": 10.19,
+      "reviews": 123,
+      "rating": 4.6,
+      "rank": 39,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "123 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0F9863RZJ",
+      "image_url": "https://m.media-amazon.com/images/I/71pZpmzPBqL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "clothes pegs, laundry pegs, clothes pegs for washing line, laundry pegs 50 pack, anti slip clothes pegs, strong grip clothes pegs, washing line pegs, non slip laundry pegs, clothes clips, peg bag, laundry clips, uv resistant pegs, windproof clothes pegs",
+      "sources": [
+        "趋势发现",
+        "Reddit需求"
+      ],
+      "profit_margin": 0.341,
+      "net_profit": 3.48,
+      "cost_breakdown": {
+        "vat": 1.7,
+        "commission": 1.53,
+        "fba": 1.46,
+        "ads": 1.02,
+        "returns": 0.2,
+        "sourcing": 0.8,
+        "total_cost": 6.71
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "weak",
+      "signal_label": "🟡 弱信号",
+      "external_sources": [
+        "Reddit"
+      ],
+      "internal_sources": [],
+      "score": 40,
+      "score_breakdown": {
+        "💬 Reddit": 5,
+        "🟡 中等竞争": 5,
+        "⭐ 高评分": 5,
+        "💰 高利润": 8,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 2,
+      "is_new": true,
+      "first_seen": "2026-08-18",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "multi_source",
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0FH5YPPKD",
+      "name": "Halloween Bags 84 Pcs Candy Bags for Trick-or-Treating + 90 Stickers, Halloween Party Bags for Treats, Snacks, Party Sup",
+      "price": 9.91,
+      "reviews": 27,
+      "rating": 4.9,
+      "rank": 27,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "27 reviews, 4.9★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FH5YPPKD",
+      "image_url": "https://m.media-amazon.com/images/I/61vG0k3fL5L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "halloween treat bags, trick or treat bags, halloween candy bags, reusable halloween bags, fabric treat bags, halloween party favor bags, trick or treat bag kids, halloween goodie bags, drawstring candy bags, halloween party bags, pumpkin treat bag, spooky treat bags",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势",
+        "Google趋势",
+        "Reddit需求",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.335,
+      "net_profit": 3.32,
+      "cost_breakdown": {
+        "vat": 1.65,
+        "commission": 1.49,
+        "fba": 1.46,
+        "ads": 0.99,
+        "returns": 0.2,
+        "sourcing": 0.8,
+        "total_cost": 6.59
+      },
+      "off_season": true,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy",
+        "Reddit"
+      ],
+      "internal_sources": [],
+      "score": 117,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "💬 Reddit": 5,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(crafts)": 23,
+        "🟢 低竞争": 10,
+        "⭐ 高评分": 5,
+        "💰 高利润": 8,
+        "❓ 品类存疑": -5,
+        "❄️ 过季降权": -20,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-18",
+      "is_multi": true,
+      "is_event": true,
+      "channel_tags": [
+        "event_product",
+        "keyword_search",
+        "multi_source",
+        "temu_trending",
+        "tiktok_verified",
+        "google_trends",
+        "etsy_trending"
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "keyword": "garden",
+      "category": "garden",
+      "heat": 100,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "patio",
+        "plant",
+        "flower",
+        "outdoor",
+        "bbq"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "patio",
+        "plant pot",
+        "plant stand",
+        "plant hanger",
+        "flower",
+        "outdoor",
+        "garden tool set",
+        "garden light"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=patio",
+      "url_google": "https://trends.google.com/trends/explore?q=patio&geo=GB"
+    },
+    {
+      "keyword": "office",
+      "category": "office",
+      "heat": 100,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "pen",
+        "laptop",
+        "stationery",
+        "desk",
+        "notebook"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "pen holder",
+        "pen set",
+        "fountain pen",
+        "laptop stand",
+        "laptop sleeve",
+        "laptop cooler",
+        "stationery set",
+        "notebook"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=pen+holder",
+      "url_google": "https://trends.google.com/trends/explore?q=pen+holder&geo=GB"
+    },
+    {
+      "keyword": "storage",
+      "category": "storage",
+      "heat": 97,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "box",
+        "drawer",
+        "shelf",
+        "basket",
+        "container"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "drawer",
+        "floating shelf",
+        "wall shelf",
+        "corner shelf",
+        "basket",
+        "container",
+        "food storage",
+        "kitchen storage"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 97,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=drawer",
+      "url_google": "https://trends.google.com/trends/explore?q=drawer&geo=GB"
+    },
+    {
+      "keyword": "crafts",
+      "category": "crafts",
+      "heat": 94,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "brush",
+        "tape",
+        "paint",
+        "art",
+        "stickers"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "brush",
+        "washi tape",
+        "decorative tape",
+        "masking tape",
+        "acrylic paint set",
+        "paint brush set",
+        "paint by numbers",
+        "art supplies"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 94,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=brush",
+      "url_google": "https://trends.google.com/trends/explore?q=brush&geo=GB"
+    },
+    {
+      "keyword": "phone",
+      "category": "phone",
+      "heat": 100,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "holder",
+        "phone",
+        "case",
+        "cable",
+        "stand"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "holder",
+        "phone case",
+        "phone holder",
+        "phone stand",
+        "case",
+        "charging cable",
+        "USB cable",
+        "phone cable"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=holder",
+      "url_google": "https://trends.google.com/trends/explore?q=holder&geo=GB"
+    },
+    {
+      "keyword": "home decor",
+      "category": "home decor",
+      "heat": 100,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "frame",
+        "mirror",
+        "candle",
+        "wall art",
+        "vase"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "photo frame",
+        "picture frame",
+        "wall frame",
+        "makeup mirror",
+        "vanity mirror",
+        "LED mirror",
+        "candle holder",
+        "scented candle"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=photo+frame",
+      "url_google": "https://trends.google.com/trends/explore?q=photo+frame&geo=GB"
+    },
+    {
+      "keyword": "bathroom",
+      "category": "bathroom",
+      "heat": 83,
+      "score": 72,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "towel",
+        "bathroom",
+        "mirror",
+        "toilet",
+        "soap"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "towel rail",
+        "towel rack",
+        "towel hook",
+        "bathroom",
+        "makeup mirror",
+        "vanity mirror",
+        "LED mirror",
+        "toilet"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 83,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=towel+rail",
+      "url_google": "https://trends.google.com/trends/explore?q=towel+rail&geo=GB"
+    },
+    {
+      "keyword": "beauty",
+      "category": "beauty",
+      "heat": 83,
+      "score": 72,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "brush",
+        "hair",
+        "makeup",
+        "mirror",
+        "skincare"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "brush",
+        "hair clip",
+        "hair accessories",
+        "hair band",
+        "hair tie",
+        "makeup brush set",
+        "makeup bag",
+        "makeup organizer"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 83,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=brush",
+      "url_google": "https://trends.google.com/trends/explore?q=brush&geo=GB"
+    },
+    {
+      "keyword": "seasonal",
+      "category": "seasonal",
+      "heat": 72,
+      "score": 69,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "gift",
+        "halloween",
+        "christmas",
+        "birthday",
+        "valentine"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "gift ideas",
+        "gift set",
+        "gift box",
+        "halloween decoration",
+        "halloween costume",
+        "christmas decoration",
+        "christmas gift",
+        "christmas stocking"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 72,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=gift+ideas",
+      "url_google": "https://trends.google.com/trends/explore?q=gift+ideas&geo=GB"
+    },
+    {
+      "keyword": "eco",
+      "category": "eco",
+      "heat": 65,
+      "score": 66,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "bamboo",
+        "eco",
+        "organic",
+        "reusable"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "bamboo cutlery",
+        "bamboo toothbrush",
+        "bamboo organizer",
+        "eco products",
+        "reusable bag",
+        "bamboo products",
+        "organic products",
+        "organic cotton"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 65,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=bamboo+cutlery",
+      "url_google": "https://trends.google.com/trends/explore?q=bamboo+cutlery&geo=GB"
+    },
+    {
+      "keyword": "car",
+      "category": "car",
+      "heat": 54,
+      "score": 63,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "automotive",
+        "car",
+        "motor"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "automotive",
+        "car accessories",
+        "car organizer",
+        "car phone holder",
+        "motorcycle accessories",
+        "motorcycle cover"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 54,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=automotive",
+      "url_google": "https://trends.google.com/trends/explore?q=automotive&geo=GB"
+    },
+    {
+      "keyword": "travel",
+      "category": "travel",
+      "heat": 51,
+      "score": 62,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "travel",
+        "toiletry",
+        "packing"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "travel",
+        "toiletry",
+        "packing"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 51,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=travel",
+      "url_google": "https://trends.google.com/trends/explore?q=travel&geo=GB"
+    },
+    {
+      "keyword": "baby",
+      "category": "baby",
+      "heat": 51,
+      "score": 62,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "child",
+        "kids",
+        "baby",
+        "nursery"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "child",
+        "kids",
+        "baby",
+        "nursery"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 51,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=child",
+      "url_google": "https://trends.google.com/trends/explore?q=child&geo=GB"
+    },
+    {
+      "keyword": "cleaning",
+      "category": "cleaning",
+      "heat": 47,
+      "score": 60,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "mop",
+        "brush",
+        "cleaner",
+        "cleaning",
+        "duster"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "brush",
+        "cleaner",
+        "cleaning",
+        "duster"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 47,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=brush",
+      "url_google": "https://trends.google.com/trends/explore?q=brush&geo=GB"
+    },
+    {
+      "keyword": "bedding",
+      "category": "bedding",
+      "heat": 40,
+      "score": 58,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "pillow",
+        "blanket",
+        "throw",
+        "cushion"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "pillow",
+        "blanket",
+        "throw",
+        "cushion"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 40,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=pillow",
+      "url_google": "https://trends.google.com/trends/explore?q=pillow&geo=GB"
+    },
+    {
+      "keyword": "kitchen",
+      "category": "kitchen",
+      "heat": 100,
+      "score": 55,
+      "gap_level": "weak",
+      "amazon_count": 5,
+      "amazon_reviews": 58478,
+      "evidence": [
+        "gadget",
+        "baking",
+        "kitchen",
+        "mug",
+        "cup"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "gadget",
+        "baking set",
+        "baking tray",
+        "cake mould",
+        "kitchen",
+        "utensil"
+      ],
+      "sd_info": {
+        "ratio": 9.1,
+        "demand": 100,
+        "supply": 58478,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=gadget",
+      "url_google": "https://trends.google.com/trends/explore?q=gadget&geo=GB"
+    },
+    {
+      "keyword": "lighting",
+      "category": "lighting",
+      "heat": 100,
+      "score": 55,
+      "gap_level": "weak",
+      "amazon_count": 7,
+      "amazon_reviews": 5002,
+      "evidence": [
+        "fairy",
+        "night light",
+        "light",
+        "led",
+        "strip"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "fairy lights",
+        "fairy light curtain",
+        "night light",
+        "LED light",
+        "string lights",
+        "LED bulb",
+        "LED panel",
+        "LED strip"
+      ],
+      "sd_info": {
+        "ratio": 11.7,
+        "demand": 100,
+        "supply": 5002,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=fairy+lights",
+      "url_google": "https://trends.google.com/trends/explore?q=fairy+lights&geo=GB"
+    }
+  ],
+  "trend_summary": {
+    "top_categories": [
+      [
+        "kitchen",
+        100
+      ],
+      [
+        "garden",
+        100
+      ],
+      [
+        "office",
+        100
+      ],
+      [
+        "lighting",
+        100
+      ],
+      [
+        "pets",
+        100
+      ],
+      [
+        "phone",
+        100
+      ]
+    ],
+    "cross_validated": [
+      "kitchen",
+      "garden",
+      "bathroom",
+      "cleaning",
+      "car",
+      "office",
+      "storage",
+      "lighting",
+      "pets",
+      "sports",
+      "crafts",
+      "bedding",
+      "travel",
+      "phone",
+      "beauty",
+      "kitchen_gadgets",
+      "eco",
+      "seasonal",
+      "home decor",
+      "baby"
+    ],
+    "demand_keywords": [
+      ", as they're now being called online. that's",
+      "5-star rated",
+      "6+ styles",
+      "active demand",
+      "add to cart",
+      "among men",
+      "and a different fan praised:",
+      "and consistent sales volume on",
+      "at their core, yes, they're simple cakes,",
+      "backed by"
+    ],
+    "season": "summer",
+    "sources_scanned": [
+      "tiktok",
+      "temu",
+      "etsy",
+      "market_intel"
+    ]
+  }
+}
