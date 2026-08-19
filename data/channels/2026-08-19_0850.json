@@ -1,0 +1,1777 @@
+{
+  "scan_date": "2026-08-19",
+  "scan_time": "08:50",
+  "scan_ts": "2026-08-19_0850",
+  "stats": {
+    "total_scanned": 323,
+    "passed_filter": 10,
+    "rejected": 296,
+    "channels": {
+      "new_releases": 2,
+      "multi_source": 9,
+      "temu_trending": 8,
+      "etsy_trending": 8,
+      "tiktok_verified": 9,
+      "google_trends": 2,
+      "keyword_search": 8
+    },
+    "detail_reject": {
+      "重量超标": 11,
+      "尺寸超标": 1
+    },
+    "theme_trimmed": [
+      {
+        "asin": "B0GWJPNDK2",
+        "name": "WITCOLOR Thank You Gifts for Women & Men – Mini Crochet Heart Flower with Positive Support Card, Handmade Appreciation G"
+      },
+      {
+        "asin": "B0CX3XLS67",
+        "name": "Livole Teacher Gifts for Women, Teachers Mug, Thank You Gifts for Teachers, Teacher Leaving Presents, It Takes A Big Hea"
+      },
+      {
+        "asin": "B0F2MX329H",
+        "name": "Joymaking Teacher Gifts Coffee Mug Thank You Gifts for Women Christmas Birthday Gift for Teacher Mug - Teachers Plant Se"
+      },
+      {
+        "asin": "B0F2MXJCLK",
+        "name": "Joymaking Teacher Gifts Coffee Mug Best Teacher Gift for Birthday Christmas Thank You Gifts for Teachers Mug End of Term"
+      },
+      {
+        "asin": "B0FG5ZCZK9",
+        "name": "SIMPLY GIFTED Thank You Cards Multipack of 12/24 with Envelopes & Matching Thank You Stickers -6 Tree Designs 10x15cm Bl"
+      },
+      {
+        "asin": "B0GY7HGP6J",
+        "name": "Thank You Gift, Handmade Crochet Gift, Thank You Gifts For Women Men, Teacher Gifts, Retirement Leaving Gifts For Women "
+      },
+      {
+        "asin": "B0GXW2QWDX",
+        "name": "Thank You Gift, Handmade Crochet Puzzle Piece, Retirement Leaving Gifts For Colleagues Women Men,Thank You Teacher Gifts"
+      },
+      {
+        "asin": "B0FQK3XXGS",
+        "name": "Giftinghouse 24 Thank You Cards Pack with Gold Foil Stickers and Kraft Envelopes, 11.5 x 11.5 cm – Blank Inside – Ideal "
+      },
+      {
+        "asin": "B0D2R9L3PZ",
+        "name": "AhfuLife Teacher Thank You Cards Multipack, Thank You Teacher Greeting Cards for Teacher Teaching Assistant Nursery, 6 F"
+      },
+      {
+        "asin": "B0B2L33VF8",
+        "name": "AMZQ Teacher Gifts Teacher Appreciation Bookmark for Women Men - 3PCS Thank You Gifts for Teacher"
+      },
+      {
+        "asin": "B0GVMTBJJN",
+        "name": "Cupcake Cases, Silicone Baking Cups Pack of 24 - Non-Stick, Reusable, Heat-Resistant Baking Cases for Cupcake, Muffin an"
+      },
+      {
+        "asin": "B0DG5N4K2Y",
+        "name": "Styquenzer 6 Pack Reusable Produce Bags, Cotton Mesh Produce Bags with Drawstring Net, Washable for Veggies and Fruits, "
+      },
+      {
+        "asin": "B0CTLHFK9T",
+        "name": "SYEYCW 6 Pcs Reusable Produce Bags, Drawstring Mesh Bags for Vegetables, Fruits, Grocery, Travel, Home, 3 Sizes"
+      },
+      {
+        "asin": "B0FH6YCXXD",
+        "name": "Tyqour 6 Pack Reusable Produce Bags Washable Cotton Reusable Mesh Produce Bags Vegetable Bags for Vegetables, Fruits & G"
+      },
+      {
+        "asin": "B087CSFT43",
+        "name": "3 Pack Reusable Cotton Mesh String Bags with Handles Net Bags Grocery Shopping Tote Bags Organic Organizer Shopping Hand"
+      }
+    ],
+    "trend_categories": {
+      "garden": 100,
+      "pets": 100,
+      "phone": 100,
+      "lighting": 95,
+      "storage": 93,
+      "crafts": 93
+    },
+    "supply_demand": {
+      "pets": {
+        "ratio": 7.9,
+        "demand": 100,
+        "supply": 302205,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "lighting": {
+        "ratio": 7.7,
+        "demand": 95,
+        "supply": 237466,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "sports": {
+        "ratio": 7.7,
+        "demand": 83,
+        "supply": 45611,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "kitchen": {
+        "ratio": 6.6,
+        "demand": 83,
+        "supply": 302807,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "kitchen_gadgets": {
+        "ratio": 0.6,
+        "demand": 7,
+        "supply": 302807,
+        "label": "🔴 红海",
+        "level": "red_ocean"
+      },
+      "garden": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "bathroom": {
+        "ratio": 0,
+        "demand": 74,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "cleaning": {
+        "ratio": 0,
+        "demand": 54,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      }
+    },
+    "divergences": {
+      "kitchen": {
+        "current_heat": 100,
+        "previous_heat": 81,
+        "heat_change_pct": 23.5,
+        "direction": "stable",
+        "dates": [
+          "2026-08-18_0850",
+          "2026-08-18_1710"
+        ]
+      },
+      "garden": {
+        "current_heat": 100,
+        "previous_heat": 95,
+        "heat_change_pct": 5.3,
+        "direction": "stable",
+        "dates": [
+          "2026-08-18_0850",
+          "2026-08-18_1710"
+        ]
+      },
+      "bathroom": {
+        "current_heat": 83,
+        "previous_heat": 69,
+        "heat_change_pct": 20.3,
+        "direction": "stable",
+        "dates": [
+          "2026-08-18_0850",
+          "2026-08-18_1710"
+        ]
+      },
+      "cleaning": {
+        "current_heat": 47,
+        "previous_heat": 47,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-18_0850",
+          "2026-08-18_1710"
+        ]
+      },
+      "car": {
+        "current_heat": 54,
+        "previous_heat": 59,
+        "heat_change_pct": -8.5,
+        "direction": "stable",
+        "dates": [
+          "2026-08-18_0850",
+          "2026-08-18_1710"
+        ]
+      },
+      "office": {
+        "current_heat": 100,
+        "previous_heat": 76,
+        "heat_change_pct": 31.6,
+        "direction": "rising",
+        "dates": [
+          "2026-08-18_0850",
+          "2026-08-18_1710"
+        ]
+      },
+      "storage": {
+        "current_heat": 97,
+        "previous_heat": 91,
+        "heat_change_pct": 6.6,
+        "direction": "stable",
+        "dates": [
+          "2026-08-18_0850",
+          "2026-08-18_1710"
+        ]
+      },
+      "lighting": {
+        "current_heat": 100,
+        "previous_heat": 95,
+        "heat_change_pct": 5.3,
+        "direction": "stable",
+        "dates": [
+          "2026-08-18_0850",
+          "2026-08-18_1710"
+        ]
+      },
+      "pets": {
+        "current_heat": 100,
+        "previous_heat": 100,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-18_0850",
+          "2026-08-18_1710"
+        ]
+      },
+      "sports": {
+        "current_heat": 79,
+        "previous_heat": 86,
+        "heat_change_pct": -8.1,
+        "direction": "stable",
+        "dates": [
+          "2026-08-18_0850",
+          "2026-08-18_1710"
+        ]
+      },
+      "crafts": {
+        "current_heat": 94,
+        "previous_heat": 86,
+        "heat_change_pct": 9.3,
+        "direction": "stable",
+        "dates": [
+          "2026-08-18_0850",
+          "2026-08-18_1710"
+        ]
+      },
+      "bedding": {
+        "current_heat": 40,
+        "previous_heat": 54,
+        "heat_change_pct": -25.9,
+        "direction": "falling",
+        "dates": [
+          "2026-08-18_0850",
+          "2026-08-18_1710"
+        ]
+      },
+      "travel": {
+        "current_heat": 51,
+        "previous_heat": 52,
+        "heat_change_pct": -1.9,
+        "direction": "stable",
+        "dates": [
+          "2026-08-18_0850",
+          "2026-08-18_1710"
+        ]
+      },
+      "phone": {
+        "current_heat": 100,
+        "previous_heat": 91,
+        "heat_change_pct": 9.9,
+        "direction": "stable",
+        "dates": [
+          "2026-08-18_0850",
+          "2026-08-18_1710"
+        ]
+      },
+      "beauty": {
+        "current_heat": 83,
+        "previous_heat": 66,
+        "heat_change_pct": 25.8,
+        "direction": "stable",
+        "dates": [
+          "2026-08-18_0850",
+          "2026-08-18_1710"
+        ]
+      },
+      "kitchen_gadgets": {
+        "current_heat": 29,
+        "previous_heat": 27,
+        "heat_change_pct": 7.4,
+        "direction": "stable",
+        "dates": [
+          "2026-08-18_0850",
+          "2026-08-18_1710"
+        ]
+      },
+      "eco": {
+        "current_heat": 65,
+        "previous_heat": 61,
+        "heat_change_pct": 6.6,
+        "direction": "stable",
+        "dates": [
+          "2026-08-18_0850",
+          "2026-08-18_1710"
+        ]
+      },
+      "seasonal": {
+        "current_heat": 72,
+        "previous_heat": 76,
+        "heat_change_pct": -5.3,
+        "direction": "stable",
+        "dates": [
+          "2026-08-18_0850",
+          "2026-08-18_1710"
+        ]
+      },
+      "home decor": {
+        "current_heat": 100,
+        "previous_heat": 81,
+        "heat_change_pct": 23.5,
+        "direction": "stable",
+        "dates": [
+          "2026-08-18_0850",
+          "2026-08-18_1710"
+        ]
+      },
+      "baby": {
+        "current_heat": 51,
+        "previous_heat": 52,
+        "heat_change_pct": -1.9,
+        "direction": "stable",
+        "dates": [
+          "2026-08-18_0850",
+          "2026-08-18_1710"
+        ]
+      }
+    },
+    "gap_opportunities": 16
+  },
+  "products": [
+    {
+      "asin": "B0GX1WZSQY",
+      "name": "Chicken Craft Personalised Campervan Mug with Name - Panel Van Custom Colour Design - Camping Gift for Him and Her",
+      "price": 10.99,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 2,
+      "category": "Kitchen",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GX1WZSQY",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/61NkPsV9LlL._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "TikTok趋势",
+        "Etsy趋势",
+        "Temu热销"
+      ],
+      "profit_margin": 0.427,
+      "net_profit": 4.7,
+      "cost_breakdown": {
+        "vat": 1.84,
+        "commission": 0.88,
+        "fba": 1.46,
+        "ads": 1.1,
+        "returns": 0.22,
+        "sourcing": 0.8,
+        "total_cost": 6.29
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 6.6,
+        "demand": 83,
+        "supply": 302807,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 163,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(kitchen)": 23,
+        "⏳ 待验证": -8,
+        "💰 超高利润": 12,
+        "🌴 当季(summer)": 10,
+        "🌊 深蓝海": 20,
+        "⚠️ 未验证": -8,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-19",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "new_releases",
+        "multi_source",
+        "temu_trending",
+        "etsy_trending",
+        "tiktok_verified"
+      ]
+    },
+    {
+      "asin": "B0CXDXW9XD",
+      "name": "Teacher Gifts for Women 20oz Travel Mug with Keychain Thank You Gift | Personalised Teacher Mug, Teacher Water Bottle, A",
+      "price": 11.99,
+      "reviews": 15,
+      "rating": 4.7,
+      "rank": 41,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "15 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CXDXW9XD",
+      "image_url": "https://m.media-amazon.com/images/I/71-gzo8xkXL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "teacher mug",
+      "festival_event": "世界教师日",
+      "festival_icon": "🍎",
+      "festival_deadline": "2026-08-19",
+      "is_event": false,
+      "sources": [
+        "📅 世界教师日",
+        "TikTok趋势",
+        "Google趋势",
+        "Etsy趋势",
+        "Temu热销"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.375,
+      "net_profit": 4.49,
+      "cost_breakdown": {
+        "vat": 2.0,
+        "commission": 1.8,
+        "fba": 1.46,
+        "ads": 1.2,
+        "returns": 0.24,
+        "sourcing": 0.8,
+        "total_cost": 7.5
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 151,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(kitchen)": 23,
+        "🌊 蓝海": 15,
+        "⭐ 高评分": 5,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "🌴 当季(summer)": 10,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-19",
+      "is_multi": true,
+      "channel_tags": [
+        "google_trends",
+        "multi_source",
+        "temu_trending",
+        "keyword_search",
+        "etsy_trending",
+        "tiktok_verified"
+      ]
+    },
+    {
+      "asin": "B0D7MTY74F",
+      "name": "Confidently Quirky - Sorry for Your Loss Teacher White Mug, Funny Teacher Leaving Gift, Lecturer Thank You Mug",
+      "price": 12.99,
+      "reviews": 12,
+      "rating": 4.5,
+      "rank": 36,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "12 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0D7MTY74F",
+      "image_url": "https://m.media-amazon.com/images/I/61u1+VsacfL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "teacher mug",
+      "festival_event": "世界教师日",
+      "festival_icon": "🍎",
+      "festival_deadline": "2026-08-19",
+      "is_event": false,
+      "sources": [
+        "📅 世界教师日",
+        "Etsy趋势",
+        "Temu热销",
+        "TikTok趋势"
+      ],
+      "profit_margin": 0.389,
+      "net_profit": 5.05,
+      "cost_breakdown": {
+        "vat": 2.17,
+        "commission": 1.95,
+        "fba": 1.46,
+        "ads": 1.3,
+        "returns": 0.26,
+        "sourcing": 0.8,
+        "total_cost": 7.94
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 126,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(kitchen)": 23,
+        "🌊 蓝海": 15,
+        "⭐ 高评分": 5,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-19",
+      "is_multi": true,
+      "channel_tags": [
+        "multi_source",
+        "temu_trending",
+        "keyword_search",
+        "etsy_trending",
+        "tiktok_verified"
+      ]
+    },
+    {
+      "asin": "B0H5QQ7P46",
+      "name": "BestaFiesta World's Best Teacher Mug Teacher Gift Thank You Teacher Present Appreciation Mug End of Term,Gifts for Teach",
+      "price": 9.99,
+      "reviews": 13,
+      "rating": 4.5,
+      "rank": 14,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "13 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H5QQ7P46",
+      "image_url": "https://m.media-amazon.com/images/I/717aaDRQTWL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "teacher mug",
+      "festival_event": "世界教师日",
+      "festival_icon": "🍎",
+      "festival_deadline": "2026-08-19",
+      "is_event": false,
+      "sources": [
+        "📅 世界教师日",
+        "Etsy趋势",
+        "Temu热销",
+        "TikTok趋势"
+      ],
+      "profit_margin": 0.337,
+      "net_profit": 3.36,
+      "cost_breakdown": {
+        "vat": 1.67,
+        "commission": 1.5,
+        "fba": 1.46,
+        "ads": 1.0,
+        "returns": 0.2,
+        "sourcing": 0.8,
+        "total_cost": 6.63
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 122,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(kitchen)": 23,
+        "🌊 蓝海": 15,
+        "⭐ 高评分": 5,
+        "💰 高利润": 8,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-19",
+      "is_multi": true,
+      "channel_tags": [
+        "multi_source",
+        "temu_trending",
+        "keyword_search",
+        "etsy_trending",
+        "tiktok_verified"
+      ]
+    },
+    {
+      "asin": "B0D1RKFDV4",
+      "name": "NECAVU 6 Pack Drawstring Fridge Bags, 100% Cotton Eco Friendly Natural Vegetable Storage Net for Refrigerator, Multipurp",
+      "price": 8.99,
+      "reviews": 27,
+      "rating": 4.5,
+      "rank": 28,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "27 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0D1RKFDV4",
+      "image_url": "https://m.media-amazon.com/images/I/710+zMZ+oAL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "reusable produce bags, cotton produce bags, mesh produce bags, reusable vegetable bags, fruit bags, eco friendly grocery bags, zero waste bags, organic cotton bags, drawstring produce bags, reusable shopping bags, veggie bags, farmers market bags, plastic free produce bags, lunch bags, snack bags",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势",
+        "Google趋势",
+        "Reddit需求",
+        "Etsy趋势",
+        "Temu热销"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.312,
+      "net_profit": 2.8,
+      "cost_breakdown": {
+        "vat": 1.5,
+        "commission": 1.35,
+        "fba": 1.46,
+        "ads": 0.9,
+        "returns": 0.18,
+        "sourcing": 0.8,
+        "total_cost": 6.19
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy",
+        "Reddit"
+      ],
+      "internal_sources": [],
+      "score": 145,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "💬 Reddit": 5,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(storage)": 23,
+        "🟢 低竞争": 10,
+        "⭐ 高评分": 5,
+        "💰 高利润": 8,
+        "❓ 品类存疑": -5,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-19",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "google_trends",
+        "multi_source",
+        "temu_trending",
+        "keyword_search",
+        "etsy_trending",
+        "tiktok_verified"
+      ]
+    },
+    {
+      "asin": "B0DK5GY9SW",
+      "name": "ZEYIYER 3 Pack Vegetable Bags Cotton Drawstring Bag, 35 x 28 cm Big Mesh Produce Bags for Vegetables Fruit, Reusable Pro",
+      "price": 8.59,
+      "reviews": 15,
+      "rating": 4.8,
+      "rank": 12,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "15 reviews, 4.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DK5GY9SW",
+      "image_url": "https://m.media-amazon.com/images/I/81EaBIxwQlL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "reusable produce bags, cotton produce bags, mesh produce bags, reusable vegetable bags, fruit bags, eco friendly grocery bags, zero waste bags, organic cotton bags, drawstring produce bags, reusable shopping bags, veggie bags, farmers market bags, plastic free produce bags, lunch bags, snack bags",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势",
+        "Reddit需求",
+        "Etsy趋势",
+        "Temu热销"
+      ],
+      "profit_margin": 0.3,
+      "net_profit": 2.58,
+      "cost_breakdown": {
+        "vat": 1.43,
+        "commission": 1.29,
+        "fba": 1.46,
+        "ads": 0.86,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 6.01
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy",
+        "Reddit"
+      ],
+      "internal_sources": [],
+      "score": 120,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "💬 Reddit": 5,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "📈 趋势(eco)": 8,
+        "🌊 蓝海": 15,
+        "⭐ 高评分": 5,
+        "💰 高利润": 8,
+        "❓ 品类存疑": -5,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-19",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "multi_source",
+        "temu_trending",
+        "keyword_search",
+        "etsy_trending",
+        "tiktok_verified"
+      ]
+    },
+    {
+      "asin": "B0DXQ2GX89",
+      "name": "CABAX Cotton Mesh Produce Bags, Reusable Grocery Fruit Food Bags, Net String Shopping Tote Bag, Pack of 2",
+      "price": 12.91,
+      "reviews": 24,
+      "rating": 4.4,
+      "rank": 43,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "24 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DXQ2GX89",
+      "image_url": "https://m.media-amazon.com/images/I/71G6lyhlCFL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "reusable produce bags, cotton produce bags, mesh produce bags, reusable vegetable bags, fruit bags, eco friendly grocery bags, zero waste bags, organic cotton bags, drawstring produce bags, reusable shopping bags, veggie bags, farmers market bags, plastic free produce bags, lunch bags, snack bags",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势",
+        "Etsy趋势",
+        "Temu热销"
+      ],
+      "profit_margin": 0.388,
+      "net_profit": 5.01,
+      "cost_breakdown": {
+        "vat": 2.16,
+        "commission": 1.94,
+        "fba": 1.46,
+        "ads": 1.29,
+        "returns": 0.26,
+        "sourcing": 0.8,
+        "total_cost": 7.9
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 109,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "📈 趋势(eco)": 8,
+        "🟢 低竞争": 10,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-19",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "multi_source",
+        "temu_trending",
+        "keyword_search",
+        "etsy_trending",
+        "tiktok_verified"
+      ]
+    },
+    {
+      "asin": "B0CFQQKCP4",
+      "name": "CABAX Cotton Mesh Produce Bags, Reusable Grocery Fruit Food Bags, Net String Shopping Tote Bag, Pack of 1",
+      "price": 12.11,
+      "reviews": 29,
+      "rating": 4.2,
+      "rank": 45,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "29 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CFQQKCP4",
+      "image_url": "https://m.media-amazon.com/images/I/61+9sI+hwHL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "reusable produce bags, cotton produce bags, mesh produce bags, reusable vegetable bags, fruit bags, eco friendly grocery bags, zero waste bags, organic cotton bags, drawstring produce bags, reusable shopping bags, veggie bags, farmers market bags, plastic free produce bags, lunch bags, snack bags",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势",
+        "Etsy趋势",
+        "Temu热销"
+      ],
+      "profit_margin": 0.376,
+      "net_profit": 4.56,
+      "cost_breakdown": {
+        "vat": 2.02,
+        "commission": 1.82,
+        "fba": 1.46,
+        "ads": 1.21,
+        "returns": 0.24,
+        "sourcing": 0.8,
+        "total_cost": 7.55
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 109,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "📈 趋势(eco)": 8,
+        "🟢 低竞争": 10,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-19",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "multi_source",
+        "temu_trending",
+        "keyword_search",
+        "etsy_trending",
+        "tiktok_verified"
+      ]
+    },
+    {
+      "asin": "B0D4B7WVX1",
+      "name": "Personalised Teacher Colourful Pattern 10oz Mug Cup Name Custom",
+      "price": 12.99,
+      "reviews": 10,
+      "rating": 4.5,
+      "rank": 13,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "10 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0D4B7WVX1",
+      "image_url": "https://m.media-amazon.com/images/I/61qfH73SOxL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "teacher mug",
+      "festival_event": "世界教师日",
+      "festival_icon": "🍎",
+      "festival_deadline": "2026-08-19",
+      "is_event": false,
+      "sources": [
+        "📅 世界教师日",
+        "TikTok趋势"
+      ],
+      "profit_margin": 0.389,
+      "net_profit": 5.05,
+      "cost_breakdown": {
+        "vat": 2.17,
+        "commission": 1.95,
+        "fba": 1.46,
+        "ads": 1.3,
+        "returns": 0.26,
+        "sourcing": 0.8,
+        "total_cost": 7.94
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "weak",
+      "signal_label": "🟡 弱信号",
+      "external_sources": [
+        "TikTok"
+      ],
+      "internal_sources": [],
+      "score": 92,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🔥 多源热门(kitchen)": 23,
+        "🌊 蓝海": 15,
+        "⭐ 高评分": 5,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 4,
+      "is_new": true,
+      "first_seen": "2026-08-19",
+      "is_multi": true,
+      "channel_tags": [
+        "keyword_search",
+        "multi_source",
+        "tiktok_verified"
+      ]
+    },
+    {
+      "asin": "B0H4VBMM7N",
+      "name": "JADUFHU 2 Pcs Sliding Door Latch, 90/180° Rotatable Flip Lock, Black | Aluminum, with Screws, Easy Mount Safety Lock for",
+      "price": 10.99,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 5,
+      "category": "DIY",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H4VBMM7N",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/61pm4WhFchL._AC_UL300_SR300,200_.jpg",
+      "profit_margin": 0.357,
+      "net_profit": 3.93,
+      "cost_breakdown": {
+        "vat": 1.84,
+        "commission": 1.65,
+        "fba": 1.46,
+        "ads": 1.1,
+        "returns": 0.22,
+        "sourcing": 0.8,
+        "total_cost": 7.06
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 仅Amazon",
+      "external_sources": [],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 21,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "⚪ 仅Amazon": -10,
+        "⏳ 待验证": -8,
+        "💰 超高利润": 12,
+        "📉 无需求信号": -15,
+        "⚠️ 未验证": -8
+      },
+      "stars": 1,
+      "is_new": false,
+      "first_seen": "2026-08-17",
+      "is_event": false,
+      "channel_tags": [
+        "new_releases"
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "keyword": "garden",
+      "category": "garden",
+      "heat": 100,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "flower",
+        "plant",
+        "bbq",
+        "outdoor",
+        "bird"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "flower",
+        "plant pot",
+        "plant stand",
+        "plant hanger",
+        "outdoor",
+        "bird feeder",
+        "bird bath",
+        "bird house"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=flower",
+      "url_google": "https://trends.google.com/trends/explore?q=flower&geo=GB"
+    },
+    {
+      "keyword": "storage",
+      "category": "storage",
+      "heat": 93,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "box",
+        "container",
+        "storage",
+        "basket",
+        "drawer"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "container",
+        "food storage",
+        "kitchen storage",
+        "container set",
+        "basket",
+        "drawer",
+        "floating shelf",
+        "wall shelf"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 93,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=container",
+      "url_google": "https://trends.google.com/trends/explore?q=container&geo=GB"
+    },
+    {
+      "keyword": "crafts",
+      "category": "crafts",
+      "heat": 93,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "tape",
+        "craft",
+        "paint",
+        "brush",
+        "stickers"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "washi tape",
+        "decorative tape",
+        "masking tape",
+        "craft knife",
+        "craft supplies",
+        "DIY craft kit",
+        "acrylic paint set",
+        "paint brush set"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 93,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=washi+tape",
+      "url_google": "https://trends.google.com/trends/explore?q=washi+tape&geo=GB"
+    },
+    {
+      "keyword": "phone",
+      "category": "phone",
+      "heat": 100,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "stand",
+        "holder",
+        "phone",
+        "cable",
+        "charger"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "stand",
+        "holder",
+        "phone case",
+        "phone holder",
+        "phone stand",
+        "charging cable",
+        "USB cable",
+        "phone cable"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=stand",
+      "url_google": "https://trends.google.com/trends/explore?q=stand&geo=GB"
+    },
+    {
+      "keyword": "home decor",
+      "category": "home decor",
+      "heat": 88,
+      "score": 74,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "wall art",
+        "clock",
+        "candle",
+        "vase",
+        "mirror"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "wall art print",
+        "wall hanging",
+        "wall decal",
+        "wall clock",
+        "desk clock",
+        "digital clock",
+        "candle holder",
+        "scented candle"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 88,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=wall+art+print",
+      "url_google": "https://trends.google.com/trends/explore?q=wall+art+print&geo=GB"
+    },
+    {
+      "keyword": "office",
+      "category": "office",
+      "heat": 78,
+      "score": 71,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "pen",
+        "laptop",
+        "office",
+        "notebook",
+        "desk"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "pen holder",
+        "pen set",
+        "fountain pen",
+        "laptop stand",
+        "laptop sleeve",
+        "laptop cooler",
+        "office supplies",
+        "desk organizer"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 78,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=pen+holder",
+      "url_google": "https://trends.google.com/trends/explore?q=pen+holder&geo=GB"
+    },
+    {
+      "keyword": "bathroom",
+      "category": "bathroom",
+      "heat": 74,
+      "score": 69,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "towel",
+        "bath",
+        "soap",
+        "toilet",
+        "shower"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "towel rail",
+        "towel rack",
+        "towel hook",
+        "bath mat",
+        "bath caddy",
+        "bath pillow",
+        "soap dispenser",
+        "soap dish"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 74,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=towel+rail",
+      "url_google": "https://trends.google.com/trends/explore?q=towel+rail&geo=GB"
+    },
+    {
+      "keyword": "beauty",
+      "category": "beauty",
+      "heat": 74,
+      "score": 69,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "hair",
+        "makeup",
+        "nail",
+        "brush",
+        "skincare"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "hair clip",
+        "hair accessories",
+        "hair band",
+        "hair tie",
+        "makeup brush set",
+        "makeup bag",
+        "makeup organizer",
+        "nail art kit"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 74,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=hair+clip",
+      "url_google": "https://trends.google.com/trends/explore?q=hair+clip&geo=GB"
+    },
+    {
+      "keyword": "seasonal",
+      "category": "seasonal",
+      "heat": 66,
+      "score": 67,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "christmas",
+        "valentine",
+        "birthday",
+        "easter",
+        "halloween"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "christmas decoration",
+        "christmas gift",
+        "christmas stocking",
+        "valentine gift",
+        "valentine card",
+        "birthday gift",
+        "birthday decoration",
+        "birthday card"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 66,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=christmas+decoration",
+      "url_google": "https://trends.google.com/trends/explore?q=christmas+decoration&geo=GB"
+    },
+    {
+      "keyword": "baby",
+      "category": "baby",
+      "heat": 64,
+      "score": 66,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "baby",
+        "toddler",
+        "child",
+        "nursery",
+        "kids"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "baby",
+        "toddler",
+        "child",
+        "nursery",
+        "kids"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 64,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=baby",
+      "url_google": "https://trends.google.com/trends/explore?q=baby&geo=GB"
+    },
+    {
+      "keyword": "eco",
+      "category": "eco",
+      "heat": 61,
+      "score": 65,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "sustainable",
+        "reusable",
+        "bamboo",
+        "organic",
+        "eco"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "sustainable products",
+        "eco friendly",
+        "reusable food wrap",
+        "reusable straws",
+        "reusable bags",
+        "bamboo cutlery",
+        "bamboo toothbrush",
+        "bamboo organizer"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 61,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=sustainable+products",
+      "url_google": "https://trends.google.com/trends/explore?q=sustainable+products&geo=GB"
+    },
+    {
+      "keyword": "cleaning",
+      "category": "cleaning",
+      "heat": 54,
+      "score": 63,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "vacuum",
+        "duster",
+        "cleaning",
+        "brush",
+        "mop"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "vacuum",
+        "duster",
+        "cleaning",
+        "brush",
+        "cleaner"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 54,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=vacuum",
+      "url_google": "https://trends.google.com/trends/explore?q=vacuum&geo=GB"
+    },
+    {
+      "keyword": "bedding",
+      "category": "bedding",
+      "heat": 54,
+      "score": 63,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "blanket",
+        "bedding",
+        "pillow",
+        "cushion",
+        "sheet"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "blanket",
+        "bedding",
+        "pillow",
+        "cushion",
+        "sheet",
+        "throw"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 54,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=blanket",
+      "url_google": "https://trends.google.com/trends/explore?q=blanket&geo=GB"
+    },
+    {
+      "keyword": "travel",
+      "category": "travel",
+      "heat": 54,
+      "score": 63,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "toiletry",
+        "travel",
+        "neck pillow",
+        "passport",
+        "luggage"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "toiletry",
+        "travel",
+        "neck pillow",
+        "passport",
+        "luggage"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 54,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=toiletry",
+      "url_google": "https://trends.google.com/trends/explore?q=toiletry&geo=GB"
+    },
+    {
+      "keyword": "car",
+      "category": "car",
+      "heat": 49,
+      "score": 61,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "motor",
+        "dashboard",
+        "car"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "motorcycle accessories",
+        "motorcycle cover",
+        "dashboard",
+        "car accessories",
+        "car organizer",
+        "car phone holder"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 49,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=motorcycle+accessories",
+      "url_google": "https://trends.google.com/trends/explore?q=motorcycle+accessories&geo=GB"
+    },
+    {
+      "keyword": "kitchen",
+      "category": "kitchen",
+      "heat": 83,
+      "score": 52,
+      "gap_level": "weak",
+      "amazon_count": 7,
+      "amazon_reviews": 302807,
+      "evidence": [
+        "spice",
+        "baking",
+        "mug",
+        "gadget",
+        "cup"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "spice rack",
+        "spice jar set",
+        "spice organizer",
+        "baking set",
+        "baking tray",
+        "cake mould",
+        "gadget",
+        "utensil"
+      ],
+      "sd_info": {
+        "ratio": 6.6,
+        "demand": 83,
+        "supply": 302807,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=spice+rack",
+      "url_google": "https://trends.google.com/trends/explore?q=spice+rack&geo=GB"
+    }
+  ],
+  "trend_summary": {
+    "top_categories": [
+      [
+        "garden",
+        100
+      ],
+      [
+        "pets",
+        100
+      ],
+      [
+        "phone",
+        100
+      ],
+      [
+        "lighting",
+        95
+      ],
+      [
+        "storage",
+        93
+      ],
+      [
+        "crafts",
+        93
+      ]
+    ],
+    "cross_validated": [
+      "kitchen",
+      "garden",
+      "bathroom",
+      "cleaning",
+      "car",
+      "office",
+      "storage",
+      "lighting",
+      "pets",
+      "sports",
+      "crafts",
+      "bedding",
+      "travel",
+      "phone",
+      "beauty",
+      "eco",
+      "seasonal",
+      "home decor",
+      "baby"
+    ],
+    "demand_keywords": [
+      "** not",
+      ", as they're now being called online. that's",
+      "6+ styles",
+      "active demand",
+      "add to cart",
+      "all generate real",
+      "always search with",
+      "among men",
+      "an adorable",
+      "and a set of gorgeous"
+    ],
+    "season": "summer",
+    "sources_scanned": [
+      "tiktok",
+      "temu",
+      "etsy",
+      "market_intel"
+    ]
+  }
+}
