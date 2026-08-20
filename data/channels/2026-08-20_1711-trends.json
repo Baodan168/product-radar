@@ -1,0 +1,277 @@
+{
+  "category_scores": {
+    "kitchen": 97,
+    "car": 60,
+    "office": 100,
+    "storage": 51,
+    "lighting": 100,
+    "pets": 100,
+    "sports": 9,
+    "crafts": 100,
+    "phone": 100,
+    "beauty": 83,
+    "home decor": 88,
+    "eco": 60,
+    "seasonal": 70,
+    "garden": 83,
+    "cleaning": 32,
+    "bedding": 5,
+    "baby": 38,
+    "travel": 9,
+    "kitchen_gadgets": 9,
+    "bathroom": 33
+  },
+  "category_evidence": {
+    "kitchen": [
+      "cup",
+      "organiser",
+      "gadget",
+      "mug",
+      "baking",
+      "kitchen"
+    ],
+    "car": [
+      "dashboard",
+      "organiser",
+      "car",
+      "automotive"
+    ],
+    "office": [
+      "organiser",
+      "desk",
+      "stationery",
+      "office",
+      "laptop",
+      "pen"
+    ],
+    "storage": [
+      "organiser",
+      "box",
+      "basket",
+      "container",
+      "shelf",
+      "storage"
+    ],
+    "lighting": [
+      "led",
+      "night light",
+      "light",
+      "lamp",
+      "strip"
+    ],
+    "pets": [
+      "toy",
+      "pet",
+      "collar",
+      "bed",
+      "cat",
+      "dog"
+    ],
+    "sports": [
+      "sport"
+    ],
+    "crafts": [
+      "craft",
+      "brush",
+      "paint",
+      "art"
+    ],
+    "phone": [
+      "earbuds",
+      "cable",
+      "charger",
+      "phone",
+      "stand",
+      "holder",
+      "case"
+    ],
+    "beauty": [
+      "organiser",
+      "brush",
+      "skincare",
+      "hair",
+      "makeup"
+    ],
+    "home decor": [
+      "candle",
+      "wall art",
+      "vase",
+      "decor",
+      "frame"
+    ],
+    "eco": [
+      "eco",
+      "sustainable"
+    ],
+    "seasonal": [
+      "halloween",
+      "gift",
+      "christmas",
+      "birthday",
+      "valentine"
+    ],
+    "garden": [
+      "outdoor",
+      "flower",
+      "patio",
+      "garden",
+      "bird",
+      "plant"
+    ],
+    "cleaning": [
+      "cleaner",
+      "cleaning",
+      "brush",
+      "vacuum"
+    ],
+    "bedding": [
+      "sheet"
+    ],
+    "baby": [
+      "baby",
+      "nursery",
+      "kids"
+    ],
+    "travel": [
+      "travel"
+    ],
+    "kitchen_gadgets": [
+      "kitchen gadget"
+    ],
+    "bathroom": [
+      "shower",
+      "toilet",
+      "bath"
+    ]
+  },
+  "source_signals": {
+    "tiktok": {
+      "kitchen": 2,
+      "car": 2,
+      "office": 7,
+      "storage": 1,
+      "lighting": 3,
+      "pets": 7,
+      "sports": 1,
+      "crafts": 5,
+      "phone": 4,
+      "beauty": 6,
+      "home decor": 1,
+      "eco": 3,
+      "seasonal": 2,
+      "garden": 3,
+      "cleaning": 1,
+      "bedding": 1,
+      "baby": 1
+    },
+    "temu": {
+      "kitchen": 7,
+      "garden": 2,
+      "cleaning": 6,
+      "car": 4,
+      "office": 4,
+      "lighting": 8,
+      "pets": 9,
+      "crafts": 6,
+      "travel": 1,
+      "phone": 10,
+      "beauty": 5,
+      "home decor": 3,
+      "eco": 3,
+      "seasonal": 2,
+      "storage": 1,
+      "baby": 1,
+      "kitchen_gadgets": 1,
+      "bathroom": 1
+    },
+    "etsy": {
+      "kitchen": 6,
+      "garden": 6,
+      "bathroom": 2,
+      "office": 6,
+      "lighting": 6,
+      "pets": 4,
+      "crafts": 7,
+      "phone": 3,
+      "home decor": 10,
+      "baby": 1,
+      "eco": 3,
+      "seasonal": 6,
+      "car": 2,
+      "storage": 5,
+      "travel": 1,
+      "beauty": 2
+    },
+    "market_intel": {
+      "kitchen": 3,
+      "garden": 1,
+      "bathroom": 1,
+      "car": 2,
+      "office": 2,
+      "storage": 1,
+      "lighting": 2,
+      "pets": 2,
+      "sports": 1,
+      "crafts": 1,
+      "phone": 3,
+      "beauty": 2,
+      "home decor": 2,
+      "baby": 2,
+      "kitchen_gadgets": 1,
+      "eco": 1,
+      "seasonal": 2
+    }
+  },
+  "cross_validated": {
+    "kitchen": 4,
+    "car": 4,
+    "office": 4,
+    "storage": 4,
+    "lighting": 4,
+    "pets": 4,
+    "crafts": 4,
+    "phone": 4,
+    "beauty": 4,
+    "home decor": 4,
+    "eco": 4,
+    "seasonal": 4,
+    "garden": 4,
+    "baby": 4,
+    "bathroom": 3
+  },
+  "demand_keywords": [
+    "5-star rated",
+    "aesthetic desk setup",
+    "aquabrush,",
+    "best seller",
+    "best sellers",
+    "choosing the right products to",
+    "cleantok",
+    "coastal whimsy",
+    "convenience and",
+    "cool gadgets",
+    "cool stuff gadgets",
+    "finished the laundry",
+    "for fashion accessories sellers on",
+    "from viral beauty products and",
+    "get ready with me",
+    "gifts for",
+    "home and living follow closely",
+    "in the consignment model",
+    "instant transformation",
+    "k-beauty",
+    "lifestyle problem-solvers.",
+    "looks useless until...",
+    "made me buy it",
+    "problem-solving",
+    "stay ahead with insights into",
+    "temu handles customer service",
+    "the findings are based on",
+    "the findings highlight a market",
+    "the most trending",
+    "the satisfying"
+  ],
+  "season": "summer",
+  "total_queries": 10,
+  "total_results_chars": 84404
+}

@@ -1,0 +1,1269 @@
+{
+  "scan_date": "2026-08-20",
+  "scan_time": "17:11",
+  "scan_ts": "2026-08-20_1711",
+  "stats": {
+    "total_scanned": 138,
+    "passed_filter": 6,
+    "rejected": 131,
+    "channels": {
+      "new_releases": 3,
+      "multi_source": 6,
+      "temu_trending": 5,
+      "etsy_trending": 5,
+      "tiktok_verified": 6,
+      "google_trends": 1,
+      "keyword_search": 3
+    },
+    "detail_reject": {},
+    "theme_trimmed": [
+      {
+        "asin": "B0H49NDXCV",
+        "name": "Bobode Cute Travel Sewing Kit for Adults,Beginners and Emergency | Printing Floral Cottagecore Sewing Kit Basic Professi"
+      }
+    ],
+    "trend_categories": {
+      "office": 100,
+      "lighting": 100,
+      "pets": 100,
+      "crafts": 100,
+      "phone": 100,
+      "kitchen": 97
+    },
+    "supply_demand": {
+      "kitchen": {
+        "ratio": 8.8,
+        "demand": 97,
+        "supply": 58471,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "pets": {
+        "ratio": 7.2,
+        "demand": 100,
+        "supply": 1035079,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "kitchen_gadgets": {
+        "ratio": 0.8,
+        "demand": 9,
+        "supply": 58471,
+        "label": "🔴 红海",
+        "level": "red_ocean"
+      },
+      "sports": {
+        "ratio": 0.7,
+        "demand": 9,
+        "supply": 264296,
+        "label": "🔴 红海",
+        "level": "red_ocean"
+      },
+      "car": {
+        "ratio": 0,
+        "demand": 60,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "office": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "storage": {
+        "ratio": 0,
+        "demand": 51,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "lighting": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      }
+    },
+    "divergences": {
+      "kitchen": {
+        "current_heat": 89,
+        "previous_heat": 87,
+        "heat_change_pct": 2.3,
+        "direction": "stable",
+        "dates": [
+          "2026-08-19_1711",
+          "2026-08-20_0850"
+        ]
+      },
+      "garden": {
+        "current_heat": 95,
+        "previous_heat": 93,
+        "heat_change_pct": 2.2,
+        "direction": "stable",
+        "dates": [
+          "2026-08-19_1711",
+          "2026-08-20_0850"
+        ]
+      },
+      "bathroom": {
+        "current_heat": 49,
+        "previous_heat": 62,
+        "heat_change_pct": -21.0,
+        "direction": "falling",
+        "dates": [
+          "2026-08-19_1711",
+          "2026-08-20_0850"
+        ]
+      },
+      "cleaning": {
+        "current_heat": 57,
+        "previous_heat": 46,
+        "heat_change_pct": 23.9,
+        "direction": "stable",
+        "dates": [
+          "2026-08-19_1711",
+          "2026-08-20_0850"
+        ]
+      },
+      "car": {
+        "current_heat": 66,
+        "previous_heat": 57,
+        "heat_change_pct": 15.8,
+        "direction": "stable",
+        "dates": [
+          "2026-08-19_1711",
+          "2026-08-20_0850"
+        ]
+      },
+      "office": {
+        "current_heat": 98,
+        "previous_heat": 90,
+        "heat_change_pct": 8.9,
+        "direction": "stable",
+        "dates": [
+          "2026-08-19_1711",
+          "2026-08-20_0850"
+        ]
+      },
+      "storage": {
+        "current_heat": 78,
+        "previous_heat": 71,
+        "heat_change_pct": 9.9,
+        "direction": "stable",
+        "dates": [
+          "2026-08-19_1711",
+          "2026-08-20_0850"
+        ]
+      },
+      "lighting": {
+        "current_heat": 95,
+        "previous_heat": 98,
+        "heat_change_pct": -3.1,
+        "direction": "stable",
+        "dates": [
+          "2026-08-19_1711",
+          "2026-08-20_0850"
+        ]
+      },
+      "pets": {
+        "current_heat": 100,
+        "previous_heat": 100,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-19_1711",
+          "2026-08-20_0850"
+        ]
+      },
+      "sports": {
+        "current_heat": 58,
+        "previous_heat": 76,
+        "heat_change_pct": -23.7,
+        "direction": "falling",
+        "dates": [
+          "2026-08-19_1711",
+          "2026-08-20_0850"
+        ]
+      },
+      "crafts": {
+        "current_heat": 92,
+        "previous_heat": 93,
+        "heat_change_pct": -1.1,
+        "direction": "stable",
+        "dates": [
+          "2026-08-19_1711",
+          "2026-08-20_0850"
+        ]
+      },
+      "bedding": {
+        "current_heat": 49,
+        "previous_heat": 37,
+        "heat_change_pct": 32.4,
+        "direction": "rising",
+        "dates": [
+          "2026-08-19_1711",
+          "2026-08-20_0850"
+        ]
+      },
+      "travel": {
+        "current_heat": 52,
+        "previous_heat": 51,
+        "heat_change_pct": 2.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-19_1711",
+          "2026-08-20_0850"
+        ]
+      },
+      "phone": {
+        "current_heat": 92,
+        "previous_heat": 100,
+        "heat_change_pct": -8.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-19_1711",
+          "2026-08-20_0850"
+        ]
+      },
+      "beauty": {
+        "current_heat": 86,
+        "previous_heat": 71,
+        "heat_change_pct": 21.1,
+        "direction": "stable",
+        "dates": [
+          "2026-08-19_1711",
+          "2026-08-20_0850"
+        ]
+      },
+      "home decor": {
+        "current_heat": 89,
+        "previous_heat": 93,
+        "heat_change_pct": -4.3,
+        "direction": "stable",
+        "dates": [
+          "2026-08-19_1711",
+          "2026-08-20_0850"
+        ]
+      },
+      "baby": {
+        "current_heat": 58,
+        "previous_heat": 62,
+        "heat_change_pct": -6.5,
+        "direction": "stable",
+        "dates": [
+          "2026-08-19_1711",
+          "2026-08-20_0850"
+        ]
+      },
+      "kitchen_gadgets": {
+        "current_heat": 32,
+        "previous_heat": 26,
+        "heat_change_pct": 23.1,
+        "direction": "stable",
+        "dates": [
+          "2026-08-19_1711",
+          "2026-08-20_0850"
+        ]
+      },
+      "eco": {
+        "current_heat": 69,
+        "previous_heat": 65,
+        "heat_change_pct": 6.2,
+        "direction": "stable",
+        "dates": [
+          "2026-08-19_1711",
+          "2026-08-20_0850"
+        ]
+      },
+      "seasonal": {
+        "current_heat": 84,
+        "previous_heat": 79,
+        "heat_change_pct": 6.3,
+        "direction": "stable",
+        "dates": [
+          "2026-08-19_1711",
+          "2026-08-20_0850"
+        ]
+      }
+    },
+    "gap_opportunities": 12
+  },
+  "products": [
+    {
+      "asin": "B0H1HBZ8S4",
+      "name": "Bird Bath Copper Tray, 99.99% Pure Copper Bird Bath Purification Disk 0.8mm Thick with Stable 3-Point Support, Suitable ",
+      "price": 8.5,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 1,
+      "category": "Pets",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H1HBZ8S4",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71OnZpbAzjL._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "TikTok趋势",
+        "Etsy趋势",
+        "Temu热销"
+      ],
+      "profit_margin": 0.397,
+      "net_profit": 3.38,
+      "cost_breakdown": {
+        "vat": 1.42,
+        "commission": 0.43,
+        "fba": 1.46,
+        "ads": 0.85,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 5.12
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 7.2,
+        "demand": 100,
+        "supply": 1035079,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 153,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(pets)": 23,
+        "⏳ 待验证": -8,
+        "💰 超高利润": 12,
+        "🌊 深蓝海": 20,
+        "⚠️ 未验证": -8,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-20",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "new_releases",
+        "multi_source",
+        "temu_trending",
+        "etsy_trending",
+        "tiktok_verified"
+      ]
+    },
+    {
+      "asin": "B0HBP5SSKT",
+      "name": "Ground Bird Feeder Weatherproof Small Round Birding Tool | Garden Bird Feeder for Watching Viewing Feeding Round Food Wa",
+      "price": 9.43,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 11,
+      "category": "Pets",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HBP5SSKT",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71CkrT8JTVL._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "TikTok趋势",
+        "Etsy趋势",
+        "Temu热销"
+      ],
+      "profit_margin": 0.423,
+      "net_profit": 3.99,
+      "cost_breakdown": {
+        "vat": 1.57,
+        "commission": 0.47,
+        "fba": 1.46,
+        "ads": 0.94,
+        "returns": 0.19,
+        "sourcing": 0.8,
+        "total_cost": 5.44
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 7.2,
+        "demand": 100,
+        "supply": 1035079,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 153,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(pets)": 23,
+        "⏳ 待验证": -8,
+        "💰 超高利润": 12,
+        "🌴 当季(summer)": 10,
+        "🌊 深蓝海": 20,
+        "⚠️ 未验证": -8
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-08-14",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "new_releases",
+        "multi_source",
+        "temu_trending",
+        "etsy_trending",
+        "tiktok_verified"
+      ]
+    },
+    {
+      "asin": "B0H3NZ7QWD",
+      "name": "fjaldjfu Pet Cooling Mat, 2026 New Summer Multiple Specifications Cooling Mat for Dogs, reusable Durable Cat Cool Blanke",
+      "price": 8.99,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 6,
+      "category": "Pets",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H3NZ7QWD",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71FHPSv+J3L._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "TikTok趋势",
+        "Google趋势",
+        "Reddit需求"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.412,
+      "net_profit": 3.7,
+      "cost_breakdown": {
+        "vat": 1.5,
+        "commission": 0.45,
+        "fba": 1.46,
+        "ads": 0.9,
+        "returns": 0.18,
+        "sourcing": 0.8,
+        "total_cost": 5.29
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 7.2,
+        "demand": 100,
+        "supply": 1035079,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Reddit"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 149,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "💬 Reddit": 5,
+        "🔴 强信号": 20,
+        "🔥 多源热门(pets)": 23,
+        "⏳ 待验证": -8,
+        "💰 超高利润": 12,
+        "🌊 深蓝海": 20,
+        "⚠️ 未验证": -8
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-08-18",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "multi_source",
+        "new_releases",
+        "google_trends",
+        "tiktok_verified"
+      ]
+    },
+    {
+      "asin": "B0DMM4GVJY",
+      "name": "Travel Small Portable Sewing Kit in Stylish Case – Basic Sewing Accessories with Scissors, Needle and Thread Kit for Hom",
+      "price": 9.58,
+      "reviews": 12,
+      "rating": 3.9,
+      "rank": 45,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "12 reviews, 3.9★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DMM4GVJY",
+      "image_url": "https://m.media-amazon.com/images/I/71TC9dRiJpL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "sewing kit, mini sewing kit, travel sewing kit, compact sewing kit, emergency sewing kit, sewing supplies, needle and thread kit, portable sewing kit, small sewing kit, sewing kit for travel, sewing kit for beginners, dorm sewing kit, student sewing kit, sewing repair kit, hand sewing kit, sewing accessories, sewing tools, sewing kit for women, sewing kit for men, sewing kit small",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势",
+        "Etsy趋势",
+        "Temu热销"
+      ],
+      "profit_margin": 0.327,
+      "net_profit": 3.13,
+      "cost_breakdown": {
+        "vat": 1.6,
+        "commission": 1.44,
+        "fba": 1.46,
+        "ads": 0.96,
+        "returns": 0.19,
+        "sourcing": 0.8,
+        "total_cost": 6.45
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 137,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(phone)": 23,
+        "🌊 蓝海": 15,
+        "💰 高利润": 8,
+        "❓ 品类存疑": -5,
+        "🌴 当季(summer)": 10,
+        "⚠️ 未验证": -8,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-20",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "keyword_search",
+        "multi_source",
+        "temu_trending",
+        "etsy_trending",
+        "tiktok_verified"
+      ]
+    },
+    {
+      "asin": "B0CKTQCTJH",
+      "name": "Small Sewing kit Travel Size, Mini Sewing Kits Storage-Box Gifts for Adults, Beginners DIY Easy Embroidery Thread Needle",
+      "price": 7.79,
+      "reviews": 99,
+      "rating": 4.4,
+      "rank": 34,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "99 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CKTQCTJH",
+      "image_url": "https://m.media-amazon.com/images/I/411NtREJWnL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "sewing kit, mini sewing kit, travel sewing kit, compact sewing kit, emergency sewing kit, sewing supplies, needle and thread kit, portable sewing kit, small sewing kit, sewing kit for travel, sewing kit for beginners, dorm sewing kit, student sewing kit, sewing repair kit, hand sewing kit, sewing accessories, sewing tools, sewing kit for women, sewing kit for men, sewing kit small",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势",
+        "Etsy趋势",
+        "Temu热销"
+      ],
+      "profit_margin": 0.273,
+      "net_profit": 2.13,
+      "cost_breakdown": {
+        "vat": 1.3,
+        "commission": 1.17,
+        "fba": 1.46,
+        "ads": 0.78,
+        "returns": 0.16,
+        "sourcing": 0.8,
+        "total_cost": 5.66
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 114,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "📈 趋势(storage)": 8,
+        "✨ 热词": 6,
+        "🟡 中等竞争": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "🌴 当季(summer)": 10,
+        "⚠️ 未验证": -8,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-20",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "keyword_search",
+        "multi_source",
+        "temu_trending",
+        "etsy_trending",
+        "tiktok_verified"
+      ]
+    },
+    {
+      "asin": "B0C88NNBQV",
+      "name": "Sewing Kit for Adults Needle and Thread Kit for Sewing with Leaf Zipper Case 18 Color Threads Portable Basic Hand Sewing",
+      "price": 6.66,
+      "reviews": 64,
+      "rating": 4.4,
+      "rank": 17,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "64 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0C88NNBQV",
+      "image_url": "https://m.media-amazon.com/images/I/81N+8ba-DgL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "sewing kit, mini sewing kit, travel sewing kit, compact sewing kit, emergency sewing kit, sewing supplies, needle and thread kit, portable sewing kit, small sewing kit, sewing kit for travel, sewing kit for beginners, dorm sewing kit, student sewing kit, sewing repair kit, hand sewing kit, sewing accessories, sewing tools, sewing kit for women, sewing kit for men, sewing kit small",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势",
+        "Etsy趋势",
+        "Temu热销"
+      ],
+      "profit_margin": 0.224,
+      "net_profit": 1.49,
+      "cost_breakdown": {
+        "vat": 1.11,
+        "commission": 1.0,
+        "fba": 1.46,
+        "ads": 0.67,
+        "returns": 0.13,
+        "sourcing": 0.8,
+        "total_cost": 5.17
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 99,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(phone)": 23,
+        "🟡 中等竞争": 5,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8
+      },
+      "stars": 4,
+      "is_new": false,
+      "first_seen": "2026-08-20",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "keyword_search",
+        "multi_source",
+        "temu_trending",
+        "etsy_trending",
+        "tiktok_verified"
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "keyword": "office",
+      "category": "office",
+      "heat": 100,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "organiser",
+        "desk",
+        "stationery",
+        "office",
+        "laptop"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "organiser",
+        "desk organizer",
+        "desk lamp",
+        "desk mat",
+        "stationery set",
+        "notebook",
+        "pen set",
+        "office supplies"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=organiser",
+      "url_google": "https://trends.google.com/trends/explore?q=organiser&geo=GB"
+    },
+    {
+      "keyword": "lighting",
+      "category": "lighting",
+      "heat": 100,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "led",
+        "night light",
+        "light",
+        "lamp",
+        "strip"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "LED bulb",
+        "LED light",
+        "LED panel",
+        "night light",
+        "fairy lights",
+        "string lights",
+        "desk lamp",
+        "table lamp"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=LED+bulb",
+      "url_google": "https://trends.google.com/trends/explore?q=LED+bulb&geo=GB"
+    },
+    {
+      "keyword": "crafts",
+      "category": "crafts",
+      "heat": 100,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "craft",
+        "brush",
+        "paint",
+        "art"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "craft knife",
+        "craft supplies",
+        "DIY craft kit",
+        "brush",
+        "acrylic paint set",
+        "paint brush set",
+        "paint by numbers",
+        "art supplies"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=craft+knife",
+      "url_google": "https://trends.google.com/trends/explore?q=craft+knife&geo=GB"
+    },
+    {
+      "keyword": "phone",
+      "category": "phone",
+      "heat": 100,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "earbuds",
+        "cable",
+        "charger",
+        "phone",
+        "stand"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "earbuds case",
+        "wireless earbuds",
+        "charging cable",
+        "USB cable",
+        "phone cable",
+        "phone charger",
+        "wireless charger",
+        "car charger"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=earbuds+case",
+      "url_google": "https://trends.google.com/trends/explore?q=earbuds+case&geo=GB"
+    },
+    {
+      "keyword": "home decor",
+      "category": "home decor",
+      "heat": 88,
+      "score": 74,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "candle",
+        "wall art",
+        "vase",
+        "decor",
+        "frame"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "candle holder",
+        "scented candle",
+        "candle set",
+        "wall art print",
+        "wall hanging",
+        "wall decal",
+        "flower vase",
+        "decorative vase"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 88,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=candle+holder",
+      "url_google": "https://trends.google.com/trends/explore?q=candle+holder&geo=GB"
+    },
+    {
+      "keyword": "beauty",
+      "category": "beauty",
+      "heat": 83,
+      "score": 72,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "organiser",
+        "brush",
+        "skincare",
+        "hair",
+        "makeup"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "organiser",
+        "brush",
+        "face roller",
+        "gua sha",
+        "face mask",
+        "hair clip",
+        "hair accessories",
+        "hair band"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 83,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=organiser",
+      "url_google": "https://trends.google.com/trends/explore?q=organiser&geo=GB"
+    },
+    {
+      "keyword": "garden",
+      "category": "garden",
+      "heat": 83,
+      "score": 72,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "outdoor",
+        "flower",
+        "patio",
+        "garden",
+        "bird"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "outdoor",
+        "flower",
+        "patio",
+        "garden tool set",
+        "garden light",
+        "garden decor",
+        "bird feeder",
+        "bird bath"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 83,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=outdoor",
+      "url_google": "https://trends.google.com/trends/explore?q=outdoor&geo=GB"
+    },
+    {
+      "keyword": "seasonal",
+      "category": "seasonal",
+      "heat": 70,
+      "score": 68,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "halloween",
+        "gift",
+        "christmas",
+        "birthday",
+        "valentine"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "halloween decoration",
+        "halloween costume",
+        "gift ideas",
+        "gift set",
+        "gift box",
+        "christmas decoration",
+        "christmas gift",
+        "christmas stocking"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 70,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=halloween+decoration",
+      "url_google": "https://trends.google.com/trends/explore?q=halloween+decoration&geo=GB"
+    },
+    {
+      "keyword": "car",
+      "category": "car",
+      "heat": 60,
+      "score": 65,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "dashboard",
+        "organiser",
+        "car",
+        "automotive"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "dashboard",
+        "organiser",
+        "car accessories",
+        "car organizer",
+        "car phone holder",
+        "automotive"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 60,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=dashboard",
+      "url_google": "https://trends.google.com/trends/explore?q=dashboard&geo=GB"
+    },
+    {
+      "keyword": "eco",
+      "category": "eco",
+      "heat": 60,
+      "score": 65,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "eco",
+        "sustainable"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "eco products",
+        "reusable bag",
+        "bamboo products",
+        "sustainable products",
+        "eco friendly"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 60,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=eco+products",
+      "url_google": "https://trends.google.com/trends/explore?q=eco+products&geo=GB"
+    },
+    {
+      "keyword": "storage",
+      "category": "storage",
+      "heat": 51,
+      "score": 62,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "organiser",
+        "box",
+        "basket",
+        "container",
+        "shelf"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "organiser",
+        "basket",
+        "container",
+        "floating shelf",
+        "wall shelf",
+        "corner shelf",
+        "food storage",
+        "kitchen storage"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 51,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=organiser",
+      "url_google": "https://trends.google.com/trends/explore?q=organiser&geo=GB"
+    },
+    {
+      "keyword": "kitchen",
+      "category": "kitchen",
+      "heat": 97,
+      "score": 55,
+      "gap_level": "weak",
+      "amazon_count": 5,
+      "amazon_reviews": 58471,
+      "evidence": [
+        "cup",
+        "organiser",
+        "gadget",
+        "mug",
+        "baking"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "organiser",
+        "gadget",
+        "baking set",
+        "baking tray",
+        "cake mould",
+        "kitchen"
+      ],
+      "sd_info": {
+        "ratio": 8.8,
+        "demand": 97,
+        "supply": 58471,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=organiser",
+      "url_google": "https://trends.google.com/trends/explore?q=organiser&geo=GB"
+    }
+  ],
+  "trend_summary": {
+    "top_categories": [
+      [
+        "office",
+        100
+      ],
+      [
+        "lighting",
+        100
+      ],
+      [
+        "pets",
+        100
+      ],
+      [
+        "crafts",
+        100
+      ],
+      [
+        "phone",
+        100
+      ],
+      [
+        "kitchen",
+        97
+      ]
+    ],
+    "cross_validated": [
+      "kitchen",
+      "car",
+      "office",
+      "storage",
+      "lighting",
+      "pets",
+      "crafts",
+      "phone",
+      "beauty",
+      "home decor",
+      "eco",
+      "seasonal",
+      "garden",
+      "baby",
+      "bathroom"
+    ],
+    "demand_keywords": [
+      "5-star rated",
+      "aesthetic desk setup",
+      "aquabrush,",
+      "best seller",
+      "best sellers",
+      "choosing the right products to",
+      "cleantok",
+      "coastal whimsy",
+      "convenience and",
+      "cool gadgets"
+    ],
+    "season": "summer",
+    "sources_scanned": [
+      "tiktok",
+      "temu",
+      "etsy",
+      "market_intel"
+    ]
+  }
+}
