@@ -1,0 +1,1834 @@
+{
+  "scan_date": "2026-08-20",
+  "scan_time": "08:50",
+  "scan_ts": "2026-08-20_0850",
+  "stats": {
+    "total_scanned": 148,
+    "passed_filter": 10,
+    "rejected": 129,
+    "channels": {
+      "keyword_search": 9,
+      "etsy_trending": 7,
+      "multi_source": 8,
+      "tiktok_verified": 8,
+      "temu_trending": 7,
+      "google_trends": 1,
+      "new_releases": 1
+    },
+    "detail_reject": {
+      "重量超标": 1
+    },
+    "theme_trimmed": [
+      {
+        "asin": "B0BVR1ZNJW",
+        "name": "Herogo Black Silicone Kitchen Utensil Set for Nonstick Cookware Pan Cooking | 6 Piece Kitchen Tools, Include Spatula Spo"
+      },
+      {
+        "asin": "B0D1G734X8",
+        "name": "Onader Black Kitchen Utensils Set, 6 Pieces Silicone Cooking Utensils | Heat Proof Kitchen Cooking Tools for Non-Stick C"
+      },
+      {
+        "asin": "B0CDFYYW8H",
+        "name": "Kitchen Utensil Set, 12 Piece Silicone Cooking Utensils Heat Resistant Kitchen Tools, Non-Stick Baking Cooking Spoon Too"
+      },
+      {
+        "asin": "B0CF574B7C",
+        "name": "22 Pcs Black Silicon Kitchen Utensils Set with Holder-BPA Free Silicone Cooking Utensils Set for Non-Stick Pans-Heat Res"
+      },
+      {
+        "asin": "B0DCB93J27",
+        "name": "12 Pcs Kitchen Utensil Set, Silicone Cooking Utensils Set with Wooden Handle, Heat Resistant, Nonstick Cookware Tongs Sp"
+      },
+      {
+        "asin": "B0F62FDGSL",
+        "name": "12 Pcs Silicone Cooking Kitchen Utensils Set,Non Stick Silicone Cooking Utensil Set with Holder，Wooden Handle Heat Resis"
+      },
+      {
+        "asin": "B0F218BCG2",
+        "name": "Amazon Basics Silicone Cooking Spoon and Ladle Set, 4-Piece Set, Soft Grip Handle, BPA-Free, Dishwasher-Safe, Linen Gray"
+      },
+      {
+        "asin": "B0CY5M5PW8",
+        "name": "3 Pack Large Silicone Spatula for Kitchen,600°F Heat Resistant Rubber Spatulas for Baking,Cooking, Scraping,and Mixing,N"
+      },
+      {
+        "asin": "B0DNNTR5RY",
+        "name": "Kitchen Utensils Set 6 Pcs 30cm Non-Stick Cooking Slotted Spoons Turners Spatula Soup Ladle Pasta Fork & Spaghetti Servi"
+      }
+    ],
+    "trend_categories": {
+      "pets": 100,
+      "office": 98,
+      "garden": 95,
+      "lighting": 95,
+      "crafts": 92,
+      "phone": 92
+    },
+    "supply_demand": {
+      "kitchen": {
+        "ratio": 8.1,
+        "demand": 89,
+        "supply": 58471,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "sports": {
+        "ratio": 5.4,
+        "demand": 58,
+        "supply": 45632,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "kitchen_gadgets": {
+        "ratio": 2.9,
+        "demand": 32,
+        "supply": 58471,
+        "label": "⚖️ 平衡",
+        "level": "balanced"
+      },
+      "garden": {
+        "ratio": 0,
+        "demand": 95,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "bathroom": {
+        "ratio": 0,
+        "demand": 49,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "cleaning": {
+        "ratio": 0,
+        "demand": 57,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "car": {
+        "ratio": 0,
+        "demand": 66,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "office": {
+        "ratio": 0,
+        "demand": 98,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      }
+    },
+    "divergences": {
+      "kitchen": {
+        "current_heat": 87,
+        "previous_heat": 83,
+        "heat_change_pct": 4.8,
+        "direction": "stable",
+        "dates": [
+          "2026-08-19_0850",
+          "2026-08-19_1711"
+        ]
+      },
+      "car": {
+        "current_heat": 57,
+        "previous_heat": 49,
+        "heat_change_pct": 16.3,
+        "direction": "stable",
+        "dates": [
+          "2026-08-19_0850",
+          "2026-08-19_1711"
+        ]
+      },
+      "office": {
+        "current_heat": 90,
+        "previous_heat": 78,
+        "heat_change_pct": 15.4,
+        "direction": "stable",
+        "dates": [
+          "2026-08-19_0850",
+          "2026-08-19_1711"
+        ]
+      },
+      "storage": {
+        "current_heat": 71,
+        "previous_heat": 93,
+        "heat_change_pct": -23.7,
+        "direction": "falling",
+        "dates": [
+          "2026-08-19_0850",
+          "2026-08-19_1711"
+        ]
+      },
+      "lighting": {
+        "current_heat": 98,
+        "previous_heat": 95,
+        "heat_change_pct": 3.2,
+        "direction": "stable",
+        "dates": [
+          "2026-08-19_0850",
+          "2026-08-19_1711"
+        ]
+      },
+      "pets": {
+        "current_heat": 100,
+        "previous_heat": 100,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-19_0850",
+          "2026-08-19_1711"
+        ]
+      },
+      "sports": {
+        "current_heat": 76,
+        "previous_heat": 83,
+        "heat_change_pct": -8.4,
+        "direction": "stable",
+        "dates": [
+          "2026-08-19_0850",
+          "2026-08-19_1711"
+        ]
+      },
+      "crafts": {
+        "current_heat": 93,
+        "previous_heat": 93,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-19_0850",
+          "2026-08-19_1711"
+        ]
+      },
+      "phone": {
+        "current_heat": 100,
+        "previous_heat": 100,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-19_0850",
+          "2026-08-19_1711"
+        ]
+      },
+      "beauty": {
+        "current_heat": 71,
+        "previous_heat": 74,
+        "heat_change_pct": -4.1,
+        "direction": "stable",
+        "dates": [
+          "2026-08-19_0850",
+          "2026-08-19_1711"
+        ]
+      },
+      "home decor": {
+        "current_heat": 93,
+        "previous_heat": 88,
+        "heat_change_pct": 5.7,
+        "direction": "stable",
+        "dates": [
+          "2026-08-19_0850",
+          "2026-08-19_1711"
+        ]
+      },
+      "eco": {
+        "current_heat": 65,
+        "previous_heat": 61,
+        "heat_change_pct": 6.6,
+        "direction": "stable",
+        "dates": [
+          "2026-08-19_0850",
+          "2026-08-19_1711"
+        ]
+      },
+      "seasonal": {
+        "current_heat": 79,
+        "previous_heat": 66,
+        "heat_change_pct": 19.7,
+        "direction": "stable",
+        "dates": [
+          "2026-08-19_0850",
+          "2026-08-19_1711"
+        ]
+      },
+      "garden": {
+        "current_heat": 93,
+        "previous_heat": 100,
+        "heat_change_pct": -7.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-19_0850",
+          "2026-08-19_1711"
+        ]
+      },
+      "bathroom": {
+        "current_heat": 62,
+        "previous_heat": 74,
+        "heat_change_pct": -16.2,
+        "direction": "stable",
+        "dates": [
+          "2026-08-19_0850",
+          "2026-08-19_1711"
+        ]
+      },
+      "cleaning": {
+        "current_heat": 46,
+        "previous_heat": 54,
+        "heat_change_pct": -14.8,
+        "direction": "stable",
+        "dates": [
+          "2026-08-19_0850",
+          "2026-08-19_1711"
+        ]
+      },
+      "bedding": {
+        "current_heat": 37,
+        "previous_heat": 54,
+        "heat_change_pct": -31.5,
+        "direction": "falling",
+        "dates": [
+          "2026-08-19_0850",
+          "2026-08-19_1711"
+        ]
+      },
+      "travel": {
+        "current_heat": 51,
+        "previous_heat": 54,
+        "heat_change_pct": -5.6,
+        "direction": "stable",
+        "dates": [
+          "2026-08-19_0850",
+          "2026-08-19_1711"
+        ]
+      },
+      "baby": {
+        "current_heat": 62,
+        "previous_heat": 64,
+        "heat_change_pct": -3.1,
+        "direction": "stable",
+        "dates": [
+          "2026-08-19_0850",
+          "2026-08-19_1711"
+        ]
+      },
+      "kitchen_gadgets": {
+        "current_heat": 26,
+        "previous_heat": 7,
+        "heat_change_pct": 271.4,
+        "direction": "rising",
+        "dates": [
+          "2026-08-19_0850",
+          "2026-08-19_1711"
+        ]
+      }
+    },
+    "gap_opportunities": 18
+  },
+  "products": [
+    {
+      "asin": "B0FG2XDJ77",
+      "name": "HaWare Kitchen Utensils Set, 6 Pcs Silicone Cooking Utensils Set with Stainless Steel Handle, Non-Stick Cooking Tools Tu",
+      "price": 11.66,
+      "reviews": 65,
+      "rating": 4.7,
+      "rank": 48,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "65 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FG2XDJ77",
+      "image_url": "https://m.media-amazon.com/images/I/61pgkiu0VdL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "silicone utensils",
+      "festival_event": "Prime Big Deal Days(10月Prime Day)",
+      "festival_icon": "🛍️",
+      "festival_deadline": "2026-08-20",
+      "is_event": false,
+      "sources": [
+        "📅 Prime Big Deal Days(10月Prime Day)",
+        "TikTok趋势",
+        "Reddit需求",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.369,
+      "net_profit": 4.3,
+      "cost_breakdown": {
+        "vat": 1.95,
+        "commission": 1.75,
+        "fba": 1.46,
+        "ads": 1.17,
+        "returns": 0.23,
+        "sourcing": 0.8,
+        "total_cost": 7.36
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 8.1,
+        "demand": 89,
+        "supply": 58471,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy",
+        "Reddit"
+      ],
+      "internal_sources": [],
+      "score": 141,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "💬 Reddit": 5,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(kitchen)": 23,
+        "🟡 中等竞争": 5,
+        "⭐ 高评分": 5,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "🌊 深蓝海": 20,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-20",
+      "is_multi": true,
+      "channel_tags": [
+        "keyword_search",
+        "etsy_trending",
+        "multi_source",
+        "tiktok_verified",
+        "temu_trending"
+      ]
+    },
+    {
+      "asin": "B0F1FKLF5H",
+      "name": "12 PCS Silicone Cooking Utensils Set with Wooden Handle, Kitchen Utensil Set, Heat Resistant, Nonstick Cookware Tongs Sp",
+      "price": 9.16,
+      "reviews": 38,
+      "rating": 3.8,
+      "rank": 6,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "38 reviews, 3.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0F1FKLF5H",
+      "image_url": "https://m.media-amazon.com/images/I/61HAauYWfFL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "kitchen utensil set",
+      "festival_event": "Prime Big Deal Days(10月Prime Day)",
+      "festival_icon": "🛍️",
+      "festival_deadline": "2026-08-20",
+      "is_event": false,
+      "sources": [
+        "📅 Prime Big Deal Days(10月Prime Day)",
+        "Reddit需求",
+        "Temu热销",
+        "TikTok趋势",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.316,
+      "net_profit": 2.9,
+      "cost_breakdown": {
+        "vat": 1.53,
+        "commission": 1.37,
+        "fba": 1.46,
+        "ads": 0.92,
+        "returns": 0.18,
+        "sourcing": 0.8,
+        "total_cost": 6.26
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 8.1,
+        "demand": 89,
+        "supply": 58471,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy",
+        "Reddit"
+      ],
+      "internal_sources": [],
+      "score": 137,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "💬 Reddit": 5,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(kitchen)": 23,
+        "🟢 低竞争": 10,
+        "💰 高利润": 8,
+        "❓ 品类存疑": -5,
+        "🌊 深蓝海": 20,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-20",
+      "is_multi": true,
+      "channel_tags": [
+        "keyword_search",
+        "etsy_trending",
+        "multi_source",
+        "tiktok_verified",
+        "temu_trending"
+      ]
+    },
+    {
+      "asin": "B0C2KRF33P",
+      "name": "Kitchen Utensils Set, 12 PCS Silicone Cooking Utensils Set Gadgets for Cooking, Non Stick Wooden Handle Silicone Kitchen",
+      "price": 8.66,
+      "reviews": 76,
+      "rating": 4.5,
+      "rank": 10,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "76 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0C2KRF33P",
+      "image_url": "https://m.media-amazon.com/images/I/81twVrKUg3L._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "kitchen utensil set",
+      "festival_event": "Prime Big Deal Days(10月Prime Day)",
+      "festival_icon": "🛍️",
+      "festival_deadline": "2026-08-20",
+      "is_event": false,
+      "sources": [
+        "📅 Prime Big Deal Days(10月Prime Day)",
+        "TikTok趋势",
+        "Reddit需求",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.302,
+      "net_profit": 2.62,
+      "cost_breakdown": {
+        "vat": 1.45,
+        "commission": 1.3,
+        "fba": 1.46,
+        "ads": 0.87,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 6.04
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 8.1,
+        "demand": 89,
+        "supply": 58471,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy",
+        "Reddit"
+      ],
+      "internal_sources": [],
+      "score": 137,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "💬 Reddit": 5,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(kitchen)": 23,
+        "🟡 中等竞争": 5,
+        "⭐ 高评分": 5,
+        "💰 高利润": 8,
+        "❓ 品类存疑": -5,
+        "🌊 深蓝海": 20,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-20",
+      "is_multi": true,
+      "channel_tags": [
+        "keyword_search",
+        "etsy_trending",
+        "multi_source",
+        "tiktok_verified",
+        "temu_trending"
+      ]
+    },
+    {
+      "asin": "B0C7WHHDN6",
+      "name": "Kichna The Sipper Stainless Steel Insulated Tumbler with Straw and Lid Double Walled BPA Free Splash Proof Travel Cup fo",
+      "price": 8.32,
+      "reviews": 35,
+      "rating": 4.7,
+      "rank": 40,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "35 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0C7WHHDN6",
+      "image_url": "https://m.media-amazon.com/images/I/61cRuP0I92L._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "insulated cup",
+      "festival_event": "Prime Big Deal Days(10月Prime Day)",
+      "festival_icon": "🛍️",
+      "festival_deadline": "2026-08-20",
+      "is_event": false,
+      "sources": [
+        "📅 Prime Big Deal Days(10月Prime Day)",
+        "Google趋势",
+        "Temu热销",
+        "TikTok趋势",
+        "Etsy趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.291,
+      "net_profit": 2.42,
+      "cost_breakdown": {
+        "vat": 1.39,
+        "commission": 1.25,
+        "fba": 1.46,
+        "ads": 0.83,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 5.9
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 138,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(kitchen)": 23,
+        "🟢 低竞争": 10,
+        "⭐ 高评分": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "🌴 当季(summer)": 10,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-20",
+      "is_multi": true,
+      "channel_tags": [
+        "keyword_search",
+        "etsy_trending",
+        "multi_source",
+        "google_trends",
+        "tiktok_verified",
+        "temu_trending"
+      ]
+    },
+    {
+      "asin": "B0C88P25R6",
+      "name": "Sewing Kit for Adults Needle and Thread Kit for Sewing with Peacock Zipper Case 18 Color Threads Portable Basic Hand Sew",
+      "price": 6.66,
+      "reviews": 69,
+      "rating": 4.5,
+      "rank": 42,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "69 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0C88P25R6",
+      "image_url": "https://m.media-amazon.com/images/I/91Nz0eXosoL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "sewing kit, mini sewing kit, travel sewing kit, compact sewing kit, emergency sewing kit, sewing supplies, needle and thread kit, portable sewing kit, small sewing kit, sewing kit for travel, sewing kit for beginners, dorm sewing kit, student sewing kit, sewing repair kit, hand sewing kit, sewing accessories, sewing tools, sewing kit for women, sewing kit for men, sewing kit small",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.224,
+      "net_profit": 1.49,
+      "cost_breakdown": {
+        "vat": 1.11,
+        "commission": 1.0,
+        "fba": 1.46,
+        "ads": 0.67,
+        "returns": 0.13,
+        "sourcing": 0.8,
+        "total_cost": 5.17
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 104,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(phone)": 23,
+        "🟡 中等竞争": 5,
+        "⭐ 高评分": 5,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-20",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "keyword_search",
+        "etsy_trending",
+        "multi_source",
+        "tiktok_verified",
+        "temu_trending"
+      ]
+    },
+    {
+      "asin": "B0C88T2K89",
+      "name": "Sewing Kit for Adults Needle and Thread Kit for Sewing with Butterfly Zipper Case 18 Color Threads Portable Basic Hand S",
+      "price": 6.66,
+      "reviews": 159,
+      "rating": 4.5,
+      "rank": 35,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "159 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0C88T2K89",
+      "image_url": "https://m.media-amazon.com/images/I/91DvCw7c9mL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "sewing kit, mini sewing kit, travel sewing kit, compact sewing kit, emergency sewing kit, sewing supplies, needle and thread kit, portable sewing kit, small sewing kit, sewing kit for travel, sewing kit for beginners, dorm sewing kit, student sewing kit, sewing repair kit, hand sewing kit, sewing accessories, sewing tools, sewing kit for women, sewing kit for men, sewing kit small",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.224,
+      "net_profit": 1.49,
+      "cost_breakdown": {
+        "vat": 1.11,
+        "commission": 1.0,
+        "fba": 1.46,
+        "ads": 0.67,
+        "returns": 0.13,
+        "sourcing": 0.8,
+        "total_cost": 5.17
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 99,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(phone)": 23,
+        "⭐ 高评分": 5,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 4,
+      "is_new": true,
+      "first_seen": "2026-08-20",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "keyword_search",
+        "etsy_trending",
+        "multi_source",
+        "tiktok_verified",
+        "temu_trending"
+      ]
+    },
+    {
+      "asin": "B0C88NNBQV",
+      "name": "Sewing Kit for Adults Needle and Thread Kit for Sewing with Leaf Zipper Case 18 Color Threads Portable Basic Hand Sewing",
+      "price": 6.66,
+      "reviews": 64,
+      "rating": 4.4,
+      "rank": 31,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "64 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0C88NNBQV",
+      "image_url": "https://m.media-amazon.com/images/I/81N+8ba-DgL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "sewing kit, mini sewing kit, travel sewing kit, compact sewing kit, emergency sewing kit, sewing supplies, needle and thread kit, portable sewing kit, small sewing kit, sewing kit for travel, sewing kit for beginners, dorm sewing kit, student sewing kit, sewing repair kit, hand sewing kit, sewing accessories, sewing tools, sewing kit for women, sewing kit for men, sewing kit small",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.224,
+      "net_profit": 1.49,
+      "cost_breakdown": {
+        "vat": 1.11,
+        "commission": 1.0,
+        "fba": 1.46,
+        "ads": 0.67,
+        "returns": 0.13,
+        "sourcing": 0.8,
+        "total_cost": 5.17
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 99,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(phone)": 23,
+        "🟡 中等竞争": 5,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 4,
+      "is_new": true,
+      "first_seen": "2026-08-20",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "keyword_search",
+        "etsy_trending",
+        "multi_source",
+        "tiktok_verified",
+        "temu_trending"
+      ]
+    },
+    {
+      "asin": "B0B5Z7GBWM",
+      "name": "JIKIOU Colored Paper Clips Assorted Sizes, 510 Clip, 6 Colours/Box | 28mm,33mm,50mm 3 Different Sizes Small, Medium and ",
+      "price": 8.32,
+      "reviews": 40,
+      "rating": 4.7,
+      "rank": 10,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "40 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0B5Z7GBWM",
+      "image_url": "https://m.media-amazon.com/images/I/71U1To00YkL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "binder clips, colored binder clips, binder clips assorted sizes, paper clips for office, binder clips 100 pack, paper clips set, colorful paper clips, binder clips with storage box, office supplies, school supplies, document clips, paper clamps, assorted binder clips, metal binder clips, large binder clips, small binder clips, folder clips, paper binder clips, desk organizer clips",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势"
+      ],
+      "profit_margin": 0.291,
+      "net_profit": 2.42,
+      "cost_breakdown": {
+        "vat": 1.39,
+        "commission": 1.25,
+        "fba": 1.46,
+        "ads": 0.83,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 5.9
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "weak",
+      "signal_label": "🟡 弱信号",
+      "external_sources": [
+        "TikTok"
+      ],
+      "internal_sources": [],
+      "score": 79,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🔥 多源热门(storage)": 23,
+        "🟢 低竞争": 10,
+        "⭐ 高评分": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 3,
+      "is_new": true,
+      "first_seen": "2026-08-20",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "keyword_search",
+        "tiktok_verified",
+        "multi_source"
+      ]
+    },
+    {
+      "asin": "B0H4VBMM7N",
+      "name": "JADUFHU 2 Pcs Sliding Door Latch, 90/180° Rotatable Flip Lock, Black | Aluminum, with Screws, Easy Mount Safety Lock for",
+      "price": 9.16,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 5,
+      "category": "DIY",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H4VBMM7N",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/61pm4WhFchL._AC_UL300_SR300,200_.jpg",
+      "profit_margin": 0.316,
+      "net_profit": 2.9,
+      "cost_breakdown": {
+        "vat": 1.53,
+        "commission": 1.37,
+        "fba": 1.46,
+        "ads": 0.92,
+        "returns": 0.18,
+        "sourcing": 0.8,
+        "total_cost": 6.26
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 仅Amazon",
+      "external_sources": [],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 27,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "⚪ 仅Amazon": -10,
+        "⏳ 待验证": -8,
+        "💰 高利润": 8,
+        "📉 无需求信号": -15,
+        "📈 排名上升": 10,
+        "⚠️ 未验证": -8
+      },
+      "stars": 1,
+      "is_new": false,
+      "first_seen": "2026-08-17",
+      "is_event": false,
+      "channel_tags": [
+        "new_releases"
+      ]
+    },
+    {
+      "asin": "B09SP6MJTD",
+      "name": "100 x Kraft 12oz Ripple 3 Ply Disposable Insulated Paper Cups For Tea Coffee Cappuccino Hot Drinks",
+      "price": 10.99,
+      "reviews": 199,
+      "rating": 4.5,
+      "rank": 19,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "199 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B09SP6MJTD",
+      "image_url": "https://m.media-amazon.com/images/I/61qoR8wYOkL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "insulated cup",
+      "festival_event": "Prime Big Deal Days(10月Prime Day)",
+      "festival_icon": "🛍️",
+      "festival_deadline": "2026-08-20",
+      "is_event": false,
+      "sources": [
+        "📅 Prime Big Deal Days(10月Prime Day)"
+      ],
+      "profit_margin": 0.357,
+      "net_profit": 3.93,
+      "cost_breakdown": {
+        "vat": 1.84,
+        "commission": 1.65,
+        "fba": 1.46,
+        "ads": 1.1,
+        "returns": 0.22,
+        "sourcing": 0.8,
+        "total_cost": 7.06
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": 27,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🔥 多源热门(kitchen)": 23,
+        "⭐ 高评分": 5,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-08-20",
+      "channel_tags": [
+        "keyword_search"
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "keyword": "garden",
+      "category": "garden",
+      "heat": 95,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "bbq",
+        "patio",
+        "plant",
+        "garden",
+        "flower"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "patio",
+        "plant pot",
+        "plant stand",
+        "plant hanger",
+        "garden tool set",
+        "garden light",
+        "garden decor",
+        "flower"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 95,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=patio",
+      "url_google": "https://trends.google.com/trends/explore?q=patio&geo=GB"
+    },
+    {
+      "keyword": "office",
+      "category": "office",
+      "heat": 98,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "notebook",
+        "stationery",
+        "office",
+        "mouse",
+        "organiser"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "notebook",
+        "stationery set",
+        "pen set",
+        "office supplies",
+        "desk organizer",
+        "pen holder",
+        "mouse",
+        "organiser"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 98,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=notebook",
+      "url_google": "https://trends.google.com/trends/explore?q=notebook&geo=GB"
+    },
+    {
+      "keyword": "lighting",
+      "category": "lighting",
+      "heat": 95,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "solar light",
+        "light",
+        "led",
+        "strip",
+        "lamp"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "solar light",
+        "LED light",
+        "fairy lights",
+        "string lights",
+        "LED bulb",
+        "LED panel",
+        "LED strip",
+        "LED strip light"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 95,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=solar+light",
+      "url_google": "https://trends.google.com/trends/explore?q=solar+light&geo=GB"
+    },
+    {
+      "keyword": "pets",
+      "category": "pets",
+      "heat": 100,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "bed",
+        "toy",
+        "dog",
+        "cat",
+        "collar"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "cat bed",
+        "dog bed",
+        "pet cushion",
+        "dog chew toy",
+        "cat interactive toy",
+        "pet ball",
+        "cat toy",
+        "cat collar"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=cat+bed",
+      "url_google": "https://trends.google.com/trends/explore?q=cat+bed&geo=GB"
+    },
+    {
+      "keyword": "crafts",
+      "category": "crafts",
+      "heat": 92,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "paint",
+        "art",
+        "brush",
+        "stickers",
+        "craft"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "acrylic paint set",
+        "paint brush set",
+        "paint by numbers",
+        "art supplies",
+        "paint set",
+        "drawing kit",
+        "brush",
+        "stickers"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 92,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=acrylic+paint+set",
+      "url_google": "https://trends.google.com/trends/explore?q=acrylic+paint+set&geo=GB"
+    },
+    {
+      "keyword": "phone",
+      "category": "phone",
+      "heat": 92,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "stand",
+        "cable",
+        "phone",
+        "charger",
+        "earbuds"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "stand",
+        "charging cable",
+        "USB cable",
+        "phone cable",
+        "phone case",
+        "phone holder",
+        "phone stand",
+        "phone charger"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 92,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=stand",
+      "url_google": "https://trends.google.com/trends/explore?q=stand&geo=GB"
+    },
+    {
+      "keyword": "home decor",
+      "category": "home decor",
+      "heat": 89,
+      "score": 74,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "mirror",
+        "decor",
+        "wall art",
+        "clock",
+        "vase"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "makeup mirror",
+        "vanity mirror",
+        "LED mirror",
+        "home decor",
+        "room decor",
+        "table decor",
+        "wall art print",
+        "wall hanging"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 89,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=makeup+mirror",
+      "url_google": "https://trends.google.com/trends/explore?q=makeup+mirror&geo=GB"
+    },
+    {
+      "keyword": "beauty",
+      "category": "beauty",
+      "heat": 86,
+      "score": 73,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "mirror",
+        "nail",
+        "skincare",
+        "organiser",
+        "brush"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "makeup mirror",
+        "vanity mirror",
+        "LED mirror",
+        "nail art kit",
+        "nail tools",
+        "nail stickers",
+        "face roller",
+        "gua sha"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 86,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=makeup+mirror",
+      "url_google": "https://trends.google.com/trends/explore?q=makeup+mirror&geo=GB"
+    },
+    {
+      "keyword": "seasonal",
+      "category": "seasonal",
+      "heat": 84,
+      "score": 73,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "easter",
+        "christmas",
+        "gift",
+        "valentine",
+        "halloween"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "easter egg",
+        "easter decoration",
+        "christmas decoration",
+        "christmas gift",
+        "christmas stocking",
+        "gift ideas",
+        "gift set",
+        "gift box"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 84,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=easter+egg",
+      "url_google": "https://trends.google.com/trends/explore?q=easter+egg&geo=GB"
+    },
+    {
+      "keyword": "storage",
+      "category": "storage",
+      "heat": 78,
+      "score": 71,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "basket",
+        "organiser",
+        "drawer",
+        "container",
+        "storage"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "basket",
+        "organiser",
+        "drawer",
+        "container",
+        "food storage",
+        "kitchen storage",
+        "container set",
+        "floating shelf"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 78,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=basket",
+      "url_google": "https://trends.google.com/trends/explore?q=basket&geo=GB"
+    },
+    {
+      "keyword": "eco",
+      "category": "eco",
+      "heat": 69,
+      "score": 68,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "reusable",
+        "bamboo",
+        "sustainable",
+        "eco",
+        "organic"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "reusable food wrap",
+        "reusable straws",
+        "reusable bags",
+        "bamboo cutlery",
+        "bamboo toothbrush",
+        "bamboo organizer",
+        "sustainable products",
+        "eco friendly"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 69,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=reusable+food+wrap",
+      "url_google": "https://trends.google.com/trends/explore?q=reusable+food+wrap&geo=GB"
+    },
+    {
+      "keyword": "car",
+      "category": "car",
+      "heat": 66,
+      "score": 67,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "vehicle",
+        "car",
+        "motor",
+        "organiser",
+        "dashboard"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "vehicle",
+        "car accessories",
+        "car organizer",
+        "car phone holder",
+        "motorcycle accessories",
+        "motorcycle cover",
+        "organiser",
+        "dashboard"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 66,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=vehicle",
+      "url_google": "https://trends.google.com/trends/explore?q=vehicle&geo=GB"
+    },
+    {
+      "keyword": "baby",
+      "category": "baby",
+      "heat": 58,
+      "score": 64,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "baby",
+        "nursery",
+        "toddler",
+        "child",
+        "kids"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "baby",
+        "nursery",
+        "toddler",
+        "child",
+        "kids"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 58,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=baby",
+      "url_google": "https://trends.google.com/trends/explore?q=baby&geo=GB"
+    },
+    {
+      "keyword": "travel",
+      "category": "travel",
+      "heat": 52,
+      "score": 62,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "toiletry",
+        "travel",
+        "luggage",
+        "packing",
+        "passport"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "toiletry",
+        "travel",
+        "luggage",
+        "packing",
+        "passport"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 52,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=toiletry",
+      "url_google": "https://trends.google.com/trends/explore?q=toiletry&geo=GB"
+    },
+    {
+      "keyword": "bathroom",
+      "category": "bathroom",
+      "heat": 49,
+      "score": 61,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "mirror",
+        "bath",
+        "bathroom",
+        "shower",
+        "toilet"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "makeup mirror",
+        "vanity mirror",
+        "LED mirror",
+        "bath mat",
+        "bath caddy",
+        "bath pillow",
+        "bathroom",
+        "shower caddy"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 49,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=makeup+mirror",
+      "url_google": "https://trends.google.com/trends/explore?q=makeup+mirror&geo=GB"
+    },
+    {
+      "keyword": "bedding",
+      "category": "bedding",
+      "heat": 49,
+      "score": 61,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "cushion",
+        "sheet",
+        "bedding",
+        "pillow",
+        "throw"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "cushion",
+        "sheet",
+        "bedding",
+        "pillow",
+        "throw"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 49,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=cushion",
+      "url_google": "https://trends.google.com/trends/explore?q=cushion&geo=GB"
+    },
+    {
+      "keyword": "kitchen",
+      "category": "kitchen",
+      "heat": 89,
+      "score": 54,
+      "gap_level": "weak",
+      "amazon_count": 5,
+      "amazon_reviews": 58471,
+      "evidence": [
+        "baking",
+        "kitchen",
+        "mug",
+        "organiser",
+        "gadget"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "baking set",
+        "baking tray",
+        "cake mould",
+        "kitchen",
+        "organiser",
+        "gadget",
+        "cooking"
+      ],
+      "sd_info": {
+        "ratio": 8.1,
+        "demand": 89,
+        "supply": 58471,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=baking+set",
+      "url_google": "https://trends.google.com/trends/explore?q=baking+set&geo=GB"
+    },
+    {
+      "keyword": "cleaning",
+      "category": "cleaning",
+      "heat": 57,
+      "score": 49,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "sponge",
+        "vacuum",
+        "duster",
+        "cleaning",
+        "brush"
+      ],
+      "is_cross_validated": false,
+      "cross_sources": 0,
+      "suggestions": [
+        "sponge",
+        "vacuum",
+        "duster",
+        "cleaning",
+        "brush",
+        "cleaner"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 57,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=sponge",
+      "url_google": "https://trends.google.com/trends/explore?q=sponge&geo=GB"
+    }
+  ],
+  "trend_summary": {
+    "top_categories": [
+      [
+        "pets",
+        100
+      ],
+      [
+        "office",
+        98
+      ],
+      [
+        "garden",
+        95
+      ],
+      [
+        "lighting",
+        95
+      ],
+      [
+        "crafts",
+        92
+      ],
+      [
+        "phone",
+        92
+      ]
+    ],
+    "cross_validated": [
+      "kitchen",
+      "garden",
+      "bathroom",
+      "car",
+      "office",
+      "storage",
+      "lighting",
+      "pets",
+      "sports",
+      "crafts",
+      "bedding",
+      "travel",
+      "phone",
+      "beauty",
+      "home decor",
+      "baby",
+      "kitchen_gadgets",
+      "eco",
+      "seasonal"
+    ],
+    "demand_keywords": [
+      "#trendingproducts #uk",
+      "20 best selling items on temu [updated]",
+      "7 best multichannel listing software in 2026 9",
+      "about solving specific",
+      "aesthetic",
+      "aesthetic desk setup",
+      "amazon",
+      "amazon listing restrictions.",
+      "amazon seller central",
+      "amazon sellers"
+    ],
+    "season": "summer",
+    "sources_scanned": [
+      "tiktok",
+      "temu",
+      "etsy",
+      "market_intel"
+    ]
+  }
+}
