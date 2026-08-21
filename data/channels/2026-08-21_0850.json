@@ -1,0 +1,1948 @@
+{
+  "scan_date": "2026-08-21",
+  "scan_time": "08:50",
+  "scan_ts": "2026-08-21_0850",
+  "stats": {
+    "total_scanned": 279,
+    "passed_filter": 18,
+    "rejected": 258,
+    "channels": {
+      "multi_source": 5,
+      "temu_trending": 4,
+      "tiktok_verified": 4,
+      "new_releases": 3,
+      "etsy_trending": 3,
+      "keyword_search": 15
+    },
+    "detail_reject": {},
+    "theme_trimmed": [
+      {
+        "asin": "B0DN6WB9M9",
+        "name": "Second Ave 100 Positive Affirmation Cards Inspiring Motivational Quotes Mindfulness Christmas Xmas Stocking Filler Secre"
+      },
+      {
+        "asin": "B0DM2PFXDG",
+        "name": "LSW London Affirmation Cards for Growth & Positive Mindset | 50 Daily Manifests - Confidence, Career, Health, Relationsh"
+      },
+      {
+        "asin": "B08GV7BD4K",
+        "name": "Medical ID Me Set of 4 Mental Health Matters Awareness Bracelet Motivational Men's Women's Mental Health MHA"
+      }
+    ],
+    "trend_categories": {
+      "crafts": 100,
+      "lighting": 94,
+      "kitchen": 86,
+      "pets": 79,
+      "home decor": 79,
+      "seasonal": 65
+    },
+    "supply_demand": {
+      "kitchen": {
+        "ratio": 7.8,
+        "demand": 86,
+        "supply": 58469,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "kitchen_gadgets": {
+        "ratio": 1.3,
+        "demand": 14,
+        "supply": 58469,
+        "label": "⚖️ 平衡",
+        "level": "balanced"
+      },
+      "bathroom": {
+        "ratio": 0,
+        "demand": 36,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "car": {
+        "ratio": 0,
+        "demand": 58,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "crafts": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "travel": {
+        "ratio": 0,
+        "demand": 51,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "phone": {
+        "ratio": 0,
+        "demand": 44,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "beauty": {
+        "ratio": 0,
+        "demand": 58,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      }
+    },
+    "divergences": {
+      "kitchen": {
+        "current_heat": 97,
+        "previous_heat": 89,
+        "heat_change_pct": 9.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-20_0850",
+          "2026-08-20_1711"
+        ]
+      },
+      "car": {
+        "current_heat": 60,
+        "previous_heat": 66,
+        "heat_change_pct": -9.1,
+        "direction": "stable",
+        "dates": [
+          "2026-08-20_0850",
+          "2026-08-20_1711"
+        ]
+      },
+      "office": {
+        "current_heat": 100,
+        "previous_heat": 98,
+        "heat_change_pct": 2.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-20_0850",
+          "2026-08-20_1711"
+        ]
+      },
+      "storage": {
+        "current_heat": 51,
+        "previous_heat": 78,
+        "heat_change_pct": -34.6,
+        "direction": "falling",
+        "dates": [
+          "2026-08-20_0850",
+          "2026-08-20_1711"
+        ]
+      },
+      "lighting": {
+        "current_heat": 100,
+        "previous_heat": 95,
+        "heat_change_pct": 5.3,
+        "direction": "stable",
+        "dates": [
+          "2026-08-20_0850",
+          "2026-08-20_1711"
+        ]
+      },
+      "pets": {
+        "current_heat": 100,
+        "previous_heat": 100,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-20_0850",
+          "2026-08-20_1711"
+        ]
+      },
+      "sports": {
+        "current_heat": 9,
+        "previous_heat": 58,
+        "heat_change_pct": -84.5,
+        "direction": "falling",
+        "dates": [
+          "2026-08-20_0850",
+          "2026-08-20_1711"
+        ]
+      },
+      "crafts": {
+        "current_heat": 100,
+        "previous_heat": 92,
+        "heat_change_pct": 8.7,
+        "direction": "stable",
+        "dates": [
+          "2026-08-20_0850",
+          "2026-08-20_1711"
+        ]
+      },
+      "phone": {
+        "current_heat": 100,
+        "previous_heat": 92,
+        "heat_change_pct": 8.7,
+        "direction": "stable",
+        "dates": [
+          "2026-08-20_0850",
+          "2026-08-20_1711"
+        ]
+      },
+      "beauty": {
+        "current_heat": 83,
+        "previous_heat": 86,
+        "heat_change_pct": -3.5,
+        "direction": "stable",
+        "dates": [
+          "2026-08-20_0850",
+          "2026-08-20_1711"
+        ]
+      },
+      "home decor": {
+        "current_heat": 88,
+        "previous_heat": 89,
+        "heat_change_pct": -1.1,
+        "direction": "stable",
+        "dates": [
+          "2026-08-20_0850",
+          "2026-08-20_1711"
+        ]
+      },
+      "eco": {
+        "current_heat": 60,
+        "previous_heat": 69,
+        "heat_change_pct": -13.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-20_0850",
+          "2026-08-20_1711"
+        ]
+      },
+      "seasonal": {
+        "current_heat": 70,
+        "previous_heat": 84,
+        "heat_change_pct": -16.7,
+        "direction": "stable",
+        "dates": [
+          "2026-08-20_0850",
+          "2026-08-20_1711"
+        ]
+      },
+      "garden": {
+        "current_heat": 83,
+        "previous_heat": 95,
+        "heat_change_pct": -12.6,
+        "direction": "stable",
+        "dates": [
+          "2026-08-20_0850",
+          "2026-08-20_1711"
+        ]
+      },
+      "cleaning": {
+        "current_heat": 32,
+        "previous_heat": 57,
+        "heat_change_pct": -43.9,
+        "direction": "falling",
+        "dates": [
+          "2026-08-20_0850",
+          "2026-08-20_1711"
+        ]
+      },
+      "bedding": {
+        "current_heat": 5,
+        "previous_heat": 49,
+        "heat_change_pct": -89.8,
+        "direction": "falling",
+        "dates": [
+          "2026-08-20_0850",
+          "2026-08-20_1711"
+        ]
+      },
+      "baby": {
+        "current_heat": 38,
+        "previous_heat": 58,
+        "heat_change_pct": -34.5,
+        "direction": "falling",
+        "dates": [
+          "2026-08-20_0850",
+          "2026-08-20_1711"
+        ]
+      },
+      "travel": {
+        "current_heat": 9,
+        "previous_heat": 52,
+        "heat_change_pct": -82.7,
+        "direction": "falling",
+        "dates": [
+          "2026-08-20_0850",
+          "2026-08-20_1711"
+        ]
+      },
+      "kitchen_gadgets": {
+        "current_heat": 9,
+        "previous_heat": 32,
+        "heat_change_pct": -71.9,
+        "direction": "falling",
+        "dates": [
+          "2026-08-20_0850",
+          "2026-08-20_1711"
+        ]
+      },
+      "bathroom": {
+        "current_heat": 33,
+        "previous_heat": 49,
+        "heat_change_pct": -32.7,
+        "direction": "falling",
+        "dates": [
+          "2026-08-20_0850",
+          "2026-08-20_1711"
+        ]
+      }
+    },
+    "gap_opportunities": 11
+  },
+  "products": [
+    {
+      "asin": "B0H3M4L2RV",
+      "name": "KAYMAN Sports Foam Roller Sports Recovery, Deep Tissue Muscle Tension Relief & Circulation Increase Portable & Lightweig",
+      "price": 9.16,
+      "reviews": 135,
+      "rating": 4.4,
+      "rank": 9,
+      "category": "Sports",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "135 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H3M4L2RV",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/617Q5c59RNL._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "Etsy趋势",
+        "Temu热销",
+        "TikTok趋势"
+      ],
+      "profit_margin": 0.316,
+      "net_profit": 2.9,
+      "cost_breakdown": {
+        "vat": 1.53,
+        "commission": 1.37,
+        "fba": 1.46,
+        "ads": 0.92,
+        "returns": 0.18,
+        "sourcing": 0.8,
+        "total_cost": 6.26
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": -10,
+      "div_label": "📉 品类降温(-84%)",
+      "div_info": {
+        "current_heat": 9,
+        "previous_heat": 58,
+        "heat_change_pct": -84.5,
+        "direction": "falling",
+        "dates": [
+          "2026-08-20_0850",
+          "2026-08-20_1711"
+        ]
+      },
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 132,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(lighting)": 23,
+        "🟡 中等竞争": 5,
+        "💰 高利润": 8,
+        "📉 品类降温(-84%)": -10,
+        "⚠️ 未验证": -8,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-21",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "multi_source",
+        "temu_trending",
+        "tiktok_verified",
+        "new_releases",
+        "etsy_trending"
+      ]
+    },
+    {
+      "asin": "B0GY8M8T97",
+      "name": "LockieFitness Foam Roller, Deep Tissue Massage Roller with Trigger Point Foam Roller Grid for Back, Legs, Calves & Fasci",
+      "price": 6.24,
+      "reviews": 26,
+      "rating": 4.7,
+      "rank": 5,
+      "category": "Sports",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "26 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GY8M8T97",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71jE9cLa5XL._AC_UL300_SR300,200_.jpg",
+      "profit_margin": 0.201,
+      "net_profit": 1.25,
+      "cost_breakdown": {
+        "vat": 1.04,
+        "commission": 0.94,
+        "fba": 1.46,
+        "ads": 0.62,
+        "returns": 0.12,
+        "sourcing": 0.8,
+        "total_cost": 4.99
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": -10,
+      "div_label": "📉 品类降温(-84%)",
+      "div_info": {
+        "current_heat": 9,
+        "previous_heat": 58,
+        "heat_change_pct": -84.5,
+        "direction": "falling",
+        "dates": [
+          "2026-08-20_0850",
+          "2026-08-20_1711"
+        ]
+      },
+      "signal_level": "none",
+      "signal_label": "⚪ 仅Amazon",
+      "external_sources": [],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 32,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "⚪ 仅Amazon": -10,
+        "🟢 低竞争": 10,
+        "⭐ 高评分": 5,
+        "📉 无需求信号": -15,
+        "📉 品类降温(-84%)": -10,
+        "⚠️ 未验证": -8,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-08-21",
+      "is_event": false,
+      "channel_tags": [
+        "new_releases"
+      ]
+    },
+    {
+      "asin": "B0CST521C7",
+      "name": "Gift Republic Mindful Minutes Meditation Cards and 5 Minute Sand Timer Calming Meditation Gift Mindfulness Self-Care Aff",
+      "price": 8.32,
+      "reviews": 34,
+      "rating": 4.7,
+      "rank": 50,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "34 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CST521C7",
+      "image_url": "https://m.media-amazon.com/images/I/71XfvcMJT3L._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "affirmation cards",
+      "festival_event": "世界精神卫生日",
+      "festival_icon": "💚",
+      "festival_deadline": "2026-08-24",
+      "is_event": false,
+      "sources": [
+        "📅 世界精神卫生日",
+        "Etsy趋势",
+        "Temu热销",
+        "TikTok趋势"
+      ],
+      "profit_margin": 0.291,
+      "net_profit": 2.42,
+      "cost_breakdown": {
+        "vat": 1.39,
+        "commission": 1.25,
+        "fba": 1.46,
+        "ads": 0.83,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 5.9
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 98,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "📈 趋势(car)": 8,
+        "🟢 低竞争": 10,
+        "⭐ 高评分": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 4,
+      "is_new": true,
+      "first_seen": "2026-08-21",
+      "is_multi": true,
+      "channel_tags": [
+        "multi_source",
+        "temu_trending",
+        "keyword_search",
+        "tiktok_verified",
+        "etsy_trending"
+      ]
+    },
+    {
+      "asin": "B0D7LW2TG1",
+      "name": "Affirmation Moments – 53 Positive Affirmation Cards for Women with Display Stand, Daily Inspirational Cards for Mindfuln",
+      "price": 8.32,
+      "reviews": 43,
+      "rating": 4.7,
+      "rank": 1,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "43 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0D7LW2TG1",
+      "image_url": "https://m.media-amazon.com/images/I/71tEKz7jYgL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "affirmation cards",
+      "festival_event": "世界精神卫生日",
+      "festival_icon": "💚",
+      "festival_deadline": "2026-08-24",
+      "is_event": false,
+      "sources": [
+        "📅 世界精神卫生日",
+        "Temu热销",
+        "TikTok趋势"
+      ],
+      "profit_margin": 0.291,
+      "net_profit": 2.42,
+      "cost_breakdown": {
+        "vat": 1.39,
+        "commission": 1.25,
+        "fba": 1.46,
+        "ads": 0.83,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 5.9
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "medium",
+      "signal_label": "🟠 中信号",
+      "external_sources": [
+        "TikTok",
+        "Temu"
+      ],
+      "internal_sources": [],
+      "score": 82,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🟠 中信号": 10,
+        "📈 趋势(car)": 8,
+        "🟢 低竞争": 10,
+        "⭐ 高评分": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 4,
+      "is_new": true,
+      "first_seen": "2026-08-21",
+      "is_multi": true,
+      "channel_tags": [
+        "temu_trending",
+        "tiktok_verified",
+        "multi_source",
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "1837996393",
+      "name": "The Little Box of Positivity: 52 Beautiful Cards to Brighten Your Day",
+      "price": 7.12,
+      "reviews": 47,
+      "rating": 4.5,
+      "rank": 11,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "47 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/1837996393",
+      "image_url": "https://m.media-amazon.com/images/I/61q0DYxAmCL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "affirmation cards",
+      "festival_event": "世界精神卫生日",
+      "festival_icon": "💚",
+      "festival_deadline": "2026-08-24",
+      "is_event": false,
+      "sources": [
+        "📅 世界精神卫生日",
+        "Reddit需求"
+      ],
+      "profit_margin": 0.246,
+      "net_profit": 1.75,
+      "cost_breakdown": {
+        "vat": 1.19,
+        "commission": 1.07,
+        "fba": 1.46,
+        "ads": 0.71,
+        "returns": 0.14,
+        "sourcing": 0.8,
+        "total_cost": 5.37
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "weak",
+      "signal_label": "🟡 弱信号",
+      "external_sources": [
+        "Reddit"
+      ],
+      "internal_sources": [],
+      "score": 45,
+      "score_breakdown": {
+        "💬 Reddit": 5,
+        "📈 趋势(car)": 8,
+        "🟢 低竞争": 10,
+        "⭐ 高评分": 5,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 2,
+      "is_new": true,
+      "first_seen": "2026-08-21",
+      "is_multi": true,
+      "channel_tags": [
+        "multi_source",
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B09NN2XR72",
+      "name": "AFSTALR Bracelet Inspirational Bracelets Women Silver Mantra Cuff Bracelet Bangle Crown Jewelry Gifts",
+      "price": 8.32,
+      "reviews": 24,
+      "rating": 4.3,
+      "rank": 8,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "24 reviews, 4.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B09NN2XR72",
+      "image_url": "https://m.media-amazon.com/images/I/61A91gko9iL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "inspirational bracelet",
+      "festival_event": "世界精神卫生日",
+      "festival_icon": "💚",
+      "festival_deadline": "2026-08-24",
+      "is_event": false,
+      "sources": [
+        "📅 世界精神卫生日",
+        "Etsy趋势",
+        "Temu热销",
+        "TikTok趋势"
+      ],
+      "profit_margin": 0.291,
+      "net_profit": 2.42,
+      "cost_breakdown": {
+        "vat": 1.39,
+        "commission": 1.25,
+        "fba": 1.46,
+        "ads": 0.83,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 5.9
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 93,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "📈 趋势(seasonal)": 8,
+        "🟢 低竞争": 10,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 4,
+      "is_new": true,
+      "first_seen": "2026-08-21",
+      "is_multi": true,
+      "channel_tags": [
+        "multi_source",
+        "temu_trending",
+        "keyword_search",
+        "tiktok_verified",
+        "etsy_trending"
+      ]
+    },
+    {
+      "asin": "B0813CL5VW",
+      "name": "Jovivi Silver Cuff Bracelet Bangle Adjustable for Women Men Stainless Steel Engraved Inspirational Bracelet Friendship B",
+      "price": 7.49,
+      "reviews": 130,
+      "rating": 4.6,
+      "rank": 6,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "130 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0813CL5VW",
+      "image_url": "https://m.media-amazon.com/images/I/51jzDU37x1L._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "inspirational bracelet",
+      "festival_event": "世界精神卫生日",
+      "festival_icon": "💚",
+      "festival_deadline": "2026-08-24",
+      "is_event": false,
+      "sources": [
+        "📅 世界精神卫生日"
+      ],
+      "profit_margin": 0.261,
+      "net_profit": 1.96,
+      "cost_breakdown": {
+        "vat": 1.25,
+        "commission": 1.12,
+        "fba": 1.46,
+        "ads": 0.75,
+        "returns": 0.15,
+        "sourcing": 0.8,
+        "total_cost": 5.53
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": 1,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🟡 中等竞争": 5,
+        "⭐ 高评分": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-08-21",
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B08GTZ42YG",
+      "name": "Medical ID Me Set of 4 Mental Health Matters Awareness Bracelet Motivational Men's Women's Mental Health MHA",
+      "price": 6.66,
+      "reviews": 92,
+      "rating": 4.4,
+      "rank": 18,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "92 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B08GTZ42YG",
+      "image_url": "https://m.media-amazon.com/images/I/71LXBO4GoNL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "mental health awareness",
+      "festival_event": "世界精神卫生日",
+      "festival_icon": "💚",
+      "festival_deadline": "2026-08-24",
+      "is_event": false,
+      "sources": [
+        "📅 世界精神卫生日"
+      ],
+      "profit_margin": 0.224,
+      "net_profit": 1.49,
+      "cost_breakdown": {
+        "vat": 1.11,
+        "commission": 1.0,
+        "fba": 1.46,
+        "ads": 0.67,
+        "returns": 0.13,
+        "sourcing": 0.8,
+        "total_cost": 5.17
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": -8,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🟡 中等竞争": 5,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-08-21",
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0GSZW9WSG",
+      "name": "Gylinm 1L Water Bottle Made of BPA-Free Tritan Material, Sports Water Bottle with Removable Straw & Hydration Time Marke",
+      "price": 8.32,
+      "reviews": 105,
+      "rating": 4.8,
+      "rank": 8,
+      "category": "Sports",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "105 reviews, 4.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GSZW9WSG",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/712dY+Mc2pL._AC_UL300_SR300,200_.jpg",
+      "profit_margin": 0.291,
+      "net_profit": 2.42,
+      "cost_breakdown": {
+        "vat": 1.39,
+        "commission": 1.25,
+        "fba": 1.46,
+        "ads": 0.83,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 5.9
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": -10,
+      "div_label": "📉 品类降温(-84%)",
+      "div_info": {
+        "current_heat": 9,
+        "previous_heat": 58,
+        "heat_change_pct": -84.5,
+        "direction": "falling",
+        "dates": [
+          "2026-08-20_0850",
+          "2026-08-20_1711"
+        ]
+      },
+      "signal_level": "none",
+      "signal_label": "⚪ 仅Amazon",
+      "external_sources": [],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 31,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "⚪ 仅Amazon": -10,
+        "🟡 中等竞争": 5,
+        "⭐ 高评分": 5,
+        "💰 较好利润": 4,
+        "📉 无需求信号": -15,
+        "📉 品类降温(-84%)": -10,
+        "⚠️ 未验证": -8,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-08-21",
+      "is_event": false,
+      "channel_tags": [
+        "new_releases"
+      ]
+    },
+    {
+      "asin": "1837997454",
+      "name": "The Morning & Evening Affirmation Deck: Uplifting Mantras and Reflective Thoughts to Inspire You from Dawn to Dusk",
+      "price": 10.74,
+      "reviews": 12,
+      "rating": 4.3,
+      "rank": 36,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "12 reviews, 4.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/1837997454",
+      "image_url": "https://m.media-amazon.com/images/I/71EoHaaSeLL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "affirmation cards",
+      "festival_event": "世界精神卫生日",
+      "festival_icon": "💚",
+      "festival_deadline": "2026-08-24",
+      "is_event": false,
+      "sources": [
+        "📅 世界精神卫生日"
+      ],
+      "profit_margin": 0.353,
+      "net_profit": 3.79,
+      "cost_breakdown": {
+        "vat": 1.79,
+        "commission": 1.61,
+        "fba": 1.46,
+        "ads": 1.07,
+        "returns": 0.21,
+        "sourcing": 0.8,
+        "total_cost": 6.95
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": 14,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🌊 蓝海": 15,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-08-21",
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "1401974449",
+      "name": "Louise Hay's Affirmations for Self-Esteem: A 12-Card Deck for Loving Yourself",
+      "price": 10.01,
+      "reviews": 73,
+      "rating": 4.5,
+      "rank": 42,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "73 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/1401974449",
+      "image_url": "https://m.media-amazon.com/images/I/818bLvgSy6L._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "affirmation cards",
+      "festival_event": "世界精神卫生日",
+      "festival_icon": "💚",
+      "festival_deadline": "2026-08-24",
+      "is_event": false,
+      "sources": [
+        "📅 世界精神卫生日"
+      ],
+      "profit_margin": 0.337,
+      "net_profit": 3.38,
+      "cost_breakdown": {
+        "vat": 1.67,
+        "commission": 1.5,
+        "fba": 1.46,
+        "ads": 1.0,
+        "returns": 0.2,
+        "sourcing": 0.8,
+        "total_cost": 6.63
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": 13,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "📈 趋势(car)": 8,
+        "🟡 中等竞争": 5,
+        "⭐ 高评分": 5,
+        "💰 高利润": 8,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-08-21",
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0H4RWY777",
+      "name": "Zeal Silicone Jar Spoon, Long Handle Jar Scraper for Mayonnaise, Jam & Sauces, Flexible BPA Free Silicone Scraper Spoon,",
+      "price": 9.99,
+      "reviews": 12,
+      "rating": 4.4,
+      "rank": 50,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "12 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H4RWY777",
+      "image_url": "https://m.media-amazon.com/images/I/61uM-R+xCkL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "silicone jar scraper, long handle spatula, jar scraper set, silicone scraper long handle, narrow jar scraper, bottle scraper, kitchen scraper, baking scraper, jam scraper, peanut butter scraper, honey scraper, silicone spatula long handle, jar cleaning tool, narrow container scraper",
+      "sources": [
+        "趋势发现"
+      ],
+      "profit_margin": 0.337,
+      "net_profit": 3.36,
+      "cost_breakdown": {
+        "vat": 1.67,
+        "commission": 1.5,
+        "fba": 1.46,
+        "ads": 1.0,
+        "returns": 0.2,
+        "sourcing": 0.8,
+        "total_cost": 6.63
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": 10,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🌊 蓝海": 15,
+        "💰 高利润": 8,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-08-21",
+      "is_event": false,
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0C9BPW8B5",
+      "name": "WLLHYF 6pcs Color Silicone Spatula 9.8in Non Stick Baking Icing Scraper | Long Handle, Pastel Spreader, Mixing Stir Stic",
+      "price": 8.49,
+      "reviews": 90,
+      "rating": 4.6,
+      "rank": 6,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "90 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0C9BPW8B5",
+      "image_url": "https://m.media-amazon.com/images/I/61Dld3YyTnL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "silicone jar spatula, mini spatula set, jar scraper, silicone scraper, mini spatula, baking scraper, jar spreader, mini silicone spatula, long handle spatula, silicone spatula set, jar scraper tool, spatula for jars, mini scraper, silicone scraper set, kitchen spatula mini",
+      "sources": [
+        "趋势发现"
+      ],
+      "profit_margin": 0.297,
+      "net_profit": 2.52,
+      "cost_breakdown": {
+        "vat": 1.42,
+        "commission": 1.27,
+        "fba": 1.46,
+        "ads": 0.85,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 5.97
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": 1,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🟡 中等竞争": 5,
+        "⭐ 高评分": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-08-21",
+      "is_event": false,
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0BYF8DMBL",
+      "name": "Sponsored Ad – Rubber Spatula, High Heat Resistant Silicone Scraper Spoon Commercial Spatula for Cooking Set of 3",
+      "price": 7.67,
+      "reviews": 48,
+      "rating": 4.5,
+      "rank": 4,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "48 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0BYF8DMBL",
+      "image_url": "https://m.media-amazon.com/images/I/61XzcnZtlZL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "silicone jar scraper, long handle spatula, jar scraper set, silicone scraper long handle, narrow jar scraper, bottle scraper, kitchen scraper, baking scraper, jam scraper, peanut butter scraper, honey scraper, silicone spatula long handle, jar cleaning tool, narrow container scraper",
+      "sources": [
+        "趋势发现"
+      ],
+      "profit_margin": 0.268,
+      "net_profit": 2.06,
+      "cost_breakdown": {
+        "vat": 1.28,
+        "commission": 1.15,
+        "fba": 1.46,
+        "ads": 0.77,
+        "returns": 0.15,
+        "sourcing": 0.8,
+        "total_cost": 5.61
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": -4,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🟢 低竞争": 10,
+        "⭐ 高评分": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "📢 广告位": -10,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-08-21",
+      "is_event": false,
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0DWJNR8MB",
+      "name": "Yoga Straps 1.8M or 2.5M, Durable Cotton Yoga Straps for Stretching, Adjustable Yoga Belt Strap for Dance, Gym Workouts(",
+      "price": 7.49,
+      "reviews": 36,
+      "rating": 5.0,
+      "rank": 5,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "36 reviews, 5.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DWJNR8MB",
+      "image_url": "https://m.media-amazon.com/images/I/61ha4reUU-L._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "yoga strap",
+      "festival_event": "世界精神卫生日",
+      "festival_icon": "💚",
+      "festival_deadline": "2026-08-24",
+      "is_event": false,
+      "sources": [
+        "📅 世界精神卫生日"
+      ],
+      "profit_margin": 0.261,
+      "net_profit": 1.96,
+      "cost_breakdown": {
+        "vat": 1.25,
+        "commission": 1.12,
+        "fba": 1.46,
+        "ads": 0.75,
+        "returns": 0.15,
+        "sourcing": 0.8,
+        "total_cost": 5.53
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": 6,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🟢 低竞争": 10,
+        "⭐ 高评分": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-08-21",
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0FJ19NVCQ",
+      "name": "Foyer Nuage Stretch Bands for Exercise, Non Elastic Yoga Stretching Strap with Loops, 3.8cm x 2.45m, Stretching Bands fo",
+      "price": 10.82,
+      "reviews": 80,
+      "rating": 4.4,
+      "rank": 21,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "80 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FJ19NVCQ",
+      "image_url": "https://m.media-amazon.com/images/I/913M+ri95zL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "yoga strap",
+      "festival_event": "世界精神卫生日",
+      "festival_icon": "💚",
+      "festival_deadline": "2026-08-24",
+      "is_event": false,
+      "sources": [
+        "📅 世界精神卫生日"
+      ],
+      "profit_margin": 0.354,
+      "net_profit": 3.83,
+      "cost_breakdown": {
+        "vat": 1.81,
+        "commission": 1.62,
+        "fba": 1.46,
+        "ads": 1.08,
+        "returns": 0.22,
+        "sourcing": 0.8,
+        "total_cost": 6.99
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": 4,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🟡 中等竞争": 5,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-08-21",
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0D6VX3N6S",
+      "name": "Yoga Straps 1.8M or 2.5M, Durable Cotton Yoga Straps for Stretching, Adjustable Yoga Belt Strap for Dance, Gym Workouts(",
+      "price": 10.82,
+      "reviews": 67,
+      "rating": 4.3,
+      "rank": 23,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "67 reviews, 4.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0D6VX3N6S",
+      "image_url": "https://m.media-amazon.com/images/I/71Nu77gsukL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "yoga strap",
+      "festival_event": "世界精神卫生日",
+      "festival_icon": "💚",
+      "festival_deadline": "2026-08-24",
+      "is_event": false,
+      "sources": [
+        "📅 世界精神卫生日"
+      ],
+      "profit_margin": 0.354,
+      "net_profit": 3.83,
+      "cost_breakdown": {
+        "vat": 1.81,
+        "commission": 1.62,
+        "fba": 1.46,
+        "ads": 1.08,
+        "returns": 0.22,
+        "sourcing": 0.8,
+        "total_cost": 6.99
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": 4,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🟡 中等竞争": 5,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-08-21",
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0D7HTDRD8",
+      "name": "100Pcs Mental Health Stickers for Helmet,Water Bottle,Car,Laptop,Scrapbook,Skateboard, Luggage,Waterproof Mental Health ",
+      "price": 6.61,
+      "reviews": 38,
+      "rating": 4.2,
+      "rank": 34,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "38 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0D7HTDRD8",
+      "image_url": "https://m.media-amazon.com/images/I/91Tv-fYHfPL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "mental health awareness",
+      "festival_event": "世界精神卫生日",
+      "festival_icon": "💚",
+      "festival_deadline": "2026-08-24",
+      "is_event": false,
+      "sources": [
+        "📅 世界精神卫生日"
+      ],
+      "profit_margin": 0.221,
+      "net_profit": 1.46,
+      "cost_breakdown": {
+        "vat": 1.1,
+        "commission": 0.99,
+        "fba": 1.46,
+        "ads": 0.66,
+        "returns": 0.13,
+        "sourcing": 0.8,
+        "total_cost": 5.15
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": 5,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "📈 趋势(car)": 8,
+        "🟢 低竞争": 10,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-08-21",
+      "channel_tags": [
+        "keyword_search"
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "keyword": "crafts",
+      "category": "crafts",
+      "heat": 100,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "art",
+        "craft",
+        "tape"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "art supplies",
+        "paint set",
+        "drawing kit",
+        "craft knife",
+        "craft supplies",
+        "DIY craft kit",
+        "washi tape",
+        "decorative tape"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=art+supplies",
+      "url_google": "https://trends.google.com/trends/explore?q=art+supplies&geo=GB"
+    },
+    {
+      "keyword": "lighting",
+      "category": "lighting",
+      "heat": 94,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "led",
+        "strip",
+        "light"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "LED bulb",
+        "LED light",
+        "LED panel",
+        "LED strip",
+        "LED strip light",
+        "RGB strip",
+        "fairy lights",
+        "string lights"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 94,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=LED+bulb",
+      "url_google": "https://trends.google.com/trends/explore?q=LED+bulb&geo=GB"
+    },
+    {
+      "keyword": "pets",
+      "category": "pets",
+      "heat": 79,
+      "score": 71,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "bed",
+        "cat"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "cat bed",
+        "dog bed",
+        "pet cushion",
+        "cat toy",
+        "cat collar",
+        "cat scratcher"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 79,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=cat+bed",
+      "url_google": "https://trends.google.com/trends/explore?q=cat+bed&geo=GB"
+    },
+    {
+      "keyword": "home decor",
+      "category": "home decor",
+      "heat": 79,
+      "score": 71,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "wall art",
+        "decor",
+        "candle"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "wall art print",
+        "wall hanging",
+        "wall decal",
+        "home decor",
+        "room decor",
+        "table decor",
+        "candle holder",
+        "scented candle"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 79,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=wall+art+print",
+      "url_google": "https://trends.google.com/trends/explore?q=wall+art+print&geo=GB"
+    },
+    {
+      "keyword": "seasonal",
+      "category": "seasonal",
+      "heat": 65,
+      "score": 66,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "birthday",
+        "gift"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "birthday gift",
+        "birthday decoration",
+        "birthday card",
+        "gift ideas",
+        "gift set",
+        "gift box"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 65,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=birthday+gift",
+      "url_google": "https://trends.google.com/trends/explore?q=birthday+gift&geo=GB"
+    },
+    {
+      "keyword": "car",
+      "category": "car",
+      "heat": 58,
+      "score": 64,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "vehicle",
+        "car",
+        "motor"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "vehicle",
+        "car accessories",
+        "car organizer",
+        "car phone holder",
+        "motorcycle accessories",
+        "motorcycle cover"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 58,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=vehicle",
+      "url_google": "https://trends.google.com/trends/explore?q=vehicle&geo=GB"
+    },
+    {
+      "keyword": "beauty",
+      "category": "beauty",
+      "heat": 58,
+      "score": 64,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "hair",
+        "makeup",
+        "skincare"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "hair clip",
+        "hair accessories",
+        "hair band",
+        "hair tie",
+        "makeup brush set",
+        "makeup bag",
+        "makeup organizer",
+        "face roller"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 58,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=hair+clip",
+      "url_google": "https://trends.google.com/trends/explore?q=hair+clip&geo=GB"
+    },
+    {
+      "keyword": "travel",
+      "category": "travel",
+      "heat": 51,
+      "score": 62,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "toiletry",
+        "packing",
+        "travel"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "toiletry",
+        "packing",
+        "travel"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 51,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=toiletry",
+      "url_google": "https://trends.google.com/trends/explore?q=toiletry&geo=GB"
+    },
+    {
+      "keyword": "phone",
+      "category": "phone",
+      "heat": 44,
+      "score": 59,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "charger",
+        "stand",
+        "phone"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "phone charger",
+        "wireless charger",
+        "car charger",
+        "stand",
+        "phone case",
+        "phone holder",
+        "phone stand"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 44,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=phone+charger",
+      "url_google": "https://trends.google.com/trends/explore?q=phone+charger&geo=GB"
+    },
+    {
+      "keyword": "kitchen",
+      "category": "kitchen",
+      "heat": 86,
+      "score": 53,
+      "gap_level": "weak",
+      "amazon_count": 5,
+      "amazon_reviews": 58469,
+      "evidence": [
+        "gadget",
+        "mug",
+        "utensil",
+        "kitchen"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "gadget",
+        "utensil",
+        "kitchen"
+      ],
+      "sd_info": {
+        "ratio": 7.8,
+        "demand": 86,
+        "supply": 58469,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=gadget",
+      "url_google": "https://trends.google.com/trends/explore?q=gadget&geo=GB"
+    },
+    {
+      "keyword": "eco",
+      "category": "eco",
+      "heat": 50,
+      "score": 46,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "reusable",
+        "eco"
+      ],
+      "is_cross_validated": false,
+      "cross_sources": 0,
+      "suggestions": [
+        "reusable food wrap",
+        "reusable straws",
+        "reusable bags",
+        "eco products",
+        "reusable bag",
+        "bamboo products"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 50,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=reusable+food+wrap",
+      "url_google": "https://trends.google.com/trends/explore?q=reusable+food+wrap&geo=GB"
+    }
+  ],
+  "trend_summary": {
+    "top_categories": [
+      [
+        "crafts",
+        100
+      ],
+      [
+        "lighting",
+        94
+      ],
+      [
+        "kitchen",
+        86
+      ],
+      [
+        "pets",
+        79
+      ],
+      [
+        "home decor",
+        79
+      ],
+      [
+        "seasonal",
+        65
+      ]
+    ],
+    "cross_validated": [
+      "kitchen",
+      "bathroom",
+      "car",
+      "crafts",
+      "travel",
+      "phone",
+      "beauty",
+      "seasonal",
+      "storage",
+      "lighting",
+      "pets",
+      "home decor"
+    ],
+    "demand_keywords": [
+      "dollar oysters",
+      "explore the top",
+      "explore trending products",
+      "magnetic eyelashes",
+      "magnetic phone charger",
+      "may have to close up",
+      "my account is still open",
+      "perfumes and",
+      "personalized ornaments",
+      "posture corrector"
+    ],
+    "season": "summer",
+    "sources_scanned": [
+      "tiktok",
+      "temu",
+      "etsy",
+      "market_intel"
+    ]
+  }
+}
