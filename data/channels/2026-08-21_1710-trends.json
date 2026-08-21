@@ -1,0 +1,189 @@
+{
+  "category_scores": {
+    "kitchen": 90,
+    "bathroom": 17,
+    "car": 57,
+    "crafts": 100,
+    "travel": 40,
+    "phone": 73,
+    "beauty": 42,
+    "cleaning": 33,
+    "seasonal": 90,
+    "lighting": 90,
+    "pets": 82,
+    "kitchen_gadgets": 40,
+    "home decor": 58,
+    "baby": 17,
+    "eco": 82,
+    "office": 25,
+    "storage": 8,
+    "bedding": 8
+  },
+  "category_evidence": {
+    "kitchen": [
+      "gadget",
+      "kitchen",
+      "mug"
+    ],
+    "bathroom": [
+      "toilet"
+    ],
+    "car": [
+      "car"
+    ],
+    "crafts": [
+      "art",
+      "craft"
+    ],
+    "travel": [
+      "packing",
+      "toiletry"
+    ],
+    "phone": [
+      "phone",
+      "cable",
+      "earbuds",
+      "stand",
+      "charger"
+    ],
+    "beauty": [
+      "skincare",
+      "hair"
+    ],
+    "cleaning": [
+      "mop",
+      "cleaning",
+      "cleaner"
+    ],
+    "seasonal": [
+      "birthday",
+      "gift"
+    ],
+    "lighting": [
+      "led",
+      "light"
+    ],
+    "pets": [
+      "bed",
+      "cat"
+    ],
+    "kitchen_gadgets": [
+      "kitchen gadget"
+    ],
+    "home decor": [
+      "decor",
+      "wall art"
+    ],
+    "baby": [
+      "baby",
+      "kids"
+    ],
+    "eco": [
+      "eco",
+      "reusable"
+    ],
+    "office": [
+      "office",
+      "pen",
+      "desk"
+    ],
+    "storage": [
+      "storage"
+    ],
+    "bedding": [
+      "bedding"
+    ]
+  },
+  "source_signals": {
+    "tiktok": {
+      "kitchen": 4,
+      "bathroom": 1,
+      "car": 3,
+      "crafts": 3,
+      "travel": 1,
+      "phone": 2,
+      "beauty": 3,
+      "cleaning": 2,
+      "seasonal": 2,
+      "lighting": 2,
+      "pets": 1,
+      "kitchen_gadgets": 1
+    },
+    "temu": {
+      "car": 1,
+      "lighting": 5,
+      "pets": 3,
+      "crafts": 4,
+      "beauty": 2,
+      "home decor": 2,
+      "baby": 1,
+      "eco": 4,
+      "seasonal": 3,
+      "kitchen": 2,
+      "office": 1,
+      "travel": 1,
+      "phone": 4,
+      "kitchen_gadgets": 1
+    },
+    "etsy": {
+      "kitchen": 1,
+      "lighting": 2,
+      "crafts": 4,
+      "home decor": 5,
+      "baby": 1,
+      "eco": 3,
+      "seasonal": 4,
+      "bathroom": 1,
+      "office": 2,
+      "pets": 2,
+      "travel": 1
+    },
+    "market_intel": {
+      "kitchen": 2,
+      "cleaning": 2,
+      "car": 1,
+      "storage": 1,
+      "pets": 2,
+      "crafts": 1,
+      "bedding": 1,
+      "phone": 1,
+      "kitchen_gadgets": 1,
+      "eco": 1
+    }
+  },
+  "cross_validated": {
+    "kitchen": 4,
+    "car": 3,
+    "crafts": 4,
+    "travel": 3,
+    "phone": 3,
+    "seasonal": 3,
+    "lighting": 3,
+    "pets": 4,
+    "kitchen_gadgets": 3,
+    "eco": 3
+  },
+  "demand_keywords": [
+    "explore trending products",
+    "magnetic eyelashes",
+    "magnetic phone charger",
+    "may have to close up",
+    "my account is still open",
+    "perfumes and",
+    "personalized ornaments",
+    "posture corrector",
+    "shop like a billionaire",
+    "temu products selling on amazon",
+    "temu vs",
+    "tiktok made me buy it",
+    "toiletry bag",
+    "top trending",
+    "top trending sold on",
+    "trending on",
+    "unusual new gadgets sold on",
+    "what things are worth buying"
+  ],
+  "season": "summer",
+  "total_queries": 10,
+  "total_results_chars": 22903
+}
