@@ -1,0 +1,2012 @@
+{
+  "scan_date": "2026-08-24",
+  "scan_time": "08:50",
+  "scan_ts": "2026-08-24_0850",
+  "stats": {
+    "total_scanned": 405,
+    "passed_filter": 18,
+    "rejected": 380,
+    "channels": {
+      "temu_trending": 10,
+      "keyword_search": 18,
+      "tiktok_verified": 9,
+      "google_trends": 1,
+      "multi_source": 13,
+      "etsy_trending": 8,
+      "event_product": 1
+    },
+    "detail_reject": {
+      "重量超标": 5
+    },
+    "theme_trimmed": [
+      {
+        "asin": "B09NN2XR72",
+        "name": "AFSTALR Bracelet Inspirational Bracelets Women Silver Mantra Cuff Bracelet Bangle Crown Jewelry Gifts"
+      },
+      {
+        "asin": "B07WP7884T",
+        "name": "Sponsored Ad – CERSLIMO Friendship Bracelet for Womens - Inspirational Friendship Gifts for Best Friend, Motivational Cu"
+      },
+      {
+        "asin": "B0GD6Z8H6R",
+        "name": "Sponsored Ad – HULALA Inspirational You Are Awesome Gifts For Women Girls Best Friend Daughter Granddaughter Birthday Ch"
+      },
+      {
+        "asin": "B0D7LW2TG1",
+        "name": "Affirmation Moments – 53 Positive Affirmation Cards for Women with Display Stand, Daily Inspirational Cards for Mindfuln"
+      },
+      {
+        "asin": "B0G4GLHNLX",
+        "name": "Sponsored Ad – Kaderas Mental Health Wall Decor Poster, Positive Affirmations Inspirational Wall Art for Office Classroo"
+      },
+      {
+        "asin": "B0B2L8Q458",
+        "name": "Sponsored Ad – Graduation Bracelets 2026 for Womens,High School Class Graduation Personalized Inspirational bracelets, W"
+      },
+      {
+        "asin": "B0813CL5VW",
+        "name": "Jovivi Silver Cuff Bracelet Bangle Adjustable for Women Men Stainless Steel Engraved Inspirational Bracelet Friendship B"
+      }
+    ],
+    "trend_categories": {
+      "crafts": 100,
+      "lighting": 100,
+      "pets": 98,
+      "kitchen": 90,
+      "seasonal": 90,
+      "home decor": 82
+    },
+    "supply_demand": {
+      "lighting": {
+        "ratio": 8.0,
+        "demand": 100,
+        "supply": 287459,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "pets": {
+        "ratio": 7.8,
+        "demand": 98,
+        "supply": 302877,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "kitchen": {
+        "ratio": 7.2,
+        "demand": 90,
+        "supply": 280278,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "kitchen_gadgets": {
+        "ratio": 3.2,
+        "demand": 40,
+        "supply": 280278,
+        "label": "💧 浅蓝海",
+        "level": "light_blue"
+      },
+      "garden": {
+        "ratio": 0,
+        "demand": 25,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "storage": {
+        "ratio": 0,
+        "demand": 40,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "crafts": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "travel": {
+        "ratio": 0,
+        "demand": 65,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      }
+    },
+    "divergences": {
+      "kitchen": {
+        "current_heat": 90,
+        "previous_heat": 86,
+        "heat_change_pct": 4.7,
+        "direction": "stable",
+        "dates": [
+          "2026-08-21_0850",
+          "2026-08-21_1710"
+        ]
+      },
+      "bathroom": {
+        "current_heat": 17,
+        "previous_heat": 36,
+        "heat_change_pct": -52.8,
+        "direction": "falling",
+        "dates": [
+          "2026-08-21_0850",
+          "2026-08-21_1710"
+        ]
+      },
+      "car": {
+        "current_heat": 57,
+        "previous_heat": 58,
+        "heat_change_pct": -1.7,
+        "direction": "stable",
+        "dates": [
+          "2026-08-21_0850",
+          "2026-08-21_1710"
+        ]
+      },
+      "crafts": {
+        "current_heat": 100,
+        "previous_heat": 100,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-21_0850",
+          "2026-08-21_1710"
+        ]
+      },
+      "travel": {
+        "current_heat": 40,
+        "previous_heat": 51,
+        "heat_change_pct": -21.6,
+        "direction": "falling",
+        "dates": [
+          "2026-08-21_0850",
+          "2026-08-21_1710"
+        ]
+      },
+      "phone": {
+        "current_heat": 73,
+        "previous_heat": 44,
+        "heat_change_pct": 65.9,
+        "direction": "rising",
+        "dates": [
+          "2026-08-21_0850",
+          "2026-08-21_1710"
+        ]
+      },
+      "beauty": {
+        "current_heat": 42,
+        "previous_heat": 58,
+        "heat_change_pct": -27.6,
+        "direction": "falling",
+        "dates": [
+          "2026-08-21_0850",
+          "2026-08-21_1710"
+        ]
+      },
+      "cleaning": {
+        "current_heat": 33,
+        "previous_heat": 14,
+        "heat_change_pct": 135.7,
+        "direction": "rising",
+        "dates": [
+          "2026-08-21_0850",
+          "2026-08-21_1710"
+        ]
+      },
+      "seasonal": {
+        "current_heat": 90,
+        "previous_heat": 65,
+        "heat_change_pct": 38.5,
+        "direction": "rising",
+        "dates": [
+          "2026-08-21_0850",
+          "2026-08-21_1710"
+        ]
+      },
+      "lighting": {
+        "current_heat": 90,
+        "previous_heat": 94,
+        "heat_change_pct": -4.3,
+        "direction": "stable",
+        "dates": [
+          "2026-08-21_0850",
+          "2026-08-21_1710"
+        ]
+      },
+      "pets": {
+        "current_heat": 82,
+        "previous_heat": 79,
+        "heat_change_pct": 3.8,
+        "direction": "stable",
+        "dates": [
+          "2026-08-21_0850",
+          "2026-08-21_1710"
+        ]
+      },
+      "kitchen_gadgets": {
+        "current_heat": 40,
+        "previous_heat": 14,
+        "heat_change_pct": 185.7,
+        "direction": "rising",
+        "dates": [
+          "2026-08-21_0850",
+          "2026-08-21_1710"
+        ]
+      },
+      "home decor": {
+        "current_heat": 58,
+        "previous_heat": 79,
+        "heat_change_pct": -26.6,
+        "direction": "falling",
+        "dates": [
+          "2026-08-21_0850",
+          "2026-08-21_1710"
+        ]
+      },
+      "baby": {
+        "current_heat": 17,
+        "previous_heat": 21,
+        "heat_change_pct": -19.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-21_0850",
+          "2026-08-21_1710"
+        ]
+      },
+      "eco": {
+        "current_heat": 82,
+        "previous_heat": 50,
+        "heat_change_pct": 64.0,
+        "direction": "rising",
+        "dates": [
+          "2026-08-21_0850",
+          "2026-08-21_1710"
+        ]
+      },
+      "office": {
+        "current_heat": 25,
+        "previous_heat": 21,
+        "heat_change_pct": 19.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-21_0850",
+          "2026-08-21_1710"
+        ]
+      },
+      "storage": {
+        "current_heat": 8,
+        "previous_heat": 36,
+        "heat_change_pct": -77.8,
+        "direction": "falling",
+        "dates": [
+          "2026-08-21_0850",
+          "2026-08-21_1710"
+        ]
+      },
+      "bedding": {
+        "current_heat": 8,
+        "previous_heat": 14,
+        "heat_change_pct": -42.9,
+        "direction": "falling",
+        "dates": [
+          "2026-08-21_0850",
+          "2026-08-21_1710"
+        ]
+      }
+    },
+    "gap_opportunities": 11
+  },
+  "products": [
+    {
+      "asin": "B0DDCGNN72",
+      "name": "Sponsored Ad – Sxutop 4 PCS Straw Lid Standard Mouth Water Bottle Lid Replacement Standard Size Straw Lids with Straws f",
+      "price": 9.16,
+      "reviews": 44,
+      "rating": 3.8,
+      "rank": 20,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "44 reviews, 3.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DDCGNN72",
+      "image_url": "https://m.media-amazon.com/images/I/7170NL8vHkL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "silicone soda can lids with straw, soda can lids with straw, drink can lid with straw, reusable soda can lid with straw, silicone can lid with straw, soda can cover with straw, can lid with straw, silicone straw can lid, drink saver lid with straw, soda can lid straw, can cover with silicone straw, reusable can lid with straw",
+      "sources": [
+        "趋势发现",
+        "Google趋势",
+        "Temu热销",
+        "TikTok趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.316,
+      "net_profit": 2.9,
+      "cost_breakdown": {
+        "vat": 1.53,
+        "commission": 1.37,
+        "fba": 1.46,
+        "ads": 0.92,
+        "returns": 0.18,
+        "sourcing": 0.8,
+        "total_cost": 6.26
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Google",
+        "Temu"
+      ],
+      "internal_sources": [],
+      "score": 117,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "🛒 Temu": 8,
+        "🔴 强信号": 20,
+        "🔥 多源热门(phone)": 21,
+        "🟢 低竞争": 10,
+        "💰 高利润": 8,
+        "❓ 品类存疑": -5,
+        "📢 广告位": -10,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-24",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "temu_trending",
+        "keyword_search",
+        "tiktok_verified",
+        "google_trends",
+        "multi_source"
+      ]
+    },
+    {
+      "asin": "B0GYNTTVZR",
+      "name": "kedofa Natural Stone Healing Bracelet for Women: Inspirational Thank You Gift for Teacher Coworker Mum Sister Friend, Bi",
+      "price": 11.99,
+      "reviews": 25,
+      "rating": 4.2,
+      "rank": 61,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "25 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GYNTTVZR",
+      "image_url": "https://m.media-amazon.com/images/I/51opTHUim4L._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "inspirational bracelet",
+      "festival_event": "世界精神卫生日",
+      "festival_icon": "💚",
+      "festival_deadline": "2026-08-24",
+      "is_event": false,
+      "sources": [
+        "📅 世界精神卫生日",
+        "Temu热销",
+        "TikTok趋势",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.375,
+      "net_profit": 4.49,
+      "cost_breakdown": {
+        "vat": 2.0,
+        "commission": 1.8,
+        "fba": 1.46,
+        "ads": 1.2,
+        "returns": 0.24,
+        "sourcing": 0.8,
+        "total_cost": 7.5
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 114,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(seasonal)": 21,
+        "🟢 低竞争": 10,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-24",
+      "is_multi": true,
+      "channel_tags": [
+        "temu_trending",
+        "etsy_trending",
+        "keyword_search",
+        "tiktok_verified",
+        "multi_source"
+      ]
+    },
+    {
+      "asin": "B0F93CQVBQ",
+      "name": "Motivational Desk Calendar - Positive Affirmation gifts | Affirmations Desk Calendar with Inspirational Quotes, Useful G",
+      "price": 6.66,
+      "reviews": 15,
+      "rating": 4.7,
+      "rank": 11,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "15 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0F93CQVBQ",
+      "image_url": "https://m.media-amazon.com/images/I/61hP5VRwZbL._AC_UY218_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "positive quotes",
+      "festival_event": "世界精神卫生日",
+      "festival_icon": "💚",
+      "festival_deadline": "2026-08-24",
+      "is_event": false,
+      "sources": [
+        "📅 世界精神卫生日",
+        "TikTok趋势",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.224,
+      "net_profit": 1.49,
+      "cost_breakdown": {
+        "vat": 1.11,
+        "commission": 1.0,
+        "fba": 1.46,
+        "ads": 0.67,
+        "returns": 0.13,
+        "sourcing": 0.8,
+        "total_cost": 5.17
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 112,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(seasonal)": 21,
+        "🌊 蓝海": 15,
+        "⭐ 高评分": 5,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-24",
+      "is_multi": true,
+      "channel_tags": [
+        "temu_trending",
+        "etsy_trending",
+        "keyword_search",
+        "tiktok_verified",
+        "multi_source"
+      ]
+    },
+    {
+      "asin": "B0GYNZRQH6",
+      "name": "Sponsored Ad – kedofa Natural Stone Healing Bracelet for Women: Inspirational Thank You Gift for Teacher Coworker Mum Si",
+      "price": 12.99,
+      "reviews": 25,
+      "rating": 4.2,
+      "rank": 17,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "25 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GYNZRQH6",
+      "image_url": "https://m.media-amazon.com/images/I/81kNh73iUUL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "inspirational bracelet",
+      "festival_event": "世界精神卫生日",
+      "festival_icon": "💚",
+      "festival_deadline": "2026-08-24",
+      "is_event": false,
+      "sources": [
+        "📅 世界精神卫生日",
+        "Temu热销",
+        "TikTok趋势",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.389,
+      "net_profit": 5.05,
+      "cost_breakdown": {
+        "vat": 2.17,
+        "commission": 1.95,
+        "fba": 1.46,
+        "ads": 1.3,
+        "returns": 0.26,
+        "sourcing": 0.8,
+        "total_cost": 7.94
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 104,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(seasonal)": 21,
+        "🟢 低竞争": 10,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "📢 广告位": -10,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-24",
+      "is_multi": true,
+      "channel_tags": [
+        "temu_trending",
+        "etsy_trending",
+        "keyword_search",
+        "tiktok_verified",
+        "multi_source"
+      ]
+    },
+    {
+      "asin": "B0FQCSZLJR",
+      "name": "Secret Santa Gifts for Women Daily Mindfulness Desk Calendar | Stocking Filler For Women - Mindfulness Gifts for Women -",
+      "price": 6.66,
+      "reviews": 42,
+      "rating": 4.6,
+      "rank": 21,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "42 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FQCSZLJR",
+      "image_url": "https://m.media-amazon.com/images/I/71HgoMDdHgL._AC_UY218_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "positive quotes",
+      "festival_event": "世界精神卫生日",
+      "festival_icon": "💚",
+      "festival_deadline": "2026-08-24",
+      "is_event": false,
+      "sources": [
+        "📅 世界精神卫生日",
+        "TikTok趋势",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.224,
+      "net_profit": 1.49,
+      "cost_breakdown": {
+        "vat": 1.11,
+        "commission": 1.0,
+        "fba": 1.46,
+        "ads": 0.67,
+        "returns": 0.13,
+        "sourcing": 0.8,
+        "total_cost": 5.17
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 107,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(seasonal)": 21,
+        "🟢 低竞争": 10,
+        "⭐ 高评分": 5,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-24",
+      "is_multi": true,
+      "channel_tags": [
+        "temu_trending",
+        "etsy_trending",
+        "keyword_search",
+        "tiktok_verified",
+        "multi_source"
+      ]
+    },
+    {
+      "asin": "B08GV7BD4K",
+      "name": "Medical ID Me Set of 4 Mental Health Matters Awareness Bracelet Motivational Men's Women's Mental Health MHA",
+      "price": 6.66,
+      "reviews": 92,
+      "rating": 4.4,
+      "rank": 55,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "92 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B08GV7BD4K",
+      "image_url": "https://m.media-amazon.com/images/I/71LXBO4GoNL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "mental health awareness",
+      "festival_event": "世界精神卫生日",
+      "festival_icon": "💚",
+      "festival_deadline": "2026-08-24",
+      "is_event": false,
+      "sources": [
+        "📅 世界精神卫生日"
+      ],
+      "profit_margin": 0.224,
+      "net_profit": 1.49,
+      "cost_breakdown": {
+        "vat": 1.11,
+        "commission": 1.0,
+        "fba": 1.46,
+        "ads": 0.67,
+        "returns": 0.13,
+        "sourcing": 0.8,
+        "total_cost": 5.17
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": 0,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🟡 中等竞争": 5,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-08-24",
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B08GTZ42YG",
+      "name": "Medical ID Me Set of 4 Mental Health Matters Awareness Bracelet Motivational Men's Women's Mental Health MHA",
+      "price": 6.66,
+      "reviews": 92,
+      "rating": 4.4,
+      "rank": 35,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "92 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B08GTZ42YG",
+      "image_url": "https://m.media-amazon.com/images/I/71LXBO4GoNL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "mental health awareness",
+      "festival_event": "世界精神卫生日",
+      "festival_icon": "💚",
+      "festival_deadline": "2026-08-24",
+      "is_event": false,
+      "sources": [
+        "📅 世界精神卫生日"
+      ],
+      "profit_margin": 0.224,
+      "net_profit": 1.49,
+      "cost_breakdown": {
+        "vat": 1.11,
+        "commission": 1.0,
+        "fba": 1.46,
+        "ads": 0.67,
+        "returns": 0.13,
+        "sourcing": 0.8,
+        "total_cost": 5.17
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": -18,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🟡 中等竞争": 5,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 1,
+      "is_new": false,
+      "first_seen": "2026-08-21",
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0CST521C7",
+      "name": "Gift Republic Mindful Minutes Meditation Cards and 5 Minute Sand Timer Calming Meditation Gift Mindfulness Self-Care Aff",
+      "price": 8.32,
+      "reviews": 34,
+      "rating": 4.7,
+      "rank": 55,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "34 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CST521C7",
+      "image_url": "https://m.media-amazon.com/images/I/71XfvcMJT3L._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "affirmation cards",
+      "festival_event": "世界精神卫生日",
+      "festival_icon": "💚",
+      "festival_deadline": "2026-08-24",
+      "is_event": false,
+      "sources": [
+        "📅 世界精神卫生日",
+        "Temu热销",
+        "TikTok趋势",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.291,
+      "net_profit": 2.42,
+      "cost_breakdown": {
+        "vat": 1.39,
+        "commission": 1.25,
+        "fba": 1.46,
+        "ads": 0.83,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 5.9
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 96,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "📈 趋势(car)": 8,
+        "🟢 低竞争": 10,
+        "⭐ 高评分": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 4,
+      "is_new": false,
+      "first_seen": "2026-08-21",
+      "is_multi": true,
+      "channel_tags": [
+        "temu_trending",
+        "etsy_trending",
+        "keyword_search",
+        "tiktok_verified",
+        "multi_source"
+      ]
+    },
+    {
+      "asin": "1837996393",
+      "name": "The Little Box of Positivity: 52 Beautiful Cards to Brighten Your Day",
+      "price": 7.12,
+      "reviews": 47,
+      "rating": 4.5,
+      "rank": 20,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "47 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/1837996393",
+      "image_url": "https://m.media-amazon.com/images/I/61q0DYxAmCL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "affirmation cards",
+      "festival_event": "世界精神卫生日",
+      "festival_icon": "💚",
+      "festival_deadline": "2026-08-24",
+      "is_event": false,
+      "sources": [
+        "📅 世界精神卫生日",
+        "Reddit需求"
+      ],
+      "profit_margin": 0.246,
+      "net_profit": 1.75,
+      "cost_breakdown": {
+        "vat": 1.19,
+        "commission": 1.07,
+        "fba": 1.46,
+        "ads": 0.71,
+        "returns": 0.14,
+        "sourcing": 0.8,
+        "total_cost": 5.37
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "_degraded": true,
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "weak",
+      "signal_label": "🟡 弱信号",
+      "external_sources": [
+        "Reddit"
+      ],
+      "internal_sources": [],
+      "score": 35,
+      "score_breakdown": {
+        "💬 Reddit": 5,
+        "📈 趋势(storage)": 8,
+        "🟢 低竞争": 10,
+        "⭐ 高评分": 5,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 1,
+      "is_new": false,
+      "first_seen": "2026-08-21",
+      "is_multi": true,
+      "channel_tags": [
+        "keyword_search",
+        "multi_source"
+      ]
+    },
+    {
+      "asin": "B0GYSRXVJQ",
+      "name": "Sponsored Ad – Cushion Covers Mental Health Awareness Gifts Sensory Room Must Haves Autism Equipment Psychology Therapis",
+      "price": 6.66,
+      "reviews": 24,
+      "rating": 3.8,
+      "rank": 17,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "24 reviews, 3.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GYSRXVJQ",
+      "image_url": "https://m.media-amazon.com/images/I/71gWSAi+2TL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "mental health awareness",
+      "festival_event": "世界精神卫生日",
+      "festival_icon": "💚",
+      "festival_deadline": "2026-08-24",
+      "is_event": false,
+      "sources": [
+        "📅 世界精神卫生日",
+        "TikTok趋势",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.224,
+      "net_profit": 1.49,
+      "cost_breakdown": {
+        "vat": 1.11,
+        "commission": 1.0,
+        "fba": 1.46,
+        "ads": 0.67,
+        "returns": 0.13,
+        "sourcing": 0.8,
+        "total_cost": 5.17
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 92,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(seasonal)": 21,
+        "🟢 低竞争": 10,
+        "❓ 品类存疑": -5,
+        "📢 广告位": -10,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 4,
+      "is_new": true,
+      "first_seen": "2026-08-24",
+      "is_multi": true,
+      "channel_tags": [
+        "temu_trending",
+        "etsy_trending",
+        "keyword_search",
+        "tiktok_verified",
+        "multi_source"
+      ]
+    },
+    {
+      "asin": "B0FM2GSC4Q",
+      "name": "Sponsored Ad – Tixlux Positive Turtle Gifts, Handmade Positive Cute Knitted Turtle, with Pocket Hug Lucky Charm, Good Lu",
+      "price": 7.07,
+      "reviews": 80,
+      "rating": 4.6,
+      "rank": 62,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "80 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FM2GSC4Q",
+      "image_url": "https://m.media-amazon.com/images/I/71P6noumxvL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "affirmation cards",
+      "festival_event": "世界精神卫生日",
+      "festival_icon": "💚",
+      "festival_deadline": "2026-08-24",
+      "is_event": false,
+      "sources": [
+        "📅 世界精神卫生日",
+        "TikTok趋势",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.243,
+      "net_profit": 1.72,
+      "cost_breakdown": {
+        "vat": 1.18,
+        "commission": 1.06,
+        "fba": 1.46,
+        "ads": 0.71,
+        "returns": 0.14,
+        "sourcing": 0.8,
+        "total_cost": 5.35
+      },
+      "off_season": true,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 72,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(seasonal)": 21,
+        "🟡 中等竞争": 5,
+        "⭐ 高评分": 5,
+        "❓ 品类存疑": -5,
+        "❄️ 过季降权": -20,
+        "📢 广告位": -10,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 3,
+      "is_new": true,
+      "first_seen": "2026-08-24",
+      "is_multi": true,
+      "channel_tags": [
+        "temu_trending",
+        "etsy_trending",
+        "keyword_search",
+        "tiktok_verified",
+        "multi_source"
+      ]
+    },
+    {
+      "asin": "B0CM3ZVD62",
+      "name": "Sponsored Ad – Mindset Ambition Success Quotes set of 3 Unframed Prints, Home Decor, Positive Definition Wall Art, Typog",
+      "price": 12.49,
+      "reviews": 90,
+      "rating": 4.5,
+      "rank": 6,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "90 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CM3ZVD62",
+      "image_url": "https://m.media-amazon.com/images/I/71GeIUEflBL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "positive quotes",
+      "festival_event": "世界精神卫生日",
+      "festival_icon": "💚",
+      "festival_deadline": "2026-08-24",
+      "is_event": false,
+      "sources": [
+        "📅 世界精神卫生日",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.382,
+      "net_profit": 4.77,
+      "cost_breakdown": {
+        "vat": 2.09,
+        "commission": 1.87,
+        "fba": 1.46,
+        "ads": 1.25,
+        "returns": 0.25,
+        "sourcing": 0.8,
+        "total_cost": 7.72
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "medium",
+      "signal_label": "🟠 中信号",
+      "external_sources": [
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 84,
+      "score_breakdown": {
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🟠 中信号": 10,
+        "🔥 多源热门(crafts)": 23,
+        "🟡 中等竞争": 5,
+        "⭐ 高评分": 5,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "📢 广告位": -10,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 4,
+      "is_new": true,
+      "first_seen": "2026-08-24",
+      "is_multi": true,
+      "channel_tags": [
+        "keyword_search",
+        "temu_trending",
+        "etsy_trending",
+        "multi_source"
+      ]
+    },
+    {
+      "asin": "B0DM2PFXDG",
+      "name": "LSW London Affirmation Cards for Growth & Positive Mindset | 50 Daily Manifests - Confidence, Career, Health, Relationsh",
+      "price": 12.49,
+      "reviews": 159,
+      "rating": 4.4,
+      "rank": 48,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "159 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DM2PFXDG",
+      "image_url": "https://m.media-amazon.com/images/I/61PKZyTBhwL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "affirmation cards",
+      "festival_event": "世界精神卫生日",
+      "festival_icon": "💚",
+      "festival_deadline": "2026-08-24",
+      "is_event": false,
+      "sources": [
+        "📅 世界精神卫生日",
+        "Reddit需求"
+      ],
+      "profit_margin": 0.382,
+      "net_profit": 4.77,
+      "cost_breakdown": {
+        "vat": 2.09,
+        "commission": 1.87,
+        "fba": 1.46,
+        "ads": 1.25,
+        "returns": 0.25,
+        "sourcing": 0.8,
+        "total_cost": 7.72
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "weak",
+      "signal_label": "🟡 弱信号",
+      "external_sources": [
+        "Reddit"
+      ],
+      "internal_sources": [],
+      "score": 42,
+      "score_breakdown": {
+        "💬 Reddit": 5,
+        "📈 趋势(car)": 8,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 2,
+      "is_new": true,
+      "first_seen": "2026-08-24",
+      "is_multi": true,
+      "channel_tags": [
+        "keyword_search",
+        "multi_source"
+      ]
+    },
+    {
+      "asin": "B0DN6WB9M9",
+      "name": "Second Ave 100 Positive Affirmation Cards Inspiring Motivational Quotes Mindfulness Christmas Xmas Stocking Filler Secre",
+      "price": 6.24,
+      "reviews": 43,
+      "rating": 4.6,
+      "rank": 27,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "43 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DN6WB9M9",
+      "image_url": "https://m.media-amazon.com/images/I/51EmcBcbMXL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "affirmation cards",
+      "festival_event": "世界精神卫生日",
+      "festival_icon": "💚",
+      "festival_deadline": "2026-08-24",
+      "is_event": true,
+      "sources": [
+        "📅 世界精神卫生日",
+        "Reddit需求"
+      ],
+      "profit_margin": 0.201,
+      "net_profit": 1.25,
+      "cost_breakdown": {
+        "vat": 1.04,
+        "commission": 0.94,
+        "fba": 1.46,
+        "ads": 0.62,
+        "returns": 0.12,
+        "sourcing": 0.8,
+        "total_cost": 4.99
+      },
+      "off_season": true,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "weak",
+      "signal_label": "🟡 弱信号",
+      "external_sources": [
+        "Reddit"
+      ],
+      "internal_sources": [],
+      "score": 33,
+      "score_breakdown": {
+        "💬 Reddit": 5,
+        "📈 趋势(car)": 8,
+        "🟢 低竞争": 10,
+        "⭐ 高评分": 5,
+        "❓ 品类存疑": -5,
+        "❄️ 过季降权": -20,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-08-24",
+      "is_multi": true,
+      "channel_tags": [
+        "keyword_search",
+        "event_product",
+        "multi_source"
+      ]
+    },
+    {
+      "asin": "B0GSZ2XSCB",
+      "name": "Sponsored Ad – sportsnew Water Bottle Carrier Bag Insulated with Strap,Phone Pocket,Green | Water-resistant Adjustable C",
+      "price": 7.91,
+      "reviews": 58,
+      "rating": 4.1,
+      "rank": 59,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "58 reviews, 4.1★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GSZ2XSCB",
+      "image_url": "https://m.media-amazon.com/images/I/81vIV-kF8NL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "silicone soda can lids with straw, soda can lids with straw, drink can lid with straw, reusable soda can lid with straw, silicone can lid with straw, soda can cover with straw, can lid with straw, silicone straw can lid, drink saver lid with straw, soda can lid straw, can cover with silicone straw, reusable can lid with straw",
+      "sources": [
+        "趋势发现",
+        "Temu热销",
+        "TikTok趋势"
+      ],
+      "profit_margin": 0.277,
+      "net_profit": 2.19,
+      "cost_breakdown": {
+        "vat": 1.32,
+        "commission": 1.19,
+        "fba": 1.46,
+        "ads": 0.79,
+        "returns": 0.16,
+        "sourcing": 0.8,
+        "total_cost": 5.72
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "medium",
+      "signal_label": "🟠 中信号",
+      "external_sources": [
+        "TikTok",
+        "Temu"
+      ],
+      "internal_sources": [],
+      "score": 62,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🟠 中信号": 10,
+        "📈 趋势(car)": 8,
+        "🟡 中等竞争": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "📢 广告位": -10,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 3,
+      "is_new": true,
+      "first_seen": "2026-08-24",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "tiktok_verified",
+        "keyword_search",
+        "temu_trending",
+        "multi_source"
+      ]
+    },
+    {
+      "asin": "B0DWJNR8MB",
+      "name": "Yoga Straps 1.8M or 2.5M, Durable Cotton Yoga Straps for Stretching, Adjustable Yoga Belt Strap for Dance, Gym Workouts(",
+      "price": 7.49,
+      "reviews": 36,
+      "rating": 5.0,
+      "rank": 16,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "36 reviews, 5.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DWJNR8MB",
+      "image_url": "https://m.media-amazon.com/images/I/61ha4reUU-L._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "yoga strap",
+      "festival_event": "世界精神卫生日",
+      "festival_icon": "💚",
+      "festival_deadline": "2026-08-24",
+      "is_event": false,
+      "sources": [
+        "📅 世界精神卫生日"
+      ],
+      "profit_margin": 0.261,
+      "net_profit": 1.96,
+      "cost_breakdown": {
+        "vat": 1.25,
+        "commission": 1.12,
+        "fba": 1.46,
+        "ads": 0.75,
+        "returns": 0.15,
+        "sourcing": 0.8,
+        "total_cost": 5.53
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": 4,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🟢 低竞争": 10,
+        "⭐ 高评分": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 1,
+      "is_new": false,
+      "first_seen": "2026-08-21",
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0D7HTDRD8",
+      "name": "100Pcs Mental Health Stickers for Helmet,Water Bottle,Car,Laptop,Scrapbook,Skateboard, Luggage,Waterproof Mental Health ",
+      "price": 6.61,
+      "reviews": 34,
+      "rating": 4.2,
+      "rank": 47,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "34 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0D7HTDRD8",
+      "image_url": "https://m.media-amazon.com/images/I/91Tv-fYHfPL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "mental health awareness",
+      "festival_event": "世界精神卫生日",
+      "festival_icon": "💚",
+      "festival_deadline": "2026-08-24",
+      "is_event": false,
+      "sources": [
+        "📅 世界精神卫生日"
+      ],
+      "profit_margin": 0.221,
+      "net_profit": 1.46,
+      "cost_breakdown": {
+        "vat": 1.1,
+        "commission": 0.99,
+        "fba": 1.46,
+        "ads": 0.66,
+        "returns": 0.13,
+        "sourcing": 0.8,
+        "total_cost": 5.15
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": -5,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "📈 趋势(car)": 8,
+        "🟢 低竞争": 10,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 1,
+      "is_new": false,
+      "first_seen": "2026-08-21",
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B09S4VS5R4",
+      "name": "Sponsored Ad – Navy Peony Not Today Mental Health Awareness Stickers (8 Sheets, 175+ Small Stickers) - A6 Size, Washi/Wa",
+      "price": 8.32,
+      "reviews": 74,
+      "rating": 4.4,
+      "rank": 12,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "74 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B09S4VS5R4",
+      "image_url": "https://m.media-amazon.com/images/I/81excu50hhL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "mental health awareness",
+      "festival_event": "世界精神卫生日",
+      "festival_icon": "💚",
+      "festival_deadline": "2026-08-24",
+      "is_event": false,
+      "sources": [
+        "📅 世界精神卫生日"
+      ],
+      "profit_margin": 0.291,
+      "net_profit": 2.42,
+      "cost_breakdown": {
+        "vat": 1.39,
+        "commission": 1.25,
+        "fba": 1.46,
+        "ads": 0.83,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 5.9
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": -6,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🟡 中等竞争": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "📢 广告位": -10,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-08-24",
+      "channel_tags": [
+        "keyword_search"
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "keyword": "crafts",
+      "category": "crafts",
+      "heat": 100,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "craft",
+        "art"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "craft knife",
+        "craft supplies",
+        "DIY craft kit",
+        "art supplies",
+        "paint set",
+        "drawing kit"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=craft+knife",
+      "url_google": "https://trends.google.com/trends/explore?q=craft+knife&geo=GB"
+    },
+    {
+      "keyword": "seasonal",
+      "category": "seasonal",
+      "heat": 90,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "birthday",
+        "gift"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "birthday gift",
+        "birthday decoration",
+        "birthday card",
+        "gift ideas",
+        "gift set",
+        "gift box"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 90,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=birthday+gift",
+      "url_google": "https://trends.google.com/trends/explore?q=birthday+gift&geo=GB"
+    },
+    {
+      "keyword": "home decor",
+      "category": "home decor",
+      "heat": 82,
+      "score": 72,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "frame",
+        "wall art",
+        "candle",
+        "decor"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "photo frame",
+        "picture frame",
+        "wall frame",
+        "wall art print",
+        "wall hanging",
+        "wall decal",
+        "candle holder",
+        "scented candle"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 82,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=photo+frame",
+      "url_google": "https://trends.google.com/trends/explore?q=photo+frame&geo=GB"
+    },
+    {
+      "keyword": "phone",
+      "category": "phone",
+      "heat": 73,
+      "score": 69,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "charger",
+        "stand",
+        "cable",
+        "earbuds",
+        "phone"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "phone charger",
+        "wireless charger",
+        "car charger",
+        "stand",
+        "charging cable",
+        "USB cable",
+        "phone cable",
+        "earbuds case"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 73,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=phone+charger",
+      "url_google": "https://trends.google.com/trends/explore?q=phone+charger&geo=GB"
+    },
+    {
+      "keyword": "beauty",
+      "category": "beauty",
+      "heat": 73,
+      "score": 69,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "hair",
+        "skincare",
+        "makeup"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "hair clip",
+        "hair accessories",
+        "hair band",
+        "hair tie",
+        "face roller",
+        "gua sha",
+        "face mask",
+        "makeup brush set"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 73,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=hair+clip",
+      "url_google": "https://trends.google.com/trends/explore?q=hair+clip&geo=GB"
+    },
+    {
+      "keyword": "travel",
+      "category": "travel",
+      "heat": 65,
+      "score": 66,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "travel",
+        "packing",
+        "toiletry"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "travel",
+        "packing",
+        "toiletry"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 65,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=travel",
+      "url_google": "https://trends.google.com/trends/explore?q=travel&geo=GB"
+    },
+    {
+      "keyword": "car",
+      "category": "car",
+      "heat": 65,
+      "score": 66,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "motor",
+        "vehicle",
+        "car"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "motorcycle accessories",
+        "motorcycle cover",
+        "vehicle",
+        "car accessories",
+        "car organizer",
+        "car phone holder"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 65,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=motorcycle+accessories",
+      "url_google": "https://trends.google.com/trends/explore?q=motorcycle+accessories&geo=GB"
+    },
+    {
+      "keyword": "storage",
+      "category": "storage",
+      "heat": 40,
+      "score": 58,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "storage",
+        "box"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "food storage",
+        "kitchen storage",
+        "container set"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 40,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=food+storage",
+      "url_google": "https://trends.google.com/trends/explore?q=food+storage&geo=GB"
+    },
+    {
+      "keyword": "kitchen",
+      "category": "kitchen",
+      "heat": 90,
+      "score": 55,
+      "gap_level": "weak",
+      "amazon_count": 6,
+      "amazon_reviews": 280278,
+      "evidence": [
+        "kitchen",
+        "mug",
+        "gadget"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "kitchen",
+        "gadget"
+      ],
+      "sd_info": {
+        "ratio": 7.2,
+        "demand": 90,
+        "supply": 280278,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=kitchen",
+      "url_google": "https://trends.google.com/trends/explore?q=kitchen&geo=GB"
+    },
+    {
+      "keyword": "eco",
+      "category": "eco",
+      "heat": 58,
+      "score": 49,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "eco",
+        "reusable"
+      ],
+      "is_cross_validated": false,
+      "cross_sources": 0,
+      "suggestions": [
+        "eco products",
+        "reusable bag",
+        "bamboo products",
+        "reusable food wrap",
+        "reusable straws",
+        "reusable bags"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 58,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=eco+products",
+      "url_google": "https://trends.google.com/trends/explore?q=eco+products&geo=GB"
+    },
+    {
+      "keyword": "kitchen_gadgets",
+      "category": "kitchen_gadgets",
+      "heat": 40,
+      "score": 28,
+      "gap_level": "weak",
+      "amazon_count": 6,
+      "amazon_reviews": 280278,
+      "evidence": [
+        "kitchen gadget"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "kitchen gadget"
+      ],
+      "sd_info": {
+        "ratio": 3.2,
+        "demand": 40,
+        "supply": 280278,
+        "label": "💧 浅蓝海",
+        "level": "light_blue"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=kitchen+gadget",
+      "url_google": "https://trends.google.com/trends/explore?q=kitchen+gadget&geo=GB"
+    }
+  ],
+  "trend_summary": {
+    "top_categories": [
+      [
+        "crafts",
+        100
+      ],
+      [
+        "lighting",
+        100
+      ],
+      [
+        "pets",
+        98
+      ],
+      [
+        "kitchen",
+        90
+      ],
+      [
+        "seasonal",
+        90
+      ],
+      [
+        "home decor",
+        82
+      ]
+    ],
+    "cross_validated": [
+      "kitchen",
+      "storage",
+      "crafts",
+      "travel",
+      "car",
+      "seasonal",
+      "lighting",
+      "pets",
+      "phone",
+      "beauty",
+      "kitchen_gadgets",
+      "home decor"
+    ],
+    "demand_keywords": [
+      "amazon has launched a",
+      "dollar oysters",
+      "magnetic eyelashes",
+      "magnetic phone charger",
+      "may have to close up",
+      "my account is still open",
+      "perfumes and",
+      "posture corrector",
+      "recommend some cool stuff from",
+      "shop like a billionaire"
+    ],
+    "season": "summer",
+    "sources_scanned": [
+      "tiktok",
+      "temu",
+      "etsy",
+      "market_intel"
+    ]
+  }
+}
