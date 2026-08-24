@@ -1,0 +1,223 @@
+{
+  "category_scores": {
+    "kitchen": 100,
+    "garden": 60,
+    "car": 79,
+    "storage": 51,
+    "sports": 18,
+    "crafts": 100,
+    "travel": 42,
+    "cleaning": 27,
+    "seasonal": 79,
+    "office": 51,
+    "lighting": 100,
+    "pets": 97,
+    "beauty": 79,
+    "kitchen_gadgets": 42,
+    "home decor": 100,
+    "baby": 18,
+    "eco": 64,
+    "bathroom": 18,
+    "bedding": 18,
+    "phone": 18
+  },
+  "category_evidence": {
+    "kitchen": [
+      "gadget",
+      "kitchen",
+      "utensil",
+      "mug"
+    ],
+    "garden": [
+      "plant",
+      "garden",
+      "flower",
+      "patio"
+    ],
+    "car": [
+      "vehicle",
+      "car",
+      "motor"
+    ],
+    "storage": [
+      "box",
+      "storage"
+    ],
+    "sports": [
+      "yoga",
+      "gym"
+    ],
+    "crafts": [
+      "art",
+      "tape",
+      "craft"
+    ],
+    "travel": [
+      "packing",
+      "travel",
+      "toiletry"
+    ],
+    "cleaning": [
+      "cleaning",
+      "mop"
+    ],
+    "seasonal": [
+      "birthday",
+      "gift"
+    ],
+    "office": [
+      "pen",
+      "office",
+      "desk"
+    ],
+    "lighting": [
+      "strip",
+      "light",
+      "led"
+    ],
+    "pets": [
+      "bed",
+      "cat"
+    ],
+    "beauty": [
+      "makeup",
+      "skincare",
+      "hair"
+    ],
+    "kitchen_gadgets": [
+      "kitchen gadget"
+    ],
+    "home decor": [
+      "decor",
+      "frame",
+      "wall art",
+      "candle"
+    ],
+    "baby": [
+      "kids",
+      "baby"
+    ],
+    "eco": [
+      "reusable",
+      "eco"
+    ],
+    "bathroom": [
+      "bath",
+      "toilet"
+    ],
+    "bedding": [
+      "bedding"
+    ],
+    "phone": [
+      "stand",
+      "phone"
+    ]
+  },
+  "source_signals": {
+    "tiktok": {
+      "kitchen": 4,
+      "garden": 1,
+      "car": 3,
+      "storage": 1,
+      "sports": 2,
+      "crafts": 3,
+      "travel": 1,
+      "cleaning": 2,
+      "seasonal": 2,
+      "office": 1,
+      "lighting": 2,
+      "pets": 1,
+      "beauty": 2,
+      "kitchen_gadgets": 1
+    },
+    "temu": {
+      "car": 1,
+      "lighting": 5,
+      "pets": 4,
+      "crafts": 5,
+      "beauty": 2,
+      "home decor": 3,
+      "baby": 1,
+      "eco": 4,
+      "kitchen": 3,
+      "bathroom": 1,
+      "office": 1,
+      "storage": 1,
+      "bedding": 1,
+      "travel": 1,
+      "kitchen_gadgets": 1,
+      "seasonal": 1
+    },
+    "etsy": {
+      "kitchen": 1,
+      "lighting": 1,
+      "crafts": 2,
+      "home decor": 6,
+      "baby": 1,
+      "eco": 3,
+      "seasonal": 4,
+      "garden": 2,
+      "bathroom": 1,
+      "office": 2,
+      "storage": 1,
+      "pets": 2,
+      "travel": 1,
+      "phone": 1,
+      "beauty": 2
+    },
+    "market_intel": {
+      "kitchen": 2,
+      "garden": 1,
+      "cleaning": 1,
+      "car": 3,
+      "storage": 1,
+      "lighting": 3,
+      "pets": 2,
+      "crafts": 1,
+      "bedding": 1,
+      "phone": 1,
+      "beauty": 1,
+      "home decor": 1,
+      "kitchen_gadgets": 1
+    }
+  },
+  "cross_validated": {
+    "kitchen": 4,
+    "garden": 3,
+    "car": 3,
+    "storage": 4,
+    "crafts": 4,
+    "travel": 3,
+    "seasonal": 3,
+    "office": 3,
+    "lighting": 4,
+    "pets": 4,
+    "beauty": 4,
+    "kitchen_gadgets": 3,
+    "home decor": 3
+  },
+  "demand_keywords": [
+    "dollar oysters",
+    "etsy uk shops we love",
+    "may have to close up",
+    "my account is still open",
+    "perfumes and",
+    "recommend some cool stuff from",
+    "shop like a billionaire",
+    "temu products selling on amazon",
+    "temu vs",
+    "the perfect",
+    "these earrings",
+    "tiktok made me buy it",
+    "top sellers sold on",
+    "top trending",
+    "top trending sold on",
+    "trending on",
+    "trending products",
+    "unusual new gadgets sold on",
+    "what things are worth buying"
+  ],
+  "season": "summer",
+  "total_queries": 10,
+  "total_results_chars": 23188
+}
