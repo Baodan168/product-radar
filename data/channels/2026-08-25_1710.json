@@ -1,0 +1,1114 @@
+{
+  "scan_date": "2026-08-25",
+  "scan_time": "17:10",
+  "scan_ts": "2026-08-25_1710",
+  "stats": {
+    "total_scanned": 106,
+    "passed_filter": 6,
+    "rejected": 100,
+    "channels": {
+      "multi_source": 3,
+      "google_trends": 2,
+      "temu_trending": 3,
+      "new_releases": 6,
+      "etsy_trending": 3,
+      "tiktok_verified": 3
+    },
+    "detail_reject": {},
+    "theme_trimmed": [],
+    "trend_categories": {
+      "crafts": 100,
+      "lighting": 100,
+      "seasonal": 84,
+      "pets": 84,
+      "home decor": 84,
+      "kitchen": 54
+    },
+    "supply_demand": {
+      "lighting": {
+        "ratio": 11.7,
+        "demand": 100,
+        "supply": 5003,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "pets": {
+        "ratio": 6.6,
+        "demand": 84,
+        "supply": 314066,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "sports": {
+        "ratio": 1.2,
+        "demand": 15,
+        "supply": 308872,
+        "label": "⚖️ 平衡",
+        "level": "balanced"
+      },
+      "kitchen": {
+        "ratio": 0,
+        "demand": 54,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "garden": {
+        "ratio": 0,
+        "demand": 23,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "car": {
+        "ratio": 0,
+        "demand": 53,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "storage": {
+        "ratio": 0,
+        "demand": 38,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "crafts": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      }
+    },
+    "divergences": {
+      "kitchen": {
+        "current_heat": 82,
+        "previous_heat": 100,
+        "heat_change_pct": -18.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-24_1710",
+          "2026-08-25_0850"
+        ]
+      },
+      "garden": {
+        "current_heat": 17,
+        "previous_heat": 60,
+        "heat_change_pct": -71.7,
+        "direction": "falling",
+        "dates": [
+          "2026-08-24_1710",
+          "2026-08-25_0850"
+        ]
+      },
+      "car": {
+        "current_heat": 65,
+        "previous_heat": 79,
+        "heat_change_pct": -17.7,
+        "direction": "stable",
+        "dates": [
+          "2026-08-24_1710",
+          "2026-08-25_0850"
+        ]
+      },
+      "storage": {
+        "current_heat": 25,
+        "previous_heat": 51,
+        "heat_change_pct": -51.0,
+        "direction": "falling",
+        "dates": [
+          "2026-08-24_1710",
+          "2026-08-25_0850"
+        ]
+      },
+      "sports": {
+        "current_heat": 8,
+        "previous_heat": 18,
+        "heat_change_pct": -55.6,
+        "direction": "falling",
+        "dates": [
+          "2026-08-24_1710",
+          "2026-08-25_0850"
+        ]
+      },
+      "crafts": {
+        "current_heat": 100,
+        "previous_heat": 100,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-24_1710",
+          "2026-08-25_0850"
+        ]
+      },
+      "travel": {
+        "current_heat": 57,
+        "previous_heat": 42,
+        "heat_change_pct": 35.7,
+        "direction": "rising",
+        "dates": [
+          "2026-08-24_1710",
+          "2026-08-25_0850"
+        ]
+      },
+      "cleaning": {
+        "current_heat": 17,
+        "previous_heat": 27,
+        "heat_change_pct": -37.0,
+        "direction": "falling",
+        "dates": [
+          "2026-08-24_1710",
+          "2026-08-25_0850"
+        ]
+      },
+      "beauty": {
+        "current_heat": 65,
+        "previous_heat": 79,
+        "heat_change_pct": -17.7,
+        "direction": "stable",
+        "dates": [
+          "2026-08-24_1710",
+          "2026-08-25_0850"
+        ]
+      },
+      "seasonal": {
+        "current_heat": 73,
+        "previous_heat": 79,
+        "heat_change_pct": -7.6,
+        "direction": "stable",
+        "dates": [
+          "2026-08-24_1710",
+          "2026-08-25_0850"
+        ]
+      },
+      "bathroom": {
+        "current_heat": 48,
+        "previous_heat": 18,
+        "heat_change_pct": 166.7,
+        "direction": "rising",
+        "dates": [
+          "2026-08-24_1710",
+          "2026-08-25_0850"
+        ]
+      },
+      "lighting": {
+        "current_heat": 100,
+        "previous_heat": 100,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-24_1710",
+          "2026-08-25_0850"
+        ]
+      },
+      "pets": {
+        "current_heat": 90,
+        "previous_heat": 97,
+        "heat_change_pct": -7.2,
+        "direction": "stable",
+        "dates": [
+          "2026-08-24_1710",
+          "2026-08-25_0850"
+        ]
+      },
+      "baby": {
+        "current_heat": 40,
+        "previous_heat": 18,
+        "heat_change_pct": 122.2,
+        "direction": "rising",
+        "dates": [
+          "2026-08-24_1710",
+          "2026-08-25_0850"
+        ]
+      },
+      "kitchen_gadgets": {
+        "current_heat": 17,
+        "previous_heat": 42,
+        "heat_change_pct": -59.5,
+        "direction": "falling",
+        "dates": [
+          "2026-08-24_1710",
+          "2026-08-25_0850"
+        ]
+      },
+      "home decor": {
+        "current_heat": 90,
+        "previous_heat": 100,
+        "heat_change_pct": -10.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-24_1710",
+          "2026-08-25_0850"
+        ]
+      },
+      "eco": {
+        "current_heat": 58,
+        "previous_heat": 64,
+        "heat_change_pct": -9.4,
+        "direction": "stable",
+        "dates": [
+          "2026-08-24_1710",
+          "2026-08-25_0850"
+        ]
+      },
+      "office": {
+        "current_heat": 42,
+        "previous_heat": 51,
+        "heat_change_pct": -17.6,
+        "direction": "stable",
+        "dates": [
+          "2026-08-24_1710",
+          "2026-08-25_0850"
+        ]
+      },
+      "bedding": {
+        "current_heat": 25,
+        "previous_heat": 18,
+        "heat_change_pct": 38.9,
+        "direction": "rising",
+        "dates": [
+          "2026-08-24_1710",
+          "2026-08-25_0850"
+        ]
+      },
+      "phone": {
+        "current_heat": 25,
+        "previous_heat": 18,
+        "heat_change_pct": 38.9,
+        "direction": "rising",
+        "dates": [
+          "2026-08-24_1710",
+          "2026-08-25_0850"
+        ]
+      }
+    },
+    "gap_opportunities": 9
+  },
+  "products": [
+    {
+      "asin": "B0H3NZ7QWD",
+      "name": "fjaldjfu Pet Cooling Mat, 2026 New Summer Multiple Specifications Cooling Mat for Dogs, reusable Durable Cat Cool Blanke",
+      "price": 8.99,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 6,
+      "category": "Pets",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H3NZ7QWD",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71FHPSv+J3L._AC_UL300_SR300,200_.jpg",
+      "google_trend": "rising",
+      "sources": [
+        "Google趋势",
+        "Etsy趋势",
+        "Temu热销"
+      ],
+      "profit_margin": 0.412,
+      "net_profit": 3.7,
+      "cost_breakdown": {
+        "vat": 1.5,
+        "commission": 0.45,
+        "fba": 1.46,
+        "ads": 0.9,
+        "returns": 0.18,
+        "sourcing": 0.8,
+        "total_cost": 5.29
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 6.6,
+        "demand": 84,
+        "supply": 314066,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "Google",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 136,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "📊 Google↑": 15,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(pets)": 21,
+        "⏳ 待验证": -8,
+        "💰 超高利润": 12,
+        "🌊 深蓝海": 20,
+        "⚠️ 未验证": -8
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-08-20",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "multi_source",
+        "google_trends",
+        "temu_trending",
+        "new_releases",
+        "etsy_trending"
+      ]
+    },
+    {
+      "asin": "B0HBP5SSKT",
+      "name": "Ground Bird Feeder Weatherproof Small Round Birding Tool | Garden Bird Feeder for Watching Viewing Feeding Round Food Wa",
+      "price": 9.43,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 11,
+      "category": "Pets",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HBP5SSKT",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71CkrT8JTVL._AC_UL300_SR300,200_.jpg",
+      "google_trend": "rising",
+      "sources": [
+        "Google趋势"
+      ],
+      "profit_margin": 0.423,
+      "net_profit": 3.99,
+      "cost_breakdown": {
+        "vat": 1.57,
+        "commission": 0.47,
+        "fba": 1.46,
+        "ads": 0.94,
+        "returns": 0.19,
+        "sourcing": 0.8,
+        "total_cost": 5.44
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 6.6,
+        "demand": 84,
+        "supply": 314066,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "weak",
+      "signal_label": "🟡 弱信号",
+      "external_sources": [
+        "Google"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 112,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "📊 Google↑": 15,
+        "🔥 多源热门(pets)": 21,
+        "⏳ 待验证": -8,
+        "💰 超高利润": 12,
+        "🌴 当季(summer)": 10,
+        "🌊 深蓝海": 20,
+        "⚠️ 未验证": -8
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-08-19",
+      "is_event": false,
+      "channel_tags": [
+        "new_releases",
+        "google_trends"
+      ]
+    },
+    {
+      "asin": "B0H1HCC75J",
+      "name": "Bird Bath Copper Tray, 99.99% Pure Copper Bird Bath Purification Disk 0.8mm Thick with Stable 3-Point Support, Suitable ",
+      "price": 6.02,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 1,
+      "category": "Pets",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H1HCC75J",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/712+UP1lVKL._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.288,
+      "net_profit": 1.73,
+      "cost_breakdown": {
+        "vat": 1.01,
+        "commission": 0.3,
+        "fba": 1.46,
+        "ads": 0.6,
+        "returns": 0.12,
+        "sourcing": 0.8,
+        "total_cost": 4.29
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 6.6,
+        "demand": 84,
+        "supply": 314066,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "medium",
+      "signal_label": "🟠 中信号",
+      "external_sources": [
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 103,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🟠 中信号": 10,
+        "🔥 多源热门(pets)": 21,
+        "⏳ 待验证": -8,
+        "💰 较好利润": 4,
+        "🌊 深蓝海": 20,
+        "⚠️ 未验证": -8
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-08-19",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "temu_trending",
+        "new_releases",
+        "etsy_trending",
+        "multi_source"
+      ]
+    },
+    {
+      "asin": "B0H3M4L2RV",
+      "name": "KAYMAN Sports Foam Roller Sports Recovery, Deep Tissue Muscle Tension Relief & Circulation Increase Portable & Lightweig",
+      "price": 9.16,
+      "reviews": 135,
+      "rating": 4.4,
+      "rank": 7,
+      "category": "Sports",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "135 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H3M4L2RV",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/617Q5c59RNL._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "TikTok趋势",
+        "Etsy趋势",
+        "Temu热销"
+      ],
+      "profit_margin": 0.316,
+      "net_profit": 2.9,
+      "cost_breakdown": {
+        "vat": 1.53,
+        "commission": 1.37,
+        "fba": 1.46,
+        "ads": 0.92,
+        "returns": 0.18,
+        "sourcing": 0.8,
+        "total_cost": 6.26
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "⚖️ 平衡",
+      "sd_info": {
+        "ratio": 1.2,
+        "demand": 15,
+        "supply": 308872,
+        "label": "⚖️ 平衡",
+        "level": "balanced"
+      },
+      "div_score": -10,
+      "div_label": "📉 品类降温(-56%)",
+      "div_info": {
+        "current_heat": 8,
+        "previous_heat": 18,
+        "heat_change_pct": -55.6,
+        "direction": "falling",
+        "dates": [
+          "2026-08-24_1710",
+          "2026-08-25_0850"
+        ]
+      },
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 99,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🟡 中等竞争": 5,
+        "💰 高利润": 8,
+        "📉 品类降温(-56%)": -10,
+        "⚠️ 未验证": -8
+      },
+      "stars": 4,
+      "is_new": false,
+      "first_seen": "2026-08-21",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "multi_source",
+        "tiktok_verified",
+        "temu_trending",
+        "new_releases",
+        "etsy_trending"
+      ]
+    },
+    {
+      "asin": "B0GY8S953H",
+      "name": "LockieFitness Foam Roller, Deep Tissue Massage Roller with Trigger Point Foam Roller Grid for Back, Legs, Calves & Fasci",
+      "price": 8.32,
+      "reviews": 26,
+      "rating": 4.7,
+      "rank": 15,
+      "category": "Sports",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "26 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GY8S953H",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/7186r3COZcL._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "TikTok趋势"
+      ],
+      "profit_margin": 0.291,
+      "net_profit": 2.42,
+      "cost_breakdown": {
+        "vat": 1.39,
+        "commission": 1.25,
+        "fba": 1.46,
+        "ads": 0.83,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 5.9
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "⚖️ 平衡",
+      "sd_info": {
+        "ratio": 1.2,
+        "demand": 15,
+        "supply": 308872,
+        "label": "⚖️ 平衡",
+        "level": "balanced"
+      },
+      "div_score": -10,
+      "div_label": "📉 品类降温(-56%)",
+      "div_info": {
+        "current_heat": 8,
+        "previous_heat": 18,
+        "heat_change_pct": -55.6,
+        "direction": "falling",
+        "dates": [
+          "2026-08-24_1710",
+          "2026-08-25_0850"
+        ]
+      },
+      "signal_level": "weak",
+      "signal_label": "🟡 弱信号",
+      "external_sources": [
+        "TikTok"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 81,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "🎵 TikTok": 20,
+        "🟢 低竞争": 10,
+        "⭐ 高评分": 5,
+        "💰 较好利润": 4,
+        "📉 品类降温(-56%)": -10,
+        "⚠️ 未验证": -8,
+        "✨ 新发现": 10
+      },
+      "stars": 4,
+      "is_new": true,
+      "first_seen": "2026-08-25",
+      "is_event": false,
+      "channel_tags": [
+        "tiktok_verified",
+        "new_releases"
+      ]
+    },
+    {
+      "asin": "B0GSZW9WSG",
+      "name": "Gylinm 1L Water Bottle Made of BPA-Free Tritan Material, Sports Water Bottle with Removable Straw & Hydration Time Marke",
+      "price": 7.07,
+      "reviews": 118,
+      "rating": 4.8,
+      "rank": 9,
+      "category": "Sports",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "118 reviews, 4.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GSZW9WSG",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/712dY+Mc2pL._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "TikTok趋势"
+      ],
+      "profit_margin": 0.243,
+      "net_profit": 1.72,
+      "cost_breakdown": {
+        "vat": 1.18,
+        "commission": 1.06,
+        "fba": 1.46,
+        "ads": 0.71,
+        "returns": 0.14,
+        "sourcing": 0.8,
+        "total_cost": 5.35
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "⚖️ 平衡",
+      "sd_info": {
+        "ratio": 1.2,
+        "demand": 15,
+        "supply": 308872,
+        "label": "⚖️ 平衡",
+        "level": "balanced"
+      },
+      "div_score": -10,
+      "div_label": "📉 品类降温(-56%)",
+      "div_info": {
+        "current_heat": 8,
+        "previous_heat": 18,
+        "heat_change_pct": -55.6,
+        "direction": "falling",
+        "dates": [
+          "2026-08-24_1710",
+          "2026-08-25_0850"
+        ]
+      },
+      "signal_level": "weak",
+      "signal_label": "🟡 弱信号",
+      "external_sources": [
+        "TikTok"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 62,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "🎵 TikTok": 20,
+        "🟡 中等竞争": 5,
+        "⭐ 高评分": 5,
+        "📉 品类降温(-56%)": -10,
+        "⚠️ 未验证": -8
+      },
+      "stars": 3,
+      "is_new": false,
+      "first_seen": "2026-08-21",
+      "is_event": false,
+      "channel_tags": [
+        "tiktok_verified",
+        "new_releases"
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "keyword": "crafts",
+      "category": "crafts",
+      "heat": 100,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "craft",
+        "art"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "craft knife",
+        "craft supplies",
+        "DIY craft kit",
+        "art supplies",
+        "paint set",
+        "drawing kit"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=craft+knife",
+      "url_google": "https://trends.google.com/trends/explore?q=craft+knife&geo=GB"
+    },
+    {
+      "keyword": "seasonal",
+      "category": "seasonal",
+      "heat": 84,
+      "score": 73,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "birthday",
+        "gift"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "birthday gift",
+        "birthday decoration",
+        "birthday card",
+        "gift ideas",
+        "gift set",
+        "gift box"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 84,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=birthday+gift",
+      "url_google": "https://trends.google.com/trends/explore?q=birthday+gift&geo=GB"
+    },
+    {
+      "keyword": "home decor",
+      "category": "home decor",
+      "heat": 84,
+      "score": 73,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "wall art",
+        "frame",
+        "candle",
+        "decor"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "wall art print",
+        "wall hanging",
+        "wall decal",
+        "photo frame",
+        "picture frame",
+        "wall frame",
+        "candle holder",
+        "scented candle"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 84,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=wall+art+print",
+      "url_google": "https://trends.google.com/trends/explore?q=wall+art+print&geo=GB"
+    },
+    {
+      "keyword": "car",
+      "category": "car",
+      "heat": 53,
+      "score": 62,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "car"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "car accessories",
+        "car organizer",
+        "car phone holder"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 53,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=car+accessories",
+      "url_google": "https://trends.google.com/trends/explore?q=car+accessories&geo=GB"
+    },
+    {
+      "keyword": "beauty",
+      "category": "beauty",
+      "heat": 46,
+      "score": 60,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "hair",
+        "skincare"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "hair clip",
+        "hair accessories",
+        "hair band",
+        "hair tie",
+        "face roller",
+        "gua sha",
+        "face mask"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 46,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=hair+clip",
+      "url_google": "https://trends.google.com/trends/explore?q=hair+clip&geo=GB"
+    },
+    {
+      "keyword": "baby",
+      "category": "baby",
+      "heat": 46,
+      "score": 60,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "kids",
+        "baby",
+        "toddler"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "kids",
+        "baby",
+        "toddler"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 46,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=kids",
+      "url_google": "https://trends.google.com/trends/explore?q=kids&geo=GB"
+    },
+    {
+      "keyword": "lighting",
+      "category": "lighting",
+      "heat": 100,
+      "score": 55,
+      "gap_level": "weak",
+      "amazon_count": 7,
+      "amazon_reviews": 5003,
+      "evidence": [
+        "led",
+        "strip",
+        "light"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "LED bulb",
+        "LED light",
+        "LED panel",
+        "LED strip",
+        "LED strip light",
+        "RGB strip",
+        "fairy lights",
+        "string lights"
+      ],
+      "sd_info": {
+        "ratio": 11.7,
+        "demand": 100,
+        "supply": 5003,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=LED+bulb",
+      "url_google": "https://trends.google.com/trends/explore?q=LED+bulb&geo=GB"
+    },
+    {
+      "keyword": "kitchen",
+      "category": "kitchen",
+      "heat": 54,
+      "score": 48,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "utensil",
+        "kitchen",
+        "gadget"
+      ],
+      "is_cross_validated": false,
+      "cross_sources": 0,
+      "suggestions": [
+        "utensil",
+        "kitchen",
+        "gadget"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 54,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=utensil",
+      "url_google": "https://trends.google.com/trends/explore?q=utensil&geo=GB"
+    },
+    {
+      "keyword": "eco",
+      "category": "eco",
+      "heat": 54,
+      "score": 48,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "reusable",
+        "eco"
+      ],
+      "is_cross_validated": false,
+      "cross_sources": 0,
+      "suggestions": [
+        "reusable food wrap",
+        "reusable straws",
+        "reusable bags",
+        "eco products",
+        "reusable bag",
+        "bamboo products"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 54,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=reusable+food+wrap",
+      "url_google": "https://trends.google.com/trends/explore?q=reusable+food+wrap&geo=GB"
+    }
+  ],
+  "trend_summary": {
+    "top_categories": [
+      [
+        "crafts",
+        100
+      ],
+      [
+        "lighting",
+        100
+      ],
+      [
+        "seasonal",
+        84
+      ],
+      [
+        "pets",
+        84
+      ],
+      [
+        "home decor",
+        84
+      ],
+      [
+        "kitchen",
+        54
+      ]
+    ],
+    "cross_validated": [
+      "car",
+      "storage",
+      "crafts",
+      "seasonal",
+      "lighting",
+      "beauty",
+      "pets",
+      "home decor",
+      "baby"
+    ],
+    "demand_keywords": [
+      "explore trending products",
+      "may have to close up",
+      "perfumes and",
+      "recommend some cool stuff from",
+      "shop like a billionaire",
+      "temu products selling on amazon",
+      "temu vs",
+      "these are quick",
+      "tiktok made me buy it",
+      "top sellers sold on"
+    ],
+    "season": "summer",
+    "sources_scanned": [
+      "tiktok",
+      "temu",
+      "etsy",
+      "market_intel"
+    ]
+  }
+}
