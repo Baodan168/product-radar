@@ -1,0 +1,1333 @@
+{
+  "scan_date": "2026-08-25",
+  "scan_time": "08:50",
+  "scan_ts": "2026-08-25_0850",
+  "stats": {
+    "total_scanned": 230,
+    "passed_filter": 8,
+    "rejected": 219,
+    "channels": {
+      "tiktok_verified": 4,
+      "keyword_search": 8,
+      "multi_source": 7,
+      "temu_trending": 7,
+      "etsy_trending": 7
+    },
+    "detail_reject": {
+      "尺寸超标": 1,
+      "重量超标": 10
+    },
+    "theme_trimmed": [
+      {
+        "asin": "B0DLW2RR1Y",
+        "name": "Sponsored Ad – Marbrasse Desk Organiser,360-Degree Rotating Pen Holder,Desk Organisers Accessories with 5 Compartments P"
+      },
+      {
+        "asin": "B0D7VBSK95",
+        "name": "Sponsored Ad – Marbrasse Mesh Desk Organiser, Pen Organiser with 2 Drawer, Multi-Functional Pencil Holder for Accessorie"
+      },
+      {
+        "asin": "B0G6CYR5JF",
+        "name": "PAVSTINE 4Pcs Cabinet Door Storage Box Self-adhesive No Residue Transparent | Durable Cupboard Organiser for Cabinets/Ba"
+      }
+    ],
+    "trend_categories": {
+      "crafts": 100,
+      "lighting": 100,
+      "pets": 90,
+      "home decor": 90,
+      "kitchen": 82,
+      "seasonal": 73
+    },
+    "supply_demand": {
+      "pets": {
+        "ratio": 7.1,
+        "demand": 90,
+        "supply": 312922,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "kitchen": {
+        "ratio": 6.3,
+        "demand": 82,
+        "supply": 414430,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "kitchen_gadgets": {
+        "ratio": 1.3,
+        "demand": 17,
+        "supply": 414430,
+        "label": "⚖️ 平衡",
+        "level": "balanced"
+      },
+      "garden": {
+        "ratio": 0,
+        "demand": 17,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "car": {
+        "ratio": 0,
+        "demand": 65,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "storage": {
+        "ratio": 0,
+        "demand": 25,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "sports": {
+        "ratio": 0,
+        "demand": 8,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "crafts": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      }
+    },
+    "divergences": {
+      "kitchen": {
+        "current_heat": 100,
+        "previous_heat": 90,
+        "heat_change_pct": 11.1,
+        "direction": "stable",
+        "dates": [
+          "2026-08-24_0850",
+          "2026-08-24_1710"
+        ]
+      },
+      "garden": {
+        "current_heat": 60,
+        "previous_heat": 25,
+        "heat_change_pct": 140.0,
+        "direction": "rising",
+        "dates": [
+          "2026-08-24_0850",
+          "2026-08-24_1710"
+        ]
+      },
+      "car": {
+        "current_heat": 79,
+        "previous_heat": 65,
+        "heat_change_pct": 21.5,
+        "direction": "stable",
+        "dates": [
+          "2026-08-24_0850",
+          "2026-08-24_1710"
+        ]
+      },
+      "storage": {
+        "current_heat": 51,
+        "previous_heat": 40,
+        "heat_change_pct": 27.5,
+        "direction": "stable",
+        "dates": [
+          "2026-08-24_0850",
+          "2026-08-24_1710"
+        ]
+      },
+      "crafts": {
+        "current_heat": 100,
+        "previous_heat": 100,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-24_0850",
+          "2026-08-24_1710"
+        ]
+      },
+      "travel": {
+        "current_heat": 42,
+        "previous_heat": 65,
+        "heat_change_pct": -35.4,
+        "direction": "falling",
+        "dates": [
+          "2026-08-24_0850",
+          "2026-08-24_1710"
+        ]
+      },
+      "cleaning": {
+        "current_heat": 27,
+        "previous_heat": 25,
+        "heat_change_pct": 8.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-24_0850",
+          "2026-08-24_1710"
+        ]
+      },
+      "seasonal": {
+        "current_heat": 79,
+        "previous_heat": 90,
+        "heat_change_pct": -12.2,
+        "direction": "stable",
+        "dates": [
+          "2026-08-24_0850",
+          "2026-08-24_1710"
+        ]
+      },
+      "office": {
+        "current_heat": 51,
+        "previous_heat": 33,
+        "heat_change_pct": 54.5,
+        "direction": "rising",
+        "dates": [
+          "2026-08-24_0850",
+          "2026-08-24_1710"
+        ]
+      },
+      "lighting": {
+        "current_heat": 100,
+        "previous_heat": 100,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-24_0850",
+          "2026-08-24_1710"
+        ]
+      },
+      "pets": {
+        "current_heat": 97,
+        "previous_heat": 98,
+        "heat_change_pct": -1.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-24_0850",
+          "2026-08-24_1710"
+        ]
+      },
+      "beauty": {
+        "current_heat": 79,
+        "previous_heat": 73,
+        "heat_change_pct": 8.2,
+        "direction": "stable",
+        "dates": [
+          "2026-08-24_0850",
+          "2026-08-24_1710"
+        ]
+      },
+      "kitchen_gadgets": {
+        "current_heat": 42,
+        "previous_heat": 40,
+        "heat_change_pct": 5.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-24_0850",
+          "2026-08-24_1710"
+        ]
+      },
+      "home decor": {
+        "current_heat": 100,
+        "previous_heat": 82,
+        "heat_change_pct": 22.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-24_0850",
+          "2026-08-24_1710"
+        ]
+      },
+      "baby": {
+        "current_heat": 18,
+        "previous_heat": 17,
+        "heat_change_pct": 5.9,
+        "direction": "stable",
+        "dates": [
+          "2026-08-24_0850",
+          "2026-08-24_1710"
+        ]
+      },
+      "eco": {
+        "current_heat": 64,
+        "previous_heat": 58,
+        "heat_change_pct": 10.3,
+        "direction": "stable",
+        "dates": [
+          "2026-08-24_0850",
+          "2026-08-24_1710"
+        ]
+      },
+      "bathroom": {
+        "current_heat": 18,
+        "previous_heat": 17,
+        "heat_change_pct": 5.9,
+        "direction": "stable",
+        "dates": [
+          "2026-08-24_0850",
+          "2026-08-24_1710"
+        ]
+      },
+      "bedding": {
+        "current_heat": 18,
+        "previous_heat": 8,
+        "heat_change_pct": 125.0,
+        "direction": "rising",
+        "dates": [
+          "2026-08-24_0850",
+          "2026-08-24_1710"
+        ]
+      },
+      "phone": {
+        "current_heat": 18,
+        "previous_heat": 73,
+        "heat_change_pct": -75.3,
+        "direction": "falling",
+        "dates": [
+          "2026-08-24_0850",
+          "2026-08-24_1710"
+        ]
+      }
+    },
+    "gap_opportunities": 11
+  },
+  "products": [
+    {
+      "asin": "B0G4931QJ3",
+      "name": "SZZHIYONG 1 PcsKitchen Cabinet Door Storage Box, Kitchen Cupboard Organisers, Self-Adhesive Metal Wall Mounted Kitchen S",
+      "price": 7.99,
+      "reviews": 12,
+      "rating": 4.0,
+      "rank": 51,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "12 reviews, 4.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0G4931QJ3",
+      "image_url": "https://m.media-amazon.com/images/I/71Lig-hFYoL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "cabinet door organizer, self adhesive cabinet organizer, hanging storage pockets, cabinet door storage organizer, adhesive organizer pockets, door organizer pockets, kitchen cabinet organizer, bathroom door organizer, self adhesive storage pockets, hanging pocket organizer, cabinet door storage, adhesive hanging organizer",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.28,
+      "net_profit": 2.24,
+      "cost_breakdown": {
+        "vat": 1.33,
+        "commission": 1.2,
+        "fba": 1.46,
+        "ads": 0.8,
+        "returns": 0.16,
+        "sourcing": 0.8,
+        "total_cost": 5.75
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 6.3,
+        "demand": 82,
+        "supply": 414430,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 131,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(kitchen)": 21,
+        "🌊 蓝海": 15,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "🌊 深蓝海": 20,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-25",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "tiktok_verified",
+        "keyword_search",
+        "multi_source",
+        "temu_trending",
+        "etsy_trending"
+      ]
+    },
+    {
+      "asin": "B0C32V77D2",
+      "name": "Sponsored Ad – Bakiauli 3 Pieces Bathroom Storage Baskets, White Rectangle Bathroom Storage Box Kitchen Cupboard Organis",
+      "price": 11.99,
+      "reviews": 168,
+      "rating": 4.5,
+      "rank": 3,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "168 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0C32V77D2",
+      "image_url": "https://m.media-amazon.com/images/I/515QRqTqwvL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "cabinet door organizer, self adhesive cabinet organizer, hanging storage pockets, cabinet door storage organizer, adhesive organizer pockets, door organizer pockets, kitchen cabinet organizer, bathroom door organizer, self adhesive storage pockets, hanging pocket organizer, cabinet door storage, adhesive hanging organizer",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.375,
+      "net_profit": 4.49,
+      "cost_breakdown": {
+        "vat": 2.0,
+        "commission": 1.8,
+        "fba": 1.46,
+        "ads": 1.2,
+        "returns": 0.24,
+        "sourcing": 0.8,
+        "total_cost": 7.5
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 6.3,
+        "demand": 82,
+        "supply": 414430,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 119,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(kitchen)": 21,
+        "⭐ 高评分": 5,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "🌊 深蓝海": 20,
+        "📢 广告位": -10,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-25",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "tiktok_verified",
+        "keyword_search",
+        "multi_source",
+        "temu_trending",
+        "etsy_trending"
+      ]
+    },
+    {
+      "asin": "B0DG25HTNQ",
+      "name": "Sponsored Ad – NBBENG 2 Pack Lazy Susan Turntable Cupboard Organiser, 360°Rotating Spice Racks for Kitchen Cabinet, Frid",
+      "price": 9.9,
+      "reviews": 113,
+      "rating": 4.8,
+      "rank": 34,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "113 reviews, 4.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DG25HTNQ",
+      "image_url": "https://m.media-amazon.com/images/I/61cs0u-aOBL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "cabinet door organizer, self adhesive cabinet organizer, hanging storage pockets, cabinet door storage organizer, adhesive organizer pockets, door organizer pockets, kitchen cabinet organizer, bathroom door organizer, self adhesive storage pockets, hanging pocket organizer, cabinet door storage, adhesive hanging organizer",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.335,
+      "net_profit": 3.31,
+      "cost_breakdown": {
+        "vat": 1.65,
+        "commission": 1.49,
+        "fba": 1.46,
+        "ads": 0.99,
+        "returns": 0.2,
+        "sourcing": 0.8,
+        "total_cost": 6.59
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 6.3,
+        "demand": 82,
+        "supply": 414430,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 130,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(kitchen)": 21,
+        "🟡 中等竞争": 5,
+        "⭐ 高评分": 5,
+        "💰 高利润": 8,
+        "❓ 品类存疑": -5,
+        "🌴 当季(summer)": 10,
+        "🌊 深蓝海": 20,
+        "📢 广告位": -10,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-25",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "tiktok_verified",
+        "keyword_search",
+        "multi_source",
+        "temu_trending",
+        "etsy_trending"
+      ]
+    },
+    {
+      "asin": "B0DZH4VN13",
+      "name": "RFYTDCF Wall Mounted Storage, 2 Pieces Kitchen Cabinet Door Storage Box Self-Adhesive Kitchen Organiser White Organisati",
+      "price": 6.99,
+      "reviews": 20,
+      "rating": 4.2,
+      "rank": 41,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "20 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DZH4VN13",
+      "image_url": "https://m.media-amazon.com/images/I/51JYOSdCPHL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "cabinet door organizer, self adhesive cabinet organizer, hanging storage pockets, cabinet door storage organizer, adhesive organizer pockets, door organizer pockets, kitchen cabinet organizer, bathroom door organizer, self adhesive storage pockets, hanging pocket organizer, cabinet door storage, adhesive hanging organizer",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.24,
+      "net_profit": 1.68,
+      "cost_breakdown": {
+        "vat": 1.17,
+        "commission": 1.05,
+        "fba": 1.46,
+        "ads": 0.7,
+        "returns": 0.14,
+        "sourcing": 0.8,
+        "total_cost": 5.31
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 6.3,
+        "demand": 82,
+        "supply": 414430,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 130,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(kitchen)": 21,
+        "🟢 低竞争": 10,
+        "❓ 品类存疑": -5,
+        "🌊 深蓝海": 20,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-25",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "tiktok_verified",
+        "keyword_search",
+        "multi_source",
+        "temu_trending",
+        "etsy_trending"
+      ]
+    },
+    {
+      "asin": "B0GMHM6T6X",
+      "name": "TayBong Desk Organiser, 5 Compartment White Desk Tidy with Bamboo Dividers | Multifunctional Pen Holder, Durable Station",
+      "price": 7.07,
+      "reviews": 10,
+      "rating": 4.2,
+      "rank": 55,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "10 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GMHM6T6X",
+      "image_url": "https://m.media-amazon.com/images/I/61IUFoz5tLL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "desk organizer",
+      "festival_event": "Boss's Day老板节",
+      "festival_icon": "👔",
+      "festival_deadline": "2026-08-30",
+      "is_event": false,
+      "sources": [
+        "📅 Boss's Day老板节",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.243,
+      "net_profit": 1.72,
+      "cost_breakdown": {
+        "vat": 1.18,
+        "commission": 1.06,
+        "fba": 1.46,
+        "ads": 0.71,
+        "returns": 0.14,
+        "sourcing": 0.8,
+        "total_cost": 5.35
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "medium",
+      "signal_label": "🟠 中信号",
+      "external_sources": [
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 79,
+      "score_breakdown": {
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🟠 中信号": 10,
+        "🔥 多源热门(crafts)": 23,
+        "🌊 蓝海": 15,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 3,
+      "is_new": true,
+      "first_seen": "2026-08-25",
+      "is_multi": true,
+      "channel_tags": [
+        "multi_source",
+        "temu_trending",
+        "etsy_trending",
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0FS24YP3Y",
+      "name": "2 Tier Metal Mesh Desk File Organizer, Letter and Paper Tray with Handle, Non-Slip Base for Office School Supplies, Blac",
+      "price": 9.98,
+      "reviews": 36,
+      "rating": 4.4,
+      "rank": 39,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "36 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FS24YP3Y",
+      "image_url": "https://m.media-amazon.com/images/I/71CHTs3EbdL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "desk organizer",
+      "festival_event": "Boss's Day老板节",
+      "festival_icon": "👔",
+      "festival_deadline": "2026-08-30",
+      "is_event": false,
+      "sources": [
+        "📅 Boss's Day老板节",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.337,
+      "net_profit": 3.36,
+      "cost_breakdown": {
+        "vat": 1.67,
+        "commission": 1.5,
+        "fba": 1.46,
+        "ads": 1.0,
+        "returns": 0.2,
+        "sourcing": 0.8,
+        "total_cost": 6.62
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "medium",
+      "signal_label": "🟠 中信号",
+      "external_sources": [
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 77,
+      "score_breakdown": {
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🟠 中信号": 10,
+        "📈 趋势(office)": 8,
+        "🟢 低竞争": 10,
+        "💰 高利润": 8,
+        "❓ 品类存疑": -5,
+        "🌴 当季(summer)": 10,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 3,
+      "is_new": true,
+      "first_seen": "2026-08-25",
+      "is_multi": true,
+      "channel_tags": [
+        "multi_source",
+        "temu_trending",
+        "etsy_trending",
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0FF536J3C",
+      "name": "Sponsored Ad – 3 x lids for UK Supermarket Yoghurt Pots | Happy Lids | Reusable Food Safe Silicone | Airtight Seal | BPA",
+      "price": 6.24,
+      "reviews": 59,
+      "rating": 4.1,
+      "rank": 4,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "59 reviews, 4.1★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FF536J3C",
+      "image_url": "https://m.media-amazon.com/images/I/81yJ75YGKcL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "silicone stretch lids, silicone stretch lids 12 pack, reusable silicone lids, silicone food covers, silicone bowl covers, stretch lids for food storage, silicone lid set, reusable food storage lids, silicone lid 12 pack, stretch lid silicone, silicone lid for bowl, reusable silicone cover, food saver lids silicone, silicone lids microwave safe",
+      "sources": [
+        "趋势发现",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.201,
+      "net_profit": 1.25,
+      "cost_breakdown": {
+        "vat": 1.04,
+        "commission": 0.94,
+        "fba": 1.46,
+        "ads": 0.62,
+        "returns": 0.12,
+        "sourcing": 0.8,
+        "total_cost": 4.99
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "medium",
+      "signal_label": "🟠 中信号",
+      "external_sources": [
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 42,
+      "score_breakdown": {
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🟠 中信号": 10,
+        "📈 趋势(eco)": 8,
+        "🟡 中等竞争": 5,
+        "❓ 品类存疑": -5,
+        "📢 广告位": -10,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 2,
+      "is_new": false,
+      "first_seen": "2026-08-24",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "multi_source",
+        "temu_trending",
+        "etsy_trending",
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0BYDPS6Q4",
+      "name": "TIESOME 6 Pack To Do List Sticky Notes, 300 Sheets Self-Stick Notes with Line, Colors Adhesive Memo Notepad Bulk, Home O",
+      "price": 6.32,
+      "reviews": 102,
+      "rating": 4.3,
+      "rank": 32,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "102 reviews, 4.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0BYDPS6Q4",
+      "image_url": "https://m.media-amazon.com/images/I/71rHUvCTkxL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "office accessories",
+      "festival_event": "Boss's Day老板节",
+      "festival_icon": "👔",
+      "festival_deadline": "2026-08-30",
+      "is_event": false,
+      "sources": [
+        "📅 Boss's Day老板节"
+      ],
+      "profit_margin": 0.205,
+      "net_profit": 1.3,
+      "cost_breakdown": {
+        "vat": 1.06,
+        "commission": 0.95,
+        "fba": 1.46,
+        "ads": 0.63,
+        "returns": 0.13,
+        "sourcing": 0.8,
+        "total_cost": 5.02
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": 0,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🟡 中等竞争": 5,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-08-25",
+      "channel_tags": [
+        "keyword_search"
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "keyword": "crafts",
+      "category": "crafts",
+      "heat": 100,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "craft",
+        "art"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "craft knife",
+        "craft supplies",
+        "DIY craft kit",
+        "art supplies",
+        "paint set",
+        "drawing kit"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=craft+knife",
+      "url_google": "https://trends.google.com/trends/explore?q=craft+knife&geo=GB"
+    },
+    {
+      "keyword": "lighting",
+      "category": "lighting",
+      "heat": 100,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "led",
+        "light",
+        "strip"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "LED bulb",
+        "LED light",
+        "LED panel",
+        "fairy lights",
+        "string lights",
+        "LED strip",
+        "LED strip light",
+        "RGB strip"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=LED+bulb",
+      "url_google": "https://trends.google.com/trends/explore?q=LED+bulb&geo=GB"
+    },
+    {
+      "keyword": "home decor",
+      "category": "home decor",
+      "heat": 90,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "wall art",
+        "candle",
+        "decor"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "wall art print",
+        "wall hanging",
+        "wall decal",
+        "candle holder",
+        "scented candle",
+        "candle set",
+        "home decor",
+        "room decor"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 90,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=wall+art+print",
+      "url_google": "https://trends.google.com/trends/explore?q=wall+art+print&geo=GB"
+    },
+    {
+      "keyword": "seasonal",
+      "category": "seasonal",
+      "heat": 73,
+      "score": 69,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "gift",
+        "birthday"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "gift ideas",
+        "gift set",
+        "gift box",
+        "birthday gift",
+        "birthday decoration",
+        "birthday card"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 73,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=gift+ideas",
+      "url_google": "https://trends.google.com/trends/explore?q=gift+ideas&geo=GB"
+    },
+    {
+      "keyword": "car",
+      "category": "car",
+      "heat": 65,
+      "score": 66,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "motor",
+        "car",
+        "vehicle"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "motorcycle accessories",
+        "motorcycle cover",
+        "car accessories",
+        "car organizer",
+        "car phone holder",
+        "vehicle"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 65,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=motorcycle+accessories",
+      "url_google": "https://trends.google.com/trends/explore?q=motorcycle+accessories&geo=GB"
+    },
+    {
+      "keyword": "beauty",
+      "category": "beauty",
+      "heat": 65,
+      "score": 66,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "hair",
+        "makeup"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "hair clip",
+        "hair accessories",
+        "hair band",
+        "hair tie",
+        "makeup brush set",
+        "makeup bag",
+        "makeup organizer"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 65,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=hair+clip",
+      "url_google": "https://trends.google.com/trends/explore?q=hair+clip&geo=GB"
+    },
+    {
+      "keyword": "travel",
+      "category": "travel",
+      "heat": 57,
+      "score": 64,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "toiletry",
+        "packing",
+        "travel"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "toiletry",
+        "packing",
+        "travel"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 57,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=toiletry",
+      "url_google": "https://trends.google.com/trends/explore?q=toiletry&geo=GB"
+    },
+    {
+      "keyword": "bathroom",
+      "category": "bathroom",
+      "heat": 48,
+      "score": 61,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "bathroom",
+        "toilet",
+        "bath"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "bathroom",
+        "toilet",
+        "bath mat",
+        "bath caddy",
+        "bath pillow"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 48,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=bathroom",
+      "url_google": "https://trends.google.com/trends/explore?q=bathroom&geo=GB"
+    },
+    {
+      "keyword": "baby",
+      "category": "baby",
+      "heat": 40,
+      "score": 58,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "baby",
+        "kids"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "baby",
+        "kids"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 40,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=baby",
+      "url_google": "https://trends.google.com/trends/explore?q=baby&geo=GB"
+    },
+    {
+      "keyword": "eco",
+      "category": "eco",
+      "heat": 58,
+      "score": 49,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "reusable",
+        "eco"
+      ],
+      "is_cross_validated": false,
+      "cross_sources": 0,
+      "suggestions": [
+        "reusable food wrap",
+        "reusable straws",
+        "reusable bags",
+        "eco products",
+        "reusable bag",
+        "bamboo products"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 58,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=reusable+food+wrap",
+      "url_google": "https://trends.google.com/trends/explore?q=reusable+food+wrap&geo=GB"
+    },
+    {
+      "keyword": "office",
+      "category": "office",
+      "heat": 42,
+      "score": 44,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "office",
+        "desk",
+        "pen"
+      ],
+      "is_cross_validated": false,
+      "cross_sources": 0,
+      "suggestions": [
+        "office supplies",
+        "desk organizer",
+        "pen holder",
+        "desk lamp",
+        "desk mat",
+        "pen set",
+        "fountain pen"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 42,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=office+supplies",
+      "url_google": "https://trends.google.com/trends/explore?q=office+supplies&geo=GB"
+    }
+  ],
+  "trend_summary": {
+    "top_categories": [
+      [
+        "crafts",
+        100
+      ],
+      [
+        "lighting",
+        100
+      ],
+      [
+        "pets",
+        90
+      ],
+      [
+        "home decor",
+        90
+      ],
+      [
+        "kitchen",
+        82
+      ],
+      [
+        "seasonal",
+        73
+      ]
+    ],
+    "cross_validated": [
+      "kitchen",
+      "car",
+      "crafts",
+      "travel",
+      "beauty",
+      "seasonal",
+      "bathroom",
+      "lighting",
+      "pets",
+      "baby",
+      "home decor"
+    ],
+    "demand_keywords": [
+      "cool stuff gadgets",
+      "dollar oysters",
+      "may have to close up",
+      "my account is still open",
+      "perfumes and",
+      "recommend some cool stuff from",
+      "shop like a billionaire",
+      "temu products selling on amazon",
+      "temu vs",
+      "the perfect"
+    ],
+    "season": "summer",
+    "sources_scanned": [
+      "tiktok",
+      "temu",
+      "etsy",
+      "market_intel"
+    ]
+  }
+}
