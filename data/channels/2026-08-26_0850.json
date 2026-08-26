@@ -1,0 +1,936 @@
+{
+  "scan_date": "2026-08-26",
+  "scan_time": "08:50",
+  "scan_ts": "2026-08-26_0850",
+  "stats": {
+    "total_scanned": 176,
+    "passed_filter": 4,
+    "rejected": 169,
+    "channels": {
+      "multi_source": 3,
+      "temu_trending": 3,
+      "tiktok_verified": 3,
+      "keyword_search": 4
+    },
+    "detail_reject": {
+      "重量超标": 6
+    },
+    "theme_trimmed": [
+      {
+        "asin": "B01N4OUHTA",
+        "name": "Sponsored Ad – Talea Kitchen Table Control Stainless steel Sink Strainer Plug size 92mm（QS229C002）"
+      },
+      {
+        "asin": "B0DWMZYPLM",
+        "name": "JAONLD Silicone Sink Faucet Mat Grey Narrow Kitchen Sink Splash | Guard Draining Mat Around Tap Extended Drainer Mat Sin"
+      },
+      {
+        "asin": "B0FB3KCZMQ",
+        "name": "Sponsored Ad – 2 Pack Kitchen Sink Plug and Strainer, 304 Stainless Sink Strainer Plug, Sink Strainer, Stainless steel d"
+      }
+    ],
+    "trend_categories": {
+      "crafts": 100,
+      "lighting": 100,
+      "home decor": 100,
+      "pets": 90,
+      "beauty": 82,
+      "eco": 82
+    },
+    "supply_demand": {
+      "lighting": {
+        "ratio": 8.0,
+        "demand": 100,
+        "supply": 265567,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "pets": {
+        "ratio": 7.1,
+        "demand": 90,
+        "supply": 312971,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "kitchen": {
+        "ratio": 4.5,
+        "demand": 58,
+        "supply": 414546,
+        "label": "💧 浅蓝海",
+        "level": "light_blue"
+      },
+      "kitchen_gadgets": {
+        "ratio": 0.6,
+        "demand": 8,
+        "supply": 414546,
+        "label": "🔴 红海",
+        "level": "red_ocean"
+      },
+      "garden": {
+        "ratio": 0,
+        "demand": 17,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "storage": {
+        "ratio": 0,
+        "demand": 17,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "crafts": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "travel": {
+        "ratio": 0,
+        "demand": 17,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      }
+    },
+    "divergences": {
+      "kitchen": {
+        "current_heat": 54,
+        "previous_heat": 82,
+        "heat_change_pct": -34.1,
+        "direction": "falling",
+        "dates": [
+          "2026-08-25_0850",
+          "2026-08-25_1710"
+        ]
+      },
+      "garden": {
+        "current_heat": 23,
+        "previous_heat": 17,
+        "heat_change_pct": 35.3,
+        "direction": "rising",
+        "dates": [
+          "2026-08-25_0850",
+          "2026-08-25_1710"
+        ]
+      },
+      "car": {
+        "current_heat": 53,
+        "previous_heat": 65,
+        "heat_change_pct": -18.5,
+        "direction": "stable",
+        "dates": [
+          "2026-08-25_0850",
+          "2026-08-25_1710"
+        ]
+      },
+      "storage": {
+        "current_heat": 38,
+        "previous_heat": 25,
+        "heat_change_pct": 52.0,
+        "direction": "rising",
+        "dates": [
+          "2026-08-25_0850",
+          "2026-08-25_1710"
+        ]
+      },
+      "sports": {
+        "current_heat": 15,
+        "previous_heat": 8,
+        "heat_change_pct": 87.5,
+        "direction": "rising",
+        "dates": [
+          "2026-08-25_0850",
+          "2026-08-25_1710"
+        ]
+      },
+      "crafts": {
+        "current_heat": 100,
+        "previous_heat": 100,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-25_0850",
+          "2026-08-25_1710"
+        ]
+      },
+      "travel": {
+        "current_heat": 15,
+        "previous_heat": 57,
+        "heat_change_pct": -73.7,
+        "direction": "falling",
+        "dates": [
+          "2026-08-25_0850",
+          "2026-08-25_1710"
+        ]
+      },
+      "cleaning": {
+        "current_heat": 15,
+        "previous_heat": 17,
+        "heat_change_pct": -11.8,
+        "direction": "stable",
+        "dates": [
+          "2026-08-25_0850",
+          "2026-08-25_1710"
+        ]
+      },
+      "seasonal": {
+        "current_heat": 84,
+        "previous_heat": 73,
+        "heat_change_pct": 15.1,
+        "direction": "stable",
+        "dates": [
+          "2026-08-25_0850",
+          "2026-08-25_1710"
+        ]
+      },
+      "lighting": {
+        "current_heat": 100,
+        "previous_heat": 100,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-25_0850",
+          "2026-08-25_1710"
+        ]
+      },
+      "beauty": {
+        "current_heat": 46,
+        "previous_heat": 65,
+        "heat_change_pct": -29.2,
+        "direction": "falling",
+        "dates": [
+          "2026-08-25_0850",
+          "2026-08-25_1710"
+        ]
+      },
+      "pets": {
+        "current_heat": 84,
+        "previous_heat": 90,
+        "heat_change_pct": -6.7,
+        "direction": "stable",
+        "dates": [
+          "2026-08-25_0850",
+          "2026-08-25_1710"
+        ]
+      },
+      "home decor": {
+        "current_heat": 84,
+        "previous_heat": 90,
+        "heat_change_pct": -6.7,
+        "direction": "stable",
+        "dates": [
+          "2026-08-25_0850",
+          "2026-08-25_1710"
+        ]
+      },
+      "baby": {
+        "current_heat": 46,
+        "previous_heat": 40,
+        "heat_change_pct": 15.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-25_0850",
+          "2026-08-25_1710"
+        ]
+      },
+      "eco": {
+        "current_heat": 54,
+        "previous_heat": 58,
+        "heat_change_pct": -6.9,
+        "direction": "stable",
+        "dates": [
+          "2026-08-25_0850",
+          "2026-08-25_1710"
+        ]
+      },
+      "bathroom": {
+        "current_heat": 15,
+        "previous_heat": 48,
+        "heat_change_pct": -68.8,
+        "direction": "falling",
+        "dates": [
+          "2026-08-25_0850",
+          "2026-08-25_1710"
+        ]
+      },
+      "office": {
+        "current_heat": 23,
+        "previous_heat": 42,
+        "heat_change_pct": -45.2,
+        "direction": "falling",
+        "dates": [
+          "2026-08-25_0850",
+          "2026-08-25_1710"
+        ]
+      },
+      "bedding": {
+        "current_heat": 15,
+        "previous_heat": 25,
+        "heat_change_pct": -40.0,
+        "direction": "falling",
+        "dates": [
+          "2026-08-25_0850",
+          "2026-08-25_1710"
+        ]
+      },
+      "phone": {
+        "current_heat": 23,
+        "previous_heat": 25,
+        "heat_change_pct": -8.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-25_0850",
+          "2026-08-25_1710"
+        ]
+      },
+      "kitchen_gadgets": {
+        "current_heat": 8,
+        "previous_heat": 17,
+        "heat_change_pct": -52.9,
+        "direction": "falling",
+        "dates": [
+          "2026-08-25_0850",
+          "2026-08-25_1710"
+        ]
+      }
+    },
+    "gap_opportunities": 8
+  },
+  "products": [
+    {
+      "asin": "B0GSZKWF1D",
+      "name": "Linpr Silicone Faucet Splash Guard, Kitchen Sink Mat, Beige, 15.75\" x 3.15\" | Narrow Foldable Faucet Drain Mat, Draining",
+      "price": 8.32,
+      "reviews": 13,
+      "rating": 4.9,
+      "rank": 24,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "13 reviews, 4.9★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GSZKWF1D",
+      "image_url": "https://m.media-amazon.com/images/I/718oEAfjWhL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "silicone sink splash guard, sink splash guard, faucet mat, kitchen sink draining mat, sink mat silicone, faucet splash guard, sink draining mat, kitchen sink mat, faucet drip catcher, sink splash guard mat, kitchen sink splash guard, silicone faucet mat, sink organiser mat, kitchen sink organiser",
+      "sources": [
+        "趋势发现",
+        "Temu热销",
+        "TikTok趋势"
+      ],
+      "profit_margin": 0.291,
+      "net_profit": 2.42,
+      "cost_breakdown": {
+        "vat": 1.39,
+        "commission": 1.25,
+        "fba": 1.46,
+        "ads": 0.83,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 5.9
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 10,
+      "sd_label": "💧 浅蓝海",
+      "sd_info": {
+        "ratio": 4.5,
+        "demand": 58,
+        "supply": 414546,
+        "label": "💧 浅蓝海",
+        "level": "light_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "medium",
+      "signal_label": "🟠 中信号",
+      "external_sources": [
+        "TikTok",
+        "Temu"
+      ],
+      "internal_sources": [],
+      "score": 110,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🟠 中信号": 10,
+        "📈 趋势(kitchen)": 8,
+        "🌊 蓝海": 15,
+        "⭐ 高评分": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "💧 浅蓝海": 10,
+        "⚠️ 品类较多": -5,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-26",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "multi_source",
+        "temu_trending",
+        "tiktok_verified",
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0G821JDXK",
+      "name": "saerryor 2Pcs Silicone Sink Splash Guard Kitchen Faucet Mat | Narrow Draining Mat Around Tap Extended Drainer Mats Sink ",
+      "price": 7.49,
+      "reviews": 16,
+      "rating": 4.4,
+      "rank": 7,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "16 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0G821JDXK",
+      "image_url": "https://m.media-amazon.com/images/I/61xtbi4k4UL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "silicone sink splash guard, sink splash guard, faucet mat, kitchen sink draining mat, sink mat silicone, faucet splash guard, sink draining mat, kitchen sink mat, faucet drip catcher, sink splash guard mat, kitchen sink splash guard, silicone faucet mat, sink organiser mat, kitchen sink organiser",
+      "sources": [
+        "趋势发现",
+        "Temu热销",
+        "TikTok趋势"
+      ],
+      "profit_margin": 0.261,
+      "net_profit": 1.96,
+      "cost_breakdown": {
+        "vat": 1.25,
+        "commission": 1.12,
+        "fba": 1.46,
+        "ads": 0.75,
+        "returns": 0.15,
+        "sourcing": 0.8,
+        "total_cost": 5.53
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 10,
+      "sd_label": "💧 浅蓝海",
+      "sd_info": {
+        "ratio": 4.5,
+        "demand": 58,
+        "supply": 414546,
+        "label": "💧 浅蓝海",
+        "level": "light_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "medium",
+      "signal_label": "🟠 中信号",
+      "external_sources": [
+        "TikTok",
+        "Temu"
+      ],
+      "internal_sources": [],
+      "score": 97,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🟠 中信号": 10,
+        "📈 趋势(kitchen)": 8,
+        "🌊 蓝海": 15,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "💧 浅蓝海": 10,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类较多": -5,
+        "✨ 新发现": 10
+      },
+      "stars": 4,
+      "is_new": true,
+      "first_seen": "2026-08-26",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "multi_source",
+        "temu_trending",
+        "tiktok_verified",
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0DWN1M3S8",
+      "name": "JAONLD Silicone Sink Faucet Mat Narrow Kitchen Sink Splash | Guard Draining Mat Around Tap Extended Drainer mat Sink Pro",
+      "price": 7.12,
+      "reviews": 41,
+      "rating": 3.7,
+      "rank": 17,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "41 reviews, 3.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DWN1M3S8",
+      "image_url": "https://m.media-amazon.com/images/I/71f5XbTf3KL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "silicone sink splash guard, sink splash guard, faucet mat, kitchen sink draining mat, sink mat silicone, faucet splash guard, sink draining mat, kitchen sink mat, faucet drip catcher, sink splash guard mat, kitchen sink splash guard, silicone faucet mat, sink organiser mat, kitchen sink organiser",
+      "sources": [
+        "趋势发现",
+        "Temu热销",
+        "TikTok趋势"
+      ],
+      "profit_margin": 0.246,
+      "net_profit": 1.75,
+      "cost_breakdown": {
+        "vat": 1.19,
+        "commission": 1.07,
+        "fba": 1.46,
+        "ads": 0.71,
+        "returns": 0.14,
+        "sourcing": 0.8,
+        "total_cost": 5.37
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 10,
+      "sd_label": "💧 浅蓝海",
+      "sd_info": {
+        "ratio": 4.5,
+        "demand": 58,
+        "supply": 414546,
+        "label": "💧 浅蓝海",
+        "level": "light_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "medium",
+      "signal_label": "🟠 中信号",
+      "external_sources": [
+        "TikTok",
+        "Temu"
+      ],
+      "internal_sources": [],
+      "score": 96,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🟠 中信号": 10,
+        "📈 趋势(kitchen)": 8,
+        "🟢 低竞争": 10,
+        "❓ 品类存疑": -5,
+        "💧 浅蓝海": 10,
+        "⚠️ 品类较多": -5,
+        "✨ 新发现": 10
+      },
+      "stars": 4,
+      "is_new": true,
+      "first_seen": "2026-08-26",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "multi_source",
+        "temu_trending",
+        "tiktok_verified",
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0BYDPS6Q4",
+      "name": "TIESOME 6 Pack To Do List Sticky Notes, 300 Sheets Self-Stick Notes with Line, Colors Adhesive Memo Notepad Bulk, Home O",
+      "price": 6.32,
+      "reviews": 102,
+      "rating": 4.3,
+      "rank": 19,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "102 reviews, 4.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0BYDPS6Q4",
+      "image_url": "https://m.media-amazon.com/images/I/71rHUvCTkxL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "office accessories",
+      "festival_event": "Boss's Day老板节",
+      "festival_icon": "👔",
+      "festival_deadline": "2026-08-30",
+      "is_event": false,
+      "sources": [
+        "📅 Boss's Day老板节"
+      ],
+      "profit_margin": 0.205,
+      "net_profit": 1.3,
+      "cost_breakdown": {
+        "vat": 1.06,
+        "commission": 0.95,
+        "fba": 1.46,
+        "ads": 0.63,
+        "returns": 0.13,
+        "sourcing": 0.8,
+        "total_cost": 5.02
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": -5,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🟡 中等竞争": 5,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 品类较多": -5
+      },
+      "stars": 1,
+      "is_new": false,
+      "first_seen": "2026-08-25",
+      "channel_tags": [
+        "keyword_search"
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "keyword": "crafts",
+      "category": "crafts",
+      "heat": 100,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "tape",
+        "art",
+        "craft"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "washi tape",
+        "decorative tape",
+        "masking tape",
+        "art supplies",
+        "paint set",
+        "drawing kit",
+        "craft knife",
+        "craft supplies"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=washi+tape",
+      "url_google": "https://trends.google.com/trends/explore?q=washi+tape&geo=GB"
+    },
+    {
+      "keyword": "home decor",
+      "category": "home decor",
+      "heat": 100,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "candle",
+        "decor",
+        "frame",
+        "mirror",
+        "clock"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "candle holder",
+        "scented candle",
+        "candle set",
+        "home decor",
+        "room decor",
+        "table decor",
+        "photo frame",
+        "picture frame"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=candle+holder",
+      "url_google": "https://trends.google.com/trends/explore?q=candle+holder&geo=GB"
+    },
+    {
+      "keyword": "beauty",
+      "category": "beauty",
+      "heat": 82,
+      "score": 72,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "hair",
+        "nail",
+        "makeup",
+        "mirror"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "hair clip",
+        "hair accessories",
+        "hair band",
+        "hair tie",
+        "nail art kit",
+        "nail tools",
+        "nail stickers",
+        "makeup brush set"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 82,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=hair+clip",
+      "url_google": "https://trends.google.com/trends/explore?q=hair+clip&geo=GB"
+    },
+    {
+      "keyword": "eco",
+      "category": "eco",
+      "heat": 82,
+      "score": 72,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "eco",
+        "reusable"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "eco products",
+        "reusable bag",
+        "bamboo products",
+        "reusable food wrap",
+        "reusable straws",
+        "reusable bags"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 82,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=eco+products",
+      "url_google": "https://trends.google.com/trends/explore?q=eco+products&geo=GB"
+    },
+    {
+      "keyword": "seasonal",
+      "category": "seasonal",
+      "heat": 73,
+      "score": 69,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "birthday",
+        "gift"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "birthday gift",
+        "birthday decoration",
+        "birthday card",
+        "gift ideas",
+        "gift set",
+        "gift box"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 73,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=birthday+gift",
+      "url_google": "https://trends.google.com/trends/explore?q=birthday+gift&geo=GB"
+    },
+    {
+      "keyword": "car",
+      "category": "car",
+      "heat": 57,
+      "score": 64,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "vehicle",
+        "car",
+        "motor"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "vehicle",
+        "car accessories",
+        "car organizer",
+        "car phone holder",
+        "motorcycle accessories",
+        "motorcycle cover"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 57,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=vehicle",
+      "url_google": "https://trends.google.com/trends/explore?q=vehicle&geo=GB"
+    },
+    {
+      "keyword": "bathroom",
+      "category": "bathroom",
+      "heat": 57,
+      "score": 64,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "bathroom",
+        "mirror",
+        "toilet",
+        "bath"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "bathroom",
+        "makeup mirror",
+        "vanity mirror",
+        "LED mirror",
+        "toilet",
+        "bath mat",
+        "bath caddy",
+        "bath pillow"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 57,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=bathroom",
+      "url_google": "https://trends.google.com/trends/explore?q=bathroom&geo=GB"
+    },
+    {
+      "keyword": "baby",
+      "category": "baby",
+      "heat": 48,
+      "score": 61,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "toddler",
+        "baby",
+        "kids"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "toddler",
+        "baby",
+        "kids"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 48,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=toddler",
+      "url_google": "https://trends.google.com/trends/explore?q=toddler&geo=GB"
+    }
+  ],
+  "trend_summary": {
+    "top_categories": [
+      [
+        "crafts",
+        100
+      ],
+      [
+        "lighting",
+        100
+      ],
+      [
+        "home decor",
+        100
+      ],
+      [
+        "pets",
+        90
+      ],
+      [
+        "beauty",
+        82
+      ],
+      [
+        "eco",
+        82
+      ]
+    ],
+    "cross_validated": [
+      "crafts",
+      "beauty",
+      "eco",
+      "car",
+      "seasonal",
+      "bathroom",
+      "lighting",
+      "baby",
+      "pets",
+      "home decor"
+    ],
+    "demand_keywords": [
+      "cool stuff gadgets",
+      "dollar oysters",
+      "may have to close up",
+      "perfumes and",
+      "recommend some cool stuff from",
+      "shop like a billionaire",
+      "temu products selling on amazon",
+      "temu vs",
+      "the perfect",
+      "these are quick"
+    ],
+    "season": "summer",
+    "sources_scanned": [
+      "tiktok",
+      "temu",
+      "etsy",
+      "market_intel"
+    ]
+  }
+}
