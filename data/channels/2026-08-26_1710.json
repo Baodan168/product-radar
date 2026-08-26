@@ -1,0 +1,1008 @@
+{
+  "scan_date": "2026-08-26",
+  "scan_time": "17:10",
+  "scan_ts": "2026-08-26_1710",
+  "stats": {
+    "total_scanned": 102,
+    "passed_filter": 4,
+    "rejected": 96,
+    "channels": {
+      "temu_trending": 4,
+      "multi_source": 4,
+      "etsy_trending": 4,
+      "keyword_search": 4,
+      "tiktok_verified": 4
+    },
+    "detail_reject": {},
+    "theme_trimmed": [
+      {
+        "asin": "B0GS9F2SWW",
+        "name": "Yuecda Chaos Coordinator Tumbler, Chaos Coordinator Gifts for Women Boss Lady Coworker Manager Teacher Assistant Mom-Tha"
+      },
+      {
+        "asin": "B0FP2Q8GHP",
+        "name": "A4 Only Fans Calendar 2027 Funny Gifts for Men Secret Santa Gift Ideas | Onlyfans Rude Calendar 2027 Xmas Funny Secret S"
+      }
+    ],
+    "trend_categories": {
+      "lighting": 100,
+      "crafts": 92,
+      "beauty": 92,
+      "pets": 92,
+      "home decor": 92,
+      "eco": 84
+    },
+    "supply_demand": {
+      "pets": {
+        "ratio": 6.8,
+        "demand": 92,
+        "supply": 812483,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "kitchen": {
+        "ratio": 4.9,
+        "demand": 54,
+        "supply": 58451,
+        "label": "💧 浅蓝海",
+        "level": "light_blue"
+      },
+      "kitchen_gadgets": {
+        "ratio": 1.4,
+        "demand": 15,
+        "supply": 58451,
+        "label": "⚖️ 平衡",
+        "level": "balanced"
+      },
+      "garden": {
+        "ratio": 0,
+        "demand": 23,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "crafts": {
+        "ratio": 0,
+        "demand": 92,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "beauty": {
+        "ratio": 0,
+        "demand": 92,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "eco": {
+        "ratio": 0,
+        "demand": 84,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "car": {
+        "ratio": 0,
+        "demand": 61,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      }
+    },
+    "divergences": {
+      "kitchen": {
+        "current_heat": 58,
+        "previous_heat": 54,
+        "heat_change_pct": 7.4,
+        "direction": "stable",
+        "dates": [
+          "2026-08-25_1710",
+          "2026-08-26_0850"
+        ]
+      },
+      "garden": {
+        "current_heat": 17,
+        "previous_heat": 23,
+        "heat_change_pct": -26.1,
+        "direction": "falling",
+        "dates": [
+          "2026-08-25_1710",
+          "2026-08-26_0850"
+        ]
+      },
+      "storage": {
+        "current_heat": 17,
+        "previous_heat": 38,
+        "heat_change_pct": -55.3,
+        "direction": "falling",
+        "dates": [
+          "2026-08-25_1710",
+          "2026-08-26_0850"
+        ]
+      },
+      "crafts": {
+        "current_heat": 100,
+        "previous_heat": 100,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-25_1710",
+          "2026-08-26_0850"
+        ]
+      },
+      "travel": {
+        "current_heat": 17,
+        "previous_heat": 15,
+        "heat_change_pct": 13.3,
+        "direction": "stable",
+        "dates": [
+          "2026-08-25_1710",
+          "2026-08-26_0850"
+        ]
+      },
+      "beauty": {
+        "current_heat": 82,
+        "previous_heat": 46,
+        "heat_change_pct": 78.3,
+        "direction": "rising",
+        "dates": [
+          "2026-08-25_1710",
+          "2026-08-26_0850"
+        ]
+      },
+      "eco": {
+        "current_heat": 82,
+        "previous_heat": 54,
+        "heat_change_pct": 51.9,
+        "direction": "rising",
+        "dates": [
+          "2026-08-25_1710",
+          "2026-08-26_0850"
+        ]
+      },
+      "car": {
+        "current_heat": 57,
+        "previous_heat": 53,
+        "heat_change_pct": 7.5,
+        "direction": "stable",
+        "dates": [
+          "2026-08-25_1710",
+          "2026-08-26_0850"
+        ]
+      },
+      "seasonal": {
+        "current_heat": 73,
+        "previous_heat": 84,
+        "heat_change_pct": -13.1,
+        "direction": "stable",
+        "dates": [
+          "2026-08-25_1710",
+          "2026-08-26_0850"
+        ]
+      },
+      "bathroom": {
+        "current_heat": 57,
+        "previous_heat": 15,
+        "heat_change_pct": 280.0,
+        "direction": "rising",
+        "dates": [
+          "2026-08-25_1710",
+          "2026-08-26_0850"
+        ]
+      },
+      "cleaning": {
+        "current_heat": 17,
+        "previous_heat": 15,
+        "heat_change_pct": 13.3,
+        "direction": "stable",
+        "dates": [
+          "2026-08-25_1710",
+          "2026-08-26_0850"
+        ]
+      },
+      "lighting": {
+        "current_heat": 100,
+        "previous_heat": 100,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-25_1710",
+          "2026-08-26_0850"
+        ]
+      },
+      "baby": {
+        "current_heat": 48,
+        "previous_heat": 46,
+        "heat_change_pct": 4.3,
+        "direction": "stable",
+        "dates": [
+          "2026-08-25_1710",
+          "2026-08-26_0850"
+        ]
+      },
+      "pets": {
+        "current_heat": 90,
+        "previous_heat": 84,
+        "heat_change_pct": 7.1,
+        "direction": "stable",
+        "dates": [
+          "2026-08-25_1710",
+          "2026-08-26_0850"
+        ]
+      },
+      "home decor": {
+        "current_heat": 100,
+        "previous_heat": 84,
+        "heat_change_pct": 19.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-25_1710",
+          "2026-08-26_0850"
+        ]
+      },
+      "office": {
+        "current_heat": 33,
+        "previous_heat": 23,
+        "heat_change_pct": 43.5,
+        "direction": "rising",
+        "dates": [
+          "2026-08-25_1710",
+          "2026-08-26_0850"
+        ]
+      },
+      "bedding": {
+        "current_heat": 8,
+        "previous_heat": 15,
+        "heat_change_pct": -46.7,
+        "direction": "falling",
+        "dates": [
+          "2026-08-25_1710",
+          "2026-08-26_0850"
+        ]
+      },
+      "phone": {
+        "current_heat": 17,
+        "previous_heat": 23,
+        "heat_change_pct": -26.1,
+        "direction": "falling",
+        "dates": [
+          "2026-08-25_1710",
+          "2026-08-26_0850"
+        ]
+      },
+      "kitchen_gadgets": {
+        "current_heat": 8,
+        "previous_heat": 8,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-25_1710",
+          "2026-08-26_0850"
+        ]
+      }
+    },
+    "gap_opportunities": 10
+  },
+  "products": [
+    {
+      "asin": "B0FMXQ31M2",
+      "name": "SteadStyle Best Boss Gifts for Women & Men, Leaving Gifts for Colleagues | Work Bestie Farewell Gifts for Coworkers, Man",
+      "price": 11.66,
+      "reviews": 15,
+      "rating": 4.5,
+      "rank": 20,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "15 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FMXQ31M2",
+      "image_url": "https://m.media-amazon.com/images/I/61zR4U2hBzL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "boss gift",
+      "festival_event": "Boss's Day老板节",
+      "festival_icon": "👔",
+      "festival_deadline": "2026-08-30",
+      "is_event": false,
+      "sources": [
+        "📅 Boss's Day老板节",
+        "TikTok趋势",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.369,
+      "net_profit": 4.3,
+      "cost_breakdown": {
+        "vat": 1.95,
+        "commission": 1.75,
+        "fba": 1.46,
+        "ads": 1.17,
+        "returns": 0.23,
+        "sourcing": 0.8,
+        "total_cost": 7.36
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 116,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "📈 趋势(seasonal)": 8,
+        "🌊 蓝海": 15,
+        "⭐ 高评分": 5,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类较多": -5,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-26",
+      "is_multi": true,
+      "channel_tags": [
+        "temu_trending",
+        "multi_source",
+        "etsy_trending",
+        "keyword_search",
+        "tiktok_verified"
+      ]
+    },
+    {
+      "asin": "B0FFT94S39",
+      "name": "Boxer Gifts Chaos Coordinator Novelty Desk Sign - Funny Manager Gift for Your Boss and Colleagues Secret Santa - Novelty",
+      "price": 6.66,
+      "reviews": 14,
+      "rating": 4.9,
+      "rank": 3,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "14 reviews, 4.9★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FFT94S39",
+      "image_url": "https://m.media-amazon.com/images/I/61c6efDmFhL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "boss gift",
+      "festival_event": "Boss's Day老板节",
+      "festival_icon": "👔",
+      "festival_deadline": "2026-08-30",
+      "is_event": false,
+      "sources": [
+        "📅 Boss's Day老板节",
+        "TikTok趋势",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.224,
+      "net_profit": 1.49,
+      "cost_breakdown": {
+        "vat": 1.11,
+        "commission": 1.0,
+        "fba": 1.46,
+        "ads": 0.67,
+        "returns": 0.13,
+        "sourcing": 0.8,
+        "total_cost": 5.17
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 112,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "📈 趋势(seasonal)": 8,
+        "🌊 蓝海": 15,
+        "⭐ 高评分": 5,
+        "❓ 品类存疑": -5,
+        "⚠️ 品类较多": -5,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-26",
+      "is_multi": true,
+      "channel_tags": [
+        "temu_trending",
+        "multi_source",
+        "etsy_trending",
+        "keyword_search",
+        "tiktok_verified"
+      ]
+    },
+    {
+      "asin": "B0GWHWW7M3",
+      "name": "Mitibet Difference Maker Personalised Notebook and Pen Set, Leaving Gifts for Colleagues Women Men, Coworker Farewell Ne",
+      "price": 9.99,
+      "reviews": 16,
+      "rating": 4.6,
+      "rank": 24,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "16 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GWHWW7M3",
+      "image_url": "https://m.media-amazon.com/images/I/713rcYVtdqL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "boss gift",
+      "festival_event": "Boss's Day老板节",
+      "festival_icon": "👔",
+      "festival_deadline": "2026-08-30",
+      "is_event": false,
+      "sources": [
+        "📅 Boss's Day老板节",
+        "TikTok趋势",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.337,
+      "net_profit": 3.36,
+      "cost_breakdown": {
+        "vat": 1.67,
+        "commission": 1.5,
+        "fba": 1.46,
+        "ads": 1.0,
+        "returns": 0.2,
+        "sourcing": 0.8,
+        "total_cost": 6.63
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 112,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "📈 趋势(seasonal)": 8,
+        "🌊 蓝海": 15,
+        "⭐ 高评分": 5,
+        "💰 高利润": 8,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类较多": -5,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-26",
+      "is_multi": true,
+      "channel_tags": [
+        "temu_trending",
+        "multi_source",
+        "etsy_trending",
+        "keyword_search",
+        "tiktok_verified"
+      ]
+    },
+    {
+      "asin": "B0DNCJGM9P",
+      "name": "Other People's Problems That For Some Reason I Have To Solve: Funny Journal Notebook Gift Ideas, Sarcastic Work Gag Gift",
+      "price": 6.92,
+      "reviews": 75,
+      "rating": 4.6,
+      "rank": 8,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "75 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DNCJGM9P",
+      "image_url": "https://m.media-amazon.com/images/I/51VMbfgfYcL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "boss gift",
+      "festival_event": "Boss's Day老板节",
+      "festival_icon": "👔",
+      "festival_deadline": "2026-08-30",
+      "is_event": false,
+      "sources": [
+        "📅 Boss's Day老板节",
+        "TikTok趋势",
+        "Temu热销",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.236,
+      "net_profit": 1.64,
+      "cost_breakdown": {
+        "vat": 1.16,
+        "commission": 1.04,
+        "fba": 1.46,
+        "ads": 0.69,
+        "returns": 0.14,
+        "sourcing": 0.8,
+        "total_cost": 5.28
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "_degraded": true,
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 94,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "📈 趋势(seasonal)": 8,
+        "🟡 中等竞争": 5,
+        "⭐ 高评分": 5,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类较多": -5,
+        "✨ 新发现": 10
+      },
+      "stars": 4,
+      "is_new": true,
+      "first_seen": "2026-08-26",
+      "is_multi": true,
+      "channel_tags": [
+        "temu_trending",
+        "multi_source",
+        "etsy_trending",
+        "keyword_search",
+        "tiktok_verified"
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "keyword": "crafts",
+      "category": "crafts",
+      "heat": 92,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "art",
+        "craft"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "art supplies",
+        "paint set",
+        "drawing kit",
+        "craft knife",
+        "craft supplies",
+        "DIY craft kit"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 92,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=art+supplies",
+      "url_google": "https://trends.google.com/trends/explore?q=art+supplies&geo=GB"
+    },
+    {
+      "keyword": "beauty",
+      "category": "beauty",
+      "heat": 92,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "nail",
+        "makeup",
+        "skincare",
+        "hair"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "nail art kit",
+        "nail tools",
+        "nail stickers",
+        "makeup brush set",
+        "makeup bag",
+        "makeup organizer",
+        "face roller",
+        "gua sha"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 92,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=nail+art+kit",
+      "url_google": "https://trends.google.com/trends/explore?q=nail+art+kit&geo=GB"
+    },
+    {
+      "keyword": "lighting",
+      "category": "lighting",
+      "heat": 100,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "led",
+        "strip",
+        "light",
+        "night light"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "LED bulb",
+        "LED light",
+        "LED panel",
+        "LED strip",
+        "LED strip light",
+        "RGB strip",
+        "fairy lights",
+        "string lights"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=LED+bulb",
+      "url_google": "https://trends.google.com/trends/explore?q=LED+bulb&geo=GB"
+    },
+    {
+      "keyword": "home decor",
+      "category": "home decor",
+      "heat": 92,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "decor",
+        "clock",
+        "frame",
+        "wall art",
+        "candle"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "home decor",
+        "room decor",
+        "table decor",
+        "wall clock",
+        "desk clock",
+        "digital clock",
+        "photo frame",
+        "picture frame"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 92,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=home+decor",
+      "url_google": "https://trends.google.com/trends/explore?q=home+decor&geo=GB"
+    },
+    {
+      "keyword": "eco",
+      "category": "eco",
+      "heat": 84,
+      "score": 73,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "reusable",
+        "eco"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "reusable food wrap",
+        "reusable straws",
+        "reusable bags",
+        "eco products",
+        "reusable bag",
+        "bamboo products"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 84,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=reusable+food+wrap",
+      "url_google": "https://trends.google.com/trends/explore?q=reusable+food+wrap&geo=GB"
+    },
+    {
+      "keyword": "seasonal",
+      "category": "seasonal",
+      "heat": 69,
+      "score": 68,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "gift",
+        "birthday"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "gift ideas",
+        "gift set",
+        "gift box",
+        "birthday gift",
+        "birthday decoration",
+        "birthday card"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 69,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=gift+ideas",
+      "url_google": "https://trends.google.com/trends/explore?q=gift+ideas&geo=GB"
+    },
+    {
+      "keyword": "car",
+      "category": "car",
+      "heat": 61,
+      "score": 65,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "motor",
+        "vehicle",
+        "car"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "motorcycle accessories",
+        "motorcycle cover",
+        "vehicle",
+        "car accessories",
+        "car organizer",
+        "car phone holder"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 61,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=motorcycle+accessories",
+      "url_google": "https://trends.google.com/trends/explore?q=motorcycle+accessories&geo=GB"
+    },
+    {
+      "keyword": "office",
+      "category": "office",
+      "heat": 61,
+      "score": 65,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "office",
+        "pen",
+        "desk"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "office supplies",
+        "desk organizer",
+        "pen holder",
+        "pen set",
+        "fountain pen",
+        "desk lamp",
+        "desk mat"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 61,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=office+supplies",
+      "url_google": "https://trends.google.com/trends/explore?q=office+supplies&geo=GB"
+    },
+    {
+      "keyword": "bathroom",
+      "category": "bathroom",
+      "heat": 46,
+      "score": 60,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "bathroom",
+        "bath",
+        "toilet"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "bathroom",
+        "bath mat",
+        "bath caddy",
+        "bath pillow",
+        "toilet"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 46,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=bathroom",
+      "url_google": "https://trends.google.com/trends/explore?q=bathroom&geo=GB"
+    },
+    {
+      "keyword": "kitchen",
+      "category": "kitchen",
+      "heat": 54,
+      "score": 18,
+      "gap_level": "weak",
+      "amazon_count": 5,
+      "amazon_reviews": 58451,
+      "evidence": [
+        "utensil",
+        "kitchen",
+        "gadget"
+      ],
+      "is_cross_validated": false,
+      "cross_sources": 0,
+      "suggestions": [
+        "utensil",
+        "kitchen",
+        "gadget"
+      ],
+      "sd_info": {
+        "ratio": 4.9,
+        "demand": 54,
+        "supply": 58451,
+        "label": "💧 浅蓝海",
+        "level": "light_blue"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=utensil",
+      "url_google": "https://trends.google.com/trends/explore?q=utensil&geo=GB"
+    }
+  ],
+  "trend_summary": {
+    "top_categories": [
+      [
+        "lighting",
+        100
+      ],
+      [
+        "crafts",
+        92
+      ],
+      [
+        "beauty",
+        92
+      ],
+      [
+        "pets",
+        92
+      ],
+      [
+        "home decor",
+        92
+      ],
+      [
+        "eco",
+        84
+      ]
+    ],
+    "cross_validated": [
+      "crafts",
+      "beauty",
+      "eco",
+      "car",
+      "seasonal",
+      "bathroom",
+      "lighting",
+      "pets",
+      "home decor",
+      "office"
+    ],
+    "demand_keywords": [
+      "cool stuff gadgets",
+      "dollar oysters",
+      "explore trending products",
+      "may have to close up",
+      "my account is still open",
+      "perfumes and",
+      "recommend some cool stuff from",
+      "shop like a billionaire",
+      "temu products selling on amazon",
+      "temu vs"
+    ],
+    "season": "summer",
+    "sources_scanned": [
+      "tiktok",
+      "temu",
+      "etsy",
+      "market_intel"
+    ]
+  }
+}
