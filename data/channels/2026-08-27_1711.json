@@ -1,0 +1,1110 @@
+{
+  "scan_date": "2026-08-27",
+  "scan_time": "17:11",
+  "scan_ts": "2026-08-27_1711",
+  "stats": {
+    "total_scanned": 140,
+    "passed_filter": 5,
+    "rejected": 130,
+    "channels": {
+      "tiktok_verified": 3,
+      "youtube_review": 1,
+      "new_releases": 2,
+      "etsy_trending": 2,
+      "multi_source": 5,
+      "temu_trending": 5,
+      "keyword_search": 3,
+      "hotukdeals": 2
+    },
+    "detail_reject": {},
+    "theme_trimmed": [
+      {
+        "asin": "B0DQ7FLQGW",
+        "name": "Philip Jones Men's Lapis Gemstone Cufflinks"
+      },
+      {
+        "asin": "B00BH0MSZW",
+        "name": "Cufflinks for Men + Presentation Box - Silver Colour - Gear Stick | Domed Face - Perfect For Car Lovers - Brass Metal - "
+      },
+      {
+        "asin": "B0FKYX2MVG",
+        "name": "4 Pair Gold Cufflinks For Men Set, Cuff Links Mens Cufflinks For Men | Round And Square Mens Cuff Links Classic Elegant "
+      },
+      {
+        "asin": "B0FD3MT387",
+        "name": "Sponsored Ad – 4 Pairs Cufflinks for Men, Personalised Classic Tone Cuff Links set, Mens Cufflink for Wedding Business G"
+      },
+      {
+        "asin": "B0D737N4GB",
+        "name": "Silver Cufflinks for Men,Rectangle Minimalist Classic Cuff-links Silver | Texture Simple Solid for Regular Wedding Busin"
+      }
+    ],
+    "trend_categories": {
+      "kitchen": 100,
+      "garden": 100,
+      "crafts": 100,
+      "eco": 96,
+      "lighting": 96,
+      "pets": 82
+    },
+    "supply_demand": {
+      "kitchen": {
+        "ratio": 9.1,
+        "demand": 100,
+        "supply": 59023,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "lighting": {
+        "ratio": 7.7,
+        "demand": 96,
+        "supply": 255905,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "pets": {
+        "ratio": 6.1,
+        "demand": 82,
+        "supply": 729666,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "sports": {
+        "ratio": 4.4,
+        "demand": 48,
+        "supply": 51592,
+        "label": "💧 浅蓝海",
+        "level": "light_blue"
+      },
+      "kitchen_gadgets": {
+        "ratio": 0.5,
+        "demand": 5,
+        "supply": 59023,
+        "label": "🔴 红海",
+        "level": "red_ocean"
+      },
+      "garden": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "storage": {
+        "ratio": 0,
+        "demand": 44,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "crafts": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      }
+    },
+    "divergences": {
+      "kitchen": {
+        "current_heat": 100,
+        "previous_heat": 54,
+        "heat_change_pct": 85.2,
+        "direction": "rising",
+        "dates": [
+          "2026-08-26_1710",
+          "2026-08-27_0850"
+        ]
+      },
+      "garden": {
+        "current_heat": 99,
+        "previous_heat": 23,
+        "heat_change_pct": 330.4,
+        "direction": "rising",
+        "dates": [
+          "2026-08-26_1710",
+          "2026-08-27_0850"
+        ]
+      },
+      "storage": {
+        "current_heat": 41,
+        "previous_heat": 15,
+        "heat_change_pct": 173.3,
+        "direction": "rising",
+        "dates": [
+          "2026-08-26_1710",
+          "2026-08-27_0850"
+        ]
+      },
+      "crafts": {
+        "current_heat": 100,
+        "previous_heat": 92,
+        "heat_change_pct": 8.7,
+        "direction": "stable",
+        "dates": [
+          "2026-08-26_1710",
+          "2026-08-27_0850"
+        ]
+      },
+      "travel": {
+        "current_heat": 41,
+        "previous_heat": 8,
+        "heat_change_pct": 412.5,
+        "direction": "rising",
+        "dates": [
+          "2026-08-26_1710",
+          "2026-08-27_0850"
+        ]
+      },
+      "beauty": {
+        "current_heat": 57,
+        "previous_heat": 92,
+        "heat_change_pct": -38.0,
+        "direction": "falling",
+        "dates": [
+          "2026-08-26_1710",
+          "2026-08-27_0850"
+        ]
+      },
+      "eco": {
+        "current_heat": 78,
+        "previous_heat": 84,
+        "heat_change_pct": -7.1,
+        "direction": "stable",
+        "dates": [
+          "2026-08-26_1710",
+          "2026-08-27_0850"
+        ]
+      },
+      "car": {
+        "current_heat": 62,
+        "previous_heat": 61,
+        "heat_change_pct": 1.6,
+        "direction": "stable",
+        "dates": [
+          "2026-08-26_1710",
+          "2026-08-27_0850"
+        ]
+      },
+      "seasonal": {
+        "current_heat": 62,
+        "previous_heat": 69,
+        "heat_change_pct": -10.1,
+        "direction": "stable",
+        "dates": [
+          "2026-08-26_1710",
+          "2026-08-27_0850"
+        ]
+      },
+      "bathroom": {
+        "current_heat": 36,
+        "previous_heat": 46,
+        "heat_change_pct": -21.7,
+        "direction": "falling",
+        "dates": [
+          "2026-08-26_1710",
+          "2026-08-27_0850"
+        ]
+      },
+      "cleaning": {
+        "current_heat": 52,
+        "previous_heat": 8,
+        "heat_change_pct": 550.0,
+        "direction": "rising",
+        "dates": [
+          "2026-08-26_1710",
+          "2026-08-27_0850"
+        ]
+      },
+      "phone": {
+        "current_heat": 41,
+        "previous_heat": 15,
+        "heat_change_pct": 173.3,
+        "direction": "rising",
+        "dates": [
+          "2026-08-26_1710",
+          "2026-08-27_0850"
+        ]
+      },
+      "office": {
+        "current_heat": 68,
+        "previous_heat": 61,
+        "heat_change_pct": 11.5,
+        "direction": "stable",
+        "dates": [
+          "2026-08-26_1710",
+          "2026-08-27_0850"
+        ]
+      },
+      "pets": {
+        "current_heat": 89,
+        "previous_heat": 92,
+        "heat_change_pct": -3.3,
+        "direction": "stable",
+        "dates": [
+          "2026-08-26_1710",
+          "2026-08-27_0850"
+        ]
+      },
+      "lighting": {
+        "current_heat": 99,
+        "previous_heat": 100,
+        "heat_change_pct": -1.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-26_1710",
+          "2026-08-27_0850"
+        ]
+      },
+      "home decor": {
+        "current_heat": 68,
+        "previous_heat": 92,
+        "heat_change_pct": -26.1,
+        "direction": "falling",
+        "dates": [
+          "2026-08-26_1710",
+          "2026-08-27_0850"
+        ]
+      },
+      "bedding": {
+        "current_heat": 41,
+        "previous_heat": 8,
+        "heat_change_pct": 412.5,
+        "direction": "rising",
+        "dates": [
+          "2026-08-26_1710",
+          "2026-08-27_0850"
+        ]
+      },
+      "kitchen_gadgets": {
+        "current_heat": 5,
+        "previous_heat": 15,
+        "heat_change_pct": -66.7,
+        "direction": "falling",
+        "dates": [
+          "2026-08-26_1710",
+          "2026-08-27_0850"
+        ]
+      }
+    },
+    "gap_opportunities": 10
+  },
+  "products": [
+    {
+      "asin": "B0GSVGCYSG",
+      "name": "Heavy Duty Reusable Black Plastic Cutlery Set (50 Forks & 50 Knives) | Durable & Sturdy Party Cutlery Set Perfect for Pa",
+      "price": 7.99,
+      "reviews": 5,
+      "rating": 3.8,
+      "rank": 3,
+      "category": "Kitchen",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "5 reviews, 3.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GSVGCYSG",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/613bYcYR5UL._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "TikTok趋势",
+        "Temu热销",
+        "Etsy趋势",
+        "YouTube种草"
+      ],
+      "profit_margin": 0.35,
+      "net_profit": 2.8,
+      "cost_breakdown": {
+        "vat": 1.33,
+        "commission": 0.64,
+        "fba": 1.46,
+        "ads": 0.8,
+        "returns": 0.16,
+        "sourcing": 0.8,
+        "total_cost": 5.19
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 9.1,
+        "demand": 100,
+        "supply": 59023,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": 15,
+      "div_label": "📈 品类升温(+85%)",
+      "div_info": {
+        "current_heat": 100,
+        "previous_heat": 54,
+        "heat_change_pct": 85.2,
+        "direction": "rising",
+        "dates": [
+          "2026-08-26_1710",
+          "2026-08-27_0850"
+        ]
+      },
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy",
+        "YouTube"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 199,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "▶️ YouTube": 10,
+        "🔴 强信号": 20,
+        "🔥 多源热门(kitchen)": 23,
+        "🌊 蓝海": 15,
+        "💰 超高利润": 12,
+        "❓ 品类不符": -10,
+        "🌊 深蓝海": 20,
+        "📈 品类升温(+85%)": 15,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-27",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "tiktok_verified",
+        "youtube_review",
+        "new_releases",
+        "etsy_trending",
+        "multi_source",
+        "temu_trending"
+      ]
+    },
+    {
+      "asin": "B0GSZW9WSG",
+      "name": "Gylinm 1L Water Bottle Made of BPA-Free Tritan Material, Sports Water Bottle with Removable Straw & Hydration Time Marke",
+      "price": 7.07,
+      "reviews": 125,
+      "rating": 4.8,
+      "rank": 6,
+      "category": "Sports",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "125 reviews, 4.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GSZW9WSG",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/712dY+Mc2pL._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "Temu热销",
+        "TikTok趋势"
+      ],
+      "profit_margin": 0.243,
+      "net_profit": 1.72,
+      "cost_breakdown": {
+        "vat": 1.18,
+        "commission": 1.06,
+        "fba": 1.46,
+        "ads": 0.71,
+        "returns": 0.14,
+        "sourcing": 0.8,
+        "total_cost": 5.35
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 10,
+      "sd_label": "💧 浅蓝海",
+      "sd_info": {
+        "ratio": 4.4,
+        "demand": 48,
+        "supply": 51592,
+        "label": "💧 浅蓝海",
+        "level": "light_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "medium",
+      "signal_label": "🟠 中信号",
+      "external_sources": [
+        "TikTok",
+        "Temu"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 108,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🟠 中信号": 10,
+        "📈 趋势(sports)": 8,
+        "🟡 中等竞争": 5,
+        "⭐ 高评分": 5,
+        "💧 浅蓝海": 10,
+        "⚠️ 未验证": -8
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-08-21",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "tiktok_verified",
+        "multi_source",
+        "temu_trending",
+        "new_releases"
+      ]
+    },
+    {
+      "asin": "B0BZRSSFMV",
+      "name": "CIOUYAOS Cufflinks for Men, cuff links with box, personalised men's silver cufflink Gift for Wedding Business Shirt (bla",
+      "price": 7.49,
+      "reviews": 52,
+      "rating": 4.6,
+      "rank": 23,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "52 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0BZRSSFMV",
+      "image_url": "https://m.media-amazon.com/images/I/61jTSwGXA3L._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "cufflinks",
+      "festival_event": "Boss's Day老板节",
+      "festival_icon": "👔",
+      "festival_deadline": "2026-08-30",
+      "is_event": false,
+      "sources": [
+        "📅 Boss's Day老板节",
+        "Temu热销",
+        "Etsy趋势",
+        "TikTok趋势"
+      ],
+      "profit_margin": 0.261,
+      "net_profit": 1.96,
+      "cost_breakdown": {
+        "vat": 1.25,
+        "commission": 1.12,
+        "fba": 1.46,
+        "ads": 0.75,
+        "returns": 0.15,
+        "sourcing": 0.8,
+        "total_cost": 5.53
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 101,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "📈 趋势(storage)": 8,
+        "🟡 中等竞争": 5,
+        "⭐ 高评分": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-27",
+      "is_multi": true,
+      "channel_tags": [
+        "keyword_search",
+        "tiktok_verified",
+        "etsy_trending",
+        "multi_source",
+        "temu_trending"
+      ]
+    },
+    {
+      "asin": "B0DPH8NHKV",
+      "name": "COMNICO 4 Pairs Cufflinks for Men Classic Tone Cuff Links Fashion Men Cufflinks Striped Disc Square Rectangle Cuff Links",
+      "price": 7.48,
+      "reviews": 175,
+      "rating": 4.3,
+      "rank": 29,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "175 reviews, 4.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DPH8NHKV",
+      "image_url": "https://m.media-amazon.com/images/I/61QG0i5r81L._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "cufflinks",
+      "festival_event": "Boss's Day老板节",
+      "festival_icon": "👔",
+      "festival_deadline": "2026-08-30",
+      "is_event": false,
+      "sources": [
+        "📅 Boss's Day老板节",
+        "HotUKDeals热帖",
+        "Temu热销"
+      ],
+      "profit_margin": 0.261,
+      "net_profit": 1.95,
+      "cost_breakdown": {
+        "vat": 1.25,
+        "commission": 1.12,
+        "fba": 1.46,
+        "ads": 0.75,
+        "returns": 0.15,
+        "sourcing": 0.8,
+        "total_cost": 5.53
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "medium",
+      "signal_label": "🟠 中信号",
+      "external_sources": [
+        "HotUKDeals",
+        "Temu"
+      ],
+      "internal_sources": [],
+      "score": 82,
+      "score_breakdown": {
+        "🔥 HotUKDeals": 12,
+        "🛒 Temu": 8,
+        "🟠 中信号": 10,
+        "🔥 多源热门(lighting)": 23,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 4,
+      "is_new": true,
+      "first_seen": "2026-08-27",
+      "is_multi": true,
+      "channel_tags": [
+        "hotukdeals",
+        "keyword_search",
+        "multi_source",
+        "temu_trending"
+      ]
+    },
+    {
+      "asin": "B0F6LPV8NF",
+      "name": "COMNICO 4 Pairs Cufflinks for Men Classic Tone Cuff Links Fashion Men Cufflinks Striped Disc Square Rectangle Cuff Links",
+      "price": 8.23,
+      "reviews": 175,
+      "rating": 4.3,
+      "rank": 43,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "175 reviews, 4.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0F6LPV8NF",
+      "image_url": "https://m.media-amazon.com/images/I/713y10L4USL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "cufflinks",
+      "festival_event": "Boss's Day老板节",
+      "festival_icon": "👔",
+      "festival_deadline": "2026-08-30",
+      "is_event": false,
+      "sources": [
+        "📅 Boss's Day老板节",
+        "HotUKDeals热帖",
+        "Temu热销"
+      ],
+      "profit_margin": 0.288,
+      "net_profit": 2.37,
+      "cost_breakdown": {
+        "vat": 1.37,
+        "commission": 1.23,
+        "fba": 1.46,
+        "ads": 0.82,
+        "returns": 0.16,
+        "sourcing": 0.8,
+        "total_cost": 5.86
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "medium",
+      "signal_label": "🟠 中信号",
+      "external_sources": [
+        "HotUKDeals",
+        "Temu"
+      ],
+      "internal_sources": [],
+      "score": 74,
+      "score_breakdown": {
+        "🔥 HotUKDeals": 12,
+        "🛒 Temu": 8,
+        "🟠 中信号": 10,
+        "🔥 多源热门(lighting)": 23,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 3,
+      "is_new": true,
+      "first_seen": "2026-08-27",
+      "is_multi": true,
+      "channel_tags": [
+        "hotukdeals",
+        "keyword_search",
+        "multi_source",
+        "temu_trending"
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "keyword": "garden",
+      "category": "garden",
+      "heat": 100,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "garden",
+        "plant",
+        "flower",
+        "solar",
+        "patio"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 5,
+      "suggestions": [
+        "garden tool set",
+        "garden light",
+        "garden decor",
+        "plant pot",
+        "plant stand",
+        "plant hanger",
+        "flower",
+        "solar light"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=garden+tool+set",
+      "url_google": "https://trends.google.com/trends/explore?q=garden+tool+set&geo=GB"
+    },
+    {
+      "keyword": "crafts",
+      "category": "crafts",
+      "heat": 100,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "brush",
+        "art",
+        "tape",
+        "craft"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 8,
+      "suggestions": [
+        "brush",
+        "art supplies",
+        "paint set",
+        "drawing kit",
+        "washi tape",
+        "decorative tape",
+        "masking tape",
+        "craft knife"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=brush",
+      "url_google": "https://trends.google.com/trends/explore?q=brush&geo=GB"
+    },
+    {
+      "keyword": "eco",
+      "category": "eco",
+      "heat": 96,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "eco",
+        "sustainable",
+        "reusable"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 6,
+      "suggestions": [
+        "eco products",
+        "reusable bag",
+        "bamboo products",
+        "sustainable products",
+        "eco friendly",
+        "reusable food wrap",
+        "reusable straws",
+        "reusable bags"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 96,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=eco+products",
+      "url_google": "https://trends.google.com/trends/explore?q=eco+products&geo=GB"
+    },
+    {
+      "keyword": "office",
+      "category": "office",
+      "heat": 77,
+      "score": 70,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "office",
+        "desk",
+        "pen",
+        "mouse",
+        "laptop"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 6,
+      "suggestions": [
+        "office supplies",
+        "desk organizer",
+        "pen holder",
+        "desk lamp",
+        "desk mat",
+        "pen set",
+        "fountain pen",
+        "mouse"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 77,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=office+supplies",
+      "url_google": "https://trends.google.com/trends/explore?q=office+supplies&geo=GB"
+    },
+    {
+      "keyword": "home decor",
+      "category": "home decor",
+      "heat": 67,
+      "score": 67,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "wall art",
+        "decor",
+        "frame",
+        "candle"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 5,
+      "suggestions": [
+        "wall art print",
+        "wall hanging",
+        "wall decal",
+        "home decor",
+        "room decor",
+        "table decor",
+        "photo frame",
+        "picture frame"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 67,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=wall+art+print",
+      "url_google": "https://trends.google.com/trends/explore?q=wall+art+print&geo=GB"
+    },
+    {
+      "keyword": "beauty",
+      "category": "beauty",
+      "heat": 63,
+      "score": 66,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "brush",
+        "hair",
+        "skincare",
+        "makeup"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 6,
+      "suggestions": [
+        "brush",
+        "hair clip",
+        "hair accessories",
+        "hair band",
+        "hair tie",
+        "face roller",
+        "gua sha",
+        "face mask"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 63,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=brush",
+      "url_google": "https://trends.google.com/trends/explore?q=brush&geo=GB"
+    },
+    {
+      "keyword": "car",
+      "category": "car",
+      "heat": 58,
+      "score": 64,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "car",
+        "motor",
+        "automotive",
+        "vehicle"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 5,
+      "suggestions": [
+        "car accessories",
+        "car organizer",
+        "car phone holder",
+        "motorcycle accessories",
+        "motorcycle cover",
+        "automotive",
+        "vehicle"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 58,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=car+accessories",
+      "url_google": "https://trends.google.com/trends/explore?q=car+accessories&geo=GB"
+    },
+    {
+      "keyword": "seasonal",
+      "category": "seasonal",
+      "heat": 53,
+      "score": 62,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "gift"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "gift ideas",
+        "gift set",
+        "gift box"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 53,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=gift+ideas",
+      "url_google": "https://trends.google.com/trends/explore?q=gift+ideas&geo=GB"
+    },
+    {
+      "keyword": "storage",
+      "category": "storage",
+      "heat": 44,
+      "score": 59,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "box",
+        "storage"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 6,
+      "suggestions": [
+        "food storage",
+        "kitchen storage",
+        "container set"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 44,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=food+storage",
+      "url_google": "https://trends.google.com/trends/explore?q=food+storage&geo=GB"
+    },
+    {
+      "keyword": "cleaning",
+      "category": "cleaning",
+      "heat": 44,
+      "score": 59,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "sponge",
+        "brush",
+        "vacuum",
+        "cleaning",
+        "mop"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "sponge",
+        "brush",
+        "vacuum",
+        "cleaning"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 44,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=sponge",
+      "url_google": "https://trends.google.com/trends/explore?q=sponge&geo=GB"
+    }
+  ],
+  "trend_summary": {
+    "top_categories": [
+      [
+        "kitchen",
+        100
+      ],
+      [
+        "garden",
+        100
+      ],
+      [
+        "crafts",
+        100
+      ],
+      [
+        "eco",
+        96
+      ],
+      [
+        "lighting",
+        96
+      ],
+      [
+        "pets",
+        82
+      ]
+    ],
+    "cross_validated": [
+      "kitchen",
+      "garden",
+      "storage",
+      "crafts",
+      "travel",
+      "beauty",
+      "eco",
+      "cleaning",
+      "car",
+      "seasonal",
+      "sports",
+      "office",
+      "lighting",
+      "pets",
+      "phone",
+      "home decor",
+      "bathroom"
+    ],
+    "demand_keywords": [
+      "agentic commerce redefines buying",
+      "all you need for summer",
+      "amazon discount code",
+      "beautifully lit gardens",
+      "best way to save on",
+      "coconut waters",
+      "cool stuff gadgets",
+      "cross-border",
+      "dollar oysters",
+      "edible gardens"
+    ],
+    "season": "summer",
+    "sources_scanned": [
+      "tiktok",
+      "hotukdeals",
+      "temu",
+      "etsy",
+      "youtube",
+      "google_trends",
+      "reddit",
+      "market_intel"
+    ]
+  }
+}
