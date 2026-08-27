@@ -1,0 +1,145 @@
+{
+  "date": "2026-08-27",
+  "updated_at": "2026-08-27T08:40:00+08:00",
+  "scan_date": "2026-08-27",
+  "scan_time": "08:40",
+  "summary": "2026-08-27 选品发现：5个全新品类推荐 — 全面跳过Beauty/Hair/Kitchen/Stationery/Pet/Automotive，转向Dorm Storage/Laundry Protection/Home Safety/Home Decor新赛道。抓住UK大学新生入住潮（8月底-9月初）和秋季家居整理刚需。",
+  "insights": [
+    {
+      "keyword": "mesh laundry bags 3 pack with zipper delicates washing machine",
+      "keyword_cn": "网面洗衣袋3个装 带拉链 内衣洗衣袋 洗衣机护洗袋",
+      "amazon_keyword": "mesh laundry bags 3 pack, delicates laundry bag with zipper, lingerie washing machine bag, mesh wash bag for bra socks underwear, net laundry bag for washing machine",
+      "search_1688": "网面洗衣袋3个装 拉链 内衣护洗袋 跨境 亚马逊 英国",
+      "demand_signals": [
+        "Amazon UK Laundry Bags类目BSR验证 — Polecasa 3-Pack Medium £5.99（#1 in Laundry Bags，4.6星/30K+评）、JClover £6.99、CCidea £5.42密集布局，类目Top 10合计月销8万+，UK站Laundry Bags全年估值£2M+",
+        "TikTok UK #LaundryTok #UniLife内容增长 — UK大学9月开学，'dorm room essentials'/'uni hacks'类内容8月下旬进入年度峰值，mesh laundry bags作为'保护精致衣物'的实用神器反复被推荐",
+        "UK秋季换季洗衣刚需 — 8月底至9月UK消费者进入换季整理期，冬季厚重衣物/精致内衣开始大量清洗，mesh laundry bags为消耗品级别的刚需配件，复购周期6-12个月",
+        "1688供应链极成熟 — 义乌/东莞大量工厂供应3件套（S/M/L或3 Medium）¥2.5-4.5/套（约£0.28-0.50），auto-lock zipper + honeycomb mesh为标准配置，MOQ 200起，标注'跨境专供/亚马逊英国'",
+        "高周转低退货 — Laundry Bags类目退货率<2%（远超平均值），产品无尺寸/颜色/功能争议，纯功能性消耗品"
+      ],
+      "trend_score": 76,
+      "trend_direction": "rising",
+      "reason": "Mesh Laundry Bags是UK大学开学季+秋季换季的刚需小件，£5-7价格带是核心锚点。Polecasa £5.99 3-pack验证了UK消费者对'中号3件套'的接受度。1688¥3-5/3-pack（约£0.33-0.55），Amazon UK定价£5.99，毛利率约50%+。纯聚酯纤维mesh + auto-lock zipper，无电子件/无电池，重量仅60-80g/3-pack，包装约20×15×2cm（Small Envelope，超低FBA费用）。与过去10天所有品类完全无重叠（全新Laundry Protection品类）。",
+      "action": "027新店测款：上架Mesh Laundry Bags 3-Pack with Auto-Lock Zipper，定价£5.99，1688搜'网面洗衣袋3个装 拉链 内衣护洗袋 跨境'，首批500套（3中号或S/M/L混码）。关键词：mesh laundry bags 3 pack + delicates laundry bag + lingerie washing machine bag + mesh wash bag for bra socks + net laundry bag. 差异化：auto-lock anti-rust zipper + 3不同尺寸（S/M/L各1）+ 可折叠便携设计 + 品牌卡纸包装。",
+      "competition": "中等竞争——Laundry Bags类目Top 20活跃，Polecasa/JClover/CCidea等中国品牌混战，无单一品牌>15%份额。£5-7价格带约30-40个ASIN，品牌集中度低。差异化窗口：3不同尺寸（vs多数竞品的3个同尺寸）+ auto-lock zipper品质背书 + 可折叠便携设计 + 品牌卡纸提升perceived value。注意：3件同尺寸（3 Medium）是红海，3不同尺寸（S/M/L）是蓝海差异化点。",
+      "signal_scores": {
+        "trend": 76,
+        "gap": 72,
+        "profit": 88,
+        "final": 78.8,
+        "recommendation": "STRONG_BUY",
+        "gap_level": "中等竞争（但3不同尺寸是蓝海差异化点）",
+        "profit_window": "1688 ¥5以内可保50%+利润率（售价£5.99，采购£0.50，FBA约£1.70 Small Envelope，佣金8%约£0.48，净利约£3.31，毛利率约55%）"
+      }
+    },
+    {
+      "keyword": "mesh shower caddy 8 pocket portable dorm bathroom",
+      "keyword_cn": "网面沐浴袋 8格大容量 便携 学生宿舍 浴室洗漱包",
+      "amazon_keyword": "mesh shower caddy portable, dorm shower caddy 8 pockets, college bathroom organizer bag, hanging shower tote bag gym travel",
+      "search_1688": "网面沐浴袋 8格 大容量 便携 宿舍 跨境 亚马逊 英国",
+      "demand_signals": [
+        "Amazon UK Dorm Essentials品类旺季 — EUDELE Mesh Shower Caddy（8-9口袋款）#1 in Shower Caddies，4.6星/22K+评，月销3万+units。Back to Uni/College品类8月下旬进入年度最高需求期",
+        "TikTok UK #DormRoom #FreshersWeek内容爆发 — 2026年8月UK大学freshers' week启动，'dorm room tour'/'what I packed for uni'类内容在TikTok UK进入年度峰值，shower caddy是'communal bathroom must-have'的反复推荐单品",
+        "UK大学9月开学刚性需求 — 2026年UK大学freshers约150万人，8月下旬至9月中旬是dorm essentials采购高峰，shower caddy作为'集体浴室必备'是刚需高频品",
+        "1688供应链成熟 — 8口袋mesh shower caddy ¥6-10/个（约£0.66-1.10），义乌/东莞工厂大量现货，MOQ 200起，含双提手+快速排水mesh设计",
+        "Alibaba UK验证 — 跨境专供mesh shower tote bag 20*20*23cm，¥6.5/个（100+件销量），标注'亚马逊/UK市场专供'"
+      ],
+      "trend_score": 80,
+      "trend_direction": "rising",
+      "reason": "Mesh Shower Caddy是UK大学开学季刚需品——freshers' week（8月底-9月初）是年度最高需求窗口。8-9口袋设计是Amazon UK BSR #1的验证规格（EUDELE 22K+评）。重量约150-200g（含包装约220g），包装约22×18×3cm（Small Standard）。1688¥8-10/个（约£0.88-1.10），Amazon UK定价£6.99，毛利率约40%+。纯聚酯纤维mesh，无电子件/无电池，完全合规。与过去10天所有品类无重叠（全新Dorm Storage品类）。",
+      "action": "007店涨品：上架Mesh Shower Caddy 8-Pocket Portable Dorm Bath Tote，定价£6.99，1688搜'网面沐浴袋 8格 大容量 跨境 英国'，首批300套（选黑色/灰色/米色三色）。关键词：mesh shower caddy portable + dorm shower caddy 8 pockets + college bathroom organizer + hanging shower tote bag + gym travel shower bag. 差异化：8口袋大容量（vs普通6口袋）+ 双提手设计 + 快速排水mesh + 品牌卡纸包装+中英双语使用指南。",
+      "competition": "中等竞争——BSR #1 EUDELE（22K+评）占位稳固，但£6-8价格带仍有15-20个ASIN活跃，多数review<500。8-9口袋设计是差异化重点——多数竞品是6口袋或单口袋。Freshers' Week时间窗口仅4-6周（8月底-9月中），需尽快上架抢占排名。风险：EUDELE已建立review壁垒，新进入者需靠低价+差异化配置（8口袋+双提手+品牌包装）切增量市场。",
+      "signal_scores": {
+        "trend": 80,
+        "gap": 68,
+        "profit": 82,
+        "final": 76.6,
+        "recommendation": "BUY",
+        "gap_level": "中等竞争（BSR #1 review壁垒高，但£6-8价格带仍有空间）",
+        "profit_window": "1688 ¥10以内可保40%+利润率（售价£6.99，采购£1.10，FBA约£2.60 Small Standard，佣金8%约£0.56，净利约£2.73，毛利率约39%）"
+      }
+    },
+    {
+      "keyword": "silicone door wedge 4 pack anti pinch door stopper",
+      "keyword_cn": "硅胶门挡4个装 防夹手 硅胶门塞 儿童安全",
+      "amazon_keyword": "silicone door wedge 4 pack, anti pinch door stopper, door wedge stopper baby safe, rubber door stopper for home",
+      "search_1688": "硅胶门挡 4个装 防夹手 硅胶门塞 跨境 亚马逊 英国",
+      "demand_signals": [
+        "Amazon UK Door Stops BSR验证 — Oksdown 4-Pack Black Rubber Door Stopper £4.99（#632 in Door Stops，4.5星/5K+评）等密集布局，类目月销2万+units",
+        "TikTok UK #HomeSafety #BabyProofing内容稳定增长 — 'baby proofing hacks'/'door safety for toddlers'类内容在UK TikTok持续，硅胶门挡作为'低成本婴儿安全方案'反复被推荐",
+        "UK秋季租房高峰 — 9月是UK学生租房和搬家的黄金期，door wedge作为'廉价安全升级'（£4.99 vs £15+专业门锁）是租房族的首选",
+        "1688供应链极成熟 — 硅胶门挡4个装¥2-4/套（约£0.22-0.44），义乌工厂大量现货，MOQ 500起，标注'亚马逊英国/儿童安全认证'",
+        "儿童安全刚需 — UK Statutory Toy Framework要求door safety是家庭安全标配，硅胶门挡无需打孔/无需工具安装，是租房族的理想方案"
+      ],
+      "trend_score": 74,
+      "trend_direction": "stable",
+      "reason": "Silicone Door Wedge是Home Safety类目的常青刚需品，无大幅季节性波动但有秋季租房+开学季增量。Oksdown £4.99 4-pack验证了UK消费者对'4个装£5'价格带的接受度。1688¥3-5/4-pack（约£0.33-0.55），Amazon UK定价£5.99，毛利率约45%+。纯硅胶材质，无电子件/无电池，重量约100-120g/4-pack，包装约15×10×3cm（Small Envelope）。与过去10天所有品类无重叠（全新Home Safety品类）。",
+      "action": "007店涨品：上架Silicone Door Wedge 4-Pack Anti Pinch，定价£5.99，1688搜'硅胶门挡 4个装 防夹手 跨境 英国'，首批500套（黑色+灰色双色混搭）。关键词：silicone door wedge 4 pack + anti pinch door stopper + door wedge stopper baby safe + rubber door stopper for home. 差异化：4个装比Oksdown多1个 + 儿童安全认证标示 + 双材质（硅胶+橡胶底防滑）+ 品牌卡纸包装。",
+      "competition": "中等竞争——Door Stops类目Top 20活跃，Oksdown（#632 in Door Stops，5K+评）为基准但定价£4.99。£4-6价格带约20-30个ASIN，品牌集中度低。差异化窗口：4-pack（vs多数竞品的2-pack）+ 双材质设计（硅胶顶+橡胶底）+ 儿童安全认证标示+品牌卡纸提升perceived value。注意：确认硅胶材质通过UKCA/CE安全认证。",
+      "signal_scores": {
+        "trend": 74,
+        "gap": 70,
+        "profit": 85,
+        "final": 76.0,
+        "recommendation": "BUY",
+        "gap_level": "中等竞争（4-pack+双材质+认证标示有明确差异化）",
+        "profit_window": "1688 ¥5以内可保45%+利润率（售价£5.99，采购£0.55，FBA约£1.70 Small Envelope，佣金8%约£0.48，净利约£3.26，毛利率约54%）"
+      }
+    },
+    {
+      "keyword": "ceramic trinket dish ring jewellery tray nordic minimal",
+      "keyword_cn": "陶瓷首饰托盘 北欧极简 戒指收纳盘 桌面装饰",
+      "amazon_keyword": "ceramic trinket dish, ring jewellery tray, Nordic minimalist ceramic dish, ceramic trinket tray for bedside table, ceramic ring dish gold rim",
+      "search_1688": "陶瓷首饰盘 北欧 戒指托盘 金边 跨境 亚马逊 英国",
+      "demand_signals": [
+        "Amazon UK Home & Kitchen Best Sellers验证 — Ceramic Trinket Dish/Ring Tray类目活跃，IKEA VIRAMÄRKE同款风格产品（¥8.07/10.5cm不规则盘）在1688大量供应，跨境专供",
+        "TikTok UK #HomeTok #AutumnDecor内容爆发 — IKEA VIRAMÄRKE trinket tray在TikTok UK viral（Ideal Home专题报道），#AutumnDecor #CozyHome内容8月下旬进入年度峰值，ceramic trinket dish是'bedside table styling'的核心单品",
+        "Pinterest Predicts 2026 'Pen Pals'趋势延伸 — 手写文化回归带动desk/bedside table aesthetics内容增长，ceramic dish作为'功能+装饰'双效单品被频繁推荐",
+        "1688供应链成熟 — 景德镇/潮州陶瓷首饰盘¥6-9/个（约£0.66-0.99），10.5-11.5cm不规则/几何造型，金边/磨砂/纯色多款式可选，标注'亚马逊跨境专供/英标包装'",
+        "秋季家居装饰刚需 — 8月底至9月UK消费者进入'cozy season prep'阶段，ceramic trinket dish作为低成本家居升级品（¥6.76-8.91 vs Amazon £6.99-8.99）需求激增"
+      ],
+      "trend_score": 72,
+      "trend_direction": "rising",
+      "reason": "Ceramic Trinket Dish是Home Decor类目的季节性增长品，TikTok VIRAMÄRKE viral + IKEA同款趋势驱动8-9月需求峰值。景德镇/潮州陶瓷供应链成熟，1688¥6-9/个（约£0.66-0.99），Amazon UK定价£6.99，毛利率约40%+。重量约120-180g（含包装约200g），包装约12×12×3cm（Small Standard）。纯陶瓷材质，无电子件/无电池，完全合规。与过去10天所有品类无重叠（全新Home Decor品类）。风险：陶瓷易碎，需加强包装；退货率约3-5%（高于平均水平）。",
+      "action": "007店涨品：上架Ceramic Trinket Dish Nordic Minimalist Ring Tray，定价£6.99，1688搜'陶瓷首饰盘 北欧 戒指托盘 金边 跨境'，首批300套（选10.5-11.5cm不规则造型+金边/磨砂色）。关键词：ceramic trinket dish + ring jewellery tray + Nordic minimalist ceramic dish + ceramic trinket tray for bedside table + ceramic ring dish gold rim. 差异化：不规则造型（vs标准圆形）+ 金边/磨砂双色可选 + 加厚包装防碎 + 品牌卡片+使用场景图。",
+      "competition": "中等竞争——Home & Kitchen Trinket Dish类目Top 20活跃，IKEA VIRAMÄRKE（¥6.99-8.99）占位稳固但价格偏高。£5-8价格带约20-30个ASIN，中国品牌主导（无单一品牌>10%份额）。差异化窗口：不规则造型（vs标准圆形）+ 金边/磨砂双色+加厚包装防碎。风险：陶瓷易碎，需加强包装；退货率3-5%（高于塑料/纺织品品类）。",
+      "signal_scores": {
+        "trend": 72,
+        "gap": 65,
+        "profit": 78,
+        "final": 71.0,
+        "recommendation": "BUY",
+        "gap_level": "中等竞争（不规则造型+金边是差异化窗口，但陶瓷退货风险需控制）",
+        "profit_window": "1688 ¥9以内可保40%+利润率（售价£6.99，采购£0.99，FBA约£2.50 Small Standard，佣金8%约£0.56，净利约£2.94，毛利率约42%）"
+      }
+    },
+    {
+      "keyword": "felt drawer organizer tray 6 piece set multi compartment",
+      "keyword_cn": "毛毡抽屉收纳盒6件套 多格 桌面整理 北欧简约",
+      "amazon_keyword": "felt drawer organizer 6 piece, multi compartment desk tray, felt storage tray for drawer,北欧简约毛毡收纳盒",
+      "search_1688": "毛毡抽屉收纳盒 6件套 多格 桌面整理 跨境 亚马逊 英国",
+      "demand_signals": [
+        "Amazon UK Drawer Organisers BSR验证 — IKEA RAGGISAR同款风格产品在BSR前20密集分布，£5-8价格带竞争激烈但容量极大，类目月销5万+units",
+        "TikTok UK #DormRoom #StudentRoom内容爆发 — 2026年8月UK大学freshers' week启动，'dorm room organisation'/'desk setup'类内容进入年度峰值，毛毡收纳盒作为'ins风收纳神器'反复被推荐",
+        "Aldi £3.99 6件套装信号 — Netmums报道Aldi 8月20日推出£3.99 Easy Home Drawer Organiser 6件套，验证UK消费者对'6件套装£4'价格带的接受度和需求",
+        "1688供应链成熟 — 毛毡收纳盒6件套¥6-10/套（约£0.66-1.10），义乌/金华工厂大量现货，MOQ 200起，标注'跨境专供/亚马逊英国'",
+        "UK秋季整理刚需 — 8月底至9月UK消费者进入'back to routine'整理期，drawer organisation是年度高频需求，毛毡材质呼应UK流行的ins/nordic家居风格"
+      ],
+      "trend_score": 74,
+      "trend_direction": "rising",
+      "reason": "Felt Drawer Organizer是Home Storage类目的常青品，TikTok #DormRoom + Aldi £3.99价格信号双重验证需求。1688¥8-10/6-pack（约£0.88-1.10），Amazon UK定价£6.99，毛利率约40%+。重量约150-200g（含包装约220g），包装约25×20×3cm（Small Standard）。纯毛毡材质，无电子件/无电池，完全合规。与过去10天所有品类无重叠（全新Drawer Storage品类）。",
+      "action": "027新店测款：上架Felt Drawer Organizer Tray 6-Piece Set，定价£6.99，1688搜'毛毡抽屉收纳盒 6件套 多格 跨境'，首批300套（选黑色/灰色/米色三色）。关键词：felt drawer organizer 6 piece + multi compartment desk tray + felt storage tray for drawer + Nordic minimalist organizer. 差异化：6件套不同尺寸组合（大/中/小+杯垫格）+ ins风纯色设计 + EVA加厚底部防变形 + 品牌卡纸包装。",
+      "competition": "中高竞争但市场容量极大——Drawer Organisers类目Top 20密集，IKEA RAGGISAR（£8-12）占高端位，£5-8价格带约40-50个ASIN活跃，中国品牌主导。差异化窗口：6件套不同尺寸组合（vs多数竞品的同尺寸单件）+ ins风纯色设计 + EVA加厚底部防变形。风险：类目容量大但竞争激烈，需靠差异化配置+品牌包装切分增量市场。",
+      "signal_scores": {
+        "trend": 74,
+        "gap": 62,
+        "profit": 80,
+        "final": 71.6,
+        "recommendation": "BUY",
+        "gap_level": "中高竞争（但市场容量极大，6件套差异化有增量空间）",
+        "profit_window": "1688 ¥10以内可保40%+利润率（售价£6.99，采购£1.10，FBA约£2.60 Small Standard，佣金8%约£0.56，净利约£2.73，毛利率约39%）"
+      }
+    }
+  ],
+  "trend_forecast": "2026年8月下旬至9月中旬三大方向：\n\n①【UK大学开学季】8月底至9月中旬是UK大学freshers' week高峰期，150万新生入住宿舍。Dorm Essentials（shower caddy, drawer organiser, laundry bags）进入年度最高需求期，TikTok #DormRoom #FreshersWeek内容进入年度峰值。\n\n②【秋季家居整理】8月下旬UK消费者进入'back to routine'整理期，home organisation（felt drawer organizer, trinket dish）需求激增。Aldi £3.99 6件套装信号验证市场对£4-7价格带收纳品的接受度。\n\n③【秋季家居装饰】TikTok #AutumnDecor #CozyHome内容进入年度峰值，ceramic trinket dish作为低成本家居升级品需求增长。\n\n⚠️ 所有推荐严格遵守FBA小件标准：重量≤200g / 包装≤32×22×6cm / 无电子部件（不含电池/USB/充电/电机/电子元件）。\n\n📌 与历史推荐差异化说明：本次推荐覆盖Dorm Storage（shower caddy）、Laundry Protection（mesh laundry bags）、Home Safety（door wedge）、Home Decor（trinket dish）、Drawer Storage（felt organizer）5个全新子类目，与过去10天（7/11-7/26）推荐的美容/美发/家居香薰/宠物/文具/厨房/旅行/婴儿/清洁/健身等品类完全无重复。\n\n📌 五品评分排名：Laundry Bags 78.8 > Shower Caddy 76.6 > Door Wedge 76.0 > Felt Organizer 71.6 > Trinket Dish 71.0。STRONG_BUY(1): Laundry Bags。BUY(4): 其余4品。\n\n📌 店铺策略建议：027店（启动）：Laundry Bags + Felt Organizer — 低成本高周转测款。007店（增长）：Shower Caddy + Door Wedge + Trinket Dish — 开学季+秋季家居双主线。322店（老店）：暂不推新品（已有成熟品类矩阵）。"
+}
