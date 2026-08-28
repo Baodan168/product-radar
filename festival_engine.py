@@ -248,8 +248,8 @@ def generate_season_panel(festivals):
         active = ' season-btn-active' if key == cur else ''
         btns.append(
             f'<button class="season-btn{active}" data-season="{key}" '
-            f"onclick='setSeason(this, \'{key}\')'>"
-            f'{info["icon"]} {info["label"]}({info["months"][0]}-{info["months"][-1]}\u6708)</button>'
+            f'onclick="setSeason(this, \'{key}\')">'
+            f'{info["icon"]} {info["label"]}({info["months"][0]}-{info["months"][-1]}月)</button>'
         )
     season_nav = f'<div class="season-nav">{" ".join(btns)}</div>'
 
