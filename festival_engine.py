@@ -284,7 +284,7 @@ def generate_season_panel(festivals):
         )
 
     panel_html = ('<div id="seasonPanelWrap">' + "".join(panels) + '</div>')
-    panel_data_js = "const seasonPanelData={};\n" + "\n".join(panel_js) + "\nconst currentSeasonKey=\"{cur}\";"
+    panel_data_js = f"const seasonPanelData={{}} ;\n" + "\n".join(panel_js) + "\nconst currentSeasonKey=\"{cur}\";"
 
     return season_nav + panel_html, panel_data_js
 
