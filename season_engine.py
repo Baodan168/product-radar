@@ -20,6 +20,80 @@ from pathlib import Path
 BASE = Path(__file__).parent
 CONFIG = json.loads((BASE / "config.json").read_text())
 
+# ── UK Seasonal Events Calendar
+
+# 2026-08-28 模块常量：月度季节关键词（从函数中提取，供 festival_engine 复用）
+# 基于 Amazon UK bestseller + Argos Outdoor Living Report 2026 + John Lewis 趋势
+MONTHLY_SEASONAL_KEYWORDS = {
+    1: [  # 深冬 + 节后清理 + 新年计划
+        "storage organiser", "desk accessories", "meal prep containers",
+        "cleaning tools", "kitchen gadgets new year", "thermal gloves",
+        "heated blanket", "door draft stopper", "winter warmers"],
+    2: [  # 初春准备 + 情人节
+        "valentine gift ideas", "romantic gift", "travel accessories",
+        "decorative items", "gift packaging", "garden storage",
+        "outdoor furniture covers", "window boxes"],
+    3: [  # 春季 + 母亲节 + BST开始
+        "spring cleaning tools", "garden tools", "kitchen gadgets",
+        "home decor", "storage solutions", "mothers day gift",
+        "plant pots", "garden gloves", "lawn care starter kit"],
+    4: [  # 春季高峰 + 复活节
+        "garden accessories", "easter decoration", "outdoor tools",
+        "kitchen gadgets", "party supplies", "cleaning supplies",
+        "bird feeder", "wildlife friendly garden", "herb growing kit"],
+    5: [  # 初夏 + 母亲节周末 + Chelsea花展
+        "garden tools", "BBQ accessories", "garden decor",
+        "plant pots", "picnic items", "outdoor cushions",
+        "garden lighting", "outdoor storage box", "patio heater cover"],
+    6: [  # 夏季 + 父亲节 + 学校假期准备
+        "travel accessories", "car cleaning", "outdoor gadgets",
+        "water bottle", "picnic set", "camping accessories",
+        "fathers day gift", "garden hose", "outdoor rug"],
+    7: [  # 盛夏 + Prime Day
+        "outdoor accessories", "BBQ tools", "travel gadgets",
+        "car accessories", "camping gear", "beach accessories",
+        "prime day deals", "portable fan", "shade sail"],
+    8: [  # 夏末 + 返校季
+        "travel accessories", "back to school stationery", "lunch box",
+        "desk organiser", "storage", "outdoor cooling",
+        "garden storage box", "outdoor cushions storage"],
+    9: [  # 秋季 + 返校后 + 花园整理
+        "kitchen gadgets", "autumn decor", "desk accessories",
+        "storage organiser", "candles", "university essentials",
+        "leaf blower accessory", "garden tool organiser"],
+    10: [  # 深秋 + 万圣节 + 花园越冬准备
+        "halloween decoration", "autumn garden tools", "party supplies",
+        "candles", "bird feeder", "bird accessories",
+        "greenhouse heater", "plant covers", "garden waste bags"],
+    11: [  # 初冬 + 黑色星期五 + 圣诞准备
+        "christmas decoration", "gift ideas", "tinsel garlands",
+        "party supplies", "kitchen gadgets", "blanket throw",
+        "black friday deals", "outdoor christmas lighting", "christmas tree accessories"],
+    12: [  # 深冬 + 圣诞 + 新年派对
+        "christmas gifts", "party supplies", "storage organiser",
+        "kitchen gadgets", "travel accessories", "home decor",
+        "heated throws", "winter garden care", "fire pit accessories"],
+}
+
+# 2026-08-28 北半球季节映射 + 47天空运倒计时
+SEASONS = {
+    "spring": {"label": "春季", "en": "Spring", "icon": "🌸", "months": (3, 4, 5), "color": "var(--oa-green)"},
+    "summer": {"label": "夏季", "en": "Summer", "icon": "☀️", "months": (6, 7, 8), "color": "var(--oa-orange)"},
+    "autumn": {"label": "秋季", "en": "Autumn", "icon": "🍂", "months": (9, 10, 11), "color": "#b45309"},
+    "winter": {"label": "冬季", "en": "Winter", "icon": "❄️", "months": (12, 1, 2), "color": "var(--oa-blue)"},
+}
+
+SEASON_AIR_FREIGHT_LEAD = 47  # 空运备货提前天数
+
+# 区域气候标签：UK全境温带海洋性气候，无南北差异
+SEASON_REGION_TAGS = {
+    "spring": {"months": (3, 4, 5), "north": "标准春(3-5月)", "south": "标准春(3-5月)"},
+    "summer": {"months": (6, 7, 8), "north": "标准夏(6-8月)", "south": "标准夏(6-8月)"},
+    "autumn": {"months": (9, 10, 11), "north": "标准秋(9-11月)", "south": "标准秋(9-11月)"},
+    "winter": {"months": (12, 1, 2), "north": "标准冬(12-2月)", "south": "标准冬(12-2月)"},
+}
+
+
 # ── UK Seasonal Events Calendar ───────────────────────────────────
 # Each event: name, month, day (approx), categories, year_override for floating dates
 # Fixed dates use (month, day). Floating dates use best-guess for current year.
@@ -390,38 +464,11 @@ def get_seasonal_keywords():
     today = datetime.now()
     month = today.month
 
-    # Seasonal keyword map
-    seasonal = {
-        1: ["storage organiser", "desk accessories", "meal prep containers",
-            "cleaning tools", "kitchen gadgets new year"],
-        2: ["valentine gift ideas", "romantic gift", "travel accessories",
-            "decorative items", "gift packaging"],
-        3: ["spring cleaning tools", "garden tools", "kitchen gadgets",
-            "home decor", "storage solutions", "mothers day gift"],
-        4: ["garden accessories", "easter decoration", "outdoor tools",
-            "kitchen gadgets", "party supplies", "cleaning supplies"],
-        5: ["garden tools", "BBQ accessories", "garden decor",
-            "plant pots", "picnic items", "outdoor cushions"],
-        6: ["travel accessories", "car cleaning", "outdoor gadgets",
-            "water bottle", "picnic set", "camping accessories",
-            "fathers day gift"],
-        7: ["outdoor accessories", "BBQ tools", "travel gadgets",
-            "car accessories", "camping gear", "beach accessories",
-            "prime day deals"],
-        8: ["travel accessories", "back to school stationery", "lunch box",
-            "desk organiser", "storage", "outdoor cooling"],
-        9: ["kitchen gadgets", "autumn decor", "desk accessories",
-            "storage organiser", "candles", "university essentials"],
-        10: ["halloween decoration", "autumn garden tools", "party supplies",
-             "candles", "bird feeder", "bird accessories"],
-        11: ["christmas decoration", "gift ideas", "tinsel garlands",
-             "party supplies", "kitchen gadgets", "blanket throw",
-             "black friday deals"],
-        12: ["christmas gifts", "party supplies", "storage organiser",
-             "kitchen gadgets", "travel accessories", "home decor"],
-    }
-
-    keywords = seasonal.get(month, ["kitchen accessories", "home gadgets"])
+    # 2026-08-28 全面升级：基于 Amazon UK bestseller + Argos Outdoor Living Report 2026 + John Lewis趋势
+    # 每月从5词扩到8-10词，覆盖 UK 实销品类（暖冬/圣诞/花园越冬）
+    # 气候标注：ALL=英国全国（无南北差异，全境温带海洋性气候）
+    from season_engine import MONTHLY_SEASONAL_KEYWORDS as _MSK  # lazy load from module constant below
+    keywords = list(_MSK.get(month, ["kitchen accessories", "home gadgets"]))
 
     # Add upcoming event keywords
     upcoming = get_upcoming_events(days_ahead=30)
@@ -442,7 +489,81 @@ def get_seasonal_keywords():
     return unique
 
 
-if __name__ == "__main__":
+def _season_of(month: int) -> str:
+    """月份 → 季节key（北半球）。非法月份返回空串。"""
+    for key, info in SEASONS.items():
+        if month in info["months"]:
+            return key
+    return ""
+
+
+def _current_season_key() -> str:
+    return _season_of(datetime.now().month)
+
+
+def get_seasonal_sourcing_alert():
+    """返回当前季节的备货倒计时信息。
+    
+    按季节首日计算：如果当前在季节内，算下一个季节的倒计时；
+    如果在季节交替前47天内，当前季节品已进入"最后空运窗口"。
+    """
+    today = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
+    month = today.month
+    
+    # 北半球季节映射
+    _season_map = {3: "spring", 4: "spring", 5: "spring",
+                   6: "summer", 7: "summer", 8: "summer",
+                   9: "autumn", 10: "autumn", 11: "autumn",
+                   12: "winter", 1: "winter", 2: "winter"}
+    _season_months = {"spring": (3, 4, 5), "summer": (6, 7, 8),
+                      "autumn": (9, 10, 11), "winter": (12, 1, 2)}
+    _season_order = ["spring", "summer", "autumn", "winter"]
+    
+    cur_season = _season_map.get(month)
+    if cur_season:
+        cur_idx = _season_order.index(cur_season)
+        next_season = _season_order[(cur_idx + 1) % 4]
+    else:
+        next_season = "spring"
+    
+    next_months = _season_months[next_season]
+    next_month_1st = next_months[0]
+    
+    # 计算下一季节首日
+    if next_month_1st == 3 and month >= 11:
+        year = today.year + 1
+    elif next_month_1st > month:
+        year = today.year
+    else:
+        year = today.year + 1
+    
+    season_start = datetime(year, next_month_1st, 1)
+    air_deadline = season_start - timedelta(days=SEASON_AIR_FREIGHT_LEAD)
+    days_to_deadline = (air_deadline - today).days
+    
+    # 紧急度判断
+    if days_to_deadline < 0:
+        urgency = "OVERDUE"
+    elif days_to_deadline <= 14:
+        urgency = "URGENT"
+    elif days_to_deadline <= 30:
+        urgency = "AIR_ONLY"
+    elif days_to_deadline <= 47:
+        urgency = "PLAN"
+    else:
+        urgency = "OK"
+    
+    return {
+        "current_season": cur_season,
+        "next_season": next_season,
+        "season_start": season_start.strftime("%Y-%m-%d"),
+        "air_deadline": air_deadline.strftime("%Y-%m-%d"),
+        "days_to_deadline": days_to_deadline,
+        "urgency": urgency,
+    }
+
+
+
     output_json = "--json" in sys.argv
 
     # Parse --days N

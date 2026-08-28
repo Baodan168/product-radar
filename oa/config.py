@@ -22,7 +22,7 @@ OUTPUT_DIR = BASE / 'output'
 TEMPLATE_DIR = BASE / 'templates'
 ASSET_DIR = BASE / 'assets'
 
-SYSTEM_NAME = 'Amazon项目运营OA'
+SYSTEM_NAME = 'Amazon-UK项目运营'
 SYSTEM_SUB = ''
 PORTAL_VERSION = 'v4.0'
 

@@ -206,7 +206,7 @@ echo "✅ 部署完成：https://Baodan168.github.io/product-radar/platform.html
 } > "$LOG" 2>&1 || {
     # On failure, output error for cron alert
     write_status false
-    echo "❌ 选品雷达扫描失败 | $(date '+%Y-%m-%d %H:%M')"
+    echo "❌ UK选品雷达扫描失败 | $(date '+%Y-%m-%d %H:%M')"
     tail -5 "$LOG"
     exit 1
 }
@@ -243,7 +243,7 @@ except Exception:
 " 2>/dev/null)
 fi
 if [ "$REPEAT_COUNT" -gt 0 ] 2>/dev/null; then
-    echo "✅ 选品雷达扫描完成 | $(date '+%Y-%m-%d %H:%M') | ${PRODUCTS}个通过筛选（🆕${NEW_COUNT}新品 ♻️${REPEAT_COUNT}重复）→ 已部署GitHub${DETAIL_REJ}"
+    echo "✅ UK选品雷达扫描完成 | $(date '+%Y-%m-%d %H:%M') | ${PRODUCTS}个通过筛选（🆕${NEW_COUNT}新品 ♻️${REPEAT_COUNT}重复）→ 已部署GitHub${DETAIL_REJ}"
 else
-    echo "✅ 选品雷达扫描完成 | $(date '+%Y-%m-%d %H:%M') | ${PRODUCTS}个新品通过筛选 → 已部署GitHub${DETAIL_REJ}"
+    echo "✅ UK选品雷达扫描完成 | $(date '+%Y-%m-%d %H:%M') | ${PRODUCTS}个新品通过筛选 → 已部署GitHub${DETAIL_REJ}"
 fi
