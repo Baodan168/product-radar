@@ -12,10 +12,11 @@ data/history/
 # Large cached data
 data/amazon_cache.json
 
-# Output files — explicitly tracked via API, not git
+# Output files — 2026-08-29 产物出库（PROPOSAL-artifacts-out-of-git.md）：
+# index/platform/output/data|assets 由 CI 现场生成（update.yml），不再入库；
+# 补货页 analysis/ 仍入库（github_api_push.py 推送，git 克隆里也可提交）
 output/*
-!output/index.html
-!output/platform.html
+!output/analysis/
 
 # Visual regression baselines (本地回归辅助，重构期间用，不入库)
 .screenshots/

@@ -1,6 +1,7 @@
 # 方案：产物出库，生成挪进 CI
 
-> 状态：**待拍板，未实施。**
+> 状态：**已实施（2026-08-29）。** update.yml 增加 CI 生成步骤；github_api_push.py
+> 只推 data/ 与补货页；远端 output/ 产物已移除（analysis 保留）；.gitignore 同步收紧。
 > 这是结构改动，按 CLAUDE.md「结构改动必须先讨论」的规矩先出方案。
 > 相关：[`PROPOSAL-agent-collab.md`](./PROPOSAL-agent-collab.md)（更早的版本，本文是它的收窄与具体化）
 

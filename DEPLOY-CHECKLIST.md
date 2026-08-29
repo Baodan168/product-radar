@@ -146,12 +146,16 @@ Pages 部署是幂等的，`main` 回退再推一次就恢复：
 
 ```bash
 git checkout main
-git revert -m 1 <合并那个 commit 的 sha>
+git revert <出问题的 commit 的 sha>
 git push origin main
 ```
 
-产物（`output/*.html`）也在那个 commit 里，所以 revert 会连产物一起回退，
-是干净的回滚，不会留下混合体。
+**2026-08-29 产物出库后的语义变化**（[PROPOSAL-artifacts-out-of-git.md](./PROPOSAL-artifacts-out-of-git.md)）：
+`output/index.html`、`platform.html`、`output/data/*.js` 不再入库，由 CI 在部署时从
+`data/` 现场生成。revert 只回退代码和数据，产物要等部署 workflow 重跑完（2~3 分钟窗口），
+窗口内线上仍是旧产物。换来的是：生成器是「代码 × 数据」的确定性函数，revert 后 CI
+生成的一定是「回退后代码 × 回退后数据」，**不会再出现「新产物 + 旧代码」的混合体**。
+补货页 `output/analysis/` 仍入库，随 revert 原子回退。
 
 ---
 
@@ -163,7 +167,7 @@ git push origin main
 | **2** | **吊销旧 GitHub Token** | 它曾暴露在浏览器 `localStorage` 里。删代码不等于凭据失效 | 你在 GitHub 后台操作 |
 | **3** | **写团队使用文档** | 团队第一次打开会问「达标/偏低是什么意思」「为什么毛利率不是数字」「可售天数怎么算」。现在没地方查 | 我可以写初稿，你补业务口径 |
 | **4** | **广告异常监控板块** | 唯一的功能缺口。方案已出（[`PROPOSAL-ads-module.md`](./PROPOSAL-ads-module.md)），但卡在四个问题 | **需要你先定**：领星广告表的字段、数据粒度、更新频率、**公开页面怎么处理花费和 ACOS** |
-| **5** | **协作边界重构** | 把 `output/*.html` 的生成挪进 CI，让我和 hermes 零重叠。见 [`PROPOSAL-agent-collab.md`](./PROPOSAL-agent-collab.md) | 不着急，等这次部署稳了再做 |
+| **5** | ~~协作边界重构~~ **✅ 2026-08-29 已落地**：CI 现场生成产物（`update.yml`），本机 cron 只推 `data/`，零重叠 | 见 [`PROPOSAL-artifacts-out-of-git.md`](./PROPOSAL-artifacts-out-of-git.md)；观察一周稳定后可删 `verify-ci-generation.yml` | — |
 
 ### 第 4 项那个必须你拍板的问题
 

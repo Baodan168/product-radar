@@ -1,5 +1,11 @@
 """通过GitHub API推送文件到仓库（绕过git push超时问题）
 用法: python3 github_api_push.py "commit message"
+
+2026-08-29 产物出库（PROPOSAL-artifacts-out-of-git.md 第 2 步落地）：
+只推 数据（data/）+ 补货页（output/analysis/）+ status.json/根 assets。
+index.html / platform.html / output/data|assets 由 CI 从 data/ 现场生成
+（.github/workflows/update.yml），不再从本机推 —— 推送量从 ~40 文件
+降到数据变更集，cron 900s 预算里的 deploy 步骤基本不再占时。
 """
 import json, os, sys, base64, time, hashlib
 import urllib.request
@@ -143,7 +149,9 @@ if __name__ == '__main__':
     files = []
 
     import glob
-    for subdir in ('data/channels', 'data/history', 'data/discovery', 'output', 'output/data', 'output/assets'):
+    # 2026-08-29 产物出库：'output', 'output/data', 'output/assets' 已从本机推送
+    # 白名单移除 —— 那三类是 CI 的生成物（update.yml），本机推了也会被 CI 覆盖。
+    for subdir in ('data/channels', 'data/history', 'data/discovery'):
         full = os.path.join(base, subdir)
         if not os.path.isdir(full):
             continue
@@ -161,13 +169,10 @@ if __name__ == '__main__':
             if f.endswith('.html'):
                 files.append((f'output/analysis/{f}', os.path.join(ana_dir, f)))
 
-    # Always-push files
-    # 门户壳的 JS 从内联抽到了 output/assets/，漏推的话线上门户会白屏
-    for f in ('output/platform.html', 'output/index.html', 'output/assets/portal.js',
-              'output/data/radar-all.js', 'output/data/disc-all.js', 'output/data/festivals.js', 'status.json',
-              # ⚠️ 2026-08-03: platform.html 模板引用 assets/platform.js（仓库根路径），
-              # 但此前只推 output/assets/ → 线上顶层 platform.js 一直是旧版（雷达tab空白根因之一）。
-              # 顶层 assets/ 必须同步，模板引用才会命中新版。
+    # Always-push files（2026-08-29 起不再含 output/*：门户 HTML/数据 JS 由 CI 生成）
+    for f in ('status.json',
+              # 顶层 assets/ 是生成器的源文件（模板从仓库根路径引用），
+              # 本机改动未 git 提交时由这里兜底同步到远程，漏了会白屏。
               'assets/platform.js', 'assets/portal.js'):
         fp = os.path.join(base, f)
         if os.path.exists(fp):
