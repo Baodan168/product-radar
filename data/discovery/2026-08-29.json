@@ -1,0 +1,118 @@
+{
+  "date": "2026-08-29",
+  "updated_at": "2026-08-29T08:50:00+08:00",
+  "scan_date": "2026-08-29",
+  "scan_time": "08:40",
+  "summary": "2026-08-29 选品发现：4个全新品类 — 抓住UK秋季两大主线（①日照骤减夜行安全 ②换季收纳/开学入住）。反光狗绳套装（UK日落9月起急降，夜行遛狗安全刚需，Amazon UK现售£7.76/614评验证）+ 意式浓缩咖啡布粉套装（UK家用咖啡机爆发+Sage本土品牌+WBC选手全员WDT，home barista入门第一步）+ 可复用硅胶睡眠耳塞多双装（Freshers Week学生必需品TOP5占9%+秋季开窗噪音）+ 天然雪松木防蛾块（Good Housekeeping换季防蛾刚需，秋季夏装收/冬装取为购买峰值）。全部非电子、≤200g、小标准件、不发海运，历史273+条推荐零覆盖。诚实披露：①捕虫器（UK蜘蛛季强需求但长柄款270g超重+折叠45cm超包装限制）已排除；②WDT/耳塞低端段已有白牌，靠组合装+细分定位差异化，gap分已如实下调。",
+  "trend_forecast": "未来4-6周UK秋季窗口：9月首两周Freshers Week（耳塞/宿舍收纳，08-27已推收纳）+ 9月UK日落加速变短（反光狗绳/夜行安全类）+ 秋季换季收纳（雪松防蛾/防潮类）+ 家用咖啡机Q4预热（布粉配件）。GBBO 9月回归已由08-26/28烘焙类覆盖，本次主动避让。圣诞类仍按47天规则待10月中旬启动扫描。",
+  "insights": [
+    {
+      "keyword": "reflective dog collar and lead set high visibility waterproof night walking",
+      "keyword_cn": "反光狗项圈牵引绳套装 高亮夜行 防水尼龙 遛狗安全装备",
+      "amazon_keyword": "reflective dog collar and lead set, high visibility dog collar, reflective dog lead, dog collar and lead set waterproof, night walking dog accessories",
+      "search_1688": "反光牵引绳 项圈 套装 夜行 防水 跨境 亚马逊 英国",
+      "demand_signals": [
+        "Amazon UK验证 — IPucool反光项圈+牵绳套装现售£7.76(划线£11.69) 4.6★/614评论，LatestDeals收录为当前Deal，说明该价格带已有稳定销量（来源：latestdeals.co.uk + Amazon UK）",
+        "UK秋季日照骤减 — 9月起UK日落从19:00快速降至18:30，早/晚遛狗进入黑暗时段，ManyPets等宠物安全媒体集中推反光装备（'days are much shorter, more dog walks in the dark'），夜行安全成季节刚需（来源：manypets.com/uk 2026）",
+        "1688供应链成熟 — 义乌反光牵引绳源头最低¥1.07/根（反光覆盖率92%、30秒可视120米），反光缓冲绳¥1.41-5.1元，跨境电商专供成熟（来源：1688 wiki 2026 + 义乌购雅比斯/锦何宠物）",
+        "宠物类目佣金仅5% — 比家居8%更高毛利空间，同一采购成本下净利绝对值更大（来源：calc_profit.py 佣金模型）",
+        "历史零覆盖 — 273+条历史推荐宠物类仅拾便袋/嗅闻球/除毛梳/训练袋，反光/高亮类从未推荐"
+      ],
+      "trend_score": 78,
+      "trend_direction": "rising",
+      "reason": "UK秋冬日照缩短是确定性季节信号：9月日落急降、11月5点天黑，800万+养犬家庭几乎每日遛狗，反光装备为'没它不行'的刚需。1688源头¥2-5/套采购极低，宠物5%佣金让£7.99定价毛利39.3%（净利£3.14/单），是今日4品中利润最优。差异化窗口：现有IPucool等白牌套装主打基础反光条，可做'反光项圈+牵绳+拾便袋挂扣三件套'或'反光缓冲(减震)绳'细分——缓冲绳是2025-26宠物出行装备新增长点。非电子、约150-200g、可折叠小包装，完美适配FBA Small Standard。",
+      "action": "007店测款：上架反光狗项圈+牵引绳套装（加宽反光条+防水尼龙+减震设计，S/M/L多尺寸），定价£7.99，1688搜'反光牵引绳 项圈 套装 夜行 跨境'，首批300套。关键词：reflective dog collar and lead set + high visibility + night walking。差异化卖点：2条反光条360°可视/防水可机洗/带拾便袋挂扣。",
+      "competition": "中等偏低竞争——头部IPucool仅614评、品牌集中度极低（大量无品牌Generic），£6-10价格带白牌以基础款为主。差异化窗口在'反光缓冲绳+三件套组合+防水'的品质升级定位。风险：尺寸SKU多（S-XL）需控制备货，项圈金属件需确认无过敏投诉点。",
+      "signal_scores": {
+        "trend": 78,
+        "gap": 76,
+        "profit": 90,
+        "final": 80.6,
+        "recommendation": "STRONG_BUY",
+        "gap_level": "中等偏低竞争（缓冲绳+三件套差异化窗口）",
+        "profit_window": "1688 ¥6以内可保38%+毛利（售价£7.99，采购£0.70，FBA £1.46，佣金5% £0.40，净利£3.14，毛利率39.3%）"
+      }
+    },
+    {
+      "keyword": "espresso WDT tool dosing funnel puck prep kit 58mm magnetic",
+      "keyword_cn": "意式浓缩咖啡布粉套装 WDT布粉针+磁吸布粉环 家用浓缩咖啡配件",
+      "amazon_keyword": "WDT tool espresso, espresso dosing funnel magnetic, coffee distribution tool, WDT espresso tool 58mm, espresso puck prep kit",
+      "search_1688": "咖啡布粉针 WDT 不锈钢 58mm 布粉环 压粉 跨境 亚马逊",
+      "demand_signals": [
+        "UK家用浓缩咖啡机爆发 — Sage(Breville UK品牌)家用机在UK渗透率极高，WDT/布粉环被UK咖啡媒体定义为home barista'第一件该买的升级'（'buy the funnel before worrying about the WDT tool'），入门组合£18-35总价带成熟（来源：coffeesetupuk.co.uk 2026-06）",
+        "WBC+行业标准确立 — 2022-2024 World Barista Championship选手全面采用WDT工具（2024五名决赛选手用Autocomb），Specialty Coffee Association将均匀萃取列为浓缩品质基础，分布工具已成行业标配叙事（来源：perfectdailygrind.com + sca.coffee）",
+        "TikTok #CoffeeTok — 'Espresso Tool Evolution: The WDT Journey'等咖啡工具内容持续产出，home barista话题高转化，UK咖啡内容活跃（来源：TikTok @tannercolson + trends.usa.one 2026-08）",
+        "Amazon UK价格带验证 — 平价WDT £5-12与磁吸布粉环£8-18均有成熟供给，Normcore £18-30/MHW-3BOMBER £21.99-25占据高端，说明需求已充分验证（来源：Amazon UK + coffeesetupuk.co.uk）",
+        "非电子极轻 — WDT+布粉环+压粉垫整套约100-150g，全不锈钢/铝/ABS材质，完美适配FBA Small Standard"
+      ],
+      "trend_score": 74,
+      "trend_direction": "rising",
+      "reason": "UK家用浓缩咖啡是2025-26持续升温赛道：Sage本土品牌、咖啡文化渗透、TikTok内容驱动三重叠加。08-28已推不锈钢滤网（冲泡侧），但布粉/萃取侧（WDT+布粉环）完全空白——这正是home barista入门第一步的组合。1688布粉针带底座¥27/套、磁吸布粉环¥15-25，组合采购£1.64，£8.99定价毛利28.8%（净利£2.59/单）。差异化：把'WDT+磁吸布粉环+压粉垫'打包成入门礼盒，避开£18+高端（Normcore）与£5散装低质的夹缝，主攻Sage 54mm/58mm用户。",
+      "action": "322老店推新：上架意式布粉入门三件套（WDT布粉针+磁吸布粉环+硅胶压粉垫，54mm/58mm双规格），定价£8.99，1688搜'咖啡布粉针 WDT 不锈钢 58mm 布粉环'，首批200套。关键词：espresso WDT tool + dosing funnel + coffee distribution tool。差异化：入门礼盒+兼容Sage Bambino/Barista话术+0.25/0.4mm双针可选。",
+      "competition": "中等竞争——低端白牌（£5-12散装WDT）已多但无主导品牌，Normcore/MHW-3BOMBER在£18-30高端，£8-12'组合套装'供给分散留白。风险：规格认知门槛（54 vs 58mm/针径）需标题讲清，Sage专利非针式布粉部分为机电款需避开。",
+      "signal_scores": {
+        "trend": 74,
+        "gap": 68,
+        "profit": 80,
+        "final": 73.4,
+        "recommendation": "BUY",
+        "gap_level": "中等竞争（入门组合礼盒差异化）",
+        "profit_window": "1688 ¥12以内可保28%+毛利（售价£8.99，采购£1.64，FBA £1.46，佣金8% £0.72，净利£2.59，毛利率28.8%）"
+      }
+    },
+    {
+      "keyword": "reusable silicone sleep earplugs 6 pairs with case noise reducing side sleeper",
+      "keyword_cn": "可复用硅胶睡眠耳塞 6双装 带收纳盒挂绳 降噪 侧睡者友好",
+      "amazon_keyword": "reusable earplugs for sleep, silicone earplugs side sleeper, noise reducing earplugs with case, ear plugs for sleeping multi pack, soft earplugs for snoring",
+      "search_1688": "硅胶睡眠耳塞 降噪 收纳盒 挂绳 跨境 亚马逊 英国",
+      "demand_signals": [
+        "Loop成UK头部但超价格带 — Loop Quiet 2为Amazon UK #1 Best Seller in Ear Plugs（28,912评论 £19.95），平价可复用硅胶多双装白牌£8-13价格带存在且稳定（来源：Amazon UK + bbcgoodfood.com 2026）",
+        "Freshers Week — Product of the Year调研：耳塞+睡眠眼罩占学生入学随身必需品9%（与咖啡23%/止痛药17%并列高频项），9月宿舍噪音+城市公寓开窗睡觉为刚需（来源：retailtimes.co.uk 2025）",
+        "媒体年度推荐 — Good Housekeeping/Telegraph/BBC Good Food 2026均推出'sleeping earplugs'专题，秋季开窗噪音+夜班人群+打鼾伴侣为高频搜索场景（来源：bbcgoodfood.com + telegraph.co.uk 2026）",
+        "1688供应链成熟 — 义乌降噪睡眠耳塞私模含收纳盒+挂绳¥8.8-15/套（送3对防菌耳帽），跨境电商专供现货（来源：义乌购/chinagoods 茂协 2026）",
+        "极轻~30-60g，历史零覆盖 — 273+条历史仅推过睡眠眼罩(07-27)，耳塞品类从未推荐"
+      ],
+      "trend_score": 72,
+      "trend_direction": "rising",
+      "reason": "9月是耳塞双旺季起点：Freshers Week（大学宿舍噪音）+秋季开窗睡觉（UK夜间转凉仍开窗期）。Loop以£19.95占据品牌高端，但平价可复用硅胶段（£7-10）以散装/单双装为主，'6双装+收纳盒+挂绳+侧睡者/小耳道'组合化供给不足。1688私模含配件套装¥8.8/套，£7.99定价毛利27.8%（净利£2.22/单）。差异化：多双装让单盒覆盖家庭多人/多种场景（睡眠+通勤+学习），可洗可复用叙事契合环保。风险提示：耳塞品类Loop品牌力强，需靠组合装+细分人群定位打，不做单双装硬拼。",
+      "action": "322老店推新：上架可复用硅胶睡眠耳塞6双装（含收纳盒+挂绳+防菌耳帽，多色），定价£7.99，1688搜'硅胶睡眠耳塞 降噪 收纳盒 跨境'，首批400套。关键词：reusable earplugs for sleep + silicone side sleeper + ear plugs with case。差异化：6双装家庭装/侧睡者人体工学/可洗可复用。",
+      "competition": "中等竞争——Loop品牌主导高端（£19.95/28K评），平价段OPEIIN/Earmedic Snooze等白牌存在，但'多双装组合+收纳+细分人群'方案分化不足。风险：耳塞为敏感品类，材质(硅胶)安全合规与佩戴舒适度评论风险需把控，避免医疗功效宣称。",
+      "signal_scores": {
+        "trend": 72,
+        "gap": 66,
+        "profit": 82,
+        "final": 72.2,
+        "recommendation": "BUY",
+        "gap_level": "中等竞争（多双装+细分人群组合差异化）",
+        "profit_window": "1688 ¥7以内可保27%+毛利（售价£7.99，采购£0.82，FBA £1.46，佣金15% £1.20，净利£2.22，毛利率27.8%）"
+      }
+    },
+    {
+      "keyword": "cedar wood moth repellent blocks hanging wardrobe natural clothes protection",
+      "keyword_cn": "天然雪松木防蛾块套装 挂钩款 衣柜抽屉防蛀防霉 换季衣物收纳",
+      "amazon_keyword": "cedar wood moth repellent, moth repellent for wardrobe, cedar blocks for clothes, cedar wood hangers moth, natural clothes moth repellent drawers",
+      "search_1688": "雪松木块 防虫 挂钩 衣柜 防蛀 跨境 亚马逊",
+      "demand_signals": [
+        "UK季节性媒体 — Good Housekeeping UK推出'Moth season is here: 7 ways to protect your clothes now'换季防蛾指南，强调秋季衣柜换季（夏装收/冬装取）为飞蛾侵害衣物高发期（来源：goodhousekeeping.com/uk 2026）",
+        "Amazon UK验证 — ecoKiwi雪松挂钩块10/12装 4.2★/1186-1540评论，售价£15.99-21.99（超我们价格带）；Besto 28件套BSR #21 in Moth Protection，证明平价段有真实购买（来源：Amazon UK）",
+        "UK飞蛾季节奏 — 夏末雌蛾产卵、幼虫在秋季取食羊毛/针织天然纤维，UK冬季大衣/羊毛衫换季取出时发现虫洞，'防患于未然'的挂块在秋季购买达到峰值（来源：Good Housekeeping + RHS 2026）",
+        "1688供应链极低 — 北美雪松木圆环/挂钩块¥0.33-0.41/块（4.0×0.95cm），16-20件套采购约£0.90，木制品无电子/无液体（来源：义乌购 清风百货 2026）",
+        "天然替代叙事 — 化学樟脑丸/杀虫喷剂有害气味争议下，100%天然雪松木'不染色/不刺鼻/宠物安全'成为UK可持续家庭主流选择（来源：ecoKiwi listing + accio.com 2026）"
+      ],
+      "trend_score": 71,
+      "trend_direction": "rising",
+      "reason": "UK秋季换季收纳是确定性季节需求：8月底-10月家庭集中做夏冬衣物交替，飞蛾幼虫侵害羊毛大衣/针织品是UK家庭高频痛点（Good Housekeeping每年秋季固定推防蛾内容）。ecoKiwi以£21.99占据高端，16-28件平价套（£7-10）留白。1688雪松木块¥0.35/块极低，£7.99定价毛利33.8%（净利£2.70/单）。差异化：16-20件挂钩块+砂纸（每3个月打磨复效）+收纳袋的完整方案，主打'天然/无化学/可复效'。重量约100-180g小盒包装，非电子，完美适配FBA。",
+      "action": "322老店推新：上架天然雪松木防蛾挂钩块16-20件套装（含砂纸+布袋，圆形挂钩款），定价£7.99，1688搜'雪松木块 防虫 挂钩 衣柜 跨境'，首批300套。关键词：cedar wood moth repellent + wardrobe + natural clothes protection。差异化：20件大套装+砂纸复效+无化学天然叙事。",
+      "competition": "中等竞争——ecoKiwi品牌主导高端（£15.99-21.99/1540评），平价段Inovida/Besto等白牌已有但组合化（挂钩+砂纸+袋）与20件大套装差异化不足。风险：木制品需确认产地/防蛀效果宣称合规（避免'killer'等医疗式宣称），UK出口注意木质包装熏蒸证明（IPPC）。",
+      "signal_scores": {
+        "trend": 71,
+        "gap": 70,
+        "profit": 84,
+        "final": 74.0,
+        "recommendation": "BUY",
+        "gap_level": "中等竞争（20件大套装+砂纸复效差异化）",
+        "profit_window": "1688 ¥7以内可保33%+毛利（售价£7.99，采购£0.90，FBA £1.46，佣金8% £0.64，净利£2.70，毛利率33.8%）"
+      }
+    }
+  ]
+}
