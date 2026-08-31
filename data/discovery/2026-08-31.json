@@ -1,0 +1,118 @@
+{
+  "date": "2026-08-31",
+  "updated_at": "2026-08-31T08:55:00+08:00",
+  "scan_date": "2026-08-31",
+  "scan_time": "08:40",
+  "summary": "2026-08-31 选品发现：4个全新品类 — 锁定UK 9月三股确定性趋势（①秋季宠物换毛高峰+室内季 ②cosy season保暖/氛围提前备货 ③英国国家蜡烛月9月）。可复用宠物除毛滚轮（Pet类目5%佣金+中端白牌多家断货的入场窗口）+ 热水袋毛绒套（cosy season核心单品，Amazon UK 4.5★/2446评验证价格带，Dunelm已把'Cosy Retreat'列为秋冬六大主题）+ 蜡烛护理套装（修剪器+灭火铃2件套，独立站£14-25价格锚点，镀锌钢件轻小）+ 狗狗慢食碗（TikTok宠物健康内容长青，1688源头¥6-9）。全部非电子、≤200g、包装≤32×22×6cm、不发海运，与历史280+条推荐零重叠。诚实披露：①蜘蛛捕捉器（蜘蛛季强需求但82.5cm/270g超尺寸红线）②床单固定器（头部28,003评Siaomo垄断低段）③门缝挡条（100cm卷装超包装限制）④热红酒香料包（食品类不做）⑤球根种植器（1.5-2kg超重）均已排除。",
+  "trend_forecast": "未来4-6周UK窗口：①9-10月宠物换毛高峰（除毛工具需求峰值）②9月英国国家Candle Month+10月底 clocks change（蜡烛及配件Q4前最后的轻小件入场期）③cosy season保暖类9月中下旬起量（热水袋10月-次年2月为销售主峰，现上架正好吃满全季）④圣诞类仍按47天规则10月中旬启动扫描，本期不碰。GBBO烘焙、收纳、咖啡配件、宠物饰品历史已覆盖，继续主动避让。",
+  "insights": [
+    {
+      "keyword": "reusable pet hair remover roller self cleaning dog cat fur furniture sofa",
+      "keyword_cn": "可复用宠物除毛滚轮 静电自清洁 狗猫毛清理器 沙发地毯衣物除毛",
+      "amazon_keyword": "pet hair remover roller, reusable lint roller pet hair, dog hair remover for sofa, cat hair remover self cleaning, pet fur removal tool",
+      "search_1688": "宠物除毛滚筒 静电 粘毛器 可重复使用 跨境 亚马逊 义乌",
+      "demand_signals": [
+        "Amazon UK实测 — ACE2ACE除毛滚轮4.4★/1,359评 (£13.99档)，Pleasantsong同款558评但Currently unavailable、KEPLIN等多家中端白牌listing断货，头部ChomChom £25+价位留下£7-13白牌空档（来源：Amazon UK dp页 2026-08-31实测）",
+        "换毛季节性 — UK猫狗9-10月秋季换绒毛高峰+室内时间增加，'pet hair everywhere'是9月宠物板块常青痛点，ChomChom全美19万评/4.5★验证品类需求刚性（来源：rd.com ChomChom评测 + Wirecutter推荐）",
+        "1688供应链成熟 — 义乌三合一静电除毛刷¥4.6-5.4/168个起批，滚筒式¥7-11（义乌凡希/土豆猫宠物，近30天24人想买），跨境专供成熟、多个亚马逊新款货源（来源：yiwugo KD2685 + chinagoods 2026-08）",
+        "宠物类目佣金5% — 家居类一半佣金率，£8.99定价下净利绝对值最大化（来源：calc_profit.py 佣金模型）",
+        "历史零覆盖 — 273+条历史推荐宠物类有除毛梳(grooming brush)但从未推荐除毛滚轮/粘毛器类（来源：discovery历史JSON检索）"
+      ],
+      "trend_score": 82,
+      "trend_direction": "rising",
+      "reason": "9月UK进入宠物换毛高峰+室内季，除毛滚轮是'粘毛纸的终身替代品'——一次购买无限次使用，环保+省钱双卖点天然适配TikTok演示型内容（before/after沙发除毛视频）。Amazon UK中端白牌（£7-13）恰逢多家断货，是2026年罕见的补位窗口。ChomChom £25+教育了市场，白牌只需证明'同样静电原理、一半价格'。非电子、约250g带包装略临界，选迷你/标准款可控制在200g内，FBA Small Standard完美适配。差异化：加赠1个迷你便携款（衣服用）组合装，避开与ChomChom正面竞争。",
+      "action": "007店测款：上架可复用除毛滚轮（标准+迷你2件套装），定价£8.99，1688搜'宠物除毛滚筒 静电 跨境 亚马逊'（义乌凡希¥7/起批200），首批300套。关键词：pet hair remover roller + self cleaning + for sofa carpet。卖点：无胶带零耗材/一键开仓倒毛/附迷你随身装。",
+      "competition": "中等竞争——头部ChomChom(£25+)定位高端不冲突；£7-13白牌带有4.1-4.4★/500-1400评的中型玩家，但普遍断货或好评率不满4.5，可凭'2件套+4.5星服务'切入。风险：滚筒静电布材质是体验关键，采购前必须打样测试粘毛力，差评高危点是'粘不住短毛'。",
+      "signal_scores": {
+        "trend": 82,
+        "gap": 62,
+        "profit": 85,
+        "final": 76.3,
+        "recommendation": "BUY",
+        "gap_level": "中等竞争（头部£25+与白牌£7-13分层明显，中端断货窗口）",
+        "profit_window": "1688 ¥11-14内可保40%+毛利（售价£8.99：VAT折算£1.50，采购£1.65，FBA £1.46，佣金5% £0.45，净利£3.93，毛利率43.7%）"
+      }
+    },
+    {
+      "keyword": "hot water bottle with plush faux fur cover 2L washable cosy winter",
+      "keyword_cn": "热水袋仿兔绒毛绒套 2L注水 可拆洗 秋冬保暖 暖手暖腹",
+      "amazon_keyword": "hot water bottle with cover, faux fur hot water bottle 2l, cosy hot water bottle washable, hot water bottle gift winter, plush hot water bottle cover",
+      "search_1688": "热水袋 仿兔绒 毛绒套 注水 防爆 跨境 亚马逊 一件代发",
+      "demand_signals": [
+        "Amazon UK验证 — Homealexa毛绒套热水袋2L现售£9.99级/4.5★/2,446评；KEPLIN同款4.5★/195评但Temporarily out of stock（来源：Amazon UK dp页 2026-08-31实测，KEPLIN页面显示缺货）",
+        "cosy season确定性 — Dunelm 2026秋冬六大主题把'Cosy Retreat/冬夜暖眠'列为官方主打，Country Living/House Beautiful 9月刊集体推秋季保暖氛围品类（来源：housebeautiful.com/uk Dunelm AW26预览 2026-07）",
+        "UK能源账单背景 — 暖被窝/局部保暖比全屋供暖省钱的叙事每年秋冬复现，热水袋是英国国民级单品（BS1970:2012英国安全标准即专为热水袋设立）（来源：KEPLIN listing安全标准描述）",
+        "1688源头价极低 — 仿兔绒套+2L袋套装¥9-12，套单独¥5-8，乐雪儿等防爆PVC工厂通过欧盟检测认证，义乌可一件代发（来源：1688充水热水袋行情页 2026-08-04）",
+        "礼品属性 — 'Winter Gifts'关键词在10-12月搜索量陡增，£7.99-9.99正是圣诞袜/Secret Santa预算甜点位（来源：KEPLIN listing gift定位 + Spice Kitchen等UK品牌定价参照）"
+      ],
+      "trend_score": 85,
+      "trend_direction": "rising",
+      "reason": "热水袋销售主峰是10月-2月，9月上架正好吃满整个冬季销售季——这是本期时间价值最高的品。cosy season是UK秋冬最确定的需求叙事（Dunelm官方主题背书），KEPLIN等中端listing断货说明9月备货竞争者尚未补齐。带BS1970:2012认证的源头工厂成熟，毛绒套可拆洗是核心卖点。差异化：做'莫兰迪色系+双层防烫绒套'升级款（现白牌多为黑灰粉基础色），对标Catherine Tough £40+手工款的设计感、£8.99的白牌价。注意红线：套单独约150-200g合规，带瓶套装约400-500g超重——首发只上套+袋套装选轻量款或纯套款。",
+      "action": "027店测款（新店轻小测品策略≤60件空运）：上架仿兔绒热水袋套（含1.5-2L防爆袋轻量款），定价£8.99，1688搜'热水袋 仿兔绒 防爆 跨境 一件代发'，首批50-60件。关键词：hot water bottle with cover + faux fur + washable。卖点：可拆洗/双层防烫/6色莫兰迪色系。必须确认供应商提供BS1970:2012测试报告。",
+      "competition": "中等偏低——头部Homealexa 2,446评占据心智但设计基础；KEPLIN断货；£40+设计款（Catherine Tough）与白牌之间有'设计感平替'空档，正是Lee'品牌平替'选品策略的标准标的。风险：热水袋是安全敏感品，袋体必须带防爆认证+BS1970测试报告，否则差评和召回风险高；纯套款无安全认证问题可规避。",
+      "signal_scores": {
+        "trend": 85,
+        "gap": 80,
+        "profit": 88,
+        "final": 84.3,
+        "recommendation": "STRONG_BUY",
+        "gap_level": "中等偏低竞争（设计感平替空档+头部缺货窗口）",
+        "profit_window": "1688 ¥7-9内可保45%+毛利（售价£8.99：VAT折算£1.50，采购£1.10，FBA £1.46，佣金8% £0.72，净利£4.21，毛利率46.8%）"
+      }
+    },
+    {
+      "keyword": "candle wick trimmer and snuffer set stainless steel matte black gift box",
+      "keyword_cn": "蜡烛护理2件套 不锈钢灯芯修剪器+灭火铃 哑光黑 礼盒装",
+      "amazon_keyword": "candle wick trimmer, candle snuffer, wick trimmer and snuffer set, candle care kit, candle accessories set black",
+      "search_1688": "蜡烛 灯芯修剪器 灭火铃 三件套 不锈钢 跨境 亚马逊",
+      "demand_signals": [
+        "9月英国国家蜡烛月 — Candle Month UK每年9月启动，Q4蜡烛消费旺季（圣诞/ cosy season）的配件前置采购期，蜡烛护理工具是蜡烛用户的'第二件购买'（来源：UK蜡烛行业日历+Thistle & Wick等品牌9月促销节奏）",
+        "价格锚点清晰 — UK独立站同类2-3件套£14-25（Thistle & Wick £14/Dunelm 3件套£14/OLOR £25），Amazon US头部Calary 17.1K评/4.7★验证品类规模（来源：asinsight.com candle trimmer 2026 + dunelm.com实测）",
+        "cosy season氛围刚需 — 2026秋冬趋势'分层照明/less shiny金属'（Country Living）推动哑光黑/古铜色配件走热，工具本身可做桌面装饰（用户评论原话：'can remain visible as ornament'）（来源：myfamilyshop.co.uk评论区）",
+        "1688源头成熟 — 3CR13不锈钢3件套¥9-12/30套起批，电镀黑/金/玫瑰金多色，ODM工厂直供欧洲（来源：himfr 110531229 + sucehk $1.72/件出厂参照）",
+        "礼品属性强 — 'candle lover gift'是Q4搜索常青词，带礼盒装的套装溢价能力比单件高30-50%（来源：Ronxs/Calary US listing礼盒定位）"
+      ],
+      "trend_score": 78,
+      "trend_direction": "rising",
+      "reason": "英国国家蜡烛月9月启动+Q4蜡烛旺季前最后的轻小件入场期。蜡烛用户买蜡烛后必然需要修剪器（防止烛芯蘑菇头黑烟），复购逻辑清晰。US市场已验证（头部17.1K评），UK独立站£14-25价格锚点给Amazon £9.99留出'同款更便宜'空间。2件套（修剪器+灭火铃）约165g含礼盒，完美卡进Small Standard；3件套加wick dipper会到230g+超重，首发只做2件套。差异化：哑光黑+金双色可选+开窗礼盒，对标Dunelm £14做£9.99平替。",
+      "action": "007店测款：上架不锈钢蜡烛护理2件套（修剪器+灭火铃+礼盒），定价£9.99，1688搜'蜡烛 灯芯修剪器 灭火铃 不锈钢 跨境'，首批200套。关键词：candle wick trimmer and snuffer set + matte black + gift box。卖点：3CR13不锈钢/防飞灰接屑设计/开窗礼盒可直寄礼品。",
+      "competition": "中等——US头部强但UK Amazon价格带内白牌集中度低，多数UK卖家从独立站高价卖。风险：镀层工艺差是差评主因（掉色/生锈），采购选电镀厚度高的工厂并打样测试；季节性强，10月后入场就晚了，本周决策窗口。",
+      "signal_scores": {
+        "trend": 78,
+        "gap": 72,
+        "profit": 80,
+        "final": 76.7,
+        "recommendation": "BUY",
+        "gap_level": "中等竞争（UK Amazon低价带白牌少，独立站高价教育了市场）",
+        "profit_window": "1688 ¥9-12内可保40%+毛利（售价£9.99：VAT折算£1.67，采购£1.50，FBA £1.46，佣金8% £0.80，净利£4.56，毛利率45.6%）"
+      }
+    },
+    {
+      "keyword": "slow feeder dog bowl anti gulping puzzle interactive pet bowl non slip",
+      "keyword_cn": "狗狗慢食碗 防噎迷宫造型 互动益智碗 防滑底 助消化",
+      "amazon_keyword": "slow feeder dog bowl, anti gulping dog bowl, dog puzzle feeder bowl, interactive slow feed bowl, bloat stop dog bowl non slip",
+      "search_1688": "狗狗慢食碗 防噎 迷宫 益智碗 PP 硅胶 跨境 亚马逊",
+      "demand_signals": [
+        "Amazon UK品类在售密集 — slow feeder搜索结果页50+款同台（Outward Hound/MateeyLife/LE TAUCI等），价格£5.53-11.29多档活跃，£10.49硅胶款有现货销量（来源：Amazon UK搜索页 2026-08-31）",
+        "TikTok宠物健康内容长青 — 'dog eats too fast'类视频持续获流，慢食碗的before/after演示天然适合短视频，#DogTok UK宠物内容池稳定（来源：packprofulfilment TikTok品类报告——宠物健康类为TikTok Shop强势类目）",
+        "健康叙事真实 — 快食犬胃扭转(bloat)是大型犬致命风险，兽医渠道长期教育'慢食碗是预防工具'，需求有医学背书非纯潮流（来源：chillypup.co.uk产品页兽医叙事）",
+        "1688源头极低 — PP迷宫碗¥6-9（130-180g，21×21×4.5cm），硅胶吸附款¥8-12，均轻小合规（来源：1688慢食碗货源，zwxqe英国在售款同为PP 130g）",
+        "宠物5%佣金 — 与除毛滚轮同享宠物类目低佣金红利（来源：calc_profit.py 佣金模型）"
+      ],
+      "trend_score": 72,
+      "trend_direction": "stable",
+      "reason": "慢食碗是宠物喂养的'必需品化'品类——买过就离不开，复购与推荐率高。UK在售密集说明需求稳定，但£6-10带内'硅胶款+吸附底+莫兰迪色'的组合仍有差异化空间（多数白牌是深色PP基础款）。风险在于头部Outward Hound品牌认知强、新品冷启动比前三个品吃力，适合作为027店的练手品——下单门槛低（£8.99）、售后简单、评价增速通常快于功能复杂品。",
+      "action": "027店测款（练手品定位）：上架硅胶吸附慢食碗（小中型犬16-18cm），定价£8.99，1688搜'狗狗慢食碗 硅胶 吸盘 跨境'，首批60件。关键词：slow feeder dog bowl + anti gulping + suction。卖点：食品级硅胶/吸附防打翻/可 dishwasher。若首月转化<1%则不补货，损失可控（≤60件空运）。",
+      "competition": "中高竞争——品类成熟、在售密集、Outward Hound有品牌溢价，白牌靠价格和颜色突围。诚实评估：这是本期4品中gap最低的，final分70.8为垫底，推荐顺位最后。只适合作为新店练手+组合流量款，不建议当主力押注。",
+      "signal_scores": {
+        "trend": 72,
+        "gap": 55,
+        "profit": 85,
+        "final": 70.7,
+        "recommendation": "WATCH",
+        "gap_level": "中高竞争（品类成熟，差异化靠颜色/材质升级）",
+        "profit_window": "1688 ¥7-9内可保45%+毛利（售价£8.99：VAT折算£1.50，采购£1.05，FBA £1.46，佣金5% £0.45，净利£4.53，毛利率50.4%）"
+      }
+    }
+  ]
+}
