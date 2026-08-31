@@ -1,0 +1,1391 @@
+{
+  "scan_date": "2026-08-31",
+  "scan_time": "09:10",
+  "scan_ts": "2026-08-31_0910",
+  "stats": {
+    "total_scanned": 161,
+    "passed_filter": 8,
+    "rejected": 149,
+    "channels": {
+      "multi_source": 7,
+      "tiktok_verified": 7,
+      "keyword_search": 6,
+      "hotukdeals": 3,
+      "etsy_trending": 7,
+      "temu_trending": 6,
+      "new_releases": 2
+    },
+    "detail_reject": {
+      "重量超标": 1
+    },
+    "theme_trimmed": [
+      {
+        "asin": "B0FG74R241",
+        "name": "Wracra Rustic Sage Green Table Runner, Linen Style Outdoor Table Runners | 150cm, Polyester, Two-layer, Geometric Hollow"
+      },
+      {
+        "asin": "B0G91Z6R8Y",
+        "name": "Haquno Boho Rustic Table Runner with Tassels - Handwoven Cotton-Linen Table Cloth for Dining Table,Wedding, Party & Home"
+      },
+      {
+        "asin": "B0DYTH7V1M",
+        "name": "TranRantic Glitter Disco Party Table Runner, Silver Party Tablecloth | 30x275cm Disco Ball Table Runner, Mirror Glitter "
+      },
+      {
+        "asin": "B0G2PLYK21",
+        "name": "4 Pack Olive Green Table Runner 17 x 108inch Cheesecloth Table Runner Boho Gauze Table Runners for Dining Table Rustic S"
+      }
+    ],
+    "trend_categories": {
+      "kitchen": 100,
+      "crafts": 100,
+      "office": 100,
+      "lighting": 100,
+      "pets": 97,
+      "eco": 86
+    },
+    "supply_demand": {
+      "kitchen": {
+        "ratio": 8.6,
+        "demand": 100,
+        "supply": 106597,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "lighting": {
+        "ratio": 8.0,
+        "demand": 100,
+        "supply": 260754,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "pets": {
+        "ratio": 7.7,
+        "demand": 97,
+        "supply": 313199,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "sports": {
+        "ratio": 3.3,
+        "demand": 35,
+        "supply": 45838,
+        "label": "💧 浅蓝海",
+        "level": "light_blue"
+      },
+      "kitchen_gadgets": {
+        "ratio": 1.0,
+        "demand": 12,
+        "supply": 106597,
+        "label": "⚖️ 平衡",
+        "level": "balanced"
+      },
+      "garden": {
+        "ratio": 0,
+        "demand": 80,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "bathroom": {
+        "ratio": 0,
+        "demand": 39,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "car": {
+        "ratio": 0,
+        "demand": 74,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      }
+    },
+    "divergences": {
+      "kitchen": {
+        "current_heat": 76,
+        "previous_heat": 95,
+        "heat_change_pct": -20.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-28_1553",
+          "2026-08-29_0851"
+        ]
+      },
+      "garden": {
+        "current_heat": 72,
+        "previous_heat": 85,
+        "heat_change_pct": -15.3,
+        "direction": "stable",
+        "dates": [
+          "2026-08-28_1553",
+          "2026-08-29_0851"
+        ]
+      },
+      "storage": {
+        "current_heat": 37,
+        "previous_heat": 35,
+        "heat_change_pct": 5.7,
+        "direction": "stable",
+        "dates": [
+          "2026-08-28_1553",
+          "2026-08-29_0851"
+        ]
+      },
+      "crafts": {
+        "current_heat": 100,
+        "previous_heat": 100,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-28_1553",
+          "2026-08-29_0851"
+        ]
+      },
+      "travel": {
+        "current_heat": 54,
+        "previous_heat": 50,
+        "heat_change_pct": 8.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-28_1553",
+          "2026-08-29_0851"
+        ]
+      },
+      "cleaning": {
+        "current_heat": 50,
+        "previous_heat": 40,
+        "heat_change_pct": 25.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-28_1553",
+          "2026-08-29_0851"
+        ]
+      },
+      "seasonal": {
+        "current_heat": 50,
+        "previous_heat": 60,
+        "heat_change_pct": -16.7,
+        "direction": "stable",
+        "dates": [
+          "2026-08-28_1553",
+          "2026-08-29_0851"
+        ]
+      },
+      "lighting": {
+        "current_heat": 93,
+        "previous_heat": 100,
+        "heat_change_pct": -7.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-28_1553",
+          "2026-08-29_0851"
+        ]
+      },
+      "sports": {
+        "current_heat": 37,
+        "previous_heat": 50,
+        "heat_change_pct": -26.0,
+        "direction": "falling",
+        "dates": [
+          "2026-08-28_1553",
+          "2026-08-29_0851"
+        ]
+      },
+      "phone": {
+        "current_heat": 54,
+        "previous_heat": 60,
+        "heat_change_pct": -10.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-28_1553",
+          "2026-08-29_0851"
+        ]
+      },
+      "office": {
+        "current_heat": 85,
+        "previous_heat": 75,
+        "heat_change_pct": 13.3,
+        "direction": "stable",
+        "dates": [
+          "2026-08-28_1553",
+          "2026-08-29_0851"
+        ]
+      },
+      "pets": {
+        "current_heat": 89,
+        "previous_heat": 100,
+        "heat_change_pct": -11.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-28_1553",
+          "2026-08-29_0851"
+        ]
+      },
+      "bathroom": {
+        "current_heat": 17,
+        "previous_heat": 40,
+        "heat_change_pct": -57.5,
+        "direction": "falling",
+        "dates": [
+          "2026-08-28_1553",
+          "2026-08-29_0851"
+        ]
+      },
+      "car": {
+        "current_heat": 50,
+        "previous_heat": 65,
+        "heat_change_pct": -23.1,
+        "direction": "falling",
+        "dates": [
+          "2026-08-28_1553",
+          "2026-08-29_0851"
+        ]
+      },
+      "beauty": {
+        "current_heat": 50,
+        "previous_heat": 65,
+        "heat_change_pct": -23.1,
+        "direction": "falling",
+        "dates": [
+          "2026-08-28_1553",
+          "2026-08-29_0851"
+        ]
+      },
+      "home decor": {
+        "current_heat": 58,
+        "previous_heat": 90,
+        "heat_change_pct": -35.6,
+        "direction": "falling",
+        "dates": [
+          "2026-08-28_1553",
+          "2026-08-29_0851"
+        ]
+      },
+      "baby": {
+        "current_heat": 32,
+        "previous_heat": 10,
+        "heat_change_pct": 220.0,
+        "direction": "rising",
+        "dates": [
+          "2026-08-28_1553",
+          "2026-08-29_0851"
+        ]
+      },
+      "eco": {
+        "current_heat": 58,
+        "previous_heat": 90,
+        "heat_change_pct": -35.6,
+        "direction": "falling",
+        "dates": [
+          "2026-08-28_1553",
+          "2026-08-29_0851"
+        ]
+      },
+      "kitchen_gadgets": {
+        "current_heat": 4,
+        "previous_heat": 5,
+        "heat_change_pct": -20.0,
+        "direction": "stable",
+        "dates": [
+          "2026-08-28_1553",
+          "2026-08-29_0851"
+        ]
+      },
+      "bedding": {
+        "current_heat": 45,
+        "previous_heat": 30,
+        "heat_change_pct": 50.0,
+        "direction": "rising",
+        "dates": [
+          "2026-08-28_1553",
+          "2026-08-29_0851"
+        ]
+      }
+    },
+    "gap_opportunities": 11
+  },
+  "products": [
+    {
+      "asin": "B0F4QTRMJZ",
+      "name": "BSBUY Tablecloth Tassel Table Runner, Spring Kitchen Dining Table Decoration Boho Rectangular Crochet Lace Mesh Table Ru",
+      "price": 7.49,
+      "reviews": 146,
+      "rating": 4.7,
+      "rank": 2,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "146 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0F4QTRMJZ",
+      "image_url": "https://m.media-amazon.com/images/I/91DOqSOG6oL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "table runner",
+      "festival_event": "排灯节",
+      "festival_icon": "🪔",
+      "festival_deadline": "2026-09-03",
+      "is_event": false,
+      "sources": [
+        "📅 排灯节",
+        "HotUKDeals热帖",
+        "Temu热销",
+        "TikTok趋势",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.261,
+      "net_profit": 1.96,
+      "cost_breakdown": {
+        "vat": 1.25,
+        "commission": 1.12,
+        "fba": 1.46,
+        "ads": 0.75,
+        "returns": 0.15,
+        "sourcing": 0.8,
+        "total_cost": 5.53
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 8.6,
+        "demand": 100,
+        "supply": 106597,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "HotUKDeals",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 148,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🔥 HotUKDeals": 12,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(kitchen)": 23,
+        "🟡 中等竞争": 5,
+        "⭐ 高评分": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "🌊 深蓝海": 20,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-31",
+      "is_multi": true,
+      "channel_tags": [
+        "multi_source",
+        "tiktok_verified",
+        "keyword_search",
+        "hotukdeals",
+        "etsy_trending",
+        "temu_trending"
+      ]
+    },
+    {
+      "asin": "B0DWXJWB7K",
+      "name": "Table Runners for Dining Table, Table Runner, Sideboard Runner with Home Holiday Party Decor Table,Linen Lines Kitchen D",
+      "price": 7.99,
+      "reviews": 40,
+      "rating": 4.4,
+      "rank": 16,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "40 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DWXJWB7K",
+      "image_url": "https://m.media-amazon.com/images/I/811FPSg5NzL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "table runner",
+      "festival_event": "排灯节",
+      "festival_icon": "🪔",
+      "festival_deadline": "2026-09-03",
+      "is_event": false,
+      "sources": [
+        "📅 排灯节",
+        "Reddit需求",
+        "HotUKDeals热帖",
+        "Temu热销",
+        "TikTok趋势",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.28,
+      "net_profit": 2.24,
+      "cost_breakdown": {
+        "vat": 1.33,
+        "commission": 1.2,
+        "fba": 1.46,
+        "ads": 0.8,
+        "returns": 0.16,
+        "sourcing": 0.8,
+        "total_cost": 5.75
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 8.6,
+        "demand": 100,
+        "supply": 106597,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "HotUKDeals",
+        "Temu",
+        "Etsy",
+        "Reddit"
+      ],
+      "internal_sources": [],
+      "score": 145,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "💬 Reddit": 5,
+        "🔥 HotUKDeals": 12,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(kitchen)": 23,
+        "🟢 低竞争": 10,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "🌊 深蓝海": 20,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-31",
+      "is_multi": true,
+      "channel_tags": [
+        "multi_source",
+        "tiktok_verified",
+        "keyword_search",
+        "hotukdeals",
+        "etsy_trending",
+        "temu_trending"
+      ]
+    },
+    {
+      "asin": "B0F4QWVR1C",
+      "name": "BSBUY Tablecloth Tassel Table Runner, Spring Kitchen Dining Table Decoration Boho Rectangular Crochet Lace Mesh Table Ru",
+      "price": 6.66,
+      "reviews": 146,
+      "rating": 4.7,
+      "rank": 23,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "146 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0F4QWVR1C",
+      "image_url": "https://m.media-amazon.com/images/I/91DOqSOG6oL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "table runner",
+      "festival_event": "排灯节",
+      "festival_icon": "🪔",
+      "festival_deadline": "2026-09-03",
+      "is_event": false,
+      "sources": [
+        "📅 排灯节",
+        "HotUKDeals热帖",
+        "Temu热销",
+        "TikTok趋势",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.224,
+      "net_profit": 1.49,
+      "cost_breakdown": {
+        "vat": 1.11,
+        "commission": 1.0,
+        "fba": 1.46,
+        "ads": 0.67,
+        "returns": 0.13,
+        "sourcing": 0.8,
+        "total_cost": 5.17
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 8.6,
+        "demand": 100,
+        "supply": 106597,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "HotUKDeals",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 144,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🔥 HotUKDeals": 12,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(kitchen)": 23,
+        "🟡 中等竞争": 5,
+        "⭐ 高评分": 5,
+        "❓ 品类存疑": -5,
+        "🌊 深蓝海": 20,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-31",
+      "is_multi": true,
+      "channel_tags": [
+        "multi_source",
+        "tiktok_verified",
+        "keyword_search",
+        "hotukdeals",
+        "etsy_trending",
+        "temu_trending"
+      ]
+    },
+    {
+      "asin": "B0D8TTYFKG",
+      "name": "Sponsored Ad – Unhinged 3D Musical Funny Birthday Cards for Men & Women with Screaming - Shaking Goat Pop Up Card - Birt",
+      "price": 10.82,
+      "reviews": 56,
+      "rating": 4.3,
+      "rank": 51,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "56 reviews, 4.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0D8TTYFKG",
+      "image_url": "https://m.media-amazon.com/images/I/71uw0m8f4iL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "festival cards",
+      "festival_event": "排灯节",
+      "festival_icon": "🪔",
+      "festival_deadline": "2026-09-03",
+      "is_event": false,
+      "sources": [
+        "📅 排灯节",
+        "Temu热销",
+        "Etsy趋势",
+        "TikTok趋势"
+      ],
+      "profit_margin": 0.354,
+      "net_profit": 3.83,
+      "cost_breakdown": {
+        "vat": 1.81,
+        "commission": 1.62,
+        "fba": 1.46,
+        "ads": 1.08,
+        "returns": 0.22,
+        "sourcing": 0.8,
+        "total_cost": 6.99
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 109,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(car)": 23,
+        "🟡 中等竞争": 5,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "📢 广告位": -10,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-31",
+      "is_multi": true,
+      "channel_tags": [
+        "multi_source",
+        "tiktok_verified",
+        "keyword_search",
+        "etsy_trending",
+        "temu_trending"
+      ]
+    },
+    {
+      "asin": "B0BRX8LRWZ",
+      "name": "Pop-up Birthday Card,3D Piano Card,Recital Invitations,Music Festival Souvenir Card for Piano Lovers,suitable for Birthd",
+      "price": 7.49,
+      "reviews": 178,
+      "rating": 4.6,
+      "rank": 18,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "178 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0BRX8LRWZ",
+      "image_url": "https://m.media-amazon.com/images/I/71-PuiPPlPL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "festival cards",
+      "festival_event": "排灯节",
+      "festival_icon": "🪔",
+      "festival_deadline": "2026-09-03",
+      "is_event": false,
+      "sources": [
+        "📅 排灯节",
+        "Temu热销",
+        "Etsy趋势",
+        "TikTok趋势"
+      ],
+      "profit_margin": 0.261,
+      "net_profit": 1.96,
+      "cost_breakdown": {
+        "vat": 1.25,
+        "commission": 1.12,
+        "fba": 1.46,
+        "ads": 0.75,
+        "returns": 0.15,
+        "sourcing": 0.8,
+        "total_cost": 5.53
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 103,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(car)": 23,
+        "⭐ 高评分": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-31",
+      "is_multi": true,
+      "channel_tags": [
+        "multi_source",
+        "tiktok_verified",
+        "keyword_search",
+        "etsy_trending",
+        "temu_trending"
+      ]
+    },
+    {
+      "asin": "B0DDST351M",
+      "name": "Fzyisw 25Pcs Coloured Envelopes 17,5x13,5cm Gift Envelopes with 25 Blank Cards, 25 Gold Foil Envelope Seals Favor Sticke",
+      "price": 8.32,
+      "reviews": 95,
+      "rating": 4.6,
+      "rank": 24,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "95 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DDST351M",
+      "image_url": "https://m.media-amazon.com/images/I/71Bp-lPbk6L._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "festival cards",
+      "festival_event": "排灯节",
+      "festival_icon": "🪔",
+      "festival_deadline": "2026-09-03",
+      "is_event": false,
+      "sources": [
+        "📅 排灯节",
+        "Temu热销",
+        "Etsy趋势",
+        "TikTok趋势"
+      ],
+      "profit_margin": 0.291,
+      "net_profit": 2.42,
+      "cost_breakdown": {
+        "vat": 1.39,
+        "commission": 1.25,
+        "fba": 1.46,
+        "ads": 0.83,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 5.9
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 108,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(car)": 23,
+        "🟡 中等竞争": 5,
+        "⭐ 高评分": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-08-31",
+      "is_multi": true,
+      "channel_tags": [
+        "multi_source",
+        "tiktok_verified",
+        "keyword_search",
+        "etsy_trending",
+        "temu_trending"
+      ]
+    },
+    {
+      "asin": "B0H7BF1NLJ",
+      "name": "Shower Head Holder, 45° Rotatable No Drill Wall Mount Bracket with Hook | Heavy Duty Adhesive, Quick Stick-On Installati",
+      "price": 8.32,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 6,
+      "category": "DIY",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H7BF1NLJ",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/51If49VEcWL._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "Etsy趋势",
+        "TikTok趋势"
+      ],
+      "profit_margin": 0.291,
+      "net_profit": 2.42,
+      "cost_breakdown": {
+        "vat": 1.39,
+        "commission": 1.25,
+        "fba": 1.46,
+        "ads": 0.83,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 5.9
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "medium",
+      "signal_label": "🟠 中信号",
+      "external_sources": [
+        "TikTok",
+        "Etsy"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 84,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "🎵 TikTok": 20,
+        "🎨 Etsy": 6,
+        "🟠 中信号": 10,
+        "⏳ 待验证": -8,
+        "💰 较好利润": 4,
+        "⚠️ 未验证": -8,
+        "✨ 新发现": 10
+      },
+      "stars": 4,
+      "is_new": true,
+      "first_seen": "2026-08-31",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "new_releases",
+        "tiktok_verified",
+        "multi_source",
+        "etsy_trending"
+      ]
+    },
+    {
+      "asin": "B0H872MGWT",
+      "name": "LANQEAOR Armorers Spamer Wrench Tool, 1pc C Hook Spanner for Nut Removal and Tighten with Non-Slip Handle",
+      "price": 6.99,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 5,
+      "category": "DIY",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H872MGWT",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/41SpnVi99CL._AC_UL300_SR300,200_.jpg",
+      "profit_margin": 0.24,
+      "net_profit": 1.68,
+      "cost_breakdown": {
+        "vat": 1.17,
+        "commission": 1.05,
+        "fba": 1.46,
+        "ads": 0.7,
+        "returns": 0.14,
+        "sourcing": 0.8,
+        "total_cost": 5.31
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 仅Amazon",
+      "external_sources": [],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 19,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "⚪ 仅Amazon": -10,
+        "⏳ 待验证": -8,
+        "📉 无需求信号": -15,
+        "⚠️ 未验证": -8,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-08-31",
+      "is_event": false,
+      "channel_tags": [
+        "new_releases"
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "keyword": "crafts",
+      "category": "crafts",
+      "heat": 100,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "tape",
+        "craft",
+        "stickers",
+        "art"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 6,
+      "suggestions": [
+        "washi tape",
+        "decorative tape",
+        "masking tape",
+        "craft knife",
+        "craft supplies",
+        "DIY craft kit",
+        "stickers",
+        "art supplies"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=washi+tape",
+      "url_google": "https://trends.google.com/trends/explore?q=washi+tape&geo=GB"
+    },
+    {
+      "keyword": "office",
+      "category": "office",
+      "heat": 100,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "office",
+        "laptop",
+        "desk",
+        "pen",
+        "mouse"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 6,
+      "suggestions": [
+        "office supplies",
+        "desk organizer",
+        "pen holder",
+        "laptop stand",
+        "laptop sleeve",
+        "laptop cooler",
+        "desk lamp",
+        "desk mat"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=office+supplies",
+      "url_google": "https://trends.google.com/trends/explore?q=office+supplies&geo=GB"
+    },
+    {
+      "keyword": "eco",
+      "category": "eco",
+      "heat": 86,
+      "score": 73,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "reusable",
+        "sustainable",
+        "eco"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 6,
+      "suggestions": [
+        "reusable food wrap",
+        "reusable straws",
+        "reusable bags",
+        "sustainable products",
+        "eco friendly",
+        "eco products",
+        "reusable bag",
+        "bamboo products"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 86,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=reusable+food+wrap",
+      "url_google": "https://trends.google.com/trends/explore?q=reusable+food+wrap&geo=GB"
+    },
+    {
+      "keyword": "garden",
+      "category": "garden",
+      "heat": 80,
+      "score": 71,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "plant",
+        "patio",
+        "outdoor",
+        "garden"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "plant pot",
+        "plant stand",
+        "plant hanger",
+        "patio",
+        "outdoor",
+        "garden tool set",
+        "garden light",
+        "garden decor"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 80,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=plant+pot",
+      "url_google": "https://trends.google.com/trends/explore?q=plant+pot&geo=GB"
+    },
+    {
+      "keyword": "car",
+      "category": "car",
+      "heat": 74,
+      "score": 69,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "motor",
+        "car",
+        "vehicle"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 5,
+      "suggestions": [
+        "motorcycle accessories",
+        "motorcycle cover",
+        "car accessories",
+        "car organizer",
+        "car phone holder",
+        "vehicle"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 74,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=motorcycle+accessories",
+      "url_google": "https://trends.google.com/trends/explore?q=motorcycle+accessories&geo=GB"
+    },
+    {
+      "keyword": "phone",
+      "category": "phone",
+      "heat": 68,
+      "score": 67,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "charger",
+        "cable",
+        "earbuds",
+        "phone"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 5,
+      "suggestions": [
+        "phone charger",
+        "wireless charger",
+        "car charger",
+        "charging cable",
+        "USB cable",
+        "phone cable",
+        "earbuds case",
+        "wireless earbuds"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 68,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=phone+charger",
+      "url_google": "https://trends.google.com/trends/explore?q=phone+charger&geo=GB"
+    },
+    {
+      "keyword": "seasonal",
+      "category": "seasonal",
+      "heat": 68,
+      "score": 67,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "birthday",
+        "gift"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "birthday gift",
+        "birthday decoration",
+        "birthday card",
+        "gift ideas",
+        "gift set",
+        "gift box"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 68,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=birthday+gift",
+      "url_google": "https://trends.google.com/trends/explore?q=birthday+gift&geo=GB"
+    },
+    {
+      "keyword": "beauty",
+      "category": "beauty",
+      "heat": 62,
+      "score": 65,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "makeup",
+        "skincare",
+        "hair"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "makeup brush set",
+        "makeup bag",
+        "makeup organizer",
+        "face roller",
+        "gua sha",
+        "face mask",
+        "hair clip",
+        "hair accessories"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 62,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=makeup+brush+set",
+      "url_google": "https://trends.google.com/trends/explore?q=makeup+brush+set&geo=GB"
+    },
+    {
+      "keyword": "travel",
+      "category": "travel",
+      "heat": 50,
+      "score": 61,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "travel",
+        "toiletry"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 5,
+      "suggestions": [
+        "travel",
+        "toiletry"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 50,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=travel",
+      "url_google": "https://trends.google.com/trends/explore?q=travel&geo=GB"
+    },
+    {
+      "keyword": "home decor",
+      "category": "home decor",
+      "heat": 50,
+      "score": 61,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "candle",
+        "decor"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "candle holder",
+        "scented candle",
+        "candle set",
+        "home decor",
+        "room decor",
+        "table decor"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 50,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=candle+holder",
+      "url_google": "https://trends.google.com/trends/explore?q=candle+holder&geo=GB"
+    },
+    {
+      "keyword": "kitchen",
+      "category": "kitchen",
+      "heat": 100,
+      "score": 55,
+      "gap_level": "weak",
+      "amazon_count": 5,
+      "amazon_reviews": 106597,
+      "evidence": [
+        "utensil",
+        "mug",
+        "gadget",
+        "kitchen",
+        "cooking"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 5,
+      "suggestions": [
+        "utensil",
+        "gadget",
+        "kitchen",
+        "cooking"
+      ],
+      "sd_info": {
+        "ratio": 8.6,
+        "demand": 100,
+        "supply": 106597,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=utensil",
+      "url_google": "https://trends.google.com/trends/explore?q=utensil&geo=GB"
+    }
+  ],
+  "trend_summary": {
+    "top_categories": [
+      [
+        "kitchen",
+        100
+      ],
+      [
+        "crafts",
+        100
+      ],
+      [
+        "office",
+        100
+      ],
+      [
+        "lighting",
+        100
+      ],
+      [
+        "pets",
+        97
+      ],
+      [
+        "eco",
+        86
+      ]
+    ],
+    "cross_validated": [
+      "kitchen",
+      "garden",
+      "bathroom",
+      "car",
+      "crafts",
+      "travel",
+      "phone",
+      "beauty",
+      "eco",
+      "seasonal",
+      "office",
+      "lighting",
+      "pets",
+      "home decor"
+    ],
+    "demand_keywords": [
+      "agentic commerce redefines buying",
+      "amazon discount code",
+      "amazon is now",
+      "apple devices",
+      "best way to save on",
+      "cool stuff gadgets",
+      "cross-border",
+      "deals under",
+      "dollar oysters",
+      "edible gardens"
+    ],
+    "season": "summer",
+    "sources_scanned": [
+      "tiktok",
+      "hotukdeals",
+      "temu",
+      "etsy",
+      "youtube",
+      "google_trends",
+      "reddit",
+      "market_intel"
+    ]
+  }
+}
