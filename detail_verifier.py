@@ -240,14 +240,35 @@ def batch_verify(products, config, max_workers=3, time_budget=240, log=print):
 
     passed, rejected = [], []
     t0 = time.time()
+    # ⚠️ 2026-09-01 修复：原版预算守卫只在「某个 future 完成后」才检查，
+    # Amazon 全层被反爬（curl 45s + curl_cffi 15s + ScraperAPI 30s + CloakBrowser 30s+
+    # ≈120-200s/个）时，前 3 个 future 完成已 >400s，扫描层 600s 硬超时先到 →
+    # SIGTERM 杀进程 → Playwright node driver EPIPE → exit 1（08-28~09-01 连续 4 次）。
+    # 改为：起一个守护计时线程，到 budget 即 cancel 未启动任务并放行 remaining。
     ex = ThreadPoolExecutor(max_workers=max_workers)
     futs = {ex.submit(verify_product, p, config): p for p in to_verify}
     remaining = set(futs)
     budget_hit = False
+
+    def _budget_guard():
+        time.sleep(time_budget)
+        # 到点后取消所有未启动的任务；已在跑的线程无法强杀，但主循环的
+        # as_completed 会在下一个完成时看到 cancelled 状态并走 budget 分支
+        for f2 in list(remaining):
+            f2.cancel()
+
+    import threading as _th
+    guard = _th.Thread(target=_budget_guard, daemon=True)
+    guard.start()
     try:
         for fut in as_completed(futs):
             p = futs[fut]
             remaining.discard(fut)
+            if fut.cancelled():
+                # 预算守卫取消的任务：直接按 unverified 放行
+                p["verify_status"] = "unverified"
+                passed.append(p)
+                continue
             try:
                 ok, reason, data_found = fut.result()
             except Exception:
@@ -262,6 +283,7 @@ def batch_verify(products, config, max_workers=3, time_budget=240, log=print):
                 rejected.append(p)
                 log(f"    ❌ {p.get('name', '')[:45]} → {reason}")
             # 总时间预算：超时后剩余未完成产品按 unverified 放行（不误杀、不拖垮扫描）
+            # 2026-09-01: 守护线程已主动 cancel 未启动任务，此处保留兜底
             if remaining and time.time() - t0 > time_budget:
                 for p2 in (futs[f2] for f2 in remaining):
                     p2["verify_status"] = "unverified"
@@ -270,6 +292,7 @@ def batch_verify(products, config, max_workers=3, time_budget=240, log=print):
                 budget_hit = True
                 break
     finally:
+        guard.join(timeout=1.0)
         # ⚠️ 不能等线程池：shutdown(wait=True) 会等已在跑的慢任务（最坏2分钟/个）跑完，
         #    让 time_budget 形同虚设。cancel_futures=True 取消未启动任务，立即返回。
         ex.shutdown(wait=False, cancel_futures=True)
