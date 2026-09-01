@@ -1,0 +1,152 @@
+{
+  "date": "2026-09-01",
+  "updated_at": "2026-09-01 09:28 CST",
+  "scan_date": "2026-09-01",
+  "scan_time": "09:28 CST",
+  "summary": "9月选品发现（补跑8/31任务）：Q4备货窗口开启——Halloween需求9月爬坡、圣诞宠物系列为2026圣诞扩张主题、Faire数据Advent搜索+227%。本次5个机会全部通过硬约束（非电子/≤200g/≤32×22×6cm/空运件）且利润27.7%-42.4%（仓库统一口径：VAT16.7%+佣金+FBA£1.46+广告10%+退货2%+实际1688采购价）。核心信号：①Primark等高街9月初已上Halloween货架（Liverpool Echo实拍）②1688圣诞宠物三角巾源头¥1.30-2.12实价验证 ③Elf官方配件套装£29.90多款断货 ④UK Q4库存红线：Halloween货10月第一周前必须上架",
+  "insights": [
+    {
+      "keyword": "halloween pumpkin carving kit 11 piece stainless steel with stencils",
+      "keyword_cn": "万圣节南瓜雕刻工具11件套 不锈钢锯+挖勺+雕花刀+模板图样",
+      "amazon_keyword": "halloween pumpkin carving kit",
+      "search_1688": "南瓜雕刻工具套装 出口UK 万圣节",
+      "demand_signals": [
+        "UK高街零售商Baker Ross雕刻套售价£4.95-13.95在售、AMOS £6.99（16款模板含LED灯），确认£6-10价格带成立（来源：bakerross.co.uk/amos.co.uk产品页）",
+        "Primark/Liverpool Echo 8月底实拍：高街已铺满Halloween货架，比往年更早，9月为装饰/工具需求爬坡起点（来源：liverpoolecho.co.uk 2026-08实拍文）",
+        "Qogita UK零售库存规划：Halloween需求10月第一周前必须上架，57%消费者仅提前1周采购，意味着9月中下旬集中爆发（来源：qogita.com Q4规划指南）",
+        "玩具批发商已有9件套雕刻工具现货供应，供应链成熟、模具现成（来源：toywholesaler.co.uk）"
+      ],
+      "trend_score": 88,
+      "trend_direction": "up",
+      "reason": "英国Halloween£779M市场（2025）9月进入需求爬坡，雕刻套是第一波爆发品类。10月第一周后窗口基本关闭——现在是空运测试的最后安全时点，下周再动手就来不及备货。",
+      "action": "007店空运首批测款60-100件，定价£8.99。采购：1688搜「南瓜雕刻工具套装 出口UK」，选不锈钢件+多模板版本（避开玩具级塑料薄款），单套目标采购≤£0.60（约¥5.5）。到仓deadline 10月第一周。",
+      "competition": "诚实评估：竞争激烈——Amazon UK该关键词由AMOS/Baker Ross等品牌占据头部，主流listing 500-2000+评论；但£8.99带+不锈钢11件套仍有差异化空间（多数头部是塑料薄款或7-8件），需模板数量和材质做卖点。品牌集中度中等，无单一垄断。",
+      "signal_scores": {
+        "trend": 9,
+        "gap": 6,
+        "profit": 9,
+        "final": 8.0,
+        "recommendation": "BUY-窗口紧迫",
+        "profit_window": "9月备货→9月底-10月中开卖，10/31后清仓退场"
+      }
+    },
+    {
+      "keyword": "christmas pet bandana triangle scarf reversible gingerbread plaid",
+      "keyword_cn": "圣诞宠物三角巾 双面款 姜饼人/红格纹 狗猫围巾 可调节",
+      "amazon_keyword": "christmas dog bandana",
+      "search_1688": "圣诞宠物三角巾 姜饼人 格纹 出口",
+      "demand_signals": [
+        "1688源头实价验证：义乌购圣诞宠物三角巾¥1.30-2.12（30个起订），姜饼人/红格/圣诞礼物多印花现成，跨境款直接出口UK（来源：yiwugo 985842640）",
+        "IGD零售分析：2025圣诞Aldi推「Pawsome Christmas」宠物系列，零售商把宠物纳入圣诞全家福场景是2026延续主题（来源：igd.com Christmas 2026展望）",
+        "UK高街已出现£6-10宠物节日配饰独立站热卖（Bells & Whiskers南瓜印花狗三角巾英国手工款售罄节奏），品类被验证（来源：bellsandwhiskers.co.uk）",
+        "双面款/多尺寸装是空位：义乌现成印花为单面卷边款，UK头部多为单条装，双面+2条装组合有溢价空间"
+      ],
+      "trend_score": 85,
+      "trend_direction": "up",
+      "reason": "宠物圣诞系列是2026圣诞零售扩张主线（Aldi/John Lewis等都在加SKU），三角巾是其中单价最低、决策最快的入口产品。1688源头¥1.30起、双面款仍稀缺，是典型的供应链成熟+差异化空位组合。",
+      "action": "027店测款：空运首批60件（新品小批量纪律），定价£7.99双面款或£6.99单条。采购：1688搜「圣诞宠物三角巾 姜饼人」，¥1.30-2.12/件，选双面缝制工艺，要求英 oven文字标签。9月下单、10月初上架，11月Black Friday前完成第一批复购判断。",
+      "competition": "诚实评估：中度竞争——UK头部listing 300-1500评论，但多为基础单面款；双面/姜饼人印花细分下竞品较少，review门槛低。宠物类佣金仅5%是结构性优势。风险：季节品12月后需求归零，必须控制首批量。",
+      "signal_scores": {
+        "trend": 8,
+        "gap": 7,
+        "profit": 9,
+        "profit_margin": "42.4% @£7.99（净利£3.39/件）",
+        "final": 8.0,
+        "recommendation": "BUY-027测款",
+        "profit_window": "10-12月主卖，12/20后停补"
+      }
+    },
+    {
+      "keyword": "halloween felt bunting banner autumn garland hanging decor",
+      "keyword_cn": "万圣节毛毡拉旗 秋季南瓜串旗 室内挂饰 无纺布",
+      "amazon_keyword": "halloween bunting banner",
+      "search_1688": "万圣节毛毡拉旗 南瓜串旗 跨境",
+      "demand_signals": [
+        "1688行情页验证：圣诞/节日毛毡拉旗吊旗为常青报价品类，衢州/东阳/义乌工厂BSCI验厂齐备、常年出口欧美电商（来源：1688.com/baojia/-8gkhgqa0）",
+        "UK需求前置：Faire批发数据显示Halloween搜索6-7月已翻3倍、9月峰值，装饰类比道具类更早启动（来源：faire.com Holiday 2026采购指南）",
+        "Liverpool Echo高街实拍：幽灵抱枕£4/挂饰£4.5等轻小装饰已在UK高街上架，£6-10挂饰价格带成立（来源：liverpoolecho.co.uk）",
+        "无纺布材质=重量优势：整条拉旗<100g、可折叠至<2cm厚，完美适配FBA小标准件，是仓库参数（≤200g/≤32×22×6cm）的最优解品类"
+      ],
+      "trend_score": 82,
+      "trend_direction": "up",
+      "reason": "Halloween装饰9月爬坡+毛毡拉旗是超轻小件（<100g）利润放大器。同价格带下物流成本占比最低，且1688工厂现货/定制双轨成熟，7天可出货。",
+      "action": "007或027店测款，定价£6.99-7.99（3m长/双面印刷款）。采购：1688搜「万圣节毛毡拉旗 跨境」，¥3.5-4/条，选双面+无胶水工艺（避免UK化学品投诉）。9月上旬下单，9月底上架赶需求爬坡。",
+      "competition": "诚实评估：竞争分化——廉价纸拉旗£3-4泛滥（低毛利红海），但毛毡+双面印刷£6.99+段位竞品少、头部listing多<200评论，是装饰类里少数低review门槛的细分。风险：无准入门槛，起量后易被跟卖，需控制利润预期在3-4周窗口。",
+      "signal_scores": {
+        "trend": 8,
+        "gap": 7,
+        "profit": 8,
+        "final": 7.5,
+        "recommendation": "BUY-快进快出",
+        "profit_window": "9月底-10月底，4周窗口"
+      }
+    },
+    {
+      "keyword": "elf on the shelf props accessories kit 24 day printable style",
+      "keyword_cn": "Elf on the Shelf小精灵配件套装 24天场景道具 明信片/工具/服装微缩件",
+      "amazon_keyword": "elf on the shelf accessories",
+      "search_1688": "圣诞精灵 Elf 道具配件套装 出口UK",
+      "demand_signals": [
+        "官方渠道已有多款断货：Elf Mates Holiday Vest/姜饼屋/Stocking Costume均显示Out of Stock（来源：shop.elfontheshelf.co.uk官网实况）",
+        "John Lewis在售官方24天道具套装£29.90（100件装），£6-10的第三方兼容配件是明确的下沉空位（来源：johnlewis.com产品页）",
+        "Faire批发数据：Advent/日历类搜索同比+227%、圣诞 jumper +114%，日历式/每日开箱式产品是2026圣诞最强增长叙事（来源：faire.com Holiday 2026采购指南）",
+        "24天倒计时玩法有天然复购+社交传播（家长每日拍摄），UK家庭渗透率逐年上升，第三方兼容配件市场已成型"
+      ]
+    ,    "trend_score": 86,
+      "trend_direction": "up",
+      "reason": "官方断货+£29.9客单价vs £6-10兼容件价差+Advent类+227%增长，三重信号指向11月-12月中旬的确定性需求窗口。配件是耗材型需求（家长每年买新道具做新场景），复购结构好。",
+      "action": "322店上架（老店吃确定性流量），定价£9.99（100件级套装）。采购：1688搜「Elf精灵 道具配件」，目标£1.40/套（约¥10）以内，选微缩场景+打印质感卡片组合。⚠️硬红线：listing文案和图片必须用generic小精灵，绝不能出现Elf on the Shelf官方IP形象/名称——侵权即封号级风险。11月1日前必须到仓。",
+      "competition": "诚实评估：竞争正在升温——generic elf accessories关键词下有先发卖家（300-800评论区间），但2026年官方断货会溢出需求到兼容件。差异化走「道具数量+场景卡片」而非服装（服装有IP审查风险）。IP红线是本品类最大风险，文案审核必须最严。",
+      "signal_scores": {
+        "trend": 9,
+        "gap": 7,
+        "profit": 7,
+        "final": 7.5,
+        "recommendation": "BUY-IP红线内谨慎做",
+        "profit_margin": "27.7% @£9.99（净利£2.76/件）",
+        "profit_window": "11/1-12/15，错过即等明年"
+      }
+    },
+    {
+      "keyword": "christmas gift bags personalised kraft paper large with tags",
+      "keyword_cn": "圣诞礼品袋 牛皮纸大号 带吊牌 可书写名字 加厚款",
+      "amazon_keyword": "christmas gift bags kraft large",
+      "search_1688": "圣诞礼品袋 牛皮纸 带吊牌 出口",
+      "demand_signals": [
+        "1688询价单实锤：跨境买家正在批量询盘「棉麻圣诞束口袋24个数字套装」（10-14cm 24个装/13-18cm 24个装），B2B需求已启动（来源：1688.com/xunjia/-7ucsyorv，2026冬询价）",
+        "Mintel UK圣诞报告：2025年72%英国消费者在Black Friday期间购买圣诞礼物，礼品袋/包装是11月伴生需求，且「独特包装」是2026核心机会点（来源：store.mintel.com UK Christmas Gift Buying 2026）",
+        "Harrisons Q4指南：礼品袋/包装纸/贺卡是Q4全季强需求，9月起就要在货架可见（来源：harrisonsdirect.co.uk Q4 retail planning）",
+        " £6-10带空位：UK市场礼品袋多在£3-5（薄款小尺寸）或£12+（礼盒装），加厚大号牛皮纸+吊牌组合在£7.99是清晰空位"
+      ],
+      "trend_score": 80,
+      "trend_direction": "up",
+      "reason": "Black Friday(11/27)是圣诞采购起点（Mintel：72%消费者在BF买圣诞礼），礼品袋作为BF购物动作的直接伴生品，10月底-11月是补货决策点。牛皮纸加厚款差异化对抗£3-5薄款红海。",
+      "action": "027店测款，定价£7.99（12只装大号+吊牌）。采购：1688搜「圣诞礼品袋 牛皮纸 加厚」，¥6-7/包（12只），选250g+克重+烫金印字款。9月中下单，10月底上架赶Black Friday备货期。",
+      "competition": "诚实评估：竞争中等——£3-5薄款量大（1000+评论头部），但加厚大号+吊牌组合细分下竞品少。礼品袋无尺码/售后问题（退货率<2%），是低运营负担品类。风险：体积大(32×24cm接近上限)+重量敏感，必须确认折叠后厚度<6cm，采购前索要包装尺寸实测图。",
+      "signal_scores": {
+        "trend": 8,
+        "gap": 6,
+        "profit": 8,
+        "final": 7.3,
+        "recommendation": "BUY-折叠尺寸先验证",
+        "profit_window": "10月底-12/20，覆盖BF+圣诞双峰"
+      }
+    }
+  ],
+  "trend_forecast": "【未来3-4周UK需求窗口预测（2026-09-01→09-29）】\n\n① 9月第1周（9/1-9/7）：Halloween装饰第一波上架潮。驱动事件：UK高街已全面换季（Primark/Liverpool Echo实拍高街8月底已铺满Halloween货架），Faire数据Halloween搜索9月峰值。方向：毛毡拉旗/南瓜雕刻套/幽灵抱枕类轻小装饰，£6-10带。行动：本周完成雕刻套+拉旗的1688下单，空运60-100件/款，到仓9月底刚好接住10月第一周需求爆发（Qogita红线：Halloween货10月第一周前必须上架）。\n\n② 9月第2周（9/8-9/14）：宠物圣诞系列备货窗口。驱动事件：IGD确认宠物圣诞系列是2026延续主题（Aldi Pawsome Christmas式全家福场景）；义乌源头三角巾¥1.30-2.12现货。方向：圣诞宠物三角巾/宠物圣诞领巾/宠物节日玩具（非发声款避免电子件）。行动：9月第2周完成027店三角巾下单，双面款差异化，10月初上架，11月BF前完成复购判断。提醒：12/20后季节品停补，首批量严格≤60件。\n\n③ 9月第3周（9/15-9/21）：Advent/倒计时品类搜索启动。驱动事件：Faire数据Advent搜索同比+227%，UK消费者9月起搜索advent calendar 2026；Elf官方多款断货会持续溢出到第三方兼容件。方向：Elf小精灵generic配件套装/24天倒计时道具包/圣诞倒计时小件。行动：322店9月第3周完成配件套装选样，IP红线自查（文案图片全generic），11/1前到仓。利润27.7%是五个里最薄的，但复购结构最好。\n\n④ 9月第4周（9/22-9/29）：Black Friday礼品包装链启动。驱动事件：Mintel——72%英国消费者在BF买圣诞礼物，BF(11/27)前2周是包装类需求拐点。方向：加厚牛皮纸礼品袋/带吊牌套装/圣诞包装配件。行动：027店9月第4周下单礼品袋（折叠厚度<6cm先验证），10月底上架，一个SKU吃BF+圣诞双峰。同时开始监控9月底Movers & Shakers里出现的首批圣诞SKU，为10月发现任务埋种子。\n\n⑤ 全程风险提示：①所有季节品遵循「空运测款-复购判断-再决定第二批」纪律，第二批海运不适用于本季度（Q4时间不够，全部空运）；②£6-10带Q4物流成本占比上升（旺季FBA费率10-12月可能上调），利润模型按£1.46 FBA算的，若旺季费率上调需重新验证；③10月第一周后Halloween品类停止入场——这是硬窗口，不是建议。",
+  "is_new_flag": "本批5个推荐中：宠物三角巾/Elf配件/礼品袋为新品类首推(is_new=True)，南瓜雕刻套与8/31的烘焙工具不同品类不重复(is_new=True)，毛毡拉旗与8/27的沐浴袋/洗衣袋不同品类不重复(is_new=True)。近7天已推品类（宠物除毛轮/热水袋/蜡烛工具/慢食碗/反光狗链/WDT/耳塞/防蛾块/洗衣袋/沐浴袋/门挡/首饰盘/毛毡收纳盒/割包刀/马芬圈）全部避开。",
+  "sources": [
+    "amazon.co.uk best sellers (home-kitchen/pet-supplies) 2026-09-01",
+    "bakerross.co.uk / amos.co.uk pumpkin carving kit product pages",
+    "liverpoolecho.co.uk Primark Halloween 2026实拍",
+    "faire.com Holiday 2026 wholesale buying guide (Advent+227%/Halloween 9月峰值)",
+    "store.mintel.com UK Christmas Gift Buying 2026",
+    "qogita.com Q4 retail inventory planning (UK Halloween £779M)",
+    "igd.com Christmas 2026 outlook (宠物圣诞系列扩张)",
+    "yiwugo.com 985842640 圣诞宠物三角巾¥1.30-2.12",
+    "1688.com baojia/xunjia 圣诞装饰/礼品袋行情页",
+    "shop.elfontheshelf.co.uk 官网断货实况",
+    "johnlewis.com Elf 24-day kit £29.90",
+    "tiktok.com discover + shopify.com/uk blog TikTokMadeMeBuyIt"
+  ]
+}
