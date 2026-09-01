@@ -1,0 +1,266 @@
+{
+  "category_scores": {
+    "pets": 100,
+    "crafts": 100,
+    "phone": 62,
+    "kitchen": 89,
+    "cleaning": 36,
+    "seasonal": 62,
+    "car": 57,
+    "beauty": 36,
+    "eco": 89,
+    "lighting": 73,
+    "travel": 36,
+    "office": 57,
+    "home decor": 47,
+    "storage": 31,
+    "kitchen_gadgets": 5,
+    "bathroom": 16,
+    "garden": 73,
+    "sports": 11,
+    "bedding": 16
+  },
+  "category_evidence": {
+    "pets": [
+      "cat",
+      "toy",
+      "dog",
+      "bed",
+      "pet"
+    ],
+    "crafts": [
+      "tape",
+      "craft",
+      "art"
+    ],
+    "phone": [
+      "holder",
+      "case",
+      "charger",
+      "cable",
+      "phone"
+    ],
+    "kitchen": [
+      "mug",
+      "cooking",
+      "utensil",
+      "kitchen",
+      "gadget",
+      "spice"
+    ],
+    "cleaning": [
+      "mop",
+      "cleaning"
+    ],
+    "seasonal": [
+      "gift",
+      "birthday"
+    ],
+    "car": [
+      "car",
+      "vehicle",
+      "motor"
+    ],
+    "beauty": [
+      "skincare",
+      "makeup",
+      "hair"
+    ],
+    "eco": [
+      "eco",
+      "reusable"
+    ],
+    "lighting": [
+      "led",
+      "light"
+    ],
+    "travel": [
+      "travel",
+      "packing",
+      "toiletry"
+    ],
+    "office": [
+      "desk",
+      "pen",
+      "office",
+      "laptop"
+    ],
+    "home decor": [
+      "decor"
+    ],
+    "storage": [
+      "box",
+      "container"
+    ],
+    "kitchen_gadgets": [
+      "kitchen gadget"
+    ],
+    "bathroom": [
+      "towel",
+      "bath",
+      "toilet"
+    ],
+    "garden": [
+      "plant",
+      "bird",
+      "flower",
+      "garden",
+      "outdoor"
+    ],
+    "sports": [
+      "sport",
+      "resistance"
+    ],
+    "bedding": [
+      "blanket",
+      "cushion",
+      "bedding"
+    ]
+  },
+  "source_signals": {
+    "tiktok": {
+      "pets": 1,
+      "crafts": 3,
+      "phone": 1,
+      "kitchen": 2,
+      "cleaning": 1,
+      "seasonal": 2,
+      "car": 1,
+      "beauty": 1,
+      "eco": 1
+    },
+    "hotukdeals": {
+      "kitchen": 2,
+      "lighting": 1,
+      "travel": 1,
+      "office": 1,
+      "pets": 1,
+      "crafts": 1,
+      "phone": 4
+    },
+    "temu": {
+      "kitchen": 3,
+      "lighting": 5,
+      "pets": 2,
+      "crafts": 5,
+      "beauty": 2,
+      "home decor": 1,
+      "eco": 3,
+      "office": 2,
+      "storage": 1,
+      "travel": 1,
+      "kitchen_gadgets": 1,
+      "seasonal": 1
+    },
+    "etsy": {
+      "kitchen": 1,
+      "pets": 4,
+      "crafts": 1,
+      "home decor": 3,
+      "eco": 3,
+      "seasonal": 4,
+      "bathroom": 2,
+      "office": 1,
+      "travel": 1
+    },
+    "youtube": {
+      "cleaning": 1,
+      "eco": 2
+    },
+    "google_trends": {
+      "garden": 6,
+      "car": 3,
+      "pets": 3,
+      "sports": 1,
+      "crafts": 3,
+      "beauty": 1,
+      "eco": 2,
+      "bathroom": 1,
+      "storage": 1,
+      "lighting": 1,
+      "bedding": 3,
+      "home decor": 1
+    },
+    "reddit": {
+      "kitchen": 3,
+      "car": 2,
+      "office": 3,
+      "crafts": 2,
+      "phone": 3,
+      "seasonal": 2,
+      "cleaning": 1,
+      "lighting": 1,
+      "pets": 5,
+      "eco": 1,
+      "garden": 1,
+      "sports": 1,
+      "travel": 1
+    },
+    "market_intel": {
+      "kitchen": 3,
+      "cleaning": 1,
+      "car": 2,
+      "pets": 3,
+      "crafts": 2,
+      "phone": 1,
+      "home decor": 1,
+      "eco": 2,
+      "garden": 4,
+      "lighting": 3,
+      "office": 1,
+      "storage": 1
+    }
+  },
+  "cross_validated": {
+    "pets": 7,
+    "crafts": 7,
+    "phone": 4,
+    "kitchen": 6,
+    "cleaning": 4,
+    "seasonal": 4,
+    "car": 4,
+    "beauty": 3,
+    "eco": 7,
+    "lighting": 5,
+    "travel": 4,
+    "office": 5,
+    "home decor": 4,
+    "storage": 3,
+    "garden": 3
+  },
+  "demand_keywords": [
+    "agentic commerce redefines buying",
+    "amazon discount code",
+    "and bird baths",
+    "and most export brands are",
+    "best way to save on",
+    "cool stuff gadgets",
+    "dollar oysters",
+    "edible gardens",
+    "eight plants for autumn bedding",
+    "electronics best deal news and",
+    "explore top trending products on",
+    "four trends that will reshape",
+    "from dramatic colours to weather",
+    "from innovative gadgets and beauty",
+    "frugal",
+    "high value items that you",
+    "home and",
+    "increased supply",
+    "life changing purchases",
+    "most anticipated",
+    "native planting",
+    "new on",
+    "new releases on",
+    "perfumes and",
+    "quality of life purchases",
+    "recommend some cool stuff from",
+    "save on fashion",
+    "shop like a billionaire",
+    "shop ultra",
+    "small space gardening"
+  ],
+  "season": "autumn",
+  "total_queries": 24,
+  "total_results_chars": 52145
+}
