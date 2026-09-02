@@ -210,7 +210,8 @@ function renderDiscovery() {
   const forecastArea = document.getElementById('forecastArea');
   const discData = DISC_ALL[curDate];
   const insights = discData ? discData.insights || [] : [];
-  const forecast = discData ? discData.trend_forecast || '' : '';
+  const _rawFc = discData ? (discData.trend_forecast || '') : '';
+  const forecast = _rawFc && typeof _rawFc === 'object' ? (_rawFc.forecast_text || '') : _rawFc;
 
   document.getElementById('discCnt').textContent = insights.length;
 
