@@ -49,8 +49,14 @@ def consolidate_past_months(data_dict):
                 monthly[month_key].setdefault('insights', []).append(i)
                 existing_kws.add(i['keyword'])
 
-        if src.get('trend_forecast') and not monthly[month_key].get('trend_forecast'):
-            monthly[month_key]['trend_forecast'] = src['trend_forecast']
+        if src.get('trend_forecast'):
+            tf = src['trend_forecast']
+            # 归一化：LLM cron 可能输出 dict {'forecast_text': '...'}，
+            # 统一为 string 透传（见 generate_platform.py._extract_forecast_text）
+            if isinstance(tf, dict):
+                tf = tf.get('forecast_text', '')
+            if not monthly[month_key].get('trend_forecast'):
+                monthly[month_key]['trend_forecast'] = tf
 
         to_remove.append(date_key)
 
