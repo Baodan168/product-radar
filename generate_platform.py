@@ -144,6 +144,17 @@ def load_all_discovery():
     return result
 
 
+def _extract_forecast_text(forecast):
+    """统一 trend_forecast 输出为字符串。
+
+    历史数据是 plain string，2026-09-02 起改为 dict {'forecast_text': '...'}。
+    前端 platform.js 期望 string，dict 会被 esc() 渲染为 '[object Object]'。
+    """
+    if isinstance(forecast, dict):
+        return forecast.get('forecast_text', '')
+    return forecast or ''
+
+
 def generate_platform_html(radar_all=None, discovery_all=None, output_path=None):
     now = datetime.now()
     scan_date = now.strftime('%Y-%m-%d')
@@ -202,7 +213,7 @@ def generate_platform_html(radar_all=None, discovery_all=None, output_path=None)
 
         discovery_js[date] = {
             'insights': insights,
-            'trend_forecast': data.get('trend_forecast', ''),
+            'trend_forecast': _extract_forecast_text(data.get('trend_forecast', '')),
             'scan_time': data.get('scan_time', ''),
         }
 
