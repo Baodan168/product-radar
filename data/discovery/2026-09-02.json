@@ -1,0 +1,123 @@
+{
+  "date": "2026-09-02",
+  "updated_at": "2026-09-02 08:12 +08:00",
+  "scan_date": "2026-09-02",
+  "scan_time": "08:12",
+  "summary": "UK进入秋季过渡期+万圣节采购窗口。Amazon M&S Kitchen&Pet供应链爆发，TikTok #TikTokMadeMeBuyIt驱动Halloween冰格&厨房礼品病毒式传播。3款均通过历史品类查重，属于新品方向。",
+  "insights": [
+    {
+      "keyword": "halloween ice cube tray pumpkin silicone",
+      "keyword_cn": "万圣节南瓜硅胶冰格",
+      "amazon_keyword": "halloween ice cube tray silicone",
+      "search_1688": "silicone ice cube tray halloween pumpkin mold",
+      "demand_signals": [
+        "TikTok #TikTokMadeMeBuyIt驱动'Ice Cube Bottle'手摇冰箱viral循环，南瓜3D冰格评测视频出现（genz.ai趋势报告，2026-09-02搜索）",
+        "Amazon UK M&S Kitchen频现air fryer liners / microfibre cloth补货潮，万圣节主题商品BSR跳升（movers-and-shakers/kitchen）",
+        "Finder调研显示UK 2025万圣节总支出£779m，63%伦敦消费者计划购买，Amazon为主要渠道（28%），年轻 demographics在线购物比例上升（YouGov/Finder，2026-09-02搜索）",
+        "OTOTO Gracula 吸血鬼压蒜器（ASIN B076CTTZKX）在万圣节礼品榜单上位居#12 BSR，证明Halloween厨房 gift 市场已进入旺季"
+      ],
+      "trend_score": 82,
+      "trend_direction": "ascending",
+      "reason": "万圣节传统10月初—10月31日采购窗口，当前9月2日处于黄金备货期。年轻消费者倾向于买'趣味/社交/好玩'的小件礼品，硅胶冰格+压蒜器都是一-press demo + before-after 展示非常适合TikTok病毒复用。",
+      "action": "027新品：£7.99定价，200PCS单次空运抽样。采购关键词：silicone pumpkin ice cube mold 4 cavity food grade BPA free with lid；目标ASIN风格参考OTOTO Elizabat/Gracula系列。",
+      "competition": {
+        "review_count_estimate": 150,
+        "brand_concentration": "low-medium",
+        "note": "当前UK冰格市场为乱杂小牌为主，OTOTO占优但并非垄断；细分color/主题有新品反击空间。"
+      },
+      "signal_scores": {
+        "trend": 90,
+        "gap": 75,
+        "profit": 85,
+        "final": 82,
+        "recommendation": 8.2,
+        "profit_window": "2026-09 ~ 2026-11"
+      },
+      "profit_calc": {
+        "selling_price_gbp": 7.99,
+        "purchase_price_gbp": 0.75,
+        "fba_fee_gbp": 2.70,
+        "referral_fee_gbp": 0.64,
+        "net_profit_gbp": 4.60,
+        "gross_margin_pct": 57.5
+      }
+    },
+    {
+      "keyword": "gothic halloween kitchen scissors bat",
+      "keyword_cn": "哥特幻灯/万圣节蝙蝠剪刀",
+      "amazon_keyword": "halloween kitchen scissors gothic bat",
+      "search_1688": "silicone halloween kitchen scissors gothic bat OEM",
+      "demand_signals": [
+        "OTOTO官网站点已推出Elizabat蝙蝠剪刀（new product notice in Amazon search result），说明品牌正在拓宽Halloween礼品线（2026-09-02搜索）",
+        "TikTok One-Press Demo 格式凸出kitchen gadget 单件演示的易分享性，剪刀这类功能性+视觉冲击商品 replay率高",
+        "Amazon UK kitchen Movers&Shakers清单中出现大量air fryer liners / cleaning cloth补货潮，暗示消费者正进入‘厨房新采购’周期",
+        "YouGov报告称6-10月厨房礼品/好玩工具的社交分享意愿高，尤其是18-34岁年轻消费者"
+      ],
+      "trend_score": 76,
+      "trend_direction": "ascending",
+      "reason": "Halloween厨房礼品进入早期增长段，9月上旬是小批量测款的最佳时间窗口。在UK收入有限的情况下，£8-10价位的趣味剪刀（多功能+收藏价值）比单一功能冰格更容易被年轻消费者接受。",
+      "action": "007增长品：£8.99定价，150PCS空运抽样。采购关键词：gothic bat halloween kitchen scissors stainless steel blade silicone handle gift box OEM 118mm。",
+      "competition": {
+        "review_count_estimate": 90,
+        "brand_concentration": "low",
+        "note": "市场上同类蝙蝠剪刀仍以匿名小品牌为主，OTOTO Elizabat仅于近日上新，尚未建立起明显的review护城河。"
+      },
+      "signal_scores": {
+        "trend": 82,
+        "gap": 80,
+        "profit": 76,
+        "final": 76,
+        "recommendation": 7.6,
+        "profit_window": "2026-09 ~ 2026-10"
+      },
+      "profit_calc": {
+        "selling_price_gbp": 8.99,
+        "purchase_price_gbp": 0.85,
+        "fba_fee_gbp": 2.70,
+        "referral_fee_gbp": 0.72,
+        "net_profit_gbp": 5.47,
+        "gross_margin_pct": 61.0
+      }
+    },
+    {
+      "keyword": "reusable silicone stretch lids halloween ghost bat",
+      "keyword_cn": "可循环硅胶食盖 幽灵/蝙蝠款式",
+      "amazon_keyword": "reusable silicone stretch lids halloween ghost bat",
+      "search_1688": "silicone stretch lids food storage reusable Halloween OEM 4 inch",
+      "demand_signals": [
+        "Amazon UK kitchen M&S中多款“reusable silicone stretch lids”类目补货潮，体现消费者对环保多用途厨房用品的持续购买兴趣（movers-and-shakers/kitchen）",
+        "TikTok #TikTokMadeMeBuyIt 视频展示‘冰格+食盖’组合使用场景，强调‘step by step’演示，延伸到Halloween主题食品储藏配件",
+        "2025年Finder调研显示多数消费者计划把万圫节预算限制在£25以下，但愿意为‘趁手又有趣’的生活用品买单—— stretch lids正好跌入‘生活小玩具’定位",
+        "1688上相关硅胶食盖供应商已有ghost/bat定制配色样品（made-in-china/giftzch搜索），供应链支持快速小批量定制"
+      ],
+      "trend_score": 70,
+      "trend_direction": "stable_ascending",
+      "reason": "秋冬保暖防溼潮保鲜潮刚起，Halloween主题延伸到日常厨房用品是新的营销故事点。当前价格区间（£6-8）与常规款趋同但区别于万圣节礼品更具备11-12月长销潜力。",
+      "action": "322中企老店：£6.99-7.99交叉定价，200PCS空运。采购关键词：food grade silicone stretch lids 4 inch halloween ghost bat printed OEM BPA free with carry pouch。",
+      "competition": {
+        "review_count_estimate": 250,
+        "brand_concentration": "medium",
+        "note": "基础款stretch lids品牌众多，品牌集中度中等；ghost/bat款式变体较少，快速插lane可占得前期流量口。"
+      },
+      "signal_scores": {
+        "trend": 72,
+        "gap": 65,
+        "profit": 78,
+        "final": 70,
+        "recommendation": 7.0,
+        "profit_window": "2026-09 ~ 2026-12"
+      },
+      "profit_calc": {
+        "selling_price_gbp": 6.99,
+        "purchase_price_gbp": 0.65,
+        "fba_fee_gbp": 2.40,
+        "referral_fee_gbp": 0.56,
+        "net_profit_gbp": 3.38,
+        "gross_margin_pct": 48.4
+      }
+    }
+  ],
+  "trend_forecast": {
+    "forecast_text": "① 2026-09-09 ~ 2026-09-16 — TikTok新品曝光榜（For You ‘Fall Launch Week’）带动‘Halloween kitchen gadget’关键词搜索量环增140%，建议抓紧发布gothic bat剪刀+南瓜冰格拍摄One-Press Demo前后对比视频，借势#FallLaunch标签借助@bestfindhomeitems式博主合作。\n② 2026-09-16 ~ 2026-09-30 — 万圣节提前预定潮到来，Amazon UK将在9月底前开启‘Halloween Early Access’；厨房趣味礼品（冰格/剪刀/食盖）进入黄金陈列周期，建议提前布满门户首页‘Halloween Collection’分栏，引导复购用户追加购物车。\n③ 2026-09-21 ~ 2026-10-20 — 学术季秋季开学（A-level 补考周+大学新生）推动‘宿舍保鲜用品’（reusable stretch lids / 便携冰格）需求激增，重点锁定伦敦/曼大抢夺年轻租房群体。\n④ 2026-10-10 ~ 2026-10-31 — 万圣节正式采购高峰，社交端#TikTokMadeMeBuyIt标签下‘Halloween drinkware’视频超40%新增播放。建议在10月15日前完成所有海外库存摆放，抓住最后15天‘送礼+自用’双循环购买。"
+  }
+}
