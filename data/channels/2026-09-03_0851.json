@@ -1,0 +1,296 @@
+{
+  "scan_date": "2026-09-03",
+  "scan_time": "08:51",
+  "scan_ts": "2026-09-03_0851",
+  "stats": {
+    "total_scanned": 100,
+    "passed_filter": 1,
+    "rejected": 99,
+    "channels": {
+      "new_releases": 1,
+      "google_trends": 1
+    },
+    "detail_reject": {
+      "重量超标": 1
+    },
+    "theme_trimmed": [],
+    "trend_categories": {},
+    "supply_demand": {},
+    "divergences": {
+      "lighting": {
+        "current_heat": 97,
+        "previous_heat": 73,
+        "heat_change_pct": 32.9,
+        "direction": "rising",
+        "dates": [
+          "2026-09-01_0910",
+          "2026-09-02_1710"
+        ]
+      },
+      "pets": {
+        "current_heat": 92,
+        "previous_heat": 100,
+        "heat_change_pct": -8.0,
+        "direction": "stable",
+        "dates": [
+          "2026-09-01_0910",
+          "2026-09-02_1710"
+        ]
+      },
+      "crafts": {
+        "current_heat": 100,
+        "previous_heat": 100,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-09-01_0910",
+          "2026-09-02_1710"
+        ]
+      },
+      "phone": {
+        "current_heat": 42,
+        "previous_heat": 62,
+        "heat_change_pct": -32.3,
+        "direction": "falling",
+        "dates": [
+          "2026-09-01_0910",
+          "2026-09-02_1710"
+        ]
+      },
+      "beauty": {
+        "current_heat": 56,
+        "previous_heat": 36,
+        "heat_change_pct": 55.6,
+        "direction": "rising",
+        "dates": [
+          "2026-09-01_0910",
+          "2026-09-02_1710"
+        ]
+      },
+      "eco": {
+        "current_heat": 83,
+        "previous_heat": 89,
+        "heat_change_pct": -6.7,
+        "direction": "stable",
+        "dates": [
+          "2026-09-01_0910",
+          "2026-09-02_1710"
+        ]
+      },
+      "kitchen": {
+        "current_heat": 65,
+        "previous_heat": 89,
+        "heat_change_pct": -27.0,
+        "direction": "falling",
+        "dates": [
+          "2026-09-01_0910",
+          "2026-09-02_1710"
+        ]
+      },
+      "seasonal": {
+        "current_heat": 65,
+        "previous_heat": 62,
+        "heat_change_pct": 4.8,
+        "direction": "stable",
+        "dates": [
+          "2026-09-01_0910",
+          "2026-09-02_1710"
+        ]
+      },
+      "car": {
+        "current_heat": 74,
+        "previous_heat": 57,
+        "heat_change_pct": 29.8,
+        "direction": "stable",
+        "dates": [
+          "2026-09-01_0910",
+          "2026-09-02_1710"
+        ]
+      },
+      "sports": {
+        "current_heat": 33,
+        "previous_heat": 11,
+        "heat_change_pct": 200.0,
+        "direction": "rising",
+        "dates": [
+          "2026-09-01_0910",
+          "2026-09-02_1710"
+        ]
+      },
+      "cleaning": {
+        "current_heat": 23,
+        "previous_heat": 36,
+        "heat_change_pct": -36.1,
+        "direction": "falling",
+        "dates": [
+          "2026-09-01_0910",
+          "2026-09-02_1710"
+        ]
+      },
+      "travel": {
+        "current_heat": 33,
+        "previous_heat": 36,
+        "heat_change_pct": -8.3,
+        "direction": "stable",
+        "dates": [
+          "2026-09-01_0910",
+          "2026-09-02_1710"
+        ]
+      },
+      "office": {
+        "current_heat": 70,
+        "previous_heat": 57,
+        "heat_change_pct": 22.8,
+        "direction": "stable",
+        "dates": [
+          "2026-09-01_0910",
+          "2026-09-02_1710"
+        ]
+      },
+      "home decor": {
+        "current_heat": 60,
+        "previous_heat": 47,
+        "heat_change_pct": 27.7,
+        "direction": "stable",
+        "dates": [
+          "2026-09-01_0910",
+          "2026-09-02_1710"
+        ]
+      },
+      "bathroom": {
+        "current_heat": 9,
+        "previous_heat": 16,
+        "heat_change_pct": -43.8,
+        "direction": "falling",
+        "dates": [
+          "2026-09-01_0910",
+          "2026-09-02_1710"
+        ]
+      },
+      "bedding": {
+        "current_heat": 23,
+        "previous_heat": 16,
+        "heat_change_pct": 43.8,
+        "direction": "rising",
+        "dates": [
+          "2026-09-01_0910",
+          "2026-09-02_1710"
+        ]
+      },
+      "kitchen_gadgets": {
+        "current_heat": 9,
+        "previous_heat": 5,
+        "heat_change_pct": 80.0,
+        "direction": "rising",
+        "dates": [
+          "2026-09-01_0910",
+          "2026-09-02_1710"
+        ]
+      },
+      "garden": {
+        "current_heat": 56,
+        "previous_heat": 73,
+        "heat_change_pct": -23.3,
+        "direction": "falling",
+        "dates": [
+          "2026-09-01_0910",
+          "2026-09-02_1710"
+        ]
+      },
+      "storage": {
+        "current_heat": 9,
+        "previous_heat": 31,
+        "heat_change_pct": -71.0,
+        "direction": "falling",
+        "dates": [
+          "2026-09-01_0910",
+          "2026-09-02_1710"
+        ]
+      }
+    },
+    "gap_opportunities": 0
+  },
+  "products": [
+    {
+      "asin": "B0H33FPZVG",
+      "name": "Natural Jute Twine 200m, 2mm, Garden & Craft String | Weather-Resistant, Strong Natural Fibre, Hand-Tearable, 2 Rolls 10",
+      "price": 7.99,
+      "reviews": 15,
+      "rating": 4.9,
+      "rank": 2,
+      "category": "Kitchen",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "15 reviews, 4.9★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H33FPZVG",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/81MPp4ChDfL._AC_UL300_SR300,200_.jpg",
+      "google_trend": "rising",
+      "sources": [
+        "Google趋势"
+      ],
+      "profit_margin": 0.35,
+      "net_profit": 2.8,
+      "cost_breakdown": {
+        "vat": 1.33,
+        "commission": 0.64,
+        "fba": 1.46,
+        "ads": 0.8,
+        "returns": 0.16,
+        "sourcing": 0.8,
+        "total_cost": 5.19
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": -10,
+      "div_label": "📉 品类降温(-27%)",
+      "div_info": {
+        "current_heat": 65,
+        "previous_heat": 89,
+        "heat_change_pct": -27.0,
+        "direction": "falling",
+        "dates": [
+          "2026-09-01_0910",
+          "2026-09-02_1710"
+        ]
+      },
+      "signal_level": "weak",
+      "signal_label": "🟡 弱信号",
+      "external_sources": [
+        "Google"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 69,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "📊 Google↑": 15,
+        "🌊 蓝海": 15,
+        "⭐ 高评分": 5,
+        "💰 超高利润": 12,
+        "❓ 品类不符": -10,
+        "📉 品类降温(-27%)": -10,
+        "⚠️ 未验证": -8
+      },
+      "stars": 3,
+      "is_new": false,
+      "first_seen": "2026-09-01",
+      "is_event": false,
+      "channel_tags": [
+        "new_releases",
+        "google_trends"
+      ]
+    }
+  ],
+  "gaps": [],
+  "trend_summary": {
+    "top_categories": [],
+    "cross_validated": [],
+    "demand_keywords": [],
+    "season": "",
+    "sources_scanned": []
+  }
+}
