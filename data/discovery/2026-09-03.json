@@ -1,0 +1,110 @@
+{
+  "date": "2026-09-03",
+  "updated_at": "2026-09-03 08:20:00",
+  "scan_date": "2026-09-03",
+  "scan_time": "08:10",
+  "summary": "UK秋季换季潮正式启动：Amazon厨房Movers&Shakers真空压缩袋双上榜（含手泵旅行款）、3合1削皮器上榜；TikTok/UK零售端厨房收纳狂潮（Aldi Kirkton House抽屉收纳盒、Dunelm滚轮收纳、IKEA OSTBIT盘子架1000+好评）推高storage品类；Mrs Hinch x Home Bargains南瓜餐垫£2.99引爆秋季餐桌装饰。今日4个机会：真空压缩袋手泵中小号套装（换季收纳刚需）、南瓜造型餐垫（万圣节前47天窗口）、3合1多功能削皮器（厨房Movers直接上榜）、轻量橱柜收纳挂篮（TikTok收纳潮衍生）。全部非电子、轻小件、不发海运。",
+  "insights": [
+    {
+      "keyword": "vacuum storage bags with hand pump",
+      "keyword_cn": "真空压缩袋（手泵版中小号套装）",
+      "amazon_keyword": "vacuum storage bags with hand pump space saver",
+      "search_1688": "真空压缩袋 收纳袋 手泵 免电",
+      "demand_signals": [
+        "Amazon UK Home&Kitchen Movers&Shakers双条目上榜：'Vacuum Storage Bags 10 Combo (5 Jumbo+5 Large)'与'5 Medium+5 Small with Travel Hand Pump'24小时排名飙升（来源：amazon.co.uk movers-and-shakers kitchen实时榜单）",
+        "UK 9月换季节点：冬被/厚毯收纳与羽绒服取出同步启动，压缩袋是换季收纳第一刚需品（来源：英国家居零售季历+1688夏季换季收纳专题2026-06/07持续升温）",
+        "1688供应链验证：多尺寸套装真空压缩袋批量价¥0.37-1.55/个，太力免抽气坐压式¥5-10/件，单袋重量仅0.03-0.18kg，跨境出口专供货源成熟（来源：1688找工厂真空袋行情页+wiki.1688.com太力选购指南）",
+        "同类收纳潮共振：IKEA OSTBIT盘子架1000+好评被抢购、Aldi Kirkton House收纳盒£14.99售罄潮证明UK家庭storage支出正处于上升期（来源：Ideal Home 2026-06、Netmums Aldi特辑）"
+      ],
+      "trend_score": 82,
+      "trend_direction": "up",
+      "reason": "9月是UK换季收纳的启动月：学校开学+秋被更换+圣诞杂物囤积前的收纳扩容需求叠加。Movers&Shakers双上榜说明需求已在24小时级别爆发，而手泵版（非电动）正好避开电池/电机红线，且比电动泵版更便宜、采购价差更大。历史记录未推过真空袋品类，属于全新的秋季刚需入口。",
+      "action": "007店测品：选中小号4-6件套+手泵（非电泵），包装务必≤32×22×6cm（真空袋折叠后扁薄可达成，但10件套jumbo版会超重超体积必须避开）。定价£8.99-9.99，采购1688搜'真空压缩袋 手泵 套装'目标¥12-18/套，FBA Small标准件。差异化：印花色+双尺寸组合+免电手泵卖点，避开STORAGE MASTER等头部上千review正面竞争，主打'旅行+宿舍'细分场景关键词。",
+      "competition": "中高：头部品牌（STORAGE MASTER、Byron等）review数千条、品牌集中度高；但套装规格/印花/泵型组合碎片化，中小卖家可凭差异化套装切入。需避开10件jumbo大套装（超尺寸）与电泵版（电子红线）。",
+      "signal_scores": {
+        "trend": 85,
+        "gap": 70,
+        "profit": 78,
+        "final": 82,
+        "recommendation": "推荐测款",
+        "profit_window": "9月中-10月底（换季收纳主窗口，11月后转圣诞收纳主题需换关键词）"
+      }
+    },
+    {
+      "keyword": "pumpkin placemats autumn table decor",
+      "keyword_cn": "南瓜造型餐垫（秋季/万圣节餐桌装饰）",
+      "amazon_keyword": "pumpkin placemat autumn halloween table decor set",
+      "search_1688": "南瓜餐垫 PVC 万圣节 餐桌垫",
+      "demand_signals": [
+        "UK零售端引爆：Mrs Hinch x Home Bargains 'Pumpkin-Shaped Placemat Two-Pack' £2.99被Liverpool Echo专题报道，定位'add a subtle autumnal touch'，英媒9月集中推秋季餐桌装饰（来源：Liverpool Echo 2026-09购物专题）",
+        "供应链现成：义乌购南瓜数码印花桌布¥21-38/条、chinagoods'万圣节PVC南瓜餐桌垫可水洗防水防烫'直接有货，餐垫扁平轻小完美匹配FBA小件（来源：yiwugo.com、chinagoods.com供应商库）",
+        "万圣节倒计时：10/31前47天窗口期（9月中）正是秋季装饰品采购启动点，UK万圣节家居装饰是确定性年度高峰（来源：节日备货周期规则+历史万圣节装饰销售曲线）",
+        "历史去重确认：09-01推过南瓜雕刻kit/万圣节彩旗、09-02推过南瓜冰格，但'南瓜餐垫'属餐桌布艺新子类，未重复（来源：discovery历史JSON比对）"
+      ],
+      "trend_score": 80,
+      "trend_direction": "up",
+      "reason": "UK秋季餐桌装饰潮正在零售端爆发（Mrs Hinch联名款媒体刷屏），而Amazon上南瓜餐垫供给相对分散、无绝对头部，正是'品牌平替'策略的理想标的——零售£2.99/2张，Amazon可卖£6.99/4张套装。万圣节+感恩秋收双主题延长销售窗口至10月底。",
+      "action": "007店测品：选轻薄PVC或棉麻混纺南瓜餐垫，4件套必须控制总重≤200g（选轻薄PVC款，棉麻款偏重选2件套）。定价£6.99-7.99，采购1688搜'南瓜餐垫 PVC'目标¥10-18/4张，FBA Small标准件。卖点：防水防烫可水洗+秋季/万圣节双场景。主图必须突出南瓜造型摆桌效果。",
+      "competition": "中低：Amazon UK南瓜餐垫listing少、review普遍<200条，无强势品牌；主要竞争来自线下零售（Home Bargains/IKEA）而非Amazon站内，正好利用'线下爆款线上缺货'的时间差。",
+      "signal_scores": {
+        "trend": 82,
+        "gap": 85,
+        "profit": 75,
+        "final": 80,
+        "recommendation": "推荐测款",
+        "profit_window": "9月中-10/31万圣节（11月转圣诞桌布主题）"
+      }
+    },
+    {
+      "keyword": "3-in-1 vegetable peeler julienne",
+      "keyword_cn": "三合一多功能削皮器（刨丝+开瓶）",
+      "amazon_keyword": "3 in 1 vegetable peeler stainless steel julienne bottle opener",
+      "search_1688": "三合一 削皮器 刨丝器 不锈钢",
+      "demand_signals": [
+        "Amazon UK厨房Movers&Shakers直接上榜：'Multifunctional Vegetable Peeler, 2026 New 3-in-1 Peeler & Bottle Opener & Julienne' 24小时排名飙升（来源：amazon.co.uk movers-and-shakers kitchen实时榜单）",
+        "UK厨房小工具常青需求：削皮器是英国厨房基础工具，换季烘焙/炖煮季（9月秋菜上市）用量上升；3-in-1组合款自带'新品'属性容易起量（来源：Amazon UK Small Kitchen Appliances & Kitchen bestseller趋势）",
+        "1688成本极低：不锈钢3合1削皮器批量价¥3-8/个，轻小（<100g）完美匹配FBA Small标准（来源：1688厨具批发行情）",
+        "差异化窗口：单功能削皮器被OXO等大牌垄断（数千review），但3-in-1组合款供给少、评价数低，符合'品牌平替+功能组合'切入策略（来源：Amazon UK peeler类目头部review分布）"
+      ],
+      "trend_score": 74,
+      "trend_direction": "up",
+      "reason": "厨房Movers直接上榜说明24小时需求已在放大，而这类小工具采购成本极低（¥3-8）、重量<100g、无任何电子元件，是UK £6-10价格带利润率最稳的品类之一。3-in-1组合避开大牌垄断的单功能赛道，用'一个工具三个功能'做差异化。",
+      "action": "007店测品：不锈钢3合1（削皮+刨丝+开瓶），单支装或2支套。定价£6.99，采购1688搜'三合一削皮器'目标¥4-8/支，FBA Small标准件（重量<100g费用最低档）。卖点：2026新款3-in-1、开瓶器功能卖点放大（UK啤酒文化场景）。主图对比单功能削皮器突出三合一。",
+      "competition": "中高：单功能削皮器被OXO/Russell Hobbs等大牌垄断（数千review），但3-in-1组合款Amazon UK供给少、头部review<500条，组合差异化可切入。风险：一旦热卖大牌跟进降价。",
+      "signal_scores": {
+        "trend": 72,
+        "gap": 68,
+        "profit": 85,
+        "final": 74,
+        "recommendation": "推荐测款",
+        "profit_window": "全年常青，9-12月厨房季最旺"
+      }
+    },
+    {
+      "keyword": "under shelf basket kitchen storage",
+      "keyword_cn": "轻量橱柜下挂篮/收纳篮（TikTok收纳潮衍生）",
+      "amazon_keyword": "under shelf basket wire organizer kitchen cabinet",
+      "search_1688": "橱柜下 挂篮 收纳架 免打孔",
+      "demand_signals": [
+        "TikTok UK收纳狂潮：Aldi Kirkton House抽屉收纳盒£14.99+挂篮£9.99被TikTok博主@bougieonabudgetwithmel引爆、'shoppers rushing in droves'；Dunelm滚轮收纳£3.50获4.6星热评（来源：Netmums Aldi特辑、Mirror Dunelm报道）",
+        "IKEA OSTBIT盘子架£2被Ideal Home报道'one won't be enough'、单客买7个、1000+好评，证明UK小收纳件复购性强（来源：Ideal Home 2026-06）",
+        "Amazon厨房Movers同频：多款clothes airer/storage bags/moving totes上榜，storage品类整体上行（来源：amazon.co.uk movers-and-shakers kitchen）",
+        "1688供给成熟：免打孔橱柜下挂篮批量价¥5-15/个，铁丝/塑料材质可选，轻量款<150g（来源：1688家居收纳行情）"
+      ],
+      "trend_score": 76,
+      "trend_direction": "up",
+      "reason": "UK线下（Aldi/Dunelm/IKEA）与TikTok同步引爆小收纳件，但线下爆款（Kirkton House）限时特卖且Amazon无对应供给，存在明确的时间差套利窗口。挂篮类轻小（铁丝款注意重量，选塑料/PVC轻量款）符合红线。",
+      "action": "027店测品（新店试错）：选轻量塑料/铁丝小号橱柜下挂篮2件套，单件重量必须≤150g（铁丝粗款会超200g红线，必须实测）。定价£7.99-8.99，采购1688搜'橱柜下挂篮'目标¥10-20/2个。卖点：免打孔+垂直空间利用+UK小厨房痛点。风险提示：收纳件类目竞争大，测品预算控制在60件内。",
+      "competition": "高：Amazon UK收纳类目头部review多、价格战激烈（IKEA £2-5价格锚点压制）；但'under shelf'细分场景+组合套装可做差异化，适合027低成本试错而非重投入。",
+      "signal_scores": {
+        "trend": 78,
+        "gap": 60,
+        "profit": 70,
+        "final": 70,
+        "recommendation": "谨慎测款（027低成本试错）",
+        "profit_window": "9-12月（秋季收纳+圣诞大扫除前）"
+      }
+    }
+  ],
+  "trend_forecast": "① 9月第1-2周（9/3-9/13）：UK换季收纳主窗口正式开启。驱动事件：学校开学后家庭收纳整理潮+秋被/厚毯更换启动+Amazon厨房Movers&Shakers真空压缩袋双上榜验证需求。方向：真空压缩袋手泵中小号套装、衣橱收纳袋、抽屉分隔件。备货卡航/快铁47天窗口内可赶10月底万圣节档。② 9月中-10/31（9/14-10/31）：万圣节装饰采购高峰，Mrs Hinch南瓜餐垫零售端已引爆秋季餐桌装饰潮，Amazon南瓜餐垫/秋季桌旗/餐桌布艺子类进入45天冲刺窗口。方向：南瓜造型餐垫、秋季印花桌旗、万圣节餐厨小件（与已推冰格/彩旗形成组合）。10/31后此类目需求断崖，最迟10/20前清货。③ 9月下旬（9/21-9/30）：UK秋菜上市+烘焙炖煮季启动，厨房小工具（削皮器/刨丝器/烘焙工具）用量上行，3合1组合款借Movers上榜势头起量。方向：3-in-1削皮器、多功能烘焙小件。此方向全年常青，可作为007店持续补货线。④ 10月（10/1-10/31）：圣诞备货窗口开启（提前47天规则对应11月中部署），TikTok收纳潮向圣诞收纳（装饰收纳箱/礼品袋收纳）迁移。方向：圣诞礼品袋、装饰收纳、节日桌布；真空袋关键词从'换季'切换为'圣诞装饰收纳'延续销量。⑤ 10月底-11月（10/26-11/30）：万圣节需求断崖+黑色星期五预热，UK消费者转向圣诞采购。方向：圣诞餐桌布艺（替换南瓜主题）、冬被收纳套装二次补货。注意：秋季装饰类目10/20后必须停止补货只清库存，把仓位让给圣诞品类。⑥ 全程风险提示：真空压缩袋10件套jumbo版会超32×22×6cm包装红线与200g重量红线，只做中小号套装；餐垫选轻薄PVC款控重，棉麻款4件套会超重。所有测品单次≤60件空运，复购数据好再补第二批。"
+}
