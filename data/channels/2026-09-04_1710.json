@@ -1,0 +1,1002 @@
+{
+  "scan_date": "2026-09-04",
+  "scan_time": "17:10",
+  "scan_ts": "2026-09-04_1710",
+  "stats": {
+    "total_scanned": 97,
+    "passed_filter": 3,
+    "rejected": 94,
+    "channels": {
+      "google_trends": 1,
+      "new_releases": 3,
+      "tiktok_verified": 1,
+      "multi_source": 2,
+      "temu_trending": 1,
+      "youtube_review": 1,
+      "etsy_trending": 1
+    },
+    "detail_reject": {},
+    "theme_trimmed": [],
+    "trend_categories": {
+      "crafts": 100,
+      "pets": 92,
+      "office": 88,
+      "eco": 79,
+      "car": 70,
+      "kitchen": 70
+    },
+    "supply_demand": {
+      "pets": {
+        "ratio": 6.6,
+        "demand": 92,
+        "supply": 1063946,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "kitchen": {
+        "ratio": 6.0,
+        "demand": 70,
+        "supply": 106908,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "sports": {
+        "ratio": 2.7,
+        "demand": 29,
+        "supply": 45889,
+        "label": "⚖️ 平衡",
+        "level": "balanced"
+      },
+      "kitchen_gadgets": {
+        "ratio": 2.5,
+        "demand": 29,
+        "supply": 106908,
+        "label": "⚖️ 平衡",
+        "level": "balanced"
+      },
+      "bathroom": {
+        "ratio": 0,
+        "demand": 29,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "car": {
+        "ratio": 0,
+        "demand": 70,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "crafts": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "travel": {
+        "ratio": 0,
+        "demand": 33,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      }
+    },
+    "divergences": {
+      "bathroom": {
+        "current_heat": 30,
+        "previous_heat": 32,
+        "heat_change_pct": -6.2,
+        "direction": "stable",
+        "dates": [
+          "2026-09-03_1710",
+          "2026-09-04_0850"
+        ]
+      },
+      "car": {
+        "current_heat": 38,
+        "previous_heat": 73,
+        "heat_change_pct": -47.9,
+        "direction": "falling",
+        "dates": [
+          "2026-09-03_1710",
+          "2026-09-04_0850"
+        ]
+      },
+      "crafts": {
+        "current_heat": 100,
+        "previous_heat": 100,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-09-03_1710",
+          "2026-09-04_0850"
+        ]
+      },
+      "travel": {
+        "current_heat": 30,
+        "previous_heat": 32,
+        "heat_change_pct": -6.2,
+        "direction": "stable",
+        "dates": [
+          "2026-09-03_1710",
+          "2026-09-04_0850"
+        ]
+      },
+      "phone": {
+        "current_heat": 50,
+        "previous_heat": 69,
+        "heat_change_pct": -27.5,
+        "direction": "falling",
+        "dates": [
+          "2026-09-03_1710",
+          "2026-09-04_0850"
+        ]
+      },
+      "beauty": {
+        "current_heat": 46,
+        "previous_heat": 53,
+        "heat_change_pct": -13.2,
+        "direction": "stable",
+        "dates": [
+          "2026-09-03_1710",
+          "2026-09-04_0850"
+        ]
+      },
+      "kitchen": {
+        "current_heat": 65,
+        "previous_heat": 65,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-09-03_1710",
+          "2026-09-04_0850"
+        ]
+      },
+      "storage": {
+        "current_heat": 34,
+        "previous_heat": 44,
+        "heat_change_pct": -22.7,
+        "direction": "falling",
+        "dates": [
+          "2026-09-03_1710",
+          "2026-09-04_0850"
+        ]
+      },
+      "pets": {
+        "current_heat": 65,
+        "previous_heat": 100,
+        "heat_change_pct": -35.0,
+        "direction": "falling",
+        "dates": [
+          "2026-09-03_1710",
+          "2026-09-04_0850"
+        ]
+      },
+      "kitchen_gadgets": {
+        "current_heat": 8,
+        "previous_heat": 27,
+        "heat_change_pct": -70.4,
+        "direction": "falling",
+        "dates": [
+          "2026-09-03_1710",
+          "2026-09-04_0850"
+        ]
+      },
+      "eco": {
+        "current_heat": 69,
+        "previous_heat": 77,
+        "heat_change_pct": -10.4,
+        "direction": "stable",
+        "dates": [
+          "2026-09-03_1710",
+          "2026-09-04_0850"
+        ]
+      },
+      "seasonal": {
+        "current_heat": 50,
+        "previous_heat": 73,
+        "heat_change_pct": -31.5,
+        "direction": "falling",
+        "dates": [
+          "2026-09-03_1710",
+          "2026-09-04_0850"
+        ]
+      },
+      "sports": {
+        "current_heat": 12,
+        "previous_heat": 4,
+        "heat_change_pct": 200.0,
+        "direction": "rising",
+        "dates": [
+          "2026-09-03_1710",
+          "2026-09-04_0850"
+        ]
+      },
+      "lighting": {
+        "current_heat": 69,
+        "previous_heat": 77,
+        "heat_change_pct": -10.4,
+        "direction": "stable",
+        "dates": [
+          "2026-09-03_1710",
+          "2026-09-04_0850"
+        ]
+      },
+      "office": {
+        "current_heat": 65,
+        "previous_heat": 94,
+        "heat_change_pct": -30.9,
+        "direction": "falling",
+        "dates": [
+          "2026-09-03_1710",
+          "2026-09-04_0850"
+        ]
+      },
+      "cleaning": {
+        "current_heat": 34,
+        "previous_heat": 12,
+        "heat_change_pct": 183.3,
+        "direction": "rising",
+        "dates": [
+          "2026-09-03_1710",
+          "2026-09-04_0850"
+        ]
+      },
+      "home decor": {
+        "current_heat": 42,
+        "previous_heat": 40,
+        "heat_change_pct": 5.0,
+        "direction": "stable",
+        "dates": [
+          "2026-09-03_1710",
+          "2026-09-04_0850"
+        ]
+      },
+      "baby": {
+        "current_heat": 4,
+        "previous_heat": 4,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-09-03_1710",
+          "2026-09-04_0850"
+        ]
+      },
+      "garden": {
+        "current_heat": 35,
+        "previous_heat": 65,
+        "heat_change_pct": -46.2,
+        "direction": "falling",
+        "dates": [
+          "2026-09-03_1710",
+          "2026-09-04_0850"
+        ]
+      },
+      "bedding": {
+        "current_heat": 19,
+        "previous_heat": 36,
+        "heat_change_pct": -47.2,
+        "direction": "falling",
+        "dates": [
+          "2026-09-03_1710",
+          "2026-09-04_0850"
+        ]
+      }
+    },
+    "gap_opportunities": 11
+  },
+  "products": [
+    {
+      "asin": "B0H3NZ7QWD",
+      "name": "fjaldjfu Pet Cooling Mat, 2026 New Summer Multiple Specifications Cooling Mat for Dogs, reusable Durable Cat Cool Blanke",
+      "price": 8.99,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 9,
+      "category": "Pets",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H3NZ7QWD",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71FHPSv+J3L._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "TikTok趋势",
+        "Google趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.412,
+      "net_profit": 3.7,
+      "cost_breakdown": {
+        "vat": 1.5,
+        "commission": 0.45,
+        "fba": 1.46,
+        "ads": 0.9,
+        "returns": 0.18,
+        "sourcing": 0.8,
+        "total_cost": 5.29
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 6.6,
+        "demand": 92,
+        "supply": 1063946,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": -10,
+      "div_label": "📉 品类降温(-35%)",
+      "div_info": {
+        "current_heat": 65,
+        "previous_heat": 100,
+        "heat_change_pct": -35.0,
+        "direction": "falling",
+        "dates": [
+          "2026-09-03_1710",
+          "2026-09-04_0850"
+        ]
+      },
+      "signal_level": "medium",
+      "signal_label": "🟠 中信号",
+      "external_sources": [
+        "TikTok",
+        "Google"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 134,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "🟠 中信号": 10,
+        "🔥 多源热门(pets)": 23,
+        "⏳ 待验证": -8,
+        "💰 超高利润": 12,
+        "🌊 深蓝海": 20,
+        "📉 品类降温(-35%)": -10,
+        "📈 排名上升": 10,
+        "⚠️ 未验证": -8
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-09-01",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "google_trends",
+        "new_releases",
+        "tiktok_verified",
+        "multi_source"
+      ]
+    },
+    {
+      "asin": "B0H8HVWC9C",
+      "name": "Hummcqit 2 Pcs Aquarium Plant Holder Transparent Hanging Fish Tank Planter Cup with Suction Cups for Aquaponic Plants Hy",
+      "price": 5.99,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 7,
+      "category": "Pets",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H8HVWC9C",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71Nn+On4VIL._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "Temu热销",
+        "Etsy趋势",
+        "YouTube种草"
+      ],
+      "profit_margin": 0.286,
+      "net_profit": 1.71,
+      "cost_breakdown": {
+        "vat": 1.0,
+        "commission": 0.3,
+        "fba": 1.46,
+        "ads": 0.6,
+        "returns": 0.12,
+        "sourcing": 0.8,
+        "total_cost": 4.28
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 6.6,
+        "demand": 92,
+        "supply": 1063946,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": -10,
+      "div_label": "📉 品类降温(-35%)",
+      "div_info": {
+        "current_heat": 65,
+        "previous_heat": 100,
+        "heat_change_pct": -35.0,
+        "direction": "falling",
+        "dates": [
+          "2026-09-03_1710",
+          "2026-09-04_0850"
+        ]
+      },
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "Temu",
+        "Etsy",
+        "YouTube"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 115,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "▶️ YouTube": 10,
+        "🔴 强信号": 20,
+        "🔥 多源热门(pets)": 23,
+        "⏳ 待验证": -8,
+        "💰 较好利润": 4,
+        "🌊 深蓝海": 20,
+        "📉 品类降温(-35%)": -10,
+        "⚠️ 未验证": -8
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-09-01",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "temu_trending",
+        "multi_source",
+        "youtube_review",
+        "etsy_trending",
+        "new_releases"
+      ]
+    },
+    {
+      "asin": "B0HBP5SSKT",
+      "name": "Ground Bird Feeder Weatherproof Small Round Birding Tool | Garden Bird Feeder for Watching Viewing Feeding Round Food Wa",
+      "price": 11.1,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 15,
+      "category": "Pets",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HBP5SSKT",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71CkrT8JTVL._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "Reddit需求"
+      ],
+      "profit_margin": 0.459,
+      "net_profit": 5.1,
+      "cost_breakdown": {
+        "vat": 1.85,
+        "commission": 0.56,
+        "fba": 1.46,
+        "ads": 1.11,
+        "returns": 0.22,
+        "sourcing": 0.8,
+        "total_cost": 6.0
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 6.6,
+        "demand": 92,
+        "supply": 1063946,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": -10,
+      "div_label": "📉 品类降温(-35%)",
+      "div_info": {
+        "current_heat": 65,
+        "previous_heat": 100,
+        "heat_change_pct": -35.0,
+        "direction": "falling",
+        "dates": [
+          "2026-09-03_1710",
+          "2026-09-04_0850"
+        ]
+      },
+      "signal_level": "weak",
+      "signal_label": "🟡 弱信号",
+      "external_sources": [
+        "Reddit"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 84,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "💬 Reddit": 5,
+        "🔥 多源热门(pets)": 23,
+        "⏳ 待验证": -8,
+        "💰 超高利润": 12,
+        "🌊 深蓝海": 20,
+        "📉 品类降温(-35%)": -10,
+        "⚠️ 未验证": -8
+      },
+      "stars": 4,
+      "is_new": false,
+      "first_seen": "2026-09-01",
+      "is_event": false,
+      "channel_tags": [
+        "new_releases"
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "keyword": "crafts",
+      "category": "crafts",
+      "heat": 100,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "craft",
+        "tape",
+        "art",
+        "stickers",
+        "brush"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 8,
+      "suggestions": [
+        "craft knife",
+        "craft supplies",
+        "DIY craft kit",
+        "washi tape",
+        "decorative tape",
+        "masking tape",
+        "art supplies",
+        "paint set"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=craft+knife",
+      "url_google": "https://trends.google.com/trends/explore?q=craft+knife&geo=GB"
+    },
+    {
+      "keyword": "office",
+      "category": "office",
+      "heat": 88,
+      "score": 74,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "desk",
+        "office",
+        "laptop",
+        "pen"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 8,
+      "suggestions": [
+        "desk organizer",
+        "desk lamp",
+        "desk mat",
+        "office supplies",
+        "pen holder",
+        "laptop stand",
+        "laptop sleeve",
+        "laptop cooler"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 88,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=desk+organizer",
+      "url_google": "https://trends.google.com/trends/explore?q=desk+organizer&geo=GB"
+    },
+    {
+      "keyword": "eco",
+      "category": "eco",
+      "heat": 79,
+      "score": 71,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "eco"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 8,
+      "suggestions": [
+        "eco products",
+        "reusable bag",
+        "bamboo products"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 79,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=eco+products",
+      "url_google": "https://trends.google.com/trends/explore?q=eco+products&geo=GB"
+    },
+    {
+      "keyword": "car",
+      "category": "car",
+      "heat": 70,
+      "score": 68,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "car"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 7,
+      "suggestions": [
+        "car accessories",
+        "car organizer",
+        "car phone holder"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 70,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=car+accessories",
+      "url_google": "https://trends.google.com/trends/explore?q=car+accessories&geo=GB"
+    },
+    {
+      "keyword": "garden",
+      "category": "garden",
+      "heat": 70,
+      "score": 68,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "bird",
+        "garden",
+        "outdoor",
+        "plant",
+        "flower"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "bird feeder",
+        "bird bath",
+        "bird house",
+        "garden tool set",
+        "garden light",
+        "garden decor",
+        "outdoor",
+        "plant pot"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 70,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=bird+feeder",
+      "url_google": "https://trends.google.com/trends/explore?q=bird+feeder&geo=GB"
+    },
+    {
+      "keyword": "lighting",
+      "category": "lighting",
+      "heat": 65,
+      "score": 66,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "strip",
+        "light",
+        "led"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 5,
+      "suggestions": [
+        "LED strip",
+        "LED strip light",
+        "RGB strip",
+        "LED light",
+        "fairy lights",
+        "string lights",
+        "LED bulb",
+        "LED panel"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 65,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=LED+strip",
+      "url_google": "https://trends.google.com/trends/explore?q=LED+strip&geo=GB"
+    },
+    {
+      "keyword": "home decor",
+      "category": "home decor",
+      "heat": 65,
+      "score": 66,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "decor",
+        "wall art",
+        "candle",
+        "clock"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 5,
+      "suggestions": [
+        "home decor",
+        "room decor",
+        "table decor",
+        "wall art print",
+        "wall hanging",
+        "wall decal",
+        "candle holder",
+        "scented candle"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 65,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=home+decor",
+      "url_google": "https://trends.google.com/trends/explore?q=home+decor&geo=GB"
+    },
+    {
+      "keyword": "phone",
+      "category": "phone",
+      "heat": 56,
+      "score": 63,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "stand",
+        "phone",
+        "ring light",
+        "cable",
+        "charger"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "stand",
+        "phone case",
+        "phone holder",
+        "phone stand",
+        "ring light",
+        "charging cable",
+        "USB cable",
+        "phone cable"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 56,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=stand",
+      "url_google": "https://trends.google.com/trends/explore?q=stand&geo=GB"
+    },
+    {
+      "keyword": "seasonal",
+      "category": "seasonal",
+      "heat": 56,
+      "score": 63,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "halloween",
+        "gift",
+        "birthday"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "halloween decoration",
+        "halloween costume",
+        "gift ideas",
+        "gift set",
+        "gift box",
+        "birthday gift",
+        "birthday decoration",
+        "birthday card"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 56,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=halloween+decoration",
+      "url_google": "https://trends.google.com/trends/explore?q=halloween+decoration&geo=GB"
+    },
+    {
+      "keyword": "beauty",
+      "category": "beauty",
+      "heat": 51,
+      "score": 62,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "hair",
+        "nail",
+        "makeup",
+        "skincare",
+        "brush"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "hair clip",
+        "hair accessories",
+        "hair band",
+        "hair tie",
+        "nail art kit",
+        "nail tools",
+        "nail stickers",
+        "makeup brush set"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 51,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=hair+clip",
+      "url_google": "https://trends.google.com/trends/explore?q=hair+clip&geo=GB"
+    },
+    {
+      "keyword": "kitchen",
+      "category": "kitchen",
+      "heat": 70,
+      "score": 48,
+      "gap_level": "weak",
+      "amazon_count": 5,
+      "amazon_reviews": 106908,
+      "evidence": [
+        "gadget",
+        "kitchen",
+        "mug"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 5,
+      "suggestions": [
+        "gadget",
+        "kitchen"
+      ],
+      "sd_info": {
+        "ratio": 6.0,
+        "demand": 70,
+        "supply": 106908,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=gadget",
+      "url_google": "https://trends.google.com/trends/explore?q=gadget&geo=GB"
+    }
+  ],
+  "trend_summary": {
+    "top_categories": [
+      [
+        "crafts",
+        100
+      ],
+      [
+        "pets",
+        92
+      ],
+      [
+        "office",
+        88
+      ],
+      [
+        "eco",
+        79
+      ],
+      [
+        "car",
+        70
+      ],
+      [
+        "kitchen",
+        70
+      ]
+    ],
+    "cross_validated": [
+      "bathroom",
+      "car",
+      "crafts",
+      "travel",
+      "phone",
+      "beauty",
+      "kitchen",
+      "eco",
+      "seasonal",
+      "office",
+      "sports",
+      "lighting",
+      "pets",
+      "kitchen_gadgets",
+      "home decor",
+      "garden"
+    ],
+    "demand_keywords": [
+      "agentic commerce redefines buying",
+      "amazon made me buy it",
+      "and bird baths",
+      "apple devices",
+      "arts for",
+      "autumn is coming",
+      "best way to save on",
+      "click here for",
+      "cosy season called",
+      "deals under"
+    ],
+    "season": "autumn",
+    "sources_scanned": [
+      "tiktok",
+      "hotukdeals",
+      "temu",
+      "etsy",
+      "youtube",
+      "google_trends",
+      "reddit",
+      "market_intel"
+    ]
+  }
+}
