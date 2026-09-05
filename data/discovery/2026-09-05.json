@@ -1,0 +1,121 @@
+{
+  "date": "2026-09-05",
+  "updated_at": "2026-09-05T08:10:00+08:00",
+  "scan_date": "2026-09-05",
+  "scan_time": "08:10",
+  "summary": "9月5日：万圣节进入采购主窗口（Faire数据：万圣节搜索9月达峰；YouGov：19%英国家庭备糖给讨糖者）。推荐4个机会：万圣节讨糖桶（季节刚需+boo basket趋势）、圣诞倒计时布袋套装（Faire Advent calendar搜索YOY+227%，竞品review<70条蓝海）、万圣节夜光窗贴（Mintel夜光包装趋势+超轻）、南瓜折叠收纳篮（秋季装饰+收纳双场景）。全部非电子、≤200g、卡航/快铁可发。",
+  "insights": [
+    {
+      "keyword": "halloween trick or treat candy bucket",
+      "keyword_cn": "万圣节讨糖桶/糖果篮",
+      "amazon_keyword": "halloween candy bucket, trick or treat bucket, halloween treat basket",
+      "search_1688": "万圣节讨糖桶 南瓜纸桶 / 万圣节糖果篮 折叠 硅胶",
+      "demand_signals": [
+        "YouGov调研（Forecourt Trader引用）：19%英国家庭专为讨糖者备糖，20%家庭举办/参加万圣节派对——容器为刚需",
+        "Mintel UK Halloween报告：2025年Halloween+Bonfire消费强劲增长，fun-size糖果需求在10月最后两周达峰，讨糖容器需求同频共振",
+        "Boo basket（讨糖篮）2024-25年在UK主流化：Tesco/Sainsbury's官方推出组件，TikTok开箱视频病毒传播，可复用容器（桶/tote）是核心载体",
+        "英国糖果商Sweet&Glory：UK万圣节年消费超£7亿，Summertween趋势下10% GenZ/Millennials从8月就开始采购，9月为陈列+采购高峰"
+      ],
+      "trend_score": 86,
+      "trend_direction": "up",
+      "reason": "现在是9月第一周：Faire数据显示万圣节搜索9月达全年峰值，而讨糖桶属于'临门一脚'刚需品——家庭备糖必然需要容器。竞品多为季节性中国卖家常青款，品牌集中度低，且boo basket趋势让'糖果篮'从儿童用品扩展为成人礼物载体，需求宽度翻倍。提前47天卡航/快铁窗口（10-31往前推）正好是现在，再晚海运必挂。",
+      "action": "007店测款。采购关键词：1688'万圣节讨糖桶 南瓜 纸质'或'万圣节糖果篮 可折叠'，选纸板/可折叠款（重量≤150g），单次≤60件空运测款。定价£7.99。listing主打'Reusable + Trick or Treat + Party Favor'，主图展示装满糖果效果。",
+      "competition": "Amazon UK搜'halloween candy bucket'：季节性中国卖家常青款为主，review量多在几十~300之间，无绝对头部品牌，品牌集中度低；差异化点=可折叠/纸板环保款+boo basket场景化卖点。",
+      "signal_scores": {
+        "trend": 86,
+        "gap": 76,
+        "profit": 80,
+        "final": 82,
+        "recommendation": "high",
+        "profit_window": "9月中~10月25日，10月最后两周为峰值"
+      }
+    },
+    {
+      "keyword": "christmas countdown advent calendar bags",
+      "keyword_cn": "圣诞倒计时布袋套装（24袋DIY倒数日历）",
+      "amazon_keyword": "fill your own advent calendar, advent calendar bags, christmas countdown calendar DIY",
+      "search_1688": "圣诞倒计时 24天 布袋 挂袋 数字 / 圣诞倒数日历 布质 迷你",
+      "demand_signals": [
+        "Faire 2026批发数据：Advent calendar搜索同比+227%（2026圣诞增速最快品类之一），Christmas decor+118%、Christmas jumpers+114%",
+        "Mintel UK Halloween报告提及'advent calendars join retailers Halloween lineup'——圣诞倒数日历近年向万圣节档期提前铺货，需求前置",
+        "实测Amazon UK竞品（2026-09-05）：fabric advent calendar with pockets在售款review仅1~62条，HOWAF 62条4.4星、BOLWEO 9条4.7星——需求存在但供给刚起步",
+        "Faire购买窗口表：圣诞装饰与礼品8月~10月为最佳采购窗口，9月正是订货期"
+      ],
+      "trend_score": 87,
+      "trend_direction": "up",
+      "reason": "227%的搜索增长+竞品review<70条的供给缺口=教科书级时间差机会。圣诞采购8月起已加速，10月上旬是Amazon上架的最后安全窗口（提前47天卡航/快铁：12-01倒计时开始日往前推≈10月中旬）。注意避开带LED灯的竞品款（电子件不做），且布质整幅挂袋380g超重，必须选24个独立薄棉布袋+麻绳+数字贴套装形态（合计约150g）。",
+      "action": "027店测款。采购关键词：1688'圣诞倒计时 24天 布袋套装'，选薄棉布24袋+麻绳+数字贴，务必实测单套重量≤200g。定价£9.99。listing关键词'fill your own advent calendar'，卖点=reusable+DIY family activity。",
+      "competition": "Amazon UK整幅布质挂袋竞品多但review普遍<70条（HGRGHH 32条/HOWAF 62条/SAFIGLE新listing），无头部；独立布袋套装形态竞品更少，蓝海明显。风险：重量实测不达标则放弃或改单袋售卖。",
+      "signal_scores": {
+        "trend": 87,
+        "gap": 82,
+        "profit": 78,
+        "final": 84,
+        "recommendation": "high",
+        "profit_window": "10月上旬上架，10月底~11月中为搜索峰值，12-01前必须到货"
+      }
+    },
+    {
+      "keyword": "glow in the dark halloween window clings",
+      "keyword_cn": "万圣节夜光窗贴",
+      "amazon_keyword": "halloween window stickers, glow in the dark window clings, halloween window decorations",
+      "search_1688": "万圣节 夜光 窗贴 静电贴 / 万圣节窗户贴纸 发光",
+      "demand_signals": [
+        "Mintel UK Halloween 2025报告将'Glow in the dark'列为关键包装/产品趋势，夜光元素是2026万圣节差异化卖点",
+        "Good Housekeeping 2026-09-03秋季装饰盘点：英国消费者9月初已开始布置秋季/万圣节装饰（挂饰/花环/窗饰在列），窗口已开",
+        "Faire：万圣节搜索6→7月翻三倍、8月持续上升、9月达峰；窗贴属于轻量装饰'early decorator'首批采购品类",
+        "电商惯性：窗贴价格低（£4-8）、视觉展示强（TikTok/IG装饰前后对比视频天然传播），冲动购买属性高"
+      ],
+      "trend_score": 75,
+      "trend_direction": "up",
+      "reason": "9月是万圣节装饰第一批采购（early decorator）启动月，窗贴是所有装饰品里最轻（<80g）、最便宜、最易组套的品类，夜光款借Mintel趋势做差异化。1688现货充足、采购价极低，适合007店快速测款验证listing能力。",
+      "action": "007店测款。采购关键词：1688'万圣节 夜光窗贴 静电贴'，选2-3张套装（南瓜+幽灵+蝙蝠图案），重量<80g。定价£6.99。主图用'白天vs夜晚夜光对比'双图，包装信封平寄，单次≤60件。",
+      "competition": "Amazon UK常规万圣节窗贴review几百条、集中度中低，但夜光（glow in the dark）细分款供给明显少于常规款，差异化空间真实存在。",
+      "signal_scores": {
+        "trend": 75,
+        "gap": 72,
+        "profit": 82,
+        "final": 76,
+        "recommendation": "medium-high",
+        "profit_window": "9月~10月中，万圣节当周清尾"
+      }
+    },
+    {
+      "keyword": "collapsible pumpkin storage basket",
+      "keyword_cn": "南瓜折叠收纳篮（秋季装饰+收纳双场景）",
+      "amazon_keyword": "pumpkin storage basket, collapsible storage basket autumn, fall decor storage bin",
+      "search_1688": "南瓜收纳篮 可折叠 布料 / 万圣节收纳篮 折叠",
+      "demand_signals": [
+        "Good Housekeeping 2026-09-03秋季装饰盘点：南瓜元素+实用收纳是秋季家居两大主线，'cosy home'秋季装饰需求9月初已启动",
+        "TODAY 2026-09-02 9月最佳榜单：秋季换季收纳（vacuum bags/收纳）与秋季装饰双主题上榜，秋季收纳场景需求确定性强",
+        "Faire秋季装饰趋势：autumn需求6-8月加速，秋季=装饰+收纳双消费场景，南瓜篮可跨万圣节/感恩节/秋季三窗口复用",
+        "TikTok home organization类目常年百万级播放（QuickSync：home organization为TikTok Shop常青高转化类目），'秋季收纳布置'内容9月集中爆发"
+      ],
+      "trend_score": 73,
+      "trend_direction": "up",
+      "reason": "秋季装饰消费已启动（9月初媒体盘点密集发布），南瓜造型收纳篮一个产品吃三个节日窗口（万圣节装饰+感恩节桌边收纳+整个秋季居家），生命周期比其他万圣节单品长一倍。布料折叠款可平片包装、符合尺寸红线。注意避开带钢丝圈的硬挺款（超重），选薄布+轻支架款并实测。",
+      "action": "007店测款（与讨糖桶同批测）。采购关键词：1688'南瓜收纳篮 折叠 布'，小号（展开约25×20cm），重量≤200g。定价£8.99。listing主打'double use：fall decor + storage'，感恩节场景图放在副图。",
+      "competition": "Amazon UK搜'pumpkin storage basket'：review几百~千级、集中度中等，头部多为美国品牌款；中低价位（£8-12）中国卖家供给充足但造型同质化，夜光/撞色/格纹差异化可突围。",
+      "signal_scores": {
+        "trend": 73,
+        "gap": 70,
+        "profit": 84,
+        "final": 75,
+        "recommendation": "medium-high",
+        "profit_window": "9月中~12月初（秋季+万圣节+感恩节三窗口），10月为峰值"
+      }
+    }
+  ],
+  "trend_forecast": "① 9月第2周（9/7-9/14）：英国万圣节零售端软启动完成、开始全面陈列（Sweet&Glory指南：8月至9月中为soft launch期）。此时Amazon万圣节装饰搜索环比跳升，第一批'early decorator'（Summertween影响下10%的GenZ/Millennials）下单装饰类小件——夜光窗贴、讨糖桶是本窗口最轻量、最易冲动购买的品类，建议9月10日前完成测款上架。② 9月第3-4周（9/14-9/28）：Faire历史数据显示万圣节搜索9月达全年峰值，叠加英国学校Half-term（10月中）前的家长采购预热，讨糖桶/糖果容器进入第一波真实订单窗口；同时秋季装饰（南瓜元素、收纳篮）与万圣节装饰需求交叉放大。此阶段应完成首批补货决策——复购数据好的款立刻下第二单（空运仍来得及）。③ 9月底-10月初（9/28-10/12）：Boo basket（讨糖篮）赠送高峰启动（Urban Reporter：10月中为UK赠送峰值期），糖果篮/讨糖桶从'自用'扩为'送礼'场景，客单价敏感度下降；同时圣诞倒数日历进入Amazon搜索爬坡期——Faire圣诞需求8-11月持续加速、Advent calendar搜索YOY+227%，10月上旬是圣诞款上架的最后安全窗口（倒计时12-01开始，卡航/快铁提前47天≈10月中旬前必须发货）。④ 10月上半月（10/5-10/19）：万圣节消费全面进入主力采购期（零售数据显示10月为全年万圣节销售峰值月），讨糖桶/糖果篮/窗贴订单量达峰前夜；此时应控制补货节奏，避免万圣节当周压货——万圣节类产品在10月25日前后必须清尾。⑤ 10月下半月（10/19-10/31）：fun-size糖果需求最后两周峰值（Forecourt Trader/YouGov：80%消费者只买fun-size巧克力+糖果），容器类产品需求同频共振到顶点；万圣节当周（10/26-10/31）订单集中爆发后断崖，所有万圣节SKU在11月1日降价清尾、回笼资金。⑥ 11月初（11/1起）：圣诞主线接管——倒计时布袋/圣诞装饰进入主窗口，南瓜收纳篮借'秋季收尾+圣诞收纳'双场景延长生命周期至12月中；此时应完成圣诞款二次补货（若10月测款数据好），黑五（11月底）前圣诞款必须全部到仓。整体节奏：9月押万圣节刚需容器+装饰、10月初押圣诞倒数日历、10月中开始清万圣节库存并全力转向圣诞，三个品类的资金周转窗口互不打架。",
+  "cost_notes": "全部推荐符合红线：非电子（无电池/USB/电机）、重量≤200g（倒计时布袋与收纳篮需实测）、包装≤32×22×6cm、空运/卡航/快铁不发海运。采购均价参考：讨糖桶纸板款¥3.5-5.5/个、倒计时布袋套装¥8-12/套、夜光窗贴¥2-4/套、折叠收纳篮¥5-8/个（1688/淘宝实价）。",
+  "sources": [
+    "Mintel UK Halloween and Bonfire Night Market Report 2025",
+    "Faire Holiday 2026 wholesale buying guide (advent calendar +227%)",
+    "Forecourt Trader: YouGov 19% households keep treats for trick-or-treaters",
+    "Sweet and Glory Halloween stocking guide 2026 (UK £700M+ market)",
+    "Urban Reporter: Boo Baskets UK gift guide",
+    "Good Housekeeping UK 2026-09-03 autumn decorations roundup",
+    "TODAY Shop September 2026 bestsellers (2026-09-02)",
+    "Amazon UK live listings check 2026-09-05 (advent calendar reviews 1-62)"
+  ]
+}
