@@ -1,0 +1,127 @@
+{
+  "date": "2026-09-07",
+  "updated_at": "2026-09-07T08:10:00+08:00",
+  "scan_date": "2026-09-07",
+  "scan_time": "08:10",
+  "summary": "9月7日：基于Amazon UK Movers&Shakers（kitchen/fashion/grocery三tab）+英国零售商万圣节上架潮（Aldi 9-27全线、Primark/HomeBargains/Lidl已陈列）+1688供应链实价验证。推荐4个新机会：万圣节彩虹刮画套装（Aldi刮画£1.99+义乌35件套英文包装¥5.5）、万圣节英式茶巾2条装（Primark £5/TKMaxx £5.99锚点）、万圣节蛋糕插牌24支（Aldi烘焙assortment信号+学校bake sale）、圣诞3D立体贺卡4张套装（Faire圣诞+118%+1688现货）。附注：圣诞DIY拉炮曾被列为候选，因拉炮芯(爆破条)在英国被归类为爆炸物、1688主流供给为含气瓶/电子件礼花筒，通关+运输风险高，已弃用。全部非电子、≤200g、卡航/快铁，不重复历史推荐（09-01~09-05已推荐讨糖桶/窗贴/倒计时布袋/南瓜篮等均避开）。",
+  "insights": [
+    {
+      "keyword": "halloween scratch art kit for kids",
+      "keyword_cn": "万圣节彩虹刮画套装（20-24片 免屏幕儿童手工）",
+      "amazon_keyword": "halloween scratch art, scratch paper for kids halloween, halloween craft kit kids, halloween activity set",
+      "search_1688": "万圣节 刮画卡 彩虹刮刮画 儿童 手工 套装 / 彩虹刮画 35件套 英文包装",
+      "demand_signals": [
+        "Aldi 2026万圣节中岛商品清单包含'Scratch / foil art £1.99'（Liverpool Echo 2026-09报道）——大众零售用实际选品验证了刮画是今年万圣节儿童活动线",
+        "Matalan在售Halloween Scratch Art Book（26×20cm、含木笔），Partyrama与PartyPacks UK等英国派对用品商在售刮画套装/2张A5装£1.79——英国本土线下+派对渠道供给已启动但品牌散",
+        "Amazon.com同款'24片Halloween Scratch Craft Art Kit'仅8条review（4.0星）、4E's Novelty 25片装10条review——美国站需求真实但竞品review极少，英国站供给更薄",
+        "1688/义乌购现货已确认：英文版彩虹刮画35件套（开包即玩）¥5.5-6.0/盒、异形刮刮卡¥0.25-0.35/张、A4刮画纸10张+笔¥2.05——跨境现货充足且带英文包装，可直接贴标",
+        "场景驱动：英国学校10月中下旬Half-term前的'免屏幕活动'内容在TikTok季节性爬升，刮画同时覆盖party bag fillers（24片分装进goodie bag）"
+      ],
+      "trend_score": 82,
+      "trend_direction": "up",
+      "reason": "万圣节搜索9月达全年峰值（Faire历史数据），而'儿童活动/手工'是今年零售端确认的新增选品线（Aldi刮画/foil art上架、Matalan刮画书在售），供给端美国站都在个位数review起步、英国站更无头部，时间差+供给差同时成立。产品极轻（A5规格20-24片≈130-180g）、平片包装、1688带英文包装现货，是最适合007店验证万圣节店铺能力的小件。",
+      "action": "007店测款。采购关键词：1688/义乌购'彩虹刮画 英文版 35件套'或'万圣节刮刮卡 异形'，选20-24片A5套装（含竹笔+挂绳），实测重量≤200g（A4规格会超，务必A5/16K）。定价£7.99。listing主打'halloween scratch art for kids + screen-free half-term activity + party bag fillers'，主图做'刮开前后彩虹效果'对比图。单次≤60件空运，与09-05讨糖桶/窗贴同批万圣节货拼箱。",
+      "competition": "Amazon UK搜'halloween scratch art'：在售多为派对用品商/小品牌，review普遍个位数~几十条，无头部品牌；US站同款也仅8-10条review。品牌集中度低，差异化点在片数（20-24片 vs 常见10-12片）+彩虹效果图+party bag场景。",
+      "signal_scores": {
+        "trend": 82,
+        "gap": 78,
+        "profit": 84,
+        "final": 81,
+        "recommendation": "high",
+        "profit_window": "9月10日前上架，9月中~10月22日为主窗口，10月最后一周清尾"
+      }
+    },
+    {
+      "keyword": "halloween tea towels 2 pack",
+      "keyword_cn": "万圣节英式茶巾2条装（厨房装饰+实用双场景）",
+      "amazon_keyword": "halloween tea towels, halloween kitchen towels, halloween dish towels set of 2",
+      "search_1688": "万圣节 茶巾 印花 棉 / 万圣节 擦手巾 2条 挂装",
+      "demand_signals": [
+        "Primark 2026万圣节系列官网上架'2pk Novelty Halloween Tea Towels £5'（Primark UK官网，9月在售）——英国主流快时尚用实际选品背书",
+        "TK Maxx UK在售'Two Pack Grey Halloween Bat Tea Towels 46×71cm £5.99'（Grammercy Studio）——中端折扣渠道定价锚点£5-6",
+        "XS-Stock.co.uk在售Country Club'It's Halloween'系列2 Pack茶巾（原价£4.99）——垂直电商也在铺，说明供给方在加速进入",
+        "Amazon.com同款'Happy Halloween Towels Set of 2'69条review 4.1星——需求被验证；但US站主流是微纤维装饰款，UK站棉质茶巾供给稀疏、高review款少",
+        "场景优势：茶巾是'节后仍可用'的家居品，10/31后不压货，且是Halloween hamper/小礼物常见搭配（Primark页面自己标注可作礼篮配件）"
+      ],
+      "trend_score": 74,
+      "trend_direction": "up",
+      "reason": "万圣节已从'儿童讨糖'扩展为'全屋装饰'（Primark幽灵抱枕、Home Bargains整面Disney装饰），厨房纺织是装饰轮动里被线下验证（3家渠道同售）但Amazon供给最薄的细分。棉质茶巾UK家庭渗透率极高，装饰+实用双场景降低退货率。风险点：2条棉茶巾≈180-210g临界200g红线，必须拿样实测，超重改'单条+厨房两件套场景'（茶巾+置物垫）或接受≤250g小包裹档并重算利润。",
+      "action": "027店测款（027测品启动期，先验证供应链）。采购关键词：1688'万圣节 茶巾 印花'，选轻薄棉/棉麻款（克重150-180gsm优先，重实测单套≤200g），设计差异化=撞色条纹+节后可用（黑橙底色配幽灵/蝙蝠小图案，不做满版花）。定价£7.99。listing关键词'halloween tea towels'，卖点=100% cotton + machine washable + reusable after Halloween。",
+      "competition": "Amazon UK搜'halloween tea towels'：在售以季节中国卖家印花款为主，review几十~200条、无绝对头部；线下渠道（Primark/TKMaxx/XS-Stock）已把'£5-6两件'价格锚死，Amazon £7.99需靠'棉质更厚/图案更精致'支撑溢价。诚实提示：该品差异化偏弱、利润中等，是'确定性优先'的稳健款而非爆款。",
+      "signal_scores": {
+        "trend": 74,
+        "gap": 70,
+        "profit": 76,
+        "final": 73,
+        "recommendation": "medium",
+        "profit_window": "9月中~10月25日，节后转半价清尾不亏"
+      }
+    },
+    {
+      "keyword": "halloween cupcake toppers",
+      "keyword_cn": "万圣节蛋糕插牌24支套装（烘焙装饰签）",
+      "amazon_keyword": "halloween cupcake toppers, halloween cake picks, halloween baking decorations",
+      "search_1688": "万圣节 蛋糕插牌 纸 24支 / 万圣节 cupcake topper 派对装饰",
+      "demand_signals": [
+        "Aldi 2026万圣节清单含'Halloween baking assortment £2.99'（Liverpool Echo）——'万圣节烘焙'被大众零售确认为今年新增选品线",
+        "Primark万圣节系列同步上架茶巾/餐具，整体'万圣节厨房+烘焙'主题化陈列确认（Primark官网+Liverpool Echo探店）",
+        "场景刚需：英国学校10月Halloween bake sale惯例+家长烘焙内容TikTok #HalloweenBaking季节性爬升，插牌是'最便宜的氛围单品'",
+        "1688现货：万圣节蛋糕插牌/纸签24支装¥3-6（义乌，派对用品店常年有货），采购成本极低",
+        "Amazon UK'halloween cupcake toppers'在售以季节中国卖家为主、review少（几十条内），无头部品牌，冲动购买属性强（£5-7低单价）"
+      ],
+      "trend_score": 72,
+      "trend_direction": "up",
+      "reason": "万圣节烘焙是今年零售端新确认的主题线（Aldi/Primark双背书），插牌是烘焙装饰里最轻（≤40g）、最便宜、最易'一盒多款'的SKU，可以和09-05已测的讨糖桶/窗贴组成同一批万圣节货的'填空款'，边际成本几乎为零。1688价格¥3-6，售价£6.99毛利空间大。劣势是同质化、无复购，定位为'凑批+练listing'款而非主力。",
+      "action": "007店测款（与09-05万圣节批货同箱）。采购关键词：1688'万圣节 蛋糕插牌 24支'，选纸卡款（避开塑料+木棍超重），含南瓜/幽灵/蝙蝠/黑猫4图案混装，重量<50g、信封可寄。定价£6.99。listing主打'24pcs halloween cupcake toppers + school bake sale ready'，场景图用'一盒马芬插满'。单次≤60件。",
+      "competition": "Amazon UK搜'halloween cupcake toppers'：季节中国卖家款为主、review普遍个位数~50条，价格£4.99-7.99，无头部品牌；差异化=24支多图案+纸卡环保。坦白说该品竞争是'低水平同质化'，靠图片和组合拳，不指望爆，指望带动店铺万圣节流量。",
+      "signal_scores": {
+        "trend": 72,
+        "gap": 68,
+        "profit": 82,
+        "final": 72,
+        "recommendation": "medium",
+        "profit_window": "9月~10月22日，bake sale高峰期10月中"
+      }
+    },
+    {
+      "keyword": "3d pop up christmas cards multipack",
+      "keyword_cn": "圣诞3D立体贺卡4张套装（英式寄卡传统）",
+      "amazon_keyword": "pop up christmas cards, 3d christmas cards, pop up cards for christmas 3d",
+      "search_1688": "圣诞 3D立体贺卡 纸雕卡 跨境 / 圣诞pop up card 批发",
+      "demand_signals": [
+        "Faire 2026批发数据：Christmas decor搜索+118%、圣诞礼品8-10月为最佳采购窗口（与09-05 Advent calendar +227%同源报告）",
+        "英国圣诞卡传统是国民级行为：皇家邮政每年圣诞季投递数亿件卡片，11月起家庭/学校寄卡高峰——需求盘子确定",
+        "Lovepop/Drewpop等3D卡品牌在美英市场验证了'立体卡溢价'（单品£8-15），UK站generic中低价套装供给稀疏，存在价格带空档（£7-10）",
+        "1688现货确认：'跨境亚马逊圣诞节3D立体贺卡'¥6.5/张（圣诞彩印鹿车等款式，义乌现货）——供应链通达可直接贴标",
+        "TikTok'pop up card'开箱/ASMR类内容常青（打开瞬间的惊喜感天然适合短视频），圣诞季搜索爬坡11月初启动"
+      ],
+      "trend_score": 76,
+      "trend_direction": "up",
+      "reason": "圣诞采购窗口8-10月（Faire），贺卡是'送礼+仪式感'的轻量代表：4张套装重量约100-140g、平片包装15×15×2cm完美卡尺寸红线，比09-05推荐的倒计时布袋（需实测200g）更稳。UK无'电子贺卡替代'的逆风——实体卡仍占寄卡主体。风险：1688高质量立体卡¥6.5/张偏贵，4张套装成本£3+，必须控制在4张£7.99定价下的利润红线内，优先找¥4-5/张的平价款。",
+      "action": "027店测款。采购关键词：1688'圣诞 3D立体贺卡 跨境'，选4张/6张纸雕卡套装（圣诞树/雪橇鹿/姜饼屋经典款，避开宗教敏感图案），实测单张≤35g。定价£7.99（4张）。listing关键词'pop up christmas cards'，卖点=kinetic surprise + high quality card stock + envelope included，主图做'打开瞬间'动效。圣诞款上架最晚10月中（倒数12/25，卡航/快铁提前47天≈11/8前发货）。",
+      "competition": "Amazon UK搜'pop up christmas cards'：Lovepop等品牌占据£10+高端，generic套装多来自美国小牌（review几十~几百条），£7-10价格带供给明显稀疏；4张装中低价套装review普遍<100条。差异化=4张多场景（送朋友/祖父母/老师/同事）+英式信封，与09-01礼品袋、09-05倒计时布袋形成圣诞货架互补而非重复。",
+      "signal_scores": {
+        "trend": 76,
+        "gap": 74,
+        "profit": 72,
+        "final": 74,
+        "recommendation": "medium-high",
+        "profit_window": "10月中上架，11月初~12/10为峰值，12/15后清尾"
+      }
+    }
+  ],
+  "trend_forecast": "① 9月第2周（9/7-9/14）：英国万圣节零售端已全面铺货（Primark/Home Bargains/Lidl陈列已上，Aldi 9/27中岛全线到位），Amazon万圣节装饰/烘焙/派对搜索环比跳升。本周是万圣节轻小件（刮画卡、蛋糕插牌、茶巾）上架的最后从容窗口——'early decorator'消费者开始第一波下单，建议9月10日前完成测款上架，与09-05批次的讨糖桶/窗贴共用一箱。② 9月第3-4周（9/14-9/28）：Faire历史数据显示万圣节搜索9月达全年峰值，叠加英国学校Half-term（10月中下旬）前家长'免屏幕活动'采购预热，刮画套装进入第一波真实订单窗口；同时Aldi 9/27万圣节中岛全线上架会把主力采购人群带入线上线下比价节奏，茶巾/插牌这类'家用+烘焙主题'小件受益。此阶段根据复购数据决定是否补第二单（空运仍来得及）。③ 10月上半月（10/1-10/18）：万圣节消费进入主力采购期（零售数据常规峰值月），TikTok #HalloweenDecorUK与烘焙内容集中爆发，学校bake sale（Half-term前最后一周）带动蛋糕插牌需求顶点；10月10日前完成万圣节SKU最后一次补货决策，10月20日后不再压货，25日后开始清尾价。④ 10月下半月（10/19-10/31）：讨糖+派对峰值（YouGov：19%英国家庭备糖给讨糖者），刮画（party bag fillers）+茶巾（host gift）双场景最后冲量；万圣节当周订单断崖后全部降价清尾回笼资金，转投圣诞。⑤ 10月底-11月中（10/26-11/15）：圣诞主线接管。英国寄卡传统启动（皇家邮政圣诞季投递峰值自11月开始），'pop up christmas cards'搜索开始爬坡；3D贺卡套装必须在11月15日前完成上架（卡航/快铁提前47天窗口：12/25-47≈11/8前发货），与09-05倒计时布袋、09-01礼品袋形成圣诞货架三件套。⑥ 11月中-12月初：圣诞礼品/装饰/贺卡全面放量，黑五（11月底）前所有圣诞SKU到仓；12/10前后圣诞贺卡+装饰搜索达全年巅峰，12/15后贺卡类开始清尾，圣诞后滞销风险集中在12/26后——贺卡售罄率目标80%+。整体节奏：本周押万圣节'手工+烘焙+家居'三小件（确定性优先、茶巾写入实测门），10月中全力转圣诞贺卡，两个资金窗口无缝衔接，为黑五留出补货余量。",
+  "cost_notes": "全部推荐符合红线：非电子（无电池/USB/电机/气瓶）、重量≤200g（茶巾2条临界、刮画选A5规格，均须拿样实测）、包装≤32×22×6cm（刮画21×15×3、茶巾折叠后约25×20×4、插牌20×15×2、贺卡15×12×2）、卡航/快铁不发海运。采购均价参考（1688/义乌购实价）：彩虹刮画35件套¥5.5-6/套、异形刮刮卡¥0.25-0.35/张、万圣节茶巾¥9-14/2条、蛋糕插牌24支¥3-6、圣诞3D立体贺卡¥4.5-6.5/张。利润测算（佣金家居8%、FBA小件£2.10-2.60）：刮画£7.99→净利约£4.0（45%+）；茶巾£7.99→约£3.2（40%）；插牌£6.99→约£3.5（50%）；3D贺卡4张£7.99→约£2.0-3.0（25-38%，取决于采购价），如采购价超¥5.5/张则该品利润跌破25%红线，采购时优先比价。",
+  "sources": [
+    "Amazon UK Movers & Shakers（2026-09-07检索，kitchen/fashion/grocery三tab，实际品类可见项）",
+    "Primark UK官网在售：2pk Novelty Halloween Tea Towels £5；Primark万圣节装饰探店（Liverpool Echo，£4-18价位）",
+    "TK Maxx UK：Two Pack Grey Halloween Bat Tea Towels 46×71cm £5.99；XS-Stock.co.uk：2 Pack Halloween Tea Towels £4.99",
+    "Liverpool Echo 2026-09：Aldi 2026万圣节中岛完整清单（9/27上架，含Scratch/foil art £1.99、Halloween baking assortment £2.99）；Home Bargains万圣节系列报道",
+    "Matalan：Halloween Scratch Art Book在售；Partyrama/PartyPacks UK：万圣节刮画套装在售",
+    "Amazon US实测竞品：halloween scratch kit 24片仅8条review、4E's Novelty 25片10条review；Happy Halloween Towels Set of 2 69条review 4.1星",
+    "Yiwugo/1688实价：彩虹刮画35件套¥5.5-6.0、A4刮画纸10张¥2.05、异形刮刮卡¥0.25-0.35/张、圣诞3D立体贺卡¥6.5/张",
+    "Faire Holiday 2026批发采购指南（Christmas decor +118%、8-10月采购窗口）",
+    "皇家邮政圣诞季寄卡传统（英国寄卡高峰11月起）",
+    "注：圣诞DIY拉炮候选被淘汰——拉炮芯(爆破条)在英国被归类爆炸物（MadebyClare UK供应商明示），1688主流'礼花筒'含气瓶/电子件，空运/卡航通关风险高，弃用"
+  ]
+}
