@@ -1,0 +1,227 @@
+{
+  "scan_date": "2026-09-07",
+  "scan_time": "08:51",
+  "scan_ts": "2026-09-07_0851",
+  "stats": {
+    "total_scanned": 17,
+    "passed_filter": 0,
+    "rejected": 17,
+    "channels": {},
+    "detail_reject": {},
+    "theme_trimmed": [],
+    "trend_categories": {},
+    "supply_demand": {},
+    "divergences": {
+      "bathroom": {
+        "current_heat": 28,
+        "previous_heat": 27,
+        "heat_change_pct": 3.7,
+        "direction": "stable",
+        "dates": [
+          "2026-09-05_0850",
+          "2026-09-05_1710"
+        ]
+      },
+      "car": {
+        "current_heat": 72,
+        "previous_heat": 73,
+        "heat_change_pct": -1.4,
+        "direction": "stable",
+        "dates": [
+          "2026-09-05_0850",
+          "2026-09-05_1710"
+        ]
+      },
+      "office": {
+        "current_heat": 72,
+        "previous_heat": 77,
+        "heat_change_pct": -6.5,
+        "direction": "stable",
+        "dates": [
+          "2026-09-05_0850",
+          "2026-09-05_1710"
+        ]
+      },
+      "pets": {
+        "current_heat": 100,
+        "previous_heat": 65,
+        "heat_change_pct": 53.8,
+        "direction": "rising",
+        "dates": [
+          "2026-09-05_0850",
+          "2026-09-05_1710"
+        ]
+      },
+      "crafts": {
+        "current_heat": 100,
+        "previous_heat": 100,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-09-05_0850",
+          "2026-09-05_1710"
+        ]
+      },
+      "travel": {
+        "current_heat": 41,
+        "previous_heat": 32,
+        "heat_change_pct": 28.1,
+        "direction": "stable",
+        "dates": [
+          "2026-09-05_0850",
+          "2026-09-05_1710"
+        ]
+      },
+      "phone": {
+        "current_heat": 72,
+        "previous_heat": 73,
+        "heat_change_pct": -1.4,
+        "direction": "stable",
+        "dates": [
+          "2026-09-05_0850",
+          "2026-09-05_1710"
+        ]
+      },
+      "beauty": {
+        "current_heat": 50,
+        "previous_heat": 48,
+        "heat_change_pct": 4.2,
+        "direction": "stable",
+        "dates": [
+          "2026-09-05_0850",
+          "2026-09-05_1710"
+        ]
+      },
+      "kitchen": {
+        "current_heat": 58,
+        "previous_heat": 48,
+        "heat_change_pct": 20.8,
+        "direction": "stable",
+        "dates": [
+          "2026-09-05_0850",
+          "2026-09-05_1710"
+        ]
+      },
+      "eco": {
+        "current_heat": 85,
+        "previous_heat": 82,
+        "heat_change_pct": 3.7,
+        "direction": "stable",
+        "dates": [
+          "2026-09-05_0850",
+          "2026-09-05_1710"
+        ]
+      },
+      "seasonal": {
+        "current_heat": 76,
+        "previous_heat": 69,
+        "heat_change_pct": 10.1,
+        "direction": "stable",
+        "dates": [
+          "2026-09-05_0850",
+          "2026-09-05_1710"
+        ]
+      },
+      "lighting": {
+        "current_heat": 76,
+        "previous_heat": 90,
+        "heat_change_pct": -15.6,
+        "direction": "stable",
+        "dates": [
+          "2026-09-05_0850",
+          "2026-09-05_1710"
+        ]
+      },
+      "cleaning": {
+        "current_heat": 4,
+        "previous_heat": 4,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-09-05_0850",
+          "2026-09-05_1710"
+        ]
+      },
+      "home decor": {
+        "current_heat": 67,
+        "previous_heat": 61,
+        "heat_change_pct": 9.8,
+        "direction": "stable",
+        "dates": [
+          "2026-09-05_0850",
+          "2026-09-05_1710"
+        ]
+      },
+      "kitchen_gadgets": {
+        "current_heat": 4,
+        "previous_heat": 4,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-09-05_0850",
+          "2026-09-05_1710"
+        ]
+      },
+      "storage": {
+        "current_heat": 28,
+        "previous_heat": 8,
+        "heat_change_pct": 250.0,
+        "direction": "rising",
+        "dates": [
+          "2026-09-05_0850",
+          "2026-09-05_1710"
+        ]
+      },
+      "baby": {
+        "current_heat": 13,
+        "previous_heat": 8,
+        "heat_change_pct": 62.5,
+        "direction": "rising",
+        "dates": [
+          "2026-09-05_0850",
+          "2026-09-05_1710"
+        ]
+      },
+      "sports": {
+        "current_heat": 9,
+        "previous_heat": 27,
+        "heat_change_pct": -66.7,
+        "direction": "falling",
+        "dates": [
+          "2026-09-05_0850",
+          "2026-09-05_1710"
+        ]
+      },
+      "garden": {
+        "current_heat": 58,
+        "previous_heat": 42,
+        "heat_change_pct": 38.1,
+        "direction": "rising",
+        "dates": [
+          "2026-09-05_0850",
+          "2026-09-05_1710"
+        ]
+      },
+      "bedding": {
+        "current_heat": 30,
+        "previous_heat": 48,
+        "heat_change_pct": -37.5,
+        "direction": "falling",
+        "dates": [
+          "2026-09-05_0850",
+          "2026-09-05_1710"
+        ]
+      }
+    },
+    "gap_opportunities": 0
+  },
+  "products": [],
+  "gaps": [],
+  "trend_summary": {
+    "top_categories": [],
+    "cross_validated": [],
+    "demand_keywords": [],
+    "season": "",
+    "sources_scanned": []
+  }
+}
