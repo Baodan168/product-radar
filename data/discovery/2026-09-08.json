@@ -1,0 +1,88 @@
+{
+  "date": "2026-09-08",
+  "updated_at": "2026-09-08T08:25:00+08:00",
+  "scan_date": "2026-09-08",
+  "scan_time": "08:10",
+  "summary": "9月8日：基于GBBO 2026官宣开播日（Channel 4确认9月22日周二20:00，Nigella首秀，8月25日trailer已引爆预热）+Jellycat包挂平替潮（Primark £4平替被媒体/TikTok验证、官方秋季系列7月已上市）+1688供应链实价验证。推荐3个新机会：饼干模具+糖霜镂空板combo（US站同款仅9条review、Wilton UK垂直站断货）、毛绒食物包挂平替（义乌购¥3.3-4.6现货、2个起批）、烘焙围裙gift款（GBBO官方Lakeland围裙断货下架、CRUK £9.99在售锚点）。全部非电子、卡航/快铁、不重复历史推荐（09-01~09-07已推荐万圣节讨糖桶/窗贴/刮画/茶巾/蛋糕插牌/南瓜雕刻工具/冰格、圣诞贺卡/倒计时布袋/礼品袋/三角巾、午餐盒切边器/水果叉/封口夹等均避开）。⚠️本批不含液体膏体；1个推荐（烘焙围裙）存在重量临界风险已显著标注。3个均为新品推荐（is_new=True，无重复扫描）。",
+  "insights": [
+    {
+      "keyword": "cookie cutter and stencil set for baking",
+      "keyword_cn": "饼干模具+糖霜镂空板2合1套装（GBBO开播带火的烘焙仪式感单品）",
+      "amazon_keyword": "cookie cutter stencil set, biscuit cutter set uk, cookie decorating kit, fondant stencils for baking",
+      "search_1688": "饼干模具 不锈钢 套装 / 糖霜镂空板 印花模 PET / 翻糖印花模 饼干喷花模",
+      "demand_signals": [
+        "GBBO 2026确认9月22日周二20:00 Channel 4开播，Nigella Lawson首秀（tvzoneuk/Channel 4官方，8-9月报道）——全英最大烘焙IP回归，历史上每季开播都带动'bake off'相关搜索和烘焙工具销售脉冲",
+        "Channel 4官方8月25日trailer发布官宣'the new series starts next month'，预热已开始（channel4.com/press 2026-08-25）——9月上旬正是listing蓄力窗口，开播即有自然流量",
+        "US站Konsait 36片万圣节饼干镂空板仅9条review（4.8星，Amazon.com实抓）——烘焙镂空板细分在主力站供给极薄；AK ART KITCHENWARE模具+镂空combo同样低review",
+        "UK垂直渠道Wilton饼干模具+镂空板套装£3.99在The Vanilla Valley已out of stock、PME南瓜款在售——英国本土烘焙垂直渠道对'模具+镂空'2合1有既定需求且现断货",
+        "CRUK/Lakeland等在售GBBO官方烘焙周边£9.99-12.99（围裙/礼物bundle）——官方周边价格锚点高，通用款£7.99有明显性价比空间"
+      ],
+      "trend_score": 80,
+      "trend_direction": "up",
+      "reason": "GBBO是英国9月确定性最强的国家级流量事件（连续多年9月开播、2026年官宣9月22日），烘焙小工具是开播后'边看边买'的直接转化品类。饼干模具基础款虽是红海，但'模具+糖霜镂空板'2合1套装在US站仅个位数review、UK垂直站断货，供给差成立。产品不锈钢模具+PET镂空板组合约100-150g、平片包装，完全符合轻小件红线。风险：不能用GBBO/Bake Off/Star Baker字样（均为Love Productions注册商标，CRUK页面明确标注®），listing只能走'cookie decorating kit'通用词。",
+      "action": "007店测款。采购关键词：1688'不锈钢饼干模具套装'+'糖霜镂空板 印花模'拼套（单套估¥5-8，需询价确认，优先选含万圣节+秋季双主题镂空片），凑单后空运，单次≤60件。定价£7.99。listing关键词'cookie cutter and stencil set / cookie decorating kit'，卖点=2合1、食品级304不锈钢、可重复用。主图做'模具压形→镂空板撒糖霜→成品'三步图。⚠️严禁标题/五点出现GBBO、Bake Off、Star Baker、Nigella等商标词，违者IP筛查不过。",
+      "competition": "Amazon UK'cookie cutter set'基础款是红海（多为中国卖家、review数百到数千），但'cutter+stencil combo'细分轻：US站9条review/低竞争、UK站同类少。差异化=组合形态+分主题套装（万圣节/秋季/圣诞三选）+三步教程图。诚实评估：蹭的是GBBO开播流量而非长线蓝海，窗口约6-8周，10月底前清仓换圣诞主题镂空片。",
+      "signal_scores": {
+        "trend": 80,
+        "gap": 76,
+        "profit": 78,
+        "final": 78,
+        "recommendation": "high",
+        "profit_window": "9月22日开播前上架吃预热流量，9-10月主窗口，10月最后一周转圣诞主题款"
+      }
+    },
+    {
+      "keyword": "plush food bag charm keyring",
+      "keyword_cn": "毛绒食物包挂/钥匙扣（Jellycat平替方向，规避商标词版）",
+      "amazon_keyword": "plush bag charm, food keyring cute, plush keychain for bags, cute bag accessory charm",
+      "search_1688": "毛绒挂件 食物 钥匙扣 / 仿真食物毛绒公仔 包挂 / 可颂 挂件 毛绒 义乌",
+      "demand_signals": [
+        "Primark£4的'Jellycat lookalike'可颂包挂被Manchester Evening News报道+TikTok博主Beth Alexandra视频传播——主流媒体确认'包挂平替'是当下英国消费话题",
+        "Jellycat官方2026秋季系列7月上市、TikTok #jellycatcollection开箱视频密集（autumn Jellycat 2026标签页实抓：Fenwicks/多店铺上新内容）——官方热度持续抬升，平替需求跟随",
+        "whowhatwear确认plushie bag charm是被Khaite/Prada等秀场+明星（Labubu挂包）推动的2026持续趋势，非单季快闪——trend生命周期还有至少2-3个季度",
+        "1688供应链实价已验证：义乌购毛绒食物挂件¥3.31-3.68（10个起购，奶酪/咖啡杯款）、酷萌玩具厂¥4.18-4.56（2个起批，牛角包/瑞士卷/汉堡现货）、PVC软胶款¥0.65-0.75（1200起批）——小批量现货充足，60件起订无压力",
+        "复购/送礼属性：包挂是£5-8价位冲动购买+口袋礼物常客，与Lee的'品牌平替是机会'选品策略完全对口"
+      ],
+      "trend_score": 78,
+      "trend_direction": "up",
+      "reason": "包挂潮从2023 Birkin-ification起源、2024-2025 Jellycat病毒式传播、2026进入'平替放量'阶段——Primark用£4验证了大众市场接受度，而Amazon UK该细分仍以散款为主、无强势头部品牌。义乌现货¥3.3-4.6+售价£6.99-7.99，单件毛利空间>40%，重量30-60g是全场最轻SKU。风险点明确：listing严禁出现Jellycat/Amuseable/Labubu等任何商标词（MEMORY选品IP筛查红线：标题关键词也可能侵权），只做'cute plush food charm'通用描述，选'食物/甜品'造型而非仿制Jellycat在售角色造型（造型相似度过高也有侵权投诉风险，选原创感觉的甜品造型如蛋糕/马卡龙/奶茶杯）。",
+      "action": "027店测款（027启动期、单价低风险小，适合首批测品）。采购关键词：1688/义乌购'毛绒食物挂件 钥匙扣'，选蛋糕/马卡龙/奶茶杯/碱水面包等原创甜品造型（避Jellycat在售角色），带合金龙虾扣，单件实测≤60g，一次凑3-5款各12-15件共60件拼箱空运。定价£6.99（或4款£24.99组合提客单）。listing主打'cute plush bag charm + gift for her + bag accessory'，禁用一切品牌词。",
+      "competition": "Amazon UK搜'plush bag charm'：散款中国卖家为主、review普遍两位数内、无绝对头部；Jellycat官方£22.99（Waterstones渠道）把价格天花板拉得很高，£6.99平替段竞争最稀疏。差异化=甜品造型组合装（4件套gift-ready包装）。诚实提示：该品类退货率低但内容属性强，主图颜值决定转化，需认真拍图/做场景图。",
+      "signal_scores": {
+        "trend": 78,
+        "gap": 80,
+        "profit": 85,
+        "final": 79,
+        "recommendation": "high",
+        "profit_window": "全年款+秋冬季叠加（Jellycat秋季新品热度），11月可无缝转姜饼人圣诞造型第二波"
+      }
+    },
+    {
+      "keyword": "baking apron for women gift",
+      "keyword_cn": "烘焙主题围裙（GBBO官方同款断货、gift定位款）",
+      "amazon_keyword": "baking apron gift, star baker style apron, kitchen apron cotton women, baking gifts for bakers",
+      "search_1688": "棉围裙 成人 印花 / 烘焙围裙 可爱 礼盒 / 厨房围裙 全棉 定制logo",
+      "demand_signals": [
+        "GBBO官方周边：Cancer Research UK在售'Star Baker Apron 2026'£9.99仅剩11件low stock（官方商店实抓）——官方联名款卖断货中",
+        "Lakeland官方GBBO Star Baker围裙£12.99已discontinued下架——官方供给缺位，需求无处承接（Lakeland官网实抓）",
+        "All Tied Up UK定制Star Baker围裙卖£16.95且37色可选——中端定制市场验证£15+价位有人买单，通用款£8.99有双倍性价比",
+        "Amazon.ie上GBBO官方围裙+手套套装4.5星好评、2026年2月还有'Perfect for any GBBO fan'新评——官方纺织周边口碑扎实、需求被反复验证",
+        "GBBO 2026开播日官宣（9月22日）是围裙品类的直接引爆点：看节目→入坑烘焙→买装备的转化链路成熟"
+      ],
+      "trend_score": 70,
+      "trend_direction": "up",
+      "reason": "GBBO开播是围裙品类一年一度的最大脉冲，而2026年官方渠道（Lakeland断货+CRUK low stock）恰好出现供给缺位，时间差罕见。但诚实说：通用厨房围裙在Amazon UK是红海（Vicloon等中国卖家几百上千review），只有打'烘焙gift'细分+设计差异化才有一席之地，因此trend_score只给70、推荐等级medium。⚠️重量风险：全棉围裙单件180-260g，200g红线临界，必须拿样实测，超重则放弃或走FBA小包裹档重算利润（净利率会掉5-8个点）。",
+      "action": "027店测款（先拿1-2个样品确认克重再下单，本批不盲订）。采购关键词：1688'棉围裙 成人 印花 烘焙'，选涤棉混纺轻薄款（目标≤190g）+礼盒化吊牌，设计走'星星+格子裙边'烘焙风但禁止任何GBBO/Star Baker商标字样（Love Productions注册商标，星形图案本身可用）。定价£8.99。listing关键词'baking apron women gift + adjustable + with pockets'，卖点=gift-ready包装+可调节。⚠️若样品实测>200g：直接放弃此款，改推围裙+烤箱手套套装（走大件不划算则砍掉）。",
+      "competition": "Amazon UK'kitchen apron'通用款红海（头部Vicloon等数百上千review），'baking gift'细分竞争中等；官方GBBO周边断货是唯一窗口。差异化=gift包装+设计感。诚实评估：这是'借势款'而非'长线款'，利润中等、有重量门槛，排本批第3优先级——007/027有富余测款额度才做，样品克重不达标即放弃。",
+      "signal_scores": {
+        "trend": 70,
+        "gap": 66,
+        "profit": 68,
+        "final": 68,
+        "recommendation": "medium",
+        "profit_window": "9月22日开播前上架，9月底-10月中两周峰值，10月20日后无流量"
+      }
+    }
+  ],
+  "trend_forecast": "① 9月第2-3周（至9/22开播日）：GBBO 2026预热期。Channel 4已于8月25日发布trailer官宣9月22日周二20:00开播，Nigella Lawson接替Prue Leith首秀是今年最大话题点。烘焙小工具（饼干模具、裱花嘴套装、蛋糕展示架）、烘焙主题纺织（围裙、烤箱手套）、'baking gift'关键词搜索将在开播前一周开始爬坡。动作：本批推荐的cookie cutter+stencil套装和烘焙围裙务必在9月20日前上架，listing五点埋'bake off style'场景词（注意商标红线），开播当晚是转化峰值。② 9月第2周-10月22日：万圣节后半场（half-term驱动）。英国学校10月底half-term（多数郡10月26-30日）前的儿童活动、party bag填充物需求持续走高。此前已推荐的刮画套装、讨糖桶、窗贴、蛋糕插牌继续吃流量；10月15日后不再补万圣节新货，10月25日后开始清尾，避免节后压货。③ 10月上旬-11月5日：Bonfire Night窗口。Guy Fawkes夜的烟花派对带动户外/家庭派对场景用品（派对桌布、夜光类、火漆信封等），但该场景往年Amazon UK供给杂乱、需求体量不如万圣节，建议在下次扫描中用'bonfire party'关键词验证后再决定是否入场，本批不推荐无实据品类。④ 10月中-11月底：圣诞卡寄送季启动。英国圣诞卡文化根深蒂固（人均寄卡量全球最高之一），Royal Mail圣诞最后寄送日期通常12月18-20日，贺卡+信封+装饰丝带的采购需求10月中旬开始爬坡。09-07已推荐的圣诞3D立体贺卡套装正好卡位；可延伸观察：圣诞信封贴纸/封口贴、卡片收纳盒。⑤ 11月整月：包挂潮圣诞档。Jellycat官方每年11月推出圣诞系列（2026年Festive Folly姜饼人Ruby/Fred包挂已在 retailers上架），包挂平替可无缝转'gingerbread plush charm'圣诞造型第二波——本批推荐的毛绒食物包挂供应商（酷萌玩具厂）已有姜饼人/圣诞系列现货，11月初直接换款不换供应链。⑥ 11月底-12月：Black Friday避战策略。轻小件低价红海品（£5-8冲动消费品）在BF期间会被大卖家价格战碾压，建议BF期间不做新测款，把预算留给gift set组合装（提客单到£15-25）和已验证款的库存深度，12月1日advent季启动后再上圣诞新品。综合：9月是'GBBO烘焙线+万圣节清尾线'双线并行的月份，10月起重心切向圣诞卡+包挂圣诞档，节奏上避免在同一周重叠过多新品上架（三店测品产能有限，优先GBBO款9/22前、包挂9月中、围裙视样品克重定去留）。"
+}
