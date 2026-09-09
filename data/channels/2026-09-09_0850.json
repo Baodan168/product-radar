@@ -1,0 +1,142 @@
+{
+  "scan_date": "2026-09-09",
+  "scan_time": "08:50",
+  "scan_ts": "2026-09-09_0850",
+  "stats": {
+    "total_scanned": 58,
+    "passed_filter": 2,
+    "rejected": 56,
+    "channels": {
+      "new_releases": 2
+    },
+    "detail_reject": {
+      "重量超标": 1
+    },
+    "theme_trimmed": [],
+    "trend_categories": {},
+    "supply_demand": {},
+    "divergences": {},
+    "gap_opportunities": 0
+  },
+  "products": [
+    {
+      "asin": "B0HBP5SSKT",
+      "name": "Ground Bird Feeder Weatherproof Small Round Birding Tool | Garden Bird Feeder for Watching Viewing Feeding Round Food Wa",
+      "price": 11.1,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 16,
+      "category": "Pets",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HBP5SSKT",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71CkrT8JTVL._AC_UL300_SR300,200_.jpg",
+      "profit_margin": 0.459,
+      "net_profit": 5.1,
+      "cost_breakdown": {
+        "vat": 1.85,
+        "commission": 0.56,
+        "fba": 1.46,
+        "ads": 1.11,
+        "returns": 0.22,
+        "sourcing": 0.8,
+        "total_cost": 6.0
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 仅Amazon",
+      "external_sources": [],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 37,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "⚪ 仅Amazon": -10,
+        "⏳ 待验证": -8,
+        "💰 超高利润": 12,
+        "📉 无需求信号": -15,
+        "📊 持续上升": 8
+      },
+      "stars": 1,
+      "is_new": false,
+      "first_seen": "2026-09-03",
+      "is_event": false,
+      "channel_tags": [
+        "new_releases"
+      ]
+    },
+    {
+      "asin": "B0H8HVWC9C",
+      "name": "Hummcqit 2 Pcs Aquarium Plant Holder Transparent Hanging Fish Tank Planter Cup with Suction Cups for Aquaponic Plants Hy",
+      "price": 8.99,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 10,
+      "category": "Pets",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H8HVWC9C",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/41n3B9VAGVL._AC_UL300_SR300,200_.jpg",
+      "profit_margin": 0.412,
+      "net_profit": 3.7,
+      "cost_breakdown": {
+        "vat": 1.5,
+        "commission": 0.45,
+        "fba": 1.46,
+        "ads": 0.9,
+        "returns": 0.18,
+        "sourcing": 0.8,
+        "total_cost": 5.29
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 仅Amazon",
+      "external_sources": [],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 29,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "⚪ 仅Amazon": -10,
+        "⏳ 待验证": -8,
+        "💰 超高利润": 12,
+        "📉 无需求信号": -15,
+        "📊 持续上升": 8,
+        "⚠️ 未验证": -8
+      },
+      "stars": 1,
+      "is_new": false,
+      "first_seen": "2026-09-03",
+      "is_event": false,
+      "channel_tags": [
+        "new_releases"
+      ]
+    }
+  ],
+  "gaps": [],
+  "trend_summary": {
+    "top_categories": [],
+    "cross_validated": [],
+    "demand_keywords": [],
+    "season": "",
+    "sources_scanned": []
+  }
+}
