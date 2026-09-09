@@ -1,0 +1,136 @@
+{
+  "date": "2026-09-09",
+  "updated_at": "2026-09-09T08:20:00+08:00",
+  "scan_date": "2026-09-09",
+  "scan_time": "08:15",
+  "summary": "今日5个机会全部来自Amazon UK Home & Kitchen实抓（Best Sellers + Hot New Releases 2026-09-09当日榜单）+ 英国主流媒体交叉验证。主线两条：①园艺末班车——RHS认定9月是全年草坪养护+球茎种植最佳月，麻线/植物绑扎带是当月峰值品类，Hot New Releases前40位出现约20个麻线/garden tie新品（供给端挤兑验证）；②圣诞包装提前量——2026环保/北欧风包装被三源确认为确定趋势，PCP吊牌+麻线组合4.7星1,660条review验证大盘，£9.99组合礼盒形态存在供给差。全部轻小件、无电子、无液体，空运直发。",
+  "insights": [
+    {
+      "keyword": "natural jute garden twine 3 pack",
+      "keyword_cn": "花园麻线/园艺麻绳3卷装（草坪养护+球茎季绑扎刚需）",
+      "amazon_keyword": "garden twine 3 pack, jute twine 100m, plant string for climbing plants, garden string heavy duty",
+      "search_1688": "黄麻绳 园艺麻绳 100米 / 麻线卷 3股 绑扎 / garden twine 2mm 工厂直供",
+      "demand_signals": [
+        "Amazon UK Hot New Releases (Home & Kitchen) 2026-09-09实抓：前40位新品中约20条为麻线/garden tie/plant wire条目（Zuvo 100m、ijijAcraft 50m、20M Jute Rope等中国卖家新品密集涌入），供给端验证需求爆发",
+        "RHS官方秋季草坪指南：9-10月是scarify/aerate/overseed唯一最佳窗口，修剪下的枝条绑扎、爬藤植物系绳需求9月达到全年峰值（来源：rhs.org.uk/lawns/autumn-care）",
+        "gardenuk.co.uk 9月种植指南：9月是全年最重要种植月，水仙/番红花/葱属球茎9月底前必须下地（绑扎支撑+定型需求），番茄藤系绳延续到初霜",
+        "1688/工厂站实抓：EDAR工厂直供100m黄麻线卷MOQ 1000件、出厂价¥3-5/卷级，零售拼套¥6-8/3卷仍有充足毛利空间",
+        "双场景加成：christmassacks.co.uk 2026礼品包装趋势文点名jute twine是牛皮纸包装核心材料——10月起自动叠加圣诞包装场景"
+      ],
+      "trend_score": 78,
+      "trend_direction": "up",
+      "reason": "9月是英国园艺全年最忙的月份（RHS背书），而麻线恰是这个月被买爆的低单价耗材——Hot New Releases中国卖家新品一夜涌入20+条说明需求已被市场验证。但现有新品全是'单卷100m'同质形态，'3卷装+附赠麻线剪/标签牌'的组合差异化空位明显。季节性明确：9月峰值、10月上半月衰减、10月起转圣诞包装场景接力。",
+      "action": "007店测款。1688采购关键词：'黄麻绳 园艺 100米 3股'+'麻线卷 绑扎带'，3卷×50m小卷径（好收纳是卖点）+赠1把迷你麻线剪+10张牛皮纸标签，单套¥6-8，凑单空运，单次≤60套。定价£8.99，主图做'草坪铺线→绑扎番茄藤→礼品包装'三场景图。10月起listing文案切换圣诞包装场景吃第二波流量。",
+      "competition": "诚实评估：garden twine基础款单卷竞争者多（Amazon Basics、Jute品牌），但3卷组合形态+赠品差异化在UK站当前review数普遍<50（新品位为空）。竞品单价£4.99-9.99混乱、评分3.9-4.6，说明品质参差——用'低臭味+3股手工捻制+不掉色'卖点卡4.7星定位可切。",
+      "signal_scores": {
+        "trend": 78,
+        "gap": 72,
+        "profit": 82,
+        "final": 76,
+        "recommendation": "high",
+        "profit_window": "9月中-11月初（草坪+球茎季峰值），10月起叠加圣诞包装场景，利润窗口约8周"
+      }
+    },
+    {
+      "keyword": "christmas twine and gift tags set",
+      "keyword_cn": "圣诞包装麻线+牛皮纸吊牌组合礼盒（环保北欧风包装趋势）",
+      "amazon_keyword": "christmas twine and tags set, gift wrapping kit, kraft paper gift tags christmas, baker twine red white",
+      "search_1688": "圣诞棉线 3色装 100米 / 牛皮纸吊牌 圣诞 50张 / 礼品包装绳组合 红白黑",
+      "demand_signals": [
+        "PCP 100片吊牌+30m麻线组合Amazon UK实抓：£3.99、4.7星、1,660条review——吊牌+麻线是已被验证的大盘品类，且竞品数量少（同类仅个位数卖家）",
+        "2026圣诞包装趋势三源交叉确认：christmassacks.co.uk（8/14发文）、partydress.uk、Nicholas & Rose均点名'牛皮纸+jute twine/再生材质'是2026确定趋势，furoshiki布包回潮（来源：本次搜索3个独立站点）",
+        "英国是欧洲寄圣诞卡量最大的市场，12月寄卡+包装为全民刚需，8月中旬内容站已开更圣诞话题——2026圣诞内容周期启动早于往年",
+        "Kraft吊牌吸墨/可手写DIY属性与2026'手工感包装'趋势（craftwithcartwright 2026趋势报告）完全咬合"
+      ],
+      "trend_score": 76,
+      "trend_direction": "up",
+      "reason": "竞品PCP用£3.99低单价验证了'吊牌+麻线'的需求真实性，但低价带没有利润空间——供给差在£9.99圣诞礼盒形态：3色棉线卷（红/白/黑）+50张圣诞主题吊牌+装饰麻绳球，做'包装即礼物'的礼盒包装。圣诞内容期8月中已启动，10月第2周前上架可吃满预热流量，是典型的窗口型机会。",
+      "action": "007店测款（027可跟）。1688采购关键词：'圣诞棉线 三色 100米'+'牛皮纸吊牌 圣诞图案 50张'+'圣诞麻绳球装饰'，单套成本¥10-13，凑单空运≤60套。定价£9.99。listing关键词'christmas gift wrapping set'，主图突出'3色线+50吊牌+装饰球'全组合平铺图+圣诞树包装使用场景。⚠️吊牌图案避开迪士尼/PEPPA等IP形象，用雪花/圣诞树/英文祝语通用元素。",
+      "competition": "PCP 1,660条review£3.99是低价霸主但形态单薄；£8-12组合礼盒带当前几乎空位。诚实评估：12月中后流量断崖，11月30日后必须停止补货；与低价霸主正面竞争靠形态差异而非价格。",
+      "signal_scores": {
+        "trend": 76,
+        "gap": 62,
+        "profit": 82,
+        "final": 72,
+        "recommendation": "high",
+        "profit_window": "10月初-12月15日主窗口，9月底前上架吃预热，12/15后停补"
+      }
+    },
+    {
+      "keyword": "iron on hemming tape 2 pack",
+      "keyword_cn": "免缝补边烫贴/裤脚贴2卷装（visible mending潮流+换季刚需）",
+      "amazon_keyword": "iron on hemming tape, no sew hem tape trousers, fabric fusing tape 2 pack, hemming web double sided",
+      "search_1688": "双面烫衬布 免缝 补边 / 裤脚贴 热熔胶带 20米 / 服装辅料 熨烫粘合衬 卷装",
+      "demand_signals": [
+        "Amazon UK Best Sellers (Home & Kitchen)实抓：Klangfeiler Hemming Tape 30M×2CM常驻Top40——免缝补边是已验证的大盘品类，且为德系高价主导、中国卖家替代空间明显",
+        "craftwithcartwright.co.uk《Craft Trends 2026》：visible mending（可见修补）+sashiko是2026核心手工趋势，'修补而非丢弃'心智在持续升温",
+        "10-11月英国进入室内取暖季+校裤裤脚修改开学期，换季穿衣翻新带动修补耗材需求（2025年同期同品类BSR走势平稳向上）",
+        "1688成本结构：¥5-7/卷、2卷装¥7内，轻至80g/2卷，是无品牌溢价的基础辅料——利润结构全品类最干净之一"
+      ],
+      "trend_score": 70,
+      "trend_direction": "up",
+      "reason": "Klangfeiler独占£7-10价位多年、review集中在品牌方，中国卖家在UK站的2卷装+多色款review稀少。2026 visible mending趋势给这个传统品类叠加了'可持续'叙事（listing卖点可写'sustainable clothes repair'），是给老品类讲新故事的典型机会。常青属性强，不依赖节日窗口。",
+      "action": "027店测款。1688采购关键词：'双面烫衬 免缝 20米'+'裤脚贴 热熔'，2卷装¥5-7，凑单空运≤60套。定价£7.99。差异化=2卷装（黑/白/藏青三色选）+附中文/英文图解说明卡（竞品普遍无说明卡，差评集中在'不会用'）。卖点顺序：no-sew→10秒熨烫完成→machine washable→sustainable repair。",
+      "competition": "诚实评估：Klangfeiler是德系老牌、review数百条、品牌信任度高，正面刚不过品牌力。切法=价格带£7.99对位+双卷+说明卡差异化+多色选。风险=低价带£3-5有散装竞品拉低客单，避开打£7.99品质带。",
+      "signal_scores": {
+        "trend": 70,
+        "gap": 74,
+        "profit": 84,
+        "final": 75,
+        "recommendation": "high",
+        "profit_window": "常青款无节日窗口，10-11月修补季需求峰值，可长期留店铺货架"
+      }
+    },
+    {
+      "keyword": "gingham ribbon set 12 rolls",
+      "keyword_cn": "格纹丝带12卷套装（2026秋季'it'图案+手工包装双场景）",
+      "amazon_keyword": "gingham ribbon set, checkered ribbon 12 rolls, plaid ribbon for crafts, autumn ribbon gift wrapping",
+      "search_1688": "格纹丝带 罗纹带 12色 / 现货检查带 缎带 卷装 / gingham ribbon 3色系 秋冬",
+      "demand_signals": [
+        "Ideal Home 2026-09-02实抓：Dunelm Posie格纹边柜被编辑部称为'2026秋最重要单品'并预判售罄，gingham被明确点名是本季homeware+时尚双线主推图案（'this year it's one of the biggest autumn home decor trends'）",
+        "Lidl Autumnal Living系列9月10日全国上市（£2.99起），'autumn decor'搜索量同比暴增5,000%+（vergemagazine.co.uk 2026-09-04）——平价秋季装饰进入情绪高点",
+        "christmassacks.co.uk 2026包装趋势：'layering ribbons and twine'被列为2026核心包装手法——丝带是包装耗材的直接上位替代品类",
+        "1688成本：格纹罗纹带¥0.3-0.5/米级、12卷×2m¥5-7，丝带类目为中国供应链绝对优势品类"
+      ],
+      "trend_score": 72,
+      "trend_direction": "up",
+      "reason": "格纹是2026秋被主流家居媒体盖章的'it'图案，但Amazon UK'gingham ribbon'当前重度SKU稀少（多为单卷白婚纱款、无秋冬季色系套装）。焦糖/锈橙/藏青3色系×12卷+赠30张DIY吊牌的组合在UK站基本是空位，跟Dunelm/Lidl的线下热度形成线上线下联动需求。",
+      "action": "027店测款。1688采购关键词：'格纹丝带 秋冬 3色系 12卷'+'罗纹带 手工DIY卷装'，单套¥5-7，凑单空运≤60套（约180g/套）。定价£8.99。主图做'包装礼物+手工发饰+花艺装饰'三用途平铺图，颜色命名跟趋势走（burnt orange/sage green/chocolate——Primark同款热销色名）。10月后切换圣诞红绿格纹色系做第二批。",
+      "competition": "诚实评估：'ribbon set'泛词是红海（中国卖家密集），但'gingham/checkered 12卷秋色系'细分review稀少（多数<80条）。差异化=秋冬季色系卡位+赠品组合，避开婚纱白/纯色基础款红海。",
+      "signal_scores": {
+        "trend": 72,
+        "gap": 78,
+        "profit": 84,
+        "final": 76,
+        "recommendation": "high",
+        "profit_window": "9月中-12月初（gingham秋冬双季+圣诞包装叠加），10月第2周前补圣诞色系第二批"
+      }
+    },
+    {
+      "keyword": "vintage brass snail figurine set 3",
+      "keyword_cn": "复古黄铜蜗牛摆件3件套（茶宠/办公桌治愈系小物）",
+      "amazon_keyword": "brass snail figurine set, vintage animal ornaments desk, small brass ornaments home, tea pet brass set",
+      "search_1688": "黄铜蜗牛摆件 迷你 / 合金动物摆件 3件套 / 复古铜色 桌面小摆件 工厂现货",
+      "demand_signals": [
+        "Amazon UK Hot New Releases (Home & Kitchen) 2026-09-09实抓：Solvio Vintage Brass Snail Figurine Set新品在榜——供给端刚有新品冒头，属于趋势早期",
+        "Verge Magazine 2026内装趋势'JoyMaxxing'：围绕'快乐与个性'布置家居成为2026主叙事，趣味小摆件是该趋势核心品类（引述自9月4日Lidl文内趋势背书）",
+        "茶宠/桌面萌宠摆件延续TikTok桌面美学潮流（golden tea pet方向），办公桌治愈系小物在Q4'同事礼物/白象礼物'场景放量",
+        "1688成本：合金/树脂镀铜小摆件¥3-6/只，3件套¥10-14，单套约120g"
+      ],
+      "trend_score": 64,
+      "trend_direction": "up",
+      "reason": "黄铜色小动物摆件在UK站review普遍<100、无品牌集中，Solvio新品刚进Hot New Releases说明品类正在被平台流量眷顾。'蜗牛'自带慢生活/治愈心智文案空间（slow living/tea pet/desk buddy三重卖点），比常规招财猫/小鹿摆件的同质化程度低。",
+      "action": "027店试水单（谨慎仓位）。1688采购关键词：'黄铜色蜗牛摆件'+'合金迷你动物摆件 3件套'，单套¥10-14，空运≤40套试水。定价£8.99。卖点=复古黄铜氧化质感+3只不同姿态+办公室/书桌/茶盘三场景。⚠️工艺红线：选实心合金+烤漆封闭层（差评重灾区=电镀层掉色露出锌合金），采购前索样确认。",
+      "competition": "诚实评估：摆件类目整体review中位数十级、无垄断，但£8.99客单下利润率25.9%是5品中最低（采购成本占比高）。风险=黄铜电镀工艺差评；如样品工艺不达标直接放弃，不硬推。",
+      "signal_scores": {
+        "trend": 64,
+        "gap": 66,
+        "profit": 62,
+        "final": 64,
+        "recommendation": "moderate",
+        "profit_window": "常青+Q4办公桌礼物场景加持，无明确衰减窗口，试水验证工艺差评率后再决定加仓"
+      }
+    }
+  ],
+  "trend_forecast": "① 9月第2周（9/10-9/20）：Lidl Autumnal Living系列9月10日全国上市（£2.99起），叠加'autumn decor'搜索量同比+5,000%的余温，平价秋季软装（抱枕套、桌旗、陶瓷南瓜、格纹织物、LED小灯带）进入上架黄金窗。驱动事件=Lidl高街背书+Dunelm格纹边柜带火gingham图案——格纹元素在homeware与丝带/包装耗材两条线同时走强，本日第4品格纹丝带正是卡这个窗口。注意抱枕类踩200g重量红线，2件装需实测克重再决定。② 9月第3-4周（9/17-9/30）：园艺全年最高峰——RHS官方认定9月是草坪养护（scarify/aerate/overseed）唯一最佳月，球茎季（水仙/番红花9月底截止）叠加，garden twine/plant ties/标签牌/园艺手套类需求在9月见顶、10月上半月快速衰减，麻线类库存须在10/15前清完或切换圣诞包装场景。同期GBBO官宣9月22日开播（烘焙线为去年同构推荐已覆盖，本线不重复推，仅提示勿错过周边清仓节奏）。③ 10月第1周（10/1-10/7）：万圣节前最后4周——讨糖桶/窗贴/南瓜篮等装饰线在8月底-9月初已推过，10月第1周进入'最后补货+派对耗材'期，桌布/杯垫/一次性装饰可做短线但须10/25前停止补货；天气转冷+校服裤脚修改季启动，免缝补边带（本日第3品）进入需求爬坡段，10-11月为全年峰值。④ 10月第2-3周（10/8-10/21）：圣诞内容期正式启动——christmassacks.co.uk等内容站8月中旬已开更圣诞包装话题，比往年提前，Amazon UK圣诞关键词流量10月起爬坡；'牛皮纸+jute twine+再生吊牌'环保北欧风包装是2026三源交叉确认的确定趋势，圣诞包装组合装（本日第2品）10/10前上架可吃满预热流量。黑五（11/27）备货死线提醒：海运红线不变、空运成本窗口在10/20前关闭，圣诞线第二批补货须10/15前下单。⑤ 11月初窗口预告（前瞻）：advent倒计时类（布袋日历已于9/05推过）11/1前是最后上架期；£6-10小件在黑五周放量峰值预计为平日的2-3倍，但仅对已积累10+review的链接有效，10月底前所有新品须完成首批评测布局。风险提示：以上窗口均基于2026年已发生的实抓信号（Lidl 9/10上市、GBBO 9/22官宣、RHS 9月草坪季），若平台流量节奏提前/推后一周属正常波动，补货决策以周度BSR复核为准。"
+}
