@@ -1,0 +1,28 @@
+{
+  "scan_date": "2026-09-09",
+  "scan_time": "17:10",
+  "scan_ts": "2026-09-09_1710",
+  "stats": {
+    "total_scanned": 95,
+    "passed_filter": 0,
+    "rejected": 95,
+    "channels": {},
+    "detail_reject": {
+      "重量超标": 2
+    },
+    "theme_trimmed": [],
+    "trend_categories": {},
+    "supply_demand": {},
+    "divergences": {},
+    "gap_opportunities": 0
+  },
+  "products": [],
+  "gaps": [],
+  "trend_summary": {
+    "top_categories": [],
+    "cross_validated": [],
+    "demand_keywords": [],
+    "season": "",
+    "sources_scanned": []
+  }
+}
