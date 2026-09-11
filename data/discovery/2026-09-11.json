@@ -1,0 +1,114 @@
+{
+  "date": "2026-09-11",
+  "updated_at": "2026-09-11T08:15:00+08:00",
+  "scan_date": "2026-09-11",
+  "scan_time": "08:10",
+  "summary": "4个高潜力选品机会：无热卷发发带(TikTok爆款+开学季)、车载出风口香薰夹(1688极致低成本+车载氛围趋势)、桌面翻页日历(开学办公刚需)、车载香薰扩香石(固体非液体符合红线)。所有产品均为新品(is_new=True)，未与近7天历史推荐重复。",
+  "insights": [
+    {
+      "keyword": "heatless curling headband",
+      "keyword_cn": "无热卷发发带/免烫卷发棒",
+      "amazon_keyword": "heatless curlers headband overnight",
+      "search_1688": "无热卷发发带 免烫卷发棒 天鹅绒 2024新款",
+      "demand_signals": [
+        "TikTok #HeatlessCurls 标签全球浏览量超35亿次(Shopify 2025数据)",
+        "Amazon UK 多个品牌BSR 129k-130k Beauty类，LOPHE £4.99 86条评论4.1分，WINOK £5.82 106条评论",
+        "9月英国大学开学季(Back to University)，学生返校美妆护理需求高峰",
+        "Good Housekeeping 2025年度TikTok礼物推荐榜收录同类产品",
+        "Peachy品牌用100%桉树丝(vegan silk)卖差异化，评论区用户反馈'比传统更软更好睡'说明品类认知已成熟"
+      ],
+      "trend_score": 82,
+      "trend_direction": "rising",
+      "reason": "TikTok爆款进入品类成熟期，低价白牌空间大。9月开学季叠加秋季美妆护理需求高峰，学生群体是核心购买力。竞品均价£4.99-£6.99，£6.99定价可做套装差异(含发夹+发圈)。",
+      "action": "007/027测品优先。定价£6.99(含2发夹+2发圈礼盒装)。1688搜索关键词'无热卷发发带 天鹅绒 7件套'，采购价约¥5-8/套(£0.55-£0.88)。首批60件空运测品。",
+      "competition": "中等偏低。SILKE London(£19.99高端)、LOPHE(£4.99 86评论)、WINOK(£5.82 106评论)、GOOFFY(£31.71高端)。白牌价格带£4-7，头部review数<300，品牌集中度低。LOPHE和WINOK评分仅3.3-4.1，存在品质升级空间。",
+      "signal_scores": {
+        "trend": 85,
+        "gap": 75,
+        "profit": 88,
+        "final": 82,
+        "recommendation": "strong_buy",
+        "profit_window": "9月-12月(开学季+圣诞礼物季，6个月窗口)"
+      }
+    },
+    {
+      "keyword": "car vent clip air freshener metal",
+      "keyword_cn": "车载出风口金属香薰夹",
+      "amazon_keyword": "car air freshener vent clip metal luxury",
+      "search_1688": "车载香薰出风口夹 金属 高级感 定制logo",
+      "demand_signals": [
+        "Amazon UK Febreze vent clip 3支装17,196条评论4.4分，品类验证充分",
+        "HOVUK 4Pcs套装£7-8，48条评论，4.0分，中国品牌已在跑量",
+        "TikTok #CarAesthetic #CarFreshener 车内氛围感内容持续火爆，1688数据售10万+件爆款",
+        "1688金属车载香薰夹批量价¥2-7元/个，10万+件销量验证供应链成熟",
+        "What Car? 2026年评测推荐Top 3均为vent clip类型，品类趋势确认"
+      ],
+      "trend_score": 78,
+      "trend_direction": "rising",
+      "reason": "车载香薰是常青品类，但金属质感高级感款(区别于Febreze塑料感)在白牌区有溢价空间。1688成本¥2-7元(£0.22-£0.77)，45天留香卖点可打差异化。秋季通勤高峰(9月开学+返工)是天然流量入口。",
+      "action": "027测品。定价£7.99(含1金属夹+3替换香片)。1688搜索'车载香薰出风口夹 金属 高级感 礼盒装'，采购价约¥3-8元/套(£0.33-£0.88)。首批60件空运。",
+      "competition": "中等。Febreze(£4-5/支)、Little Trees(£1-2)主导低端；HOVUK(£7-8)、Air Jungles(£4-7)白牌在中端。金属质感差异化款review数<50，品牌集中度低。Febreze以塑料为主，金属款存在明确gap。",
+      "signal_scores": {
+        "trend": 75,
+        "gap": 82,
+        "profit": 90,
+        "final": 82,
+        "recommendation": "strong_buy",
+        "profit_window": "全年常青(车载香薰消耗品，30-45天复购周期)"
+      }
+    },
+    {
+      "keyword": "desk calendar 2025-2026 standing flip",
+      "keyword_cn": "桌面翻页台历2025-2026",
+      "amazon_keyword": "desk calendar 2025 2026 flip standing A5",
+      "search_1688": "桌面翻页台历 2025-2026 铁圈装 双月参考",
+      "demand_signals": [
+        "iplusmile BSR 355k Stationery类，5.0分满分，180g轻量，EUR 9.14(≈£8)",
+        "9月英国大学开学季+新学年办公采购刚需，学生/办公人群同时覆盖",
+        "评论关键词'new Uni student'、'academic planning'明确指向学生市场",
+        "TikTok #DeskSetup #StudyTok 桌面布置内容持续热门，文具是高频出镜品类",
+        "Amazon UK桌面日历品类BSR Top 100中，中国卖家占比较高(参考iplusmile等品牌)"
+      ],
+      "trend_score": 72,
+      "trend_direction": "peak_now",
+      "reason": "9月是桌面日历的绝对旺季(开学+新学年)，需求窗口仅剩4-6周。iplusmile证明£8价位可行，但品类天花板低(日历是消耗品，生命周期短)。适合作为引流款而非主力利润款。",
+      "action": "027快速测品(窗口短)。定价£7.99(A5翻页台历+笔套装)。1688搜索'桌面翻页台历 2025-2026 铁圈 双月'，采购价约¥3-6元/本(£0.33-£0.66)。首批40件，9月底前必须上架。",
+      "competition": "中等。iplusmile(5.0分/355k BSR)一家独大，但品类本身分散。竞品review数普遍<200，品牌集中度中等。窗口期短(仅9-12月有效销售期)，但投产比尚可。",
+      "signal_scores": {
+        "trend": 70,
+        "gap": 65,
+        "profit": 75,
+        "final": 70,
+        "recommendation": "buy",
+        "profit_window": "9月-1月(开学季+圣诞+新年，仅4个月窗口)"
+      }
+    },
+    {
+      "keyword": "car aromatherapy diffuser stone solid",
+      "keyword_cn": "车载香薰扩香石/固体香砖",
+      "amazon_keyword": "car aromatherapy stone solid fragrance diffuser",
+      "search_1688": "车载香薰扩香石 固体香砖 高级感 持久留香",
+      "demand_signals": [
+        "TikTok #CarAesthetic 车内氛围感持续火爆，车载香薰是Top 3热搜品类",
+        "1688固体香砖/扩香石批量价¥0.6-3元/个，售10万+件验证需求",
+        "Amazon UK 'car scent diffuser stone'搜索量上升(What Car? 2026评测新增此品类)",
+        "与Febreze/Little Trees形成差异化：高端感、非塑料、天然植物精油卖点",
+        "秋季通勤+冬季封闭车厢=除味需求高峰，30-90天留香周期匹配消耗品复购"
+      ],
+      "trend_score": 76,
+      "trend_direction": "rising",
+      "reason": "固体扩香石区别于传统液体/喷雾香薰，符合Lee选品红线(非液体/膏体)。1688成本¥0.6-3元(£0.07-£0.33)，利润率极高。车载氛围感趋势+秋冬封闭车厢除味需求叠加。",
+      "action": "027测品。定价£7.99(含2颗扩香石+1收纳盒)。1688搜索'车载香薰扩香石 固体 高级感 天然'，采购价约¥1-5元/套(£0.11-£0.55)。首批60件空运。",
+      "competition": "低。Amazon UK此细分品类白牌竞争远低于vent clip，头部卖家review<100。Febreze/Little Trees不做此形态，差异化空间大。需注意：固体非液体=符合红线。",
+      "signal_scores": {
+        "trend": 78,
+        "gap": 85,
+        "profit": 92,
+        "final": 85,
+        "recommendation": "strong_buy",
+        "profit_window": "全年常青(车载消耗品，秋冬为旺季)"
+      }
+    }
+  ],
+  "trend_forecast": "① 9月第2-3周(9/12-9/25)：英国大学全面开学(University Freshers' Week 9/15-9/29)，学生宿舍桌面布置+美妆护理用品进入搜索高峰。无热卷发发带作为'宿舍必备美妆工具'在TikTok #StudentTok #FreshersWeek标签下获得大量曝光，预计Amazon UK 'heatless curlers'搜索量环比增长30-50%。桌面翻页台历同属开学采购清单，但需求窗口仅剩4-6周(10月中后日历BSR急剧下滑)。② 9月第4周-10月初(9/28-10/8)：英国进入秋季通勤高峰，气温下降+天黑提前，封闭车厢使用时间延长，车载香薰类需求进入年度第二个高峰期(仅次于1月新年)。金属质感出风口香薰夹和固体扩香石两类产品的搜索量预计环比增长20-30%。此窗口是车载香薰上架的黄金期——错过10月就要等到12月圣诞礼物季。③ 10月-11月：万圣节(10/31)前1-2周，车载香薰可借势'Trick or Treat车内装饰'小热点做关联推荐(不直接卖万圣节产品，而是在listing中提及'perfect for Halloween road trips')。同时，无热卷发发带进入稳定出单期，TikTok内容创作者在#WinterHairCare #CozyVibes标签下的内容会带动第二波需求。④ 11月底-12月：Black Friday(11/28)+圣诞季，无热卷发发带作为£6-9的礼物级产品进入最强销售窗口，TikTok #ChristmasGifts #StockingFillers标签爆发。车载香薰扩香石礼盒装同属'小礼物'定位，可搭圣诞包装溢价。桌面日历在此阶段需求基本结束(2026年日历已无购买动力)。⑤ 整体判断：本期4个选品中，车载扩香石(品类gap最大+利润率最高)和无热卷发发带(TikTok流量确定性强)是优先级最高的两个。车载出风口香薰夹是稳健常青款。桌面日历是时间窗口型机会，需要快速决策——如果要在9月上架，本周就必须下单1688采购。"
+}
