@@ -1,0 +1,47 @@
+{
+  "scan_date": "2026-09-11",
+  "scan_time": "08:50",
+  "scan_ts": "2026-09-11_0850",
+  "stats": {
+    "total_scanned": 2,
+    "passed": 1,
+    "sources": [
+      "amazon",
+      "keyword",
+      "tiktok"
+    ]
+  },
+  "products": [
+    {
+      "asin": "B0H6TCNL76",
+      "name": "Cooking String 4 Rolls, 40m Each – 160m Kitchen Twine for Cooking, Baking & Food Preparation, Strong Cooking Twine for T",
+      "price": 3.29,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 1,
+      "category": "Kitchen",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H6TCNL76",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71VqFjulKgL._AC_UL300_SR300,200_.jpg"
+    },
+    {
+      "asin": "B0GSVGCYSG",
+      "name": "100 pcs (50 Forks & 50 Knives) Heavy Duty Reusable Black Plastic Cutlery | Plastic Knives and Forks Set – Strong Washabl",
+      "price": 7.99,
+      "reviews": 7,
+      "rating": 4.1,
+      "rank": 2,
+      "category": "Kitchen",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "7 reviews, 4.1★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GSVGCYSG",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/613bYcYR5UL._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "TikTok趋势"
+      ]
+    }
+  ]
+}
