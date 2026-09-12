@@ -196,7 +196,8 @@
     "styling cream",
     "styling gel",
     "styling wax",
-    "beauty"
+    "beauty",
+    "beer"
   ],
   "sources": {
     "amazon_uk": {
@@ -269,7 +270,9 @@
   },
   "max_reviews": 200,
   "min_rating": 3.5,
-  "forbidden_brands": [],
+  "forbidden_brands": [
+    "nanopolix"
+  ],
   "seasonal_categories": {
     "summer_hot": [
       "garden",
