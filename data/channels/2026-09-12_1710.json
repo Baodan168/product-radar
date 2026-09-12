@@ -1,0 +1,978 @@
+{
+  "scan_date": "2026-09-12",
+  "scan_time": "17:10",
+  "scan_ts": "2026-09-12_1710",
+  "stats": {
+    "total_scanned": 93,
+    "passed_filter": 5,
+    "rejected": 88,
+    "channels": {
+      "youtube_review": 4,
+      "tiktok_verified": 3,
+      "multi_source": 3,
+      "new_releases": 5,
+      "etsy_trending": 2,
+      "temu_trending": 2,
+      "hotukdeals": 2
+    },
+    "detail_reject": {
+      "重量超标": 1
+    },
+    "theme_trimmed": [],
+    "trend_categories": {
+      "lighting": 100,
+      "crafts": 100,
+      "car": 85,
+      "pets": 85,
+      "eco": 85,
+      "home decor": 67
+    },
+    "supply_demand": {
+      "pets": {
+        "ratio": 12.1,
+        "demand": 85,
+        "supply": 1154,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "lighting": {
+        "ratio": 8.0,
+        "demand": 100,
+        "supply": 251983,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "kitchen": {
+        "ratio": 3.9,
+        "demand": 45,
+        "supply": 107141,
+        "label": "💧 浅蓝海",
+        "level": "light_blue"
+      },
+      "sports": {
+        "ratio": 0.7,
+        "demand": 9,
+        "supply": 283075,
+        "label": "🔴 红海",
+        "level": "red_ocean"
+      },
+      "kitchen_gadgets": {
+        "ratio": 0.3,
+        "demand": 4,
+        "supply": 107141,
+        "label": "🔴 红海",
+        "level": "red_ocean"
+      },
+      "bathroom": {
+        "ratio": 0,
+        "demand": 45,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "car": {
+        "ratio": 0,
+        "demand": 85,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "crafts": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      }
+    },
+    "divergences": {},
+    "gap_opportunities": 12
+  },
+  "products": [
+    {
+      "asin": "B0HBP5SSKT",
+      "name": "Ground Bird Feeder Weatherproof Small Round Birding Tool | Garden Bird Feeder for Watching Viewing Feeding Round Food Wa",
+      "price": 11.1,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 16,
+      "category": "Pets",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HBP5SSKT",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71CkrT8JTVL._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "Temu热销",
+        "Etsy趋势",
+        "YouTube种草",
+        "TikTok趋势"
+      ],
+      "profit_margin": 0.459,
+      "net_profit": 5.1,
+      "cost_breakdown": {
+        "vat": 1.85,
+        "commission": 0.56,
+        "fba": 1.46,
+        "ads": 1.11,
+        "returns": 0.22,
+        "sourcing": 0.8,
+        "total_cost": 6.0
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 12.1,
+        "demand": 85,
+        "supply": 1154,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy",
+        "YouTube"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 161,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "▶️ YouTube": 10,
+        "🔴 强信号": 20,
+        "🔥 多源热门(pets)": 23,
+        "⏳ 待验证": -8,
+        "💰 超高利润": 12,
+        "🌊 深蓝海": 20
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-09-08",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "youtube_review",
+        "tiktok_verified",
+        "multi_source",
+        "new_releases",
+        "etsy_trending",
+        "temu_trending"
+      ]
+    },
+    {
+      "asin": "B0H6J8KTSN",
+      "name": "5 Blade Stainless Steel Kitchen Herb Scissors, Green | Multi Layer Food Cutting Shears with Blade Cover Cleaning Comb, M",
+      "price": 8.99,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 3,
+      "category": "Kitchen",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H6J8KTSN",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/51xC8bFOp2L._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "TikTok趋势",
+        "YouTube种草",
+        "Temu热销",
+        "HotUKDeals热帖"
+      ],
+      "profit_margin": 0.382,
+      "net_profit": 3.43,
+      "cost_breakdown": {
+        "vat": 1.5,
+        "commission": 0.72,
+        "fba": 1.46,
+        "ads": 0.9,
+        "returns": 0.18,
+        "sourcing": 0.8,
+        "total_cost": 5.56
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 10,
+      "sd_label": "💧 浅蓝海",
+      "sd_info": {
+        "ratio": 3.9,
+        "demand": 45,
+        "supply": 107141,
+        "label": "💧 浅蓝海",
+        "level": "light_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "HotUKDeals",
+        "Temu",
+        "YouTube"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 152,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "🎵 TikTok": 20,
+        "🔥 HotUKDeals": 12,
+        "🛒 Temu": 8,
+        "▶️ YouTube": 10,
+        "🔴 强信号": 20,
+        "📈 趋势(kitchen)": 8,
+        "⏳ 待验证": -8,
+        "💰 超高利润": 12,
+        "💧 浅蓝海": 10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-09-12",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "youtube_review",
+        "tiktok_verified",
+        "multi_source",
+        "new_releases",
+        "hotukdeals",
+        "temu_trending"
+      ]
+    },
+    {
+      "asin": "B0H8HVWC9C",
+      "name": "Hummcqit 2 Pcs Aquarium Plant Holder Transparent Hanging Fish Tank Planter Cup with Suction Cups for Aquaponic Plants Hy",
+      "price": 8.99,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 10,
+      "category": "Pets",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H8HVWC9C",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/41n3B9VAGVL._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "TikTok趋势",
+        "Etsy趋势",
+        "HotUKDeals热帖"
+      ],
+      "profit_margin": 0.412,
+      "net_profit": 3.7,
+      "cost_breakdown": {
+        "vat": 1.5,
+        "commission": 0.45,
+        "fba": 1.46,
+        "ads": 0.9,
+        "returns": 0.18,
+        "sourcing": 0.8,
+        "total_cost": 5.29
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 20,
+      "sd_label": "🌊 深蓝海",
+      "sd_info": {
+        "ratio": 12.1,
+        "demand": 85,
+        "supply": 1154,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "HotUKDeals",
+        "Etsy"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 147,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "🎵 TikTok": 20,
+        "🔥 HotUKDeals": 12,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(pets)": 23,
+        "⏳ 待验证": -8,
+        "💰 超高利润": 12,
+        "🌊 深蓝海": 20,
+        "⚠️ 未验证": -8
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-09-08",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "tiktok_verified",
+        "multi_source",
+        "new_releases",
+        "etsy_trending",
+        "hotukdeals"
+      ]
+    },
+    {
+      "asin": "B0FTMV9KHD",
+      "name": "PUMA STELLAR Play Premier League 2026/27 Reactivity Football",
+      "price": 12.89,
+      "reviews": 58,
+      "rating": 4.6,
+      "rank": 4,
+      "category": "Sports",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "58 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FTMV9KHD",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/7126KS3hFyL._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "YouTube种草"
+      ],
+      "profit_margin": 0.388,
+      "net_profit": 5.0,
+      "cost_breakdown": {
+        "vat": 2.15,
+        "commission": 1.93,
+        "fba": 1.46,
+        "ads": 1.29,
+        "returns": 0.26,
+        "sourcing": 0.8,
+        "total_cost": 7.89
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": -15,
+      "sd_label": "🔴 红海",
+      "sd_info": {
+        "ratio": 0.7,
+        "demand": 9,
+        "supply": 283075,
+        "label": "🔴 红海",
+        "level": "red_ocean"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "weak",
+      "signal_label": "🟡 弱信号",
+      "external_sources": [
+        "YouTube"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 59,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "▶️ YouTube": 10,
+        "🟡 中等竞争": 5,
+        "⭐ 高评分": 5,
+        "💰 超高利润": 12,
+        "❓ 品类不符": -10,
+        "🔴 红海": -15,
+        "⚠️ 未验证": -8,
+        "✨ 新发现": 10
+      },
+      "stars": 2,
+      "is_new": true,
+      "first_seen": "2026-09-12",
+      "is_event": false,
+      "channel_tags": [
+        "new_releases",
+        "youtube_review"
+      ]
+    },
+    {
+      "asin": "B0GT4P9LV5",
+      "name": "Gylinm 1L Water Bottle Made of BPA-Free Tritan Material, Sports Water Bottle with Removable Straw & Hydration Time Marke",
+      "price": 7.07,
+      "reviews": 185,
+      "rating": 4.7,
+      "rank": 6,
+      "category": "Sports",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "185 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GT4P9LV5",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71WtH1XDS0L._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "YouTube种草"
+      ],
+      "profit_margin": 0.243,
+      "net_profit": 1.72,
+      "cost_breakdown": {
+        "vat": 1.18,
+        "commission": 1.06,
+        "fba": 1.46,
+        "ads": 0.71,
+        "returns": 0.14,
+        "sourcing": 0.8,
+        "total_cost": 5.35
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": -15,
+      "sd_label": "🔴 红海",
+      "sd_info": {
+        "ratio": 0.7,
+        "demand": 9,
+        "supply": 283075,
+        "label": "🔴 红海",
+        "level": "red_ocean"
+      },
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "weak",
+      "signal_label": "🟡 弱信号",
+      "external_sources": [
+        "YouTube"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 52,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "▶️ YouTube": 10,
+        "⭐ 高评分": 5,
+        "🔴 红海": -15,
+        "⚠️ 未验证": -8,
+        "✨ 新发现": 10
+      },
+      "stars": 2,
+      "is_new": true,
+      "first_seen": "2026-09-12",
+      "is_event": false,
+      "channel_tags": [
+        "new_releases",
+        "youtube_review"
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "keyword": "crafts",
+      "category": "crafts",
+      "heat": 100,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "stickers",
+        "art",
+        "craft"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 8,
+      "suggestions": [
+        "stickers",
+        "art supplies",
+        "paint set",
+        "drawing kit",
+        "craft knife",
+        "craft supplies",
+        "DIY craft kit"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=stickers",
+      "url_google": "https://trends.google.com/trends/explore?q=stickers&geo=GB"
+    },
+    {
+      "keyword": "car",
+      "category": "car",
+      "heat": 85,
+      "score": 73,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "motor",
+        "car",
+        "vehicle",
+        "phone holder"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 8,
+      "suggestions": [
+        "motorcycle accessories",
+        "motorcycle cover",
+        "car accessories",
+        "car organizer",
+        "car phone holder",
+        "vehicle",
+        "phone holder"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 85,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=motorcycle+accessories",
+      "url_google": "https://trends.google.com/trends/explore?q=motorcycle+accessories&geo=GB"
+    },
+    {
+      "keyword": "eco",
+      "category": "eco",
+      "heat": 85,
+      "score": 73,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "organic",
+        "sustainable",
+        "eco"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 8,
+      "suggestions": [
+        "organic products",
+        "organic cotton",
+        "sustainable products",
+        "eco friendly",
+        "eco products",
+        "reusable bag",
+        "bamboo products"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 85,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=organic+products",
+      "url_google": "https://trends.google.com/trends/explore?q=organic+products&geo=GB"
+    },
+    {
+      "keyword": "home decor",
+      "category": "home decor",
+      "heat": 67,
+      "score": 67,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "clock",
+        "decor",
+        "frame",
+        "candle",
+        "mirror"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 7,
+      "suggestions": [
+        "wall clock",
+        "desk clock",
+        "digital clock",
+        "home decor",
+        "room decor",
+        "table decor",
+        "photo frame",
+        "picture frame"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 67,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=wall+clock",
+      "url_google": "https://trends.google.com/trends/explore?q=wall+clock&geo=GB"
+    },
+    {
+      "keyword": "phone",
+      "category": "phone",
+      "heat": 58,
+      "score": 64,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "holder",
+        "case",
+        "phone",
+        "ring light",
+        "charger"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 5,
+      "suggestions": [
+        "holder",
+        "case",
+        "phone case",
+        "phone holder",
+        "phone stand",
+        "ring light",
+        "phone charger",
+        "wireless charger"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 58,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=holder",
+      "url_google": "https://trends.google.com/trends/explore?q=holder&geo=GB"
+    },
+    {
+      "keyword": "office",
+      "category": "office",
+      "heat": 58,
+      "score": 64,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "laptop",
+        "office",
+        "pen"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 5,
+      "suggestions": [
+        "laptop stand",
+        "laptop sleeve",
+        "laptop cooler",
+        "office supplies",
+        "desk organizer",
+        "pen holder",
+        "pen set",
+        "fountain pen"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 58,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=laptop+stand",
+      "url_google": "https://trends.google.com/trends/explore?q=laptop+stand&geo=GB"
+    },
+    {
+      "keyword": "beauty",
+      "category": "beauty",
+      "heat": 54,
+      "score": 63,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "skincare",
+        "hair",
+        "nail",
+        "makeup",
+        "mirror"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 5,
+      "suggestions": [
+        "face roller",
+        "gua sha",
+        "face mask",
+        "hair clip",
+        "hair accessories",
+        "hair band",
+        "hair tie",
+        "nail art kit"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 54,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=face+roller",
+      "url_google": "https://trends.google.com/trends/explore?q=face+roller&geo=GB"
+    },
+    {
+      "keyword": "bathroom",
+      "category": "bathroom",
+      "heat": 45,
+      "score": 60,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "bath",
+        "towel",
+        "bathroom",
+        "toilet",
+        "mirror"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "bath mat",
+        "bath caddy",
+        "bath pillow",
+        "towel rail",
+        "towel rack",
+        "towel hook",
+        "bathroom",
+        "toilet"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 45,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=bath+mat",
+      "url_google": "https://trends.google.com/trends/explore?q=bath+mat&geo=GB"
+    },
+    {
+      "keyword": "seasonal",
+      "category": "seasonal",
+      "heat": 45,
+      "score": 60,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "gift",
+        "birthday"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "gift ideas",
+        "gift set",
+        "gift box",
+        "birthday gift",
+        "birthday decoration",
+        "birthday card"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 45,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=gift+ideas",
+      "url_google": "https://trends.google.com/trends/explore?q=gift+ideas&geo=GB"
+    },
+    {
+      "keyword": "storage",
+      "category": "storage",
+      "heat": 41,
+      "score": 58,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "basket",
+        "shelf",
+        "storage",
+        "box"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 5,
+      "suggestions": [
+        "basket",
+        "floating shelf",
+        "wall shelf",
+        "corner shelf",
+        "food storage",
+        "kitchen storage",
+        "container set"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 41,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=basket",
+      "url_google": "https://trends.google.com/trends/explore?q=basket&geo=GB"
+    },
+    {
+      "keyword": "bedding",
+      "category": "bedding",
+      "heat": 41,
+      "score": 58,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "cushion",
+        "duvet",
+        "blanket",
+        "bedding"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "cushion",
+        "duvet",
+        "blanket",
+        "bedding"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 41,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=cushion",
+      "url_google": "https://trends.google.com/trends/explore?q=cushion&geo=GB"
+    },
+    {
+      "keyword": "garden",
+      "category": "garden",
+      "heat": 61,
+      "score": 50,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "flower",
+        "garden",
+        "solar",
+        "plant",
+        "bird"
+      ],
+      "is_cross_validated": false,
+      "cross_sources": 0,
+      "suggestions": [
+        "flower",
+        "garden tool set",
+        "garden light",
+        "garden decor",
+        "solar light",
+        "solar garden light",
+        "solar lamp",
+        "plant pot"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 61,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=flower",
+      "url_google": "https://trends.google.com/trends/explore?q=flower&geo=GB"
+    }
+  ],
+  "trend_summary": {
+    "top_categories": [
+      [
+        "lighting",
+        100
+      ],
+      [
+        "crafts",
+        100
+      ],
+      [
+        "car",
+        85
+      ],
+      [
+        "pets",
+        85
+      ],
+      [
+        "eco",
+        85
+      ],
+      [
+        "home decor",
+        67
+      ]
+    ],
+    "cross_validated": [
+      "bathroom",
+      "car",
+      "lighting",
+      "pets",
+      "crafts",
+      "travel",
+      "phone",
+      "beauty",
+      "kitchen",
+      "seasonal",
+      "home decor",
+      "eco",
+      "office",
+      "storage",
+      "bedding"
+    ],
+    "demand_keywords": [
+      "amazon released its list of",
+      "animal print",
+      "apparently my",
+      "autumn outfits rotation",
+      "best movies on",
+      "best way to save on",
+      "bold red",
+      "color and",
+      "edible gardens",
+      "elf on the"
+    ],
+    "season": "autumn",
+    "sources_scanned": [
+      "tiktok",
+      "hotukdeals",
+      "temu",
+      "etsy",
+      "youtube",
+      "google_trends",
+      "reddit",
+      "market_intel"
+    ]
+  }
+}
