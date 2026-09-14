@@ -1,0 +1,85 @@
+{
+  "scan_date": "2026-09-14",
+  "scan_time": "17:10",
+  "scan_ts": "2026-09-14_1710",
+  "stats": {
+    "total_scanned": 34,
+    "passed_filter": 1,
+    "rejected": 33,
+    "channels": {
+      "new_releases": 1
+    },
+    "detail_reject": {},
+    "theme_trimmed": [],
+    "trend_categories": {},
+    "supply_demand": {},
+    "divergences": {},
+    "gap_opportunities": 0
+  },
+  "products": [
+    {
+      "asin": "B0H872MGWT",
+      "name": "LANQEAOR Armorers Spamer Wrench Tool, 1pc C Hook Spanner for Nut Removal and Tighten with Non-Slip Handle",
+      "price": 6.99,
+      "reviews": 1,
+      "rating": 5.0,
+      "rank": 4,
+      "category": "DIY",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "1 reviews, 5.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H872MGWT",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/41SpnVi99CL._AC_UL300_SR300,200_.jpg",
+      "profit_margin": 0.24,
+      "net_profit": 1.68,
+      "cost_breakdown": {
+        "vat": 1.17,
+        "commission": 1.05,
+        "fba": 1.46,
+        "ads": 0.7,
+        "returns": 0.14,
+        "sourcing": 0.8,
+        "total_cost": 5.31
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 仅Amazon",
+      "external_sources": [],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 22,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "⚪ 仅Amazon": -10,
+        "⏳ 评论偏少": -8,
+        "⭐ 高评分": 5,
+        "📉 无需求信号": -15,
+        "📊 持续上升": 8,
+        "⚠️ 未验证": -8
+      },
+      "stars": 1,
+      "is_new": false,
+      "first_seen": "2026-09-08",
+      "is_event": false,
+      "channel_tags": [
+        "new_releases"
+      ]
+    }
+  ],
+  "gaps": [],
+  "trend_summary": {
+    "top_categories": [],
+    "cross_validated": [],
+    "demand_keywords": [],
+    "season": "",
+    "sources_scanned": []
+  }
+}
