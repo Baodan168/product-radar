@@ -1,0 +1,349 @@
+{
+  "scan_date": "2026-09-14",
+  "scan_time": "08:50",
+  "scan_ts": "2026-09-14_0850",
+  "stats": {
+    "total_scanned": 26,
+    "passed_filter": 2,
+    "rejected": 24,
+    "channels": {
+      "tiktok_verified": 1,
+      "new_releases": 2
+    },
+    "detail_reject": {
+      "重量超标": 2
+    },
+    "theme_trimmed": [],
+    "trend_categories": {},
+    "supply_demand": {},
+    "divergences": {
+      "bathroom": {
+        "current_heat": 47,
+        "previous_heat": 45,
+        "heat_change_pct": 4.4,
+        "direction": "stable",
+        "dates": [
+          "2026-09-12_1740",
+          "2026-09-14_0630"
+        ]
+      },
+      "car": {
+        "current_heat": 47,
+        "previous_heat": 80,
+        "heat_change_pct": -41.2,
+        "direction": "falling",
+        "dates": [
+          "2026-09-12_1740",
+          "2026-09-14_0630"
+        ]
+      },
+      "lighting": {
+        "current_heat": 92,
+        "previous_heat": 98,
+        "heat_change_pct": -6.1,
+        "direction": "stable",
+        "dates": [
+          "2026-09-12_1740",
+          "2026-09-14_0630"
+        ]
+      },
+      "pets": {
+        "current_heat": 97,
+        "previous_heat": 72,
+        "heat_change_pct": 34.7,
+        "direction": "rising",
+        "dates": [
+          "2026-09-12_1740",
+          "2026-09-14_0630"
+        ]
+      },
+      "crafts": {
+        "current_heat": 100,
+        "previous_heat": 100,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-09-12_1740",
+          "2026-09-14_0630"
+        ]
+      },
+      "travel": {
+        "current_heat": 42,
+        "previous_heat": 28,
+        "heat_change_pct": 50.0,
+        "direction": "rising",
+        "dates": [
+          "2026-09-12_1740",
+          "2026-09-14_0630"
+        ]
+      },
+      "phone": {
+        "current_heat": 56,
+        "previous_heat": 50,
+        "heat_change_pct": 12.0,
+        "direction": "stable",
+        "dates": [
+          "2026-09-12_1740",
+          "2026-09-14_0630"
+        ]
+      },
+      "beauty": {
+        "current_heat": 42,
+        "previous_heat": 58,
+        "heat_change_pct": -27.6,
+        "direction": "falling",
+        "dates": [
+          "2026-09-12_1740",
+          "2026-09-14_0630"
+        ]
+      },
+      "kitchen": {
+        "current_heat": 56,
+        "previous_heat": 54,
+        "heat_change_pct": 3.7,
+        "direction": "stable",
+        "dates": [
+          "2026-09-12_1740",
+          "2026-09-14_0630"
+        ]
+      },
+      "seasonal": {
+        "current_heat": 60,
+        "previous_heat": 54,
+        "heat_change_pct": 11.1,
+        "direction": "stable",
+        "dates": [
+          "2026-09-12_1740",
+          "2026-09-14_0630"
+        ]
+      },
+      "eco": {
+        "current_heat": 83,
+        "previous_heat": 76,
+        "heat_change_pct": 9.2,
+        "direction": "stable",
+        "dates": [
+          "2026-09-12_1740",
+          "2026-09-14_0630"
+        ]
+      },
+      "office": {
+        "current_heat": 74,
+        "previous_heat": 54,
+        "heat_change_pct": 37.0,
+        "direction": "rising",
+        "dates": [
+          "2026-09-12_1740",
+          "2026-09-14_0630"
+        ]
+      },
+      "baby": {
+        "current_heat": 33,
+        "previous_heat": 4,
+        "heat_change_pct": 725.0,
+        "direction": "rising",
+        "dates": [
+          "2026-09-12_1740",
+          "2026-09-14_0630"
+        ]
+      },
+      "cleaning": {
+        "current_heat": 9,
+        "previous_heat": 13,
+        "heat_change_pct": -30.8,
+        "direction": "falling",
+        "dates": [
+          "2026-09-12_1740",
+          "2026-09-14_0630"
+        ]
+      },
+      "kitchen_gadgets": {
+        "current_heat": 5,
+        "previous_heat": 4,
+        "heat_change_pct": 25.0,
+        "direction": "stable",
+        "dates": [
+          "2026-09-12_1740",
+          "2026-09-14_0630"
+        ]
+      },
+      "home decor": {
+        "current_heat": 51,
+        "previous_heat": 67,
+        "heat_change_pct": -23.9,
+        "direction": "falling",
+        "dates": [
+          "2026-09-12_1740",
+          "2026-09-14_0630"
+        ]
+      },
+      "storage": {
+        "current_heat": 29,
+        "previous_heat": 13,
+        "heat_change_pct": 123.1,
+        "direction": "rising",
+        "dates": [
+          "2026-09-12_1740",
+          "2026-09-14_0630"
+        ]
+      },
+      "garden": {
+        "current_heat": 56,
+        "previous_heat": 67,
+        "heat_change_pct": -16.4,
+        "direction": "stable",
+        "dates": [
+          "2026-09-12_1740",
+          "2026-09-14_0630"
+        ]
+      },
+      "sports": {
+        "current_heat": 33,
+        "previous_heat": 32,
+        "heat_change_pct": 3.1,
+        "direction": "stable",
+        "dates": [
+          "2026-09-12_1740",
+          "2026-09-14_0630"
+        ]
+      },
+      "bedding": {
+        "current_heat": 23,
+        "previous_heat": 13,
+        "heat_change_pct": 76.9,
+        "direction": "rising",
+        "dates": [
+          "2026-09-12_1740",
+          "2026-09-14_0630"
+        ]
+      }
+    },
+    "gap_opportunities": 0
+  },
+  "products": [
+    {
+      "asin": "B0H6J8KTSN",
+      "name": "5 Blade Stainless Steel Kitchen Herb Scissors, Green | Multi Layer Food Cutting Shears with Blade Cover Cleaning Comb, M",
+      "price": 8.99,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 4,
+      "category": "Kitchen",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H6J8KTSN",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/51xC8bFOp2L._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "TikTok趋势"
+      ],
+      "profit_margin": 0.382,
+      "net_profit": 3.43,
+      "cost_breakdown": {
+        "vat": 1.5,
+        "commission": 0.72,
+        "fba": 1.46,
+        "ads": 0.9,
+        "returns": 0.18,
+        "sourcing": 0.8,
+        "total_cost": 5.56
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "weak",
+      "signal_label": "🟡 弱信号",
+      "external_sources": [
+        "TikTok"
+      ],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 74,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "🎵 TikTok": 20,
+        "⏳ 待验证": -8,
+        "💰 超高利润": 12
+      },
+      "stars": 3,
+      "is_new": false,
+      "first_seen": "2026-09-12",
+      "is_event": false,
+      "channel_tags": [
+        "tiktok_verified",
+        "new_releases"
+      ]
+    },
+    {
+      "asin": "B0DYJP7RPG",
+      "name": "Birthday Party Decorations Supplies for Kids, Cartoon Happy Birthday Decorations with Banner, Balloons, Cake Topper, Cup",
+      "price": 11.99,
+      "reviews": 8,
+      "rating": 4.3,
+      "rank": 5,
+      "category": "Party",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "8 reviews, 4.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DYJP7RPG",
+      "image_url": "https://m.media-amazon.com/images/I/81znpLTmRRL._AC_UL320_.jpg",
+      "profit_margin": 0.375,
+      "net_profit": 4.49,
+      "cost_breakdown": {
+        "vat": 2.0,
+        "commission": 1.8,
+        "fba": 1.46,
+        "ads": 1.2,
+        "returns": 0.24,
+        "sourcing": 0.8,
+        "total_cost": 7.5
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 仅Amazon",
+      "external_sources": [],
+      "internal_sources": [
+        "新品榜"
+      ],
+      "score": 49,
+      "score_breakdown": {
+        "🆕 新品榜": 20,
+        "⚪ 仅Amazon": -10,
+        "🌊 蓝海": 15,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 未验证": -8,
+        "✨ 新发现": 10
+      },
+      "stars": 2,
+      "is_new": true,
+      "first_seen": "2026-09-14",
+      "is_event": false,
+      "channel_tags": [
+        "new_releases"
+      ]
+    }
+  ],
+  "gaps": [],
+  "trend_summary": {
+    "top_categories": [],
+    "cross_validated": [],
+    "demand_keywords": [],
+    "season": "",
+    "sources_scanned": []
+  }
+}
