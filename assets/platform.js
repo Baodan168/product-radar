@@ -456,8 +456,12 @@ function renderKanban() {
   }
 
   // Source 2: Discovery keywords
+  // 2026-09-15 修复：Object.keys().sort().reverse() 保证新日期优先。
+  // 原来按插入序（旧→新）遍历，max_keywords 截断会把收件箱名额全给老关键词，
+  // 最新发现的永远进不了看板。（与AU站同款修复）
   let discCount = 0;
-  if (_doInject) Object.entries(DISC_ALL || {}).forEach(([date, dd]) => {
+  if (_doInject) Object.keys(DISC_ALL || {}).sort().reverse().forEach((date) => {
+    const dd = DISC_ALL[date];
     (dd.insights || []).forEach(ins => {
       if (discCount >= INJECT_CFG.discovery.max_keywords) return;
       const kw = ins.keyword || '';
@@ -486,8 +490,10 @@ function renderKanban() {
   });
 
   // Source 3: Radar products (only new)
+  // 2026-09-15 修复：同 Source 2，新日期优先遍历。（与AU站同款修复）
   let radarCount = 0;
-  if (_doInject) Object.entries(RADAR_ALL || {}).forEach(([date, rd]) => {
+  if (_doInject) Object.keys(RADAR_ALL || {}).sort().reverse().forEach((date) => {
+    const rd = RADAR_ALL[date];
     (rd.products || []).forEach(p => {
       if (radarCount >= INJECT_CFG.radar.max_products) return;
       if (!p.asin || (INJECT_CFG.radar.new_only && p.is_new === false)) return;
