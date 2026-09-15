@@ -375,7 +375,11 @@ def run_keyword_scan(max_discovery_kws=5, max_festival_kws=5, max_products_per_k
     disc_kws = load_discovery_keywords()[:max_discovery_kws]
     fest_kws = load_festival_keywords()[:max_festival_kws]
 
-    all_kws = disc_kws + fest_kws
+    # 2026-09-15: 节日词排前面。UK动态预算（_remaining(reserve=280)）只给关键词
+    # 步骤71-80s，21次扫描里20次在末尾超时截断——垫底的永远是节日词（按截柜日
+    # 排序，最后=截柜最远的事件，如bonfire scarf/halloween stickers连续4天被砍）。
+    # 发现词明天会换新，节日词有硬窗口期，砍发现词尾部的损失小得多。
+    all_kws = fest_kws + disc_kws
     if not all_kws:
         print("  ℹ️ No pending keywords from discovery or festival", file=sys.stderr)
         return []
