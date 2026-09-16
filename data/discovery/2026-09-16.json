@@ -1,0 +1,106 @@
+{
+  "date": "2026-09-16",
+  "updated_at": "2026-09-16 08:20 CST",
+  "scan_date": "2026-09-16",
+  "scan_time": "08:11-08:20",
+  "summary": "本次扫描4个通过筛选的方向全部为14天内未推荐的新品类(is_new=4/4)。核心逻辑：UK进入深秋前2-4周窗口，能源账单+初霜+换季防蛀三股需求同时抬头。Amazon UK Garden Movers & Shakers出现雪松防蛀片24h飙升；TikTok UK防风保暖内容持续病毒传播(Daily Record/Sun报道)；Amazon UK Home BSR被疏通剂类占据前排，反向验证排水口防堵需求。4项全部为非电子轻小件，空运可发。",
+  "insights": [
+    {
+      "keyword": "shower drain hair catcher stainless steel 4 pack",
+      "keyword_cn": "淋浴排水口防毛发过滤网(不锈钢4件装)",
+      "amazon_keyword": "shower drain hair catcher stainless steel 4 pack",
+      "search_1688": "地漏毛发收集器 不锈钢 过滤网 跨境 批发",
+      "demand_signals": [
+        "Amazon UK Home & Garden BSR前排被Mr Muscle/Buster等下水道疏通剂占据(2026-09-16 BSR实时)，疏通剂畅销=排水堵塞是UK秋冬季高频痛点，过滤网是其前置替代品",
+        "Drain Stoppers/Shower Drain子类目活跃listing数十个(2026-09-16 BSR页)，类目需求已被平台单独建类目验证",
+        "9月起UK气温下降室内淋浴频次上升+秋季脱发高峰叠加，堵塞投诉峰值在10-12月，现在是起量前窗口"
+      ],
+      "trend_score": 76,
+      "trend_direction": "up",
+      "reason": "疏通剂霸榜BSR是反向信号：堵塞痛点的'事后修复'卖爆，'事前预防'的毛发过滤网单价更低、复购更稳。且不锈钢款比一次性贴片溢价空间大，竞品集中在硅胶款，不锈钢防锈是明确差异点。",
+      "action": "007店测款。定价£7.99(4件装)。1688采购关键词'地漏毛发收集器不锈钢'，目标价¥2/件以内，4件成本约¥8(£1.10)。空运，重量约120g合规。上架关键词：'shower drain hair catcher stainless steel 4 pack'",
+      "competition": "诚实评估：硅胶款头部listing 1000+评(OXO等品牌)，但不锈钢款页面中位评论200-500，无垄断品牌，多为generic中国卖家。差异化靠材质+4件多尺寸+防锈卖点。风险：一次性贴片款(Temu £2)分流低端需求，避开打。利润：£7.99-FBA£1.46-佣金8%£0.64-采购£1.10-VAT£1.33=净利£3.46(43%)",
+      "signal_scores": {
+        "trend": 76,
+        "gap": 65,
+        "profit": 85,
+        "final": 76,
+        "recommendation": "buy",
+        "profit_window": "now-12月，堵塞季持续整个冬季"
+      }
+    },
+    {
+      "keyword": "cedar wood moth repellent discs for wardrobes",
+      "keyword_cn": "雪松木防蛀片/衣橱防虫环(24-28片装)",
+      "amazon_keyword": "cedar wood moth repellent discs for wardrobes",
+      "search_1688": "香樟木条 防虫 衣柜 跨境 专供",
+      "demand_signals": [
+        "Cedarwood Moth Repellent 28 Pcs(100%天然雪松盘)进入Amazon UK Garden Movers & Shakers 24h飙升榜(2026-09-16实时)",
+        "同榜同期出现London Moth Killer信息素诱蛾器等多个防蛀品，说明9月UK防蛀类目整体爬坡，不是单品偶发",
+        "UK 9-10月换季：夏衣收存+羊毛针织衫上架，蛀虫损坏羊毛衣物是UK秋季高频抱怨，雪松款作为樟脑丸化学替代品吃健康化红利"
+      ],
+      "trend_score": 79,
+      "trend_direction": "up",
+      "reason": "Movers & Shakers 24h信号+类目多品联动，比单纯关键词推测强一个等级。木制品重量轻(28片约150g)、非电子、无液体，完全合规。1688樟木条货源成熟(¥5-12/包)，跨境专供货源已验证。",
+      "action": "007店测款，322店可同步跟卖。定价£9.99(28片装)。1688'香樟木条衣柜防虫跨境专供'，目标¥10/包(£1.37)。含挂绳+礼盒感包装可上£10.99。重量约150-180g合规，包装扁平盒<32cm。",
+      "competition": "诚实评估：Acana/Cedar-Scent等老牌盘踞，头部listing 1500-3000评。但M&S飙升的Cedarwood 28pcs是同类新ASIN，证明中价位段(£8-11)仍有自然流量空间。差异化：数量翻倍(28 vs 常规20)+附赠麻绳挂环+英式花园风设计。避免与樟脑丸化学款正面对比文案。",
+      "signal_scores": {
+        "trend": 79,
+        "gap": 60,
+        "profit": 82,
+        "final": 75,
+        "recommendation": "buy",
+        "profit_window": "now-11月初，防蛀峰值9下旬-10月"
+      }
+    },
+    {
+      "keyword": "magnetic car windscreen frost cover winter snow",
+      "keyword_cn": "汽车前挡风玻璃防霜罩(磁吸固定款)",
+      "amazon_keyword": "magnetic car windscreen frost cover winter snow",
+      "search_1688": "汽车风挡玻璃防霜罩 磁吸 冬季 跨境 专供",
+      "demand_signals": [
+        "TikTok Shop £1.55折叠防霜罩病毒传播，The Scottish Sun 2026-01专题报道'再也不用除冰'，达人实测内容持续发酵",
+        "Must Have Ideas(英国DTC电视购物)Frost Shield常年£14.99畅销，为亚马逊同款定价锚定£9.99-12.99留出空间",
+        "UK初霜通常在9月底-10月初(苏格兰更早)，10-1月是产品需求主窗口，当前9月中旬正是备货空运的合理时点——到仓即可踩中第一波霜冻"
+      ],
+      "trend_score": 84,
+      "trend_direction": "sharp up",
+      "reason": "季节性最强的一条：品类需求100%集中在秋冬季，而现在恰好是需求爬坡起点。TikTok病毒内容已提前半年完成用户教育，DTC渠道£14.99验证了价格天花板。1688磁吸款¥9起、跨境专供已验证。",
+      "action": "027店测款(新品小批量空运≤60件)。定价£11.99。1688'汽车防霜罩磁吸跨境'，目标¥9/件(£1.23)。⚠️采购硬指标：PEVA轻量款含磁铁总重≤200g(市面上部分加厚款超300g，下单前称重确认)；超重则改推后视镜套4件组合(约100g)替代。折叠后约30×22×4cm合规。",
+      "competition": "诚实评估：夏季该类目休眠，冬季卖家评论普遍<300，季节末排名洗牌，新ASIN有抢位机会。Must Have Ideas £14.99锚定高价，Temu £1.55锚定低价，中间£9.99-12.99带利润最厚。风险：霜冻来得晚则首月转化慢，需耐持到10月底。",
+      "signal_scores": {
+        "trend": 84,
+        "gap": 72,
+        "profit": 88,
+        "final": 80,
+        "recommendation": "strong_buy",
+        "profit_window": "10月-1月，9月下旬是最后空运窗口"
+      }
+    },
+    {
+      "keyword": "window insulation film kit winter condensation draught",
+      "keyword_cn": "窗户防风保温膜套装(含胶带，冬/防冷凝水)",
+      "amazon_keyword": "window insulation film kit winter condensation draught",
+      "search_1688": "窗户防风保温膜 冬季密封 防冷凝 跨境 专供",
+      "demand_signals": [
+        "TikTok博主Claire实测Amazon £2.99窗户保温膜视频获10,700+赞，Daily Record专题报道'阻止窗户冷凝水+省供暖费'，同类weatherstripping内容24k+播放(The Sun报道@diyishbychloe)",
+        "Energy Saving Trust官方口径：门窗防风年均省£55/户，10月1日Ofgem能源价格上限调整生效后'省暖气费'类搜索将放大",
+        "UK 10月起昼夜温差拉大，窗户冷凝水/黑霉投诉进入年峰值，保温膜同时解决'冷'和'霉'两个搜索意图，比单一挡风条覆盖面广"
+      ],
+      "trend_score": 78,
+      "trend_direction": "up",
+      "reason": "TikTok已完成用户教育+10月1日能源价格调整是确定性日历事件。膜类比布艺挡风条更适合我们的红线：重量<200g、扁平包装、非液体。1688套装¥3-8，成本结构好。",
+      "action": "007店测款。定价£8.99(2窗装)或£9.99(4窗装)。1688'窗户保温膜防风跨境'，目标¥6/套(£0.82)。注意采购含英国通用尺寸说明(按㎡标注)+附刮卡，规避退货。重量约180g合规。",
+      "competition": "诚实评估：Stormguard等本土品牌头部listing 2000+评盘踞£10-15价位。Temu £2.99以下低价带被锁死。机会在£7.99-9.99'多窗装+防冷凝水'细分文案位，标注condensation关键词吃霉季流量。风险：膜类安装差评率高(气泡/翘边)，详情页必须放安装视频位降低退货。",
+      "signal_scores": {
+        "trend": 78,
+        "gap": 55,
+        "profit": 85,
+        "final": 73,
+        "recommendation": "buy",
+        "profit_window": "now-1月，10月是峰值起点"
+      }
+    }
+  ],
+  "trend_forecast": "① 9月第4周(9/22-9/28)：苏格兰及北英格兰初霜风险期，汽车防霜类目开始起量。本次已验证1688磁吸款防霜罩货源(¥9起跨境专供)，亚马逊UK该类目冬季卖家评论普遍<300，是抢排名窗口，本周下单空运7-10天到仓，正好赶在10月第一波霜冻前上架。② 10月1日：Ofgem能源价格上限调整生效+供暖季开启，保暖防风类搜索出现年内陡坡，Energy Saving Trust口径门窗防风年均省£55，窗户保温膜/门缝密封条/暖气片反射膜三类词预估涨幅40%+；注意布艺挡风条(draught excluder)多数长度60-90cm超包装红线，优先膜类和密封条类轻小件。③ 10月第1-2周：昼夜温差拉大，窗户冷凝水/霉菌投诉季开始，除湿盒(09-15已推colour changing dehumidifier box，14天内不重复推品，仅建议对已测品补库存)、防霉贴、窗缝防水贴需求上行；本次验证TikTok窗户冷凝水内容热度(Daily Record报道Amazon £2.99保温膜获1万+赞)。④ 10月中下旬：衣柜换季进入防蛀高峰，本次Garden Movers & Shakers出现雪松防蛀片24h飙升且同榜多个防蛀品联动，预估热度持续至11月初；配套品信息素诱蛾器(非电子合规)可作下一批储备方向。⑤ 10月31日万圣节倒计时45天：海运末班车已过、空运末班车约在10月初，万圣节装饰在近两周扫描中已高度饱和(9/5-9/7连续推万圣节品)，建议只对已测品补货不推新，把空运预算让给冬季保暖线。⑥ 12月25日圣诞倒计时70天：9月下旬起圣诞礼盒/圣诞袜填充物/圣诞日历关键词开始爬坡，空运到仓窗口10月上旬仍充裕；参考9/5 advent calendar bags(trend87)信号，圣诞纸品类需在10月第1周前完成首批测品上架，才能吃到early shopper流量。⑦ 排水防堵线(本次新推毛发过滤网)：10-12月为UK堵塞投诉峰值，与疏通剂BSR霸榜互为印证，该方向利润窗口贯穿整个供暖季，可作为冬季常青测品线持续跟进。"
+}
