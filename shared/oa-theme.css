@@ -1766,3 +1766,11 @@ body{font-family:var(--oa-font);background:var(--oa-bg);color:var(--oa-text);lin
 /* 区域气候标签 */
 .season-region-tags{display:flex;gap:12px;margin-bottom:10px;flex-wrap:wrap}
 .region-tag{font-size:11.5px;color:var(--oa-sub);background:var(--oa-surface-3);padding:4px 10px;border-radius:8px;border:1px solid var(--oa-border-2)}
+
+
+/* ── 未来趋势预测排版优化（2026-09-17）：编号点卡片 ── */
+.forecast-points{display:flex;flex-direction:column;gap:10px;margin-top:4px}
+.forecast-point{background:rgba(255,255,255,.72);border:1px solid var(--oa-border);border-radius:8px;padding:10px 14px}
+.forecast-point-head{margin-bottom:4px}
+.forecast-point-num{display:inline-block;font-weight:800;font-size:17px;line-height:1.2;color:var(--oa-secondary)}
+.forecast-point-body{font-size:var(--oa-font-size-body);color:var(--oa-text);line-height:1.75;white-space:pre-wrap}
