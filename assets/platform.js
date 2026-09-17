@@ -221,7 +221,25 @@ function renderDiscovery() {
   empty.style.display='none';
 
   // Forecast
-  forecastArea.innerHTML = forecast ? `<div class="forecast-card"><div class="forecast-title">🔮 未来趋势预测</div><div class="forecast-text">${esc(forecast)}</div></div>` : '';
+  // 2026-09-17 排版优化：整段预测文字按 ①②③ 编号点拆成卡片列表
+  const _fcPoints = [];
+  if (forecast) {
+    const _fcSplit = String(forecast).split(/(?=[\u2460-\u2473\u3251-\u325F\u32B1-\u32BF])/).map(s => s.trim()).filter(Boolean);
+    _fcSplit.forEach(_para => {
+      const _m = _para.match(/^([\u2460-\u2473\u3251-\u325F\u32B1-\u32BF])([\s::]*)/);
+      if (_m) {
+        _fcPoints.push({ num: _m[1], rest: _para.slice(_m[0].length) });
+      } else {
+        _fcPoints.push({ num: '', rest: _para });
+      }
+    });
+  }
+  forecastArea.innerHTML = _fcPoints.length ? `<div class="forecast-card"><div class="forecast-title">\u{1F52C} \u672A\u6765\u8D8B\u52BF\u9884\u6D4B</div><div class="forecast-points">${_fcPoints.map(p => `
+      <div class="forecast-point">
+        <div class="forecast-point-head"><span class="forecast-point-num">${esc(p.num)}</span></div>
+        <div class="forecast-point-body">${esc(p.rest)}</div>
+      </div>
+    `).join('')}</div></div>` : '';
 
   list.innerHTML = insights.map((ins, idx) => {
     const score = ins.trend_score || 0;
