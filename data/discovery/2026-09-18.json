@@ -1,0 +1,130 @@
+{
+  "date": "2026-09-18",
+  "updated_at": "2026-09-18T08:30:00+08:00",
+  "scan_date": "2026-09-18",
+  "scan_time": "08:30",
+  "summary": "2026-09-18 早间发现5个新机会，全部通过14天品类去重（新品5个，已重复扫描0个）。宏观驱动：10月能源价格上限上调约4% + cosy season启动，本周方向聚焦「省账单保暖小件」与Bonfire Night备货；全部满足非电子/无液体膏体/≤200g/包装≤32×22×6cm/空运，1688采购+空运口径测算净利率42-48%（硬成本口径：采购+空运+FBA Small Standard约£1.71-1.83+佣金8%）。",
+  "insights": [
+    {
+      "keyword": "air fryer paper liners 100 pack",
+      "keyword_cn": "空气炸锅专用纸垫/油纸（Ninja双区适配）",
+      "amazon_keyword": "air fryer paper liners 100 pack ninja dual zone",
+      "search_1688": "空气炸锅专用纸 食品级 硅油纸 100张 跨境",
+      "demand_signals": [
+        "Amazon UK Home & Kitchen Best Sellers同时出现Roe Tenpo 100片、BYKITCHEN 50片、FEEZOM 130片等多个空气炸锅纸垫SKU，Kitchen Appliances BS也有多款（来源：Amazon UK BS页 2026-09-18）",
+        "Ninja Foodi Dual Zone AF400UK长期居厨房电器BS前列，UK双区炸锅保有量持续扩大，纸垫是强复购耗材（来源：Amazon UK BS）",
+        "TikTok #airfryer 内容在UK热度极高，冬季『炸锅比烤箱省电』心智进一步放大耗材需求（来源：TikTok标签热度+媒体趋势）"
+      ],
+      "trend_score": 82,
+      "trend_direction": "up",
+      "reason": "秋冬空气炸锅使用高峰开始（省电替代烤箱），耗材随保有量线性增长且逐月复购；纸制品空运成本极低、永不过期，是Q4最稳的现金流品类。现在入场可吃到10-12月整个旺季。",
+      "action": "007店测品：£7.99定价100片装（标注Ninja Dual/AF300/AF400适配+尺寸表），1688搜『空气炸锅专用纸 100张 食品级』采购约¥8-12/包，空运≤200g；复购验证后322店追加200片值装。",
+      "competition": "高：头部listing评论5k-30k（BYKITCHEN/Roe Tenpo等），但需求盘极大且卖家分散，白牌靠pack数量与双区适配细分仍能切入；避开『发明品类』幻想，做规格差异化（100/200片、印花款）。",
+      "signal_scores": {
+        "trend": 82,
+        "gap": 55,
+        "profit": 80,
+        "final": 73,
+        "recommendation": "买入测品（007，单批≤120包）",
+        "profit_window": "2026-09下旬至2027-01，Q4为全年峰值"
+      }
+    },
+    {
+      "keyword": "microwave wheat bag heat pack",
+      "keyword_cn": "微波小麦热敷包（薰衣草香/肩颈款）",
+      "amazon_keyword": "microwave wheat bag heat pack lavender neck shoulder",
+      "search_1688": "微波热敷包 小麦 亚麻 薰衣草 出口",
+      "demand_signals": [
+        "UK本土品牌WheatyBags小热敷包£4.99-12.99、220条评论4.9/5、信箱可投(letterboxable)，验证ASP与轻小物流模型（来源：WheatyBags官网）",
+        "英媒近期连续推荐heated blanket/保暖品类，微波款是『无电版』替代方案，全部保暖需求由媒体免费教育（来源：Daily Record/Mirror/Brit Brief 2026-09）",
+        "关节炎、痛经、肩颈劳损人群全年复购，'wheat bag'搜索每年10-12月冲高，圣诞季同时是送礼SKU（来源：Google季节规律+品类评论）"
+      ],
+      "trend_score": 78,
+      "trend_direction": "up",
+      "reason": "10月能源涨价把『局部取暖替代整屋供暖』心智推到年度峰值，微波热敷包是其中客单低、无电子合规、退货率最低的切入口；中国产白牌在该类目评价普遍500-3000，头部未垄断。",
+      "action": "027店小批量空运测品（≤60件）：£9.99定价单只装（约18×14cm、≤200g、薰衣草款），1688搜『微波热敷包 薰衣草』约¥8-15/个；验证复购后加颈肩U形款。",
+      "competition": "中：WheatyBags等UK本土品牌有品牌溢价，Amazon中国产listing密集但评价分散，靠薰衣草香型+领肩形状+信箱包装差异化；注意填充物需干爽防霉，详情页标注微波使用说明。",
+      "signal_scores": {
+        "trend": 78,
+        "gap": 70,
+        "profit": 85,
+        "final": 78,
+        "recommendation": "买入测品（027，≤60件空运）",
+        "profit_window": "2026-10至2026-12（圣诞送礼延长至12月中）"
+      }
+    },
+    {
+      "keyword": "draught excluder tape door seal",
+      "keyword_cn": "自粘门窗密封条/挡风泡棉条",
+      "amazon_keyword": "self adhesive draught excluder tape door window seal",
+      "search_1688": "门窗密封条 自粘 泡棉 D型 E型 跨境",
+      "demand_signals": [
+        "10月能源价格上限上调约4%生效前，英国媒体连续两周发『£10省账单』类文章，密封条是高频推荐主角（来源：Chronicle Live/The Sun 2026-09）",
+        "TikTok @thepropertyguy 保温省钱视频65.1万次播放，foam draught excluder被置顶演示（来源：TikTok/Daily Record）",
+        "AFAXINRIE 5m装£9.99被媒体实测好评，白牌同样在售，类目供给尚未饱和；9-11月为年度需求脉冲（来源：Amazon UK+季节规律）"
+      ],
+      "trend_score": 85,
+      "trend_direction": "up",
+      "reason": "能源账单每涨一次，这类『一次粘贴、当月见效』的省钱小件就被媒体+TikTok免费带货一轮；与09-16已推的窗户保温膜是不同产品形态（膜+吹风机 vs 背胶泡棉条），客群重合但可组合售卖，现在入仓正好赶10月1日涨价节点。",
+      "action": "007店测品：£8.99定价2卷装（D型+E型各5m，背胶款），1688搜『门窗密封条 自粘 D型 E型』约¥2-6/卷；详情页强调『每年省暖气费』与安装30秒。",
+      "competition": "中：Stormguard等线下DIY品牌强势，Amazon白牌listing 1k-5k评论为主，2卷组合装+多宽度选择仍可切入；退货率极低，差评集中在背胶粘性——采购时选加厚背胶款。",
+      "signal_scores": {
+        "trend": 85,
+        "gap": 65,
+        "profit": 82,
+        "final": 78,
+        "recommendation": "买入测品（007，单批≤100组）",
+        "profit_window": "2026-10至2026-11月底（供暖季开启后4-6周为峰）"
+      }
+    },
+    {
+      "keyword": "marshmallow roasting sticks telescopic",
+      "keyword_cn": "伸缩烤棉花糖签（篝火/BBQ）",
+      "amazon_keyword": "telescopic marshmallow roasting sticks campfire bbq forks 5 pack",
+      "search_1688": "烧烤签 伸缩 不锈钢 棉花糖签 5支装",
+      "demand_signals": [
+        "Bonfire Night（11月5日）距今天约7周，篝火晚会烤棉花糖是英国家庭固定节目，搜索在10月中旬陡升、节后断崖（来源：UK节日日历）",
+        "UK花园fire pit保有量大且夏末购买仍在继续，烤签作为配件全年可用（露营/BBQ），旺季叠加（来源：Amazon fire pit类目持续在榜）",
+        "TikTok #campfirecooking #smores 内容热度高；竞品多为通用BBQ签，带彩色护手+收纳袋的『棉花糖场景款』listing较少（来源：TikTok+Amazon搜索观察）"
+      ],
+      "trend_score": 70,
+      "trend_direction": "up",
+      "reason": "纯季节硬截止品类：必须10月25日前到仓才能吃到节前2周销售。5支装+收纳袋+护手设计的差异化空间还在，1688成本极低、空运极轻，是低成本博季节脉冲的典型机会。",
+      "action": "027店小批量空运测品（≤60组，硬截止10/25前到仓）：£7.99定价5支装（35cm伸缩+护手+收纳袋），1688搜『伸缩烧烤签 5支 收纳袋』约¥4-8/套。",
+      "competition": "中低：通用BBQ签1k-8k评论但多为长柄直签，专为棉花糖场景做配色/护手/收纳的SKU供给少；季节性让头部无法常年垄断，窗口期内白牌有机会。",
+      "signal_scores": {
+        "trend": 70,
+        "gap": 72,
+        "profit": 75,
+        "final": 72,
+        "recommendation": "买入测品（027，10/25前到仓硬截止）",
+        "profit_window": "2026-10中旬至11月5日（节后清仓预期，勿补第二批）"
+      }
+    },
+    {
+      "keyword": "fleece ear warmers headband",
+      "keyword_cn": "抓绒保暖耳罩发带（运动款）",
+      "amazon_keyword": "fleece ear warmers headband winter running thermal",
+      "search_1688": "抓绒耳罩 运动发带 保暖 男女 跨境",
+      "demand_signals": [
+        "苏格兰9月初已降温降雨，英媒开始发cosy单品合集，保暖配饰进入种草期（来源：Brit Brief 2026-09）",
+        "秋冬遛狗/通勤/户外跑步刚需场景，耳罩类搜索每年9-12月稳步上行（来源：品类季节规律）",
+        "wearable warmth心智被验证（Sienna连帽毯29k评论），耳罩是同心智下客单最低、退货风险最低的切入口（来源：Brit Brief/Amazon）"
+      ],
+      "trend_score": 62,
+      "trend_direction": "up",
+      "reason": "cosy season启动但气温还没冷透，未来3-4周是入仓窗口；<60g的极限轻小件让FBA费用压到最低档，试错成本全表最低，适合027店练手积累冬季服饰配件运营经验。",
+      "action": "027店小批量试（≤60条）：£6.99定价抓绒款（均码、3色混装、马尾孔设计为差异化点），1688搜『抓绒耳罩 发带』约¥3-8/条；跑通后再考虑加儿童款。",
+      "competition": "中高：服饰属性卖家多（300-2000评论为主），无强势品牌垄断；差异化靠马尾孔/双面抓绒/跑步场景关键词，避免做纯保暖款陷入低价内卷。",
+      "signal_scores": {
+        "trend": 62,
+        "gap": 60,
+        "profit": 78,
+        "final": 66,
+        "recommendation": "小批试水（027，观察数据再决定加单）",
+        "profit_window": "2026-10至2026-12（气温越冷越强，1月起回落）"
+      }
+    }
+  ],
+  "trend_forecast": "① 9月第4周（9/21-9/30）：Halloween最后一波空运补单窗口。10月31日距今约6周，按『空运10-14天+入仓上架5天』倒推，9月底前下单的轻小装饰（窗贴、糖果袋、派对小件）仍能赶上节前2周销售高峰；9月以来雷达已多轮扫描Halloween关键词，市场供给快速变厚，只做差异化SKU或组合装，不做纯跟卖。② 10月第1周（10/1前后）：能源价格上限上调约4%正式生效，『省电费』心智达到年度峰值。门窗密封条、挡风条、微波热敷包、保温杯套等『便宜省账单』品类将持续被英国媒体与TikTok #energysavinghacks 放大，本期推荐的draught tape与wheat bag正踩这个节点，建议10月上旬完成入仓抢占第一波搜索。③ 10月中旬：Bonfire Night（11月5日）前2-3周是篝火晚会用品搜索陡升期，烤棉花糖签、防风打火小配件、一次性围巾手套在10/10-10/25集中起量，11月5日后断崖归零，硬截止10月25日前到仓，节后不留库存。④ 10月下旬（10/24-11/1）：Half-term half期一周，家庭室内亲子场景需求抬头，kids craft材料包、烘焙模具、桌面小游戏、亲子烘焙套装可提前一周布局，同时该时段也是圣诞氛围启动的过渡带。⑤ 11月上半月：圣诞礼品空运最后窗口——11/15前下单基本是安全线，此后空运+入仓周期将压过销售高峰；轻小件圣诞装饰、stocking fillers、礼物袋标签从11月第1周起流量爬坡，海运已完全来不及，只做≤200g空运SKU。⑥ 全程风险提示：Q4英国物流拥堵、入仓上架周期普遍拉长，所有节点按『下单日+14天空运+5天入仓』倒推，宁可早一周到仓不做压线计划；11月起Boxing Day前是退货高峰，尺码类服饰（含本期耳罩）控制单批量，主推均码款规避尺码退货。"
+}
