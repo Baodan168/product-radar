@@ -1,0 +1,2713 @@
+{
+  "scan_date": "2026-09-22",
+  "scan_time": "17:10",
+  "scan_ts": "2026-09-22_1710",
+  "stats": {
+    "total_scanned": 143,
+    "passed": 33,
+    "sources": [
+      "amazon",
+      "keyword",
+      "tiktok"
+    ]
+  },
+  "products": [
+    {
+      "asin": "B0CPYBMVDL",
+      "name": "adidas Unisex Starlancer Club Ball",
+      "price": 8.32,
+      "reviews": 2989,
+      "rating": 4.5,
+      "rank": 1,
+      "category": "Sports",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "2989 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CPYBMVDL",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71I90TKsdGL._AC_UL300_SR300,200_.jpg"
+    },
+    {
+      "asin": "B0FTMV2V5W",
+      "name": "PUMA STELLAR Cup Premier League 2026/27 Reactivity Football",
+      "price": 12.49,
+      "reviews": 44,
+      "rating": 4.6,
+      "rank": 2,
+      "category": "Sports",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "44 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FTMV2V5W",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71crBvvMtrL._AC_UL300_SR300,200_.jpg"
+    },
+    {
+      "asin": "B0H3M4L2RV",
+      "name": "KAYMAN Sports Foam Roller, Deep Tissue Muscle Recovery, 44.5 x 15cm, Black | EVA foam, portable, boosts circulation, eas",
+      "price": 7.78,
+      "reviews": 605,
+      "rating": 4.5,
+      "rank": 3,
+      "category": "Sports",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "605 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H3M4L2RV",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/617Q5c59RNL._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B0H1RRH8DV",
+      "name": "SHLD Sports Kids Shin Pad Sleeves Ages 3-14, Ultra Light Protective Football Built-in Shin Guard Sleeves for Children Bo",
+      "price": 12.95,
+      "reviews": 27,
+      "rating": 4.1,
+      "rank": 4,
+      "category": "Sports",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "27 reviews, 4.1★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H1RRH8DV",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/51Dxb31InVL._AC_UL300_SR300,200_.jpg"
+    },
+    {
+      "asin": "B0H159VYXR",
+      "name": "Treadmill for Home Foldable Walking Pad - Running Machine with stable Incline",
+      "price": 119.98,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 5,
+      "category": "Sports",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H159VYXR",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71UO6n3AeoL._AC_UL300_SR300,200_.jpg"
+    },
+    {
+      "asin": "B0HGLZ932X",
+      "name": "Fitness Tracker, Smart Watches for Women Men with 24/7 Heart Rate/Blood Pressure/Blood Oxygen Monitor, Sleep Tracker, Ca",
+      "price": 29.99,
+      "reviews": 181,
+      "rating": 4.7,
+      "rank": 6,
+      "category": "Sports",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "181 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HGLZ932X",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/710096DvMsL._AC_UL300_SR300,200_.jpg"
+    },
+    {
+      "asin": "B0H71B5PFH",
+      "name": "bottlebottle Insulated Water Bottle with Straw 1180ml(40oz) Sports Stainless Steel Water Bottles with Handle Lid Outdoor",
+      "price": 23.99,
+      "reviews": 1843,
+      "rating": 4.6,
+      "rank": 7,
+      "category": "Sports",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "1843 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H71B5PFH",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/61OVkygeF7L._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B0H1H7TKX1",
+      "name": "Bike Lights Front and Back, Super Bright Bike Lights, [4+6 Modes] USB-C Bike Light Set, for Night Riding/Camping/Backpac",
+      "price": 7.99,
+      "reviews": 25,
+      "rating": 4.2,
+      "rank": 8,
+      "category": "Sports",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "25 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H1H7TKX1",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/61Uu1iTFMdL._AC_UL300_SR300,200_.jpg"
+    },
+    {
+      "asin": "B0H6FVCY57",
+      "name": "OptiProducts Butane Gas Canister 227g – Universal Fuel Cartridge for Camping Stove, BBQ Grill, Heater & Blow Torch – Saf",
+      "price": 10.99,
+      "reviews": 20,
+      "rating": 4.8,
+      "rank": 9,
+      "category": "Sports",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "20 reviews, 4.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H6FVCY57",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71RID2YMKDL._AC_UL300_SR300,200_.jpg"
+    },
+    {
+      "asin": "B0HHDP2RTV",
+      "name": "Fitness Tracker, 1.47\" Smart Watch for Women Men, Health Activity Trackers with 24/7 Heart Rate/Blood Pressure/Blood Oxy",
+      "price": 29.99,
+      "reviews": 96,
+      "rating": 4.7,
+      "rank": 10,
+      "category": "Sports",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "96 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HHDP2RTV",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71DcJPFPJzL._AC_UL300_SR300,200_.jpg"
+    },
+    {
+      "asin": "B0H2HYPQSM",
+      "name": "COOLOO Kids Swimming Goggles for Age 3-15, 2 Pack Anti Fog Kids Goggles | UV Protection, 180° Wide View, Waterproof, No ",
+      "price": 10.28,
+      "reviews": 130,
+      "rating": 4.6,
+      "rank": 11,
+      "category": "Sports",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "130 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H2HYPQSM",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/61IBqX1oLHL._AC_UL300_SR300,200_.jpg"
+    },
+    {
+      "asin": "B0FTMV9KHD",
+      "name": "PUMA STELLAR Play Premier League 2026/27 Reactivity Football",
+      "price": 15.83,
+      "reviews": 64,
+      "rating": 4.7,
+      "rank": 12,
+      "category": "Sports",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "64 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FTMV9KHD",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/7126KS3hFyL._AC_UL300_SR300,200_.jpg"
+    },
+    {
+      "asin": "B0HCLT6D51",
+      "name": "TPE Yoga Mat with Carry Strap – 6mm Thick Non-Slip Exercise Mat for Yoga, Pilates, Gym, Fitness and Home Workouts Travel",
+      "price": 8.99,
+      "reviews": 10,
+      "rating": 4.9,
+      "rank": 13,
+      "category": "Sports",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "10 reviews, 4.9★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HCLT6D51",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71Cf1kx2iDL._AC_UL300_SR300,200_.jpg"
+    },
+    {
+      "asin": "B0GHSNQKXX",
+      "name": "Fitbit Google Air - Screenless Activity Tracker with Fitness, Heart Rate, and Sleep Tracking - Personalized AI-Powered C",
+      "price": 70.82,
+      "reviews": 1773,
+      "rating": 4.3,
+      "rank": 14,
+      "category": "Sports",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "1773 reviews, 4.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GHSNQKXX",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/815S1p23YiL._AC_UL300_SR300,200_.jpg"
+    },
+    {
+      "asin": "B0GQ4N3HZ4",
+      "name": "Alpine WaterSafe Swimming Earplugs | Blocks Water | Comes with 2 tip Sizes | Reusable & secure fit | For swimming, showe",
+      "price": 12.46,
+      "reviews": 344,
+      "rating": 4.3,
+      "rank": 15,
+      "category": "Sports",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "344 reviews, 4.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GQ4N3HZ4",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71Is992ih4L._AC_UL300_SR300,200_.jpg"
+    },
+    {
+      "asin": "B0GZJNZS35",
+      "name": "Soft Exercise Ball, Yoga Pregnancy Ball Chair, Pilates Equipment with Pump | Anti-Burst Supports 2200lb for Workout Medi",
+      "price": 9.79,
+      "reviews": 284,
+      "rating": 4.9,
+      "rank": 16,
+      "category": "Sports",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "284 reviews, 4.9★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GZJNZS35",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/61OTu1pB66L._AC_UL300_SR300,200_.jpg"
+    },
+    {
+      "asin": "B0H9RQKFQY",
+      "name": "HomeFitnessCode Walking Pad with 8% Incline, 2.5HP Under Desk Treadmill | 130KG Capacity, Brushless Motor, 1-8km/h Adjus",
+      "price": 84.99,
+      "reviews": 686,
+      "rating": 4.3,
+      "rank": 17,
+      "category": "Sports",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "686 reviews, 4.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H9RQKFQY",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/61F-+03ZQoL._AC_UL300_SR300,200_.jpg"
+    },
+    {
+      "asin": "B0F5HT5NRN",
+      "name": "Roe Tenpo Air Fryer Liners, 100Pcs Disposable Baking Parchment Paper, Non-Stick & Greaseproof, Air Fryer Accessories for",
+      "price": 2.43,
+      "reviews": 3000,
+      "rating": 4.5,
+      "rank": 1,
+      "category": "Kitchen",
+      "channel": "bsr",
+      "channel_name": "Amazon畅销榜",
+      "review_info": "3000 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0F5HT5NRN",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71IB4GRS0AL._AC_UL300_SR300,200_.jpg"
+    },
+    {
+      "asin": "B06X9NQ8GX",
+      "name": "Amazon Basics Digital kitchen scales with LCD display (with batteries), Black and Stainless Steel, BPA free, Weighs up t",
+      "price": 5.69,
+      "reviews": 116733,
+      "rating": 4.6,
+      "rank": 2,
+      "category": "Kitchen",
+      "channel": "bsr",
+      "channel_name": "Amazon畅销榜",
+      "review_info": "116733 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B06X9NQ8GX",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/815FWesbK3L._AC_UL300_SR300,200_.jpg"
+    },
+    {
+      "asin": "B003Y7MS6U",
+      "name": "Kilner Clip-Top Storage Jar, 2 Litre, Airtight, Glass, for Fruit, Vegetables, Coffee, Tea, Flour",
+      "price": 4.67,
+      "reviews": 5752,
+      "rating": 4.7,
+      "rank": 3,
+      "category": "Kitchen",
+      "channel": "bsr",
+      "channel_name": "Amazon畅销榜",
+      "review_info": "5752 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B003Y7MS6U",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/41qT+NmedtL._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B01A84QLGY",
+      "name": "Russell Hobbs Textures 2 Slice Toaster, Extra Wide Slots, 850W, Black | Six Browning Levels, Frozen, Cancel and Reheat F",
+      "price": 16.66,
+      "reviews": 13678,
+      "rating": 4.3,
+      "rank": 4,
+      "category": "Kitchen",
+      "channel": "bsr",
+      "channel_name": "Amazon畅销榜",
+      "review_info": "13678 reviews, 4.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B01A84QLGY",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/61PphroLsEL._AC_UL300_SR300,200_.jpg"
+    },
+    {
+      "asin": "B001RYON24",
+      "name": "Marigold Unisex El Gloves-large-1 Pair Marigold Extra Life Kitchen Gloves Large, Yellow, L (Pack of 1) (Packaging may va",
+      "price": 3.9,
+      "reviews": 4611,
+      "rating": 4.7,
+      "rank": 5,
+      "category": "Kitchen",
+      "channel": "bsr",
+      "channel_name": "Amazon畅销榜",
+      "review_info": "4611 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B001RYON24",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71Ps4CVyr3L._AC_UL300_SR300,200_.jpg"
+    },
+    {
+      "asin": "B00K8S8OXO",
+      "name": "Russell Hobbs Steam Iron, 3100W, 210 g and min Extra Steam Boost, 350ml | Durable Ceramic Soleplate, Convenient Self-Cle",
+      "price": 28.33,
+      "reviews": 42513,
+      "rating": 4.4,
+      "rank": 6,
+      "category": "Kitchen",
+      "channel": "bsr",
+      "channel_name": "Amazon畅销榜",
+      "review_info": "42513 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B00K8S8OXO",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71+P5rHgrYL._AC_UL300_SR300,200_.jpg"
+    },
+    {
+      "asin": "B0F2RVTX72",
+      "name": "Sponsored Ad – 18PCS Lest We Forget Flag,Remembrance Day Decorations,Lest We Forget Bunting Decoration,War Soldiers Hero",
+      "price": 5.82,
+      "reviews": 60,
+      "rating": 4.5,
+      "rank": 1,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "60 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0F2RVTX72",
+      "image_url": "https://m.media-amazon.com/images/I/71if-EjYE6L._AC_UY218_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "remembrance",
+      "festival_event": "国殇纪念日",
+      "festival_icon": "🌹",
+      "festival_deadline": "2026-09-25",
+      "is_event": true,
+      "sources": [
+        "📅 国殇纪念日"
+      ]
+    },
+    {
+      "asin": "B0CMJQVYC5",
+      "name": "Wooden Memorial Candle Tealight Holder, Poem Engraved Holder for Comforting | Bereavement Gifts, Sympathy Gift for Remem",
+      "price": 9.99,
+      "reviews": 124,
+      "rating": 4.6,
+      "rank": 5,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "124 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CMJQVYC5",
+      "image_url": "https://m.media-amazon.com/images/I/71zdTljf4FL._AC_UY218_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "remembrance",
+      "festival_event": "国殇纪念日",
+      "festival_icon": "🌹",
+      "festival_deadline": "2026-09-25",
+      "is_event": true,
+      "sources": [
+        "📅 国殇纪念日",
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B0GWCXCCG1",
+      "name": "PHIOMUUE Little Robin Just For You Keychain - Sympathy Gift for Women, Bereavement Gift for Loss of Loved One, Inspirati",
+      "price": 2.98,
+      "reviews": 0,
+      "rating": 4.0,
+      "rank": 6,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "0 reviews, 4.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GWCXCCG1",
+      "image_url": "https://m.media-amazon.com/images/I/61vvYCPGgOL._AC_UY218_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "remembrance",
+      "festival_event": "国殇纪念日",
+      "festival_icon": "🌹",
+      "festival_deadline": "2026-09-25",
+      "is_event": true,
+      "sources": [
+        "📅 国殇纪念日"
+      ]
+    },
+    {
+      "asin": "B0F9FCCSMK",
+      "name": "Sponsored Ad – TOARTi Lest We Forget Sign Poppy Wooden Plaque Remembrance Day Hanging for Outside Indoor Application Ide",
+      "price": 8.32,
+      "reviews": 0,
+      "rating": 4.0,
+      "rank": 7,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "0 reviews, 4.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0F9FCCSMK",
+      "image_url": "https://m.media-amazon.com/images/I/71snDzyDKaL._AC_UY218_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "remembrance",
+      "festival_event": "国殇纪念日",
+      "festival_icon": "🌹",
+      "festival_deadline": "2026-09-25",
+      "is_event": true,
+      "sources": [
+        "📅 国殇纪念日"
+      ]
+    },
+    {
+      "asin": "B0FJS883XL",
+      "name": "Remembrance Day Decorations Porch Banners – Lest We Forget Door Hanging Decor with Poppies & Soldier – Memorial Day & Po",
+      "price": 7.49,
+      "reviews": 0,
+      "rating": 4.4,
+      "rank": 9,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "0 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FJS883XL",
+      "image_url": "https://m.media-amazon.com/images/I/813dpXJ4VDL._AC_UY218_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "remembrance",
+      "festival_event": "国殇纪念日",
+      "festival_icon": "🌹",
+      "festival_deadline": "2026-09-25",
+      "is_event": true,
+      "sources": [
+        "📅 国殇纪念日"
+      ]
+    },
+    {
+      "asin": "B0GZ42RZXH",
+      "name": "Mitibet Rainbow Bridge Pet Memorial Ornament, Dog Cat Bereavement Keepsake, Pet Loss Sympathy Remembrance Gift for Griev",
+      "price": 6.99,
+      "reviews": 0,
+      "rating": 4.6,
+      "rank": 11,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "0 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GZ42RZXH",
+      "image_url": "https://m.media-amazon.com/images/I/519HCTKpNqL._AC_UY218_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "remembrance",
+      "festival_event": "国殇纪念日",
+      "festival_icon": "🌹",
+      "festival_deadline": "2026-09-25",
+      "is_event": true,
+      "sources": [
+        "📅 国殇纪念日"
+      ]
+    },
+    {
+      "asin": "B0GTQ2YQHQ",
+      "name": "2PCS Forget Me Not Angel Pocket Set, Sympathy Gift & Guardian Angel Gift, Crystal An/gel Ornament, Remembrance Gift for ",
+      "price": 4.16,
+      "reviews": 13,
+      "rating": 4.3,
+      "rank": 12,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "13 reviews, 4.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GTQ2YQHQ",
+      "image_url": "https://m.media-amazon.com/images/I/71wy8WApoRL._AC_UY218_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "remembrance",
+      "festival_event": "国殇纪念日",
+      "festival_icon": "🌹",
+      "festival_deadline": "2026-09-25",
+      "is_event": true,
+      "sources": [
+        "📅 国殇纪念日"
+      ]
+    },
+    {
+      "asin": "B0H1VSTDMR",
+      "name": "Sponsored Ad – Wooden Pet Memorial Photo Frame - Rotating Double Picture Frame with Fur Glass Vial, Loss of Dog Remembra",
+      "price": 13.32,
+      "reviews": 0,
+      "rating": 5.0,
+      "rank": 13,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "0 reviews, 5.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H1VSTDMR",
+      "image_url": "https://m.media-amazon.com/images/I/81mHfWwrVJL._AC_UY218_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "remembrance",
+      "festival_event": "国殇纪念日",
+      "festival_icon": "🌹",
+      "festival_deadline": "2026-09-25",
+      "is_event": true,
+      "sources": [
+        "📅 国殇纪念日"
+      ]
+    },
+    {
+      "asin": "B0GTLNXX28",
+      "name": "Sponsored Ad – Pet Memorial Wind Chime – Dog Memorial Gifts for Loss of Dog | Loss of Pet Sympathy Gift, Pet Remembrance",
+      "price": 13.32,
+      "reviews": 19,
+      "rating": 4.6,
+      "rank": 14,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "19 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GTLNXX28",
+      "image_url": "https://m.media-amazon.com/images/I/71421DAUUuL._AC_UY218_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "remembrance",
+      "festival_event": "国殇纪念日",
+      "festival_icon": "🌹",
+      "festival_deadline": "2026-09-25",
+      "is_event": true,
+      "sources": [
+        "📅 国殇纪念日",
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B0FLVKLP97",
+      "name": "WIURGOHA Lest We Forget Window Stickers for Remembrance Day, 9 Sheets Poppy Window Cling 80th Anniversary VJ Day Decorat",
+      "price": 5.82,
+      "reviews": 123,
+      "rating": 4.7,
+      "rank": 15,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "123 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FLVKLP97",
+      "image_url": "https://m.media-amazon.com/images/I/810JpGD5TzL._AC_UY218_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "remembrance",
+      "festival_event": "国殇纪念日",
+      "festival_icon": "🌹",
+      "festival_deadline": "2026-09-25",
+      "is_event": true,
+      "sources": [
+        "📅 国殇纪念日"
+      ]
+    },
+    {
+      "asin": "B0CX17V8GV",
+      "name": "SDOFY Memorial Acrylic Plaque for Loss of Loved One - Remembrance Gifts, Thinking of You Bereavement Gift",
+      "price": 4.16,
+      "reviews": 55,
+      "rating": 4.3,
+      "rank": 17,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "55 reviews, 4.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CX17V8GV",
+      "image_url": "https://m.media-amazon.com/images/I/713+Nm-tvUL._AC_UY218_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "remembrance",
+      "festival_event": "国殇纪念日",
+      "festival_icon": "🌹",
+      "festival_deadline": "2026-09-25",
+      "is_event": true,
+      "sources": [
+        "📅 国殇纪念日",
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B0H4FXNBJF",
+      "name": "Lest We Forget Remembrance Flag 5x3FT, Poppy Banner British Memorial Wall Flag for Remembrance Day, VE Day, Home, Pub & ",
+      "price": 6.66,
+      "reviews": 36,
+      "rating": 4.5,
+      "rank": 18,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "36 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H4FXNBJF",
+      "image_url": "https://m.media-amazon.com/images/I/61Ww3Nj48vL._AC_UY218_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "remembrance",
+      "festival_event": "国殇纪念日",
+      "festival_icon": "🌹",
+      "festival_deadline": "2026-09-25",
+      "is_event": true,
+      "sources": [
+        "📅 国殇纪念日"
+      ]
+    },
+    {
+      "asin": "B0CCRD4XLL",
+      "name": "Lest We Forget Poppy Window Stickers & Silk Flowers - Remembrance Day Bunting",
+      "price": 6.66,
+      "reviews": 40,
+      "rating": 4.4,
+      "rank": 20,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "40 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CCRD4XLL",
+      "image_url": "https://m.media-amazon.com/images/I/91DP0WEC4JL._AC_UY218_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "remembrance",
+      "festival_event": "国殇纪念日",
+      "festival_icon": "🌹",
+      "festival_deadline": "2026-09-25",
+      "is_event": true,
+      "sources": [
+        "📅 国殇纪念日"
+      ]
+    },
+    {
+      "asin": "B0HDSNGRBJ",
+      "name": "Sponsored Ad – 60Pcs Remembrance Day Poppy Artificial Poppies, Resin Poppy Flower Heads | 3 assorted sizes, resin poppie",
+      "price": 7.49,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 21,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HDSNGRBJ",
+      "image_url": "https://m.media-amazon.com/images/I/71n-yUHZndL._AC_UY218_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "remembrance",
+      "festival_event": "国殇纪念日",
+      "festival_icon": "🌹",
+      "festival_deadline": "2026-09-25",
+      "is_event": true,
+      "sources": [
+        "📅 国殇纪念日"
+      ]
+    },
+    {
+      "asin": "B0DP38RPZN",
+      "name": "WFX Winter Running Gloves for Men & Women - Touchscreen Anti-Slip Lightweight Thermal Gloves with Fleece Lining, Windpro",
+      "price": 4.99,
+      "reviews": 99,
+      "rating": 4.1,
+      "rank": 4,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "99 reviews, 4.1★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DP38RPZN",
+      "image_url": "https://m.media-amazon.com/images/I/61Axi7A8n8L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "thermal touchscreen gloves winter running",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0BGKSNKGR",
+      "name": "CBValleyol Winter Thermal Gloves, Warm Cycling Gloves Touch Screen Running Gloves Non-Slip Sport Gloves for Men Women Dr",
+      "price": 5.82,
+      "reviews": 57,
+      "rating": 4.3,
+      "rank": 5,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "57 reviews, 4.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0BGKSNKGR",
+      "image_url": "https://m.media-amazon.com/images/I/61EsyldNlRL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "thermal touchscreen gloves winter running",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0GR9DNQPC",
+      "name": "HYX Unisex Thermal Winter Gloves - Windproof & Water-Resistant Touchscreen Sports Gloves for Running, Cycling & Hiking -",
+      "price": 5.79,
+      "reviews": 0,
+      "rating": 5.0,
+      "rank": 9,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 5.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GR9DNQPC",
+      "image_url": "https://m.media-amazon.com/images/I/818my9QsVbL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "thermal touchscreen gloves winter running",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0HCN3K6NX",
+      "name": "SailbSalab Winter Gloves Running Warm Touchscreen Windproof Cycling Thermal Gloves Non Slip with Fleece Lining for Hikin",
+      "price": 8.32,
+      "reviews": 15,
+      "rating": 4.6,
+      "rank": 13,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "15 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HCN3K6NX",
+      "image_url": "https://m.media-amazon.com/images/I/81d0pdFqzWL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "thermal touchscreen gloves winter running",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0DG28ZNZD",
+      "name": "GLGHMH 2 Pairs Winter Thin Thermal Gloves Waterproof Finger Touch Screen Non-Slip Cold Resistant Gloves Windproof Warm W",
+      "price": 8.32,
+      "reviews": 107,
+      "rating": 4.1,
+      "rank": 19,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "107 reviews, 4.1★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DG28ZNZD",
+      "image_url": "https://m.media-amazon.com/images/I/71QadmbasaL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "thermal touchscreen gloves winter running",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0DNJKKSZJ",
+      "name": "Running Gloves, Winter Touch screen Warm Cycling Sports Gloves Men Women | Lightweight and Breathable Black Gloves",
+      "price": 7.07,
+      "reviews": 64,
+      "rating": 4.6,
+      "rank": 21,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "64 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DNJKKSZJ",
+      "image_url": "https://m.media-amazon.com/images/I/71BJUKJjvbL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "thermal touchscreen gloves winter running",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0HD727MYB",
+      "name": "LXEASYGO 6 Pairs Black Winter Gloves Unisex Knitted Magic Adult Touch Screen Thermal Mittens for Cycling Running",
+      "price": 4.99,
+      "reviews": 0,
+      "rating": 4.8,
+      "rank": 24,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 4.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HD727MYB",
+      "image_url": "https://m.media-amazon.com/images/I/61untjhxKAL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "thermal touchscreen gloves winter running",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0CL528MV7",
+      "name": "WESTWOOD FOX Cycling Gloves Winter Running Touchscreen Thermal Gloves Men Anti-Slip Women Bike Gloves waterproof Fabric ",
+      "price": 4.99,
+      "reviews": 172,
+      "rating": 4.2,
+      "rank": 25,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "172 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CL528MV7",
+      "image_url": "https://m.media-amazon.com/images/I/71QCD5EKHzL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "thermal touchscreen gloves winter running",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H9DNWMV7",
+      "name": "JRTEAY Cycling Gloves, Winter Thermal Gloves, Thermal Cycling Glovees for Men Women, Waterproof Touchscreen Winter Glove",
+      "price": 2.91,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 27,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H9DNWMV7",
+      "image_url": "https://m.media-amazon.com/images/I/713Up81b0hL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "thermal touchscreen gloves winter running",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FP4NTGNT",
+      "name": "TRENDOUX Winter Thermal Running Gloves, Warm Polar Fleece Lined Touch Screen Gloves For Men Women With Anti-Slip Silicon",
+      "price": 8.32,
+      "reviews": 62,
+      "rating": 4.2,
+      "rank": 30,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "62 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FP4NTGNT",
+      "image_url": "https://m.media-amazon.com/images/I/81RBqapdhHL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "thermal touchscreen gloves winter running",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FVF4XXH2",
+      "name": "GOZINA Winter Driving Gloves for Men Women – Thermal Waterproof Touchscreen Gloves with Non-Slip Palm & Reflective Desig",
+      "price": 4.99,
+      "reviews": 11,
+      "rating": 3.9,
+      "rank": 31,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "11 reviews, 3.9★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FVF4XXH2",
+      "image_url": "https://m.media-amazon.com/images/I/81JP-nqEe0L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "thermal touchscreen gloves winter running",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FRRQDRZ6",
+      "name": "HFDONGL Cycling Gloves 2 Pairs Waterproof Gloves Running Gloves Warm Finger Touch Screen Winter Gloves for Cycling Runni",
+      "price": 5.82,
+      "reviews": 16,
+      "rating": 4.0,
+      "rank": 32,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "16 reviews, 4.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FRRQDRZ6",
+      "image_url": "https://m.media-amazon.com/images/I/61sRDtOsljL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "thermal touchscreen gloves winter running",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H4RRK728",
+      "name": "Kemay 1 Pair Cycling Gloves, Waterproof Winter Thermal Gloves for Women, Touchscreen Netball Gloves, Anti-Slip Warm Glov",
+      "price": 5.39,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 35,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H4RRK728",
+      "image_url": "https://m.media-amazon.com/images/I/71uQVrqhfVL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "thermal touchscreen gloves winter running",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FXF1KWZK",
+      "name": "BOGCLEE Touch Screen Gloves, Touchscreen Winter Warm Knit Gloves, Mens and Womens Thermal Glove, Warm Knit Touchscreen G",
+      "price": 3.99,
+      "reviews": 0,
+      "rating": 4.1,
+      "rank": 39,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 4.1★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FXF1KWZK",
+      "image_url": "https://m.media-amazon.com/images/I/61jKPH9jzYL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "thermal touchscreen gloves winter running",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FJ5PWWXF",
+      "name": "ehsbuy Thermal Winter Gloves Men Women Touchscreen Anti-Slip Wool Warm Fleece Lined Knit Elastic Cuff Gloves Gifts for R",
+      "price": 6.57,
+      "reviews": 57,
+      "rating": 4.0,
+      "rank": 40,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "57 reviews, 4.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FJ5PWWXF",
+      "image_url": "https://m.media-amazon.com/images/I/916tabaaUFL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "thermal touchscreen gloves winter running",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B0BQMBWPTZ",
+      "name": "Morices Women's Winter Gloves - Fleece Lined, Soft, Warm Thermal, Windproof Phone Gloves for Women - Daily Driving, Runn",
+      "price": 2.49,
+      "reviews": 107,
+      "rating": 4.2,
+      "rank": 42,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "107 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0BQMBWPTZ",
+      "image_url": "https://m.media-amazon.com/images/I/61Qy+gCdVCL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "thermal touchscreen gloves winter running",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FHKL3P14",
+      "name": "Winter Running Gloves for Men and Women, Touch Screen Compatible, Anti-Slip Lightweight, for Cycling Biking Sporting Dri",
+      "price": 8.32,
+      "reviews": 86,
+      "rating": 4.2,
+      "rank": 43,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "86 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FHKL3P14",
+      "image_url": "https://m.media-amazon.com/images/I/61VSqItahKL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "thermal touchscreen gloves winter running",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0DCVWNVCJ",
+      "name": "2Pairs Winter Thermal Gloves Men Women Touch Screen Knitted Warm Anti Slip Gloves with Soft Lining for Driving Running C",
+      "price": 4.99,
+      "reviews": 75,
+      "rating": 4.3,
+      "rank": 46,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "75 reviews, 4.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DCVWNVCJ",
+      "image_url": "https://m.media-amazon.com/images/I/81KLSAYpzdL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "thermal touchscreen gloves winter running",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FWRB4DH3",
+      "name": "HZHSGLY Glove Liners for Cold Weather, Thermal Liner Gloves Winter Lightweight Touch Screen Liner Glove for Men Women Wo",
+      "price": 4.16,
+      "reviews": 19,
+      "rating": 4.2,
+      "rank": 47,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "19 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FWRB4DH3",
+      "image_url": "https://m.media-amazon.com/images/I/61XjX-WeeCL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "thermal touchscreen gloves winter running",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FMRV92FH",
+      "name": "HOWAF Christmas Fabric Advent Calendar, Reusable Advent Calendar 2026 with 24 Pockets 15x15cm, Fill Your Own Calendar Co",
+      "price": 11.66,
+      "reviews": 64,
+      "rating": 4.4,
+      "rank": 1,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "64 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FMRV92FH",
+      "image_url": "https://m.media-amazon.com/images/I/71VFeazAJGL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "fabric advent calendar 24 pockets fill your own",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H9SBG3X8",
+      "name": "Large Canvas Advent Calendar with 24 Numbered Pockets,Fill-Your-Own DIY Christmas Countdown Calendar",
+      "price": 20.83,
+      "reviews": 0,
+      "rating": 5.0,
+      "rank": 2,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 5.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H9SBG3X8",
+      "image_url": "https://m.media-amazon.com/images/I/61RKGIsdoHL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "fabric advent calendar 24 pockets fill your own",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0HFNMZ9JW",
+      "name": "Fabric Advent Calendar with Pockets 2026，Fill Your Own Advent Calendar | 97×50cm Reusable Fabric Advent Calendar with 24",
+      "price": 10.07,
+      "reviews": 0,
+      "rating": 4.0,
+      "rank": 3,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 4.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HFNMZ9JW",
+      "image_url": "https://m.media-amazon.com/images/I/71sdjVeolLL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "fabric advent calendar 24 pockets fill your own",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0HFS6YDRD",
+      "name": "Fabric Advent Calendar, Reusable Hanging Xmas Countdown with 24 Pockets | Linen feel fabric, 24 pockets, fillable reusab",
+      "price": 10.82,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 4,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HFS6YDRD",
+      "image_url": "https://m.media-amazon.com/images/I/911n1ZX5MJL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "fabric advent calendar 24 pockets fill your own",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H69P2N2H",
+      "name": "2026 DIY Advent Calendar Gift Bags, Reusable Fabric Drawstring Pouches to Fill Yourself, Complete Hanging Advent Kit Inc",
+      "price": 7.49,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 5,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H69P2N2H",
+      "image_url": "https://m.media-amazon.com/images/I/81vGJqBKoiL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "fabric advent calendar 24 pockets fill your own",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FSGC2P93",
+      "name": "Christmas Advent Calendar with 24 Drawers - Add your own Treats - Traditional Design",
+      "price": 9.13,
+      "reviews": 0,
+      "rating": 4.6,
+      "rank": 6,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FSGC2P93",
+      "image_url": "https://m.media-amazon.com/images/I/81ev5HcN6cL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "fabric advent calendar 24 pockets fill your own",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H5JNKBP4",
+      "name": "2026 Fabric Advent Calendar Reusable Advent Calendar Felt Wall Pockets | 24 Numbered Pockets 115 X 43 cm Soft Felt No Od",
+      "price": 9.99,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 7,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H5JNKBP4",
+      "image_url": "https://m.media-amazon.com/images/I/81edjHn+hyL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "fabric advent calendar 24 pockets fill your own",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FMRQSYS3",
+      "name": "HOWAF Pink Christmas Fabric Advent Calendar for Women Girls, Reusable Advent Calendar 2026 with 24 Pockets 15x15cm, Fill",
+      "price": 11.66,
+      "reviews": 64,
+      "rating": 4.4,
+      "rank": 8,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "64 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FMRQSYS3",
+      "image_url": "https://m.media-amazon.com/images/I/711yLzICLHL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "fabric advent calendar 24 pockets fill your own",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0GX29RWLX",
+      "name": "2026 Advent Calendar Gift Bags,24Pack DIY Fabric Drawstring Advent Bag Kit | Reusable Countdown Drawstring Bags to Fill ",
+      "price": 8.32,
+      "reviews": 136,
+      "rating": 4.4,
+      "rank": 9,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "136 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GX29RWLX",
+      "image_url": "https://m.media-amazon.com/images/I/811DY3IKfZL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "fabric advent calendar 24 pockets fill your own",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FH9XZ15M",
+      "name": "DPKOW Fun House Advent Calendar Fill Your Own, Reusable DIY Advent Calendar Fillable Christmas Calendars Gifts Creative ",
+      "price": 13.32,
+      "reviews": 190,
+      "rating": 4.3,
+      "rank": 10,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "190 reviews, 4.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FH9XZ15M",
+      "image_url": "https://m.media-amazon.com/images/I/81zmU2JlYvL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "fabric advent calendar 24 pockets fill your own",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B0FH9Y958R",
+      "name": "DPKOW Glitter Empty Advent Calendar to Fill Yourself, Fabric Reusable Advent Calendar for DIY Make Your Own Christmas Ca",
+      "price": 14.99,
+      "reviews": 190,
+      "rating": 4.3,
+      "rank": 11,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "190 reviews, 4.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FH9Y958R",
+      "image_url": "https://m.media-amazon.com/images/I/71l9j5-GW0L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "fabric advent calendar 24 pockets fill your own",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H8NTKYX6",
+      "name": "DPKOW Glitter Empty Advent Calendar to Fill Yourself Black Gold, Fabric | Reusable Advent Calendar DIY Make Your Own Chr",
+      "price": 11.66,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 13,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H8NTKYX6",
+      "image_url": "https://m.media-amazon.com/images/I/71PYE-gVO7L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "fabric advent calendar 24 pockets fill your own",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H5K2QL7N",
+      "name": "Fabric Advent Calendar Reusable Advent Calendar 24 Pocket Wall Hanging | 24 Numbered Pockets Eco Friendly No Odour 100 B",
+      "price": 13.32,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 14,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H5K2QL7N",
+      "image_url": "https://m.media-amazon.com/images/I/91VVIJ2AzXL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "fabric advent calendar 24 pockets fill your own",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FR519S93",
+      "name": "Christmas Advent Calendar Fill your Own 1-24 Day Boxes Luxury Countdown Ribbon (Navy)",
+      "price": 20.82,
+      "reviews": 13,
+      "rating": 4.9,
+      "rank": 15,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "13 reviews, 4.9★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FR519S93",
+      "image_url": "https://m.media-amazon.com/images/I/81YocGlPe1L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "fabric advent calendar 24 pockets fill your own",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FH9N5WSZ",
+      "name": "DPKOW Winter Animal Fabric Advent Calendar with 24 Pockets, Fill your Own Advent Calendar 2026 Christmas Countdown Empty",
+      "price": 13.32,
+      "reviews": 190,
+      "rating": 4.3,
+      "rank": 16,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "190 reviews, 4.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FH9N5WSZ",
+      "image_url": "https://m.media-amazon.com/images/I/71bXaIwtpjL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "fabric advent calendar 24 pockets fill your own",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H8NK71F4",
+      "name": "DPKOW Gingerbread House Advent Calendar Fill Your Own, Reusable, Large | Empty Advent Calendar to Fill Yourself Fillable",
+      "price": 11.66,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 17,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H8NK71F4",
+      "image_url": "https://m.media-amazon.com/images/I/81rt2S+pGxL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "fabric advent calendar 24 pockets fill your own",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0HFSPF2DH",
+      "name": "70cm Felt Advent Calendar Tree with 24 Days Pockets Fillable Xmas Decor | Large 70cm Felt Christmas Advent Calendar with",
+      "price": 7.48,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 18,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HFSPF2DH",
+      "image_url": "https://m.media-amazon.com/images/I/51QgcJFmWTL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "fabric advent calendar 24 pockets fill your own",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FHKH6V27",
+      "name": "Fabric Advent Calendar with 24 Numbered Pockets, 67 x 42 cm, White Hanging Wall Calendar to Fill Yourself For Christmas ",
+      "price": 18.33,
+      "reviews": 29,
+      "rating": 4.7,
+      "rank": 19,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "29 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FHKH6V27",
+      "image_url": "https://m.media-amazon.com/images/I/61DKWGzKdbL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "fabric advent calendar 24 pockets fill your own",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H82VN3TL",
+      "name": "HOWAF Halloween Advent Calendar 2026, Fabric Happy Halloween Countdown Calendar Reusable with 30 Pockets 9x9.5cm, Fill Y",
+      "price": 10.82,
+      "reviews": 0,
+      "rating": 5.0,
+      "rank": 20,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 5.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H82VN3TL",
+      "image_url": "https://m.media-amazon.com/images/I/71oyhfSy+VL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "fabric advent calendar 24 pockets fill your own",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B09KCD51HZ",
+      "name": "Christmas 24 Day Advent Calendar with Pockets Wall Hanging Bag for Holiday Decoration",
+      "price": 12.84,
+      "reviews": 36,
+      "rating": 4.5,
+      "rank": 21,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "36 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B09KCD51HZ",
+      "image_url": "https://m.media-amazon.com/images/I/61RSF7XaCaL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "fabric advent calendar 24 pockets fill your own",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H368GMYZ",
+      "name": "DIY Christmas Advent Calendar to Fill, 24 Empty Advent Calendar Paper Bags | with 8 Double-sided Designs, Countdown Chri",
+      "price": 7.99,
+      "reviews": 0,
+      "rating": 4.7,
+      "rank": 22,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H368GMYZ",
+      "image_url": "https://m.media-amazon.com/images/I/71SIpMSV8lL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "fabric advent calendar 24 pockets fill your own",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0GTZ5725M",
+      "name": "Kesote 24Pcs Advent Calendar Polyester Bags with 25 Wooden Clips and Rope | Reusable, Make Your Own Advent Calendar, Gif",
+      "price": 8.32,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 23,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GTZ5725M",
+      "image_url": "https://m.media-amazon.com/images/I/81XmCgoy-WL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "fabric advent calendar 24 pockets fill your own",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FD3F29G4",
+      "name": "Kesote 24Pcs Advent Calendar Bags with 1-24 Stickers for Countdown | 4 Colours, 25 Wooden Clips, Number Stickers, Rope, ",
+      "price": 6.66,
+      "reviews": 0,
+      "rating": 4.5,
+      "rank": 24,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FD3F29G4",
+      "image_url": "https://m.media-amazon.com/images/I/71VL7BpnlrL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "fabric advent calendar 24 pockets fill your own",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H9XZ56HL",
+      "name": "jijAcraft 24Pcs Advent Calendar Bags: Make Your Own Paper Advent Calendar | 6-Design Rustic Kraft Paper Christmas Treat ",
+      "price": 7.49,
+      "reviews": 0,
+      "rating": 5.0,
+      "rank": 25,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 5.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H9XZ56HL",
+      "image_url": "https://m.media-amazon.com/images/I/81Ag1Z4w9hL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "fabric advent calendar 24 pockets fill your own",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0DP5RRBDG",
+      "name": "Design by Violet Fill Your Own Christmas Advent Calendar Dog Themed - 24 Compartments - Advent Calendar for Children - D",
+      "price": 8.32,
+      "reviews": 0,
+      "rating": 3.7,
+      "rank": 26,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 3.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DP5RRBDG",
+      "image_url": "https://m.media-amazon.com/images/I/818sGMjnbTL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "fabric advent calendar 24 pockets fill your own",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B09GPPNV5Q",
+      "name": "Fill Your Own Advent Calendar 24 Days Reusable 1-24 Empty Drawers for Christmas Countdown (red)",
+      "price": 12.49,
+      "reviews": 183,
+      "rating": 4.2,
+      "rank": 27,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "183 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B09GPPNV5Q",
+      "image_url": "https://m.media-amazon.com/images/I/91SHlByyYpL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "fabric advent calendar 24 pockets fill your own",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H8NZRVZY",
+      "name": "2026 Advent Calendar Bags to Fill Yourself for Christmas,24 Style Reusable DIY Fabric Drawstring Gift Bags Homemade Adve",
+      "price": 8.32,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 28,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H8NZRVZY",
+      "image_url": "https://m.media-amazon.com/images/I/81x3E4dn+2L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "fabric advent calendar 24 pockets fill your own",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FR8W5T3S",
+      "name": "YXSJAS Fabric Christmas Advent Calendar with Pockets 24 Days Christmas Countdown Advent Calendar Reusable Fill Your Own ",
+      "price": 15.99,
+      "reviews": 0,
+      "rating": 4.8,
+      "rank": 29,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 4.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FR8W5T3S",
+      "image_url": "https://m.media-amazon.com/images/I/815iS8qWW9L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "fabric advent calendar 24 pockets fill your own",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0D9BNPN3D",
+      "name": "Giftmaker Fill Your Own Christmas Advent Calendar Cute Festive Santa & Friends",
+      "price": 8.54,
+      "reviews": 44,
+      "rating": 4.3,
+      "rank": 30,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "44 reviews, 4.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0D9BNPN3D",
+      "image_url": "https://m.media-amazon.com/images/I/81f70f9EEtL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "fabric advent calendar 24 pockets fill your own",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0D9RM8K9Q",
+      "name": "HOWAF Christmas Fabric Advent Calendar, Pet Dog Puppy Reusable Advent Calendar 2026 with 24 Pockets 10x10cm, Fill Your O",
+      "price": 11.66,
+      "reviews": 17,
+      "rating": 3.8,
+      "rank": 31,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "17 reviews, 3.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0D9RM8K9Q",
+      "image_url": "https://m.media-amazon.com/images/I/81vDyaBQvaL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "fabric advent calendar 24 pockets fill your own",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FMY1L7K4",
+      "name": "DIY Advent Calendar 2025,Christmas Empty Advent Calendar Bags to Fill Yourself,24Pcs Christmas Drawstring Gift Bags with",
+      "price": 8.32,
+      "reviews": 12,
+      "rating": 4.8,
+      "rank": 32,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "12 reviews, 4.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FMY1L7K4",
+      "image_url": "https://m.media-amazon.com/images/I/91ck9SdDMJL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "fabric advent calendar 24 pockets fill your own",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0HDSN8VZZ",
+      "name": "Christmas Advent Calendar 2026, Fabric Hanging Advent Calendar with 24 Pockets, Fill Your Own Xmas Countdown Calendars f",
+      "price": 16.99,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 33,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HDSN8VZZ",
+      "image_url": "https://m.media-amazon.com/images/I/01RmK+J4pJL._AC_UL320_.gif",
+      "keyword_source": "discovery",
+      "matched_keyword": "fabric advent calendar 24 pockets fill your own",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0CYX32PM3",
+      "name": "Kesote 24Pcs Advent Calendar 2026, Empty Boxes to Fill Yourself | Cute house design,Christmas Countdown Boxes, 1-24 Numb",
+      "price": 8.32,
+      "reviews": 0,
+      "rating": 4.8,
+      "rank": 34,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 4.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CYX32PM3",
+      "image_url": "https://m.media-amazon.com/images/I/81Ixh1m+lLL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "fabric advent calendar 24 pockets fill your own",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H36FMG88",
+      "name": "24 Christmas Advent Calendar to Fill, DIY Empty Advent Calendar Paper Bags | with Number Stickers, Wood Clips, Ropes, Ch",
+      "price": 7.99,
+      "reviews": 0,
+      "rating": 4.8,
+      "rank": 35,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 4.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H36FMG88",
+      "image_url": "https://m.media-amazon.com/images/I/71oe9N9AkhL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "fabric advent calendar 24 pockets fill your own",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0CFYPPJTM",
+      "name": "Giftmaker Christmas Fill Your Own Advent Calendar 24 Draws Gifts Xmas Countdown, Multicolor",
+      "price": 8.74,
+      "reviews": 116,
+      "rating": 3.9,
+      "rank": 36,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "116 reviews, 3.9★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CFYPPJTM",
+      "image_url": "https://m.media-amazon.com/images/I/81TLy9Uk2uL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "fabric advent calendar 24 pockets fill your own",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B0H36BJX38",
+      "name": "24 Christmas Advent Calendar to Fill, DIY Advent Calendar Gift Bags | with 8 Vintage Designs, Reusable Countdown Christm",
+      "price": 7.99,
+      "reviews": 0,
+      "rating": 4.6,
+      "rank": 37,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H36BJX38",
+      "image_url": "https://m.media-amazon.com/images/I/81mDpz9yQgL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "fabric advent calendar 24 pockets fill your own",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0CCP7Y4R4",
+      "name": "Trimits Make Your Own Fabric Pocket Advent Calendar Kit, 31 x 55cm, White",
+      "price": 4.99,
+      "reviews": 59,
+      "rating": 3.6,
+      "rank": 38,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "59 reviews, 3.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CCP7Y4R4",
+      "image_url": "https://m.media-amazon.com/images/I/91BxTFg700L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "fabric advent calendar 24 pockets fill your own",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0DCG14FFV",
+      "name": "Advent Calendar as a Wall Calendar Made of Fabric for Filling, Fabric Bag, Gift Bag, Reusable, Christmas Calendar (Beige",
+      "price": 16.67,
+      "reviews": 52,
+      "rating": 4.7,
+      "rank": 39,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "52 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DCG14FFV",
+      "image_url": "https://m.media-amazon.com/images/I/61ez-BVBYlL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "fabric advent calendar 24 pockets fill your own",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0HFJ4GWKX",
+      "name": "Fabric Advent Calendar 24 Pockets Christmas Advent Calendar 2023 DIY Empty to Fill Yourself Hanging Storage Organiser..",
+      "price": 14.02,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 40,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HFJ4GWKX",
+      "image_url": "https://m.media-amazon.com/images/I/61Cs6EVAl1L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "fabric advent calendar 24 pockets fill your own",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B0HBBYHTVN",
+      "name": "Fabric Advent Calendar, Christmas Felt Advent Calendar, Hanging Advent Calendar with 24-Day Pockets (B)",
+      "price": 14.99,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 41,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HBBYHTVN",
+      "image_url": "https://m.media-amazon.com/images/I/01RmK+J4pJL._AC_UL320_.gif",
+      "keyword_source": "discovery",
+      "matched_keyword": "fabric advent calendar 24 pockets fill your own",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FHH6P4SC",
+      "name": "jijAcraft 24Pcs Advent Calendar Bags: 10x15cm Christmas Burlap Bags Xmas Hessian Drawstring Sacks Christmas Burlap Gift ",
+      "price": 9.99,
+      "reviews": 44,
+      "rating": 4.6,
+      "rank": 42,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "44 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FHH6P4SC",
+      "image_url": "https://m.media-amazon.com/images/I/81yNKPvUiCL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "fabric advent calendar 24 pockets fill your own",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0DDCV1YLK",
+      "name": "POPOYU Christmas Advent Calendar 2026 DIY Boxes Kit,Empty Advent Calendar To Fill Yourself,Make Fill Your Own 2026 Adven",
+      "price": 5.66,
+      "reviews": 29,
+      "rating": 4.3,
+      "rank": 43,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "29 reviews, 4.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DDCV1YLK",
+      "image_url": "https://m.media-amazon.com/images/I/71nZj2Vb6qL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "fabric advent calendar 24 pockets fill your own",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0HCJM95ZS",
+      "name": "Fabric Advent Calendar with Pockets 24 Day Empty Advent Calendars to Fill 20x48in Wall Hanging Reusable DIY Calendar 202",
+      "price": 4.0,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 44,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HCJM95ZS",
+      "image_url": "https://m.media-amazon.com/images/I/71351FAce9L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "fabric advent calendar 24 pockets fill your own",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0B7WG1DRJ",
+      "name": "HOWAF 15PCS Mini Christmas Ornaments Dollhouse Miniature, Xmas Tree, Fairy Door Elf Door, Wreath, Broom, Lamp, Garden To",
+      "price": 6.66,
+      "reviews": 23,
+      "rating": 4.8,
+      "rank": 1,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "23 reviews, 4.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0B7WG1DRJ",
+      "image_url": "https://m.media-amazon.com/images/I/81SGcV+2d4L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wooden elf door kit christmas",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B0G1BSCVZJ",
+      "name": "BSITSSS 9 Pieces Gnome Footprint Stencil Set with Adjustable Elf Mini Rope Ladder, Wooden Gnome Templates Deco with Moon",
+      "price": 6.66,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 2,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0G1BSCVZJ",
+      "image_url": "https://m.media-amazon.com/images/I/71+-TQFSFbL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wooden elf door kit christmas",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0BHQP3BZD",
+      "name": "MAIXINNEW 30 Pcs Fairy Door Craft Kit Wooden (3 Styles) | Wooden Fairy Doors to Paint, Mini Wooden Fairy Doors for Garde",
+      "price": 7.49,
+      "reviews": 57,
+      "rating": 4.7,
+      "rank": 3,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "57 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0BHQP3BZD",
+      "image_url": "https://m.media-amazon.com/images/I/7175lXqWEUL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wooden elf door kit christmas",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0CFFLR3NH",
+      "name": "27PCS Gnome Elf Door Christmas Set, Christmas Fairy Door Secret Miniature Ornament Kits, Gnome Door Accessories Novelty ",
+      "price": 8.32,
+      "reviews": 0,
+      "rating": 4.7,
+      "rank": 4,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CFFLR3NH",
+      "image_url": "https://m.media-amazon.com/images/I/51MUi3rsIgL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wooden elf door kit christmas",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FP2D55HZ",
+      "name": "VARACL 25PCS Christmas Elf Girl Fairy Doors Decorations Kit, Wooden Miniature Magic Elf Door Tiny Christmas Miniature Or",
+      "price": 11.32,
+      "reviews": 0,
+      "rating": 5.0,
+      "rank": 5,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 5.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FP2D55HZ",
+      "image_url": "https://m.media-amazon.com/images/I/81APnh2urDL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wooden elf door kit christmas",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0GYX364XS",
+      "name": "30PCS Wooden Fairy Doors for Garden Mini Elf Doors, Unpainted Small Door | Fairy Garden Accessories, Home, Party and Dec",
+      "price": 8.32,
+      "reviews": 0,
+      "rating": 4.7,
+      "rank": 6,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GYX364XS",
+      "image_url": "https://m.media-amazon.com/images/I/81R33r-mdNL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wooden elf door kit christmas",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B0G91T3W8T",
+      "name": "QiiWuic 48 Pcs Fairy Door, Fairy Doors For Garden, Fairies For Fairy Gardens, Whimsical Elf Door Collection with Natural",
+      "price": 5.99,
+      "reviews": 0,
+      "rating": 4.1,
+      "rank": 7,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 4.1★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0G91T3W8T",
+      "image_url": "https://m.media-amazon.com/images/I/71CeaIvjboL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wooden elf door kit christmas",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B0FPQTG942",
+      "name": "ZDNT 30 Pcs Unpainted Wooden Fairy Door Elf Door Mini Door Shape Wooden Pieces Fairy Doors for Garden Trees with Gemston",
+      "price": 8.99,
+      "reviews": 119,
+      "rating": 4.6,
+      "rank": 8,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "119 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FPQTG942",
+      "image_url": "https://m.media-amazon.com/images/I/71NSHmK24+L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wooden elf door kit christmas",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B0FVWZVP2D",
+      "name": "ACOLY 20PCS Gnome Elf Door Christmas Set, Fairy Secret Christmas Miniature Ornament Kits, Novelty Secret Santa Door Acce",
+      "price": 8.32,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 9,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FVWZVP2D",
+      "image_url": "https://m.media-amazon.com/images/I/71Kq7kxNpWL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wooden elf door kit christmas",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0CCD6ZZ5K",
+      "name": "Christmas Elf Door Set Secret Santa Door Christmas Accessories Miniatures Garden Room Decoration Wooden Windows for DIY ",
+      "price": 9.98,
+      "reviews": 10,
+      "rating": 4.7,
+      "rank": 10,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "10 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CCD6ZZ5K",
+      "image_url": "https://m.media-amazon.com/images/I/81jb4zn3XcL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wooden elf door kit christmas",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B0H2HS6CG8",
+      "name": "6PCS Wooden Fairy Door Set Miniature Elf Doors for Outdoor Gardern Decor | Whimsical Fairy Garden Accessories for Trees,",
+      "price": 3.32,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 11,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H2HS6CG8",
+      "image_url": "https://m.media-amazon.com/images/I/81ueSIaglbL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wooden elf door kit christmas",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B09C91MB25",
+      "name": "WHITE HILL Elf Wooden Swing With PDQ - Christmas Festive Tree Holiday Decoration - Decorative Xmas Hanging Ornament",
+      "price": 2.82,
+      "reviews": 99,
+      "rating": 4.4,
+      "rank": 12,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "99 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B09C91MB25",
+      "image_url": "https://m.media-amazon.com/images/I/81i8hgNyjPL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wooden elf door kit christmas",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0DFLY12FX",
+      "name": "30 Pieces Wooden Fairy Door, 3 Styles, Fairy Door Accessories, Unpainted Fairy Door, Home, Birthday, Christmas DIY Decor",
+      "price": 5.25,
+      "reviews": 0,
+      "rating": 4.5,
+      "rank": 13,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DFLY12FX",
+      "image_url": "https://m.media-amazon.com/images/I/51oS6AWcSZL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wooden elf door kit christmas",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0F8VLVPL9",
+      "name": "ZDNT 30 Pieces Unpainted Wooden Fairy Door Elf Door | Mini Door Shape Wooden Pieces Fairy Doors for Garden Trees DIY Cra",
+      "price": 6.42,
+      "reviews": 0,
+      "rating": 4.6,
+      "rank": 14,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0F8VLVPL9",
+      "image_url": "https://m.media-amazon.com/images/I/710-9NTmQHL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wooden elf door kit christmas",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B0F8VSGD6D",
+      "name": "ZDNT Unpainted Wooden Fairy Door Elf Door Mini Door Shape Wooden Pieces Fairy Doors for Garden Trees for Home Office Bir",
+      "price": 8.99,
+      "reviews": 119,
+      "rating": 4.6,
+      "rank": 15,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "119 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0F8VSGD6D",
+      "image_url": "https://m.media-amazon.com/images/I/716jTIqnskL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wooden elf door kit christmas",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B0F3X8R5TP",
+      "name": "Wooden Fairy Door for Garden Miniature Elf Door for Wall, Round Shape | Door Fairy Garden Accessories Outdoor for Trees ",
+      "price": 3.32,
+      "reviews": 0,
+      "rating": 4.8,
+      "rank": 16,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 4.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0F3X8R5TP",
+      "image_url": "https://m.media-amazon.com/images/I/81ZPP3rB+OL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wooden elf door kit christmas",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B0G5YCB4Q1",
+      "name": "48Pcs fairy doors, unpainted wooden fairy doors for garden, DIY mini fairy garden kit, enchanted fairy garden accessorie",
+      "price": 5.82,
+      "reviews": 0,
+      "rating": 4.5,
+      "rank": 17,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0G5YCB4Q1",
+      "image_url": "https://m.media-amazon.com/images/I/71wc4dnJ8HL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wooden elf door kit christmas",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B08FC9LT3V",
+      "name": "Baker Ross AX399 Christmas Elf Wooden Photo Frame Decorations - Pack of 10, Christmas Decorations for Children to Design",
+      "price": 4.99,
+      "reviews": 76,
+      "rating": 4.5,
+      "rank": 18,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "76 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B08FC9LT3V",
+      "image_url": "https://m.media-amazon.com/images/I/61ZNf5tsqVL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wooden elf door kit christmas",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FZGTZTZ3",
+      "name": "ZDNT 30 Pcs Unpainted Wooden Fairy Door Elf Door,6 Pcs Unpainted Wood Mushrooms Fairy Doors for Garden Trees for Kids Ar",
+      "price": 8.99,
+      "reviews": 119,
+      "rating": 4.6,
+      "rank": 19,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "119 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FZGTZTZ3",
+      "image_url": "https://m.media-amazon.com/images/I/71KNblmCeYL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wooden elf door kit christmas",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B0FLJBDDXV",
+      "name": "WSHuayee 30 Pcs Wooden Fairy Doors Set, 3 Styles Door-Shape Wooden Crafts, Mini DIY Garden Accessories for Fairy Parties",
+      "price": 5.57,
+      "reviews": 0,
+      "rating": 4.7,
+      "rank": 20,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FLJBDDXV",
+      "image_url": "https://m.media-amazon.com/images/I/71itOXF1SYL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wooden elf door kit christmas",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B0H8T2VMZG",
+      "name": "Christmas Fairy Door Decorations 2 Pack Resin Elf Doors Stone Effect | Miniature Garden Ornament, for Tree Stump & Pots,",
+      "price": 4.98,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 21,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H8T2VMZG",
+      "image_url": "https://m.media-amazon.com/images/I/81LYuFG1i4L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wooden elf door kit christmas",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B0FJSCJ3KZ",
+      "name": "64 PCS Wooden Fairy Door, Fairy Doors for Garden Mini Elf Door Unpainted Doors for Fairy Parties Birthday Wedding Decora",
+      "price": 8.99,
+      "reviews": 0,
+      "rating": 4.2,
+      "rank": 22,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FJSCJ3KZ",
+      "image_url": "https://m.media-amazon.com/images/I/81o+hldxGLL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wooden elf door kit christmas",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B0G618L14B",
+      "name": "Magical Elf Door Sticker – Premium Vinyl Decal for Skirting Boards, Windows & Doors – Christmas Elf Arrival Portal Decor",
+      "price": 4.12,
+      "reviews": 0,
+      "rating": 4.5,
+      "rank": 23,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0G618L14B",
+      "image_url": "https://m.media-amazon.com/images/I/71iRg1sX8TL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wooden elf door kit christmas",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0D69Y6DF8",
+      "name": "Ieron 2 set of Fairy Door Craft Kit, Wooden Fairy Door, Mini Wooden Fairy Doors for Garden Home Party Decoration",
+      "price": 5.82,
+      "reviews": 0,
+      "rating": 2.7,
+      "rank": 24,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 2.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0D69Y6DF8",
+      "image_url": "https://m.media-amazon.com/images/I/61ON2AB6j3L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wooden elf door kit christmas",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B0FQ5T4XFW",
+      "name": "14 Pcs Christmas Red Tooth Fairy Door Kit Mini Wooden Door Furniture Model Fairy Door with Christmas Accessories Xmas El",
+      "price": 17.49,
+      "reviews": 0,
+      "rating": 4.5,
+      "rank": 25,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FQ5T4XFW",
+      "image_url": "https://m.media-amazon.com/images/I/81+xpbvIKhL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wooden elf door kit christmas",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0BNYS7VXN",
+      "name": "Fairy Door Wooden Pixie Door Miniature Elf Door World Fairy Door Garden Decor for Gardens Courtyards Potted Plants and H",
+      "price": 3.15,
+      "reviews": 39,
+      "rating": 3.0,
+      "rank": 27,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "39 reviews, 3.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0BNYS7VXN",
+      "image_url": "https://m.media-amazon.com/images/I/61GAyd21NvL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wooden elf door kit christmas",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B0GVW54W98",
+      "name": "Zirax 5 Pcs Set of Wooden Fairy Doors, for Garden Trees, Mini Fairy House Kit, Outdoor Garden Decoration Accessories, Ya",
+      "price": 6.49,
+      "reviews": 0,
+      "rating": 3.7,
+      "rank": 28,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 3.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GVW54W98",
+      "image_url": "https://m.media-amazon.com/images/I/815yEQjpFjL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wooden elf door kit christmas",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B0G53J4B4L",
+      "name": "BESPORTBLE Elf Door for Christmas Miniature Ornament Kit Mini Christmas Scene Wooden Material for Home Layout Decor and ",
+      "price": 10.29,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 29,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0G53J4B4L",
+      "image_url": "https://m.media-amazon.com/images/I/61+wXiuMzZL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wooden elf door kit christmas",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0GZNMGKBG",
+      "name": "Mtbricey 6PCS Fairy Doors Mini Wooden Elf Door Enchanting for Shelf Decor | 2D Flat Spooky,Pumpkin Ghost Skull Doors,Tri",
+      "price": 4.15,
+      "reviews": 0,
+      "rating": 3.2,
+      "rank": 30,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 3.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GZNMGKBG",
+      "image_url": "https://m.media-amazon.com/images/I/81mLy+F8X9L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wooden elf door kit christmas",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0HKHKT6RX",
+      "name": "Perodlly Christmas Elf Door Set 27PCS/Set Wooden Fairy Door Christmas Gnome with Miniature Letter Boxes Fence Boots Wrea",
+      "price": 13.03,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 31,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HKHKT6RX",
+      "image_url": "https://m.media-amazon.com/images/I/71nZfXem3nL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wooden elf door kit christmas",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FG7Y11BJ",
+      "name": "Bbiamsleep 31 Pcs Christmas Elf Door Decoration Elf Door Kit(Pink) | Christmas Fairy Door for Wall Tiny Wooden Miniature",
+      "price": 20.74,
+      "reviews": 33,
+      "rating": 4.7,
+      "rank": 32,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "33 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FG7Y11BJ",
+      "image_url": "https://m.media-amazon.com/images/I/81OFdBS8DjL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wooden elf door kit christmas",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0GWZWV9YD",
+      "name": "PLUSHCEWT Fairy Door,6 Pcs Fairy Doors for Garden Trees,Miniature Gardens Elf Doors,Wooden Fairy Garden Accessories for ",
+      "price": 4.16,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 33,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GWZWV9YD",
+      "image_url": "https://m.media-amazon.com/images/I/81jEMBVsMHL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wooden elf door kit christmas",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B0DCBVQLSS",
+      "name": "VARACL 25PCS Wooden Gnome Christmas Tree Hanging Ornaments, Cutouts Unfinished Blank Wood Slices Santa Elf Pendants for ",
+      "price": 8.32,
+      "reviews": 13,
+      "rating": 4.7,
+      "rank": 34,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "13 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DCBVQLSS",
+      "image_url": "https://m.media-amazon.com/images/I/71pu6sylC4L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wooden elf door kit christmas",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0B6F768FD",
+      "name": "ELCOHO 17 Pieces Christmas Elf Wooden Fairy Set Mini Wooden Tiny Door with Christmas Accessories Fairy Tale Red Miniatur",
+      "price": 20.32,
+      "reviews": 65,
+      "rating": 4.6,
+      "rank": 35,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "65 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0B6F768FD",
+      "image_url": "https://m.media-amazon.com/images/I/817F64lNnVL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wooden elf door kit christmas",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0DDTLXQF5",
+      "name": "KASESSS Christmas Door Frame Decorations, Wooden Christmas Door Decorations, Cute Midget Figurine for Doors Frames with ",
+      "price": 5.82,
+      "reviews": 173,
+      "rating": 4.2,
+      "rank": 36,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "173 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DDTLXQF5",
+      "image_url": "https://m.media-amazon.com/images/I/61VuX0Z3ZiL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wooden elf door kit christmas",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B017017GIK",
+      "name": "60 Second Makeover Limited Full Colour Christmas Elf Workshop Wooden Door Wall Stickers Decal Santa Sack Candy Cane Skir",
+      "price": 4.16,
+      "reviews": 46,
+      "rating": 3.7,
+      "rank": 37,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "46 reviews, 3.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B017017GIK",
+      "image_url": "https://m.media-amazon.com/images/I/51kV6txE6rL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wooden elf door kit christmas",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0F7K8FBK2",
+      "name": "Yardwe 36pcs Mini Wooden Fairy Doors, Unpainted Craft Kit | DIY Ready, Easy to Paint, For Fairy Gardens, Tree Decor, Min",
+      "price": 10.49,
+      "reviews": 0,
+      "rating": 5.0,
+      "rank": 38,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 5.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0F7K8FBK2",
+      "image_url": "https://m.media-amazon.com/images/I/71+7Ggm2TzL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wooden elf door kit christmas",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B0H6FJPM1P",
+      "name": "Cuteefun Christmas Miniature House Kit, Open-door Design, Xmas Townhome | 3D Wooden Puzzle for Adult, Make Your Own Chri",
+      "price": 22.49,
+      "reviews": 61,
+      "rating": 4.2,
+      "rank": 39,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "61 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H6FJPM1P",
+      "image_url": "https://m.media-amazon.com/images/I/81+QXE-3uSL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wooden elf door kit christmas",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0DDGX9BSF",
+      "name": "Embhlitfe 2 Pieces Wooden Fairy Doors Garden Elf Door Adorable Fairy Miniatures Garden Miniature Ornaments for Trees Gar",
+      "price": 3.32,
+      "reviews": 29,
+      "rating": 3.2,
+      "rank": 40,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "29 reviews, 3.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DDGX9BSF",
+      "image_url": "https://m.media-amazon.com/images/I/71fD4nm+X7L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wooden elf door kit christmas",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B09JGPVPPX",
+      "name": "Baker Ross FC102 Christmas Door Card Kits - Pack of 6, Make Your Own Cards, Ideal for Kids Arts & Crafts, Green, Red",
+      "price": 5.68,
+      "reviews": 23,
+      "rating": 4.7,
+      "rank": 41,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "23 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B09JGPVPPX",
+      "image_url": "https://m.media-amazon.com/images/I/61jsYoyC0ZL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wooden elf door kit christmas",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H3TXSMKN",
+      "name": "6 PCS Fairy Door, Wooden Fairy Doors for Trees and Garden, Miniature Fairy Garden Accessories and Ornaments for Outdoor ",
+      "price": 6.99,
+      "reviews": 0,
+      "rating": 5.0,
+      "rank": 42,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 5.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H3TXSMKN",
+      "image_url": "https://m.media-amazon.com/images/I/81Je0csshmL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wooden elf door kit christmas",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B0D69ZGDNK",
+      "name": "Ieron 40 pcs Fairy Door Craft Kit, Unpainted Wooden Fairy Door, Wooden Fairy Doors for Garden Home Party Decoration",
+      "price": 8.32,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 43,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0D69ZGDNK",
+      "image_url": "https://m.media-amazon.com/images/I/61L24WJX52L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wooden elf door kit christmas",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B0DHBYF49L",
+      "name": "HALOULENI 6 Set DIY Santa Claus Kit DIY Macrame Christmas Kit Christmas Tree Decor Christmas Tree Hanging Ornaments Sant",
+      "price": 8.32,
+      "reviews": 12,
+      "rating": 4.0,
+      "rank": 44,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "12 reviews, 4.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DHBYF49L",
+      "image_url": "https://m.media-amazon.com/images/I/71YAubzXonL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wooden elf door kit christmas",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0CDC1B4R5",
+      "name": "Widdle Gifts Elf Swing Seat Christmas Elf Behavin' Badly Elf Accessories - Ideal for your Naughty Elf",
+      "price": 9.99,
+      "reviews": 0,
+      "rating": 5.0,
+      "rank": 45,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 5.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CDC1B4R5",
+      "image_url": "https://m.media-amazon.com/images/I/71rikw6LwcL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wooden elf door kit christmas",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势"
+      ]
+    }
+  ]
+}
