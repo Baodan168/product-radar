@@ -1,0 +1,1850 @@
+{
+  "scan_date": "2026-09-22",
+  "scan_time": "08:50",
+  "scan_ts": "2026-09-22_0850",
+  "stats": {
+    "total_scanned": 291,
+    "passed_filter": 25,
+    "rejected": 249,
+    "channels": {
+      "google_trends": 2,
+      "multi_source": 3,
+      "tiktok_verified": 3,
+      "keyword_search": 25,
+      "event_product": 3
+    },
+    "detail_reject": {
+      "重量超标": 11
+    },
+    "theme_trimmed": [
+      {
+        "asin": "B0BZZV81DC",
+        "name": "Remembrance Day For The Fallen Poem WW1 Soldier Poppy Metal Enamel Pin Badge"
+      },
+      {
+        "asin": "B0H4FXNBJF",
+        "name": "Lest We Forget Remembrance Flag 5x3FT, Poppy Banner British Memorial Wall Flag for Remembrance Day, VE Day, Home, Pub & "
+      },
+      {
+        "asin": "B0FH96VCWP",
+        "name": "QCYFJZFU Set of 4 Remembrance Day Decorations, Lest We Forget Flag 5ft x 3ft, Remembrance Day Bunting 5m, Poppy Window S"
+      },
+      {
+        "asin": "B0F9Z435GM",
+        "name": "Poppy Badges and Pins 2026, Enamel Poppy Pin Badge, Red Poppy Badge, Remembrance Pin Badges 2026 Fashion Jewellery for W"
+      },
+      {
+        "asin": "B0CCRD4XLL",
+        "name": "Lest We Forget Poppy Window Stickers & Silk Flowers - Remembrance Day Bunting"
+      },
+      {
+        "asin": "B0G8VZ6LKP",
+        "name": "AURABOHO Set of 3 Unscented Buddha Candles - Soy & Beeswax Long Burning Meditation Candles, Relaxation Gifts for Women, "
+      },
+      {
+        "asin": "B0CMJQVYC5",
+        "name": "Wooden Memorial Candle Tealight Holder, Poem Engraved Holder for Comforting | Bereavement Gifts, Sympathy Gift for Remem"
+      },
+      {
+        "asin": "B0CNCXQB3T",
+        "name": "Leebbsin New Beginnings Candle, Good Luck Gifts, New Job/Home Gifts | Leaving Gifts for Colleagues Women Men, Divorce/In"
+      },
+      {
+        "asin": "B0F42JXF2N",
+        "name": "Thinking of You Gifts Sympathy Gift, No Words Just Hugs Sympathy Candle, Lavender Scented Memorial Candles, Condolence, "
+      },
+      {
+        "asin": "B0FJ5PWWXF",
+        "name": "ehsbuy Thermal Winter Gloves Men Women Touchscreen Anti-Slip Wool Warm Fleece Lined Knit Elastic Cuff Gloves Gifts for R"
+      },
+      {
+        "asin": "B0CNCZVFTS",
+        "name": "Leebbsin Sympathy Gift- 7oz No Words Just Hugs Candle, Handmade | Bereavement/Thinking of You Gifts, Condolence/Cheer Up"
+      },
+      {
+        "asin": "B0FJFJNBKQ",
+        "name": "Waxcanpy Candles Gifts for Women, Soy Candle Gift Set, Pink Candles Gifts for Mum, 2 Pack Aromatherapy Candle for Relaxi"
+      }
+    ],
+    "trend_categories": {},
+    "supply_demand": {},
+    "divergences": {
+      "bathroom": {
+        "current_heat": 48,
+        "previous_heat": 41,
+        "heat_change_pct": 17.1,
+        "direction": "stable",
+        "dates": [
+          "2026-09-21_0851",
+          "2026-09-21_1711"
+        ]
+      },
+      "car": {
+        "current_heat": 72,
+        "previous_heat": 78,
+        "heat_change_pct": -7.7,
+        "direction": "stable",
+        "dates": [
+          "2026-09-21_0851",
+          "2026-09-21_1711"
+        ]
+      },
+      "lighting": {
+        "current_heat": 96,
+        "previous_heat": 100,
+        "heat_change_pct": -4.0,
+        "direction": "stable",
+        "dates": [
+          "2026-09-21_0851",
+          "2026-09-21_1711"
+        ]
+      },
+      "pets": {
+        "current_heat": 96,
+        "previous_heat": 100,
+        "heat_change_pct": -4.0,
+        "direction": "stable",
+        "dates": [
+          "2026-09-21_0851",
+          "2026-09-21_1711"
+        ]
+      },
+      "travel": {
+        "current_heat": 63,
+        "previous_heat": 47,
+        "heat_change_pct": 34.0,
+        "direction": "rising",
+        "dates": [
+          "2026-09-21_0851",
+          "2026-09-21_1711"
+        ]
+      },
+      "phone": {
+        "current_heat": 77,
+        "previous_heat": 36,
+        "heat_change_pct": 113.9,
+        "direction": "rising",
+        "dates": [
+          "2026-09-21_0851",
+          "2026-09-21_1711"
+        ]
+      },
+      "beauty": {
+        "current_heat": 82,
+        "previous_heat": 62,
+        "heat_change_pct": 32.3,
+        "direction": "rising",
+        "dates": [
+          "2026-09-21_0851",
+          "2026-09-21_1711"
+        ]
+      },
+      "kitchen": {
+        "current_heat": 58,
+        "previous_heat": 57,
+        "heat_change_pct": 1.8,
+        "direction": "stable",
+        "dates": [
+          "2026-09-21_0851",
+          "2026-09-21_1711"
+        ]
+      },
+      "crafts": {
+        "current_heat": 100,
+        "previous_heat": 100,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-09-21_0851",
+          "2026-09-21_1711"
+        ]
+      },
+      "seasonal": {
+        "current_heat": 77,
+        "previous_heat": 83,
+        "heat_change_pct": -7.2,
+        "direction": "stable",
+        "dates": [
+          "2026-09-21_0851",
+          "2026-09-21_1711"
+        ]
+      },
+      "garden": {
+        "current_heat": 96,
+        "previous_heat": 73,
+        "heat_change_pct": 31.5,
+        "direction": "rising",
+        "dates": [
+          "2026-09-21_0851",
+          "2026-09-21_1711"
+        ]
+      },
+      "office": {
+        "current_heat": 67,
+        "previous_heat": 94,
+        "heat_change_pct": -28.7,
+        "direction": "falling",
+        "dates": [
+          "2026-09-21_0851",
+          "2026-09-21_1711"
+        ]
+      },
+      "storage": {
+        "current_heat": 63,
+        "previous_heat": 57,
+        "heat_change_pct": 10.5,
+        "direction": "stable",
+        "dates": [
+          "2026-09-21_0851",
+          "2026-09-21_1711"
+        ]
+      },
+      "sports": {
+        "current_heat": 34,
+        "previous_heat": 41,
+        "heat_change_pct": -17.1,
+        "direction": "stable",
+        "dates": [
+          "2026-09-21_0851",
+          "2026-09-21_1711"
+        ]
+      },
+      "kitchen_gadgets": {
+        "current_heat": 5,
+        "previous_heat": 11,
+        "heat_change_pct": -54.5,
+        "direction": "falling",
+        "dates": [
+          "2026-09-21_0851",
+          "2026-09-21_1711"
+        ]
+      },
+      "eco": {
+        "current_heat": 96,
+        "previous_heat": 94,
+        "heat_change_pct": 2.1,
+        "direction": "stable",
+        "dates": [
+          "2026-09-21_0851",
+          "2026-09-21_1711"
+        ]
+      },
+      "cleaning": {
+        "current_heat": 33,
+        "previous_heat": 5,
+        "heat_change_pct": 560.0,
+        "direction": "rising",
+        "dates": [
+          "2026-09-21_0851",
+          "2026-09-21_1711"
+        ]
+      },
+      "bedding": {
+        "current_heat": 48,
+        "previous_heat": 62,
+        "heat_change_pct": -22.6,
+        "direction": "falling",
+        "dates": [
+          "2026-09-21_0851",
+          "2026-09-21_1711"
+        ]
+      },
+      "home decor": {
+        "current_heat": 67,
+        "previous_heat": 62,
+        "heat_change_pct": 8.1,
+        "direction": "stable",
+        "dates": [
+          "2026-09-21_0851",
+          "2026-09-21_1711"
+        ]
+      },
+      "baby": {
+        "current_heat": 14,
+        "previous_heat": 11,
+        "heat_change_pct": 27.3,
+        "direction": "stable",
+        "dates": [
+          "2026-09-21_0851",
+          "2026-09-21_1711"
+        ]
+      }
+    },
+    "gap_opportunities": 0
+  },
+  "products": [
+    {
+      "asin": "B0DPR3RGCQ",
+      "name": "HBell 12 Bundles Outdoor Artificial Flowers UV Resistant Fake Boxwood Plants,Faux Plastic Greenery for Indoor Outside Ar",
+      "price": 6.66,
+      "reviews": 70,
+      "rating": 4.5,
+      "rank": 29,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "70 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DPR3RGCQ",
+      "image_url": "https://m.media-amazon.com/images/I/81h4mUIZ5mL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "memorial decor",
+      "festival_event": "国殇纪念日",
+      "festival_icon": "🌹",
+      "festival_deadline": "2026-09-25",
+      "is_event": false,
+      "sources": [
+        "📅 国殇纪念日",
+        "TikTok趋势",
+        "Google趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.224,
+      "net_profit": 1.49,
+      "cost_breakdown": {
+        "vat": 1.11,
+        "commission": 1.0,
+        "fba": 1.46,
+        "ads": 0.67,
+        "returns": 0.13,
+        "sourcing": 0.8,
+        "total_cost": 5.17
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "medium",
+      "signal_label": "🟠 中信号",
+      "external_sources": [
+        "TikTok",
+        "Google"
+      ],
+      "internal_sources": [],
+      "score": 80,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "🟠 中信号": 10,
+        "🟡 中等竞争": 5,
+        "⭐ 高评分": 5,
+        "❓ 品类存疑": -5,
+        "📈 排名上升": 10,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 4,
+      "is_new": false,
+      "first_seen": "2026-09-21",
+      "is_multi": true,
+      "channel_tags": [
+        "google_trends",
+        "multi_source",
+        "tiktok_verified",
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0GLP43KBP",
+      "name": "CYUXING Happy Birthday Grave Decorations, Grave Marker Metal Memorial Remembrance Stake Decor for Garden Yard Outdoor Bi",
+      "price": 7.49,
+      "reviews": 25,
+      "rating": 4.9,
+      "rank": 10,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "25 reviews, 4.9★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GLP43KBP",
+      "image_url": "https://m.media-amazon.com/images/I/61y5m2XJs-L._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "memorial decor",
+      "festival_event": "国殇纪念日",
+      "festival_icon": "🌹",
+      "festival_deadline": "2026-09-25",
+      "is_event": false,
+      "sources": [
+        "📅 国殇纪念日",
+        "TikTok趋势",
+        "Google趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.261,
+      "net_profit": 1.96,
+      "cost_breakdown": {
+        "vat": 1.25,
+        "commission": 1.12,
+        "fba": 1.46,
+        "ads": 0.75,
+        "returns": 0.15,
+        "sourcing": 0.8,
+        "total_cost": 5.53
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "medium",
+      "signal_label": "🟠 中信号",
+      "external_sources": [
+        "TikTok",
+        "Google"
+      ],
+      "internal_sources": [],
+      "score": 71,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "📊 Google↑": 15,
+        "🟠 中信号": 10,
+        "🟢 低竞争": 10,
+        "⭐ 高评分": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 3,
+      "is_new": false,
+      "first_seen": "2026-09-21",
+      "is_multi": true,
+      "channel_tags": [
+        "google_trends",
+        "multi_source",
+        "tiktok_verified",
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0FG7TQHGB",
+      "name": "Lest We Forget Flag 5ft x 3ft, Poppy Flags with Eyelets, Remembrance Day Poppy Flag, D-Day Memorial Flags, Outdoor Indoo",
+      "price": 7.99,
+      "reviews": 30,
+      "rating": 4.7,
+      "rank": 38,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "30 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FG7TQHGB",
+      "image_url": "https://m.media-amazon.com/images/I/71hw1ZAI3iL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "remembrance day",
+      "festival_event": "国殇纪念日",
+      "festival_icon": "🌹",
+      "festival_deadline": "2026-09-25",
+      "is_event": false,
+      "sources": [
+        "📅 国殇纪念日",
+        "TikTok趋势"
+      ],
+      "profit_margin": 0.28,
+      "net_profit": 2.24,
+      "cost_breakdown": {
+        "vat": 1.33,
+        "commission": 1.2,
+        "fba": 1.46,
+        "ads": 0.8,
+        "returns": 0.16,
+        "sourcing": 0.8,
+        "total_cost": 5.75
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "weak",
+      "signal_label": "🟡 弱信号",
+      "external_sources": [
+        "TikTok"
+      ],
+      "internal_sources": [],
+      "score": 56,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🟢 低竞争": 10,
+        "⭐ 高评分": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 2,
+      "is_new": true,
+      "first_seen": "2026-09-22",
+      "is_multi": true,
+      "channel_tags": [
+        "multi_source",
+        "tiktok_verified",
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0H8SRXPZ9",
+      "name": "Lest We Forget Banner Flag, Large Remembrance Day Memorial Banner, British Commemorative Hanging Decoration for Indoor O",
+      "price": 7.49,
+      "reviews": 23,
+      "rating": 4.6,
+      "rank": 23,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "23 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H8SRXPZ9",
+      "image_url": "https://m.media-amazon.com/images/I/9186vcDuI1L._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "remembrance day",
+      "festival_event": "国殇纪念日",
+      "festival_icon": "🌹",
+      "festival_deadline": "2026-09-25",
+      "is_event": false,
+      "sources": [
+        "📅 国殇纪念日"
+      ],
+      "profit_margin": 0.261,
+      "net_profit": 1.96,
+      "cost_breakdown": {
+        "vat": 1.25,
+        "commission": 1.12,
+        "fba": 1.46,
+        "ads": 0.75,
+        "returns": 0.15,
+        "sourcing": 0.8,
+        "total_cost": 5.53
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": 4,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🟢 低竞争": 10,
+        "⭐ 高评分": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 1,
+      "is_new": false,
+      "first_seen": "2026-09-21",
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0FN3YZWWK",
+      "name": "Yeefox Mini Puzzle Box, 24 Pcs Mini Maze Puzzle Cube Games Brain Teaser for Party Favours Supplies Party Bags Fillers fo",
+      "price": 10.82,
+      "reviews": 20,
+      "rating": 4.6,
+      "rank": 18,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "20 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FN3YZWWK",
+      "image_url": "https://m.media-amazon.com/images/I/71PkCB0SYHL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "mini puzzle cubes party bag fillers",
+      "sources": [
+        "趋势发现"
+      ],
+      "profit_margin": 0.354,
+      "net_profit": 3.83,
+      "cost_breakdown": {
+        "vat": 1.81,
+        "commission": 1.62,
+        "fba": 1.46,
+        "ads": 1.08,
+        "returns": 0.22,
+        "sourcing": 0.8,
+        "total_cost": 6.99
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": 22,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🟢 低竞争": 10,
+        "⭐ 高评分": 5,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-09-22",
+      "is_event": false,
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0FQV1QGLV",
+      "name": "Mini Speed Cube 3x3 Party Bag Fillers for Kids, Gaming Party Bags Fillers | 20pcs, Classic & Portable, Mini Puzzle Cube ",
+      "price": 8.32,
+      "reviews": 94,
+      "rating": 4.1,
+      "rank": 6,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "94 reviews, 4.1★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FQV1QGLV",
+      "image_url": "https://m.media-amazon.com/images/I/81wBX4D87hL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "mini puzzle cubes party bag fillers",
+      "sources": [
+        "趋势发现"
+      ],
+      "profit_margin": 0.291,
+      "net_profit": 2.42,
+      "cost_breakdown": {
+        "vat": 1.39,
+        "commission": 1.25,
+        "fba": 1.46,
+        "ads": 0.83,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 5.9
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": 4,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🟡 中等竞争": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-09-22",
+      "is_event": false,
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0FGXP3S9Z",
+      "name": "18 Pack Speed Cube 3x3 Set, Mini Magic Cube for Kids, Educational Toys for Kids, Idea for Party Bag Fillers and Teenager",
+      "price": 7.99,
+      "reviews": 18,
+      "rating": 3.9,
+      "rank": 28,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "18 reviews, 3.9★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FGXP3S9Z",
+      "image_url": "https://m.media-amazon.com/images/I/71pJu4MSdXL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "mini puzzle cubes party bag fillers",
+      "sources": [
+        "趋势发现"
+      ],
+      "profit_margin": 0.28,
+      "net_profit": 2.24,
+      "cost_breakdown": {
+        "vat": 1.33,
+        "commission": 1.2,
+        "fba": 1.46,
+        "ads": 0.8,
+        "returns": 0.16,
+        "sourcing": 0.8,
+        "total_cost": 5.75
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": 14,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🌊 蓝海": 15,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-09-22",
+      "is_event": false,
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0D8TR83Y4",
+      "name": "THE TWIDDLERS 12 Mini Puzzle Speed Cube Fidget Toys, 3x3cm - Perfect as Party Bag Fillers for Kids, Brain Teasers Multip",
+      "price": 7.49,
+      "reviews": 26,
+      "rating": 3.6,
+      "rank": 35,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "26 reviews, 3.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0D8TR83Y4",
+      "image_url": "https://m.media-amazon.com/images/I/71UZIqWnGxL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "mini puzzle cubes party bag fillers",
+      "sources": [
+        "趋势发现"
+      ],
+      "profit_margin": 0.261,
+      "net_profit": 1.96,
+      "cost_breakdown": {
+        "vat": 1.25,
+        "commission": 1.12,
+        "fba": 1.46,
+        "ads": 0.75,
+        "returns": 0.15,
+        "sourcing": 0.8,
+        "total_cost": 5.53
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": 9,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🟢 低竞争": 10,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-09-22",
+      "is_event": false,
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0HCN3K6NX",
+      "name": "SailbSalab Winter Gloves Running Warm Touchscreen Windproof Cycling Thermal Gloves Non Slip with Fleece Lining for Hikin",
+      "price": 8.32,
+      "reviews": 15,
+      "rating": 4.6,
+      "rank": 11,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "15 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HCN3K6NX",
+      "image_url": "https://m.media-amazon.com/images/I/81d0pdFqzWL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "thermal touchscreen gloves winter running",
+      "sources": [
+        "趋势发现"
+      ],
+      "profit_margin": 0.291,
+      "net_profit": 2.42,
+      "cost_breakdown": {
+        "vat": 1.39,
+        "commission": 1.25,
+        "fba": 1.46,
+        "ads": 0.83,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 5.9
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": 11,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🌊 蓝海": 15,
+        "⭐ 高评分": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-09-22",
+      "is_event": false,
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0DG28ZNZD",
+      "name": "GLGHMH 2 Pairs Winter Thin Thermal Gloves Waterproof Finger Touch Screen Non-Slip Cold Resistant Gloves Windproof Warm W",
+      "price": 8.32,
+      "reviews": 107,
+      "rating": 4.1,
+      "rank": 17,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "107 reviews, 4.1★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DG28ZNZD",
+      "image_url": "https://m.media-amazon.com/images/I/71QadmbasaL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "thermal touchscreen gloves winter running",
+      "sources": [
+        "趋势发现"
+      ],
+      "profit_margin": 0.291,
+      "net_profit": 2.42,
+      "cost_breakdown": {
+        "vat": 1.39,
+        "commission": 1.25,
+        "fba": 1.46,
+        "ads": 0.83,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 5.9
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": -4,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🟡 中等竞争": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-09-22",
+      "is_event": false,
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0GT46JN6V",
+      "name": "Ulord Butterfly Memorial Metal Sign 8x12 Inch Sympathy Wall Art | Vintage Tin Sign Decor for Home Bedroom Living Room Ga",
+      "price": 7.49,
+      "reviews": 10,
+      "rating": 4.7,
+      "rank": 1,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "10 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GT46JN6V",
+      "image_url": "https://m.media-amazon.com/images/I/81O3mr0LrJL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "memorial decor",
+      "festival_event": "国殇纪念日",
+      "festival_icon": "🌹",
+      "festival_deadline": "2026-09-25",
+      "is_event": false,
+      "sources": [
+        "📅 国殇纪念日"
+      ],
+      "profit_margin": 0.261,
+      "net_profit": 1.96,
+      "cost_breakdown": {
+        "vat": 1.25,
+        "commission": 1.12,
+        "fba": 1.46,
+        "ads": 0.75,
+        "returns": 0.15,
+        "sourcing": 0.8,
+        "total_cost": 5.53
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": 9,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🌊 蓝海": 15,
+        "⭐ 高评分": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 1,
+      "is_new": false,
+      "first_seen": "2026-09-21",
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0DHRYV47V",
+      "name": "Get Well Soon Gifts for Women, Scented Candles Thinking of You Gifts | 9oz Lavender Candles Hug in a Box for Women，Sympa",
+      "price": 10.82,
+      "reviews": 10,
+      "rating": 5.0,
+      "rank": 16,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "10 reviews, 5.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DHRYV47V",
+      "image_url": "https://m.media-amazon.com/images/I/71eIQN+-4RL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "peace candle",
+      "festival_event": "国殇纪念日",
+      "festival_icon": "🌹",
+      "festival_deadline": "2026-09-25",
+      "is_event": false,
+      "sources": [
+        "📅 国殇纪念日"
+      ],
+      "profit_margin": 0.354,
+      "net_profit": 3.83,
+      "cost_breakdown": {
+        "vat": 1.81,
+        "commission": 1.62,
+        "fba": 1.46,
+        "ads": 1.08,
+        "returns": 0.22,
+        "sourcing": 0.8,
+        "total_cost": 6.99
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": 9,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🌊 蓝海": 15,
+        "⭐ 高评分": 5,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 1,
+      "is_new": false,
+      "first_seen": "2026-09-21",
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0F3JCH1QJ",
+      "name": "Forget Me Not Sympathy Plaque Memorial Bereavement Gifts Acrylic Heart Condolence Presents Remembrance Sympathy Gifts Ta",
+      "price": 6.66,
+      "reviews": 15,
+      "rating": 4.5,
+      "rank": 39,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "15 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0F3JCH1QJ",
+      "image_url": "https://m.media-amazon.com/images/I/71F7iJxM6vL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "memorial decor",
+      "festival_event": "国殇纪念日",
+      "festival_icon": "🌹",
+      "festival_deadline": "2026-09-25",
+      "is_event": false,
+      "sources": [
+        "📅 国殇纪念日"
+      ],
+      "profit_margin": 0.224,
+      "net_profit": 1.49,
+      "cost_breakdown": {
+        "vat": 1.11,
+        "commission": 1.0,
+        "fba": 1.46,
+        "ads": 0.67,
+        "returns": 0.13,
+        "sourcing": 0.8,
+        "total_cost": 5.17
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": 7,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🌊 蓝海": 15,
+        "⭐ 高评分": 5,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-09-22",
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0DYV26JC1",
+      "name": "Sympathy Gift-Thinking of You Gifts for Women Men, Lavender Scented Memorial Candle Bereavement Condolence Grieving Gift",
+      "price": 8.32,
+      "reviews": 17,
+      "rating": 4.4,
+      "rank": 15,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "17 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DYV26JC1",
+      "image_url": "https://m.media-amazon.com/images/I/61tNpbNSctL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "peace candle",
+      "festival_event": "国殇纪念日",
+      "festival_icon": "🌹",
+      "festival_deadline": "2026-09-25",
+      "is_event": false,
+      "sources": [
+        "📅 国殇纪念日"
+      ],
+      "profit_margin": 0.291,
+      "net_profit": 2.42,
+      "cost_breakdown": {
+        "vat": 1.39,
+        "commission": 1.25,
+        "fba": 1.46,
+        "ads": 0.83,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 5.9
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": 4,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🌊 蓝海": 15,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 1,
+      "is_new": false,
+      "first_seen": "2026-09-21",
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0F8VSGD6D",
+      "name": "ZDNT Unpainted Wooden Fairy Door Elf Door Mini Door Shape Wooden Pieces Fairy Doors for Garden Trees for Home Office Bir",
+      "price": 8.99,
+      "reviews": 118,
+      "rating": 4.6,
+      "rank": 12,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "118 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0F8VSGD6D",
+      "image_url": "https://m.media-amazon.com/images/I/716jTIqnskL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wooden elf door kit christmas",
+      "sources": [
+        "趋势发现"
+      ],
+      "profit_margin": 0.312,
+      "net_profit": 2.8,
+      "cost_breakdown": {
+        "vat": 1.5,
+        "commission": 1.35,
+        "fba": 1.46,
+        "ads": 0.9,
+        "returns": 0.18,
+        "sourcing": 0.8,
+        "total_cost": 6.19
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": 5,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🟡 中等竞争": 5,
+        "⭐ 高评分": 5,
+        "💰 高利润": 8,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-09-22",
+      "is_event": false,
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0DRYT915X",
+      "name": "Battle of Britain Pin Badges, Poppy Badge and Pins Spitfire British Legion Commemorative Brooch Never Forget Poppies Pin",
+      "price": 7.99,
+      "reviews": 21,
+      "rating": 4.6,
+      "rank": 32,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "21 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DRYT915X",
+      "image_url": "https://m.media-amazon.com/images/I/71o6kDEB9jL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "poppy pin",
+      "festival_event": "国殇纪念日",
+      "festival_icon": "🌹",
+      "festival_deadline": "2026-09-25",
+      "is_event": false,
+      "sources": [
+        "📅 国殇纪念日"
+      ],
+      "profit_margin": 0.28,
+      "net_profit": 2.24,
+      "cost_breakdown": {
+        "vat": 1.33,
+        "commission": 1.2,
+        "fba": 1.46,
+        "ads": 0.8,
+        "returns": 0.16,
+        "sourcing": 0.8,
+        "total_cost": 5.75
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "_degraded": true,
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": 4,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🟢 低竞争": 10,
+        "⭐ 高评分": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "📊 持续上升": 8,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 1,
+      "is_new": false,
+      "first_seen": "2026-09-17",
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0DSWG6Y84",
+      "name": "Official Poppy Appeal Ridge Poppy Badge",
+      "price": 12.0,
+      "reviews": 113,
+      "rating": 4.7,
+      "rank": 7,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "113 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DSWG6Y84",
+      "image_url": "https://m.media-amazon.com/images/I/61Iaeakm87L._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "poppy pin",
+      "festival_event": "国殇纪念日",
+      "festival_icon": "🌹",
+      "festival_deadline": "2026-09-25",
+      "is_event": false,
+      "sources": [
+        "📅 国殇纪念日"
+      ],
+      "profit_margin": 0.375,
+      "net_profit": 4.5,
+      "cost_breakdown": {
+        "vat": 2.0,
+        "commission": 1.8,
+        "fba": 1.46,
+        "ads": 1.2,
+        "returns": 0.24,
+        "sourcing": 0.8,
+        "total_cost": 7.5
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "_degraded": true,
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": -1,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🟡 中等竞争": 5,
+        "⭐ 高评分": 5,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 1,
+      "is_new": false,
+      "first_seen": "2026-09-17",
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0DNJKKSZJ",
+      "name": "Running Gloves, Winter Touch screen Warm Cycling Sports Gloves Men Women | Lightweight and Breathable Black Gloves",
+      "price": 7.07,
+      "reviews": 64,
+      "rating": 4.6,
+      "rank": 21,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "64 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DNJKKSZJ",
+      "image_url": "https://m.media-amazon.com/images/I/71BJUKJjvbL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "thermal touchscreen gloves winter running",
+      "sources": [
+        "趋势发现"
+      ],
+      "profit_margin": 0.243,
+      "net_profit": 1.72,
+      "cost_breakdown": {
+        "vat": 1.18,
+        "commission": 1.06,
+        "fba": 1.46,
+        "ads": 0.71,
+        "returns": 0.14,
+        "sourcing": 0.8,
+        "total_cost": 5.35
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": -3,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🟡 中等竞争": 5,
+        "⭐ 高评分": 5,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-09-22",
+      "is_event": false,
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0FP4NTGNT",
+      "name": "TRENDOUX Winter Thermal Running Gloves, Warm Polar Fleece Lined Touch Screen Gloves For Men Women With Anti-Slip Silicon",
+      "price": 8.32,
+      "reviews": 62,
+      "rating": 4.2,
+      "rank": 28,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "62 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FP4NTGNT",
+      "image_url": "https://m.media-amazon.com/images/I/81RBqapdhHL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "thermal touchscreen gloves winter running",
+      "sources": [
+        "趋势发现"
+      ],
+      "profit_margin": 0.291,
+      "net_profit": 2.42,
+      "cost_breakdown": {
+        "vat": 1.39,
+        "commission": 1.25,
+        "fba": 1.46,
+        "ads": 0.83,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 5.9
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": -4,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🟡 中等竞争": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-09-22",
+      "is_event": false,
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0FHKL3P14",
+      "name": "Winter Running Gloves for Men and Women, Touch Screen Compatible, Anti-Slip Lightweight, for Cycling Biking Sporting Dri",
+      "price": 8.32,
+      "reviews": 86,
+      "rating": 4.2,
+      "rank": 44,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "86 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FHKL3P14",
+      "image_url": "https://m.media-amazon.com/images/I/61VSqItahKL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "thermal touchscreen gloves winter running",
+      "sources": [
+        "趋势发现"
+      ],
+      "profit_margin": 0.291,
+      "net_profit": 2.42,
+      "cost_breakdown": {
+        "vat": 1.39,
+        "commission": 1.25,
+        "fba": 1.46,
+        "ads": 0.83,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 5.9
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": -4,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🟡 中等竞争": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-09-22",
+      "is_event": false,
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0FMY1L7K4",
+      "name": "DIY Advent Calendar 2025,Christmas Empty Advent Calendar Bags to Fill Yourself,24Pcs Christmas Drawstring Gift Bags with",
+      "price": 8.32,
+      "reviews": 12,
+      "rating": 4.8,
+      "rank": 35,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "12 reviews, 4.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FMY1L7K4",
+      "image_url": "https://m.media-amazon.com/images/I/91ck9SdDMJL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "fabric advent calendar 24 pockets fill your own",
+      "sources": [
+        "趋势发现"
+      ],
+      "profit_margin": 0.291,
+      "net_profit": 2.42,
+      "cost_breakdown": {
+        "vat": 1.39,
+        "commission": 1.25,
+        "fba": 1.46,
+        "ads": 0.83,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 5.9
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": 3,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🌊 蓝海": 15,
+        "⭐ 高评分": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "🎯 事件过密": -8,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-09-22",
+      "is_event": true,
+      "channel_tags": [
+        "event_product",
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0GX25PSD4",
+      "name": "2026 Advent Calendar Gift Bags,24Pack DIY Fabric Drawstring Advent Bag Kit | Reusable Countdown Drawstring Bags for Fill",
+      "price": 8.32,
+      "reviews": 136,
+      "rating": 4.4,
+      "rank": 16,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "136 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GX25PSD4",
+      "image_url": "https://m.media-amazon.com/images/I/810oVTUvmqL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "fabric advent calendar 24 pockets fill your own",
+      "sources": [
+        "趋势发现"
+      ],
+      "profit_margin": 0.291,
+      "net_profit": 2.42,
+      "cost_breakdown": {
+        "vat": 1.39,
+        "commission": 1.25,
+        "fba": 1.46,
+        "ads": 0.83,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 5.9
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": -4,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🟡 中等竞争": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-09-22",
+      "is_event": false,
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0GX29RWLX",
+      "name": "2026 Advent Calendar Gift Bags,24Pack DIY Fabric Drawstring Advent Bag Kit | Reusable Countdown Drawstring Bags to Fill ",
+      "price": 8.32,
+      "reviews": 136,
+      "rating": 4.4,
+      "rank": 8,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "136 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GX29RWLX",
+      "image_url": "https://m.media-amazon.com/images/I/811DY3IKfZL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "fabric advent calendar 24 pockets fill your own",
+      "sources": [
+        "趋势发现"
+      ],
+      "profit_margin": 0.291,
+      "net_profit": 2.42,
+      "cost_breakdown": {
+        "vat": 1.39,
+        "commission": 1.25,
+        "fba": 1.46,
+        "ads": 0.83,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 5.9
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": -4,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🟡 中等竞争": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-09-22",
+      "is_event": false,
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0D9RM8K9Q",
+      "name": "HOWAF Christmas Fabric Advent Calendar, Pet Dog Puppy Reusable Advent Calendar 2026 with 24 Pockets 10x10cm, Fill Your O",
+      "price": 11.66,
+      "reviews": 17,
+      "rating": 3.8,
+      "rank": 32,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "17 reviews, 3.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0D9RM8K9Q",
+      "image_url": "https://m.media-amazon.com/images/I/81vDyaBQvaL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "fabric advent calendar 24 pockets fill your own",
+      "sources": [
+        "趋势发现"
+      ],
+      "profit_margin": 0.369,
+      "net_profit": 4.3,
+      "cost_breakdown": {
+        "vat": 1.95,
+        "commission": 1.75,
+        "fba": 1.46,
+        "ads": 1.17,
+        "returns": 0.23,
+        "sourcing": 0.8,
+        "total_cost": 7.36
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": 6,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🌊 蓝海": 15,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "🎯 事件过密": -8,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-09-22",
+      "is_event": true,
+      "channel_tags": [
+        "event_product",
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0F6LP8V28",
+      "name": "SUNBEAUTY 4Pc Large 3D Black Paper Butterfly Halloween Decoration | Gothic Decor Big Hanging Butterflies for Bachelorett",
+      "price": 9.16,
+      "reviews": 47,
+      "rating": 4.0,
+      "rank": 42,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "47 reviews, 4.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0F6LP8V28",
+      "image_url": "https://m.media-amazon.com/images/I/71j35mwmosL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "memorial decor",
+      "festival_event": "国殇纪念日",
+      "festival_icon": "🌹",
+      "festival_deadline": "2026-09-25",
+      "is_event": true,
+      "sources": [
+        "📅 国殇纪念日"
+      ],
+      "profit_margin": 0.316,
+      "net_profit": 2.9,
+      "cost_breakdown": {
+        "vat": 1.53,
+        "commission": 1.37,
+        "fba": 1.46,
+        "ads": 0.92,
+        "returns": 0.18,
+        "sourcing": 0.8,
+        "total_cost": 6.26
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": -3,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🟢 低竞争": 10,
+        "💰 高利润": 8,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "🎯 事件过密": -8,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-09-22",
+      "channel_tags": [
+        "event_product",
+        "keyword_search"
+      ]
+    }
+  ],
+  "gaps": [],
+  "trend_summary": {
+    "top_categories": [],
+    "cross_validated": [],
+    "demand_keywords": [],
+    "season": "",
+    "sources_scanned": []
+  }
+}
