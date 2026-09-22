@@ -1,0 +1,110 @@
+{
+  "date": "2026-09-22",
+  "updated_at": "2026-09-22 08:30",
+  "scan_date": "2026-09-22",
+  "scan_time": "08:30",
+  "summary": "本轮4个机会全部为14天内未推品类（4新品/0复扫）。方向：①触屏保暖手套借10月降温+Bonfire Night双场景（消防部门公开背书'持仙女棒必须戴手套'）②官方Elf on the Shelf 24日套装官网缺货，木门平替窗口打开③布艺fill-your-own倒数日历竞品弱、1688毛毡工厂现货④迷你魔方派对袋填充包，圣诞袜季前哨。所有SKU重量≤200g、不发海运、无电池无液体。",
+  "insights": [
+    {
+      "keyword": "thermal touchscreen gloves winter running",
+      "keyword_cn": "触屏保暖手套（秋冬跑步/通勤/仙女棒防护）",
+      "amazon_keyword": "thermal touchscreen gloves winter running",
+      "search_1688": "触屏手套 男女士秋冬 加绒防滑 触摸屏针织手套 跨境",
+      "demand_signals": [
+        "Amazon UK Men's/ Women's Running Gloves畅销榜前20几乎全被中国卖家触屏款占据（Unigear/TOLEMI/Lapulas等），榜单集中度低、无垄断品牌（来源：Amazon UK Best Sellers页面 2026-09搜索）",
+        "UK比价站bestproductsai 2026年4月审计确认£5-9价位段多款在售活跃（TRENDOUX/TOLEMI约£8），低价位需求被验证（来源：bestproductsai.co.uk）",
+        "London Fire Brigade官方烟花安全指南明确要求'所有持仙女棒者必须戴手套、5岁以下不给仙女棒'——11月5日Bonfire Night给同一个SKU叠加第二购买场景（来源：london-fire.gov.uk）",
+        "9月底-10月UK首轮夜间霜冻前，gloves品类搜索随气温季节性跳升（UK气象规律，10月中旬前为入库窗口）"
+      ],
+      "trend_score": 78,
+      "trend_direction": "up",
+      "reason": "10月降温+11月5日Bonfire Night双事件驱动，窗口重叠但相互独立：即便升温慢，仙女棒安全场景也在10月底硬性启动。榜单无品牌垄断，是中国卖家为主的红海但长尾可切。",
+      "action": "007店测品。定价£7.99双 pack（加绒+防滑硅胶掌+触屏指尖）。1688采购约¥7-10/双，选针织薄款（重量≤90g/双）。listing双向关键词：running/commuting + sparkler/bonfire night safety。10月1日前入FBA仓。",
+      "competition": "诚实评估：红海。男/女Running Gloves榜16+在售品牌，头部月销大但review多在500-3000条，5条近期review可切入的长尾变体（颜色/3双装/女款小码）仍有空间。bonfire safety交叉词竞争近空白。",
+      "signal_scores": {
+        "trend": 75,
+        "gap": 55,
+        "profit": 82,
+        "final": 71,
+        "recommendation": "GO - 双场景背书，利润厚，竞争吃掉一部分gap分",
+        "profit_window": "£7.99定价：约佣金£1.23(15.45%)+FBA约£2.05+采购约£0.90 → 净利约£3.8/单(约48%)。最终以calc_profit.py和1688实询为准"
+      }
+    },
+    {
+      "keyword": "fabric advent calendar fill your own",
+      "keyword_cn": "布艺圣诞倒数日历挂袋（fill-your-own 24口袋）",
+      "amazon_keyword": "fabric advent calendar 24 pockets fill your own",
+      "search_1688": "圣诞倒数日历 布艺毛毡挂袋 24口袋 无纺布 跨境专供",
+      "demand_signals": [
+        "独立站Carousel同款卖£18.99仍主打'reusable year after year'卖点，验证溢价接受度（来源：carouselshop.co.uk 2026-09搜索）",
+        "Amazon UK同类B0DF7FWRZ3挂出'Decorative Advent Calendars类目232名'，说明类目体量存在且头部未饱和（来源：Amazon UK listing数据）",
+        "1688义乌/东阳毛毡圣诞工厂（东阳市圣远鸿、义乌市品简等）均有现成毛毡挂历/无纺布挂件产线，'仅1688找工厂买家可见'报价体系成熟、可来样定做（来源：1688找工厂 2026-07报价页）",
+        "12月1日开窗倒推：10月底为FBA上架死线，9月底10月初正是工厂排产价最优期（圣诞产能未爆仓）"
+      ],
+      "trend_score": 80,
+      "trend_direction": "up",
+      "reason": "fill-your-own是圣诞季复购型家庭传统SKU，纸质款年年丢弃的痛点让'reusable'成为明确升级卖点。类目头部未出现10万review级垄断者，10月底上架死线前的窗口刚好够空运小批量测款。",
+      "action": "027店小批量空运测款（≤60件）。定价£11.99。⚠️红线控制：必选无纺布/薄毛毡轻量版（整重≤200g、折叠后包装≤30×22×4cm），拒绝380g毛绒厚款。1688约¥9-15/件。差异化：口袋11×11cm放大（竞品普遍偏小装不下巧克力）+附姓名标签贴纸。",
+      "competition": "中等偏弱。Amazon UK在售款多为小口袋设计且主图粗糙，独立站£18.99定价留出£11.99卡位空间。未见品牌集中，review多<300条。",
+      "signal_scores": {
+        "trend": 78,
+        "gap": 72,
+        "profit": 85,
+        "final": 78,
+        "recommendation": "GO - 本轮最优，死线明确（10月底），利润窗口厚",
+        "profit_window": "£11.99定价：约佣金£1.85+FBA约£2.05(轻量版)+采购约£1.30 → 净利约£6.8/单(约57%)。最终以calc_profit.py和1688实询为准"
+      }
+    },
+    {
+      "keyword": "wooden elf door kit",
+      "keyword_cn": "圣诞精灵门套装（Elf on the Shelf平替）",
+      "amazon_keyword": "wooden elf door kit christmas",
+      "search_1688": "木质精灵门 圣诞装饰diy小木门 工艺品套装 来样定做",
+      "demand_signals": [
+        "官方The Elf on the Shelf 24-Day Kit官网£39.95显示Out of Stock、 £32.95款在售——官方渠道供不应求，平替窗口打开（来源：shop.elfontheshelf.co.uk 2026-09）",
+        "Argos/John Lewis均在售官方kit（£29.95-39.95），证明UK家庭对该传统付费意愿强且价格锚点高（来源：argos.co.uk / johnlewis.com）",
+        "第三方EasyKit木门kit卖£22.99仍标'Available Immediately'，第三方供给稀缺、价格高企（来源：living24.uk 2026-09价格追踪）",
+        "12月1日精灵'到访'是硬日期，家长11月就完成采购；9-10月为工厂备货期，义乌/东阳木质工艺品厂可来样定做（来源：1688找工厂东阳荷初伊等）"
+      ],
+      "trend_score": 76,
+      "trend_direction": "up",
+      "reason": "官方缺货+第三方价格锚点£17.99-22.99，留给£9.99-11.99平替的空间清晰。精灵门是'一年一度重复使用'的记忆型SKU，口碑积累后明年还能卖。",
+      "action": "027店测品。定价£10.99。做mini款：木门约12×18cm+迷你梯子+信箱贴纸+'Santa Stop Here'木牌组合（总重≤200g、包装≤25×18×4cm）。⚠️拒绝发光LED款（含电池=红线）。1688木质门约¥8-12+配件¥3-5。",
+      "competition": "弱。Amazon UK官方门kit £7.88(409条review)是最强对手——注意它走低价官方授权路线；第三方木质kit少且贵。差异化打'木门+配件套装质感'而不是拼£7.88单价。",
+      "signal_scores": {
+        "trend": 76,
+        "gap": 65,
+        "profit": 80,
+        "final": 74,
+        "recommendation": "GO - 官方缺货是时间窗信号，11月后窗口关闭",
+        "profit_window": "£10.99定价：约佣金£1.70+FBA约£2.05+采购约£1.40 → 净利约£5.8/单(约53%)。最终以calc_profit.py和1688实询为准"
+      }
+    },
+    {
+      "keyword": "mini puzzle cubes party bag fillers",
+      "keyword_cn": "迷你魔方多件装（圣诞袜/派对袋填充）",
+      "amazon_keyword": "mini puzzle cubes party bag fillers",
+      "search_1688": "迷你魔方小号 三阶钥匙扣 派对礼物 12个装 跨境",
+      "demand_signals": [
+        "Amazon UK Puzzle Boxes/Brain Teasers两个畅销榜均被THE TWIDDLERS 28/30-pack mini cubes占据前列，且标题直接打'Party Bag Fillers/Stocking Fillers'（来源：Amazon UK Best Sellers 2026-09）",
+        "Pop Fidget Toys榜同时出现magic snake cube/pop tube多件装霸榜——多件装填充玩具是圣诞季货架刚需形态（来源：Amazon UK Best Sellers）",
+        "圣诞stocking fillers搜索潮11-12月达峰、10月预热启动，multipack形态单价低+件数多是礼物场景最优解（来源：Amazon UK类目标题信号）",
+        "1688魔方供应链极成熟，迷你款¥1.5-3/个，12个装成本可控（来源：1688玩具类目常规报价）"
+      ],
+      "trend_score": 68,
+      "trend_direction": "up",
+      "reason": "圣诞袜季前哨品，需求确定性高但利润薄。价值在于凑单件+关联流量：与elf door/advent calendar同店互推，拉高客单。",
+      "action": "007店。定价£7.99做12枚迷你魔方装（单枚约3cm，总重≤180g）。差异化：附12张难度贴纸+挑战卡（竞品无）。1688约¥18-25/套。若real实询成本超¥25/套则放弃，利润垫不足。",
+      "competition": "诚实评估：THE TWIDDLERS垄断multipack心智（多款在售、review数千），新人切multipack只能靠差异化配件。此条为谨慎推荐（PROFIT偏低），优先级排在上面三条之后。",
+      "signal_scores": {
+        "trend": 70,
+        "gap": 45,
+        "profit": 45,
+        "final": 53,
+        "recommendation": "WATCH - 仅作凑单/关联款，1688询价超¥25/套即放弃",
+        "profit_window": "£7.99定价：约佣金£1.23+FBA约£2.05+采购约£2.60 → 净利约£2.1/单(约26%)。利润窗口薄，最终以calc_profit.py和1688实询为准"
+      }
+    }
+  ],
+  "trend_forecast": "未来3-4周（9月22日-10月20日）UK需求窗口预测，基于本轮扫描到的真实信号：① 9月最后一周（9/22-9/28）：万圣节锁定周。UK万圣节消费在10月第一周进入派对手工/服装配件/桌面布置的集中下单期，10月上旬搜索量到顶，因此9月底是万圣节非服饰类小件（party bag填充、桌面装饰、手工材料包）最后一波空运测款窗口——注意万圣节主品类14天内已推过（pumpkin carving kit 9/21、treat bags 9/12），本轮不重复，方向应转向party tableware与kids craft kit的空档。② 10月第1周（9/29-10/5）：取暖季启动周。UK气象规律上10月中旬出现首轮夜间霜冻，保暖类目搜索在霜冻前7-10天跳升；draught tape/window insulation film/heat pack等已在9月16-18推送过（14天去重内），下一个空档方向是无电池可复用暖手器（reusable snap hand warmers）与针织类配件，本轮触屏保暖手套正好卡进这个窗口，建议10月1日前入仓。③ 10月第2周（10/6-10/12）：Bonfire Night前置采购期。11月5日Guy Fawkes Night前2-4周，家庭焰火夜相关搜索（sparkler safety/fireworks party/home display safety）开始爬坡，London Fire Brigade明确要求持仙女棒者戴手套——防护手套/护目镜/儿童安全装备是轻小件切入点，且该交叉词竞争近空白；本轮已把该信号并入保暖手套推荐，单独的bonfire party pack可作为下一轮备选方向。④ 10月第3周（10/13-10/20）：圣诞倒数日历上架死线周。fill-your-own advent calendar必须10月底前入FBA仓（12月1日开窗，倒推空运10天+FBA入库缓冲），同期elf door/stocking fillers/圣诞DIY kit进入最后排产期——错过这周就只能海运或等明年，本轮fabric advent calendar与wooden elf door两条都压在这个死线前，建议本周内完成1688询价打样。整体节奏：万圣节窗口收尾→取暖季接棒→Bonfire Night短窗口→圣诞长窗口开启，四段窗口首尾相接，10月是全年轻小件空运测款密度最高的月份，建议把027店的60件/批小批量额度优先分配给advent calendar与elf door两个死线明确的SKU。"
+}
