@@ -1,0 +1,140 @@
+{
+  "date": "2026-09-23",
+  "updated_at": "2026-09-23 08:20 Asia/Shanghai",
+  "scan_date": "2026-09-23",
+  "scan_time": "08:11-08:20",
+  "summary": "今日5个机会全部为新品（is_new=True），0个复扫。主攻两条线：①蜡烛季配套工具（CozyTok驱动，10月-1月长窗口）；②圣诞圣诞季四连发（gonk摆件/魔法钥匙/花环DIY材料包/3D打印关节龙），全部规避液体膏体、body care、电子件，全部≤200g轻小件空运适配，£5.99-12.99价格带内利润率47%-56%（口径：佣金+FBA+采购+空运，不含广告/退货）。14天去重核对：与9月7日-9月22日已推的velvet bows/elf door/ advent calendar/stockings/魔方等无主品类重叠。",
+  "insights": [
+    {
+      "keyword": "candle care kit wick trimmer snuffer dipper",
+      "keyword_cn": "香薰蜡烛护理三件套（烛芯剪+灭烛罩+灭烛钩）",
+      "amazon_keyword": "candle care kit wick trimmer snuffer dipper gift",
+      "search_1688": "香薰蜡烛工具套装 三件套 / 烛芯修剪器 灭烛罩 铃铛",
+      "demand_signals": [
+        "TikTok #CozyTok 秋季内容带火candle周边，2026年9月TikTok Shop英国趋势榜把candle warmer lamp列为秋季home Top品类（astools.app 2026-09-02）",
+        "Amazon UK Hot New Releases 9月初fall essentials 32款上榜，社媒驱动的蜡烛相关是重点板块（bomo.news 2026-09-06）",
+        "1688义乌现货：烛芯剪三件套¥14.25起、库存1.8万+，近30天24人想买，另一厂家直供款¥3.44-31.50（chinagoods.com/yiwugo 实时报价，2026-09-23抓取）",
+        "英国蜡烛点燃高峰10月中-1月：Bonfire Night(11-5)后进入每日点燃季，工具类是蜡烛持有者的配套刚需，买家几乎全有蜡烛，教育成本为零"
+      ],
+      "trend_score": 82,
+      "trend_direction": "rising",
+      "reason": "9月-10月英国进入蜡烛点燃季+圣诞礼赠季叠加，candle care tools正从美妆/家居博主内容外溢到大众购买。该品类是'买了蜡烛的人必然需要的下一步'，10月中旬起需求曲线走陡，礼盒化后可吃圣诞礼品溢价，窗口8-10周足够一轮空运补货。",
+      "action": "007店首发空运200件测品，定价£10.99礼盒装；1688采购关键词：香薰蜡烛工具套装三件套（选黑金/圣诞红配色+礼盒包装，单套≤180g）；同步上圣诞限定红盒版吃12月礼品流量",
+      "competition": "Amazon UK三件套£8-15区间有Gardenmate及蜡烛品牌配套款，review 100-2000条，头部分散无垄断品牌；差评集中在剪刀钝/电镀掉色。差异化位：圣诞红/金礼盒+英式贺卡，避开纯黑大众款正面竞争。",
+      "signal_scores": {
+        "trend": 82,
+        "gap": 70,
+        "profit": 85,
+        "final": 80,
+        "recommendation": "buy",
+        "profit_window": "10月中旬-1月初，约8-10周"
+      },
+      "profit_estimate": "采购¥14.25≈£1.55 + 空运£0.8(180g) + FBA Large Standard≈£2.80 + 佣金8%(£10.99)=£0.88 → 净利≈£4.96，利润率≈45%（汇率9.2，不含广告/退货）"
+    },
+    {
+      "keyword": "3d printed articulated dragon flexi desk toy",
+      "keyword_cn": "3D打印关节可动龙（桌面解压摆件）",
+      "amazon_keyword": "3d printed articulated dragon flexi desk toy",
+      "search_1688": "3D打印龙 关节可动 / 铰接龙 跨境 / flexi dragon",
+      "demand_signals": [
+        "1688平台2026年8月数据：3D打印解压玩具订单量环比+37%，'跨境圣诞节3D打印解压六件套'成交额环比+42%（wiki.1688开学季&中秋礼品优选页，2026-08）",
+        "TikTok desk-toy为复发性趋势：articulated figures（龙/骷髅/章鱼）9月随早期Halloween内容二次抬升，flexi关节demo是天然短视频钩子（astools.app 2026-09-02）",
+        "1688实时货源：3D打印龙摆件批发¥1.27-4.53/个，义乌工厂支持小单快反24h打样（1688找工厂，2026-09-23抓取）",
+        "Cults3D圣诞龙+龙蛋模型2025年11月上架即出商业授权版，欧美打印/手工社区付费热度延续到2026圣诞（cults3d.com设计编号3664184）"
+      ],
+      "trend_score": 85,
+      "trend_direction": "strongly rising",
+      "reason": "该品类是罕见的'双季节+全年长尾'品：9-10月吃Halloween骷髅/龙造型，11-12月吃圣诞龙+stocking filler，节后回归桌面解压玩具基本盘，库存不过期。1688 8月环比+37%/+42%说明中国供应链刚起量，此时进场正好卡在价格战之前。",
+      "action": "027店小批量60件测款（新品≤60件红线），定价£9.99（28-30cm大号款）；1688采购关键词：3D打印龙 关节可动 跨境（要求实拍视频验层纹/脆断，单只≤120g）；春节后可复用listing转常规桌面玩具",
+      "competition": "Amazon UK现有flexi龙集中在10-15cm小件£5-8，30cm+大号premium款少且review<300，属上升期窗口；差评集中在层纹粗糙/关节脆断，供应链质检是胜负手。无品牌垄断。",
+      "signal_scores": {
+        "trend": 85,
+        "gap": 75,
+        "profit": 90,
+        "final": 84,
+        "recommendation": "buy",
+        "profit_window": "9月底-12月底双季节峰值+全年长尾"
+      },
+      "profit_estimate": "采购¥3.5≈£0.38 + 空运£0.6(100g) + FBA≈£2.70 + 佣金8%(£9.99)=£0.80 → 净利≈£5.51，利润率≈55%"
+    },
+    {
+      "keyword": "santa magic key christmas eve door ornament",
+      "keyword_cn": "圣诞老人魔法钥匙（平安夜门挂）",
+      "amazon_keyword": "santa magic key christmas eve door ornament",
+      "search_1688": "圣诞魔法钥匙 木质 / Santa magic key 门挂",
+      "demand_signals": [
+        "Santa's Magic Key入选美国Transpac 2026圣诞年货盘（9月15日出货，Case pack 72，木质），批发渠道正为圣诞2026集中备货（transpacbrands.com 2026-09）",
+        "英国零售端已上2026圣诞线：Tinkerbells Emporium魔法钥匙£1在售；Poundland圣诞系列含Santa's magic key door sign（JOY Design Studio案例，2025-12）",
+        "英国'无烟囱公寓家庭怎么让圣诞老人进来'的仪式感内容每年12月在TikTok/Instagram复燃，prop类客单低、复购按年轮转，stocking filler定位明确（多源社交内容观察）",
+        "英国树脂/木质手工创作者把magic key列为圣诞定制款top3（Coventry Happily.Ever.Resin 2026在售清单），C2C热度外溢到量产需求"
+      ],
+      "trend_score": 75,
+      "trend_direction": "rising",
+      "reason": "魔法钥匙是英国本土圣诞仪式感单品，2026圣诞零售年货盘9月已确认量产趋势。它把'公寓没有烟囱'的痛点变成家庭仪式，社交内容每年自动复燃，几乎零教育成本。极致轻小（木钥匙+麻绳+铃铛约25g），是全场最便宜的空运测试SKU，适合做店铺引流款+捆绑购物车。",
+      "action": "007店补位SKU空运300件，定价£5.99；1688采购关键词：圣诞魔法钥匙 木质（要求含麻绳+小铃铛+英文贺卡'No Chimney? No Problem!'版式，单件≤30g）；可与本店蜡烛套装/花环包做虚拟捆绑",
+      "competition": "Amazon UK现有£3-6款式若干，review普遍<200，同质化为裸钥匙+缎带；差异化在挂绳材质+铃铛+英文仪式感贺卡三件套化。无品牌垄断，价格战风险中等，靠组合件拉开溢价。",
+      "signal_scores": {
+        "trend": 75,
+        "gap": 80,
+        "profit": 80,
+        "final": 78,
+        "recommendation": "buy",
+        "profit_window": "11月初-12月20日，约6-7周"
+      },
+      "profit_estimate": "采购¥1.2≈£0.13 + 空运£0.3(30g) + FBA Small≈£1.71 + 佣金8%(£5.99)=£0.48 → 净利≈£3.37，利润率≈56%"
+    },
+    {
+      "keyword": "christmas wreath making kit diy craft set",
+      "keyword_cn": "圣诞花环DIY材料包（仿真款）",
+      "amazon_keyword": "christmas wreath making kit diy craft set",
+      "search_1688": "圣诞花环diy材料包 仿真 / 圣诞花环手工套装",
+      "demand_signals": [
+        "全球装饰花环市场CAGR 4.5%、2030年达£1.2bn，DIY wreath-making kits被报告点名为增长子类（Business Lancashire引Industry Growth Insight）",
+        "英国florist wreath workshops每年11月底-12月满档，本地DIY wreath kit卖£18仍供不应求（Lincolnshire Life采访Hannah's Flowers）",
+        "Google Trends 'dried Christmas wreath'搜索2020-2025增长180%+，欧洲天然/可持续材料花环偏好抬头（marketintelo 2025 Christmas Wreath Market报告）",
+        "UK premium wreath溢价15-30%，DIY材料包吃'craft economy'溢价；2026年Amazon UK竞品以真枝叶款为主（重、保鲜期短、物流贵），仿真材料款缺位（marketintelo+Amazon UK类目观察）"
+      ],
+      "trend_score": 80,
+      "trend_direction": "rising",
+      "reason": "英国花环DIY是深度文化传统（家庭+workshop双场景），工作坊11月底开班把需求精确锁定在11月中-12月中。当前Amazon UK竞品几乎全是真枝叶款（2kg+、需冷链式快销），仿真材料包把物流重量砍到200g内，全年可复用、无腐损，是结构性错位竞争而非同质化抢量。",
+      "action": "007店首发空运150件，定价£12.99；1688采购关键词：圣诞花环diy材料包 仿真（配置：泡沫/金属花环底+仿真松枝+红果+松果+麻绳+迷你剪刀，全套≤200g，含图文教程卡）；备注：避开真枝叶款",
+      "competition": "Amazon UK wreath kit竞品review 50-400条，真枝叶款占主导且差评集中在'到货已干枯'；仿真款SKU少，蓝海窗口明显。风险：12月15日后需求断崖，须控制首批量。",
+      "signal_scores": {
+        "trend": 80,
+        "gap": 72,
+        "profit": 88,
+        "final": 80,
+        "recommendation": "buy",
+        "profit_window": "11月中旬-12月15日，峰值4-5周"
+      },
+      "profit_estimate": "采购¥8≈£0.87 + 空运£0.7(180g) + FBA≈£2.80 + 佣金8%(£12.99)=£1.04 → 净利≈£6.58，利润率≈51%"
+    },
+    {
+      "keyword": "gonk christmas decoration scandi gnome set",
+      "keyword_cn": "Gonk无脸圣诞老人摆件（Scandi风，2只装）",
+      "amazon_keyword": "gonk christmas decoration scandi gnome pair set",
+      "search_1688": "gonk 圣诞老人摆件 / 无脸圣诞 gnome 装饰",
+      "demand_signals": [
+        "英国圣诞零售端gonk全线铺货：Tinkerbells Emporium gonk lip balm/gonk in bag/wishing jar gonk多SKU在售，gonk是2026圣诞官方主推形象之一（tinkerbellsemporium.co.uk 2026圣诞线）",
+        "Scandi/nordic风连续两年霸榜英国圣诞趋势，与已入库信号一致（9月10日velvet bows、9月22日elf door均为scandi色系方向）",
+        "1688 gonk毛绒/无纺布摆件批发¥2-8/只，单只40-70g，空运友好（1688实时行情，2026-09-23）",
+        "gonk=无脸gnome，无IP/商标风险（对比Elf on the Shelf商标雷区——9月22日elf door平替已验证该路线安全），且男女款/多尺寸组合天然适合多件装溢价"
+      ],
+      "trend_score": 78,
+      "trend_direction": "rising",
+      "reason": "gonk是2026英国圣诞的'形象级'元素（零售端从£3小物到£15摆件全价位铺货），本质是Scandi审美延续。它的优势是内容自带传播（无脸设计+胡须造型出片率高），家庭复购按年轮转。与elf door不冲突：elf door是儿童仪式配件，gonk是全屋装饰摆件，主品类不同。",
+      "action": "007店/322店均可上，定价£8.99两件装（一男一女/一大一小组合）；1688采购关键词：gonk圣诞老人摆件 无脸（选毛绒+毛球帽质感款，单套≤160g）；优先自然落地坐姿款（shelf-sitter，英国家庭摆壁炉台）",
+      "competition": "Amazon UK gonk摆件已多（£6-15，review 100-1500条，头部为Poundland风格平价款），单只装竞争激烈；两件装+礼盒化组合相对少。胜负手在颜值和包装而非价格，需实拍确认面料质感。",
+      "signal_scores": {
+        "trend": 78,
+        "gap": 65,
+        "profit": 82,
+        "final": 75,
+        "recommendation": "buy",
+        "profit_window": "11月1日-12月20日，约7周"
+      },
+      "profit_estimate": "采购¥6≈£0.65 + 空运£0.6(160g) + FBA≈£2.80 + 佣金8%(£8.99)=£0.72 → 净利≈£4.22，利润率≈47%"
+    }
+  ],
+  "trend_forecast": "① 万圣节最后冲刺（10月24日-31日）：2026年万圣节恰逢周六+half-term，此前多轮扫描已确认破纪录年。南瓜雕刻工具、糖袋、蜂巢挂饰已于9月21日前后锁仓，本阶段剩余机会在小型party填充物（photobooth props、goody bag小件，非电子款），补货窗口已关闭大半，只建议空运小批量追单，不再开新品。② 蜡烛季全面启动（10月中旬-1月初）：TikTok #CozyTok带动candle care tools进入Amazon UK Hot New Releases（bomo.news 9月6日报道32款fall essentials上榜），英国蜡烛点燃频率从10月Bonfire Night前后陡增，烛芯修剪器/灭烛罩三件套需求窗口长达8-10周，礼盒化后还能吃到圣诞礼品季溢价——本次已推荐candle care kit，建议007店空运测品，11月第一周看数据决定是否追单。③ Bonfire Night篝火之夜（11月5日）：英国独有节点，sparkler防护手套、户外保暖小件（非电子款）在10月底-11月初有短脉冲，但窗口只有2-3周，只适合已有listing补流量，不适合新品首发，避免库存压年后清仓。④ 圣诞装饰主升浪（11月1日起逐周走高）：2026官方趋势为velvet bows、gonk/Scandi风、宠物圣诞方向（velvet bows、腊肠狗挂件、elf door已分别于9月10日/22日入库），gonk摆件本次补位推荐，销售期从11月1日持续到12月20日，Advent（11月30日）前是转化高峰，黑五（11月27日前后）价格战注意只跟流量不跟降价。⑤ 花环DIY季（11月中旬-12月15日）：英国florist wreath workshops集中在11月底-12月且常年满档（Lincolnshire Life报道本地DIY kit £18仍供不应求），Wreaths.co.uk确认DIY kit为增长子类；仿真材料包对真枝叶款是结构性错位（无腐损、200g内空运友好），是本期最看好的结构性缺口，但12月15日后断崖，首批量务必克制。⑥ 圣诞袜填充+Secret Santa（12月1日-18日）：£5-10价位小件黄金期，魔法钥匙（本次推荐）、迷你魔方（9月22日已推）都是该场景定位，Prime发货deadline约12月19-20日，此后需求断崖式下跌，最后补货批次不晚于12月5日到仓。⑦ 12月25日-1月初：退货高峰+流量低谷，不安排任何新品首发；1月第一周开始布局Valentine's（2月14日）非电子小件与spring cleaning工具类，届时按2月节点做新一轮关键词扫描。整体节奏：9月底-10月上旬是圣诞线最后的安全下单窗口（空运+入库缓冲），10月中旬后只追单不首发。"
+}
