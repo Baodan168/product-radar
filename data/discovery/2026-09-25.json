@@ -1,0 +1,133 @@
+{
+  "date": "2026-09-25",
+  "updated_at": "2026-09-25T08:20:00+08:00",
+  "scan_date": "2026-09-25",
+  "scan_time": "08:13",
+  "summary": "2026-09-25扫描：Amazon UK畅销榜+TikTok UK+1688三源交叉验证，推荐5个品类（全部新品方向，14天无重复），均为非电子轻小件，定价£6.99-10.99，净利率48-56%。主季节窗：暖气开启季（radiator bleed key，Express 9/19媒体强推）+慢炖锅秋季启动（liners）+返校午餐盒季（sandwich sealer）。注：Amazon SERP直抓被503限流，竞争评估基于畅销榜/UK零售端/媒体信号交叉验证，评论数为类目估计值，上架前建议用选品雷达复核BSR。",
+  "insights": [
+    {
+      "keyword": "radiator bleed key set",
+      "keyword_cn": "暖气片放气钥匙组合套装",
+      "amazon_keyword": "radiator bleed key set metric imperial",
+      "search_1688": "暖气片放气阀钥匙 不锈钢 4件套",
+      "demand_signals": [
+        "Express.co.uk 2026-09-19发文《开暖气前必做5分钟检查》明确引导全民放气暖气片——媒体节奏与需求峰值精准对齐（express.co.uk抓取）",
+        "Netmums 9月发文教暖气清洁+放气10分钟流程，UK能源账单议题下DIY供暖维护成为常青内容（netmums.com抓取）",
+        "Heatlab高端放气钥匙£10.00售罄（out of stock）——需求>供给的直接信号（heatlab.uk抓取）",
+        "英国10月集中开暖气，bleed key搜索每年9-10月峰值，季节性年年重复且当前正处于起点"
+      ],
+      "trend_score": 86,
+      "trend_direction": "up",
+      "reason": "这是本周最强季节信号：全国降温+两家UK媒体同周推送放气教程+高端竞品售罄，三重信号共振。产品重量仅80g、采购¥4，是典型的轻小件快打品类，时间窗只有2-3周，本周必须空运首发。",
+      "action": "007店首发，£6.99定价（4件套：英制+公制双规格+放水钥匙+TRV阀钥匙），1688搜'暖气片放气阀钥匙 4件套 不锈钢'，采购¥3-5/套，空运首批≤100套。listing标题强调metric+imperial双规格和long handle差异化。",
+      "competition": "Amazon UK现有单只铜制/钢制装£3-5（评论估计500-3000条），头部以'4件套'组合装为主，品牌集中度低、无绝对垄断；Heatlab溢价款缺货说明'加长把手+双规格'差异化有溢价空间。注：SERP直抓被503拦截，评论数为类目估计值，需雷达复核。",
+      "signal_scores": {
+        "trend": 86,
+        "gap": 75,
+        "profit": 72,
+        "final": 78,
+        "recommendation": "立即测款——本周空运，季节窗2-3周内关闭",
+        "profit_window": "9月底-11月初（暖气季开启后4-6周为峰值）"
+      }
+    },
+    {
+      "keyword": "slow cooker liners",
+      "keyword_cn": "慢炖锅一次性内胆袋",
+      "amazon_keyword": "slow cooker liner bags 2 pack",
+      "search_1688": "慢炖锅内胆袋 尼龙 一次性 50只",
+      "demand_signals": [
+        "Daily Star 2026年9月发布'brilliant'慢炖锅秋季专题，UK慢炖锅季正式启动（dailystar.co.uk抓取）",
+        "Sirane等UK本土供应商提供slow cooker liners产品线，品类在UK已完成消费者教育（sirane.com抓取）",
+        "Amazon UK厨房畅销榜消耗型liner类（空气炸锅纸垫）9/25仍霸榜——消耗品复购心智已建立，慢炖锅版图是自然延伸",
+        "秋季炖菜+周日夜餐习惯，慢炖锅使用率10-12月达峰值，liners为全季消耗品"
+      ],
+      "trend_score": 82,
+      "trend_direction": "up",
+      "reason": "慢炖锅是UK秋冬厨房核心场景，Daily Star专题确认季启动。消耗品模型意味着复购LTV高于一次性工具，且竞品以US进口为主（物流慢），UK本土仓FBA有天然时效优势。净利率56%为本次最高。⚠️与9/18推荐过的air fryer paper liners同属'liner'消耗品大类，但主品类不同（慢炖锅尼龙袋vs气炸纸垫），如Lee判定过近可跳过此项。",
+      "action": "027店小批量测款（新品小批量空运≤60件），£10.99定价（50只装），1688搜'慢炖锅内胆袋 尼龙 食品级 50只'，采购¥9-12/盒。listing打food grade nylon+fit 3.5L-6.5L慢炖锅。",
+      "competition": "Amazon UK端主要竞品为US进口款£7-11（评论估计200-1500条），UK本土仓货源少——物流时效是竞品集体弱点；品牌集中度低，无绝对头部白牌。注：SERP限流未直验，数量为估计值。",
+      "signal_scores": {
+        "trend": 82,
+        "gap": 72,
+        "profit": 90,
+        "final": 81,
+        "recommendation": "小批量测款，027店验证复购后再补第二批",
+        "profit_window": "10月-次年1月（慢炖锅全季+圣诞炖菜高峰）"
+      }
+    },
+    {
+      "keyword": "sandwich cutter and sealer",
+      "keyword_cn": "三明治封口切割器（午餐盒造型切模）",
+      "amazon_keyword": "sandwich cutter and sealer lunchbox set",
+      "search_1688": "三明治封口切割器 不锈钢 2件套 儿童午餐",
+      "demand_signals": [
+        "Sistema Bento午餐盒进入Amazon UK Home&Kitchen畅销榜（2026-09-25抓取）——返校午餐盒季的硬指标",
+        "TikTok #TikTokMadeMeBuyIt厨房品类2026持续高热，午餐hack/儿童便当类是常青标签（tiktok.com/discover抓取）",
+        "Moonmoon UK硅胶三明治盒售£12.99溢价在售——UK零售端环保午餐方案定价上限已验证（thegreenturtle.co.uk抓取）",
+        "1688'三明治切割机'2734条货源、¥2-9价格带，供应链极度成熟，适配轻小件空运"
+      ],
+      "trend_score": 78,
+      "trend_direction": "up",
+      "reason": "9月返校季+10月圣诞前家长囤货双驱动。UK家长对午餐盒配件的年采购意愿稳定，儿童恐龙/心形造型款是差异化切入点。1688货源充足使采购成本压到¥8/套，£9.99定价净利率53%。",
+      "action": "007店首发，£9.99定价（不锈钢2-3件套：圆形+方形+恐龙造型），1688搜'三明治封口切割器 不锈钢 套装'，采购¥6-9/套，空运首批≤80套。listing强调dishwasher safe+food grade 430 stainless。",
+      "competition": "UK端主要竞品为塑料款£5-8（评论估计100-500条），不锈钢加大款少；3-5个白牌分散竞争，无强势品牌。SERP直抓被503拦截，评论量为类目常识估计——上架前需用选品雷达复核BSR与新品 数量。",
+      "signal_scores": {
+        "trend": 78,
+        "gap": 70,
+        "profit": 88,
+        "final": 78,
+        "recommendation": "立即测款，007店主推儿童造型差异化款",
+        "profit_window": "9月底-12月中（返校季+圣诞假期午餐备货）"
+      }
+    },
+    {
+      "keyword": "jam funnel preserving set",
+      "keyword_cn": "果酱漏斗不锈钢保存工具套装",
+      "amazon_keyword": "jam funnel stainless steel preserving set",
+      "search_1688": "不锈钢果酱漏斗 宽口 3件套 罐头",
+      "demand_signals": [
+        "Kilner Clip Top Jar 1L进入Amazon UK厨房畅销榜（2026-09-25抓取）——密封罐热销是保存季活跃度的领先指标",
+        "9-10月UK黑莓/李子/苹果收获季（hedgerow season），果酱/酸辣酱/chutney制作高峰，preserving配件需求稳定",
+        "1688不锈钢宽口漏斗¥5-9货源充足，3件套规格（漏斗+滤网+刷）适配£8.99定价与轻小件物流"
+      ],
+      "trend_score": 72,
+      "trend_direction": "flat_up",
+      "reason": "UK preserving季正在高峰但10月中旬后转淡，属于'窗口尚开但别贪'的品类。不锈钢材质+3件套是对塑料单只装竞品的直接升级，差异化清晰。利润率49%达标，风险是季节尾巴短，首批量要克制。",
+      "action": "027店小批量测款（≤60件空运），£8.99定价（不锈钢3件套），1688搜'不锈钢果酱漏斗 宽口 3件套'，采购¥7-9/套。listing打'blackberry season essential'+18cm wide mouth fit Kilner jars。",
+      "competition": "竞品以塑料漏斗£3-6为主（评论估计100-800条），不锈钢3件套规格少、多与整套canning kit捆绑销售；单品类目竞争中等偏低，无头部品牌。数量为估计值（SERP限流未直验）。",
+      "signal_scores": {
+        "trend": 72,
+        "gap": 76,
+        "profit": 82,
+        "final": 76,
+        "recommendation": "小批量测款，季尾控制首批量不追高",
+        "profit_window": "9月底-10月中（preserving季尾，约3周）"
+      }
+    },
+    {
+      "keyword": "manual bag sealer",
+      "keyword_cn": "手动零食袋封口器（胶带式免电款）",
+      "amazon_keyword": "manual bag sealer with tape dispenser",
+      "search_1688": "封口机 手压 胶带式 零食袋 免电池",
+      "demand_signals": [
+        "LIVMORE手动封口器UK零售£9.99在售且详情完整——手动款价格带在UK零售端成立（tjc.co.uk 2026-08页面）",
+        "1688食品封口类小件月销10万+件（义乌镇头供应链单价¥0.05-2.98）——终端复购需求强（1688 wiki抓取）",
+        "UK生活成本议题下'食物保鲜减少浪费'是常青消费动机，封口类工具属低成本高频使用场景"
+      ],
+      "trend_score": 66,
+      "trend_direction": "flat_up",
+      "reason": "电动封口机竞争激烈且涉电子红线（我们不做），手动胶带款是低竞争缝隙位。缺点是需求强度低于消耗品，属于稳健型补充而非爆发型。¥5采购+£8.99定价净利率51%，轻180g适配空运。",
+      "action": "027店小批量测款（≤60件），£8.99定价（含1卷替换胶带），1688搜'封口机 手压 胶带 零食封口 免电池'，采购¥5-7/个。listing强调no electricity needed+ideal for crisps/frozen bags。",
+      "competition": "电动款主导Amazon搜索结果（我们规避），手动款UK竞品少（LIVMORE为TJC单渠道），Amazon端手动款评论普遍<100条——低竞争蓝海缝隙。注：SERP限流未直验，为类目估计。",
+      "signal_scores": {
+        "trend": 66,
+        "gap": 65,
+        "profit": 80,
+        "final": 70,
+        "recommendation": "机会型小批量测款，不作为主力",
+        "profit_window": "全年常青，秋冬零食季（10-12月）略强"
+      }
+    }
+  ],
+  "trend_forecast": "① 9月底至10月初（未来1-2周）：全国性降温+Express（9/19）与Netmums同周推送『开暖气前必做检查』，暖气片维护类需求正处爆发起点——bleed key、TRV阀钥匙、暖气片清洁刷是本周上架就能吃到流量的窗口；同类draught excluder tape（9/18已推）、window insulation film（9/16已推）属拥挤赛道，避免重复入局。② 10月全月：黑莓/李子/苹果收获季延续，Kilner密封罐已冲进Amazon UK厨房畅销榜，果酱漏斗、罐头夹、果酱温度计等preserving配件在10月中旬前保持需求；万圣节（10/31）装饰类已连日推荐（treat bags 9/12、honeycomb 9/19、window clings 9/24、carving kit 9/21），建议只做差异化补充、不再铺主力。③ 10月中下旬：首次霜冻预期驱动车用+园艺防护——windscreen frost cover（9/16已推）与plant fleece（9/17已推）已拥挤，可转向未覆盖的挡风玻璃除冰喷壶+刮刀二合一、后视镜防冻套、鸟喂食高峰期配件（window bird feeder 9/17已推，可做fat ball feeder/hedgehog house差异化）。④ 11月5日篝火节前2周（10月下旬）：sparkler防护手套、户外保温毯、glow sticks是差异化窗口，同时hot water bottle+毛绒外套进入冬季爬坡期，11月初完成入仓。⑤ 11月27日黑五：£5.99-12.99礼品化小件（圣诞餐桌工具、火鸡浇汁勺、烤肉温度计非电子款）适合提前备货，FBA入仓截止通常在黑五前3周（11月初），备货节奏必须倒推。⑥ 12月至1月初：圣诞晚餐工具与party bag fillers持续到12/18（12月18日后物流停发风险），12月底至1月布局meal prep容器与new year收纳品类，衔接1月'健康饮食+居家整理'年度峰值。行动建议：暖气类本周空运首发，preserving类10月上旬前上架，黑五礼品件11月初前到仓，所有品类避开已推过的60+品类清单。"
+}
