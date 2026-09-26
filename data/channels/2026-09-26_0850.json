@@ -1,0 +1,1724 @@
+{
+  "scan_date": "2026-09-26",
+  "scan_time": "08:50",
+  "scan_ts": "2026-09-26_0850",
+  "stats": {
+    "total_scanned": 302,
+    "passed_filter": 12,
+    "rejected": 288,
+    "channels": {
+      "temu_trending": 4,
+      "multi_source": 8,
+      "keyword_search": 12,
+      "tiktok_verified": 3,
+      "etsy_trending": 4,
+      "google_trends": 4,
+      "youtube_review": 5,
+      "hotukdeals": 4
+    },
+    "detail_reject": {
+      "尺寸超标": 3,
+      "重量超标": 2
+    },
+    "theme_trimmed": [
+      {
+        "asin": "B0DK5JB4PX",
+        "name": "Garden Outside Tap Cover Frost Protector for Winter,2P Large Waterproof Foam Frost Covers for Outside Taps,Outdoor Water"
+      },
+      {
+        "asin": "B0BQWMC12W",
+        "name": "ZYBUX - Pack of 2 - Ice Scraper for Cars Winter Care Windscreen with Soft Grip No Scratches Windscreen Snow Removal Fros"
+      }
+    ],
+    "trend_categories": {
+      "crafts": 100,
+      "office": 90,
+      "car": 85,
+      "lighting": 85,
+      "phone": 85,
+      "eco": 85
+    },
+    "supply_demand": {
+      "sports": {
+        "ratio": 3.4,
+        "demand": 30,
+        "supply": 6553,
+        "label": "💧 浅蓝海",
+        "level": "light_blue"
+      },
+      "bathroom": {
+        "ratio": 0,
+        "demand": 40,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "car": {
+        "ratio": 0,
+        "demand": 85,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "lighting": {
+        "ratio": 0,
+        "demand": 85,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "travel": {
+        "ratio": 0,
+        "demand": 45,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "phone": {
+        "ratio": 0,
+        "demand": 85,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "beauty": {
+        "ratio": 0,
+        "demand": 80,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "kitchen": {
+        "ratio": 0,
+        "demand": 70,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      }
+    },
+    "divergences": {
+      "bathroom": {
+        "current_heat": 31,
+        "previous_heat": 34,
+        "heat_change_pct": -8.8,
+        "direction": "stable",
+        "dates": [
+          "2026-09-25_0850",
+          "2026-09-25_1710"
+        ]
+      },
+      "car": {
+        "current_heat": 59,
+        "previous_heat": 42,
+        "heat_change_pct": 40.5,
+        "direction": "rising",
+        "dates": [
+          "2026-09-25_0850",
+          "2026-09-25_1710"
+        ]
+      },
+      "lighting": {
+        "current_heat": 95,
+        "previous_heat": 80,
+        "heat_change_pct": 18.8,
+        "direction": "stable",
+        "dates": [
+          "2026-09-25_0850",
+          "2026-09-25_1710"
+        ]
+      },
+      "crafts": {
+        "current_heat": 100,
+        "previous_heat": 100,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-09-25_0850",
+          "2026-09-25_1710"
+        ]
+      },
+      "travel": {
+        "current_heat": 39,
+        "previous_heat": 38,
+        "heat_change_pct": 2.6,
+        "direction": "stable",
+        "dates": [
+          "2026-09-25_0850",
+          "2026-09-25_1710"
+        ]
+      },
+      "phone": {
+        "current_heat": 59,
+        "previous_heat": 61,
+        "heat_change_pct": -3.3,
+        "direction": "stable",
+        "dates": [
+          "2026-09-25_0850",
+          "2026-09-25_1710"
+        ]
+      },
+      "beauty": {
+        "current_heat": 43,
+        "previous_heat": 38,
+        "heat_change_pct": 13.2,
+        "direction": "stable",
+        "dates": [
+          "2026-09-25_0850",
+          "2026-09-25_1710"
+        ]
+      },
+      "cleaning": {
+        "current_heat": 35,
+        "previous_heat": 4,
+        "heat_change_pct": 775.0,
+        "direction": "rising",
+        "dates": [
+          "2026-09-25_0850",
+          "2026-09-25_1710"
+        ]
+      },
+      "pets": {
+        "current_heat": 100,
+        "previous_heat": 100,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-09-25_0850",
+          "2026-09-25_1710"
+        ]
+      },
+      "home decor": {
+        "current_heat": 67,
+        "previous_heat": 61,
+        "heat_change_pct": 9.8,
+        "direction": "stable",
+        "dates": [
+          "2026-09-25_0850",
+          "2026-09-25_1710"
+        ]
+      },
+      "kitchen": {
+        "current_heat": 75,
+        "previous_heat": 61,
+        "heat_change_pct": 23.0,
+        "direction": "stable",
+        "dates": [
+          "2026-09-25_0850",
+          "2026-09-25_1710"
+        ]
+      },
+      "garden": {
+        "current_heat": 63,
+        "previous_heat": 65,
+        "heat_change_pct": -3.1,
+        "direction": "stable",
+        "dates": [
+          "2026-09-25_0850",
+          "2026-09-25_1710"
+        ]
+      },
+      "storage": {
+        "current_heat": 35,
+        "previous_heat": 42,
+        "heat_change_pct": -16.7,
+        "direction": "stable",
+        "dates": [
+          "2026-09-25_0850",
+          "2026-09-25_1710"
+        ]
+      },
+      "sports": {
+        "current_heat": 8,
+        "previous_heat": 50,
+        "heat_change_pct": -84.0,
+        "direction": "falling",
+        "dates": [
+          "2026-09-25_0850",
+          "2026-09-25_1710"
+        ]
+      },
+      "kitchen_gadgets": {
+        "current_heat": 4,
+        "previous_heat": 8,
+        "heat_change_pct": -50.0,
+        "direction": "falling",
+        "dates": [
+          "2026-09-25_0850",
+          "2026-09-25_1710"
+        ]
+      },
+      "eco": {
+        "current_heat": 79,
+        "previous_heat": 96,
+        "heat_change_pct": -17.7,
+        "direction": "stable",
+        "dates": [
+          "2026-09-25_0850",
+          "2026-09-25_1710"
+        ]
+      },
+      "seasonal": {
+        "current_heat": 51,
+        "previous_heat": 77,
+        "heat_change_pct": -33.8,
+        "direction": "falling",
+        "dates": [
+          "2026-09-25_0850",
+          "2026-09-25_1710"
+        ]
+      },
+      "office": {
+        "current_heat": 59,
+        "previous_heat": 80,
+        "heat_change_pct": -26.2,
+        "direction": "falling",
+        "dates": [
+          "2026-09-25_0850",
+          "2026-09-25_1710"
+        ]
+      },
+      "bedding": {
+        "current_heat": 39,
+        "previous_heat": 34,
+        "heat_change_pct": 14.7,
+        "direction": "stable",
+        "dates": [
+          "2026-09-25_0850",
+          "2026-09-25_1710"
+        ]
+      }
+    },
+    "gap_opportunities": 14
+  },
+  "products": [
+    {
+      "asin": "B0DY3L26FX",
+      "name": "Vergissmeinnicht 24 Sets Thank You Keychain Gifts 24 Thank You Keyring Rainbow Bee Butterfly Star Inspirational Keychain",
+      "price": 11.66,
+      "reviews": 13,
+      "rating": 3.9,
+      "rank": 17,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "13 reviews, 3.9★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DY3L26FX",
+      "image_url": "https://m.media-amazon.com/images/I/81OySqgY7ZL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "kindness keychain",
+      "festival_event": "世界友善日",
+      "festival_icon": "💛",
+      "festival_deadline": "2026-09-27",
+      "is_event": false,
+      "sources": [
+        "📅 世界友善日",
+        "TikTok趋势",
+        "Etsy趋势",
+        "Temu热销"
+      ],
+      "profit_margin": 0.369,
+      "net_profit": 4.3,
+      "cost_breakdown": {
+        "vat": 1.95,
+        "commission": 1.75,
+        "fba": 1.46,
+        "ads": 1.17,
+        "returns": 0.23,
+        "sourcing": 0.8,
+        "total_cost": 7.36
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 129,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(seasonal)": 23,
+        "🌊 蓝海": 15,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-09-26",
+      "is_multi": true,
+      "channel_tags": [
+        "temu_trending",
+        "multi_source",
+        "keyword_search",
+        "tiktok_verified",
+        "etsy_trending"
+      ]
+    },
+    {
+      "asin": "B07JVLD1DM",
+      "name": "Life Charms Women Jewellery You Smashed It Bracelet Wristband Ladies Gift",
+      "price": 12.28,
+      "reviews": 175,
+      "rating": 4.7,
+      "rank": 30,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "175 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B07JVLD1DM",
+      "image_url": "https://m.media-amazon.com/images/I/518rUv5IZHS._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "kindness bracelet",
+      "festival_event": "世界友善日",
+      "festival_icon": "💛",
+      "festival_deadline": "2026-09-27",
+      "is_event": false,
+      "sources": [
+        "📅 世界友善日",
+        "Etsy趋势",
+        "TikTok趋势",
+        "Temu热销"
+      ],
+      "profit_margin": 0.379,
+      "net_profit": 4.65,
+      "cost_breakdown": {
+        "vat": 2.05,
+        "commission": 1.84,
+        "fba": 1.46,
+        "ads": 1.23,
+        "returns": 0.25,
+        "sourcing": 0.8,
+        "total_cost": 7.63
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 119,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(seasonal)": 23,
+        "⭐ 高评分": 5,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-09-26",
+      "is_multi": true,
+      "channel_tags": [
+        "temu_trending",
+        "multi_source",
+        "keyword_search",
+        "tiktok_verified",
+        "etsy_trending"
+      ]
+    },
+    {
+      "asin": "B0GHM9W4LQ",
+      "name": "TIHNY 24 PCS Lucky Clover Keyrings Set, Clover Leaf Pendant with Organza Bags, Unique Lucky Charm Gift for Women, Collea",
+      "price": 7.49,
+      "reviews": 10,
+      "rating": 4.2,
+      "rank": 39,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "10 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GHM9W4LQ",
+      "image_url": "https://m.media-amazon.com/images/I/71M9IqmS8cL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "kindness keychain",
+      "festival_event": "世界友善日",
+      "festival_icon": "💛",
+      "festival_deadline": "2026-09-27",
+      "is_event": false,
+      "sources": [
+        "📅 世界友善日",
+        "Etsy趋势",
+        "TikTok趋势",
+        "Temu热销"
+      ],
+      "profit_margin": 0.261,
+      "net_profit": 1.96,
+      "cost_breakdown": {
+        "vat": 1.25,
+        "commission": 1.12,
+        "fba": 1.46,
+        "ads": 0.75,
+        "returns": 0.15,
+        "sourcing": 0.8,
+        "total_cost": 5.53
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Temu",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 113,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(seasonal)": 23,
+        "🌊 蓝海": 15,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-09-26",
+      "is_multi": true,
+      "channel_tags": [
+        "temu_trending",
+        "multi_source",
+        "keyword_search",
+        "tiktok_verified",
+        "etsy_trending"
+      ]
+    },
+    {
+      "asin": "B0CP3QF7JD",
+      "name": "Buywis Beaded Bracelets for Women Adjustable Handmade String Bracelet Colorful Stone Strand Bracelet",
+      "price": 6.65,
+      "reviews": 30,
+      "rating": 4.3,
+      "rank": 9,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "30 reviews, 4.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CP3QF7JD",
+      "image_url": "https://m.media-amazon.com/images/I/51lqzOaBNqL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "kindness bracelet",
+      "festival_event": "世界友善日",
+      "festival_icon": "💛",
+      "festival_deadline": "2026-09-27",
+      "is_event": false,
+      "sources": [
+        "📅 世界友善日"
+      ],
+      "profit_margin": 0.223,
+      "net_profit": 1.48,
+      "cost_breakdown": {
+        "vat": 1.11,
+        "commission": 1.0,
+        "fba": 1.46,
+        "ads": 0.67,
+        "returns": 0.13,
+        "sourcing": 0.8,
+        "total_cost": 5.17
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": 5,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🟢 低竞争": 10,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-09-26",
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0CB16C96Q",
+      "name": "SUPERDANT Garden Metal Signs Bee Tin Signs Bee Flower Wall Plaque Funny Poster Art Be Kind Sign Metal Wall Sign for Man ",
+      "price": 6.24,
+      "reviews": 107,
+      "rating": 4.6,
+      "rank": 11,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "107 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CB16C96Q",
+      "image_url": "https://m.media-amazon.com/images/I/81jOqdmuYrL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "be kind",
+      "festival_event": "世界友善日",
+      "festival_icon": "💛",
+      "festival_deadline": "2026-09-27",
+      "is_event": false,
+      "sources": [
+        "📅 世界友善日",
+        "Google趋势",
+        "HotUKDeals热帖",
+        "YouTube种草"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.201,
+      "net_profit": 1.25,
+      "cost_breakdown": {
+        "vat": 1.04,
+        "commission": 0.94,
+        "fba": 1.46,
+        "ads": 0.62,
+        "returns": 0.12,
+        "sourcing": 0.8,
+        "total_cost": 4.99
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "Google",
+        "HotUKDeals",
+        "YouTube"
+      ],
+      "internal_sources": [],
+      "score": 115,
+      "score_breakdown": {
+        "📊 Google↑": 15,
+        "🔥 HotUKDeals": 12,
+        "▶️ YouTube": 10,
+        "🔴 强信号": 20,
+        "🔥 多源热门(crafts)": 23,
+        "🟡 中等竞争": 5,
+        "⭐ 高评分": 5,
+        "❓ 品类存疑": -5,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-09-26",
+      "is_multi": true,
+      "channel_tags": [
+        "multi_source",
+        "google_trends",
+        "youtube_review",
+        "hotukdeals",
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0FP4Z54BM",
+      "name": "ANHUIB Inspirational Quotes Wall Art Be Kind Motivational Phrases Wall Decor for Nursery Inspirational Mental Wood Sign ",
+      "price": 9.42,
+      "reviews": 106,
+      "rating": 4.8,
+      "rank": 8,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "106 reviews, 4.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FP4Z54BM",
+      "image_url": "https://m.media-amazon.com/images/I/71o1c0IG0bL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "be kind",
+      "festival_event": "世界友善日",
+      "festival_icon": "💛",
+      "festival_deadline": "2026-09-27",
+      "is_event": false,
+      "sources": [
+        "📅 世界友善日",
+        "Etsy趋势",
+        "YouTube种草",
+        "Temu热销"
+      ],
+      "profit_margin": 0.323,
+      "net_profit": 3.04,
+      "cost_breakdown": {
+        "vat": 1.57,
+        "commission": 1.41,
+        "fba": 1.46,
+        "ads": 0.94,
+        "returns": 0.19,
+        "sourcing": 0.8,
+        "total_cost": 6.38
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "Temu",
+        "Etsy",
+        "YouTube"
+      ],
+      "internal_sources": [],
+      "score": 102,
+      "score_breakdown": {
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "▶️ YouTube": 10,
+        "🔴 强信号": 20,
+        "🔥 多源热门(crafts)": 23,
+        "🟡 中等竞争": 5,
+        "⭐ 高评分": 5,
+        "💰 高利润": 8,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-09-26",
+      "is_multi": true,
+      "channel_tags": [
+        "temu_trending",
+        "multi_source",
+        "youtube_review",
+        "keyword_search",
+        "etsy_trending"
+      ]
+    },
+    {
+      "asin": "B0DKBR8DC2",
+      "name": "Outside Tap Cover Frost Protector,Outdoor Garden Tap Cover for Winter,2 Pack Outside Waterproof Foam Faucet Cover,Outdoo",
+      "price": 7.49,
+      "reviews": 94,
+      "rating": 4.0,
+      "rank": 23,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "94 reviews, 4.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DKBR8DC2",
+      "image_url": "https://m.media-amazon.com/images/I/712LMyWMTnL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "outdoor tap cover insulated frost protector",
+      "sources": [
+        "趋势发现",
+        "Google趋势",
+        "HotUKDeals热帖",
+        "YouTube种草"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.261,
+      "net_profit": 1.96,
+      "cost_breakdown": {
+        "vat": 1.25,
+        "commission": 1.12,
+        "fba": 1.46,
+        "ads": 0.75,
+        "returns": 0.15,
+        "sourcing": 0.8,
+        "total_cost": 5.53
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "Google",
+        "HotUKDeals",
+        "YouTube"
+      ],
+      "internal_sources": [],
+      "score": 99,
+      "score_breakdown": {
+        "📊 Google↑": 15,
+        "🔥 HotUKDeals": 12,
+        "▶️ YouTube": 10,
+        "🔴 强信号": 20,
+        "📈 趋势(garden)": 8,
+        "🟡 中等竞争": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 4,
+      "is_new": true,
+      "first_seen": "2026-09-26",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "multi_source",
+        "google_trends",
+        "youtube_review",
+        "hotukdeals",
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0DF7DV7RY",
+      "name": "Outside Tap Covers for Winter, 2 Pack Insulated Outdoor Tap Cover, 420D Oxford Waterproof Frost Protector, Thickened Cot",
+      "price": 7.99,
+      "reviews": 52,
+      "rating": 4.7,
+      "rank": 10,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "52 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DF7DV7RY",
+      "image_url": "https://m.media-amazon.com/images/I/61qf3+holnL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "outdoor tap cover insulated frost protector",
+      "sources": [
+        "趋势发现",
+        "Google趋势",
+        "HotUKDeals热帖",
+        "YouTube种草"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.28,
+      "net_profit": 2.24,
+      "cost_breakdown": {
+        "vat": 1.33,
+        "commission": 1.2,
+        "fba": 1.46,
+        "ads": 0.8,
+        "returns": 0.16,
+        "sourcing": 0.8,
+        "total_cost": 5.75
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "Google",
+        "HotUKDeals",
+        "YouTube"
+      ],
+      "internal_sources": [],
+      "score": 96,
+      "score_breakdown": {
+        "📊 Google↑": 15,
+        "🔥 HotUKDeals": 12,
+        "▶️ YouTube": 10,
+        "🔴 强信号": 20,
+        "📈 趋势(garden)": 8,
+        "🟡 中等竞争": 5,
+        "⭐ 高评分": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 4,
+      "is_new": true,
+      "first_seen": "2026-09-26",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "multi_source",
+        "google_trends",
+        "youtube_review",
+        "hotukdeals",
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0FDJPQKG5",
+      "name": "2 Pack outside tap cover frost protector, Winter Freeze Protection Cover | 6.7\"x8.3\" Outdoor Tap Cover with Reflective S",
+      "price": 7.49,
+      "reviews": 61,
+      "rating": 4.3,
+      "rank": 16,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "61 reviews, 4.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FDJPQKG5",
+      "image_url": "https://m.media-amazon.com/images/I/816U9lB4c3L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "outdoor tap cover insulated frost protector",
+      "sources": [
+        "趋势发现",
+        "Google趋势",
+        "HotUKDeals热帖",
+        "YouTube种草"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.261,
+      "net_profit": 1.96,
+      "cost_breakdown": {
+        "vat": 1.25,
+        "commission": 1.12,
+        "fba": 1.46,
+        "ads": 0.75,
+        "returns": 0.15,
+        "sourcing": 0.8,
+        "total_cost": 5.53
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "Google",
+        "HotUKDeals",
+        "YouTube"
+      ],
+      "internal_sources": [],
+      "score": 91,
+      "score_breakdown": {
+        "📊 Google↑": 15,
+        "🔥 HotUKDeals": 12,
+        "▶️ YouTube": 10,
+        "🔴 强信号": 20,
+        "📈 趋势(garden)": 8,
+        "🟡 中等竞争": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 4,
+      "is_new": true,
+      "first_seen": "2026-09-26",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "multi_source",
+        "google_trends",
+        "youtube_review",
+        "hotukdeals",
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0GHH1G72F",
+      "name": "ICEBLADE Heavy Duty Car Ice Scraper – Ultra Sharp Wide Blade, Strong 5mm Acrylic, Fast & Safe Windscreen Scraper with Co",
+      "price": 9.99,
+      "reviews": 39,
+      "rating": 4.8,
+      "rank": 34,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "39 reviews, 4.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GHH1G72F",
+      "image_url": "https://m.media-amazon.com/images/I/614lDmZY6mL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "ice scraper mitten glove windscreen",
+      "sources": [
+        "趋势发现"
+      ],
+      "profit_margin": 0.337,
+      "net_profit": 3.36,
+      "cost_breakdown": {
+        "vat": 1.67,
+        "commission": 1.5,
+        "fba": 1.46,
+        "ads": 1.0,
+        "returns": 0.2,
+        "sourcing": 0.8,
+        "total_cost": 6.63
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": 41,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🔥 多源热门(car)": 23,
+        "🟢 低竞争": 10,
+        "⭐ 高评分": 5,
+        "💰 高利润": 8,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 2,
+      "is_new": true,
+      "first_seen": "2026-09-26",
+      "is_event": false,
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B07ZGZ28L3",
+      "name": "Car Ice Scraper with Waterproof Glove Lined with Ice Scraper Thick Fleece with Non-Slip Handle for Car Windshield and Wi",
+      "price": 8.99,
+      "reviews": 163,
+      "rating": 4.5,
+      "rank": 17,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "163 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B07ZGZ28L3",
+      "image_url": "https://m.media-amazon.com/images/I/61v7BTlWg2L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "ice scraper mitten glove windscreen",
+      "sources": [
+        "趋势发现"
+      ],
+      "profit_margin": 0.312,
+      "net_profit": 2.8,
+      "cost_breakdown": {
+        "vat": 1.5,
+        "commission": 1.35,
+        "fba": 1.46,
+        "ads": 0.9,
+        "returns": 0.18,
+        "sourcing": 0.8,
+        "total_cost": 6.19
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": 31,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🔥 多源热门(car)": 23,
+        "⭐ 高评分": 5,
+        "💰 高利润": 8,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-09-26",
+      "is_event": false,
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B08S3JZ62F",
+      "name": "Golden Apple Anti-Slip Stretch Snow Ice Grips 10-Stud Spikes Over Shoe Traction Cleats Crampons Rubber Slip-on Shoe Clea",
+      "price": 9.16,
+      "reviews": 60,
+      "rating": 4.1,
+      "rank": 28,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "60 reviews, 4.1★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B08S3JZ62F",
+      "image_url": "https://m.media-amazon.com/images/I/716e4aNCZTL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "ice cleats 10 stud anti slip shoe grips",
+      "sources": [
+        "趋势发现"
+      ],
+      "profit_margin": 0.316,
+      "net_profit": 2.9,
+      "cost_breakdown": {
+        "vat": 1.53,
+        "commission": 1.37,
+        "fba": 1.46,
+        "ads": 0.92,
+        "returns": 0.18,
+        "sourcing": 0.8,
+        "total_cost": 6.26
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": 8,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🟡 中等竞争": 5,
+        "💰 高利润": 8,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-09-26",
+      "is_event": false,
+      "channel_tags": [
+        "keyword_search"
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "keyword": "crafts",
+      "category": "crafts",
+      "heat": 100,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "craft",
+        "tape",
+        "art"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 8,
+      "suggestions": [
+        "craft knife",
+        "craft supplies",
+        "DIY craft kit",
+        "washi tape",
+        "decorative tape",
+        "masking tape",
+        "art supplies",
+        "paint set"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=craft+knife",
+      "url_google": "https://trends.google.com/trends/explore?q=craft+knife&geo=GB"
+    },
+    {
+      "keyword": "office",
+      "category": "office",
+      "heat": 90,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "organiser",
+        "desk",
+        "laptop",
+        "pen",
+        "office"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 7,
+      "suggestions": [
+        "organiser",
+        "desk organizer",
+        "desk lamp",
+        "desk mat",
+        "laptop stand",
+        "laptop sleeve",
+        "laptop cooler",
+        "pen holder"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 90,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=organiser",
+      "url_google": "https://trends.google.com/trends/explore?q=organiser&geo=GB"
+    },
+    {
+      "keyword": "car",
+      "category": "car",
+      "heat": 85,
+      "score": 73,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "car",
+        "vehicle",
+        "organiser",
+        "motor"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 7,
+      "suggestions": [
+        "car accessories",
+        "car organizer",
+        "car phone holder",
+        "vehicle",
+        "organiser",
+        "motorcycle accessories",
+        "motorcycle cover"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 85,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=car+accessories",
+      "url_google": "https://trends.google.com/trends/explore?q=car+accessories&geo=GB"
+    },
+    {
+      "keyword": "lighting",
+      "category": "lighting",
+      "heat": 85,
+      "score": 73,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "led",
+        "light",
+        "night light"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 7,
+      "suggestions": [
+        "LED bulb",
+        "LED light",
+        "LED panel",
+        "fairy lights",
+        "string lights",
+        "night light"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 85,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=LED+bulb",
+      "url_google": "https://trends.google.com/trends/explore?q=LED+bulb&geo=GB"
+    },
+    {
+      "keyword": "phone",
+      "category": "phone",
+      "heat": 85,
+      "score": 73,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "phone",
+        "cable",
+        "earbuds",
+        "charger",
+        "stand"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "phone case",
+        "phone holder",
+        "phone stand",
+        "charging cable",
+        "USB cable",
+        "phone cable",
+        "earbuds case",
+        "wireless earbuds"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 85,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=phone+case",
+      "url_google": "https://trends.google.com/trends/explore?q=phone+case&geo=GB"
+    },
+    {
+      "keyword": "eco",
+      "category": "eco",
+      "heat": 85,
+      "score": 73,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "sustainable",
+        "eco"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 6,
+      "suggestions": [
+        "sustainable products",
+        "eco friendly",
+        "eco products",
+        "reusable bag",
+        "bamboo products"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 85,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=sustainable+products",
+      "url_google": "https://trends.google.com/trends/explore?q=sustainable+products&geo=GB"
+    },
+    {
+      "keyword": "pets",
+      "category": "pets",
+      "heat": 85,
+      "score": 73,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "toy",
+        "pet",
+        "cat",
+        "bed"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 7,
+      "suggestions": [
+        "dog chew toy",
+        "cat interactive toy",
+        "pet ball",
+        "pet grooming",
+        "pet bed",
+        "pet feeder",
+        "cat toy",
+        "cat bed"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 85,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=dog+chew+toy",
+      "url_google": "https://trends.google.com/trends/explore?q=dog+chew+toy&geo=GB"
+    },
+    {
+      "keyword": "beauty",
+      "category": "beauty",
+      "heat": 80,
+      "score": 71,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "organiser",
+        "skincare",
+        "hair",
+        "makeup",
+        "mirror"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 6,
+      "suggestions": [
+        "organiser",
+        "face roller",
+        "gua sha",
+        "face mask",
+        "hair clip",
+        "hair accessories",
+        "hair band",
+        "hair tie"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 80,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=organiser",
+      "url_google": "https://trends.google.com/trends/explore?q=organiser&geo=GB"
+    },
+    {
+      "keyword": "kitchen",
+      "category": "kitchen",
+      "heat": 70,
+      "score": 68,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "organiser",
+        "kitchen",
+        "mug",
+        "gadget"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 5,
+      "suggestions": [
+        "organiser",
+        "kitchen",
+        "gadget"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 70,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=organiser",
+      "url_google": "https://trends.google.com/trends/explore?q=organiser&geo=GB"
+    },
+    {
+      "keyword": "seasonal",
+      "category": "seasonal",
+      "heat": 70,
+      "score": 68,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "christmas",
+        "gift",
+        "halloween",
+        "birthday"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "christmas decoration",
+        "christmas gift",
+        "christmas stocking",
+        "gift ideas",
+        "gift set",
+        "gift box",
+        "halloween decoration",
+        "halloween costume"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 70,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=christmas+decoration",
+      "url_google": "https://trends.google.com/trends/explore?q=christmas+decoration&geo=GB"
+    },
+    {
+      "keyword": "home decor",
+      "category": "home decor",
+      "heat": 70,
+      "score": 68,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "decor",
+        "clock",
+        "wall art",
+        "candle",
+        "mirror"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 5,
+      "suggestions": [
+        "home decor",
+        "room decor",
+        "table decor",
+        "wall clock",
+        "desk clock",
+        "digital clock",
+        "wall art print",
+        "wall hanging"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 70,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=home+decor",
+      "url_google": "https://trends.google.com/trends/explore?q=home+decor&geo=GB"
+    },
+    {
+      "keyword": "garden",
+      "category": "garden",
+      "heat": 65,
+      "score": 66,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "garden",
+        "bird",
+        "patio",
+        "outdoor",
+        "plant"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "garden tool set",
+        "garden light",
+        "garden decor",
+        "bird feeder",
+        "bird bath",
+        "bird house",
+        "patio",
+        "outdoor"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 65,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=garden+tool+set",
+      "url_google": "https://trends.google.com/trends/explore?q=garden+tool+set&geo=GB"
+    },
+    {
+      "keyword": "travel",
+      "category": "travel",
+      "heat": 45,
+      "score": 60,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "travel",
+        "toiletry"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "travel",
+        "toiletry"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 45,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=travel",
+      "url_google": "https://trends.google.com/trends/explore?q=travel&geo=GB"
+    },
+    {
+      "keyword": "bathroom",
+      "category": "bathroom",
+      "heat": 40,
+      "score": 58,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "bath",
+        "mirror",
+        "bathroom",
+        "toilet"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "bath mat",
+        "bath caddy",
+        "bath pillow",
+        "makeup mirror",
+        "vanity mirror",
+        "LED mirror",
+        "bathroom",
+        "toilet"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 40,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=bath+mat",
+      "url_google": "https://trends.google.com/trends/explore?q=bath+mat&geo=GB"
+    }
+  ],
+  "trend_summary": {
+    "top_categories": [
+      [
+        "crafts",
+        100
+      ],
+      [
+        "office",
+        90
+      ],
+      [
+        "car",
+        85
+      ],
+      [
+        "lighting",
+        85
+      ],
+      [
+        "phone",
+        85
+      ],
+      [
+        "eco",
+        85
+      ]
+    ],
+    "cross_validated": [
+      "bathroom",
+      "car",
+      "lighting",
+      "travel",
+      "phone",
+      "beauty",
+      "kitchen",
+      "crafts",
+      "seasonal",
+      "office",
+      "sports",
+      "eco",
+      "garden",
+      "pets",
+      "home decor",
+      "storage"
+    ],
+    "demand_keywords": [
+      "agentic commerce redefines buying",
+      "amazon buying tricks",
+      "apple devices",
+      "before and after",
+      "best movies on",
+      "best way to save on",
+      "choose from",
+      "christmas",
+      "christmas cards",
+      "christmas gifts"
+    ],
+    "season": "autumn",
+    "sources_scanned": [
+      "tiktok",
+      "hotukdeals",
+      "temu",
+      "etsy",
+      "youtube",
+      "google_trends",
+      "reddit",
+      "market_intel"
+    ]
+  }
+}
