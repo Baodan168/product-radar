@@ -1,0 +1,112 @@
+{
+  "date": "2026-09-26",
+  "updated_at": "2026-09-26T08:30:00+08:00",
+  "scan_date": "2026-09-26",
+  "scan_time": "08:12",
+  "summary": "本日4个机会全部为秋冬季节刚需方向（14天内主品类零重复）：户外水龙头防冻保暖套（Amazon's Choice品类、10月第一波霜冻前布局）、圣诞火漆印章轻量套装（UK贺卡书写季+社交端wax seal风潮）、10齿防滑冰爪（TikTok防滑hack百万播放、Best Seller榜£5.82-14.99在售）、冰铲保暖手套一体款（UK媒体实测推荐、月售700+）。全部非电子、无液体膏体、≤200g轻小件空运件。新品4/4。",
+  "new_count": 4,
+  "repeat_count": 0,
+  "insights": [
+    {
+      "keyword": "outdoor tap cover insulated frost protector",
+      "keyword_cn": "户外水龙头防冻保暖套",
+      "amazon_keyword": "outdoor tap cover insulated frost protector",
+      "search_1688": "户外水龙头防冻罩 420D牛津布 加厚保温棉 防冻裂 防水套",
+      "demand_signals": [
+        "Amazon UK现有两款Amazon's Choice：Flatro £8.32（257评/4.1星）、BEEWAY £3.99（1,200+评/4.6星），小品类双AC位=需求真实且listing门槛低（来源：Amazon UK搜索页）",
+        "UK Prepper Hub专业测评引用'Beast from the East 20万户断水'背景，并标注该品类内容高峰在October-November，Lakeland £6.99/Wickes Stormguard全渠道铺货=全渠道认知已建立（来源：ukprepperhub.co.uk / Lakeland / Wickes）",
+        "eBay Exitex同款'trending, 44 sold'实时在售，多渠道同步走量（来源：eBay UK）",
+        "水龙头冻裂plumber callout £100-200 vs 防冻套£3.99-8.99，高ROI焦虑型购买，去年冬UK多轮冰冻预警反复教育市场（来源：ukprepperhub测评）"
+      ],
+      "trend_score": 85,
+      "trend_direction": "surging",
+      "reason": "季节性最强且竞争最低：品类头部review仅1,200（多数<300），月售700+；10月底UK第一波霜冻前是黄金上架窗口，现在下单空运10月中上架刚好卡位。差异化点明确——现有款缺'26cm加大+防水牛津布+反光条'组合。",
+      "action": "027店空运测品（单次≤60件），定价£8.99卡Flatro£8.32上方，主图强调'26cm加大可盖水管接头+420D防水+反光条'；1688搜'420D牛津布水龙头防冻罩亚马逊款'，采购价约¥3-6（£0.35-0.65），10月5日前下单。",
+      "competition": "低-中。主力listing仅3-4个（Flatro 257评/BEEWAY 1,200评/大黑款4,208评但跨品类），无品牌集中度，白牌自然流量充足；The Range/Halfords线下款£2.79-4是价格锚点，需靠加大尺寸差异化避开低端拼价。",
+      "signal_scores": {
+        "trend": 85,
+        "gap": 78,
+        "profit": 85,
+        "final": 83,
+        "recommendation": "强烈推荐",
+        "profit_window": "£8.99 - 佣金15.45%(£1.39) - FBA Small Standard(£2.60) - 采购+头程(£0.90) = 净利£4.10/件（46%），远超20%目标线"
+      }
+    },
+    {
+      "keyword": "wax seal kit christmas stamp wax beads",
+      "keyword_cn": "圣诞火漆印章轻量套装",
+      "amazon_keyword": "wax seal kit christmas stamp wax beads",
+      "search_1688": "火漆印章套装 圣诞雪花章头 蜡粒 勺子 手柄 礼盒",
+      "demand_signals": [
+        "Amazon UK Sealing Wax Best Seller榜头部：ASTARON 100粒£5.99（2,977评/4.6星）、WEWINK 310粒套装£14.99（1,219评/4.7星）、960粒套装£10.88——整套装£10.88-14.89价格带已验证（来源：Amazon UK Best Sellers）",
+        "UK火漆礼盒市场活跃：JessyAtSea自定义套装£32起+2026圣诞倒数日历€149.99、Crafter's Companion圣诞火漆套装批发在售、Syntego雪花章头礼盒——独立站£32定价证明礼盒溢价空间（来源：jessyatsea.com / floristrymarket.co.uk / syntego.co.uk）",
+        "Instagram #waxseal节日封蜡内容活跃（Paper Source November Kit of the Month等），社交端手作风潮外溢UK（来源：Instagram）",
+        "UK圣诞贺卡年寄送约10亿张，蜡封=手作仪式感升级配件，贺卡配件采购比书写高峰早3-4周（来源：行业常识+贺卡协会公开数据）"
+      ],
+      "trend_score": 82,
+      "trend_direction": "rising",
+      "reason": "类目头部全是'蜡粒耗材+通用花卉章头'，圣诞主题章头套装专门listing少；11月初圣诞贺卡书写季开启前上架，正赶采购前置期。轻量化（3章头+50蜡粒+勺+蜡烛，去熔炉）既压重量到150g内又控成本。",
+      "action": "007店测品（与文具/礼品带协同），定价£10.99-11.99；1688搜'火漆印章套装雪花圣诞章头'，9件套¥2.95-11.05、雪花章头单件¥0.53，定制3章头+50粒组合约¥4-6（£0.45-0.65）；包装走牛皮纸礼盒风。",
+      "competition": "中。蜡粒耗材头部2,977评垄断流量，但圣诞主题套装细分无绝对头部；差异化靠'圣诞3章头（雪花/圣诞树/驯鹿）+金红蜡粒+礼盒卡位£10.99'，避开£5.99蜡粒低价带。",
+      "signal_scores": {
+        "trend": 82,
+        "gap": 72,
+        "profit": 88,
+        "final": 81,
+        "recommendation": "强烈推荐",
+        "profit_window": "£11.99 - 佣金15.45%(£1.85) - FBA(£2.60) - 采购+头程(£1.55) = 净利£5.99/件（50%，保守口径45%+）"
+      }
+    },
+    {
+      "keyword": "ice cleats 10 stud anti slip shoe grips",
+      "keyword_cn": "户外防滑冰爪10齿",
+      "amazon_keyword": "ice cleats 10 stud anti slip shoe grips",
+      "search_1688": "十齿冰爪 硅胶防滑鞋套 户外雪地防摔 亚马逊款",
+      "demand_signals": [
+        "Amazon UK Ice & Snow Grips Best Seller榜30+ listing在售，主流价格带£5.82-14.99：白牌10钉款£5.82（697评/4.2星）证明£6-10白牌带走得通（来源：Amazon UK Best Sellers）",
+        "Yaktrax单品牌Walker/Walk两款合计11,000+评分，品类认知度已建立，2026年Testix横评（10款/2,100+评论分析）把£8.95的Walk款列为'city commuters/dog walkers/school run'最佳日常款（来源：testix.co.uk）",
+        "UK媒体Daily Record/Lancs Live报道TikTok'袜子套鞋防滑'hack视频百万播放+Reddit December热帖——冰面出行焦虑是每年冬天的国民话题，袜子hack的烂替代恰好指向真品（来源：Daily Record / Lancs Live / Reddit）",
+        "Good Housekeeping UK 2026年1月冰面行走专题直接推荐'clip-on traction spikes'（Kahtoola £44），媒体教育持续（来源：goodhousekeeping.com/uk）"
+      ],
+      "trend_score": 88,
+      "trend_direction": "rising",
+      "reason": "需求爆发点=10月底-11月初第一次Met Office冰冻预警，预警新闻夜后48小时搜索陡增；现在（9/26）到10月20日入库是最后窗口。白牌£5.82款697评说明£6-10带无品牌壁垒，靠'10钉+送替换钉+收纳袋+4码全'组合差异化。",
+      "action": "027店空运测品（小批量，S/M/L/XL四码各≤20副），定价£9.99；1688搜'十齿冰爪硅胶鞋套'，TPE10钉款¥4.95-8.25（£0.54-0.90）、硅胶款¥6.60；必须赶10月20日前入库。",
+      "competition": "中-高。Yaktrax 9,838评品牌头部+30个listing，但£5.82白牌款与£14.99 YAKTRAX之间£6-10带竞争分散；风险是S-XL四码备货资金占用，测品期先M/L两码。",
+      "signal_scores": {
+        "trend": 88,
+        "gap": 65,
+        "profit": 78,
+        "final": 78,
+        "recommendation": "推荐",
+        "profit_window": "£9.99 - 佣金15.45%(£1.54) - FBA(£2.60) - 采购+头程(£1.45) = 净利£4.40/件（44%）"
+      }
+    },
+    {
+      "keyword": "ice scraper mitten glove windscreen",
+      "keyword_cn": "冰铲保暖手套一体款",
+      "amazon_keyword": "ice scraper mitten glove windscreen",
+      "search_1688": "雪铲刮冰器 连手套 汽车除冰 毛绒保暖套 冬季车用",
+      "demand_signals": [
+        "Chronicle Live（UK地方媒体）实测报道：Diaocare Ice Scraper Mitten £8.99'700+ bought in last month'、4.6星/300+评、bestseller榜爬升中，评价关键词'toasty and warm'（来源：chroniclelive.co.uk）",
+        "Amazon UK Ice Scrapers Best Seller榜多品牌跟进在售：GADLANE 2只装/LYVANAS with glove/Simply ICE003/DIAOCARE——多品牌同时进入=品类上升期（来源：Amazon UK Best Sellers）",
+        "Halfords £4.00实体款（52评/4.6星）+The Range £2.79铺货，线下价格锚点£2.79-5之上Amazon款£8.99仍月售700+=便利/保暖溢价成立（来源：Halfords / The Range via Chronicle Live）",
+        "UK冬季早晨挡风玻璃霜冻高频刚需，一体手套解决'手冷+湿'双痛点，与纯冰铲£7.64价差<£1.5，替换决策成本低（来源：Amazon UK对比数据）"
+      ],
+      "trend_score": 78,
+      "trend_direction": "rising",
+      "reason": "品类处于爬升早段（头部仅300评），UK媒体免费流量红利期；10月底第一场霜冻前上架，2只装（前挡+侧窗）差异化对标Diaocare单只装。注意与14天内已推的'汽车前挡防霜罩'（遮盖式）主品类不同。",
+      "action": "007或027测品，定价£8.99推2只装；1688搜'雪铲连手套/刮冰器手套款'，参考同类手套+铲组件¥4-7（£0.45-0.75）；⚠️1688价未单独验证（预算所限），下单前先核价。",
+      "competition": "中。Diaocare 300评领跑但无垄断，GADLANE/LYVANAS/Simply多品牌在售；用'2只装+加厚绒+防水外层'差异化，避开Halfords £4低价带。",
+      "signal_scores": {
+        "trend": 78,
+        "gap": 62,
+        "profit": 76,
+        "final": 73,
+        "recommendation": "推荐",
+        "profit_window": "£8.99 - 佣金15.45%(£1.39) - FBA(£2.60) - 采购+头程(£1.00) = 净利£4.00/件（44%）"
+      }
+    }
+  ],
+  "trend_forecast": "① 10月第1周（9/28-10/4）取暖季开启窗口：UK中央供暖普遍10月中旬集体启动，但夜间气温已降至个位数，'防冻防寒三件套'（水龙头防冻套/窗户保温膜/暖气放气钥匙）搜索量出现第一波爬坡。本次推荐的水龙头防冻套正卡此窗口，建议10月10日前完成上架。注意自粘门窗密封条14天内已推过（9/18），避免重复，可往门底挡风条/烟囱气堵方向找新词。② 10月中（10/5-10/18）GBBO决赛+秋季烘焙高峰：GBBO 2026季9月开播，决赛周（往年10月下旬）淘宝效应显著，烘焙小件（裱花嘴/硅胶模具9月已推）进入第二波，未覆盖方向有烘焙冷却架、甜甜圈/玛芬模具（硅胶非电）。同时half-term（10/26-11/1）前两周是家长采购儿童手工材料包的启动期，万圣节刮画/钻石画9月已推满，剩余机会看'万圣节饼干装饰糖钻/糖珠（固态非液体）'。③ 10月下旬（10/19-10/31）万圣节冲刺+第一波霜冻：万圣节当周last-minute采购峰值，糖果袋/装饰/窗贴9月已推，残余机会在万圣节宠物装扮（宠物5%低佣+拍照晒单属性）和南瓜雕刻工具补单。更关键的是UK第一波霜冻预警通常出现在10月底-11月初，冰爪/冰铲/防霜罩搜索在第一次'ice warning'新闻夜后48小时内陡增——本次推荐的冰爪和冰铲手套必须10月20日前入库，赶在预警前有可留评listing。④ 11月第1周（11/1-11/7）圣诞贺卡书写季开启：UK年寄贺卡约10亿张，书写高峰11月中-12月初，但贺卡配件（火漆印章/金箔贴/缎带）采购提前3-4周，本次推荐的圣诞火漆套装窗口正开，建议11月第一周前上架并随贺卡文具类目蹭流量。Elf on the Shelf精灵道具12/1回归，精灵门/倒计时袋9月已推，11月中旬前按动销补货即可，不追新。⑤ 11月上旬（11/8-11/20）Black Friday备货截止线：空运到FBA上架约10-15天，11月8日之后空运补BF库存基本来不及。建议10月底前锁定BF主推SKU——本报告4款中水龙头防冻套和冰爪是季节性BF爆款候选（家庭备冬+凑单加购双场景），火漆套装走礼物/手作人群。BF期间£5.99-12.99价格带小件主要吃加购/凑单流量，listing提前开coupon并检查库存深度。⑥ 12月初前瞻：圣诞桌面装饰（桌旗/餐垫/无电池摆件）进入巅峰前最后一波上架窗口；圣诞灯串带电不做（红线），圣诞宠物三角巾9月已推过不重复。整体节奏：4款全部在10月20日前入库，11月8日后只做小额补单不再开新品。"
+}
