@@ -1,0 +1,109 @@
+{
+  "date": "2026-09-28",
+  "updated_at": "2026-09-28T08:20:00+08:00",
+  "scan_date": "2026-09-28",
+  "scan_time": "08:11",
+  "summary": "本次扫描4个新机会（新品4、复扫0），全部为轻小件非电子品。方向：圣诞烘焙模具、圣诞气球拱门、秋季枫叶藤蔓装饰（TikTok cosy season驱动）、篝火之夜荧光棒包（11月5日Bonfire Night，38天窗口，空运来得及）。已避开近14天已推的圣诞装饰( stockings/advent/wreath/gonk)、万圣节装饰、冬季车用、宠物梳毛等品类。",
+  "insights": [
+    {
+      "keyword": "3D gingerbread house cookie cutter set",
+      "keyword_cn": "3D姜饼屋/圣诞3D饼干模具套装",
+      "amazon_keyword": "3D gingerbread house cookie cutter set stainless steel",
+      "search_1688": "圣诞3D姜饼屋饼干模具 不锈钢套装 / 圣诞饼干切模 9件套 304不锈钢",
+      "demand_signals": [
+        "Amazon UK在售3D堆叠圣诞树饼干模(TRIXES B0FZCFK5Z6)、3D姜饼屋套装(FantasyDay £4.99, BSR 4706/Cookie Cutters子榜)多个2025-2026新ASIN上架中，卖家在新设计上持续投入=需求在涨（来源：Amazon UK搜索结果）",
+        "Testix 2026 UK烘焙测评将圣诞造型模具单独列为'Best for Christmas Baking'榜单品类，覆盖£5.95-15.50价格带（来源：testix.co.uk买家指南）",
+        "英国姜饼屋/圣诞饼干家庭烘焙为固定年度传统，11月中旬进入高峰，家长10月起提前采购亲子烘焙工具（来源：品类季节性+测评指南）",
+        "1688义乌/金华供应链成熟：圣诞不锈钢饼干模具10款套装¥15/200套起，义乌购在售且标注跨境专供（来源：yiwugo.com报价）"
+      ],
+      "trend_score": 76,
+      "trend_direction": "up",
+      "reason": "圣诞烘焙是UK需求确定性最高的年度品类，3D堆叠/姜饼屋造型相比平面模具差异化明显且客单更高；10月中下旬开始爬坡，现在下单空运正好赶上11月高峰起量；义乌货源200套起订，适合测款。",
+      "action": "007店测款优先（礼品属性强、复购+送礼场景多）。定价£8.99（竞品锚点£4.99-8.95，用礼盒+配方卡差异化）。1688搜'圣诞3D姜饼屋饼干模具 不锈钢'，¥12-15/套（约£1.4-1.7）。⚠️注意10件钢制套装约300g，控制包装≤400g走小标准件。利润测算：£8.99-佣金8%£0.72-FBA小标准件约£2.60-采购£1.7-头程空运约£2.2≈£1.8净利(20%)。",
+      "competition": "竞争中高：Cookie Cutters子类下沉榜单ASIN密集，FantasyDay £4.99老ASIN已积累大量评论，但类目无品牌垄断、以杂牌为主；3D堆叠树/姜饼屋造型是2025-2026新出现的细分差异位，新ASIN（B0FBGG5W3T等）评论尚少，仍有切入窗口。价格锚£4.99-8.95，不建议打£4.99以下价格战。",
+      "signal_scores": {
+        "trend": 76,
+        "gap": 62,
+        "profit": 68,
+        "final": 70,
+        "recommendation": "buy_now（10月15日前空运下单）",
+        "profit_window": "2026-10-15 ~ 2026-12-15（12月中旬后快速回落）"
+      }
+    },
+    {
+      "keyword": "christmas balloon arch garland kit",
+      "keyword_cn": "圣诞气球链拱门套装（红绿金）",
+      "amazon_keyword": "christmas balloon arch garland kit red green gold",
+      "search_1688": "圣诞气球链拱门套装 红绿金 亚马逊 / 圣诞豪华气球链装饰 乳胶",
+      "demand_signals": [
+        "Amazon UK多个100-163片圣诞气球拱门套装在售且动销中：151片红绿金£9.99、163片£8.99-9.58、126片含姜饼人/糖果杖foil气球£8.49（来源：Amazon UK+which.one追踪页，均显示1-2日发货=动销正常）",
+        "1688义乌商家直接标注'亚马逊新款圣诞节气球套装'跨境专供，¥12.6-30多规格（来源：yiwugo.com/1688在售报价）——供应商押注亚马逊渠道本身是需求信号",
+        "圣诞派对+跨年夜(NYE)双峰值：气球拱门12月需求持续到12月31日，且生日派对全年基础盘托底（来源：产品页场景描述+品类规律）"
+      ],
+      "trend_score": 74,
+      "trend_direction": "up",
+      "reason": "圣诞装饰板块此前已推stockings/advent/wreath/gonk，气球拱门是尚未覆盖的派对装饰角度；需求11月下旬拉升、跨年夜二次峰值，生命周期长于纯圣诞品类；1688货源价¥12.6起，毛利空间清晰。",
+      "action": "027店小批量空运测款（≤60件）。定价£9.99（100片以上套装）。1688搜'圣诞气球链拱门套装 红绿金'，¥15.6-25.8（约£1.8-2.9）。差异化：选sage green/金白配色（竞品集中在红绿金）或含手动打气筒版本。利润测算：£9.99-佣金8%£0.80-FBA约£2.60-采购£2.2-头程£2.2≈£2.2净利(22%)。",
+      "competition": "竞争偏高（诚实评估）：£8.49-9.99价位100-160片套装密集，2024-2025新ASIN多，多数评论数百条级别，无品牌集中；红绿金经典配色红海，sage green/金白等配色相对稀疏；气球品类破损率约5%需在客服话术里预案。",
+      "signal_scores": {
+        "trend": 74,
+        "gap": 55,
+        "profit": 72,
+        "final": 67,
+        "recommendation": "buy_now（11月上旬前空运到位）",
+        "profit_window": "2026-11-20 ~ 2026-12-31（跨年夜二次峰值）"
+      }
+    },
+    {
+      "keyword": "autumn maple leaf garland",
+      "keyword_cn": "秋季枫叶藤蔓假树叶串（mantel装饰）",
+      "amazon_keyword": "autumn maple leaf garland mantel decor 2 pack",
+      "search_1688": "仿真枫叶藤蔓 秋季装饰假树叶串 / 枫叶藤条 假花藤 mantel",
+      "demand_signals": [
+        "TikTok UK 'September reset'热潮：大量博主发布秋季布置视频（南瓜靠垫/假花/藤蔓），cosy season情绪持续发酵（来源：Irish Sun/Headtopics报道多个TikTok博主案例）",
+        "Primark £18 Harvest Foliage Wreath被抢购到'last one in store'，TikTok博主发布'speechless'式种草视频——证明英国消费者愿为秋季门口/mantel装饰付£18溢价（来源：Essex Live报道）",
+        "Artisan Furniture UK 2026秋季趋势稿：fall leaf garlands成为mantel/楼梯/门框装饰主打，色调转向muted earthy（深酒红/橙/金黄）（来源：artisanfurniture.net趋势分析）",
+        "价格缝隙：Amazon上成品质感花环/花环DIY物料普遍£12-20，£8.99两件装藤蔓存在价格带空隙（来源：Amazon UK在售价位观察）"
+      ],
+      "trend_score": 78,
+      "trend_direction": "up",
+      "reason": "cosy season是当下正在发生的TikTok驱动需求，窗口比圣诞更早更急：9月reset趋势已起，mantel/门口布置高峰在10月，10月20日后注意力转向圣诞、品类快速回落。这是本次4个机会里时间最紧急的，也是唯一无需等节日临近的现装品类。",
+      "action": "322店或007店上架（装饰类轻小件，027新店可少量跟测）。定价£8.99（2米×2条装）。1688搜'仿真枫叶藤蔓 秋季装饰'，义乌货源约¥8-15/条（⚠️估算价，下单前核实当日报价）。利润测算：£8.99-佣金8%£0.72-FBA小标准件约£2.30(约180g)-采购约£1.4-头程约£1.8≈£2.8净利(31%)。",
+      "competition": "竞争中等：该细分以杂牌为主、无品牌垄断，多数在售ASIN评论量在数百条级别（新ASIN混杂）；Primark同款热销但Primark不做线上，线上供给分散，2件装£8.99价位对手较少。风险：colourway需跟紧今年muted earthy流行色，去年的亮橙色库存款已在打折。",
+      "signal_scores": {
+        "trend": 78,
+        "gap": 70,
+        "profit": 75,
+        "final": 74,
+        "recommendation": "buy_now（最紧急，9月底-10月初必须空运发出）",
+        "profit_window": "2026-09-28 ~ 2026-10-20（窗口短，10月下旬让位圣诞）"
+      }
+    },
+    {
+      "keyword": "glow sticks party pack bonfire night",
+      "keyword_cn": "荧光棒派对大礼包（篝火之夜）",
+      "amazon_keyword": "glow sticks party pack 100 bracelets bonfire night",
+      "search_1688": "荧光棒手环100支装 派对 夜光棒 带连接器",
+      "demand_signals": [
+        "Bonfire Night 2026为11月5日周四，烟花/庆祝活动集中在10月31-11月1与11月7-11月8两个周末（来源：bonfire-night.uk 2026官方指南）",
+        "烟花供应链今年异常紧张，Galactic Fireworks明示'booked stock has not landed'——更多家庭转向居家低成本庆祝，荧光棒作为儿童安全的sparkler替代品受益（来源：galacticfireworks.co.uk购买指南+partypacks.co.uk'kids love glow sticks, safe alternative to sparklers'定位）",
+        "Twinkl专为Bonfire Night设计荧光棒家庭游戏包（scavenger hunt/night bowling等），家庭居家庆祝用法已常态化（来源：twinkl.co.uk）",
+        "1688荧光棒为超低成本供应链：100支手环约¥4-8（≈£0.5-0.9），适合大数量装+高毛利结构（来源：1688品类价格带，⚠️估算，下单前核实）"
+      ],
+      "trend_score": 72,
+      "trend_direction": "up",
+      "reason": "篝火之夜是英国独有的11月初需求脉冲，38天后到达，空运来得及；今年烟花供应紧张+禁放趋势让'居家荧光棒派对'场景扩大；跨年夜可二次清货，滞销风险低于纯万圣节品类。",
+      "action": "007店测款。定价£7.99（100支+连接器大礼包）。1688搜'荧光棒手环100支装 带连接器'，约¥4-8/包。利润测算：£7.99-佣金8%£0.64-FBA约£2.30(约200g)-采购£0.8-头程£1.6≈£2.6净利(33%)。⚠️是化学荧光非电子产品，符合非电子红线；页面需标注'不适合3岁以下儿童'。",
+      "competition": "竞争偏高（诚实评估）：100-500支装£6-10价位ASIN密集，头部为老ASIN杂牌、评论量普遍上千，价格战风险真实存在；差异位在'bonfire night'场景关键词卡位+含连接器/眼镜等配件的礼包组合；利润垫厚（33%）可承受小幅促销，这是它胜过同类圣诞小饰品的地方。",
+      "signal_scores": {
+        "trend": 72,
+        "gap": 50,
+        "profit": 82,
+        "final": 68,
+        "recommendation": "buy_now（10月15日前空运发出，晚于这个日期放弃）",
+        "profit_window": "2026-10-15 ~ 2026-11-08（11月5日峰值，跨年夜小尾巴）"
+      }
+    }
+  ],
+  "trend_forecast": "未来3-4周（2026-09-28至10-25）UK需求窗口预测：① 9月28日-10月8日：万圣节收官+cosy season情绪高峰。10月31日万圣节仅剩4周多，Amazon UK万圣节派对装饰进入最后一波补货高峰，此前已推的南瓜雕刻套件、蜂巢挂饰、窗贴仍在销售窗口内但不建议重复进入；配套缺口在糖果袋(treat bags)与派对桌布。同时TikTok 'September reset'秋季布置热潮正处峰值（本期已验证：Primark £18花环售罄、博主种草视频密集），秋季枫叶藤蔓、mantel装饰是当下最紧急的现装机会，预计10月20日后注意力转向圣诞、品类快速回落。② 10月9日-10月20日：篝火之夜(Bonfire Night, 11月5日周四)备货关键窗。今年烟花供应链异常紧张（Galactic Fireworks已公开提示到货缺口），叠加城市禁放趋势，更多家庭转向居家低成本庆祝，荧光棒大礼包、发光派对用品需求看涨；家庭消费集中在10月31-11月1与11月7-11月8两个周末，空运最晚10月15日前发出，错过则放弃。③ 10月中旬起：圣诞烘焙季启动。英国姜饼屋/圣诞饼干家庭烘焙自11月中旬进入高峰、12月20日前为绝对峰值，3D饼干模具、圣诞造型烘焙工具从10月中下旬开始爬坡，是本次推荐中生命周期最长（约8周）的品类，也是亲子场景复购最稳的方向。④ 10月下旬-11月：圣诞派对装饰第二波。此前已覆盖felt stockings、advent calendar、wreath kit、gonk、santa key，圣诞气球链拱门是派对装饰板块新切入角度，需求11月下旬拉升、跨年夜(NYE)达到第二峰值，可销售到12月31日，滞销风险低于纯圣诞符号品类。⑤ 全程贯穿：10月25日英国时钟回拨(clocks go back)后进入'黑暗夜晚遛狗'话题季，宠物反光/高可视外出装备（背心、项圈套件）是每年10月底固定媒体话题带动的搜索增量，宠物冬装类可关注但需注意尺码退货风险与大码超重问题，本期未列入推荐。备货节奏提醒：所有节日品类按空运节奏需在需求峰值前35-45天下单，当前最紧急的是秋季装饰（本周内），其次是篝火之夜荧光棒（10月15日红线），圣诞烘焙与气球拱门还有2-3周缓冲。"
+}
