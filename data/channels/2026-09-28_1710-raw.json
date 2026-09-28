@@ -1,0 +1,1914 @@
+{
+  "scan_date": "2026-09-28",
+  "scan_time": "17:10",
+  "scan_ts": "2026-09-28_1710",
+  "stats": {
+    "total_scanned": 98,
+    "passed": 5,
+    "sources": [
+      "amazon",
+      "keyword",
+      "tiktok"
+    ]
+  },
+  "products": [
+    {
+      "asin": "B0H6TCNL76",
+      "name": "200m Cooking String 4 Rolls, 50m Each Kitchen Twine for Cooking, Baking & Food Preparation, Strong Cooking Twine for Tyi",
+      "price": 3.95,
+      "reviews": 4,
+      "rating": 5.0,
+      "rank": 1,
+      "category": "Kitchen",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "4 reviews, 5.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H6TCNL76",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71VqFjulKgL._AC_UL300_SR300,200_.jpg"
+    },
+    {
+      "asin": "B0H7131VSF",
+      "name": "GXWzhanbo 800 Silver Metal Twist Ties 10cm, Reusable Bag Ties for Baking, Parties, Candy & Party Gift Bags",
+      "price": 2.49,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 2,
+      "category": "Kitchen",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H7131VSF",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/81pZsFCObEL._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B0030FUHR8",
+      "name": "Kilner Clip-Top Storage Jar, 1 Litre, Airtight, Glass, for Fruit, Vegetables, Coffee, Tea, Flour",
+      "price": 3.0,
+      "reviews": 5102,
+      "rating": 4.7,
+      "rank": 1,
+      "category": "Kitchen",
+      "channel": "bsr",
+      "channel_name": "Amazon畅销榜",
+      "review_info": "5102 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0030FUHR8",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71rBjFD4UPL._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B0F5HT5NRN",
+      "name": "Roe Tenpo Air Fryer Liners, 100Pcs Disposable Baking Parchment Paper, Non-Stick & Greaseproof, Air Fryer Accessories for",
+      "price": 2.72,
+      "reviews": 3084,
+      "rating": 4.5,
+      "rank": 2,
+      "category": "Kitchen",
+      "channel": "bsr",
+      "channel_name": "Amazon畅销榜",
+      "review_info": "3084 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0F5HT5NRN",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71IB4GRS0AL._AC_UL300_SR300,200_.jpg"
+    },
+    {
+      "asin": "B06X9NQ8GX",
+      "name": "Amazon Basics Digital kitchen scales with LCD display (with batteries), Black and Stainless Steel, BPA free, Weighs up t",
+      "price": 6.16,
+      "reviews": 116892,
+      "rating": 4.6,
+      "rank": 3,
+      "category": "Kitchen",
+      "channel": "bsr",
+      "channel_name": "Amazon畅销榜",
+      "review_info": "116892 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B06X9NQ8GX",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/815FWesbK3L._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B008YETL18",
+      "name": "De'Longhi EcoDecalk - Coffee Machine Descaler 5 Decalcification Doses | Descaling Solution, Plant-Based Formula, Coffee ",
+      "price": 13.21,
+      "reviews": 138215,
+      "rating": 4.7,
+      "rank": 4,
+      "category": "Kitchen",
+      "channel": "bsr",
+      "channel_name": "Amazon畅销榜",
+      "review_info": "138215 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B008YETL18",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/812Px83CjSL._AC_UL300_SR300,200_.jpg"
+    },
+    {
+      "asin": "B001RYON24",
+      "name": "Marigold Unisex El Gloves-large-1 Pair Marigold Extra Life Kitchen Gloves Large, Yellow, L (Pack of 1) (Packaging may va",
+      "price": 3.9,
+      "reviews": 4630,
+      "rating": 4.7,
+      "rank": 5,
+      "category": "Kitchen",
+      "channel": "bsr",
+      "channel_name": "Amazon畅销榜",
+      "review_info": "4630 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B001RYON24",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71Ps4CVyr3L._AC_UL300_SR300,200_.jpg"
+    },
+    {
+      "asin": "B00K8S8OXO",
+      "name": "Russell Hobbs Steam Iron, 3100W, 210 g and min Extra Steam Boost, 350ml | Durable Ceramic Soleplate, Convenient Self-Cle",
+      "price": 28.33,
+      "reviews": 42482,
+      "rating": 4.4,
+      "rank": 6,
+      "category": "Kitchen",
+      "channel": "bsr",
+      "channel_name": "Amazon畅销榜",
+      "review_info": "42482 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B00K8S8OXO",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71+P5rHgrYL._AC_UL300_SR300,200_.jpg"
+    },
+    {
+      "asin": "B08TWZD1H4",
+      "name": "DESIRETECH White Electric Extension Lead - 4 Gang, 2 Metre Cable with UK Plug & 3 Pin Socket - Wall Mountable & Multi So",
+      "price": 5.82,
+      "reviews": 13355,
+      "rating": 4.6,
+      "rank": 1,
+      "category": "DIY",
+      "channel": "bsr",
+      "channel_name": "Amazon畅销榜",
+      "review_info": "13355 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B08TWZD1H4",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/61CRTp6Sg4L._AC_UL300_SR300,200_.jpg"
+    },
+    {
+      "asin": "B0CNTKMKCG",
+      "name": "Status IONOS Masking Tape, Multi Surface, Pack of 2, 23mm x 20m | Multi-Surface Decorating Tape, DIY and Painting, Clean",
+      "price": 1.73,
+      "reviews": 855,
+      "rating": 4.5,
+      "rank": 2,
+      "category": "DIY",
+      "channel": "bsr",
+      "channel_name": "Amazon畅销榜",
+      "review_info": "855 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CNTKMKCG",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/716qNjIj27L._AC_UL300_SR300,200_.jpg"
+    },
+    {
+      "asin": "B0FHJ91JY5",
+      "name": "Ring Battery Video Doorbell (newest gen), DIY Wireless Doorbell Camera, Retinal 2K, 6x Zoom, Two-Way Talk, Easy to insta",
+      "price": 79.99,
+      "reviews": 3721,
+      "rating": 4.2,
+      "rank": 3,
+      "category": "DIY",
+      "channel": "bsr",
+      "channel_name": "Amazon畅销榜",
+      "review_info": "3721 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FHJ91JY5",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/51EXJesihpL._AC_UL300_SR300,200_.jpg"
+    },
+    {
+      "asin": "B0G5598LJZ",
+      "name": "Zeeorymn Middle Finger in a Box,Funny Middle Finger Gift Box for Men & Women,Perfect Secret Santa Gifts for Office Desk ",
+      "price": 4.59,
+      "reviews": 84,
+      "rating": 4.6,
+      "rank": 3,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "84 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0G5598LJZ",
+      "image_url": "https://m.media-amazon.com/images/I/51jB7l3p3nL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "men gift",
+      "festival_event": "国际男人节",
+      "festival_icon": "👨",
+      "festival_deadline": "2026-10-03",
+      "is_event": true,
+      "sources": [
+        "📅 国际男人节"
+      ]
+    },
+    {
+      "asin": "B0H76FC4SM",
+      "name": "Original Source The OG’s Gift Set with Lemon & Tea Tree, Lime, Mint & Tea Tree and Coconut & Shea Butter Shower Gels, 10",
+      "price": 3.75,
+      "reviews": 13,
+      "rating": 3.6,
+      "rank": 4,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "13 reviews, 3.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H76FC4SM",
+      "image_url": "https://m.media-amazon.com/images/I/81ruRMUVjCL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "men gift",
+      "festival_event": "国际男人节",
+      "festival_icon": "👨",
+      "festival_deadline": "2026-10-03",
+      "is_event": true,
+      "sources": [
+        "📅 国际男人节"
+      ]
+    },
+    {
+      "asin": "B0CTXLY7GM",
+      "name": "OakiWay Brass Sundial Compass - Gifts for Men, Dad Or Husband, Nautical Sailing Anniversary Present for Him, Antique Vin",
+      "price": 24.75,
+      "reviews": 182,
+      "rating": 4.8,
+      "rank": 34,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "182 reviews, 4.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CTXLY7GM",
+      "image_url": "https://m.media-amazon.com/images/I/71ttyGebwuL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "men gift",
+      "festival_event": "国际男人节",
+      "festival_icon": "👨",
+      "festival_deadline": "2026-10-03",
+      "is_event": true,
+      "sources": [
+        "📅 国际男人节"
+      ]
+    },
+    {
+      "asin": "B0GZQV9HJP",
+      "name": "Baylis & Harding The Fuzzy Duck Mens Luxury Present Stack Gift Set 1 Pack | Bergamot, Hemp & Sandalwood, Vegan Friendly",
+      "price": 8.5,
+      "reviews": 18,
+      "rating": 4.8,
+      "rank": 35,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "18 reviews, 4.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GZQV9HJP",
+      "image_url": "https://m.media-amazon.com/images/I/71gWV33Oh8L._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "men gift",
+      "festival_event": "国际男人节",
+      "festival_icon": "👨",
+      "festival_deadline": "2026-10-03",
+      "is_event": true,
+      "sources": [
+        "📅 国际男人节"
+      ]
+    },
+    {
+      "asin": "B0GYKL6JZ2",
+      "name": "SoOldamol Joke Pill Box with Jelly Beans & Prescription Style Bag - Funny Birthday Gift for Men and Women, Novelty Miles",
+      "price": 5.41,
+      "reviews": 32,
+      "rating": 4.8,
+      "rank": 39,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "32 reviews, 4.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GYKL6JZ2",
+      "image_url": "https://m.media-amazon.com/images/I/71OxlIAFQrL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "men gift",
+      "festival_event": "国际男人节",
+      "festival_icon": "👨",
+      "festival_deadline": "2026-10-03",
+      "is_event": true,
+      "sources": [
+        "📅 国际男人节"
+      ]
+    },
+    {
+      "asin": "B0DG5SP61Z",
+      "name": "BULLDOG SKINCARE Original Ultimate Beard Care Kit for Men | Beard shampoo and conditioner, beard oil and beard balm, for",
+      "price": 18.33,
+      "reviews": 115,
+      "rating": 4.7,
+      "rank": 9,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "115 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DG5SP61Z",
+      "image_url": "https://m.media-amazon.com/images/I/71o89oKDttL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "beard kit",
+      "festival_event": "国际男人节",
+      "festival_icon": "👨",
+      "festival_deadline": "2026-10-03",
+      "is_event": true,
+      "sources": [
+        "📅 国际男人节"
+      ]
+    },
+    {
+      "asin": "B0F59DWF23",
+      "name": "Beard Growth Kit from Clean to Care - W/Beard Roller,Beard Conditioner,Beard Oil,Beard Balm,Beard Brush,Beard Wash,Beard",
+      "price": 17.49,
+      "reviews": 78,
+      "rating": 4.4,
+      "rank": 12,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "78 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0F59DWF23",
+      "image_url": "https://m.media-amazon.com/images/I/81oao1vZjAL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "beard kit",
+      "festival_event": "国际男人节",
+      "festival_icon": "👨",
+      "festival_deadline": "2026-10-03",
+      "is_event": true,
+      "sources": [
+        "📅 国际男人节"
+      ]
+    },
+    {
+      "asin": "B0CL9S167Z",
+      "name": "Beard Grooming Kit For Men, Stocking Fillers For Men With Beard Shampoo,Beard Growth Oil,Balm, Valentine Gifts For Men, ",
+      "price": 7.49,
+      "reviews": 96,
+      "rating": 4.2,
+      "rank": 14,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "96 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CL9S167Z",
+      "image_url": "https://m.media-amazon.com/images/I/718zeOQFRYL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "beard kit",
+      "festival_event": "国际男人节",
+      "festival_icon": "👨",
+      "festival_deadline": "2026-10-03",
+      "is_event": true,
+      "sources": [
+        "📅 国际男人节"
+      ]
+    },
+    {
+      "asin": "B0FP5HR3K6",
+      "name": "Top Dad Organic Beard Care Kit for Men – Natural 9-Piece Grooming Set | Includes growth roller, brush, comb, scissors, r",
+      "price": 16.99,
+      "reviews": 0,
+      "rating": 4.6,
+      "rank": 15,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "0 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FP5HR3K6",
+      "image_url": "https://m.media-amazon.com/images/I/71C6DtePRBL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "beard kit",
+      "festival_event": "国际男人节",
+      "festival_icon": "👨",
+      "festival_deadline": "2026-10-03",
+      "is_event": true,
+      "sources": [
+        "📅 国际男人节"
+      ]
+    },
+    {
+      "asin": "B0FS1FPRVL",
+      "name": "Oukzon Beard Grooming Kit for Men, 11 in 1 Beard Care Set w/Beard Wash & Conditioner 60ML, 3 Beard Oil, Beard Balm, Bear",
+      "price": 16.66,
+      "reviews": 127,
+      "rating": 4.6,
+      "rank": 18,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "127 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FS1FPRVL",
+      "image_url": "https://m.media-amazon.com/images/I/91m9qm1HdCL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "beard kit",
+      "festival_event": "国际男人节",
+      "festival_icon": "👨",
+      "festival_deadline": "2026-10-03",
+      "is_event": true,
+      "sources": [
+        "📅 国际男人节"
+      ]
+    },
+    {
+      "asin": "B0DKJQ38YX",
+      "name": "Men's Beard Grooming Kit with Shampoo, Oil, Balm - Complete Beard Care Set for Growth, Moisturizing, Styling - Valentine",
+      "price": 8.24,
+      "reviews": 50,
+      "rating": 4.5,
+      "rank": 22,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "50 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DKJQ38YX",
+      "image_url": "https://m.media-amazon.com/images/I/71hjj+jibzL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "beard kit",
+      "festival_event": "国际男人节",
+      "festival_icon": "👨",
+      "festival_deadline": "2026-10-03",
+      "is_event": true,
+      "sources": [
+        "📅 国际男人节"
+      ]
+    },
+    {
+      "asin": "B0FB97JLJ9",
+      "name": "Beard Growth Kit, Beard Growth Serum with Roller, Beard Grooming Kit for Men, Beard Growth Oil for Thicker-Looking, Soft",
+      "price": 7.31,
+      "reviews": 37,
+      "rating": 3.6,
+      "rank": 28,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "37 reviews, 3.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FB97JLJ9",
+      "image_url": "https://m.media-amazon.com/images/I/71O5XlhuOWL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "beard kit",
+      "festival_event": "国际男人节",
+      "festival_icon": "👨",
+      "festival_deadline": "2026-10-03",
+      "is_event": true,
+      "sources": [
+        "📅 国际男人节"
+      ]
+    },
+    {
+      "asin": "B0CRSM5V24",
+      "name": "Beard Growth Kit With Derma Roller & Natural Ingredients Serum - Rapid Growth & Thickening - Grooming Kit For Men - Gift",
+      "price": 7.99,
+      "reviews": 165,
+      "rating": 3.7,
+      "rank": 29,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "165 reviews, 3.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CRSM5V24",
+      "image_url": "https://m.media-amazon.com/images/I/61zbBFcjwJL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "beard kit",
+      "festival_event": "国际男人节",
+      "festival_icon": "👨",
+      "festival_deadline": "2026-10-03",
+      "is_event": true,
+      "sources": [
+        "📅 国际男人节"
+      ]
+    },
+    {
+      "asin": "B0DH23NNLP",
+      "name": "Beard Growth Kit With Oil and Derma Roller - Care Kit for Men's Rapid Growth and Thickening - Gifts for Men, Dad, Father",
+      "price": 6.99,
+      "reviews": 24,
+      "rating": 3.7,
+      "rank": 34,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "24 reviews, 3.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DH23NNLP",
+      "image_url": "https://m.media-amazon.com/images/I/71uhbAU6v3L._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "beard kit",
+      "festival_event": "国际男人节",
+      "festival_icon": "👨",
+      "festival_deadline": "2026-10-03",
+      "is_event": true,
+      "sources": [
+        "📅 国际男人节"
+      ]
+    },
+    {
+      "asin": "B07H856GYB",
+      "name": "Proraso Refreshing Beard Care Kit for Men (Trio Pack) | Luxurious Beard Care Gift Set With Beard Wash, Beard Oil and Bea",
+      "price": 22.34,
+      "reviews": 191,
+      "rating": 4.6,
+      "rank": 37,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "191 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B07H856GYB",
+      "image_url": "https://m.media-amazon.com/images/I/71hBKGsudFL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "beard kit",
+      "festival_event": "国际男人节",
+      "festival_icon": "👨",
+      "festival_deadline": "2026-10-03",
+      "is_event": true,
+      "sources": [
+        "📅 国际男人节"
+      ]
+    },
+    {
+      "asin": "B0FL7BHB48",
+      "name": "DUAIU Beard Brush & Beard Comb Set for Men Boar Bristles Beard Brush and Dual Action Wood Moustache Comb with Straight S",
+      "price": 7.59,
+      "reviews": 23,
+      "rating": 4.4,
+      "rank": 38,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "23 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FL7BHB48",
+      "image_url": "https://m.media-amazon.com/images/I/71LzpS5-z4L._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "beard kit",
+      "festival_event": "国际男人节",
+      "festival_icon": "👨",
+      "festival_deadline": "2026-10-03",
+      "is_event": true,
+      "sources": [
+        "📅 国际男人节"
+      ]
+    },
+    {
+      "asin": "B0H73N7P56",
+      "name": "Hair Clippers Men,18 in 1 Professional Beard Trimmer Men & Electric Razor,Accessories Mens‑Electric‑Shaver <60 dB Quiet,",
+      "price": 33.32,
+      "reviews": 16,
+      "rating": 4.9,
+      "rank": 41,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "16 reviews, 4.9★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H73N7P56",
+      "image_url": "https://m.media-amazon.com/images/I/71UMNtdSX9L._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "beard kit",
+      "festival_event": "国际男人节",
+      "festival_icon": "👨",
+      "festival_deadline": "2026-10-03",
+      "is_event": true,
+      "sources": [
+        "📅 国际男人节"
+      ]
+    },
+    {
+      "asin": "B0FHJQM599",
+      "name": "Solati Beard Trimmer Hair Clippers Men Grooming Kit, Waterproof Cordless Razor Shaver & T-Blade Body Trimmer Set, Gifts ",
+      "price": 29.99,
+      "reviews": 90,
+      "rating": 4.8,
+      "rank": 42,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "90 reviews, 4.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FHJQM599",
+      "image_url": "https://m.media-amazon.com/images/I/81ck6LADo5L._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "beard kit",
+      "festival_event": "国际男人节",
+      "festival_icon": "👨",
+      "festival_deadline": "2026-10-03",
+      "is_event": true,
+      "sources": [
+        "📅 国际男人节"
+      ]
+    },
+    {
+      "asin": "B0FYYNNRN5",
+      "name": "Beard & Mustache Grooming Kit for Men featuring a Beard Brush, 90% Boar bristles10% Synthetic bristles, Beard Comb, Must",
+      "price": 6.99,
+      "reviews": 0,
+      "rating": 4.0,
+      "rank": 43,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "0 reviews, 4.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FYYNNRN5",
+      "image_url": "https://m.media-amazon.com/images/I/81w8kj7wxdL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "beard kit",
+      "festival_event": "国际男人节",
+      "festival_icon": "👨",
+      "festival_deadline": "2026-10-03",
+      "is_event": true,
+      "sources": [
+        "📅 国际男人节"
+      ]
+    },
+    {
+      "asin": "B08F7JG9FC",
+      "name": "Braun 8-in-1 All-in-One Beard Trimmer & Hair Clipper for Men, Series 3 Grooming Kit with Ultra Sharp Blade, 14 Length Se",
+      "price": 20.82,
+      "reviews": 182,
+      "rating": 3.8,
+      "rank": 48,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "182 reviews, 3.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B08F7JG9FC",
+      "image_url": "https://m.media-amazon.com/images/I/714HpqhtWWL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "beard kit",
+      "festival_event": "国际男人节",
+      "festival_icon": "👨",
+      "festival_deadline": "2026-10-03",
+      "is_event": true,
+      "sources": [
+        "📅 国际男人节"
+      ]
+    },
+    {
+      "asin": "B0DCVVQSCG",
+      "name": "CONLEKE 171Pcs Christmas Balloons Garland Arch kit with Holiday Red Green Gold Candy Gift Box Explosion Star Foil Balloo",
+      "price": 8.32,
+      "reviews": 16,
+      "rating": 4.6,
+      "rank": 3,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "16 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DCVVQSCG",
+      "image_url": "https://m.media-amazon.com/images/I/81sFost0bUL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas balloon arch garland kit red green gold",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0DD47WTGJ",
+      "name": "Christmas Balloon Arch Garland Kit, 141Pcs Red and Green White Xmas Balloon with Candy Cane Gold Explosion Star Foil Bal",
+      "price": 8.32,
+      "reviews": 170,
+      "rating": 4.2,
+      "rank": 4,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "170 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DD47WTGJ",
+      "image_url": "https://m.media-amazon.com/images/I/81CsUt50yoL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas balloon arch garland kit red green gold",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FMDDMWYX",
+      "name": "Nutcracker Christmas Balloon Arch Garland Kit, Metallic Dark Green Burgundy Gold Xmas Balloons with Spikes & christmas B",
+      "price": 5.82,
+      "reviews": 170,
+      "rating": 4.2,
+      "rank": 5,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "170 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FMDDMWYX",
+      "image_url": "https://m.media-amazon.com/images/I/819im7UJXNL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas balloon arch garland kit red green gold",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FJ91J5NP",
+      "name": "eBoutik - Large Christmas Balloon Garland Arch Kit, Red Gold White Green, Candy Cane Gift Box Light Bulb Foil Balloons, ",
+      "price": 8.32,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 6,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FJ91J5NP",
+      "image_url": "https://m.media-amazon.com/images/I/71MmkAuo3yL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas balloon arch garland kit red green gold",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FM3NCLNH",
+      "name": "112Pcs Christmas Balloon Garland Arch Kit, Burgundy Red Dusty Sage Green White Gold Balloons with Xmas Foil Hanging Ball",
+      "price": 8.32,
+      "reviews": 63,
+      "rating": 4.0,
+      "rank": 7,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "63 reviews, 4.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FM3NCLNH",
+      "image_url": "https://m.media-amazon.com/images/I/819qv7xAxIL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas balloon arch garland kit red green gold",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FM1VB2W4",
+      "name": "Christmas Balloon Garland Arch Kit, 111PCS Red Green Gold White Balloons with Lollipop Candy Cane Mylar Foil Balloon Arc",
+      "price": 9.99,
+      "reviews": 81,
+      "rating": 4.4,
+      "rank": 9,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "81 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FM1VB2W4",
+      "image_url": "https://m.media-amazon.com/images/I/81YyvoMWdGL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas balloon arch garland kit red green gold",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0DBLT4M6J",
+      "name": "139PCS Christmas Balloon Garland Kit, Red Dark Green White and Metallic Gold Xmas Balloon Arch Set with Candy Cane Gift ",
+      "price": 10.82,
+      "reviews": 63,
+      "rating": 4.0,
+      "rank": 11,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "63 reviews, 4.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DBLT4M6J",
+      "image_url": "https://m.media-amazon.com/images/I/81R3uibVJ9L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas balloon arch garland kit red green gold",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FNQZG29W",
+      "name": "Christmas Balloon Arch Garland Kit, Dusty Pastel Green Metallic Gold White Sand Ruby Red Long Latex Balloons with Large ",
+      "price": 9.99,
+      "reviews": 33,
+      "rating": 4.4,
+      "rank": 12,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "33 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FNQZG29W",
+      "image_url": "https://m.media-amazon.com/images/I/81AHua4RPEL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas balloon arch garland kit red green gold",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0DCVKYWWT",
+      "name": "Christmas Balloon Arch Garland Kit, 140Pcs Red Green Metallic Gold White Latex Balloons with Red Candy Light Green Star ",
+      "price": 12.91,
+      "reviews": 106,
+      "rating": 4.3,
+      "rank": 13,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "106 reviews, 4.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DCVKYWWT",
+      "image_url": "https://m.media-amazon.com/images/I/81CIm+6yYrL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas balloon arch garland kit red green gold",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0DBLSX34Q",
+      "name": "142PCS Christmas Balloon Arch Kit, Red Sage Green Beige Cream White and Metallic Gold Xmas Balloon Garland Set with Cand",
+      "price": 9.99,
+      "reviews": 63,
+      "rating": 4.0,
+      "rank": 14,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "63 reviews, 4.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DBLSX34Q",
+      "image_url": "https://m.media-amazon.com/images/I/81PVhd7ce0L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas balloon arch garland kit red green gold",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FNQPM64L",
+      "name": "Christmas Balloons Arch Garland Kit, 148Pcs Christmas Decorations Red Green and Metallic Gold Latex Balloons, Xmas Candy",
+      "price": 15.99,
+      "reviews": 14,
+      "rating": 4.7,
+      "rank": 15,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "14 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FNQPM64L",
+      "image_url": "https://m.media-amazon.com/images/I/61tF-XMX+yL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas balloon arch garland kit red green gold",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B08FR53VN8",
+      "name": "KAHEIGN 50Pcs Christmas Balloon Decoration Kit, Merry Christmas Banner, 10Pcs Santa Claus Snowman Foil Balloon, 26Pcs Gr",
+      "price": 6.66,
+      "reviews": 180,
+      "rating": 4.3,
+      "rank": 17,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "180 reviews, 4.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B08FR53VN8",
+      "image_url": "https://m.media-amazon.com/images/I/61FqvcmgnHL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas balloon arch garland kit red green gold",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0B9B1M9JH",
+      "name": "15Pcs Christmas Party Balloons,12 inch Christmas Latex Balloons Xmas Santa Snowman ChritmasTree Arts & Crafts Balloon fo",
+      "price": 4.16,
+      "reviews": 35,
+      "rating": 4.7,
+      "rank": 18,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "35 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0B9B1M9JH",
+      "image_url": "https://m.media-amazon.com/images/I/61ioIk5nqpL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas balloon arch garland kit red green gold",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0G1XWWZD5",
+      "name": "231Pcs Red and Gold Balloon Arch Kit with Foil Star Balloons, Birthday, New Years Eve Party Decorations, Confetti Latex ",
+      "price": 7.64,
+      "reviews": 127,
+      "rating": 4.4,
+      "rank": 20,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "127 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0G1XWWZD5",
+      "image_url": "https://m.media-amazon.com/images/I/71VcvRJcZqL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas balloon arch garland kit red green gold",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FQT3PX2S",
+      "name": "Red Black Gold Balloon Arch Kit, Confetti Balloons, 103Pcs 18/12/10/5 Inch | Different Sizes Balloon Garland, Latex Ball",
+      "price": 7.99,
+      "reviews": 91,
+      "rating": 4.4,
+      "rank": 21,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "91 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FQT3PX2S",
+      "image_url": "https://m.media-amazon.com/images/I/714jabF57hL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas balloon arch garland kit red green gold",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FYP1BDSJ",
+      "name": "30 PCS Christmas Balloons, Balloon Arch Kit for Holiday Decorations, Red and Green Xmas Balloons, Festive Balloon Arch f",
+      "price": 6.19,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 22,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FYP1BDSJ",
+      "image_url": "https://m.media-amazon.com/images/I/713ZJKX5EIL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas balloon arch garland kit red green gold",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0DDC7XLXM",
+      "name": "Christmas Balloon Garland Kit, 125 Pack Red Green Gold Deer Arch Kit With Candy Canes, Big Deer Foil Balloons for Merry ",
+      "price": 14.99,
+      "reviews": 0,
+      "rating": 4.5,
+      "rank": 23,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DDC7XLXM",
+      "image_url": "https://m.media-amazon.com/images/I/81yHQ-xoMtL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas balloon arch garland kit red green gold",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0HHZFX77S",
+      "name": "Christmas Balloon Arch Kit 165PCS Red Green Gold Christmas Decorations | Red, Green, Gold & White Balloons with Candy Ca",
+      "price": 21.49,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 24,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HHZFX77S",
+      "image_url": "https://m.media-amazon.com/images/I/711SkKSSe8L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas balloon arch garland kit red green gold",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FN89STST",
+      "name": "Froova Christmas Balloon Arch Garland Kit 107Pcs Green Red Gold Balloons Christmas Decorations Red Green Striped Explosi",
+      "price": 12.49,
+      "reviews": 17,
+      "rating": 4.2,
+      "rank": 27,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "17 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FN89STST",
+      "image_url": "https://m.media-amazon.com/images/I/81XnkU0ZFwL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas balloon arch garland kit red green gold",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0C9Q6QZ7N",
+      "name": "Red Balloon Arch Kit - 117 Pcs Red White Balloon Garland Latex Champagne Gold Confetti for Men Women Birthday Baby Showe",
+      "price": 7.49,
+      "reviews": 198,
+      "rating": 4.5,
+      "rank": 33,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "198 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0C9Q6QZ7N",
+      "image_url": "https://m.media-amazon.com/images/I/81AkmDIvcTL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas balloon arch garland kit red green gold",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0GYDFDQJB",
+      "name": "Burgundy Balloon Arch Kit, 115pcs Wine Red and Gold Balloon Garland with Maroon Balloons Cream Claret Balloons for Burgu",
+      "price": 6.49,
+      "reviews": 135,
+      "rating": 4.3,
+      "rank": 37,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "135 reviews, 4.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GYDFDQJB",
+      "image_url": "https://m.media-amazon.com/images/I/81xfWlrcRFL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas balloon arch garland kit red green gold",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0DBV33SFF",
+      "name": "Christmas Balloons Arch - Red, Green, Gold Foil Balloons - Xmas Party Decorations - Santa, Reindeer, Star, Candy - Metal",
+      "price": 11.66,
+      "reviews": 22,
+      "rating": 4.7,
+      "rank": 38,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "22 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DBV33SFF",
+      "image_url": "https://m.media-amazon.com/images/I/81hCdKEfpRL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas balloon arch garland kit red green gold",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0CDXKK28H",
+      "name": "Christmas Balloon Arch Garland kit for Girls, Dark Sage Green Pink Red Gold Snowflake Xmas Balloon Arch with Red Pink Ca",
+      "price": 9.99,
+      "reviews": 70,
+      "rating": 4.5,
+      "rank": 40,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "70 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CDXKK28H",
+      "image_url": "https://m.media-amazon.com/images/I/813UFp-fxrL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas balloon arch garland kit red green gold",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FM2CDJD5",
+      "name": "Red and Green Christmas Balloons Kit, Dark Red Green Metallic Gold Confetti Balloon with Christmas Explosion Star Helium",
+      "price": 8.32,
+      "reviews": 24,
+      "rating": 3.8,
+      "rank": 41,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "24 reviews, 3.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FM2CDJD5",
+      "image_url": "https://m.media-amazon.com/images/I/81W-WEZTcoL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas balloon arch garland kit red green gold",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0CVTZ1P2P",
+      "name": "Gold And White Balloon Arch Kit Red Balloons Confetti Balloons for Men, Boy Birthday Party, Wedding, Anniversary, Retire",
+      "price": 4.57,
+      "reviews": 22,
+      "rating": 3.5,
+      "rank": 44,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "22 reviews, 3.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CVTZ1P2P",
+      "image_url": "https://m.media-amazon.com/images/I/61OQyGHp6QL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas balloon arch garland kit red green gold",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FMX37GN4",
+      "name": "Christmas Balloon Arch Garland Kit, Red Pink Green Xmas Holiday Party Decor | Pastel Pink Green Red Silver Latex Balloon",
+      "price": 10.82,
+      "reviews": 106,
+      "rating": 4.3,
+      "rank": 47,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "106 reviews, 4.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FMX37GN4",
+      "image_url": "https://m.media-amazon.com/images/I/81kmEEH4rnL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas balloon arch garland kit red green gold",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FMJT6PRZ",
+      "name": "Red Green Christmas Balloon Arch Garland Kit, Santa Christmas Tree Gingerbread Candy Cane Peppermint Foil Balloons Red W",
+      "price": 9.99,
+      "reviews": 1,
+      "rating": 4.7,
+      "rank": 48,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "1 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FMJT6PRZ",
+      "image_url": "https://m.media-amazon.com/images/I/91KidvaRFgL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas balloon arch garland kit red green gold",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H838GBR1",
+      "name": "Autumn Decorations 2 Pack Artificial Maple Leaf Garland, 5.9ft Autumn Garland for Home, Fireplace, Mantel, Staircase & D",
+      "price": 6.66,
+      "reviews": 0,
+      "rating": 5.0,
+      "rank": 1,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 5.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H838GBR1",
+      "image_url": "https://m.media-amazon.com/images/I/810l0M9Gn1L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "autumn maple leaf garland mantel decor 2 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0D86C9HDH",
+      "name": "2 Pack 5.9ft/1.8m Artificial Autumn Maple Leaf Garlands - Autumn Decorations Fall Leaves Decorations with Hooks, Autumn ",
+      "price": 5.41,
+      "reviews": 49,
+      "rating": 4.3,
+      "rank": 4,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "49 reviews, 4.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0D86C9HDH",
+      "image_url": "https://m.media-amazon.com/images/I/71w1mzzhWLL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "autumn maple leaf garland mantel decor 2 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H4GDXWGY",
+      "name": "Autumn Decorations, 2-Pack 200cm Maple Leaf Garland | Artificial Fall Leaf Garland, Indoor Outdoor Use, Multi-Colour Des",
+      "price": 6.07,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 5,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H4GDXWGY",
+      "image_url": "https://m.media-amazon.com/images/I/81SDzOOdF2L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "autumn maple leaf garland mantel decor 2 pack",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B09C63V1L7",
+      "name": "KASZOO 2 Pack Autumn Maple Leaf Garland - 5.8 Ft Maple Leaf Autumn Garland Decorations for Thanksgiving, Halloween, Chri",
+      "price": 8.99,
+      "reviews": 146,
+      "rating": 4.4,
+      "rank": 6,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "146 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B09C63V1L7",
+      "image_url": "https://m.media-amazon.com/images/I/71Lv7jkI8TL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "autumn maple leaf garland mantel decor 2 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H94ZTFZW",
+      "name": "Neutral Autumn Decorations 2Pack Artificial Autumn Maple Leaves Garland for Fireplace Mantel Staircase and Table Autumn ",
+      "price": 10.82,
+      "reviews": 0,
+      "rating": 1.4,
+      "rank": 7,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 1.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H94ZTFZW",
+      "image_url": "https://m.media-amazon.com/images/I/81P71JYcygL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "autumn maple leaf garland mantel decor 2 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H53LZ3WW",
+      "name": "2 Autumn Garland with LED Lights,6.5Ft Fall Leaf Garlands,Autumn Decoration | Maple Leaf Garlands,Artificial Maple Leave",
+      "price": 6.24,
+      "reviews": 0,
+      "rating": 4.4,
+      "rank": 8,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H53LZ3WW",
+      "image_url": "https://m.media-amazon.com/images/I/81C8+mVTMML._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "autumn maple leaf garland mantel decor 2 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H7J7T6R4",
+      "name": "2 Pack Autumn Garland,Autumn Decorations,Artificial Autumn Maple Leaves Fall Leaf Garland With Hooks Halloween Thanksgiv",
+      "price": 5.49,
+      "reviews": 0,
+      "rating": 5.0,
+      "rank": 9,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 5.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H7J7T6R4",
+      "image_url": "https://m.media-amazon.com/images/I/71B+VVnw-gL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "autumn maple leaf garland mantel decor 2 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0D72LYVJ8",
+      "name": "XIANNVXI 2 Pack Autumn Garland 79\",Artificial Fall Autumn Leaves Garland | Realistic Fake Faux Reddish Yellow Garland Ra",
+      "price": 6.24,
+      "reviews": 35,
+      "rating": 4.1,
+      "rank": 10,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "35 reviews, 4.1★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0D72LYVJ8",
+      "image_url": "https://m.media-amazon.com/images/I/81ILYlnVhEL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "autumn maple leaf garland mantel decor 2 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H9DGKG6Q",
+      "name": "2 Pack Artificial Maple Leaf Garland, Fake Autumn Leaves Vine, Fall Hanging Garland for Home Garden Wedding Party Decora",
+      "price": 4.32,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 11,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H9DGKG6Q",
+      "image_url": "https://m.media-amazon.com/images/I/71lASUFk90L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "autumn maple leaf garland mantel decor 2 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H8YMLLRR",
+      "name": "Autumn Decorations 2Pack Autumn Maple Leaves Garland Artificial Maple Autumn Leaves Thanksgiving Halloween Fall Home Har",
+      "price": 11.66,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 12,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H8YMLLRR",
+      "image_url": "https://m.media-amazon.com/images/I/81StuQiUwML._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "autumn maple leaf garland mantel decor 2 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0BC3HJNLK",
+      "name": "2 Pack 5.9ft/1.8m Artificial Autumn Maple Leaf Garlands - Autumn Decorations Fall Leaves Decorations with Hooks, Autumn ",
+      "price": 4.99,
+      "reviews": 55,
+      "rating": 4.3,
+      "rank": 13,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "55 reviews, 4.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0BC3HJNLK",
+      "image_url": "https://m.media-amazon.com/images/I/71q4dgZjuPL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "autumn maple leaf garland mantel decor 2 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0F9WHCXMX",
+      "name": "CQURE 2 Pack Fall Leaf Garland with Lights,Fall Decor Halloween String Lights Artificial Maple Leaves Autumn Garland Han",
+      "price": 14.16,
+      "reviews": 64,
+      "rating": 3.7,
+      "rank": 15,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "64 reviews, 3.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0F9WHCXMX",
+      "image_url": "https://m.media-amazon.com/images/I/81vQNyBnNyL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "autumn maple leaf garland mantel decor 2 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FC6KJ9LF",
+      "name": "2 Pack Autumn Garland,Artificial Leaves Maple Leaf Fall for Home Decoration | Garlands Hanging Plant with Hooks for Indo",
+      "price": 5.82,
+      "reviews": 13,
+      "rating": 3.8,
+      "rank": 16,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "13 reviews, 3.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FC6KJ9LF",
+      "image_url": "https://m.media-amazon.com/images/I/81mBvAw7aYL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "autumn maple leaf garland mantel decor 2 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0CJ54WTM6",
+      "name": "SOQKEEN 2 Pack Artificial Autumn Maple Leaf Garland 5.7 Ft Fall Decor | Easy to Hang with 4 Hooks, Create a Cosy Autumn ",
+      "price": 7.49,
+      "reviews": 30,
+      "rating": 4.6,
+      "rank": 18,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "30 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CJ54WTM6",
+      "image_url": "https://m.media-amazon.com/images/I/813lrWNtAyL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "autumn maple leaf garland mantel decor 2 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H4ZRP538",
+      "name": "Yaopelky Artificial Fall Maple Leaf Garland, 2 Pack 1.75 m Each, Autumn Leaves Vine for Thanksgiving, Fireplace, Table, ",
+      "price": 8.32,
+      "reviews": 0,
+      "rating": 4.4,
+      "rank": 19,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H4ZRP538",
+      "image_url": "https://m.media-amazon.com/images/I/81iCR4X6FlL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "autumn maple leaf garland mantel decor 2 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H1FSYX7V",
+      "name": "2 Pack 5.9Ft Artificial Autumn Maple Leaf Garland, Fall Leaves Hanging Vine | Realistic Foliage, Halloween Decor – for F",
+      "price": 9.99,
+      "reviews": 23,
+      "rating": 4.7,
+      "rank": 20,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "23 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H1FSYX7V",
+      "image_url": "https://m.media-amazon.com/images/I/71ReumqW5uL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "autumn maple leaf garland mantel decor 2 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FBWPBT2F",
+      "name": "Fall Garland Maple Leaf, Autumn Maple Leaf Garland, Artificial Autumn Leaves Wreath, Thanksgiving Fall Garlands Decor fo",
+      "price": 4.57,
+      "reviews": 16,
+      "rating": 3.8,
+      "rank": 21,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "16 reviews, 3.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FBWPBT2F",
+      "image_url": "https://m.media-amazon.com/images/I/71qN-yx+pxL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "autumn maple leaf garland mantel decor 2 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H6S72CNH",
+      "name": "2 Pack Artificial Autumn Fall Maple Leaf Garland, 5.9Ft/Piece Hanging Foliage Strand with Hooks, Faux Vine for Thanksgiv",
+      "price": 5.82,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 22,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H6S72CNH",
+      "image_url": "https://m.media-amazon.com/images/I/81T8hGaYueL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "autumn maple leaf garland mantel decor 2 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H49GM22J",
+      "name": "Autumn Leaves Garland, 2 Pack Fall Decor Artificial Maple Leaf Vines | Fall Decorations for Indoor and Outdoor, Seasonal",
+      "price": 6.07,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 24,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H49GM22J",
+      "image_url": "https://m.media-amazon.com/images/I/814KcyQS0QL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "autumn maple leaf garland mantel decor 2 pack",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B0H6DC8VDG",
+      "name": "2 Pack Autumn Garland, 175 cm Each, Artificial Maple Leaves for Home Decor | Flexible leaf garlands for autumn table dec",
+      "price": 10.99,
+      "reviews": 0,
+      "rating": 5.0,
+      "rank": 25,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 5.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H6DC8VDG",
+      "image_url": "https://m.media-amazon.com/images/I/812Wci4vzJL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "autumn maple leaf garland mantel decor 2 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H4W411BC",
+      "name": "2 Pcs Autumn Maple Leaf Garland, 5.8 Ft Hanging Artificial Autumn Fall Maple Leaf Garland, Autumnal Decorations for Home",
+      "price": 5.99,
+      "reviews": 0,
+      "rating": 2.6,
+      "rank": 27,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 2.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H4W411BC",
+      "image_url": "https://m.media-amazon.com/images/I/81D6xG84t4L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "autumn maple leaf garland mantel decor 2 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H4QRBGN6",
+      "name": "Leaf Garland, Halloween Decorations, 2 Pack 4-Color Fall Leaves Garland | Artificial Autumn Maple Leaves Garland Hanging",
+      "price": 6.24,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 28,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H4QRBGN6",
+      "image_url": "https://m.media-amazon.com/images/I/810s71Cxs1L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "autumn maple leaf garland mantel decor 2 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H6BSVW2F",
+      "name": "2 Pack Artificial Autumn Fall Maple Leaf Garland, Autumn Leaves Garland | Halloween, Christmas, Thanksgiving, autumn hom",
+      "price": 5.49,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 30,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H6BSVW2F",
+      "image_url": "https://m.media-amazon.com/images/I/81wMXSfbc5L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "autumn maple leaf garland mantel decor 2 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FBW4FSRH",
+      "name": "1PCS Artificial Autumn Fall Maple Leaf Garland, Fall Leaf Garland Hanging Plant, Fake Plants Autumn Decorations, Thanksg",
+      "price": 5.82,
+      "reviews": 19,
+      "rating": 3.7,
+      "rank": 31,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "19 reviews, 3.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FBW4FSRH",
+      "image_url": "https://m.media-amazon.com/images/I/71z1fHThy-L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "autumn maple leaf garland mantel decor 2 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0CJNTPVHH",
+      "name": "TENQUAN 2 Pack Artificial Autumn Maple Leaves, 5.7 FT Autumn Garland Decor | 175cm/Piece Realistic Maple Leaves Garland,",
+      "price": 8.32,
+      "reviews": 31,
+      "rating": 3.9,
+      "rank": 32,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "31 reviews, 3.9★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CJNTPVHH",
+      "image_url": "https://m.media-amazon.com/images/I/81+pWvXRYlL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "autumn maple leaf garland mantel decor 2 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0D9N7XG2B",
+      "name": "12 Pack Autumn Fall Leaf Garland, Autumn Decorations, Artificial Leaves, Hanging Fall Vines Maple Garland for Home Garde",
+      "price": 5.24,
+      "reviews": 21,
+      "rating": 4.8,
+      "rank": 33,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "21 reviews, 4.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0D9N7XG2B",
+      "image_url": "https://m.media-amazon.com/images/I/716Mv0cRzYL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "autumn maple leaf garland mantel decor 2 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H5DNVT35",
+      "name": "12 Pack Autumn Fall Leaf Garland, 84ft Hanging Fall Vines Maple Garland | Autumn Decorations Artificial Leaves Garland f",
+      "price": 6.66,
+      "reviews": 0,
+      "rating": 4.5,
+      "rank": 34,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H5DNVT35",
+      "image_url": "https://m.media-amazon.com/images/I/81UHUcNRGoL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "autumn maple leaf garland mantel decor 2 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FBKTJJVP",
+      "name": "Autumn Decorations Felt Garland Banner-5 Kinds of Textured Maple Leaf Bunting for Fall Harvest Decor,Thanksgiving Home D",
+      "price": 4.57,
+      "reviews": 0,
+      "rating": 5.0,
+      "rank": 35,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 5.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FBKTJJVP",
+      "image_url": "https://m.media-amazon.com/images/I/61a1I1izetL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "autumn maple leaf garland mantel decor 2 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FF3P9XZF",
+      "name": "Autumn Maple Leaf Garland - 1 Pack 5.8 Ft Maple Leaf Autumn Garland Decorations for Autumn Decorations Home Fall Decor H",
+      "price": 4.99,
+      "reviews": 21,
+      "rating": 3.9,
+      "rank": 36,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "21 reviews, 3.9★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FF3P9XZF",
+      "image_url": "https://m.media-amazon.com/images/I/81IxRUbNF7L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "autumn maple leaf garland mantel decor 2 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H4R83247",
+      "name": "2PCS Artificial Autumn Garland, Fall Garland, Maple Leaf Vine, Autumn Decor | Artificial Autumn Leaves Garland, 52 Leave",
+      "price": 10.99,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 37,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H4R83247",
+      "image_url": "https://m.media-amazon.com/images/I/713g86vPG7L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "autumn maple leaf garland mantel decor 2 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H8YX91PD",
+      "name": "Autumn Decorations 1Pack Autumn Maple Leaves Garland+ Artificial Maple Autumn Leaves Pumpkins Pine Cones Gourds Small Ac",
+      "price": 11.66,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 38,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H8YX91PD",
+      "image_url": "https://m.media-amazon.com/images/I/81qfIPLVShL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "autumn maple leaf garland mantel decor 2 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0D7QJGSRG",
+      "name": "1 Pcs Artificial Autumn Fall Maple Leaf Garland - Maple Leaf Fall Leaves Hanging Vine Foliage Garland Decorations for Th",
+      "price": 4.66,
+      "reviews": 45,
+      "rating": 4.2,
+      "rank": 39,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "45 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0D7QJGSRG",
+      "image_url": "https://m.media-amazon.com/images/I/71cYcM6AdwL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "autumn maple leaf garland mantel decor 2 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B09GDSRB7Z",
+      "name": "SOMYTING 2 Pack 5.9Ft Artificial Autumn Maple Leaf Garland Autumn Decor | Fall Leaves Fake Hanging Vine Fall Decor Autum",
+      "price": 6.66,
+      "reviews": 28,
+      "rating": 4.0,
+      "rank": 40,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "28 reviews, 4.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B09GDSRB7Z",
+      "image_url": "https://m.media-amazon.com/images/I/81nEpOIPYCL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "autumn maple leaf garland mantel decor 2 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H3F29ZR5",
+      "name": "Goviraye 180cm Autumn Maple Leaf Garland for Fireplace, Artificial Harvest Garland with Pumpkins, Pine Cones & Berries, ",
+      "price": 15.82,
+      "reviews": 0,
+      "rating": 5.0,
+      "rank": 41,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 5.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H3F29ZR5",
+      "image_url": "https://m.media-amazon.com/images/I/81D3chXnR0L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "autumn maple leaf garland mantel decor 2 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H5QP8NJ4",
+      "name": "Autumn Garland (2 Pack, 175cm): Autumn Decorations With Adhesive Hooks | Silk Autumn Leaves Garland, Autumn Wreath. Perf",
+      "price": 7.99,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 42,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H5QP8NJ4",
+      "image_url": "https://m.media-amazon.com/images/I/71tz6AaWz2L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "autumn maple leaf garland mantel decor 2 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H33NB2LH",
+      "name": "CQURE 12 Pack Fall Garland, Total 95Ft Artificial Autumn Maple Leaves Garland Hanging Vines, Thanksgiving Halloween Harv",
+      "price": 18.32,
+      "reviews": 17,
+      "rating": 4.7,
+      "rank": 43,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "17 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H33NB2LH",
+      "image_url": "https://m.media-amazon.com/images/I/919u3p4UzhL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "autumn maple leaf garland mantel decor 2 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H8NV25FQ",
+      "name": "Autumn Lights, Autumn Decorations Home, Fall Decorations Halloween Garland | LED Maple Leaves Lights, 3M20 Fall Maple Le",
+      "price": 4.16,
+      "reviews": 0,
+      "rating": 1.0,
+      "rank": 44,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 1.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H8NV25FQ",
+      "image_url": "https://m.media-amazon.com/images/I/71Zmm+dGu3L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "autumn maple leaf garland mantel decor 2 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0F7HMZTWP",
+      "name": "2 Pack Artificial Autumn Garland, 5.7ft Maple Leaf Garland Autumn Decorations Hanging Vine Fake Fall Leaves Decorations ",
+      "price": 5.82,
+      "reviews": 35,
+      "rating": 4.5,
+      "rank": 46,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "35 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0F7HMZTWP",
+      "image_url": "https://m.media-amazon.com/images/I/81vM1xN5jDL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "autumn maple leaf garland mantel decor 2 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0C9CPDBHD",
+      "name": "CQURE 4 Pack Artificial Autumn Fall Maple Leaf Garland, 5.9Ft/Piece Hanging Vine Artificial Autumn Foliage Garland Thank",
+      "price": 16.66,
+      "reviews": 97,
+      "rating": 4.3,
+      "rank": 47,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "97 reviews, 4.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0C9CPDBHD",
+      "image_url": "https://m.media-amazon.com/images/I/81KWJcR-KSL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "autumn maple leaf garland mantel decor 2 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FL2SBRXH",
+      "name": "2 Pack Artificial Autumn Maple Leaf Garlands, Fake Fall Leaves Decoration Hanging Vine Thanksgiving Decor, maple leaf ga",
+      "price": 7.49,
+      "reviews": 10,
+      "rating": 4.9,
+      "rank": 48,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "10 reviews, 4.9★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FL2SBRXH",
+      "image_url": "https://m.media-amazon.com/images/I/81dUR8b2zFL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "autumn maple leaf garland mantel decor 2 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    }
+  ]
+}
