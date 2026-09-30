@@ -1,0 +1,114 @@
+{
+  "date": "2026-09-30",
+  "updated_at": "2026-09-30T08:11:00+08:00",
+  "scan_date": "2026-09-30",
+  "scan_time": "08:11",
+  "summary": "今日4个机会全部为14天内未推品类（is_new=4, 复扫=0）：押注两条并行曲线——①Diwali 2026=11月8日（Dhanteras 11/6），UK排灯节供应链窗口正在打开，tealight烛台+兰戈利地贴双品类卡位，直接竞品稀少；②圣诞软装/宠物服饰进入备货深水区，抱枕套走£9.99四件套差异化、狗毛衣按保守佣金口径仍有44%毛利。全部非电子、无液体膏体、≤200g空运可达，符合硬约束。",
+  "insights": [
+    {
+      "keyword": "diwali tea light candle holders set",
+      "keyword_cn": "排灯节茶烛烛台套装",
+      "amazon_keyword": "diwali tea light candle holders set",
+      "search_1688": "排灯节烛台 diya 莲花 铁艺烛台 印度风格（1688/义乌购已有现成货源，义乌购排灯节烛台+灯串5.80-13.50/套，20套起批）",
+      "demand_signals": [
+        "Diwali 2026=11月8日（五天节庆11/6-11/10，Dhanteras 11/6有购置金属/新家居品的传统）——日期锚点来自 farmersalmanac.com + happydiwali.uk 倒计时",
+        "Mediareach UK品牌营销指南：Diwali拉动homeware数十亿级消费，Leicester Golden Mile、伦敦特拉法加广场3万人活动构成强曝光场景",
+        "供应链提示畅销款10月初即售罄、建议10月中前下单（kraftskala Diwali备货指南 2026-09-02更新）——正处于窗口起点",
+        "Amazon UK头部弱：MILISTEN莲花烛台4.3星但大排名57万+、类目内Tea Light Holders小排名#986，无品牌垄断（Amazon UK页面数据）"
+      ],
+      "trend_score": 78,
+      "trend_direction": "up",
+      "reason": "Diwali是UK最大印度裔节庆（Leicester为印度外最大庆祝地），2026年落在11/8给足4周备货期；烛台属Dhanteras'购置金属新物'传统的直接受益品类，且Amazon UK该细分头部review少、排名低，是典型的'节日确定+竞争空隙'组合。",
+      "action": "027店空运小批量测款：2件套定价£10.99；1688搜'排灯节烛台/diya莲花烛台'，采购含铁艺款≤20/套（≈£2.17）；总重压在400g内走FBA Small Standard；10/20前上架，利润窗截止11/6 Dhanteras。",
+      "competition": "低-中。头部MILISTEN 4.3星（review量低两位数）、Yicolife类4.4星新ASIN，无强品牌盘踞；风险是节后需求归零，必须控首批量。",
+      "signal_scores": {
+        "trend": 78,
+        "gap": 75,
+        "profit": 72,
+        "final": 75,
+        "recommendation": "Go",
+        "profit_window": "10月上旬上架 → 11月6日(Dhanteras)前为出量主窗口"
+      },
+      "profit_note": "£10.99 - 佣金8% £0.88 - FBA £2.90 - 采购£0.87 - 空运£2.10 - 包材£0.20 ≈ £4.04/套，毛利≈37%（若实际超Small Standard按£3.50 FBA计仍≈31%）"
+    },
+    {
+      "keyword": "christmas cushion covers 45x45 set of 4",
+      "keyword_cn": "圣诞抱枕套45x45四件套",
+      "amazon_keyword": "christmas cushion covers 45x45 set",
+      "search_1688": "圣诞抱枕套 45x45 麻布/涤麻 圣诞树麋鹿印花 隐形拉链 4件套",
+      "demand_signals": [
+        "Amazon UK品类已进入销售期：Artoid Mode/Lanpn/YCOLL等多品牌45x45圣诞款在售，价格£5.99-14.99，YCOLL pillow cases 4.5星2,710条评论——需求体量大（Amazon UK列表页 2026-09）",
+        "四件套£9.99是明确空档：现有4件套多在£7.99以下（低价£3.99款）或£11.99+，£9.99厚麻布4件套可卡中间位（Amazon UK比价）",
+        "圣诞软装是9月最后一周起爬坡的固定曲线，今年9月中头部品牌已上架铺开（listing上架节奏可见），10月为BSR固化关键期",
+        "cover only（无枕芯）形态天然轻：4件涤麻套≈350-400g，符合轻小件空运模型"
+      ],
+      "trend_score": 80,
+      "trend_direction": "up",
+      "reason": "圣诞纺织软装是UK装饰季第一批起量品类，头部YCOLL的2,710条评论证明品类容量，但£9.99档4件套供给稀疏——用'厚麻布+隐形拉链+4件套'打£3.99薄款和£12.99品牌款之间的空档，正好落在£5.99-12.99价格带。",
+      "action": "007店测款：4件套定价£9.99；1688搜'圣诞抱枕套45x45四件套'，采购≤20/套（≈£2.17）；包装≤32×22×6cm需真空压缩袋；10月第1周上架，11月中前完成BSR卡位。",
+      "competition": "中-高。头部YCOLL 4.5星/2,710reviews、Lanpn 4.6星/286reviews有品牌势能；但£3.99破价款质量差（无评论支撑），差异化点是厚克重麻布+4件套价。避免和£7.99两件套正面竞争。",
+      "signal_scores": {
+        "trend": 80,
+        "gap": 55,
+        "profit": 68,
+        "final": 68,
+        "recommendation": "Go（谨慎：红海品类靠差异化4件套卡位，首批量控制在60件内）",
+        "profit_window": "9月末-11月中（12月初后广告成本抬升）"
+      },
+      "profit_note": "£9.99 - 佣金8% £0.80 - FBA £1.95 - 采购£2.17(20) - 空运£1.85 - 包材£0.15 ≈ £3.07/套，毛利≈31%"
+    },
+    {
+      "keyword": "christmas dog jumper knitted reindeer",
+      "keyword_cn": "圣诞狗毛衣针织麋鹿款",
+      "amazon_keyword": "christmas dog jumper knitted reindeer",
+      "search_1688": "宠物狗圣诞毛衣 针织 宠物四脚衣 圣诞麋鹿 宠物服装",
+      "demand_signals": [
+        "UK宠物圣诞毛衣价格带健康：专业站giddypets 2026-09-22导购文列£7.99-15.99主价格带，fleece加绒款£7.99、reindeer套装£9.99-10.99——£9.99定价有充分市场锚点",
+        "功能升级款溢价明确：Fair Isle harness孔款卖£18.99（Amazon UK），说明'遛狗绳孔+弯曲下摆防尿'等细节能撑高客单",
+        "TJCHome等渠道已在清货尾款（£2.99清仓）说明正价季还在前段——10-11月才是出货主窗口（渠道价格观察 2026-09）",
+        "英国圣诞拍宠物照是固定文化场景，每年TikTok #dogsoftiktok圣诞内容必爆，UGC流量免费带需求"
+      ],
+      "trend_score": 76,
+      "trend_direction": "up",
+      "reason": "宠物圣诞服饰是UK圣诞季'情绪消费'确定性品类，且佣金差形成利润护城河：宠物类5%佣金（即便按实际15.45%宠物服饰费率保守计算）仍显著优于家居8%。S-M码小件≤200g完全符合空运模型，差评集中在尺码不准——用详细尺码表做差异化即可切入。",
+      "action": "007店测款：S-M两码×2色定价£9.99；1688搜'宠物圣诞毛衣针织'采购≤12/件（≈£1.30）；listing必须放胸围/背长尺码表（历史差评重灾区）；10月中上架，出货窗至12月第2周。",
+      "competition": "中。Pets at Home等大牌盘踞线下心智，但Amazon UK长尾卖家为主（EDLMKM等无品牌新ASIN活跃）；差评集中在尺码与做工，无绝对垄断者，尺码表+实拍是低成本差异化。",
+      "signal_scores": {
+        "trend": 76,
+        "gap": 60,
+        "profit": 82,
+        "final": 72,
+        "recommendation": "Go",
+        "profit_window": "10月中-12月第2周（12/15后物流截单）"
+      },
+      "profit_note": "保守口径（宠物服饰佣金15.45%）：£9.99 - £1.54 - FBA £1.71 - 采购£1.30 - 空运£0.91 - 包材£0.10 ≈ £4.43/件，毛利≈44%"
+    },
+    {
+      "keyword": "rangoli floor stickers diwali decoration",
+      "keyword_cn": "兰戈利地板贴纸（排灯节地贴）",
+      "amazon_keyword": "rangoli floor stickers diwali decoration",
+      "search_1688": "排灯节地贴 rangoli 印度地板贴纸 节日地贴 pvc",
+      "demand_signals": [
+        "Rangoli是排灯节几乎家家保留的核心仪式（入口画rangoli迎吉祥），Day2专门用于布置——tradition锚点来自 farmersalmanac.com 节庆说明",
+        "Amazon UK现有供给以彩色粉末+stencil模板为主，粉末脏乱、模板要手绘；贴纸版现成供给稀少——形态空隙明确（Amazon UK搜索观察 2026-09-30）",
+        "义乌购已有排灯节装饰供应链现成货源（5.80-13.50/套），证明工厂已备产该节日SKU，采购摩擦低（yiwugo 2026在售）",
+        "UK租房文化下免脏乱、可撕除的地贴天然匹配——传统粉末在租房场景是痛点（租房占比高是UK结构性特征）"
+      ],
+      "trend_score": 72,
+      "trend_direction": "up",
+      "reason": "所有竞品都在卖'自己画'的方案（粉末/模板），没人卖'直接贴'的方案——把千年仪式做减法是经典差异化。距离Diwali 11/8有5周半，试产-空运-上架时间刚好，且该细分无review壁垒，新ASIN可以公平起跑。",
+      "action": "027店空运测款：6-8片套装定价£7.99；1688搜'排灯节地贴/印度地板贴'采购≤4/套（≈£0.43）；主图需做'贴完效果'场景图教育市场；10/15前上架，利润窗截止11/8。",
+      "competition": "低。直接竞品（成品rangoli贴纸）稀少，主要替代品是stencil+粉末组合（操作门槛高）；风险是需求需要listing教育，转化率依赖主图质量。",
+      "signal_scores": {
+        "trend": 72,
+        "gap": 78,
+        "profit": 78,
+        "final": 76,
+        "recommendation": "Go（小批量试水，主图AB两版）",
+        "profit_window": "10月中旬上架 → 11月8日Diwali前收官"
+      },
+      "profit_note": "£7.99 - 佣金8% £0.64 - FBA £1.71 - 采购£0.43 - 空运£0.40 - 包材£0.10 ≈ £4.71/套，毛利≈59%"
+    }
+  ],
+  "trend_forecast": "① 10月第1周（9/29-10/5）圣诞装饰启动期：UK圣诞家居装饰搜索量从9月最后一周开始爬坡，抱枕套/花环/桌旗等软装品类率先起量——本次已验证Amazon UK圣诞抱枕套头部品牌9月中完成上架（YCOLL 4.5星2,710条评论），BSR固化窗口就在未来2-3周。动作：圣诞纺织类本周内完成空运首批，11月中前完成卡位。② 10月中（10/6-10/19）万圣节收官+篝火夜双窗口：万圣节10/31前两周是装饰与配件的最后补货期（window clings/pumpkin carving kit已于9/21-9/24推荐过，勿重复备货）；11/5 Bonfire Night带动发光类与户外保暖二次走量（glow sticks已于9/28推荐），未上车的可关注家庭款无烟花替代品方向。③ 10月第3-4周（10/13-10/31）排灯节备货+黑五预热共振：Diwali 2026=11月8日（Dhanteras 11/6购置金属/新家居品传统），Leicester/伦敦/伯明翰印度裔社区采购提前3-4周，tealight烛台/rangoli/toran门饰10月中旬进入需求爬坡——kraftskala提示该品类畅销款10月初即售罄，10/20前必须完成上架；同期黑五(11/27)前置流量开始积累，santa sack圣诞袋£5.99-9.99价格带有空间（头部£5.99款2,374条评论验证容量，但布料偏薄差评集中，加厚帆布是差异化点）。④ 11月第1-2周（11/1-11/14）排灯节正周+圣诞全量期：11/6-11/10五天节庆让烛台类终端走量收官，节后需求迅速归零——Diwali品类首批量务必保守；圣诞季进入全品类高峰，宠物圣诞服饰出货主窗持续到12月第2周，10月底前根据首批数据决定是否补第二批。整体主线判断：未来4周UK需求强度排序=圣诞软装＞万圣节收官＞排灯节窗口＞冬季保暖。纪律提醒：圣诞灯扣/气球拱/枫叶花环/stockings/crackers/wheat bag等14天内已推品类不要重复上货；所有新品坚持≤200g、空运、单次≤60件的测款纪律。"
+}
