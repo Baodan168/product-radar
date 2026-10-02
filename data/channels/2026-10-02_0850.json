@@ -1,0 +1,1781 @@
+{
+  "scan_date": "2026-10-02",
+  "scan_time": "08:50",
+  "scan_ts": "2026-10-02_0850",
+  "stats": {
+    "total_scanned": 143,
+    "passed_filter": 12,
+    "rejected": 119,
+    "channels": {
+      "youtube_review": 7,
+      "tiktok_verified": 9,
+      "keyword_search": 12,
+      "hotukdeals": 4,
+      "multi_source": 9,
+      "etsy_trending": 9,
+      "temu_trending": 2,
+      "event_product": 2
+    },
+    "detail_reject": {
+      "重量超标": 3,
+      "尺寸超标": 2
+    },
+    "theme_trimmed": [
+      {
+        "asin": "B0GK8DJBSF",
+        "name": "AMFUN Dog Paw Cleaner Paw Washers For Dogs, Portable Paw Cleaner for Dogs & Cats, Pet Foot Cleaner, Essential Dog Walkin"
+      },
+      {
+        "asin": "B0FBRJLZQN",
+        "name": "Paw Cleaner for Dogs, Soft and Comfortable Paw Cleaner, Portable Silicone Pet Paw Cleaner, with 3 Towels for Cats and Do"
+      },
+      {
+        "asin": "B0FPBKXTDB",
+        "name": "Simply The Best Socks for Men Women Teenage Boys Girls - Funny Novelty Birthday Gifts - Fun Funky Happy Socks Gift Ideas"
+      },
+      {
+        "asin": "B0H1M1XBQZ",
+        "name": "Zuimei 5 Pairs Halloween Socks Women Men Autumn Novelty Crew Socks | Pumpkin Socks Halloween Gifts for Men Women Funny N"
+      },
+      {
+        "asin": "B0CHJGJ995",
+        "name": "Sponsored Ad – Goofort Gel Insoles Men Women Anti-Fatigue Work-Boots-Optimized Arch Support Insoles Plantar Fasciitis He"
+      },
+      {
+        "asin": "B0GY3J4SL2",
+        "name": "Yuxareen 6 Pairs Funny Funky Socks for Men Women 5-12 Novelty Crew Socks | Colourful Cotton Socks Fun Food Themed Multip"
+      },
+      {
+        "asin": "B0FH54PHMC",
+        "name": "Zuimei 10Pairs Funny Socks for Men 6-11 Colourful Cotton Crew Socks | Soft Breathable Cotton, Funky Patterns, Comfortabl"
+      },
+      {
+        "asin": "B0FH5GRPKK",
+        "name": "Zuimei 10Pairs Funny Socks for Men 6-11 Colourful Cotton Crew Socks | Soft Breathable Cotton, Funky Patterns, Comfortabl"
+      },
+      {
+        "asin": "B0H9FRTJ76",
+        "name": "Fluffy Sheepskin Insoles for Women & Men, Thermal Lambswool Inserts UK 8 | Genuine Thick Cushioned Comfort. For Crocs, B"
+      },
+      {
+        "asin": "B08PDBCJDL",
+        "name": "Kaps Wool and Alu Winter Shoe Insole, Set of 3 Pairs, Insulating and Odour Busting Shoe Inserts For Men and Women’s Boot"
+      }
+    ],
+    "trend_categories": {
+      "crafts": 100,
+      "lighting": 99,
+      "pets": 83,
+      "office": 75,
+      "eco": 71,
+      "seasonal": 71
+    },
+    "supply_demand": {
+      "car": {
+        "ratio": 0,
+        "demand": 59,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "lighting": {
+        "ratio": 0,
+        "demand": 99,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "crafts": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "beauty": {
+        "ratio": 0,
+        "demand": 55,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "kitchen": {
+        "ratio": 0,
+        "demand": 51,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "eco": {
+        "ratio": 0,
+        "demand": 71,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "seasonal": {
+        "ratio": 0,
+        "demand": 71,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "cleaning": {
+        "ratio": 0,
+        "demand": 35,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      }
+    },
+    "divergences": {
+      "kitchen": {
+        "current_heat": 65,
+        "previous_heat": 69,
+        "heat_change_pct": -5.8,
+        "direction": "stable",
+        "dates": [
+          "2026-10-01_0850",
+          "2026-10-01_1710"
+        ]
+      },
+      "cleaning": {
+        "current_heat": 47,
+        "previous_heat": 40,
+        "heat_change_pct": 17.5,
+        "direction": "stable",
+        "dates": [
+          "2026-10-01_0850",
+          "2026-10-01_1710"
+        ]
+      },
+      "car": {
+        "current_heat": 51,
+        "previous_heat": 69,
+        "heat_change_pct": -26.1,
+        "direction": "falling",
+        "dates": [
+          "2026-10-01_0850",
+          "2026-10-01_1710"
+        ]
+      },
+      "pets": {
+        "current_heat": 83,
+        "previous_heat": 82,
+        "heat_change_pct": 1.2,
+        "direction": "stable",
+        "dates": [
+          "2026-10-01_0850",
+          "2026-10-01_1710"
+        ]
+      },
+      "crafts": {
+        "current_heat": 100,
+        "previous_heat": 100,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-10-01_0850",
+          "2026-10-01_1710"
+        ]
+      },
+      "phone": {
+        "current_heat": 69,
+        "previous_heat": 82,
+        "heat_change_pct": -15.9,
+        "direction": "stable",
+        "dates": [
+          "2026-10-01_0850",
+          "2026-10-01_1710"
+        ]
+      },
+      "beauty": {
+        "current_heat": 69,
+        "previous_heat": 48,
+        "heat_change_pct": 43.8,
+        "direction": "rising",
+        "dates": [
+          "2026-10-01_0850",
+          "2026-10-01_1710"
+        ]
+      },
+      "eco": {
+        "current_heat": 79,
+        "previous_heat": 77,
+        "heat_change_pct": 2.6,
+        "direction": "stable",
+        "dates": [
+          "2026-10-01_0850",
+          "2026-10-01_1710"
+        ]
+      },
+      "seasonal": {
+        "current_heat": 61,
+        "previous_heat": 90,
+        "heat_change_pct": -32.2,
+        "direction": "falling",
+        "dates": [
+          "2026-10-01_0850",
+          "2026-10-01_1710"
+        ]
+      },
+      "bathroom": {
+        "current_heat": 33,
+        "previous_heat": 8,
+        "heat_change_pct": 312.5,
+        "direction": "rising",
+        "dates": [
+          "2026-10-01_0850",
+          "2026-10-01_1710"
+        ]
+      },
+      "office": {
+        "current_heat": 76,
+        "previous_heat": 57,
+        "heat_change_pct": 33.3,
+        "direction": "rising",
+        "dates": [
+          "2026-10-01_0850",
+          "2026-10-01_1710"
+        ]
+      },
+      "sports": {
+        "current_heat": 29,
+        "previous_heat": 8,
+        "heat_change_pct": 262.5,
+        "direction": "rising",
+        "dates": [
+          "2026-10-01_0850",
+          "2026-10-01_1710"
+        ]
+      },
+      "travel": {
+        "current_heat": 40,
+        "previous_heat": 17,
+        "heat_change_pct": 135.3,
+        "direction": "rising",
+        "dates": [
+          "2026-10-01_0850",
+          "2026-10-01_1710"
+        ]
+      },
+      "garden": {
+        "current_heat": 58,
+        "previous_heat": 17,
+        "heat_change_pct": 241.2,
+        "direction": "rising",
+        "dates": [
+          "2026-10-01_0850",
+          "2026-10-01_1710"
+        ]
+      },
+      "storage": {
+        "current_heat": 40,
+        "previous_heat": 40,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-10-01_0850",
+          "2026-10-01_1710"
+        ]
+      },
+      "lighting": {
+        "current_heat": 94,
+        "previous_heat": 86,
+        "heat_change_pct": 9.3,
+        "direction": "stable",
+        "dates": [
+          "2026-10-01_0850",
+          "2026-10-01_1710"
+        ]
+      },
+      "baby": {
+        "current_heat": 36,
+        "previous_heat": 4,
+        "heat_change_pct": 800.0,
+        "direction": "rising",
+        "dates": [
+          "2026-10-01_0850",
+          "2026-10-01_1710"
+        ]
+      },
+      "home decor": {
+        "current_heat": 65,
+        "previous_heat": 44,
+        "heat_change_pct": 47.7,
+        "direction": "rising",
+        "dates": [
+          "2026-10-01_0850",
+          "2026-10-01_1710"
+        ]
+      },
+      "bedding": {
+        "current_heat": 51,
+        "previous_heat": 12,
+        "heat_change_pct": 325.0,
+        "direction": "rising",
+        "dates": [
+          "2026-10-01_0850",
+          "2026-10-01_1710"
+        ]
+      },
+      "kitchen_gadgets": {
+        "current_heat": 4,
+        "previous_heat": 4,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-10-01_0850",
+          "2026-10-01_1710"
+        ]
+      }
+    },
+    "gap_opportunities": 13
+  },
+  "products": [
+    {
+      "asin": "B0DQLQGMHW",
+      "name": "ITSY Pets Refillable Paw Cleaner for Dogs & Cats - No Rinse Foam with Reusable Bottle, 2 Silicone Brush Heads & Concentr",
+      "price": 6.95,
+      "reviews": 19,
+      "rating": 3.8,
+      "rank": 27,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "19 reviews, 3.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DQLQGMHW",
+      "image_url": "https://m.media-amazon.com/images/I/7158yd4+oFL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "dog paw cleaner cup muddy paws silicone",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势",
+        "Etsy趋势",
+        "Temu热销",
+        "HotUKDeals热帖",
+        "YouTube种草"
+      ],
+      "profit_margin": 0.238,
+      "net_profit": 1.65,
+      "cost_breakdown": {
+        "vat": 1.16,
+        "commission": 1.04,
+        "fba": 1.46,
+        "ads": 0.7,
+        "returns": 0.14,
+        "sourcing": 0.8,
+        "total_cost": 5.3
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "HotUKDeals",
+        "Temu",
+        "Etsy",
+        "YouTube"
+      ],
+      "internal_sources": [],
+      "score": 139,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🔥 HotUKDeals": 12,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "▶️ YouTube": 10,
+        "🔴 强信号": 20,
+        "🔥 多源热门(crafts)": 23,
+        "🌊 蓝海": 15,
+        "❓ 品类存疑": -5,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-10-02",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "youtube_review",
+        "tiktok_verified",
+        "keyword_search",
+        "hotukdeals",
+        "multi_source",
+        "etsy_trending",
+        "temu_trending"
+      ]
+    },
+    {
+      "asin": "B08Y67RWS8",
+      "name": "KOOLPUG Dog Paw Cleaner, Paw Cleaner Cup with Dog Poo Bags Leash Dispenser, Dog Paw Washer, Pet Paw Cleaner with Waste B",
+      "price": 7.43,
+      "reviews": 14,
+      "rating": 3.5,
+      "rank": 45,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "14 reviews, 3.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B08Y67RWS8",
+      "image_url": "https://m.media-amazon.com/images/I/718yk5pzFfS._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "dog paw cleaner cup muddy paws silicone",
+      "sources": [
+        "趋势发现",
+        "HotUKDeals热帖",
+        "TikTok趋势",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.259,
+      "net_profit": 1.92,
+      "cost_breakdown": {
+        "vat": 1.24,
+        "commission": 1.11,
+        "fba": 1.46,
+        "ads": 0.74,
+        "returns": 0.15,
+        "sourcing": 0.8,
+        "total_cost": 5.51
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "HotUKDeals",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 102,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🔥 HotUKDeals": 12,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "📈 趋势(kitchen)": 8,
+        "🌊 蓝海": 15,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-10-02",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "tiktok_verified",
+        "keyword_search",
+        "hotukdeals",
+        "multi_source",
+        "etsy_trending"
+      ]
+    },
+    {
+      "asin": "B08Y65JYLZ",
+      "name": "KOOLPUG Dog Paw Cleaner Cup with Dog Poo Bags Leash Dispenser, Pet Paw Washer with Waste Bags, Perfect for Removing Dirt",
+      "price": 7.43,
+      "reviews": 50,
+      "rating": 4.2,
+      "rank": 29,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "50 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B08Y65JYLZ",
+      "image_url": "https://m.media-amazon.com/images/I/71zLom9tGRS._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "dog paw cleaner cup muddy paws silicone",
+      "sources": [
+        "趋势发现",
+        "HotUKDeals热帖",
+        "TikTok趋势",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.259,
+      "net_profit": 1.92,
+      "cost_breakdown": {
+        "vat": 1.24,
+        "commission": 1.11,
+        "fba": 1.46,
+        "ads": 0.74,
+        "returns": 0.15,
+        "sourcing": 0.8,
+        "total_cost": 5.51
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "HotUKDeals",
+        "Etsy"
+      ],
+      "internal_sources": [],
+      "score": 97,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🔥 HotUKDeals": 12,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "📈 趋势(kitchen)": 8,
+        "🟢 低竞争": 10,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 4,
+      "is_new": true,
+      "first_seen": "2026-10-02",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "tiktok_verified",
+        "keyword_search",
+        "hotukdeals",
+        "multi_source",
+        "etsy_trending"
+      ]
+    },
+    {
+      "asin": "B0F9YQPY8Y",
+      "name": "The Furious Footballer Socks - Funny Football Men's Socks - Gift for Men | 1 x Pair, Size 7-12, Navy, Premium Cotton Ble",
+      "price": 8.32,
+      "reviews": 81,
+      "rating": 4.8,
+      "rank": 36,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "81 reviews, 4.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0F9YQPY8Y",
+      "image_url": "https://m.media-amazon.com/images/I/81rYOqJ72UL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "novelty socks",
+      "festival_event": "国际男人节",
+      "festival_icon": "👨",
+      "festival_deadline": "2026-10-03",
+      "is_event": false,
+      "sources": [
+        "📅 国际男人节",
+        "TikTok趋势",
+        "YouTube种草",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.291,
+      "net_profit": 2.42,
+      "cost_breakdown": {
+        "vat": 1.39,
+        "commission": 1.25,
+        "fba": 1.46,
+        "ads": 0.83,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 5.9
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Etsy",
+        "YouTube"
+      ],
+      "internal_sources": [],
+      "score": 118,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🎨 Etsy": 6,
+        "▶️ YouTube": 10,
+        "🔴 强信号": 20,
+        "🔥 多源热门(seasonal)": 23,
+        "🟡 中等竞争": 5,
+        "⭐ 高评分": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "📈 排名上升": 10,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-09-30",
+      "is_multi": true,
+      "channel_tags": [
+        "youtube_review",
+        "tiktok_verified",
+        "keyword_search",
+        "multi_source",
+        "etsy_trending"
+      ]
+    },
+    {
+      "asin": "B0FN47VY3V",
+      "name": "The Village Cricketer - Funny Cricket Men's Socks - Cricketer Gift for Men | 1 x Pair, Size 7-12, Burgundy, Premium Cott",
+      "price": 8.32,
+      "reviews": 85,
+      "rating": 4.7,
+      "rank": 41,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "85 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FN47VY3V",
+      "image_url": "https://m.media-amazon.com/images/I/71UggX7WjwL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "novelty socks",
+      "festival_event": "国际男人节",
+      "festival_icon": "👨",
+      "festival_deadline": "2026-10-03",
+      "is_event": false,
+      "sources": [
+        "📅 国际男人节",
+        "TikTok趋势",
+        "YouTube种草",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.291,
+      "net_profit": 2.42,
+      "cost_breakdown": {
+        "vat": 1.39,
+        "commission": 1.25,
+        "fba": 1.46,
+        "ads": 0.83,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 5.9
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Etsy",
+        "YouTube"
+      ],
+      "internal_sources": [],
+      "score": 118,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🎨 Etsy": 6,
+        "▶️ YouTube": 10,
+        "🔴 强信号": 20,
+        "🔥 多源热门(seasonal)": 23,
+        "🟡 中等竞争": 5,
+        "⭐ 高评分": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-10-02",
+      "is_multi": true,
+      "channel_tags": [
+        "youtube_review",
+        "tiktok_verified",
+        "keyword_search",
+        "multi_source",
+        "etsy_trending"
+      ]
+    },
+    {
+      "asin": "B0FL2M4Q6M",
+      "name": "SC Products Mens Novelty Socks Funny Gifts for Men Rude Stocking Fillers | Size 6-12 Silly Socks Funny Secret Santa Gift",
+      "price": 8.32,
+      "reviews": 81,
+      "rating": 4.6,
+      "rank": 26,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "81 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FL2M4Q6M",
+      "image_url": "https://m.media-amazon.com/images/I/71BvwaFriNL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "novelty socks",
+      "festival_event": "国际男人节",
+      "festival_icon": "👨",
+      "festival_deadline": "2026-10-03",
+      "is_event": false,
+      "sources": [
+        "📅 国际男人节",
+        "TikTok趋势",
+        "YouTube种草",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.291,
+      "net_profit": 2.42,
+      "cost_breakdown": {
+        "vat": 1.39,
+        "commission": 1.25,
+        "fba": 1.46,
+        "ads": 0.83,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 5.9
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Etsy",
+        "YouTube"
+      ],
+      "internal_sources": [],
+      "score": 110,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🎨 Etsy": 6,
+        "▶️ YouTube": 10,
+        "🔴 强信号": 20,
+        "🔥 多源热门(seasonal)": 23,
+        "🟡 中等竞争": 5,
+        "⭐ 高评分": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "📈 排名上升": 10,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 5,
+      "is_new": false,
+      "first_seen": "2026-09-29",
+      "is_multi": true,
+      "channel_tags": [
+        "youtube_review",
+        "tiktok_verified",
+        "keyword_search",
+        "multi_source",
+        "etsy_trending"
+      ]
+    },
+    {
+      "asin": "B0FLQ4JTPH",
+      "name": "2Pcs Ugly Cartoon Monster Novelty Socks for Women, Fluffy Socks Womens, Novelty Gifts for Women, Suitable Friends & Sist",
+      "price": 6.68,
+      "reviews": 14,
+      "rating": 4.5,
+      "rank": 8,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "14 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FLQ4JTPH",
+      "image_url": "https://m.media-amazon.com/images/I/714grBoxoLL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "novelty socks",
+      "festival_event": "国际男人节",
+      "festival_icon": "👨",
+      "festival_deadline": "2026-10-03",
+      "is_event": false,
+      "sources": [
+        "📅 国际男人节",
+        "TikTok趋势",
+        "YouTube种草",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.225,
+      "net_profit": 1.5,
+      "cost_breakdown": {
+        "vat": 1.12,
+        "commission": 1.0,
+        "fba": 1.46,
+        "ads": 0.67,
+        "returns": 0.13,
+        "sourcing": 0.8,
+        "total_cost": 5.18
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Etsy",
+        "YouTube"
+      ],
+      "internal_sources": [],
+      "score": 91,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🎨 Etsy": 6,
+        "▶️ YouTube": 10,
+        "🔴 强信号": 20,
+        "📈 趋势(car)": 8,
+        "🌊 蓝海": 15,
+        "⭐ 高评分": 5,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 4,
+      "is_new": false,
+      "first_seen": "2026-09-29",
+      "is_multi": true,
+      "channel_tags": [
+        "youtube_review",
+        "tiktok_verified",
+        "keyword_search",
+        "multi_source",
+        "etsy_trending"
+      ]
+    },
+    {
+      "asin": "B0FDKPM49Y",
+      "name": "Zuimei 8 Pairs Womens Funny Funky Socks Ladies Bright Colourful Socks | Soft Cotton Novelty Socks Multipack Stylish Comf",
+      "price": 9.16,
+      "reviews": 33,
+      "rating": 4.6,
+      "rank": 5,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "33 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FDKPM49Y",
+      "image_url": "https://m.media-amazon.com/images/I/81gT6yWhKDL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "novelty socks",
+      "festival_event": "国际男人节",
+      "festival_icon": "👨",
+      "festival_deadline": "2026-10-03",
+      "is_event": false,
+      "sources": [
+        "📅 国际男人节"
+      ],
+      "profit_margin": 0.316,
+      "net_profit": 2.9,
+      "cost_breakdown": {
+        "vat": 1.53,
+        "commission": 1.37,
+        "fba": 1.46,
+        "ads": 0.92,
+        "returns": 0.18,
+        "sourcing": 0.8,
+        "total_cost": 6.26
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": 10,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🟢 低竞争": 10,
+        "⭐ 高评分": 5,
+        "💰 高利润": 8,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-10-02",
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B09YJ3XL64",
+      "name": "Urban Eccentric - Novelty Crew Length Cheese Themed Socks in Yellow | Mens & Womens Socks",
+      "price": 7.49,
+      "reviews": 177,
+      "rating": 4.6,
+      "rank": 16,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "177 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B09YJ3XL64",
+      "image_url": "https://m.media-amazon.com/images/I/51+qggC3aJL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "novelty socks",
+      "festival_event": "国际男人节",
+      "festival_icon": "👨",
+      "festival_deadline": "2026-10-03",
+      "is_event": false,
+      "sources": [
+        "📅 国际男人节"
+      ],
+      "profit_margin": 0.261,
+      "net_profit": 1.96,
+      "cost_breakdown": {
+        "vat": 1.25,
+        "commission": 1.12,
+        "fba": 1.46,
+        "ads": 0.75,
+        "returns": 0.15,
+        "sourcing": 0.8,
+        "total_cost": 5.53
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": -4,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "⭐ 高评分": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-10-02",
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B00AGYEE66",
+      "name": "Kaps Orthotic Warm Winter Shoe Insoles For Flat Feet With Arch Support, Orthopedic Inserts, Alu Tech Relax",
+      "price": 8.32,
+      "reviews": 100,
+      "rating": 4.2,
+      "rank": 36,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "100 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B00AGYEE66",
+      "image_url": "https://m.media-amazon.com/images/I/81bxVBzkf4L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "thermal foil insoles winter boots cut to size",
+      "sources": [
+        "趋势发现"
+      ],
+      "profit_margin": 0.291,
+      "net_profit": 2.42,
+      "cost_breakdown": {
+        "vat": 1.39,
+        "commission": 1.25,
+        "fba": 1.46,
+        "ads": 0.83,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 5.9
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": -4,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🟡 中等竞争": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-10-02",
+      "is_event": false,
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0CGHF131M",
+      "name": "10pcs Clear Plastic Ornaments, Fillable Balls 3.15Inch/80mm Clear Plastic Fillable Balls for DIY Crafts, Christmas Tree ",
+      "price": 7.49,
+      "reviews": 64,
+      "rating": 4.1,
+      "rank": 15,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "64 reviews, 4.1★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CGHF131M",
+      "image_url": "https://m.media-amazon.com/images/I/613Rk2T-4ML._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "clear fillable baubles plastic christmas diy craft",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势",
+        "Etsy趋势",
+        "Temu热销",
+        "HotUKDeals热帖",
+        "YouTube种草"
+      ],
+      "profit_margin": 0.261,
+      "net_profit": 1.96,
+      "cost_breakdown": {
+        "vat": 1.25,
+        "commission": 1.12,
+        "fba": 1.46,
+        "ads": 0.75,
+        "returns": 0.15,
+        "sourcing": 0.8,
+        "total_cost": 5.53
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "HotUKDeals",
+        "Temu",
+        "Etsy",
+        "YouTube"
+      ],
+      "internal_sources": [],
+      "score": 117,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🔥 HotUKDeals": 12,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "▶️ YouTube": 10,
+        "🔴 强信号": 20,
+        "🔥 多源热门(crafts)": 23,
+        "🟡 中等竞争": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "🎯 事件过密": -8,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-10-02",
+      "is_multi": true,
+      "is_event": true,
+      "channel_tags": [
+        "youtube_review",
+        "tiktok_verified",
+        "keyword_search",
+        "hotukdeals",
+        "multi_source",
+        "etsy_trending",
+        "event_product",
+        "temu_trending"
+      ]
+    },
+    {
+      "asin": "B0B7255N97",
+      "name": "Rehenbsem 12 Pcs Clear DIY Fillable Ornaments,2.36'' Transparent Balls Plastic Baubles for Christmas, Halloween, Birthda",
+      "price": 8.32,
+      "reviews": 35,
+      "rating": 4.4,
+      "rank": 12,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "35 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0B7255N97",
+      "image_url": "https://m.media-amazon.com/images/I/61eBuY7ZrNL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "clear fillable baubles plastic christmas diy craft",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势",
+        "YouTube种草",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.291,
+      "net_profit": 2.42,
+      "cost_breakdown": {
+        "vat": 1.39,
+        "commission": 1.25,
+        "fba": 1.46,
+        "ads": 0.83,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 5.9
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "Etsy",
+        "YouTube"
+      ],
+      "internal_sources": [],
+      "score": 110,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🎨 Etsy": 6,
+        "▶️ YouTube": 10,
+        "🔴 强信号": 20,
+        "🔥 多源热门(seasonal)": 23,
+        "🟢 低竞争": 10,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "⚠️ 品类过密": -10,
+        "🎯 事件过密": -8,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-10-02",
+      "is_multi": true,
+      "is_event": true,
+      "channel_tags": [
+        "youtube_review",
+        "tiktok_verified",
+        "keyword_search",
+        "multi_source",
+        "etsy_trending",
+        "event_product"
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "keyword": "lighting",
+      "category": "lighting",
+      "heat": 99,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "light",
+        "lamp",
+        "led",
+        "strip"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 8,
+      "suggestions": [
+        "LED light",
+        "fairy lights",
+        "string lights",
+        "desk lamp",
+        "night light",
+        "table lamp",
+        "LED bulb",
+        "LED panel"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 99,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=LED+light",
+      "url_google": "https://trends.google.com/trends/explore?q=LED+light&geo=GB"
+    },
+    {
+      "keyword": "crafts",
+      "category": "crafts",
+      "heat": 100,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "stickers",
+        "craft",
+        "brush",
+        "art"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 8,
+      "suggestions": [
+        "stickers",
+        "craft knife",
+        "craft supplies",
+        "DIY craft kit",
+        "brush",
+        "art supplies",
+        "paint set",
+        "drawing kit"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=stickers",
+      "url_google": "https://trends.google.com/trends/explore?q=stickers&geo=GB"
+    },
+    {
+      "keyword": "pets",
+      "category": "pets",
+      "heat": 83,
+      "score": 72,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "toy",
+        "cat",
+        "pet",
+        "collar",
+        "bed"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 8,
+      "suggestions": [
+        "dog chew toy",
+        "cat interactive toy",
+        "pet ball",
+        "cat toy",
+        "cat bed",
+        "cat collar",
+        "cat scratcher",
+        "pet grooming"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 83,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=dog+chew+toy",
+      "url_google": "https://trends.google.com/trends/explore?q=dog+chew+toy&geo=GB"
+    },
+    {
+      "keyword": "office",
+      "category": "office",
+      "heat": 75,
+      "score": 70,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "stationery",
+        "laptop",
+        "pen",
+        "office",
+        "desk"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 5,
+      "suggestions": [
+        "stationery set",
+        "notebook",
+        "pen set",
+        "laptop stand",
+        "laptop sleeve",
+        "laptop cooler",
+        "pen holder",
+        "fountain pen"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 75,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=stationery+set",
+      "url_google": "https://trends.google.com/trends/explore?q=stationery+set&geo=GB"
+    },
+    {
+      "keyword": "eco",
+      "category": "eco",
+      "heat": 71,
+      "score": 68,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "eco",
+        "sustainable",
+        "organic"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 6,
+      "suggestions": [
+        "eco products",
+        "reusable bag",
+        "bamboo products",
+        "sustainable products",
+        "eco friendly",
+        "organic products",
+        "organic cotton"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 71,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=eco+products",
+      "url_google": "https://trends.google.com/trends/explore?q=eco+products&geo=GB"
+    },
+    {
+      "keyword": "seasonal",
+      "category": "seasonal",
+      "heat": 71,
+      "score": 68,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "gift",
+        "halloween",
+        "valentine",
+        "christmas",
+        "birthday"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 5,
+      "suggestions": [
+        "gift ideas",
+        "gift set",
+        "gift box",
+        "halloween decoration",
+        "halloween costume",
+        "valentine gift",
+        "valentine card",
+        "christmas decoration"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 71,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=gift+ideas",
+      "url_google": "https://trends.google.com/trends/explore?q=gift+ideas&geo=GB"
+    },
+    {
+      "keyword": "phone",
+      "category": "phone",
+      "heat": 67,
+      "score": 67,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "holder",
+        "charger",
+        "cable",
+        "case",
+        "phone"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "holder",
+        "phone charger",
+        "wireless charger",
+        "car charger",
+        "charging cable",
+        "USB cable",
+        "phone cable",
+        "case"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 67,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=holder",
+      "url_google": "https://trends.google.com/trends/explore?q=holder&geo=GB"
+    },
+    {
+      "keyword": "home decor",
+      "category": "home decor",
+      "heat": 67,
+      "score": 67,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "decor",
+        "vase",
+        "clock",
+        "wall art",
+        "candle"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "home decor",
+        "room decor",
+        "table decor",
+        "flower vase",
+        "decorative vase",
+        "wall clock",
+        "desk clock",
+        "digital clock"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 67,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=home+decor",
+      "url_google": "https://trends.google.com/trends/explore?q=home+decor&geo=GB"
+    },
+    {
+      "keyword": "car",
+      "category": "car",
+      "heat": 59,
+      "score": 64,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "car",
+        "dashboard"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 7,
+      "suggestions": [
+        "car accessories",
+        "car organizer",
+        "car phone holder",
+        "dashboard"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 59,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=car+accessories",
+      "url_google": "https://trends.google.com/trends/explore?q=car+accessories&geo=GB"
+    },
+    {
+      "keyword": "garden",
+      "category": "garden",
+      "heat": 59,
+      "score": 64,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "outdoor",
+        "flower",
+        "garden",
+        "grill",
+        "plant"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "outdoor",
+        "flower",
+        "garden tool set",
+        "garden light",
+        "garden decor",
+        "grill",
+        "plant pot",
+        "plant stand"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 59,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=outdoor",
+      "url_google": "https://trends.google.com/trends/explore?q=outdoor&geo=GB"
+    },
+    {
+      "keyword": "bathroom",
+      "category": "bathroom",
+      "heat": 59,
+      "score": 64,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "toilet",
+        "soap",
+        "shower",
+        "bath",
+        "bathroom"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "toilet",
+        "soap dispenser",
+        "soap dish",
+        "soap holder",
+        "shower caddy",
+        "shower head",
+        "shower curtain",
+        "bath mat"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 59,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=toilet",
+      "url_google": "https://trends.google.com/trends/explore?q=toilet&geo=GB"
+    },
+    {
+      "keyword": "beauty",
+      "category": "beauty",
+      "heat": 55,
+      "score": 63,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "makeup",
+        "brush",
+        "skincare",
+        "hair",
+        "nail"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 6,
+      "suggestions": [
+        "makeup brush set",
+        "makeup bag",
+        "makeup organizer",
+        "brush",
+        "face roller",
+        "gua sha",
+        "face mask",
+        "hair clip"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 55,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=makeup+brush+set",
+      "url_google": "https://trends.google.com/trends/explore?q=makeup+brush+set&geo=GB"
+    },
+    {
+      "keyword": "kitchen",
+      "category": "kitchen",
+      "heat": 51,
+      "score": 62,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "kitchen",
+        "spice",
+        "cup",
+        "mug",
+        "baking"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 6,
+      "suggestions": [
+        "kitchen",
+        "spice rack",
+        "spice jar set",
+        "spice organizer",
+        "baking set",
+        "baking tray",
+        "cake mould",
+        "gadget"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 51,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=kitchen",
+      "url_google": "https://trends.google.com/trends/explore?q=kitchen&geo=GB"
+    }
+  ],
+  "trend_summary": {
+    "top_categories": [
+      [
+        "crafts",
+        100
+      ],
+      [
+        "lighting",
+        99
+      ],
+      [
+        "pets",
+        83
+      ],
+      [
+        "office",
+        75
+      ],
+      [
+        "eco",
+        71
+      ],
+      [
+        "seasonal",
+        71
+      ]
+    ],
+    "cross_validated": [
+      "car",
+      "lighting",
+      "crafts",
+      "beauty",
+      "kitchen",
+      "eco",
+      "seasonal",
+      "cleaning",
+      "pets",
+      "sports",
+      "office",
+      "phone",
+      "garden",
+      "bathroom",
+      "home decor",
+      "storage"
+    ],
+    "demand_keywords": [
+      "@lnd bands",
+      "a new chapter morse code by: charlie boots",
+      "agentic commerce redefines buying",
+      "an adorable",
+      "april & rose",
+      "autumn fashion trends",
+      "before you buy anything on",
+      "best way to save on",
+      "caution over stimulated, do not approach",
+      "cheapest bulk kitchen items"
+    ],
+    "season": "autumn",
+    "sources_scanned": [
+      "tiktok",
+      "hotukdeals",
+      "temu",
+      "etsy",
+      "youtube",
+      "google_trends",
+      "reddit",
+      "market_intel"
+    ]
+  }
+}
