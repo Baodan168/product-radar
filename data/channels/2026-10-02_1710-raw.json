@@ -1,0 +1,225 @@
+{
+  "scan_date": "2026-10-02",
+  "scan_time": "17:10",
+  "scan_ts": "2026-10-02_1710",
+  "stats": {
+    "total_scanned": 9,
+    "passed": 2,
+    "sources": [
+      "amazon",
+      "keyword",
+      "tiktok"
+    ]
+  },
+  "products": [
+    {
+      "asin": "B0DG5SP61Z",
+      "name": "BULLDOG SKINCARE Original Ultimate Beard Care Kit for Men | Beard shampoo and conditioner, beard oil and beard balm, for",
+      "price": 18.33,
+      "reviews": 117,
+      "rating": 4.7,
+      "rank": 4,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "117 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DG5SP61Z",
+      "image_url": "https://m.media-amazon.com/images/I/71o89oKDttL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "beard care",
+      "festival_event": "国际男人节",
+      "festival_icon": "👨",
+      "festival_deadline": "2026-10-03",
+      "is_event": true,
+      "sources": [
+        "📅 国际男人节",
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B0DKJQ38YX",
+      "name": "Men's Beard Grooming Kit with Shampoo, Oil, Balm - Complete Beard Care Set for Growth, Moisturizing, Styling - Valentine",
+      "price": 8.24,
+      "reviews": 50,
+      "rating": 4.5,
+      "rank": 19,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "50 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DKJQ38YX",
+      "image_url": "https://m.media-amazon.com/images/I/71hjj+jibzL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "beard care",
+      "festival_event": "国际男人节",
+      "festival_icon": "👨",
+      "festival_deadline": "2026-10-03",
+      "is_event": true,
+      "sources": [
+        "📅 国际男人节"
+      ]
+    },
+    {
+      "asin": "B0BGCP561M",
+      "name": "Splash and Shine Beard Shampoo and Conditioner Dual Pack by uLab - Deep Sea Scent Beard Wash and Softener for Men (2 x 1",
+      "price": 9.99,
+      "reviews": 148,
+      "rating": 4.2,
+      "rank": 20,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "148 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0BGCP561M",
+      "image_url": "https://m.media-amazon.com/images/I/71OTrnyr+YL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "beard care",
+      "festival_event": "国际男人节",
+      "festival_icon": "👨",
+      "festival_deadline": "2026-10-03",
+      "is_event": true,
+      "sources": [
+        "📅 国际男人节"
+      ]
+    },
+    {
+      "asin": "B0FP5HR3K6",
+      "name": "Top Dad Organic Beard Care Kit for Men – Natural 9-Piece Grooming Set | Includes growth roller, brush, comb, scissors, r",
+      "price": 19.99,
+      "reviews": 0,
+      "rating": 4.6,
+      "rank": 21,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "0 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FP5HR3K6",
+      "image_url": "https://m.media-amazon.com/images/I/71C6DtePRBL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "beard care",
+      "festival_event": "国际男人节",
+      "festival_icon": "👨",
+      "festival_deadline": "2026-10-03",
+      "is_event": true,
+      "sources": [
+        "📅 国际男人节"
+      ]
+    },
+    {
+      "asin": "B0CL9S167Z",
+      "name": "Beard Grooming Kit For Men, Stocking Fillers For Men With Beard Shampoo,Beard Growth Oil,Balm, Valentine Gifts For Men, ",
+      "price": 7.49,
+      "reviews": 97,
+      "rating": 4.2,
+      "rank": 23,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "97 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CL9S167Z",
+      "image_url": "https://m.media-amazon.com/images/I/718zeOQFRYL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "beard care",
+      "festival_event": "国际男人节",
+      "festival_icon": "👨",
+      "festival_deadline": "2026-10-03",
+      "is_event": true,
+      "sources": [
+        "📅 国际男人节"
+      ]
+    },
+    {
+      "asin": "B0D4Z4ZSKD",
+      "name": "Shakeup Cosmetics The Mane Event, Men's Nourishing Beard Serum - 50ml | Nourishes, Encourages Density, Taming, Caffeine ",
+      "price": 16.58,
+      "reviews": 99,
+      "rating": 4.0,
+      "rank": 26,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "99 reviews, 4.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0D4Z4ZSKD",
+      "image_url": "https://m.media-amazon.com/images/I/41IQm5piIlL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "beard care",
+      "festival_event": "国际男人节",
+      "festival_icon": "👨",
+      "festival_deadline": "2026-10-03",
+      "is_event": true,
+      "sources": [
+        "📅 国际男人节"
+      ]
+    },
+    {
+      "asin": "B0F59DWF23",
+      "name": "Beard Growth Kit from Clean to Care - W/Beard Roller,Beard Conditioner,Beard Oil,Beard Balm,Beard Brush,Beard Wash,Beard",
+      "price": 17.49,
+      "reviews": 79,
+      "rating": 4.4,
+      "rank": 29,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "79 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0F59DWF23",
+      "image_url": "https://m.media-amazon.com/images/I/81oao1vZjAL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "beard care",
+      "festival_event": "国际男人节",
+      "festival_icon": "👨",
+      "festival_deadline": "2026-10-03",
+      "is_event": true,
+      "sources": [
+        "📅 国际男人节"
+      ]
+    },
+    {
+      "asin": "B0HDQK1SGN",
+      "name": "BULLDOG SKINCARE Original Beard Care Giftset for Men, 2 Products & Comb | Beard shampoo & conditioner, beard oil, origin",
+      "price": 12.31,
+      "reviews": 75,
+      "rating": 4.5,
+      "rank": 40,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "75 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HDQK1SGN",
+      "image_url": "https://m.media-amazon.com/images/I/81KkTxDviDL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "beard care",
+      "festival_event": "国际男人节",
+      "festival_icon": "👨",
+      "festival_deadline": "2026-10-03",
+      "is_event": true,
+      "sources": [
+        "📅 国际男人节",
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B0DH23NNLP",
+      "name": "Beard Growth Kit With Oil and Derma Roller - Care Kit for Men's Rapid Growth and Thickening - Gifts for Men, Dad, Father",
+      "price": 5.82,
+      "reviews": 24,
+      "rating": 3.7,
+      "rank": 41,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "24 reviews, 3.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DH23NNLP",
+      "image_url": "https://m.media-amazon.com/images/I/71uhbAU6v3L._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "beard care",
+      "festival_event": "国际男人节",
+      "festival_icon": "👨",
+      "festival_deadline": "2026-10-03",
+      "is_event": true,
+      "sources": [
+        "📅 国际男人节"
+      ]
+    }
+  ]
+}
