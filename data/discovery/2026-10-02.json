@@ -1,0 +1,114 @@
+{
+  "date": "2026-10-02",
+  "updated_at": "2026-10-02T08:30:00+08:00",
+  "scan_date": "2026-10-02",
+  "scan_time": "08:30",
+  "summary": "今日发现4个机会（全部为14天内未推荐的新品类）：①铝箔保暖鞋垫（Ofgem能源涨价+heating the human趋势，1688现货¥1.8/双）②透明填充圣诞球DIY（Baubles类目BSR头部7/8是该品类，义乌¥0.3/只）③狗狗洗爪杯（UK秋冬泥泞季刚需，宠物类佣金仅5%）④手动毛球修剪器（羊毛衫起球季常青款）。TikTok侧Prime Day(10/6-7)促销集中在清洁工具，已纳入趋势预测。",
+  "insights": [
+    {
+      "keyword": "thermal foil shoe insoles winter warm cut to size",
+      "keyword_cn": "铝箔保暖鞋垫（冬季保暖）",
+      "amazon_keyword": "thermal foil insoles winter boots cut to size",
+      "search_1688": "铝箔保暖鞋垫 冬季加绒 羊羔毛",
+      "is_new": true,
+      "demand_signals": [
+        "Amazon UK Hiking Foot Warmers类目BSR前20几乎全是鞋垫/暖脚贴，TerraTherm单款11,079条评4.5星，THE HEAT COMPANY多SKU霸榜（来源：Amazon UK BSR，2026-10-02）",
+        "eBay英国卖家三明治铝箔鞋垫单listing 217件售出+21人watching，£4.97/2双仍热销（来源：eBay item 186084942303，2026-10）",
+        "Ofgem 10月1日起能源价格上限上调4%，'heating the human not the home'成为省钱主叙事，Mirror实测推荐自发热纺织品（来源：Mirror 2026-10）",
+        "专业渠道shoeinsoles.co.uk将冬季鞋垫列为2026年度专题，铝箔反射层是核心卖点（来源：shoeinsoles.co.uk Best Insoles for Winter 2026）"
+      ],
+      "trend_score": 88,
+      "trend_direction": "up",
+      "reason": "能源涨价让'暖人先于暖房'成为10月英国全民话题；BSR头部是一次性化学发热垫（£15-46高定价），而铝箔反射型（无发热剂、可重复用、轻小无认证）细分在Amazon UK供给薄弱——是同一需求下的低价平替空位。",
+      "action": "007测品（小批量空运）；定价£8.99三双装（可裁剪一刀尺寸36-45）；1688采购¥1.8-2.0/双，搜'铝箔保暖鞋垫 冬季加绒'；主图强调aluminium foil反射层+cut to size；10月10日前上架吃住10月中下旬寒潮首波。",
+      "competition": "发热垫细分被TerraTherm/THE HEAT COMPANY垄断（万级review），避开；foil反射型在Amazon UK多为无品牌中国卖家，review普遍<500，eBay £4.97/2双证明价格锚点。差异化=加厚毛毡+铝箔双面+3双装£8.99。中低竞争。",
+      "signal_scores": {
+        "trend": 9,
+        "gap": 7,
+        "profit": 8,
+        "final": 88,
+        "recommendation": "强推——今天最优先上架",
+        "profit_window": "10月上架→10月下旬至12月寒潮峰值，12月25日后快速衰退，1月中旬清仓窗口"
+      }
+    },
+    {
+      "keyword": "clear fillable baubles plastic christmas diy craft",
+      "keyword_cn": "透明填充圣诞球（DIY圣诞装饰）",
+      "amazon_keyword": "clear fillable baubles plastic christmas diy craft",
+      "search_1688": "透明圣诞球 塑料可开合填充 亚克力",
+      "is_new": true,
+      "demand_signals": [
+        "Amazon UK Baubles类目BSR头部8席中7席是clear fillable塑料球，20只装£9.99新ASIN（B0FPMDH64Z）已上架抢量（来源：Amazon UK BSR，2026-10-02）",
+        "findthisbest.co.uk统计全站306款塑料圣诞球、汇总23,556条评论，成交均价£11.44，头牌为30只混装9.8分（来源：findthisbest.co.uk，2026-02更新）",
+        "DIY个性化是圣诞装饰核心趋势：填彩绳/照片/糖果/羽毛做'自己的圣诞球'，TikTok #ChristmasDIY常年热门（来源：Amazon listing文案+findthisbest综述）",
+        "义乌购PS/亚克力空心透明球100件起批¥0.11-9.86，跨境专供货源充足（来源：义乌购 yiwugo.com，2026-05更新）"
+      ],
+      "trend_score": 84,
+      "trend_direction": "up",
+      "reason": "圣诞装饰采购期10月中旬见顶；Baubles类目BSR被'可填充透明球'单一品类承包说明需求结构极健康；传统喷涂球竞争红海，但fillable细分仍是无品牌白牌混战、review几十到几百，差评集中在'开口松、合不严'——做卡扣改良即可切。",
+      "action": "322+007同步上（可走现有FBA库存池）；定价£9.99=20只4-6cm混装+送彩绳10根；1688搜'透明圣诞球 可开合 塑料'，¥0.3-0.5/只；⚠️注意20只5cm毛重约300g超200g红线，务必选4cm小尺寸混装或减至12只装，包装用扁盒≤32×22×6cm。",
+      "competition": "类目顶部全是中国白牌（PROFIKLA/YONTINY/iwiio/himaly等），review 50-800级，无品牌垄断；价格带£8.99-12.99清晰。差异化=尺寸混装+附DIY填料素材包+卡扣紧固。中竞争但窗口还有4-6周。",
+      "signal_scores": {
+        "trend": 9,
+        "gap": 6,
+        "profit": 8,
+        "final": 84,
+        "recommendation": "强推——圣诞季主战场",
+        "profit_window": "10月上架→11月中旬采购峰值，12月10日后需求断崖，只做本季不囤尾货"
+      }
+    },
+    {
+      "keyword": "dog paw cleaner cup muddy paws silicone medium",
+      "keyword_cn": "狗狗洗爪杯（泥爪清洁杯）",
+      "amazon_keyword": "dog paw cleaner cup muddy paws silicone",
+      "search_1688": "洗爪杯 硅胶 狗狗脚印清洁",
+      "is_new": true,
+      "demand_signals": [
+        "Amazon 'dog paw cleaner cup'搜索结果超40个SKU，2025-26年密集出现电动/7in1套装新变体，品类处于扩散期（来源：Amazon搜索页，2026-10）",
+        "原型品Dexas MudBuster是英美宠物店常青款，存在大量平替需求，UK站review深度显著低于US站（来源：Amazon站内对比）",
+        "UK秋冬9-3月泥泞遛狗季=刚需季节驱动，雨天每天洗爪是狗主痛点（来源：季节性+BSR品类结构）",
+        "Alibaba同款PP+硅胶杯批发价DKK 5.28-6.35（约¥5.5-6.6，含近似1688价），1688现货¥3-5（来源：Alibaba/QQPET，2026-10）"
+      ],
+      "trend_score": 79,
+      "trend_direction": "up",
+      "reason": "宠物类佣金仅5%且轻小硅胶无认证门槛；UK站该品类竞争深度低于US，泥泞季正是搜索爬坡期；电动款出现说明品类热度向上，手动基础款仍占走量大头。",
+      "action": "027测品（≤60件小批量空运）；定价£8.99中号（爪宽2.5-3.5cm）附超细纤维吸水巾1条做套装差异化；1688搜'洗爪杯 硅胶'，¥3-5；避免带盖复杂结构压成本。",
+      "competition": "Dexas品牌心智强+白牌众多，medium价位review 100-1000级集中；差异化点=UK版加大容量+吸水巾套装。中高竞争，靠佣金5%+轻小物流保利润。",
+      "signal_scores": {
+        "trend": 8,
+        "gap": 5,
+        "profit": 9,
+        "final": 79,
+        "recommendation": "可测款——027小批试探",
+        "profit_window": "10-12月泥泞季持续走量，1-2月转淡（配合雨季），3月后价格战风险"
+      }
+    },
+    {
+      "keyword": "manual fabric shaver lint remover wool jumpers",
+      "keyword_cn": "手动毛球修剪器（衣物去球）",
+      "amazon_keyword": "manual fabric shaver lint remover wool jumpers",
+      "search_1688": "手动毛球修剪器 剃毛器 衣物",
+      "is_new": true,
+      "demand_signals": [
+        "Amazon UK Lint Shavers类目BSR中手动款（木柄/双面/地毯刮）与电动款混售占多席，说明手动细分有独立走量（来源：Amazon UK BSR，2026-10-02）",
+        "fabric shaver是TikTok常青viral单品，Groupon 'TikTok made me buy it 2026'榜单收录（来源：groupon.co.uk，2026-01）",
+        "10月进入羊毛衫/针织起球季（10-2月峰值），与冬装上新完全同步（来源：季节性）",
+        "Good Housekeeping 2026-10文章确认清洁工具是Prime Big Deal Days(10/6-7)重点促销品类，可蹭流量（来源：goodhousekeeping.com，2026-10）"
+      ],
+      "trend_score": 74,
+      "trend_direction": "flat",
+      "reason": "常青刚需+季节加成，轻到极致（<100g）、零认证、FBA费最低档；天花板有限但胜在稳，适合店铺组合里当'现金流补充'而非主推。",
+      "action": "007蹭Prime Day流量上架；定价£6.99=双面木柄+2片替换刀网；1688搜'手动毛球修剪器'，¥1.5-3；主图强调no batteries（无电池卖点是UK老年客群偏好）。",
+      "competition": "电动款主导BSR，手动款£4-8价格战、review几十到几百；差异化=双面+木柄质感+替换网配件。低-中竞争、低天花板。",
+      "signal_scores": {
+        "trend": 7,
+        "gap": 5,
+        "profit": 7,
+        "final": 74,
+        "recommendation": "可测款——补位现金流",
+        "profit_window": "10-1月起球季走量，全年有底量，无明显断崖"
+      }
+    }
+  ],
+  "trend_forecast": "① 10月6-7日Prime Big Deal Days（大促）：Good Housekeeping 2026-10文已点名清洁工具/厨房小件是本轮促销重点流量品类，£5.99-12.99轻小件是大促'凑单件'主战场。建议10月3-4日前把今日推荐的毛球修剪器、洗爪杯等新ASIN完成上架+设置coupon，大促流量分配偏向有review基础+有促销价的listing，早2天上架比晚2天多吃一倍曝光窗口。② 10月中下旬万圣节最后冲刺（10/20-31）：万圣节装束和南瓜雕刻工具窗口已过（9/21已推雕刻套装），剩余空白在'万圣节派对桌面耗材'——spooky纸餐垫/桌布/餐桌scatter confetti、糖果分发碗（不带电款），这类最后一周冲量、适合空运小件快反，10/12前是空运上架最后节点。③ 11月5日Bonfire Night烟花之夜：glow sticks已于9/28推荐，剩余衍生方向=sparkler防护手套、荧光反光贴纸（儿童夜游）、篝火派对一次性餐具组合；该节日持续期短（10/25-11/5），11月初空运来不及，10月中旬前必须完成备货。④ 11月8日前后排灯节Diwali：茶灯烛台和rangoli贴纸9/30已推，窗口正快速收窄——Diwali补货空运节点约10/25，之后新链接没有培育期，不建议再进Diwali新品，改为关注 Diwali 后的清仓替代需求。⑤ 能源账单季（10/1价格上限上调4%已生效）：'heating the human not the home'是未来4周最强的省钱叙事，Mirror等媒体正在密集做实测推荐——铝箔鞋垫（今日主推）只是开始，后续3周可跟踪：radiator反射膜、暖贴/暖脚垫（air-activated非电子）、保温杯套、沙发盖毯（重货除外）。这个方向需求会随10月下旬首个寒潮命名（英国气象局一般10月下旬发布首个风暴名）而跳涨。⑥ 10月25日时钟回拨（BST→GMT）：暗通勤启动，反光配件类（背包挂件、自行车反光贴、反光臂带）进入搜索上升期——注意9/21已推反光帐篷绳、9/22已推保暖触屏手套，避开重复，主攻'通勤反光挂件'细分。⑦ 圣诞装饰采购高峰（10月中-11月中）：advent calendar（11/1开启）品类fill-your-own款9/22已推、diamond painting款10/1已推，圣诞装饰类目14天内已推6次，短期避开装饰大类，把圣诞预算转向'圣诞厨房耗材+礼品包装耗材'（礼物袋、丝带套装、圣诞烘焙模具深挖）——这两块14天内只有gingerb house cookie cutter（9/28）和三明治封边器（9/25），仍是空白带。⑧ Black Friday（11/27）前瞻：11月中旬是礼品套装上架最后窗口，届时优先上'多件装礼品化包装'（如袜子+暖贴礼盒——重货则改暖贴+圣诞卡套装），10月底前不急于布局BF，先把10月旺季品做扎实。"
+}
