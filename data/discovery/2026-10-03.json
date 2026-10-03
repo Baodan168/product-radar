@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-03",
+  "updated_at": "2026-10-03T08:25:00+08:00",
+  "scan_date": "2026-10-03",
+  "scan_time": "08:25",
+  "summary": "圣诞Q4主题第2波：餐桌场景（桌旗/裱花嘴/礼物袋/缎带）。信号源：TikTok Shop UK周报（9-20当周圣诞Squishies日历单周27,532件£71K，Q4 gifting提前4周引爆）+ Amazon UK烘焙工具2万+在售 + 1688圣诞外贸现货价格验证。4个候选全部通过14天去重（最近14天已推圣诞装饰类仅覆盖：倒数日历/抱枕套/彩灯挂钩/贴纸/摆件，餐桌布艺+烘焙工具+礼物收纳均未覆盖）。",
+  "insights": [
+    {
+      "keyword": "christmas table runner linen gold festive dining",
+      "keyword_cn": "圣诞桌旗（金鹿/烫金/麻布款）",
+      "amazon_keyword": "christmas table runner",
+      "search_1688": "圣诞桌旗 烫金 亚麻 外贸",
+      "demand_signals": [
+        "TikTok Shop UK周报(9-20当周, z.media)：Top10里家居生活类与美妆平分席位，圣诞gifting单品单周GMV £71K起，Q4采购行为提前数周",
+        "Amazon UK Table Runners类目BSR首页：Artoid Mode等品牌已推秋冬+圣诞印花款占位，cheesecloth/亚麻波西米亚风是主流形态，类目活跃度高",
+        "1688/义乌购：圣诞桌旗为义乌国际商贸城一区主营类目，宝诚工艺等专供外贸款¥6.2-8.9（200件起批），现货+定制产能充足",
+        "Amazon搜索结果中圣诞主题桌旗SKU密度仍低于万圣节/秋季款，早进场窗口存在"
+      ],
+      "trend_score": 82,
+      "trend_direction": "up",
+      "reason": "英国圣诞聚餐(Sunday Roast+圣诞晚餐)餐桌氛围布置是12月前最大增量场景；TikTok Q4 gifting已提前引爆，类目BSR已出现圣诞印花占位但深度仍浅；1688现货链路成熟，空运轻件(约110g/条)完美适配。"
+    },
+    {
+      "keyword": "christmas cookie icing piping nozzles set baking",
+      "keyword_cn": "圣诞裱花嘴套装（雪花/圣诞树造型12件）",
+      "amazon_keyword": "piping nozzles set christmas",
+      "search_1688": "圣诞裱花嘴 304不锈钢 套装 跨境",
+      "demand_signals": [
+        "Amazon UK 'Cake Decorating Bags'搜索20,000+结果，Jatidne/KOKSI/RFAQK等多品牌套装在售，需求盘子大",
+        "TikTok #CozyAesthetic 12.5万+帖子(ukrmedia 2026-09)：home-baked treats是Cozy Aesthetic核心元素，家庭烘焙热度持续",
+        "1688/义乌购：圣诞款俄罗斯裱花嘴5件套¥4-5、12件套¥7.63，304不锈钢无缝款为跨境专供现货（揭阳雅焙厨/义乌明亮等）",
+        "圣诞专属造型（雪花/圣诞树/圣诞老人）版本在Amazon UK在售SKU明显少于常规圆齿款——差异化空位"
+      ],
+      "trend_score": 80,
+      "trend_direction": "up",
+      "reason": "Q4家庭烘焙+姜饼装饰是英国刚需场景（配合此前已验证的姜饼屋模具款热卖），圣诞造型裱花嘴是差异化切入口；304不锈钢材质+圣诞造型组合当前Amazon UK供给偏少。"
+    },
+    {
+      "keyword": "santa sack canvas gift bag large christmas",
+      "keyword_cn": "圣诞老人礼物袋（大号帆布/绒布2件装）",
+      "amazon_keyword": "christmas gift bag large",
+      "search_1688": "圣诞礼物袋 大号 帆布 外贸出口",
+      "demand_signals": [
+        "TikTok Shop UK 9-20周报：Q4 gifting已进Top10，低价高 impulse 是爆款公式（£7.70单品27,532件/周），礼品收纳是同一购物篮场景",
+        "Amazon UK Hot Water Bottles类目BSR：faux fur/knitted cover礼物向商品霸榜（BOLEi/KEPLIN/Revitale），冬季'礼品+实用'组合心智已打开",
+        "1688圣诞装饰行情页(1688.com/baojia)：圣诞袋类为汕头馨礼工坊等工厂常备款，圣诞礼品袋/挂件/袜类现货充足",
+        "英国家庭圣诞'装礼物的袋子'是每年消耗品，大号santa sack在Amazon UK搜索量随12月临近陡增（往年规律）"
+      ],
+      "trend_score": 76,
+      "trend_direction": "up",
+      "reason": "礼物袋是圣诞硬通货：无尺寸/款式风险、可年年复用、单价低决策快。2件装定价£7.99卡在冲动消费带，竞争多为单只装，双装差异化+轻(注意单只克重控制≤90g)。"
+    },
+    {
+      "keyword": "christmas ribbon gold wired craft wrapping 3 pack",
+      "keyword_cn": "圣诞缎带3卷装（金丝绒/格纹烫金款）",
+      "amazon_keyword": "christmas ribbon set",
+      "search_1688": "圣诞缎带 金丝 格纹 批发 跨境",
+      "demand_signals": [
+        "TikTok #CozyAesthetic与Pinterest 2026预测：手工/包装/装饰类创作热度上升（knitting/craft/wrapping进入主流）",
+        "Amazon UK Table Runners类目BSR中出现Sheer Organza Roll/金箔卷类产品（Time to Sparkle/Trimming Shop 26M卷装），证明包装/装饰织物类动销",
+        "1688：圣诞缎带为义乌轻纺常备款，格纹/烫金/金丝绒外贸批发单价¥2.5-4/卷区间，3卷组合成本可控",
+        "DIY圣诞花环材料包9-23已验证热卖（此前推荐），缎带是花环/礼物包装配套消耗品，同场景二次转化"
+      ],
+      "trend_score": 74,
+      "trend_direction": "up",
+      "reason": "缎带是圣诞季最容易起量的'配套消耗品'：花环DIY+礼物包装双场景，复购属性强，重量轻(3卷约90g)运费最优；竞争以单卷散装为主，3卷主题组合（金丝绒+格纹+烫金）有差异化。"
+    }
+  ],
+  "trend_forecast": "未来3-4周UK需求窗口预测（基于本次TikTok Shop UK周报、Amazon UK类目BSR与1688现货信号）：① 10月第1周（10/5-10/11）：万圣节搜索进入最后一波高峰前的备货尾声，圣诞餐桌场景开始抬头——TikTok Shop UK数据已显示Q4 gifting比去年提前约4周进入Top10，圣诞桌旗、圣诞餐桌布置类（餐垫/桌布/缎带）应在本周完成上架，早进场者吃掉10月中旬的搜索爬坡期。② 10月第2周（10/12-10/18）：圣诞烘焙工具窗口开启——姜饼/饼干装饰需求在英国习惯性从10月中下旬启动（half-term期家庭亲子烘焙），圣诞造型裱花嘴、圣诞饼干切模、纸杯蛋糕装饰类预计进入类目BSR爬坡；1688圣诞裱花嘴现货充足（¥4-20价格带），空运7-10天到仓刚好赶上10月下旬流量。③ 10月第3-4周（10/19-10/31）：万圣节10/31当天需求断崖式结束，随后Bonfire Night（11/5）接棒——荧光棒/篝火晚会配件已在9-28批次覆盖，本周不再重复；但11月初将出现'圣诞预热第一波'：圣诞礼物收纳类（santa sack、礼物袋、礼品缎带）搜索量通常在11月第1周陡增50%+，现在备货空运时间刚好。④ 11月第1周（11/2-11/8）：Black Friday前的静默期+圣诞礼物采购早期——'gift bag/set'类是低客单高转化的冲动消费带（TikTok UK数据：Top10中5个产品£20以下，£7.70单品单周27,532件），2件装礼物袋、3卷装缎带正卡这个价格带。⑤ 持续性判断：Cozy Aesthetic（12.5万+帖子）驱动家庭烘焙/手工/包装类需求将贯穿整个Q4至新年，烘焙工具与包装织物类不是单点爆发而是长坡需求，值得在007/027测品后于12月前完成第二批复购补货。风险提示：圣诞品类11月中旬后海运补货不赶趟，全部走空运小批量（单款≤60件），12月10日后新链接将错过主流量期，窗口收紧。"
+}
