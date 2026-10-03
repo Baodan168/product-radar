@@ -1,0 +1,699 @@
+{
+  "scan_date": "2026-10-03",
+  "scan_time": "17:11",
+  "scan_ts": "2026-10-03_1711",
+  "stats": {
+    "total_scanned": 35,
+    "passed": 18,
+    "sources": [
+      "amazon",
+      "keyword",
+      "tiktok"
+    ]
+  },
+  "products": [
+    {
+      "asin": "B0FH6Z74SJ",
+      "name": "Large Christmas Gifts Bags 4Pcs,41 * 30 * 18 Christmas Presents Bags,Gold Tree Xmas bags for presents",
+      "price": 5.0,
+      "reviews": 109,
+      "rating": 4.4,
+      "rank": 2,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "109 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FH6Z74SJ",
+      "image_url": "https://m.media-amazon.com/images/I/81bffQjCKIL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas gift bag large",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FB2Y78XH",
+      "name": "Large Gift Bag with Ribbon, 10 Pack Paper Presents Bags with Handle, for Birthday/Wedding/Anniversary/Baby Shower/Christ",
+      "price": 11.07,
+      "reviews": 43,
+      "rating": 4.8,
+      "rank": 3,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "43 reviews, 4.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FB2Y78XH",
+      "image_url": "https://m.media-amazon.com/images/I/71KCgegfUOL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas gift bag large",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0DJ29KSK7",
+      "name": "Christmas Drawstring Gift Wrapping Bags: Large Size Goody Bags Christmas Bags 5pcs Festive Design Foil Gift Bags",
+      "price": 4.49,
+      "reviews": 116,
+      "rating": 4.6,
+      "rank": 4,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "116 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DJ29KSK7",
+      "image_url": "https://m.media-amazon.com/images/I/81yfkJTgZBL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas gift bag large",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0GZGRYZDW",
+      "name": "12 Extra Large Christmas Drawstring Gift Bags (43×58 cm) with 24 Xmas Gift Tags – Christmas Wrapping Bags for Presents, ",
+      "price": 9.16,
+      "reviews": 26,
+      "rating": 4.5,
+      "rank": 9,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "26 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GZGRYZDW",
+      "image_url": "https://m.media-amazon.com/images/I/619tgtA0lCL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas gift bag large",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FF4L5M5X",
+      "name": "12Pack Christmas Gift Bags Sets,3 Assorted Sizes,4 Design | Each Size 4Pcs,31*42*12cm,26*32*12cm,18*23*10cm with Handles",
+      "price": 9.16,
+      "reviews": 45,
+      "rating": 4.7,
+      "rank": 10,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "45 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FF4L5M5X",
+      "image_url": "https://m.media-amazon.com/images/I/81pj+bh0lOL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas gift bag large",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FK2M3HYC",
+      "name": "4pcs Large Gift Bags for Christmas, Fabric Tote Bags with Handle Reusable Christmas Shopping Bags for Gift Wrapping Deli",
+      "price": 3.74,
+      "reviews": 188,
+      "rating": 4.5,
+      "rank": 11,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "188 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FK2M3HYC",
+      "image_url": "https://m.media-amazon.com/images/I/710gv6IgQrL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas gift bag large",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B0HBPLK7JW",
+      "name": "2pcs Extra Large Christmas Tote Bags, 60×40×18cm Blue Tree Xmas Gift Bags | Blue Gold Christmas Tree Design Perfect for ",
+      "price": 5.04,
+      "reviews": 13,
+      "rating": 5.0,
+      "rank": 12,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "13 reviews, 5.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HBPLK7JW",
+      "image_url": "https://m.media-amazon.com/images/I/71QMGa26s7L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas gift bag large",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B0FK2KYQP4",
+      "name": "Large Christmas Tote Bags Gift Bags, 4pcs Reusable Non-woven Fabric Yellow Christmas Shopping Bags Print with Elk and Sn",
+      "price": 4.07,
+      "reviews": 188,
+      "rating": 4.5,
+      "rank": 13,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "188 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FK2KYQP4",
+      "image_url": "https://m.media-amazon.com/images/I/71LckVZvaGL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas gift bag large",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B0FH6XSTLH",
+      "name": "Large Christmas Gifts Bags 4Pcs,41 * 30 * 18 Christmas Presents Bags,Silver Snowflake Xmas bags for presents",
+      "price": 5.01,
+      "reviews": 109,
+      "rating": 4.4,
+      "rank": 14,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "109 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FH6XSTLH",
+      "image_url": "https://m.media-amazon.com/images/I/81NeyTDub+L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas gift bag large",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0DBPHRDTW",
+      "name": "Gyoungt 50 * 40 * 20cm Large Christmas Tote Bags with Handle, 2 Pack Dog Cat Pet Lover Gift Bag Jumbo Xmas Gift Bags Non",
+      "price": 4.16,
+      "reviews": 80,
+      "rating": 4.8,
+      "rank": 15,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "80 reviews, 4.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DBPHRDTW",
+      "image_url": "https://m.media-amazon.com/images/I/719Um4znYJL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas gift bag large",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B0DBVXD5CF",
+      "name": "8 Pack Large Christmas Gift Bag Sets, Red, 12.6'',4 Design | Xmas Gift Bags Ideal For Men Women's Holidays Presents",
+      "price": 7.07,
+      "reviews": 55,
+      "rating": 4.6,
+      "rank": 16,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "55 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DBVXD5CF",
+      "image_url": "https://m.media-amazon.com/images/I/816LGuQ8yEL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas gift bag large",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0GZGBXGX2",
+      "name": "6 Extra Large Christmas Drawstring Gift Bags (43×58 cm) with 24 Xmas Gift Tags – Christmas Wrapping Bags for Presents, T",
+      "price": 6.66,
+      "reviews": 26,
+      "rating": 4.5,
+      "rank": 17,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "26 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GZGBXGX2",
+      "image_url": "https://m.media-amazon.com/images/I/619tgtA0lCL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas gift bag large",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FK2N9BH9",
+      "name": "Large Christmas Tote Bags Gift Bags, 2pcs Reusable Non-woven Fabric Christmas Shopping Bags Print with Snowman and Santa",
+      "price": 3.32,
+      "reviews": 110,
+      "rating": 4.6,
+      "rank": 18,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "110 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FK2N9BH9",
+      "image_url": "https://m.media-amazon.com/images/I/71xWbmU+5ML._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas gift bag large",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B0FH51KNP6",
+      "name": "FMDPZUP Large Gift Bags,4 Pack Red Christmas Tote Bags with Gold Tree Handle Non-woven Fabric Present Bag,41 * 30 * 18cm",
+      "price": 5.01,
+      "reviews": 51,
+      "rating": 4.9,
+      "rank": 19,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "51 reviews, 4.9★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FH51KNP6",
+      "image_url": "https://m.media-amazon.com/images/I/71IQACrbHNL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas gift bag large",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B0HCBMFL9D",
+      "name": "4pcs Large Black Christmas Tote Bags,41×30×18cm Gold Wreath Xmas Gift Bags | Black Gold Christmas Wreath Design Perfect ",
+      "price": 5.04,
+      "reviews": 0,
+      "rating": 4.4,
+      "rank": 21,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HCBMFL9D",
+      "image_url": "https://m.media-amazon.com/images/I/71XA+zjp2BL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas gift bag large",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B0HBV2WN5Y",
+      "name": "Extra Large Gift Bags,2 Pack Blue Christmas Tote Bags with Golden Tree | Handle Non-woven Fabric Present Bag,60*40*18cm ",
+      "price": 5.01,
+      "reviews": 0,
+      "rating": 5.0,
+      "rank": 22,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 5.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HBV2WN5Y",
+      "image_url": "https://m.media-amazon.com/images/I/716SFB7mkvL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas gift bag large",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B0GZKH8MV7",
+      "name": "Large Christmas Paper Treat Gift Bags with Handle – 12pcs Kraft Paper Xmas Gift Bags (23×30×12cm) – Xmas Paper Bags 6 Fe",
+      "price": 7.49,
+      "reviews": 20,
+      "rating": 4.6,
+      "rank": 23,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "20 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GZKH8MV7",
+      "image_url": "https://m.media-amazon.com/images/I/81iluiX3CnL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas gift bag large",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0HCB21ZYN",
+      "name": "4pcs Blue Large Christmas Tote Bags,41×30×18cm Cute Santa Claus Gift Bags | Lovely Oil-Painting Santa Design with Sturdy",
+      "price": 5.04,
+      "reviews": 0,
+      "rating": 4.8,
+      "rank": 24,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 4.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HCB21ZYN",
+      "image_url": "https://m.media-amazon.com/images/I/71+2KmsdArL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas gift bag large",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B0FH4Y5Q22",
+      "name": "FMDPZUP Large Gift Bags,4 Pack Christmas Tote Bags with Black Gold Garland Handle Non-woven Fabric Present Bag,41 * 30 *",
+      "price": 5.01,
+      "reviews": 88,
+      "rating": 4.6,
+      "rank": 25,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "88 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FH4Y5Q22",
+      "image_url": "https://m.media-amazon.com/images/I/81Q8Qr9W6VL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas gift bag large",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B0DGSWHNZQ",
+      "name": "YOOYEH 2 Pack Christmas Tote Bag, Extra Large Reusable Grocery Bag with Handle, 50x40cm Present Bag, Shopping Bag for Ho",
+      "price": 4.16,
+      "reviews": 140,
+      "rating": 4.7,
+      "rank": 27,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "140 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DGSWHNZQ",
+      "image_url": "https://m.media-amazon.com/images/I/81U0dx4kjDL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas gift bag large",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B0HBPD1695",
+      "name": "Extra Large Christmas Gift Bags, Black Gold Design for Xmas Presents | 60*40*18cm, 2pcs, Extra Large,Christmas Gift Bags",
+      "price": 5.01,
+      "reviews": 14,
+      "rating": 5.0,
+      "rank": 29,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "14 reviews, 5.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HBPD1695",
+      "image_url": "https://m.media-amazon.com/images/I/71kEk2xk4gL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas gift bag large",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0HCB4FL3M",
+      "name": "Large Christmas Bags,Colorful Christmas Gift Bags for Xmas | 4pcs，41 * 30 * 18cm, gift bags for presents Christmas,reind",
+      "price": 5.0,
+      "reviews": 10,
+      "rating": 4.6,
+      "rank": 30,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "10 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HCB4FL3M",
+      "image_url": "https://m.media-amazon.com/images/I/8168uHnab6L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas gift bag large",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FP2H8QHP",
+      "name": "Glick Large Christmas Gift Bag | Nostalgia Lane | Wide Xmas Bags for Gifts | 35.5x27.5x10 cm | Includes Paper Bag, Ribbo",
+      "price": 4.37,
+      "reviews": 0,
+      "rating": 5.0,
+      "rank": 31,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 5.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FP2H8QHP",
+      "image_url": "https://m.media-amazon.com/images/I/81V9mJAe-wL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas gift bag large",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0GZNMQS2B",
+      "name": "Ergohortus Christmas Drawstring Gift Bags, 36Pcs Christmas Wrapping Bag | Reusable Xmas Gift Bags for Presents, Large Me",
+      "price": 10.82,
+      "reviews": 42,
+      "rating": 4.6,
+      "rank": 33,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "42 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GZNMQS2B",
+      "image_url": "https://m.media-amazon.com/images/I/91f4anfwhgL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas gift bag large",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B0H1VHJPT7",
+      "name": "Ordfingo 38pcs Christmas Bags for Gifts, 4 Assorted Sizes Xmas Gift Bags | 16 Designs Extra Large/Large/Medium/Small Reu",
+      "price": 12.49,
+      "reviews": 25,
+      "rating": 4.9,
+      "rank": 34,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "25 reviews, 4.9★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H1VHJPT7",
+      "image_url": "https://m.media-amazon.com/images/I/91psjivuMpL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas gift bag large",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FH6XP5QL",
+      "name": "Large Christmas Gifts Bags 4Pcs,41 * 30 * 18 Christmas Presents Bags,Gold Black Xmas bags for presents",
+      "price": 5.01,
+      "reviews": 70,
+      "rating": 4.6,
+      "rank": 36,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "70 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FH6XP5QL",
+      "image_url": "https://m.media-amazon.com/images/I/81jm21qC55L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas gift bag large",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0DJXJ3329",
+      "name": "4 Pack Extra Large Christmas Gift Bags,43 * 58cm DXTXTJ Christmas Wrapping Bags,Red White Drawstring Gift Bags Multipack",
+      "price": 5.01,
+      "reviews": 144,
+      "rating": 4.5,
+      "rank": 37,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "144 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DJXJ3329",
+      "image_url": "https://m.media-amazon.com/images/I/71gHbUF-gBL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas gift bag large",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0GBY4TMQ9",
+      "name": "Me To You Tatty Teddy Christmas Large-Sized Gift Bag, With Large Bauble Gift Tag 33 x 26.7cm",
+      "price": 2.5,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 38,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GBY4TMQ9",
+      "image_url": "https://m.media-amazon.com/images/I/813ZTfx75dL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas gift bag large",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FBRLDQ74",
+      "name": "QRTDXP 2pcs Large Xmas Gifts Bag, 50 * 40 * 20cm Non-woven Bags with Christmas Tree and Gold Letter, Reusable Gold Xmas ",
+      "price": 5.04,
+      "reviews": 18,
+      "rating": 4.7,
+      "rank": 39,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "18 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FBRLDQ74",
+      "image_url": "https://m.media-amazon.com/images/I/81AJscngMGL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas gift bag large",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B0CLPF13FY",
+      "name": "DOJoykey Extra Large Christmas Bags with Handle - Non-woven Fabric Gift & Reusable Grocery Bags for Christmas Party, 20 ",
+      "price": 3.32,
+      "reviews": 166,
+      "rating": 4.7,
+      "rank": 40,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "166 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CLPF13FY",
+      "image_url": "https://m.media-amazon.com/images/I/7133MULJuWL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas gift bag large",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B0DCZPNPRJ",
+      "name": "HuiCloud Large Christmas Tote Bags - 12 Pack Reusable Waterproof Non-woven Xmas Gift Bags for Storage, Shopping, Party D",
+      "price": 7.07,
+      "reviews": 150,
+      "rating": 4.7,
+      "rank": 43,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "150 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DCZPNPRJ",
+      "image_url": "https://m.media-amazon.com/images/I/91u2x8GOkrL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas gift bag large",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B0CJY57MXS",
+      "name": "2 Pack Christmas Tote Bags Large, Tote Bag with Handle Tissue Paper Gift Present Bag, Shopping Bag for Holiday Xmas Even",
+      "price": 3.32,
+      "reviews": 155,
+      "rating": 4.6,
+      "rank": 45,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "155 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CJY57MXS",
+      "image_url": "https://m.media-amazon.com/images/I/71Cut2pyCLL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas gift bag large",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B0DL4ZXFX7",
+      "name": "Christmas Tote Bags - 4 Pack Large Christmas Bags with Handle Non-woven Fabric Gift Present Bag,Black and Gold Reusable ",
+      "price": 5.41,
+      "reviews": 141,
+      "rating": 4.5,
+      "rank": 46,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "141 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DL4ZXFX7",
+      "image_url": "https://m.media-amazon.com/images/I/81e-C6fyaXL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas gift bag large",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B0DHDCNTZW",
+      "name": "2pcs Large Reusable Christmas Non-woven Bags,20 * 50 * 40cm Brown Xmas Gift Tote Bag with Handles, Christmas Tree Fabric",
+      "price": 5.04,
+      "reviews": 85,
+      "rating": 4.7,
+      "rank": 47,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "85 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DHDCNTZW",
+      "image_url": "https://m.media-amazon.com/images/I/71ifnbs37YL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas gift bag large",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B0HC9QFDXJ",
+      "name": "Large Christmas Gift Bags 4Pcs,41 * 30 * 18 Christmas Presents Bags,Colorful Tree Xmas bags for presents",
+      "price": 5.0,
+      "reviews": 10,
+      "rating": 4.8,
+      "rank": 48,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "10 reviews, 4.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HC9QFDXJ",
+      "image_url": "https://m.media-amazon.com/images/I/71TPsP7H3RL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas gift bag large",
+      "sources": [
+        "趋势发现"
+      ]
+    }
+  ]
+}
