@@ -1,0 +1,132 @@
+{
+  "date": "2026-10-05",
+  "updated_at": "2026-10-05T08:25:00+08:00",
+  "scan_date": "2026-10-05",
+  "scan_time": "08:11 CST",
+  "summary": "周一扫描。信号主轴：①Amazon UK Movers & Shakers秋冬品类大迁移（储物真空袋/防蛀香包/晾衣架/厨房小工具集体上榜）；②TikTok 10月报（TokConnect 9/30数据）显示\"halloween decorations 2026\" 93.1万次/7天搜索登顶、\"amazon winter must haves\"单周+1061%，冬季品类搜索已启动；③万圣节10/31恰逢周六+half-term，行业预计近25%销售额压在最后一周。今日5个机会全部通过14天去重（近14天50条无重复），5新品/0复扫。注意：橄榄油喷雾瓶头部竞品review墙高，列为谨慎级。",
+  "insights": [
+    {
+      "keyword": "3-in-1 vegetable peeler",
+      "keyword_cn": "三合一多功能削皮器（直削/削丝/开瓶）",
+      "amazon_keyword": "3 in 1 vegetable peeler potato julienne",
+      "search_1688": "多功能削皮器 三合一 瓜刨 不锈钢",
+      "demand_signals": [
+        "Amazon UK Movers & Shakers Home & Kitchen 10/5实抓：「Multifunctional Vegetable Peeler, 2026 New 3-in-1 Peeler & Bottle Opener & Julienne」24小时销售排名跃升上榜——新品listing能上M&S说明日销正在爆发（来源：Amazon UK M&S页面）",
+        "TikTok 10月产品搜索榜「must have kitchen items」24.27万次搜索（来源：TokConnect 2026-10月报，9/30抓取）",
+        "同榜单空气炸锅耗材（air fryer liners）两个品牌同时上榜M&S，削皮器是同一生态的前置工具，土豆/蔬菜备菜量秋冬上升（来源：Amazon UK M&S交叉信号）"
+      ],
+      "trend_score": 72,
+      "trend_direction": "up",
+      "reason": "为什么是现在：秋冬根茎类蔬菜备菜季+空气炸锅生态扩容，2026新款3合1（削皮+切丝+开瓶）刚出现在M&S，说明供给端刚起量、review墙还没形成。非电子、约40-60g、扁平小盒包装，完美符合轻小件空运。",
+      "action": "007店测款：£8.99定价（成本含空运约£1.2，FBA Small Standard约£3.10，佣金8%约£0.72，净利约£3.9/43%）。1688采购关键词：多功能削皮器三合一，选不锈钢刀头+防滑手柄款，索样确认刀头铆接牢固度。",
+      "competition": "中等。高端OXO/Joseph Joseph (£8-12、万级review)与低价杂牌并存；多功能3合1细分位未见千级review墙（本轮未发现单一垄断listing）。差异点：彩色手柄+防滑纹+附清洁刷。",
+      "signal_scores": {
+        "trend": 7,
+        "gap": 7,
+        "profit": 8,
+        "final": 7.3,
+        "recommendation": "重点跟进：本周索样，007店£8.99小批量空运测款",
+        "profit_window": "全年常青+圣诞烤备菜小高峰（11-12月），春季沙拉季二次拉动"
+      }
+    },
+    {
+      "keyword": "mochi squishy toys pack",
+      "keyword_cn": "麻薯捏捏乐多件装（珍珠吵吵球/动物款）",
+      "amazon_keyword": "mochi squishy toys pack party bag fillers",
+      "search_1688": "珍珠捏捏乐 吵吵球 发泄球 批发",
+      "demand_signals": [
+        "TikTok 10月产品搜索榜：「tiktok shopping finds」66.9万次/7天(+222%)、「tiktok shopping finds」9月日均从19.6万反弹到66.9万（来源：TokConnect 2026-10月报）",
+        "UK圣诞批发商2026买货指南把squishies列为stocking fillers/口袋玩具核心品类，且明确『非圣诞款同样在12月畅销』（来源：Risus Wholesale 9/4 blog）",
+        "Amazon UK竞品动销活跃：twoonto 36件装显示「300+ bought in past week」、40件装Amazon's Choice「100+ bought in past month」（来源：Amazon UK listing实抓）",
+        "1688源头价已验证¥1.74/个起，对比UK零售£8.99/20件装价差充足（来源：义乌购/1688实抓）"
+      ],
+      "trend_score": 78,
+      "trend_direction": "up",
+      "reason": "为什么是现在：TikTok购物搜索10月爆量+圣诞stocking filler采购季启动，BONNYCO 80件装£20.99偏大、twoonto 36件装¥30-40区间空置——20-24件£8.99价格带（secret santa/单次party bag预算）刚好是缺口。TPR材质轻（20件约150-200g），完全空运友好。",
+      "action": "027店测品（新品小批量≤60件）：£8.99/20件装（成本含空运约£2.6，FBA约£3.10，佣金8%约£0.72，净利约£2.6/29%）。1688关键词：珍珠捏捏乐/吵吵球，选TPR材质+独立透明袋分装，CE/EN71证书必查。",
+      "competition": "中等。BONNYCO 80件£20.99(2,844条4.6★)占高端、twoonto(595-597条4.5★)占中位，但20-25件£7.99-9.99位无强壁垒。注意差评点：数量缺件、粘腻感——详情页写清件数+可水洗。［1688价格参考（原search_1688备注）：珍珠捏捏乐 吵吵球 发泄球 批发（已验证：义乌购珍珠吵吵球¥1.74-8.94、2件起购；1688解压彩蛋¥2.05-4.11）］",
+      "signal_scores": {
+        "trend": 9,
+        "gap": 7,
+        "profit": 7,
+        "final": 7.9,
+        "recommendation": "立即测款：027店20件装£8.99，10月中旬前入库赶stocking filler季",
+        "profit_window": "10月-12月圣诞party bag/stocking filler主窗口，1月生日季延续"
+      }
+    },
+    {
+      "keyword": "lavender moth repellent sachets",
+      "keyword_cn": "薰衣草防蛀香包（衣柜/羊毛衫防护）",
+      "amazon_keyword": "lavender moth repellent sachets wardrobe protection",
+      "search_1688": "衣柜防蛀香包 薰衣草 樟脑丸替代",
+      "demand_signals": [
+        "Amazon UK Movers & Shakers 10/5实抓：「Acana Sachet Moth Killer 16 Pack」24小时排名跃升上榜——防蛀是本周在涨的品（来源：Amazon UK M&S页面）",
+        "类目头部Acana挂式4包£7.99/6,624条4.3★证明需求体量，但形态老（挂式hanging unit），抽屉/收纳袋用香包形态碎片化、新listing（DIY Pest 10包装）已做出4.5★——头部品牌与香包形态之间存在卡位空隙（来源：Amazon UK两个listing实抓）",
+        "季节驱动明确：10-11月收羊毛衫/羽绒入柜=防蛀采购季，买家评论自述『去年被蛀、今年提前布防』（来源：Amazon UK评论区）"
+      ],
+      "trend_score": 70,
+      "trend_direction": "up",
+      "reason": "为什么是现在：秋季换季收纳刚启动，M&S出现防蛀品跃升是需求加速的直接证据。与9月末已推的竹炭除味包区分：竹炭=除味（全年），防蛀香包=护衣（秋冬换季+来年3-4月防蛀季双峰），采购动机不同、关键词不同。",
+      "action": "007店测款：£7.99/12包装（成本含空运约£1.4，FBA约£3.10，佣金8%约£0.64，净利约£2.85/36%）。1688关键词：薰衣草防蛀香包，选抽绳棉纱袋+干花饱满款，确认无杀虫剂成分（天然干薰衣草）。",
+      "competition": "中低。Acana（6,624条）垄断挂式杀虫剂型；干薰衣草香包形态分散、最大玩家约千级review。差异点：12-16包多点位布防装+可挂可平放+附更换提醒卡。［1688价格参考（原search_1688备注）：衣柜防蛀香包 薰衣草 樟脑丸替代 香薰包（已验证：淘宝旗舰店48包¥44.44≈¥0.93/包；1688樟脑丸/香包行情页10/4活跃）］",
+      "signal_scores": {
+        "trend": 8,
+        "gap": 6,
+        "profit": 8,
+        "final": 7.4,
+        "recommendation": "测款：007店12包装£7.99，10月入仓赶换季收纳",
+        "profit_window": "10月-3月（换季收纳+冬末防蛀补购双峰）"
+      }
+    },
+    {
+      "keyword": "olive oil sprayer 2-in-1",
+      "keyword_cn": "橄榄油喷油壶（喷雾+倒油二合一，玻璃）",
+      "amazon_keyword": "olive oil sprayer bottle 2 in 1",
+      "search_1688": "橄榄油喷雾瓶 玻璃喷油壶 二合一",
+      "demand_signals": [
+        "Amazon UK Movers & Shakers 10/5实抓：TrendPlain 470ml二合一喷油瓶登上M&S总榜（来源：Amazon UK M&S页面）",
+        "同类目#1 Best Seller（Oil Dispensing Oil Sprayers）、14,789条4.6★review——品类需求已被充分验证（来源：Amazon UK listing实抓）",
+        "TikTok「must have kitchen items」24.27万次搜索+空气炸锅耗材在M&S集体上榜，喷油壶是空气炸锅必备配套（来源：TokConnect 10月报+Amazon M&S交叉）",
+        "竞品差评集中点：『用了不到一个月就坏』（喷头/泵芯密封）——质量改良切入点明确（来源：Amazon UK评论AI摘要）"
+      ],
+      "trend_score": 62,
+      "trend_direction": "up",
+      "reason": "为什么是现在：M&S+BSR双信号确认热度仍在攀升，但头部review墙（1.5万条）已形成，属于『需求大但壁垒高』品——只有拿到更耐用的泵芯（金属泵头替代塑料）才有入场资格，否则建议跳过。玻璃瓶约350-450g，FBA费阶升一档，利润被压缩。",
+      "action": "谨慎级：先询价金属泵头改良款（1688关键词：玻璃喷油壶金属喷头），若到岸成本≤£2.8再做007店£9.99（FBA约£3.45+佣金£0.80，净利约£2.9/29%）；成本压不到就放弃，把预算让给前两条。",
+      "competition": "高。TrendPlain 14789条4.6星+类目#1 Best Seller，同页SWEET VIEW等多个强竞品。诚实结论：正面打不动，只能靠泵头耐用性+标签套装差异化试水，失败概率不低。1688已验证参考价：义乌/chinagoods日式喷油壶48件起14.20-15元，低端非玻璃款5-8元区间待询比价。",
+      "signal_scores": {
+        "trend": 8,
+        "gap": 4,
+        "profit": 7,
+        "final": 6.4,
+        "recommendation": "观察/谨慎：仅在拿到金属泵头低价货源时入场，否则跳过",
+        "profit_window": "全年常青，圣诞厨房礼物季（11-12月）小高峰"
+      }
+    },
+    {
+      "keyword": "steam mop pads compatible",
+      "keyword_cn": "蒸汽拖把替换布（兼容Vileda/Kärcher等机型）",
+      "amazon_keyword": "steam mop pads compatible vileda karcher replacement",
+      "search_1688": "蒸汽拖把拖布 配件 替换布 魔术贴",
+      "demand_signals": [
+        "Amazon UK Movers & Shakers 10/5实抓：「Vileda Steam Mop Refill Pads, Pack of 2」24小时排名跃升上榜——原厂耗材动销加速（来源：Amazon UK M&S页面）",
+        "秋冬换季deep cleaning需求（英国秋冬pre-Christmas大扫除习惯），蒸汽拖把保有量大、拖布为高频耗材（来源：M&S品类信号+季节逻辑）",
+        "原厂2片装价格高，兼容款（compatible with）是成熟铺货打法：买家搜索词直接带机型名，转化路径短（来源：Amazon UK关键词结构判断）"
+      ],
+      "trend_score": 66,
+      "trend_direction": "up",
+      "reason": "为什么是现在：M&S出现原厂拖布补货跃升说明耗材需求进入旺季；兼容拖布是复购型轻小件（2-4片装约100-200g、可压扁），一次获客长期复购，适合007/027店持续挂链接。",
+      "action": "027店测品：£9.99/4片装（成本含空运约£1.8（按估算价，需询价确认），FBA约£3.10，佣金8%约£0.80，净利约£4.2/42%）。1688关键词：蒸汽拖把替换布魔术贴，必须按Vileda Steam Mop/Kärcher SC系列尺寸开模对版，先买原厂拖布比对魔术贴扣位。",
+      "competition": "中低。兼容款卖家分散、未见万级review墙；核心门槛是尺寸/魔术贴对版精度——做对版差评率低，做错版直接退货潮。先小单试装配精度再放量。［1688价格参考（原search_1688备注）：蒸汽拖把拖布 配件 替换布 魔术贴（本轮未实抓到具体报价，估算¥2-4/片，下单前必须询价核实）］",
+      "signal_scores": {
+        "trend": 7,
+        "gap": 7,
+        "profit": 8,
+        "final": 7.3,
+        "recommendation": "测款：027店4片装£9.99，先花2天核对Vileda/Kärcher尺寸再下单",
+        "profit_window": "10月-2月秋冬清洁季，全年复购托底"
+      }
+    }
+  ],
+  "trend_forecast": "① 10月第1-2周（至10/11前后）：Halloween冲刺窗口。2026年万圣节落在周六且叠加October half-term，行业数据（IRI Circana/Wholesale Manager 10/4行业报告）预计近25%销售额集中在最后一周，10月5-24日是装饰/派对小件补单的最后空运窗口。方向：Halloween party bag fillers、桌面小装饰、photo booth props、trick-or-treat小礼品袋，全部£5.99-9.99轻小件，错过这波就只能等明年。② 10月最后一周-11月5日：Bonfire Night窗口。Glow sticks类9月28日已在雷达出现过（不重复推），本轮预测关注light-up小玩具、防风火柴盒、篝火夜户外保暖外围小件（毯子夹、保温杯套等非电品类），窗口只有约10天，只适合已有现货或3-5天空运小单，不适合新开采购。③ 11月1-27日：Black Friday（11月27日）蓄水期。TikTok硬信号：\"amazon winter must haves\"单周搜索+1061%（TokConnect 9/30数据，且当前排位视频全是往年旧内容=2026版内容真空）、\"amazon laundry must haves\"+88%、\"amazon desk must haves\"+22%。礼品化多件装（捏捏乐多pack、厨房小工具套装、洗衣护理组合）是£5.99-12.99价格带BF主力；空运补货务必11月15日前入FBA仓，避开BF周入仓拥堵和丢件高峰。④ 11月中-12月15日：圣诞送礼主战场。IGD 10/1 Golden Quarter报告+Faire批发数据显示节日需求55%以上集中在10-11月下单；stocking fillers、secret santa £10以下小礼、餐桌/烘焙周边持续放量。9月下旬-10月初雷达已推过advent calendar/wrapping cutter/table runner/ribbon等，剩余未推方向：圣诞袜填充小玩具、家庭卡牌游戏、烘焙模具补单、圣诞风捏捏乐（与今日推荐形成组合）。⑤ 12月下半月-1月初：寒潮+新年整理双驱动。防滑冰爪/雪刮（9/26已推）进入销售兑现期，注意不要重复铺同款；1月\"新家/新开始\"情绪带动的收纳压缩袋、抽屉整理格、洗衣护理（羊毛烘干球方向）需求抬头，1月上旬是冬末品类清库+春季品类测款的交替点。整体节奏建议：10月下旬前小单快反跟Halloween尾巴→11月第一周全力上BF库存→12月10日后停止新增空运补单→12月底转向元旦清库+1月测款。所有窗口按空运时效倒推下单日，新品单次≤60件（027店纪律）。"
+}
