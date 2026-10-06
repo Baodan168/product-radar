@@ -1,0 +1,986 @@
+{
+  "scan_date": "2026-10-06",
+  "scan_time": "17:10",
+  "scan_ts": "2026-10-06_1710",
+  "stats": {
+    "total_scanned": 54,
+    "passed": 7,
+    "sources": [
+      "amazon",
+      "keyword",
+      "tiktok"
+    ]
+  },
+  "products": [
+    {
+      "asin": "B0CPYBMVDL",
+      "name": "adidas Unisex Starlancer Club Ball",
+      "price": 8.32,
+      "reviews": 3055,
+      "rating": 4.5,
+      "rank": 1,
+      "category": "Sports",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "3055 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CPYBMVDL",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71I90TKsdGL._AC_UL300_SR300,200_.jpg"
+    },
+    {
+      "asin": "B0H3M4L2RV",
+      "name": "KAYMAN Sports Foam Roller, Deep Tissue Muscle Recovery, 44.5 x 15cm, Black | EVA foam, portable, boosts circulation, eas",
+      "price": 9.16,
+      "reviews": 146,
+      "rating": 4.5,
+      "rank": 2,
+      "category": "Sports",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "146 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H3M4L2RV",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/617Q5c59RNL._AC_UL300_SR300,200_.jpg"
+    },
+    {
+      "asin": "B0FTMV9KHD",
+      "name": "PUMA STELLAR Play PL Reactivity 26/27 Training Ball",
+      "price": 10.02,
+      "reviews": 69,
+      "rating": 4.7,
+      "rank": 3,
+      "category": "Sports",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "69 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FTMV9KHD",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/7126KS3hFyL._AC_UL300_SR300,200_.jpg"
+    },
+    {
+      "asin": "B0FTMV2V5W",
+      "name": "PUMA STELLAR Cup PL Reactivity 26/27 Training Ball",
+      "price": 15.93,
+      "reviews": 45,
+      "rating": 4.7,
+      "rank": 4,
+      "category": "Sports",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "45 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FTMV2V5W",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71crBvvMtrL._AC_UL300_SR300,200_.jpg"
+    },
+    {
+      "asin": "B0H1H7TKX1",
+      "name": "Bike Lights Front and Back, Super Bright Bike Lights, [4+6 Modes] USB-C Bike Light Set, for Night Riding/Camping/Backpac",
+      "price": 7.99,
+      "reviews": 35,
+      "rating": 4.1,
+      "rank": 5,
+      "category": "Sports",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "35 reviews, 4.1★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H1H7TKX1",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/61Uu1iTFMdL._AC_UL300_SR300,200_.jpg"
+    },
+    {
+      "asin": "B0HCLL9STK",
+      "name": "TPE Yoga Mat with Carry Strap – 6mm Thick Non-Slip Exercise Mat for Yoga, Pilates, Gym, Fitness and Home Workouts Travel",
+      "price": 7.99,
+      "reviews": 19,
+      "rating": 4.9,
+      "rank": 6,
+      "category": "Sports",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "19 reviews, 4.9★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HCLL9STK",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/61h07RM4XDL._AC_UL300_SR300,200_.jpg"
+    },
+    {
+      "asin": "B0GHSNQKXX",
+      "name": "Fitbit Google Air - Screenless Activity Tracker with Fitness, Heart Rate, and Sleep Tracking - Personalized AI-Powered C",
+      "price": 70.82,
+      "reviews": 1897,
+      "rating": 4.3,
+      "rank": 7,
+      "category": "Sports",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "1897 reviews, 4.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GHSNQKXX",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/815S1p23YiL._AC_UL300_SR300,200_.jpg"
+    },
+    {
+      "asin": "B0H6HGQJDS",
+      "name": "Shin Pads Football Youth Kids - Shin Guard for Boys Girls 2-18 Years Old | - Teenagers Soccer Shin Guards Protection Equ",
+      "price": 11.66,
+      "reviews": 239,
+      "rating": 4.5,
+      "rank": 8,
+      "category": "Sports",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "239 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H6HGQJDS",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71iMKSpePBL._AC_UL300_SR300,200_.jpg"
+    },
+    {
+      "asin": "B0H6FVCY57",
+      "name": "OptiProducts Butane Gas Canister 227g – Universal Fuel Cartridge for Camping Stove, BBQ Grill, Heater & Blow Torch – Saf",
+      "price": 10.99,
+      "reviews": 29,
+      "rating": 4.9,
+      "rank": 9,
+      "category": "Sports",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "29 reviews, 4.9★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H6FVCY57",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71RID2YMKDL._AC_UL300_SR300,200_.jpg",
+      "sources": [
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B0GT4P9LV5",
+      "name": "Gylinm 1L Water Bottle Made of BPA-Free Tritan Material, Sports Water Bottle with Removable Straw & Hydration Time Marke",
+      "price": 8.32,
+      "reviews": 230,
+      "rating": 4.7,
+      "rank": 10,
+      "category": "Sports",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "230 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GT4P9LV5",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71WtH1XDS0L._AC_UL300_SR300,200_.jpg"
+    },
+    {
+      "asin": "B0H2HYPQSM",
+      "name": "COOLOO Kids Swimming Goggles for Age 3-15, 2 Pack Anti Fog Kids Goggles | UV Protection, 180° Wide View, Waterproof, No ",
+      "price": 9.77,
+      "reviews": 133,
+      "rating": 4.5,
+      "rank": 11,
+      "category": "Sports",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "133 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H2HYPQSM",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/61IBqX1oLHL._AC_UL300_SR300,200_.jpg"
+    },
+    {
+      "asin": "B0HGDGBGTR",
+      "name": "Spurkey Fitness Tracker with 24/7 Heart Rate, Blood Oxygen Blood Pressure Sleep Monitor, Activity Trackers IP68 Waterpro",
+      "price": 29.99,
+      "reviews": 31,
+      "rating": 4.6,
+      "rank": 12,
+      "category": "Sports",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "31 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HGDGBGTR",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/61HdayBcPjL._AC_UL300_SR300,200_.jpg"
+    },
+    {
+      "asin": "B0HG9WKDSG",
+      "name": "Survival Water Filter Kit, 1 Gallon Reusable Survival Waters Purifier with Water Filter Straw, for Travel, Camping, Hiki",
+      "price": 16.99,
+      "reviews": 3,
+      "rating": 5.0,
+      "rank": 13,
+      "category": "Sports",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "3 reviews, 5.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HG9WKDSG",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71xrMNvlmBL._AC_UL300_SR300,200_.jpg"
+    },
+    {
+      "asin": "B0GCH2XNZK",
+      "name": "ZOVEXA Large Hot Water Bottle with Premium Knitted Cover - 2L | Natural Rubber Hot Water Bag for Hand & Feet Warmer - Pa",
+      "price": 8.99,
+      "reviews": 22,
+      "rating": 4.6,
+      "rank": 2,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "22 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GCH2XNZK",
+      "image_url": "https://m.media-amazon.com/images/I/919xdQOYjEL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "hot water bottle knitted cover 2 litre",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0DQVH64HC",
+      "name": "Zuvo Hot Water Bottle with Soft Knitted Cover, 2L, Leakproof, for Adults | Removable washable cover, natural rubber, for",
+      "price": 6.66,
+      "reviews": 94,
+      "rating": 4.0,
+      "rank": 8,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "94 reviews, 4.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DQVH64HC",
+      "image_url": "https://m.media-amazon.com/images/I/9130feJXFGL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "hot water bottle knitted cover 2 litre",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0GCGHLZRQ",
+      "name": "ZOVEXA Large Hot Water Bottle, Pink, 2L | Premium Knitted Cover",
+      "price": 9.99,
+      "reviews": 22,
+      "rating": 4.6,
+      "rank": 11,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "22 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GCGHLZRQ",
+      "image_url": "https://m.media-amazon.com/images/I/91g+1Y7vAtL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "hot water bottle knitted cover 2 litre",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0BKQ2FLM1",
+      "name": "2 Pack Hot Water Bottle with Knitted Cover | 2 Liter Large Capacity Hot Water Bag for Hot and Cold Compress, Hand Feet W",
+      "price": 12.49,
+      "reviews": 69,
+      "rating": 4.1,
+      "rank": 12,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "69 reviews, 4.1★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0BKQ2FLM1",
+      "image_url": "https://m.media-amazon.com/images/I/71Hi3LRDWML._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "hot water bottle knitted cover 2 litre",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FX3P7L53",
+      "name": "Hot Water Bottle with Knitted Cover - 2L Hot Water Bag for Hot and Cold Compress, Hand Feet Warmer，Reusable Heating Pad ",
+      "price": 6.99,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 13,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FX3P7L53",
+      "image_url": "https://m.media-amazon.com/images/I/71yyUnRoOSL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "hot water bottle knitted cover 2 litre",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0GCHQ7N7Q",
+      "name": "ZOVEXA Large Hot Water Bottle with Premium Knitted Cover - Charcoal - 2L | Natural Rubber Hot Water Bag for Hand & Feet ",
+      "price": 9.99,
+      "reviews": 22,
+      "rating": 4.6,
+      "rank": 14,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "22 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GCHQ7N7Q",
+      "image_url": "https://m.media-amazon.com/images/I/610UfxNieSL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "hot water bottle knitted cover 2 litre",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0DFD439H2",
+      "name": "LKH Hot Water Bottle with Cover UK - 2L Hot Water Bottle for with Cover UK | Soft Knitted Washable Cover with hand pocke",
+      "price": 8.32,
+      "reviews": 27,
+      "rating": 4.6,
+      "rank": 15,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "27 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DFD439H2",
+      "image_url": "https://m.media-amazon.com/images/I/81Rudzie7bL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "hot water bottle knitted cover 2 litre",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0G64B1JZC",
+      "name": "GYIOFAI 2 Pack Hot Water Bottle Cover Only, Soft Knitted Insulator Hot Water Bottle Cover for 2-Liter Bottles (Grey)",
+      "price": 6.24,
+      "reviews": 22,
+      "rating": 4.2,
+      "rank": 16,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "22 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0G64B1JZC",
+      "image_url": "https://m.media-amazon.com/images/I/71BBCzokT7L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "hot water bottle knitted cover 2 litre",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0GDQY56W2",
+      "name": "Ram® Large Hot Water Bottle with Soft Fleece Cover, 2L, for Aches and Pains",
+      "price": 4.16,
+      "reviews": 78,
+      "rating": 4.4,
+      "rank": 17,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "78 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GDQY56W2",
+      "image_url": "https://m.media-amazon.com/images/I/61xW3XDkPfL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "hot water bottle knitted cover 2 litre",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FPMHJ8C8",
+      "name": "TRIXES Knitted Cover for Hot Water Bottle, Raspberry - Knitted Insulator | Cover only - Hot Water Bottle not Included",
+      "price": 6.66,
+      "reviews": 11,
+      "rating": 3.7,
+      "rank": 21,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "11 reviews, 3.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FPMHJ8C8",
+      "image_url": "https://m.media-amazon.com/images/I/81Nm3kMIoOL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "hot water bottle knitted cover 2 litre",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FMRVCPLK",
+      "name": "Hitopin Hot Water Bottle with Knitted Cover, 2PCS Hot Water Bag with Removable Cover, 2L Hot Water Bottle Pouch, for Pai",
+      "price": 12.99,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 25,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FMRVCPLK",
+      "image_url": "https://m.media-amazon.com/images/I/61Qds1SrNCL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "hot water bottle knitted cover 2 litre",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FX57VZWJ",
+      "name": "2 Litre Large Hot Water Bottles Pack of 2 - Natural Rubber Leakproof Hot Water Bag with Ribbed Surface for Pain Relief, ",
+      "price": 9.16,
+      "reviews": 35,
+      "rating": 4.8,
+      "rank": 28,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "35 reviews, 4.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FX57VZWJ",
+      "image_url": "https://m.media-amazon.com/images/I/71cjeRjIx9L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "hot water bottle knitted cover 2 litre",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0HBWSMQHQ",
+      "name": "2 Pack 2L Hot Water Bottle with Knitted Cover, Rubber Hot Water Bag for Hot or Cold Compress, Warm Water Heat Bottles fo",
+      "price": 15.82,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 33,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HBWSMQHQ",
+      "image_url": "https://m.media-amazon.com/images/I/81SACvj0sSL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "hot water bottle knitted cover 2 litre",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0BRT5XW3Y",
+      "name": "Ram® 2 Litre Cosy Navy Blue Luxury Hot Water Bottle with Faux Fur Cover and Pom Poms Blue",
+      "price": 4.99,
+      "reviews": 115,
+      "rating": 4.6,
+      "rank": 34,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "115 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0BRT5XW3Y",
+      "image_url": "https://m.media-amazon.com/images/I/61sA5zr--JL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "hot water bottle knitted cover 2 litre",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FTZQ2SF5",
+      "name": "OliviaLiving Hot Water Bag Hot Water Bottle 2 Liter Heat Up and Refreezable Hot Cold Pack with Classic Striped Cover for",
+      "price": 13.32,
+      "reviews": 23,
+      "rating": 3.9,
+      "rank": 35,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "23 reviews, 3.9★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FTZQ2SF5",
+      "image_url": "https://m.media-amazon.com/images/I/71aoqg-nOpL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "hot water bottle knitted cover 2 litre",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B08KWJ79GF",
+      "name": "TRIXES Knitted Cover for Hot Water Bottle - Red Xmas Santa Claus Theme Knitted Insulator -Winter - Xmas Gift Cover Only ",
+      "price": 6.66,
+      "reviews": 49,
+      "rating": 4.4,
+      "rank": 36,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "49 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B08KWJ79GF",
+      "image_url": "https://m.media-amazon.com/images/I/71lFK-nZCsL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "hot water bottle knitted cover 2 litre",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0BFFT1HZL",
+      "name": "Pack of 3 2L Hot Water Bottle with Cover UK - Natural Rubber 2 Litre Hot Water Bottle - Perfect Hot Water Bag for Pain R",
+      "price": 21.66,
+      "reviews": 16,
+      "rating": 4.2,
+      "rank": 38,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "16 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0BFFT1HZL",
+      "image_url": "https://m.media-amazon.com/images/I/61X++-FLygL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "hot water bottle knitted cover 2 litre",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0GS5DS316",
+      "name": "DICEVER Hot Water Bottle with Luxury Cosy Faux Fur Cover UK, 2L Leakproof Hot Water Bag for Neck,Shoulder, Hand Feet War",
+      "price": 8.32,
+      "reviews": 19,
+      "rating": 4.5,
+      "rank": 39,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "19 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GS5DS316",
+      "image_url": "https://m.media-amazon.com/images/I/811ecPaRrFL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "hot water bottle knitted cover 2 litre",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0HGFCF6Z3",
+      "name": "Hot Water Bottle with Cover, 2L Hot Water Bag for Neck Shoulders Back Feet | Large, Leakproof, Soft and Comfortable, Cat",
+      "price": 10.82,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 41,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HGFCF6Z3",
+      "image_url": "https://m.media-amazon.com/images/I/71e3-ktVEFL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "hot water bottle knitted cover 2 litre",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B078RQHZPB",
+      "name": "Revitale Luxury 2L Hot Water Bottle with Soft Plush Cover (Slate Grey) | Single Ribbed, Durable & Leak-Resistant Natural",
+      "price": 10.79,
+      "reviews": 1,
+      "rating": 4.6,
+      "rank": 42,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "1 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B078RQHZPB",
+      "image_url": "https://m.media-amazon.com/images/I/71-FW3CqYmL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "hot water bottle knitted cover 2 litre",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FFMGKH4T",
+      "name": "Priksia Christmas Wrapping Paper Storage Bag, Gift Wrap Storage for Paper Rolls, Heavy Duty Sturdy 600D Oxford Fabric Wa",
+      "price": 10.82,
+      "reviews": 68,
+      "rating": 4.3,
+      "rank": 9,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "68 reviews, 4.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FFMGKH4T",
+      "image_url": "https://m.media-amazon.com/images/I/81C394lgj7L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wrapping paper storage bag christmas organiser",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0HJ2XRC91",
+      "name": "Quebec Christmas Wrapping Paper Storage Bag, Carry Handles 82 x 34 x 13 cm | Gift Wrap Organiser with Zip, Velcro Straps",
+      "price": 7.49,
+      "reviews": 22,
+      "rating": 4.0,
+      "rank": 11,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "22 reviews, 4.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HJ2XRC91",
+      "image_url": "https://m.media-amazon.com/images/I/81duKtLIZOL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wrapping paper storage bag christmas organiser",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FMJK917B",
+      "name": "Christmas Wrapping Paper Storage Bag, Gift Wrap Organiser, 600D Oxford Waterproof Wrapping Paper Storage with 2 Clear Po",
+      "price": 11.66,
+      "reviews": 0,
+      "rating": 4.6,
+      "rank": 13,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FMJK917B",
+      "image_url": "https://m.media-amazon.com/images/I/71bohNWF+cL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wrapping paper storage bag christmas organiser",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0CGX7K5WV",
+      "name": "Wrapping Paper Storage Bag Organiser with Fabric for Christmas Birthday Wrapping Paper Rolls Accessories",
+      "price": 10.82,
+      "reviews": 164,
+      "rating": 4.5,
+      "rank": 14,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "164 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CGX7K5WV",
+      "image_url": "https://m.media-amazon.com/images/I/81cetVZSGuL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wrapping paper storage bag christmas organiser",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0HC5SQJXY",
+      "name": "Wrapping Paper Storage Bag, Waterproof Dustproof Gift Wrap Storage Container, Large Capacity Wrapping Paper Storage Box ",
+      "price": 9.16,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 18,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HC5SQJXY",
+      "image_url": "https://m.media-amazon.com/images/I/81i1QaVvx-L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wrapping paper storage bag christmas organiser",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0CNY5WBXY",
+      "name": "Keplin Christmas Tree & Wrapping Paper Storage Bag, Decoration Storage with Carry Straps, Tree Bags, Gift Wrap Organizer",
+      "price": 14.42,
+      "reviews": 41,
+      "rating": 4.2,
+      "rank": 20,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "41 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CNY5WBXY",
+      "image_url": "https://m.media-amazon.com/images/I/71-+9vMiHYL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wrapping paper storage bag christmas organiser",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B0FKBZ711J",
+      "name": "OUTTDID Christmas Cylinder Wrapping Paper Storage Bag, Waterproof, Heavy Duty, Rip Resistant 600D Oxford Fabric Wrapping",
+      "price": 13.99,
+      "reviews": 154,
+      "rating": 4.3,
+      "rank": 22,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "154 reviews, 4.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FKBZ711J",
+      "image_url": "https://m.media-amazon.com/images/I/511vyLoKmGL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wrapping paper storage bag christmas organiser",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FT2FQ9LN",
+      "name": "OLEVOLT Christmas Wrapping Paper Storage Bag Gift Wrap Storage 600D Oxford | Wrapping Paper Organiser with Compartments ",
+      "price": 17.49,
+      "reviews": 81,
+      "rating": 4.4,
+      "rank": 24,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "81 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FT2FQ9LN",
+      "image_url": "https://m.media-amazon.com/images/I/71DWpksQ5WL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wrapping paper storage bag christmas organiser",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FD7TQC4D",
+      "name": "Bloomhüan Wrapping Paper Storage - Wrapping Paper Organiser - Waterproof 600D Oxford Fabric - Storage Bag for Wrapping P",
+      "price": 16.02,
+      "reviews": 121,
+      "rating": 4.5,
+      "rank": 25,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "121 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FD7TQC4D",
+      "image_url": "https://m.media-amazon.com/images/I/71fFxiLfPfL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wrapping paper storage bag christmas organiser",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H2M74434",
+      "name": "2Pcs Wrapping Paper Storage Bag, 31\" Christmas Gift Wrap Paper Rolls Organiser Bag, Wrap Paper Roll Waterproof Sleeve",
+      "price": 7.12,
+      "reviews": 0,
+      "rating": 4.0,
+      "rank": 26,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 4.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H2M74434",
+      "image_url": "https://m.media-amazon.com/images/I/71vhJx5mTpL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wrapping paper storage bag christmas organiser",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FKHPL34M",
+      "name": "Mobi Lock Christmas Wrapping Paper Storage Bag - Holds 18-25 Rolls | Zip & Handles, Cylindrical shape, tear-resistant fa",
+      "price": 8.32,
+      "reviews": 35,
+      "rating": 4.1,
+      "rank": 27,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "35 reviews, 4.1★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FKHPL34M",
+      "image_url": "https://m.media-amazon.com/images/I/81J31x4GSLL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wrapping paper storage bag christmas organiser",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FQ5RQ8SY",
+      "name": "YEENAIV Large Gift Wrap Christmas Wrapping Paper Rolls Storage Bag (Green) | Fabric Storage Bag Wrap Organizer, 600D Tea",
+      "price": 11.66,
+      "reviews": 25,
+      "rating": 4.4,
+      "rank": 28,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "25 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FQ5RQ8SY",
+      "image_url": "https://m.media-amazon.com/images/I/81T7zUrtReL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wrapping paper storage bag christmas organiser",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B0DFXT4RZR",
+      "name": "Mineup Christmas Wrapping Paper Storage Bag, Fits 24 Rolls, 104x36CM Durable Fabric Wrapping Paper Storage Box with Inte",
+      "price": 15.99,
+      "reviews": 0,
+      "rating": 5.0,
+      "rank": 30,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 5.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DFXT4RZR",
+      "image_url": "https://m.media-amazon.com/images/I/61Hka2+lfLL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wrapping paper storage bag christmas organiser",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FVM2P8YF",
+      "name": "Wrapping Paper Storage Bag With Adjustable Compartments, 82x13x34cm Christmas Ribbon Organizer Box, Zippered Waterproof ",
+      "price": 14.26,
+      "reviews": 0,
+      "rating": 4.3,
+      "rank": 31,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 4.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FVM2P8YF",
+      "image_url": "https://m.media-amazon.com/images/I/71I8PRKC4IL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wrapping paper storage bag christmas organiser",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B0FD75ZSXC",
+      "name": "iespell 2 Pack Heavy Duty Waterproof Christmas Wrapping Paper Storage Bags, Tear-Resistant Gift Wrap Organizer with Mult",
+      "price": 8.32,
+      "reviews": 19,
+      "rating": 4.1,
+      "rank": 32,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "19 reviews, 4.1★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FD75ZSXC",
+      "image_url": "https://m.media-amazon.com/images/I/815A592cgLL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wrapping paper storage bag christmas organiser",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B0D9W5VT16",
+      "name": "Estefanlo Wrapping Paper Storage, Wrapping Paper Storage Bag, Wrapping Paper Storage Box",
+      "price": 12.49,
+      "reviews": 73,
+      "rating": 3.9,
+      "rank": 34,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "73 reviews, 3.9★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0D9W5VT16",
+      "image_url": "https://m.media-amazon.com/images/I/814FItWbFrL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wrapping paper storage bag christmas organiser",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FKC141B3",
+      "name": "OUTTDID Christmas Cylinder Wrapping Paper Storage Bag, Waterproof, Heavy Duty, Rip Resistant 600D Oxford Fabric Wrapping",
+      "price": 13.99,
+      "reviews": 154,
+      "rating": 4.3,
+      "rank": 35,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "154 reviews, 4.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FKC141B3",
+      "image_url": "https://m.media-amazon.com/images/I/61G-v+67tLL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wrapping paper storage bag christmas organiser",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FRVGDZJF",
+      "name": "VENO 2 Pack Clear Wrapping Paper Organizer Storage Box for Christmas Gift Bags and Holiday Accessories, Underbed Storage",
+      "price": 28.45,
+      "reviews": 192,
+      "rating": 4.4,
+      "rank": 36,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "192 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FRVGDZJF",
+      "image_url": "https://m.media-amazon.com/images/I/81nHt6583mL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wrapping paper storage bag christmas organiser",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B0CXJ3RSDB",
+      "name": "Large Gift Wrap Storage Bag, Durable Fabric Wrapping Paper Storage Box for Christmas/Birthday Wrapping Paper Rolls & Acc",
+      "price": 10.24,
+      "reviews": 31,
+      "rating": 3.4,
+      "rank": 38,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "31 reviews, 3.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CXJ3RSDB",
+      "image_url": "https://m.media-amazon.com/images/I/71UOlO6jYKL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wrapping paper storage bag christmas organiser",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0CCS4HG16",
+      "name": "DUDSOEHO Wrapping Paper Storage Bag - 104x25x25cm Gift Wrapping Paper Organizer for Rolls - Red - Christmas",
+      "price": 5.82,
+      "reviews": 52,
+      "rating": 4.2,
+      "rank": 39,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "52 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CCS4HG16",
+      "image_url": "https://m.media-amazon.com/images/I/61gw-EfCqdL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wrapping paper storage bag christmas organiser",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B08R2Z4FV6",
+      "name": "ALAYSTAR Premium Clear Wrap Wrapping Storage Bag Organiser – Space Efficient Strong Durable Xmas Cylinder Wrapping Paper",
+      "price": 2.0,
+      "reviews": 1,
+      "rating": 4.3,
+      "rank": 40,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "1 reviews, 4.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B08R2Z4FV6",
+      "image_url": "https://m.media-amazon.com/images/I/61HFjVBdRZL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wrapping paper storage bag christmas organiser",
+      "sources": [
+        "趋势发现"
+      ]
+    }
+  ]
+}

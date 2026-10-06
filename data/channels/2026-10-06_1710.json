@@ -1,0 +1,531 @@
+{
+  "scan_date": "2026-10-06",
+  "scan_time": "17:10",
+  "scan_ts": "2026-10-06_1710",
+  "stats": {
+    "total_scanned": 54,
+    "passed_filter": 5,
+    "rejected": 49,
+    "channels": {
+      "keyword_search": 5,
+      "multi_source": 1,
+      "tiktok_verified": 1,
+      "event_product": 2
+    },
+    "detail_reject": {
+      "尺寸超标": 4,
+      "重量超标": 7
+    },
+    "theme_trimmed": [],
+    "trend_categories": {},
+    "supply_demand": {},
+    "divergences": {
+      "kitchen": {
+        "current_heat": 98,
+        "previous_heat": 97,
+        "heat_change_pct": 1.0,
+        "direction": "stable",
+        "dates": [
+          "2026-10-05_1710",
+          "2026-10-06_0851"
+        ]
+      },
+      "bathroom": {
+        "current_heat": 9,
+        "previous_heat": 14,
+        "heat_change_pct": -35.7,
+        "direction": "falling",
+        "dates": [
+          "2026-10-05_1710",
+          "2026-10-06_0851"
+        ]
+      },
+      "cleaning": {
+        "current_heat": 54,
+        "previous_heat": 47,
+        "heat_change_pct": 14.9,
+        "direction": "stable",
+        "dates": [
+          "2026-10-05_1710",
+          "2026-10-06_0851"
+        ]
+      },
+      "car": {
+        "current_heat": 72,
+        "previous_heat": 74,
+        "heat_change_pct": -2.7,
+        "direction": "stable",
+        "dates": [
+          "2026-10-05_1710",
+          "2026-10-06_0851"
+        ]
+      },
+      "pets": {
+        "current_heat": 100,
+        "previous_heat": 100,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-10-05_1710",
+          "2026-10-06_0851"
+        ]
+      },
+      "crafts": {
+        "current_heat": 100,
+        "previous_heat": 100,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-10-05_1710",
+          "2026-10-06_0851"
+        ]
+      },
+      "travel": {
+        "current_heat": 28,
+        "previous_heat": 47,
+        "heat_change_pct": -40.4,
+        "direction": "falling",
+        "dates": [
+          "2026-10-05_1710",
+          "2026-10-06_0851"
+        ]
+      },
+      "phone": {
+        "current_heat": 76,
+        "previous_heat": 74,
+        "heat_change_pct": 2.7,
+        "direction": "stable",
+        "dates": [
+          "2026-10-05_1710",
+          "2026-10-06_0851"
+        ]
+      },
+      "beauty": {
+        "current_heat": 54,
+        "previous_heat": 51,
+        "heat_change_pct": 5.9,
+        "direction": "stable",
+        "dates": [
+          "2026-10-05_1710",
+          "2026-10-06_0851"
+        ]
+      },
+      "seasonal": {
+        "current_heat": 76,
+        "previous_heat": 65,
+        "heat_change_pct": 16.9,
+        "direction": "stable",
+        "dates": [
+          "2026-10-05_1710",
+          "2026-10-06_0851"
+        ]
+      },
+      "office": {
+        "current_heat": 76,
+        "previous_heat": 79,
+        "heat_change_pct": -3.8,
+        "direction": "stable",
+        "dates": [
+          "2026-10-05_1710",
+          "2026-10-06_0851"
+        ]
+      },
+      "storage": {
+        "current_heat": 63,
+        "previous_heat": 79,
+        "heat_change_pct": -20.3,
+        "direction": "falling",
+        "dates": [
+          "2026-10-05_1710",
+          "2026-10-06_0851"
+        ]
+      },
+      "home decor": {
+        "current_heat": 80,
+        "previous_heat": 65,
+        "heat_change_pct": 23.1,
+        "direction": "stable",
+        "dates": [
+          "2026-10-05_1710",
+          "2026-10-06_0851"
+        ]
+      },
+      "eco": {
+        "current_heat": 85,
+        "previous_heat": 83,
+        "heat_change_pct": 2.4,
+        "direction": "stable",
+        "dates": [
+          "2026-10-05_1710",
+          "2026-10-06_0851"
+        ]
+      },
+      "lighting": {
+        "current_heat": 85,
+        "previous_heat": 100,
+        "heat_change_pct": -15.0,
+        "direction": "stable",
+        "dates": [
+          "2026-10-05_1710",
+          "2026-10-06_0851"
+        ]
+      },
+      "garden": {
+        "current_heat": 54,
+        "previous_heat": 70,
+        "heat_change_pct": -22.9,
+        "direction": "falling",
+        "dates": [
+          "2026-10-05_1710",
+          "2026-10-06_0851"
+        ]
+      },
+      "sports": {
+        "current_heat": 28,
+        "previous_heat": 29,
+        "heat_change_pct": -3.4,
+        "direction": "stable",
+        "dates": [
+          "2026-10-05_1710",
+          "2026-10-06_0851"
+        ]
+      },
+      "baby": {
+        "current_heat": 9,
+        "previous_heat": 14,
+        "heat_change_pct": -35.7,
+        "direction": "falling",
+        "dates": [
+          "2026-10-05_1710",
+          "2026-10-06_0851"
+        ]
+      },
+      "bedding": {
+        "current_heat": 41,
+        "previous_heat": 65,
+        "heat_change_pct": -36.9,
+        "direction": "falling",
+        "dates": [
+          "2026-10-05_1710",
+          "2026-10-06_0851"
+        ]
+      }
+    },
+    "gap_opportunities": 0
+  },
+  "products": [
+    {
+      "asin": "B0GS5DS316",
+      "name": "DICEVER Hot Water Bottle with Luxury Cosy Faux Fur Cover UK, 2L Leakproof Hot Water Bag for Neck,Shoulder, Hand Feet War",
+      "price": 8.32,
+      "reviews": 19,
+      "rating": 4.5,
+      "rank": 39,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "19 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GS5DS316",
+      "image_url": "https://m.media-amazon.com/images/I/811ecPaRrFL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "hot water bottle knitted cover 2 litre",
+      "sources": [
+        "趋势发现"
+      ],
+      "profit_margin": 0.291,
+      "net_profit": 2.42,
+      "cost_breakdown": {
+        "vat": 1.39,
+        "commission": 1.25,
+        "fba": 1.46,
+        "ads": 0.83,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 5.9
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": 16,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🌊 蓝海": 15,
+        "⭐ 高评分": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类较多": -5,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-10-06",
+      "is_event": false,
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0DQVH64HC",
+      "name": "Zuvo Hot Water Bottle with Soft Knitted Cover, 2L, Leakproof, for Adults | Removable washable cover, natural rubber, for",
+      "price": 6.66,
+      "reviews": 94,
+      "rating": 4.0,
+      "rank": 8,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "94 reviews, 4.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DQVH64HC",
+      "image_url": "https://m.media-amazon.com/images/I/9130feJXFGL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "hot water bottle knitted cover 2 litre",
+      "sources": [
+        "趋势发现"
+      ],
+      "profit_margin": 0.224,
+      "net_profit": 1.49,
+      "cost_breakdown": {
+        "vat": 1.11,
+        "commission": 1.0,
+        "fba": 1.46,
+        "ads": 0.67,
+        "returns": 0.13,
+        "sourcing": 0.8,
+        "total_cost": 5.17
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": 5,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🟡 中等竞争": 5,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 品类较多": -5,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-10-06",
+      "is_event": false,
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B08KWJ79GF",
+      "name": "TRIXES Knitted Cover for Hot Water Bottle - Red Xmas Santa Claus Theme Knitted Insulator -Winter - Xmas Gift Cover Only ",
+      "price": 6.66,
+      "reviews": 49,
+      "rating": 4.4,
+      "rank": 36,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "49 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B08KWJ79GF",
+      "image_url": "https://m.media-amazon.com/images/I/71lFK-nZCsL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "hot water bottle knitted cover 2 litre",
+      "sources": [
+        "趋势发现"
+      ],
+      "profit_margin": 0.224,
+      "net_profit": 1.49,
+      "cost_breakdown": {
+        "vat": 1.11,
+        "commission": 1.0,
+        "fba": 1.46,
+        "ads": 0.67,
+        "returns": 0.13,
+        "sourcing": 0.8,
+        "total_cost": 5.17
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": 2,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🟢 低竞争": 10,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类较多": -5,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-10-06",
+      "is_event": false,
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0FQ5RQ8SY",
+      "name": "YEENAIV Large Gift Wrap Christmas Wrapping Paper Rolls Storage Bag (Green) | Fabric Storage Bag Wrap Organizer, 600D Tea",
+      "price": 11.66,
+      "reviews": 25,
+      "rating": 4.4,
+      "rank": 28,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "25 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FQ5RQ8SY",
+      "image_url": "https://m.media-amazon.com/images/I/81T7zUrtReL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wrapping paper storage bag christmas organiser",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势"
+      ],
+      "profit_margin": 0.369,
+      "net_profit": 4.3,
+      "cost_breakdown": {
+        "vat": 1.95,
+        "commission": 1.75,
+        "fba": 1.46,
+        "ads": 1.17,
+        "returns": 0.23,
+        "sourcing": 0.8,
+        "total_cost": 7.36
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "weak",
+      "signal_label": "🟡 弱信号",
+      "external_sources": [
+        "TikTok"
+      ],
+      "internal_sources": [],
+      "score": 64,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🟢 低竞争": 10,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类较多": -5,
+        "✨ 新发现": 10
+      },
+      "stars": 3,
+      "is_new": true,
+      "first_seen": "2026-10-06",
+      "is_multi": true,
+      "is_event": true,
+      "channel_tags": [
+        "multi_source",
+        "tiktok_verified",
+        "keyword_search",
+        "event_product"
+      ]
+    },
+    {
+      "asin": "B0CGX7K5WV",
+      "name": "Wrapping Paper Storage Bag Organiser with Fabric for Christmas Birthday Wrapping Paper Rolls Accessories",
+      "price": 10.82,
+      "reviews": 164,
+      "rating": 4.5,
+      "rank": 14,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "164 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CGX7K5WV",
+      "image_url": "https://m.media-amazon.com/images/I/81cetVZSGuL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "wrapping paper storage bag christmas organiser",
+      "sources": [
+        "趋势发现"
+      ],
+      "profit_margin": 0.354,
+      "net_profit": 3.83,
+      "cost_breakdown": {
+        "vat": 1.81,
+        "commission": 1.62,
+        "fba": 1.46,
+        "ads": 1.08,
+        "returns": 0.22,
+        "sourcing": 0.8,
+        "total_cost": 6.99
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": 9,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "⭐ 高评分": 5,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类较多": -5,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-10-06",
+      "is_event": true,
+      "channel_tags": [
+        "keyword_search",
+        "event_product"
+      ]
+    }
+  ],
+  "gaps": [],
+  "trend_summary": {
+    "top_categories": [],
+    "cross_validated": [],
+    "demand_keywords": [],
+    "season": "",
+    "sources_scanned": []
+  }
+}
