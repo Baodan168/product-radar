@@ -1,0 +1,135 @@
+{
+  "date": "2026-10-06",
+  "updated_at": "2026-10-06T08:30:00+08:00",
+  "scan_date": "2026-10-06",
+  "scan_time": "08:16",
+  "summary": "今日5个机会全部通过14天去重（is_new=True 5个，复扫0个）。主线信号：①TikTok 'amazon winter must haves' 周搜索量+1,061%（TokConnect 9/30数据），冬季保暖品类进入爆发前夜；②'amazon laundry must haves' +88%周增，洗衣场景成内容风口；③John Lewis 9/23圣诞店开：gift wrap搜索同比5倍、gift tags/stockings +50%，圣诞包装周边爬坡启动；④Amazon UK九月热搜 hot water bottle #138（Wake Commerce top 200）。全部候选1688供给价已验证，定价£6.99-9.99，净利率35-52%。",
+  "insights": [
+    {
+      "keyword": "wool dryer balls 4 pack laundry",
+      "keyword_cn": "羊毛烘干球4球装（烘干机洗衣球，新西兰羊毛+棉布收纳袋）",
+      "amazon_keyword": "wool dryer balls laundry reusable pack",
+      "search_1688": "羊毛烘干球 洗衣球 跨境 6cm 7cm 毛毡",
+      "demand_signals": [
+        "TikTok 'amazon laundry must haves' 7天28.8万次搜索、周环比+88%（TokConnect 2026-09-30），洗衣场景内容曝光放量",
+        "UK电价高位，烘干机用户寻求缩短烘干时间省钱——产品核心卖点省电25%（Handy Laundry listing 官方宣称），秋冬烘干季刚需",
+        "Amazon UK头部 Handy Laundry 6球装 £8.79、4.5星9万+评论（B014WOWNAY），验证品类稳定需求；KinTor XL 6球£15.05留出中位价格带空档",
+        "义乌购/1688现货充足：7cm ¥2.20、6cm ¥1.95/球，库存76万+件（yiwugo 964596788），供给无瓶颈"
+      ],
+      "trend_score": 78,
+      "trend_direction": "up",
+      "reason": "为什么是现在：UK 9月起进入烘干季（衣服晒不干），TikTok洗衣内容+88%周增把烘干球重新推上搜索榜；头部9万评论证明需求真实，但6球装超重、£15的XL款留出£8-9价格空档。差异化点：4球装（200g红线内）+棉布袋+定量提示卡（3球小负载/4球大负载），避开与6球装正面竞争。",
+      "action": "007店测品：£8.99定价，4球装6.5cm+棉收纳袋+使用说明卡；1688采购关键词'羊毛烘干球 6.5cm 跨境 贴牌'，¥1.95-2.2/球，500件起订；空运小件，单批300-500套；listing打'新西兰羊毛/省电25%/低静音'三角。",
+      "competition": "头部强但可切：Handy Laundry 9万评(£8.79/6球)、KinTor 1万评(£15.05/XL6球)、The Kind Wash独立站£7.95。品牌集中度中等（无垄断大牌），差评集中在'起毛/尺寸不均'。切入点：4球装轻规格+匀称球体+收纳袋，避开6球装红海。",
+      "signal_scores": {
+        "trend": 78,
+        "gap": 65,
+        "profit": 82,
+        "final": 76,
+        "recommendation": "强烈建议测品",
+        "profit_window": "£8.99售价-8%佣金£0.72-FBA小标准£2.70-采购4球¥8.4+棉袋¥1+包装≈£1.15-空运头程≈£0.75=净利£3.67≈41%。窗口期：10-12月烘干季，1月后需求回落"
+      }
+    },
+    {
+      "keyword": "hot water bottle knitted cover 2L",
+      "keyword_cn": "热水袋针织外套2L（费尔岛花纹，不含热水袋）",
+      "amazon_keyword": "hot water bottle knitted cover 2 litre",
+      "search_1688": "热水袋针织套 外套 长条 批发 跨境",
+      "demand_signals": [
+        "Amazon UK九月热搜 'hot water bottle' 排名#138进入top 200（Wake Commerce 2026-09周报），保暖品类提前起量",
+        "UK能源账单高企，热水袋是被广泛报道的'省电取暖'替代品，10月底寒潮是年度需求引爆点",
+        "高端锚点确认：Catherine Tough纯羊毛手工套£58（独立站）、lovehotwaterbottles单卖cover £8-12——'只买套不买袋'已被市场验证为独立子品类",
+        "义乌购长条针织套装¥5.90-7.08（含橡胶袋），外套单卖成本更低（yiwugo 981582741，15年工厂，专利款可选）"
+      ],
+      "trend_score": 75,
+      "trend_direction": "up",
+      "reason": "为什么是现在：hot water bottle九月已爬进Amazon UK热搜top200，10月中下旬第一波寒潮会把它推到top50；市场上£58手工羊毛款与£3塑料款之间£7-9的'高颜值平价针织套'空档明显，正好是品牌平替策略的标准射程。cover-only设计规避了热水袋本体的BS1970:2012安全认证复杂度。",
+      "action": "027店小批量测品（≤60件）：£8.99定价，2L通用针织套（费尔岛/北欧纹，卷领设计）；1688采购'热水袋针织外套 2L 长条'，单套¥4-6；下单前索样核对2L通用尺寸（30×20cm标准）；11月前到仓。",
+      "competition": "cover-only细分竞争低：Amazon原生listing多为'袋+瓶套装'，单卖套的头部少；差异化靠花纹（Fair Isle/Scandi）和卷领细节。风险：需标注'不含热水袋'避免差评，尺寸必须兼容标准2L。",
+      "signal_scores": {
+        "trend": 75,
+        "gap": 80,
+        "profit": 85,
+        "final": 78,
+        "recommendation": "强烈建议测品",
+        "profit_window": "£8.99售价-8%佣金£0.72-FBA£2.70-采购¥5≈£0.55-头程£0.5=净利£4.5≈50%。窗口：10月中-1月底，寒潮+圣诞礼物双驱动"
+      }
+    },
+    {
+      "keyword": "delicates laundry bags 5 pack fine mesh",
+      "keyword_cn": "洗衣护洗袋5件套（细网+粗网混装，内衣/毛衣防变形）",
+      "amazon_keyword": "laundry bags washing machine delicates zip pack",
+      "search_1688": "洗衣袋 五件套 细网 护洗袋 跨境 印花",
+      "demand_signals": [
+        "TikTok 'amazon laundry must haves' 7天28.8万搜索、+88%周增（TokConnect 9/30），洗衣小件是当前内容电商最热的家居细分类",
+        "Amazon UK品类头部Gogooda 5件套49,383条评论、4.6星（B08MBRJ2KN），需求被完全验证且长期稳定",
+        "头部差评明确留出替代空间：288条评论提到拉链问题（122条负面：'zip broke off during first use'、'zips split'）——自动锁拉链+加固压边是现成的差异化卖点",
+        "1688供给价极低：涤纶网袋五件套¥0.48-0.94/套（wiki.1688精选源，义乌多家10万+销量工厂），小件空运头程占比可控"
+      ],
+      "trend_score": 70,
+      "trend_direction": "up",
+      "reason": "为什么是现在：洗衣内容热度+88%把'洗护小件'变成流量入口；Gogooda垄断心智但差评全在拉链，物理改进（自动锁头+拉链护盖+包边加固）成本几乎为零。价格带£6.99比头部¥£7-9略低，配合'拉链终身质保'话术切入。",
+      "action": "007店测品：£6.99定价，5件套（S/M/L/XL/XXL混网眼）；1688采购'洗衣袋五件套 细网 自动锁拉链'，¥0.65-0.94/套，验厂确认拉链供应商；listing首图主打'zipper that stays closed'。",
+      "competition": "竞争激烈需诚实：Gogooda 4.9万评+YOGINGO 2,468评双头部，价格£5.99-8。纯拼流量打不过，靠拉链差异点+评论运营切入，预期份额有限，作为店铺流量补充款而非利润主力。",
+      "signal_scores": {
+        "trend": 70,
+        "gap": 55,
+        "profit": 88,
+        "final": 70,
+        "recommendation": "建议测品（拉链差异化）",
+        "profit_window": "£6.99售价-8%佣金£0.56-FBA£2.70-采购¥0.9+包装≈£0.35-头程£0.3=净利£3.08≈44%。窗口：全年需求，10-1月 laundry 内容热度加成"
+      }
+    },
+    {
+      "keyword": "wrapping paper storage bag hanging",
+      "keyword_cn": "圣诞礼品包装纸收纳袋（挂门后/立式，618D牛津布）",
+      "amazon_keyword": "wrapping paper storage bag christmas organiser",
+      "search_1688": "包装纸收纳袋 圣诞 礼品卷 牛津布 挂袋",
+      "demand_signals": [
+        "John Lewis 9/23数据：gift wrap搜索同比5倍增长、gift tags +50%（Drapers 2026-09-23）——包装消费暴涨意味着'包装纸收纳'二阶需求同步起量",
+        "Amazon UK九月热搜 'christmas decorations' #157（Wake Commerce top 200），圣诞收纳整理类开始进入购物车",
+        "Amazon UK现有点位少而弱：BRANTMAKER立式袋1.64kg（超重不适合空运小件）、B0DJF8DBFW挂袋仅43×101cm轻款——轻量挂袋式竞争薄",
+        "场景闭环：英国家庭圣诞后要收纳18-24卷包装纸，1月仍是需求长尾，一季卖两波（节前整理+节后收纳）"
+      ],
+      "trend_score": 72,
+      "trend_direction": "up",
+      "reason": "为什么是现在：gift wrap搜索5倍增长是本次扫描最强的二阶信号——买包装纸的人激增，收纳包装纸的痛点在11-12月集中爆发；现有listing要么超重（1.64kg发不了空运小件）要么轻但评论少，轻量挂袋款正好卡位。与09-21已推的wrapping paper cutter（切割工具）完全不同品类。",
+      "action": "007店测品：£9.99定价，双面挂袋式（43×101cm，牛津布+透明PVC口袋，重≤300g）；1688采购'包装纸收纳挂袋 43*101 跨境'，¥6-10/套；折叠包装压缩至32×22×6cm内；12月初前完成首单。",
+      "competition": "竞争较薄：立式硬款被BRANTMAKER等占据但重、挂袋软款listing少且评论基数低（<500评）；无品牌垄断。注意：这属于节后收纳场景，主推图要拍'挂门后+装18卷'状态。",
+      "signal_scores": {
+        "trend": 72,
+        "gap": 75,
+        "profit": 80,
+        "final": 74,
+        "recommendation": "建议测品",
+        "profit_window": "£9.99售价-8%佣金£0.80-FBA£2.75-采购¥8≈£0.9-头程£0.9=净利£4.64≈46%。窗口：11-12月节前整理+1月节后收纳双峰"
+      }
+    },
+    {
+      "keyword": "over door wreath hanger adjustable",
+      "keyword_cn": "圣诞花环门后挂钩（金属免钉，15-25cm可调）",
+      "amazon_keyword": "christmas wreath hanger over door metal",
+      "search_1688": "圣诞花环挂钩 门后挂钩 铁艺 跨境 亚马逊",
+      "demand_signals": [
+        "UK圣诞花环是门面刚需（几乎每户前门一个），但国内租房文化（约1/3家庭租房）不能用钉子——免钉门后钩是标准解",
+        "Amazon UK竞争确认稀疏：Jsdoin 12.5in单钩款在售但评论基数低、Sattiyrch可调款主要在US站——UK站可调+防刮毛毡双特性款少",
+        "义乌购跨境专供现货：黑色12in ¥2.30、金色14in ¥3.42（yiwugo 985796839，1000库存），佛山厂月产300万个（ewanghardware），供给充沛",
+        "与09-29已推的christmas light clips（灯串固定夹）互补不重复：一个挂灯串、一个挂花环，可组合交叉销售"
+      ],
+      "trend_score": 68,
+      "trend_direction": "up",
+      "reason": "为什么是现在：圣诞花环11月中上旬集中购买，挂钩作为'买了花环就要买'的强制配件，需求与花环同步但竞争远小于花环本体；UK租房率+门厚差异让'可调长度+毛毡防刮'成为现成差异化点。单价低适合凑单（add-on item策略拉动转化）。",
+      "action": "322店铺货+007测款：£8.99定价（2只装£11.99）；1688采购'圣诞花环门后挂钩 可调 铁艺 30-38cm'，¥2.3-4.96/个，500起订；黑色/金色双配色；listing强调'no tools, no damage, felt backing'。",
+      "competition": "竞争低：UK站专做该品的listing少、评论基数低，Jsdoin白名单可对标；无品牌集中。风险：季节性单峰（11月中-12/20），2月后需求清零，需要控制补货节奏只做单季。",
+      "signal_scores": {
+        "trend": 68,
+        "gap": 78,
+        "profit": 90,
+        "final": 75,
+        "recommendation": "建议测品（强季节性）",
+        "profit_window": "£8.99售价-8%佣金£0.72-FBA£2.70-采购¥3.4≈£0.37-头程£0.55=净利£4.65≈52%。窗口：11/1-12/20单峰，12/21后停补"
+      }
+    }
+  ],
+  "trend_forecast": "基于本次扫描到的真实信号（TikTok Creator Search Insights 9/30数据、John Lewis 9/23圣诞店数据、Wake Commerce Amazon UK九月热搜、Amazon UK Best Sellers实况），未来3-4周（10/6-11/2）UK需求窗口预测如下：① 10月第2周（10/12-10/18）：万圣节最后一波冲刺+篝火之夜（11/5）备货启动。'halloween decorations 2026'在TikTok周搜索93万次居首（+48%），10月第2周是万圣节物流截单前最后的补货窗口，建议只补现有已验证款、不再开新品；篝火之夜方向关注防风披毯、野餐保温毯（非电、轻小、£9.99带），sparkler防护手套（皮革款，非body care非液体）可小批量试探。② 10月第3-4周（10/19-11/1）：圣诞装饰主升浪正式开始。John Lewis已验证gift wrap搜索5倍/圣诞餐具+25%/圣诞袜搜索+50%，'christmas decorations'九月已进Amazon UK热搜#157且每周上爬——包装周边（本日推荐的包装纸收纳袋）、圣诞桌布/餐垫、圣诞袜挂件在10月底前上架可吃到11月整月流量；注意圣诞灯串属灯具红线不做，转做灯串免钉固定件（09-29已推light clips，勿重复）。③ 10月底-11月初：Black Friday（11月末）蓄水期，收纳整理类是BF期间转化最高的家居细分类。'vacuum storage bags'九月热搜#83验证换季收纳需求，冬衣收纳/圣诞装饰收纳/床品收纳三线并行，但注意vacuum袋需要泵（有电机嫌疑）慎入，可做无泵压缩袋+站立式收纳箱方向；本日推荐的洗衣护洗袋在BF大促期间是典型凑单价（£6.99）爆发款。④ 11月第1周：热水袋/保暖品二波爬坡。'hot water bottle'九月已进top200（#138），10月底第一波寒潮会把它推进top50，本日推荐的针织外套是低风险切入款；同步关注暖脚被窝款（长条形，¥7套装成本）但须赶在11/20前空运到仓，之后窗口关闭。⑤ 贯穿性提醒：TikTok 'amazon winter must haves' 周涨1,061%且搜索结果里还没有2026年的新视频——这是内容端最大的空窗信号，意味着冬季保暖小件（非电）在10-11月有流量红利，选品方向优先：羊毛烘干球（已推）、针织套（已推）、羊绒护理、暖手豆（非电凝胶类注意液体红线，改选荞麦壳热敷袋）。所有建议以空运47天倒计时为准：11月中旬销售的圣诞款，最晚10月底前必须完成采购下单。"
+}
