@@ -1,0 +1,134 @@
+{
+  "date": "2026-10-07",
+  "updated_at": "2026-10-07 08:25",
+  "scan_date": "2026-10-07",
+  "scan_time": "08:25",
+  "summary": "5个新机会（5新品/0复扫），全部通过14天去重与红线筛查。本周四英国迎来今秋首霜（BBC），11月风暴季+圣诞树上市窗口三线叠加：①圣诞树养护工具存在真实空窗（Amazon UK在售listing 0评论无报价，eBay同款已成交74件）②保暖防风类需求陡升（TikTok 'amazon winter must haves'周搜索+1061%）③烤肉温度计含电池、拨动式暖手宝封液体均主动排除，只保留合规品类。",
+  "insights": [
+    {
+      "keyword": "christmas tree watering funnel long spout dipstick",
+      "keyword_cn": "圣诞树浇水长嘴漏斗（带量水尺）",
+      "amazon_keyword": "christmas tree watering funnel long spout dipstick",
+      "search_1688": "圣诞树浇水漏斗 长嘴浇树器 量水尺 PE加厚",
+      "demand_signals": [
+        "eBay UK同款74件成交、£10.92持续在售，5星好评（eBay sold listing 2024-12）",
+        "英国实体圣诞农场Dodds Leeds自营同款卖£9，带量水尺设计（christmastreeman.co.uk）",
+        "Amazon UK现存同类listing 0评论且无报价=上架空窗（B0DCFZMPCD）",
+        "美区同款4.9星验证品类需求成立（amazon.com B0DD7VSKVX）"
+      ],
+      "trend_score": 82,
+      "trend_direction": "up",
+      "reason": "英国真树家庭每年浇水都要趴到树底下，痛点真实且年年重复。eBay和实体渠道已验证付费意愿（£9-10.92），但Amazon UK恰好处于0评论空窗期——这是品类每年11月需求爆发前的入场窗口，TikTok UK圣诞消费9月中已提前进Top10，节点就在本周到下周。",
+      "action": "027店小批量空运测款60件，定价£9.99。采购选4段拼接式（每段25cm，包装26×8×4cm合规），带量水尺差异化；一体式1m超尺寸不做。1688搜'圣诞树浇水漏斗'约¥4-6。",
+      "competition": "低竞争窗口期：Amazon UK同类0评论无在售报价；eBay单一卖家74件成交无品牌集中。预计窗口12周内涌入，先发可拿类目关键词。",
+      "signal_scores": {
+        "trend": 82,
+        "gap": 90,
+        "profit": 75,
+        "final": 78,
+        "recommendation": "A-优先测款（027店60件空运）",
+        "profit_window": "10月中-12月第2周（真树上市至浇水高峰）"
+      }
+    },
+    {
+      "keyword": "window insulation film shrink kit secondary glazing",
+      "keyword_cn": "窗户保温收缩膜套装（二次玻璃密封）",
+      "amazon_keyword": "window insulation film shrink kit secondary glazing",
+      "search_1688": "窗户保温膜 收缩膜 冬季密封窗膜 双面胶套装",
+      "demand_signals": [
+        "BBC：本周四（10/8）今秋首霜，英格兰北部黎明1-2°C，草面结霜（bbc.co.uk 10-07）",
+        "3M同款12,524条评论证明品类需求刚性，但页面显示cannot be dispatched=英国市场断供（amazon.co.uk B00002NCJI）",
+        "差评集中抱怨自带胶带失效、粘不牢=明确差异化切口（amazon评论分析）",
+        "Met Office 10月下旬-11月低压带过境、降雨高于均值，取暖季提前（metoffice.gov.uk outlook）"
+      ],
+      "trend_score": 78,
+      "trend_direction": "up",
+      "reason": "首霜本周落地，取暖账单焦虑是英国每年10月固定剧本，窗膜是'不动电路不占空间'的第一响应品类。3M断供+胶带差评留下明确空位：做UK尺寸适配+加强胶带版即可卡位。",
+      "action": "007店首批80件，定价£10.99（2窗装+1卷加强胶带，控制在180g内；5窗装超重不做）。采购关键词'窗户保温收缩膜'约¥5-7，要求胶带初粘力测试报告。",
+      "competition": "中低竞争：3M 12.5K评论但海外购断供；UK本土品牌弱、无评论碾压者。注意避开'胶带差评'同款配方。",
+      "signal_scores": {
+        "trend": 78,
+        "gap": 70,
+        "profit": 72,
+        "final": 72,
+        "recommendation": "B+测款（007店80件）",
+        "profit_window": "10月中-次年1月（取暖季全程，10-11月爬坡最快）"
+      }
+    },
+    {
+      "keyword": "travel jewellery roll organiser foldable compact",
+      "keyword_cn": "旅行首饰收纳卷包（便携卷式）",
+      "amazon_keyword": "travel jewellery roll organiser foldable compact",
+      "search_1688": "旅行首饰收纳卷包 便携首饰卷 首饰收纳袋定制",
+      "demand_signals": [
+        "TikTok 'amazon jewelry must haves' 7天276,382次搜索、+37%（TokConnect 2026-10月报）",
+        "TikTok UK圣诞消费提前：9月中gifting类已进Top10（z.media 09-20周报），首饰收纳是£9.99送礼甜点价",
+        "homchen旅行首饰包755评4.6星Amazon's Choice验证品类需求（amazon.co.uk）",
+        "挂式收纳Oudizz £15.99超出价格带、EEEKit £16.99，£9.99价位段卷式产品稀疏"
+      ],
+      "trend_score": 76,
+      "trend_direction": "up",
+      "reason": "首饰品类搜索+37%叠加圣诞送礼前置，收纳卷是首饰赛道里唯一避开红海护理线的合规方向（容器类保留）。homchen盒式强，但卷式/扁平式在£9.99带内竞争稀疏，手提行李场景（伦敦通勤飞行圈）差异化明确。",
+      "action": "007店首批60件，定价£9.99。选卷式三折+搭扣款（约110g、16×11×5cm），内衬防氧化绒布做listing卖点。1688约¥6-9，可加定制logo烫金。",
+      "competition": "头部强但细分有空隙：homchen 755评4.6是盒式在位者；卷式£9.99带内无绝对头部。诚实标注：不碰挂式（£15.99价格带外且已有多卖家）。",
+      "signal_scores": {
+        "trend": 76,
+        "gap": 55,
+        "profit": 70,
+        "final": 62,
+        "recommendation": "B测款（007店60件，送礼包装版）",
+        "profit_window": "10月底-12月第3周（圣诞送礼季+新年旅行）"
+      }
+    },
+    {
+      "keyword": "air activated hand warmers 10 pairs winter",
+      "keyword_cn": "一次性自发热暖手贴10对装（冬季消耗品）",
+      "amazon_keyword": "air activated hand warmers 10 pairs winter",
+      "search_1688": "暖宝宝贴 自发热暖手贴 10片装 OEM 出口",
+      "demand_signals": [
+        "TikTok 'amazon winter must haves'周搜索+1061%至232,269次，且匹配视频数为0=词先于供给（TokConnect 10月报）",
+        "TerraTherm同类£7.49为Disposable Hand Warmers类目BSR#1、3840评4.4星、月售300+（amazon.co.uk B07T7H5M9K）",
+        "本周首霜+11月风暴季双催化（BBC/Met Office）",
+        "1688暖贴源头¥0.38/片、头部供应商成交598万件（1688.com）"
+      ],
+      "trend_score": 85,
+      "trend_direction": "up",
+      "reason": "冬季搜索词暴涨1061%而内容供给为零，说明需求启动早于卖家响应。暖贴是复购型消耗品（每次户外用完再买），LTV高于单次品；空气氧化发热为干粉工艺，非液体非膏体合规。注意：拨动式凝胶暖手宝封入液体，主动排除不做。",
+      "action": "007店+322老店跟量，定价£8.99（10对装，约180g合规）。1688选已过EN ISO/CE检测工厂约¥0.8-1.2/片，别碰¥0.3以下白牌（发热时长达标率差）。322店走补货复购逻辑。",
+      "competition": "竞争激烈要诚实说：HotHands 8,886评锚定£0.89/2片（£0.45/片），TerraTherm 3,840评£7.49/5对。打法定为10对装£0.90/对的量价卡位+listing发热时长实测图，正面拼装数性价比。",
+      "signal_scores": {
+        "trend": 85,
+        "gap": 45,
+        "profit": 80,
+        "final": 65,
+        "recommendation": "B测款+322跟量（消耗品复购逻辑）",
+        "profit_window": "10月中-次年2月（首霜启动，12-1月峰值）"
+      }
+    },
+    {
+      "keyword": "silicone cable clips desk cable management adhesive",
+      "keyword_cn": "硅胶数据线收纳夹5件套（自粘桌面理线）",
+      "amazon_keyword": "silicone cable clips desk cable management adhesive",
+      "search_1688": "硅胶理线夹 数据线固定夹 自粘 强胶桌面",
+      "demand_signals": [
+        "TikTok 'amazon desk must haves' 7天238,423次搜索、+22%（TokConnect 10月报）",
+        "TikTok爆量视频格式以桌面/厨房小工具演示为主，top视频中位播放990万、收藏/评论比13:1（TokConnect标签分析）",
+        "1688硅胶理线夹源头¥0.3-1，5件套装成本可压£0.5内（1688.com）"
+      ],
+      "trend_score": 68,
+      "trend_direction": "flat-up",
+      "reason": "desk must haves稳定在23万+搜索量级且秋季办公回归驱动，桌面理线是常青小额品，天然适合£6.99低价测款凑利润率。作为本周第5候补，置信度中等——未抓到具体竞品listing数据，上架前需补一次竞品扫描。",
+      "action": "027店低成本测款40件，定价£6.99（5件套约40g）。1688选3M背胶款约¥2.5/套，差评集中在'胶残留'，选无痕可移胶版本。上架前先补扫竞品评论数再定投量。",
+      "competition": "诚实标注：本次未抓到Amazon UK具体竞品评论数据，置信度中等；品类通常多白牌低评分散，上架前必须补扫验证。",
+      "signal_scores": {
+        "trend": 68,
+        "gap": 60,
+        "profit": 78,
+        "final": 60,
+        "recommendation": "C+低成本试款（027店40件，先补扫竞品）",
+        "profit_window": "全年常青，9-1月办公返校/居家季稍强"
+      }
+    }
+  ],
+  "trend_forecast": "① 10月第2-3周（10/8-10/20）：今秋首霜本周四落地（BBC确认英格兰北部黎明1-2°C），取暖季正式启动。窗户保温收缩膜、门缝密封条、暖气片辅助配件（bleed key已推过勿重复）三类需求将陡升，这是'取暖账单焦虑'的年度固定剧本，保温类listing此刻上架正好吃满爬坡期。② 10月第3-4周（10/20-10/31）：Halloween收尾（10/31）与Bonfire Night（11/5）之间有10天空档，篝火夜前一周是防风点火工具、户外保温毯、荧光配件的小峰值——glow sticks 9/28已推过，剩余空位在耐高温手套类和户外盖毯，节点后需求立即断崖，只适合小批量快进快出。③ 10月第4周-11月第1周：圣诞树养护与装饰辅助工具的最后入场窗口。英国真树传统12月头才搬回家，但TikTok UK数据显示圣诞SKU 9月中已进Top10（圣诞Squishies日历£7.70单价一周卖27,532件），消费明显前置；浇水漏斗、树枝理顺喷头座、树裙收纳类的关键词坑位11月中后将进入红海，本周到下周是上架黄金期。④ 11月第1周起：Black Friday（2026年11月27日）备货节点，小件空运测款的最后窗口在11月初，之后空运时效赶不上BF当周，这批测款如果10月中下旬到货正好赶上BF前2周的销售蓄水期——027店60件小批量节奏与此匹配。⑤ 11月全月：Met Office展望11月低压系统更频繁过境、可能出命名风暴，风暴季带动应急品类（应急保温毯、防雨装备罩、非电子照明以外的保温需求），叠加'amazon winter must haves'周搜索+1061%的词先于供给信号，冬季刚需小品（暖贴类消耗品）将从11月起进入3个月长坡，适合322老店做复购型补货而非一次性测款。整体判断：未来4周是'保温+圣诞养护+BF备货'三线叠加期，重点资源应压在①③两条线上。"
+}
