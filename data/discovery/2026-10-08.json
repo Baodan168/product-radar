@@ -1,0 +1,135 @@
+{
+  "date": "2026-10-08",
+  "updated_at": "2026-10-08T08:23:00+08:00",
+  "scan_date": "2026-10-08",
+  "scan_time": "08:23",
+  "summary": "今日5个新品类机会（新品5、复扫0），全部非电子、≤200g、可空运：主线一=10-25时钟回拨+11-05篝火夜驱动的安全配件（儿童防割火花手套、儿童反光背心）；主线二=圣诞倒计时90天窗口的elf精灵配件kit；主线三=Amazon UK Garden榜单BBQ品类集体上涨带出的机械烤肉温度计；另有一个TikTok UK信号承接的儿童EVA雨衣。",
+  "insights": [
+    {
+      "keyword": "christmas elf accessories props kit 24 days",
+      "keyword_cn": "圣诞精灵配件道具套装（24天场景卡）",
+      "amazon_keyword": "christmas elf on shelf props kit accessories",
+      "search_1688": "圣诞精灵配件道具套装 elf props 卡片",
+      "demand_signals": [
+        "①elfkitshop官网2026款28天kit标注'kits ship in October and sell out before December'，DTC渠道10月即售罄（来源：elfkitshop.com FAQ）",
+        "②Amazon UK官方Elf Door Kit常青：409评4.6星，官方Polar Props 24日kit为英国官网主推（来源：amazon.co.uk/shop.elfontheshelf.co.uk）",
+        "③TikTok Shop UK周报（10-04当周）圣诞日历预售+11%增长，Q4礼赠动量10月已启动（来源：z.media TikTok Shop UK周报）",
+        "④第三方elf配件在亚马逊已有108评4.6星listing，需求正从官方店外溢到第三方配件市场（来源：amazon.co.uk B0BT6FRF2V）"
+      ],
+      "trend_score": 88,
+      "trend_direction": "up",
+      "reason": "圣诞倒计时90天，英国elf tradition家庭每年12月1日-24日每天需布置场景，官方kit £21.95+但场景道具分散，第三方'开箱即用24天kit'在亚马逊站内供给稀疏。DTC渠道10月售罄证明需求确定性，此品类每年重复消费（非一次性）。",
+      "action": "007/027小批量空运60件测品，定价£11.99（24天mini kit：场景卡+小道具+arrival letter）。1688搜'圣诞精灵配件道具套装'（义乌圣诞礼品厂集群，估¥25-40/套）。⚠️listing标题禁用'Elf on the Shelf'商标词，用'christmas elf'；推前做标题关键词IP筛查。",
+      "competition": "官方品牌垄断品牌词（409评），第三方站内多为散件配件；完整24天kit在亚马逊无90天沉淀大卖listing，是结构空档。风险：客单价高SKU装配复杂，供应商需支持分袋包装。",
+      "signal_scores": {
+        "trend": 88,
+        "gap": 72,
+        "profit": 74,
+        "final": 79,
+        "recommendation": "强推：3店中最适合007增长期，Q4复购口碑品类",
+        "profit_window": "£11.99-12.99；£11.99扣佣金15%+FBA(约400g档)+采购≈33%硬成本毛利（Lee口径，不含广告/退货）"
+      }
+    },
+    {
+      "keyword": "kids waterproof rain poncho school backpack cover",
+      "keyword_cn": "儿童EVA雨衣（带书包位）",
+      "amazon_keyword": "kids rain poncho waterproof eva school pack",
+      "search_1688": "儿童EVA雨衣带书包位 加厚非一次性",
+      "demand_signals": [
+        "①TikTok Shop UK 10-04当周PUFFIT雨衣£131,525 GMV、684位创作者带货，雨具是本周美妆外最强品类（来源：z.media周报）",
+        "②10-25时钟回拨+英国秋冬降雨高峰，school-run早送晚接场景刚需，需求持续到次年2月（来源：gov.uk时钟日历+季节规律）",
+        "③义乌购EVA雨衣现货¥1.88-3.75多档（18丝95g儿童款起批5件），供应链小单快反成熟（来源：yiwugo.com 971755184）",
+        "④95-150g超轻可空运，折后扁平包装≤32×22×6cm红线内（来源：义乌装箱数据45×25×50cm/50件）"
+      ],
+      "trend_direction": "up",
+      "trend_score": 78,
+      "reason": "TikTok带货验证了成人雨衣热度，儿童school-run场景是被忽视的承接位：英国小学普遍户外步行上学，'书包也要淋湿'是真实痛点，带书包位+反光条款式在£8.99价格带供给少。EVA非一次性环保材质符合UK买家偏好。",
+      "action": "027测品启动期单，定价£8.99。1688搜'儿童EVA雨衣带书包位'（¥19-21/件常规款，谈量可到¥18.5，选高领按扣升级款）。差异点：袖口反光条+收纳袋印卡通。",
+      "competition": "亚马逊儿童雨衣£12+卡通款为主，Regatta/Fisher-Price硬壳£15-25；£8.99带书包位EVA款少但有零星seller进入，需靠主图school-run场景+反光条差异化。卡通印花注意避开迪士尼/宝可梦IP形象，用义乌原创图案。",
+      "signal_scores": {
+        "trend": 78,
+        "gap": 80,
+        "profit": 76,
+        "final": 78,
+        "recommendation": "强推：027首发，轻小件空运运费最低的类目之一",
+        "profit_window": "£8.99：佣金15%+FBA(200g档)+采购≈45-50%硬成本毛利，价格带内利润最优"
+      }
+    },
+    {
+      "keyword": "kids cut resistant gloves sparkler carving",
+      "keyword_cn": "儿童防割手套（5级HPPE）",
+      "amazon_keyword": "kids cut resistant gloves carving kitchen garden",
+      "search_1688": "儿童防割手套 HPPE 5级",
+      "demand_signals": [
+        "①UK消防服务官方指南明确'older children should wear gloves'持sparkler，11-05篝火夜前家长安全搜索峰值（来源：safety-app.co.uk bonfire night指南）",
+        "②Amazon UK儿童防割手套评论近乎真空：Fastroads儿童款页面上无任何评论沉淀（来源：amazon.co.uk B07Q7VJ3LN）",
+        "③成人款Schwer ANSI A9单款3476评4.4星，验证品类需求总量，儿童细分无人卡位（来源：amazon.co.uk B09GTYVJ58）",
+        "④10月下旬南瓜雕刻（carving）+篝火夜sparkler双场景叠加，11月底起转圣诞手工木雕场景，生命周期3个月+（来源：节日日历）"
+      ],
+      "trend_direction": "up",
+      "trend_score": 70,
+      "reason": "sparkler烧伤是篝火夜儿童意外第一名，安全指引已把'戴手套'写进官方建议，家长是带着确定性需求来搜的。成人款红海、儿童款真空是典型的gap结构，且双只装成本极低。",
+      "action": "027测品，定价£7.99-8.99双只装，1688搜'儿童防割手套HPPE'（¥3-5/双）。listing卖点：EN388 5级+南瓜雕刻/sparkler/园艺三场景+洗后可复用。与南瓜雕刻工具捆绑促销（工具9-21已推过，不复推）。",
+      "competition": "成人款品牌集中（Schwer/NoCry），儿童款无沉淀listing、无品牌卡位，评论真空即窗口。风险：单价低利润绝对值小，靠多件装和多场景拉客单。",
+      "signal_scores": {
+        "trend": 70,
+        "gap": 62,
+        "profit": 82,
+        "final": 71,
+        "recommendation": "推：作为027低价引流品，与反光背心组'安全套装'",
+        "profit_window": "£7.99-8.99；£8.99扣佣金+200g档FBA+采购≈50%硬成本毛利，靠绝对成本低取胜"
+      }
+    },
+    {
+      "keyword": "kids hi vis reflective safety vest walking pack",
+      "keyword_cn": "儿童反光背心（荧光黄/橙 双件装）",
+      "amazon_keyword": "kids hi vis reflective vest safety walking",
+      "search_1688": "儿童反光背心 荧光黄 EN1150",
+      "demand_signals": [
+        "①10-25时钟回拨是hi vis品类的季节性发令枪：暗光通勤/遛狗/骑行搜索10月陡升、持续到2月（来源：UK季节性规律+gov.uk时钟日历）",
+        "②Amazon UK成人款老牌在售（Uncle Paul 4.1星、EN20471材质款多款），儿童合身款细分listing少、大品牌未卡位（来源：amazon.co.uk B06VWBV4P8）",
+        "③万圣节trick or treat夜行+11-05篝火夜路边观展双场景，家长主动购置（来源：bonfire night安全指南）",
+        "④70-110g极轻，义乌¥4-7/件供应链，双件装'大人+小孩一套'差异定位（来源：1688行情）"
+      ],
+      "trend_direction": "up",
+      "trend_score": 74,
+      "reason": "时钟回拨是每年固定的需求开关，hi vis是英国骑车/步行的合规文化单品。成人款已验证市场，儿童款在'亲子遛狗/上学'场景下缺一个£7.99两件装的家庭装方案。",
+      "action": "007/027双店测，定价£7.99两件装（1大1小）。1688搜'儿童反光背心EN1150'（¥4-7/件）。差异点：儿童款按EN1150标准+魔术贴可调腰围+书包盖住也不挡反光带的前置双横条。",
+      "competition": "成人款集中（Salzmann/Uncle Paul等多款老listing），儿童款Salzmann有3M款但评论分散、无双件装家庭方案。差异化靠pack定位而非单件价格战。",
+      "signal_scores": {
+        "trend": 74,
+        "gap": 84,
+        "profit": 72,
+        "final": 76,
+        "recommendation": "推：与防割手套共享'秋冬儿童安全'人群，组合营销",
+        "profit_window": "£7.99两件装；扣佣金15%+200g档FBA+双件采购≈45-48%硬成本毛利"
+      }
+    },
+    {
+      "keyword": "mechanical bbq meat thermometer dial stainless",
+      "keyword_cn": "机械表盘烤肉温度计（无电池）",
+      "amazon_keyword": "meat thermometer bbq grill dial stainless steel",
+      "search_1688": "机械烤肉温度计 不锈钢 表盘",
+      "demand_signals": [
+        "①Amazon UK Garden Movers & Shakers当日：Grillman BBQ盖93%↑(rank 440→192)、BEEWAY烧烤盖多尺寸霸榜，BBQ品类24小时内集体上涨（来源：amazon.co.uk/gp/movers-and-shakers/outdoors 2026-10-08）",
+        "②英媒10月起连续推荐bonfire night BBQ：篝火夜+烟花表演自带BBQ传统，10月底-11月是英国'第二烧烤季'（来源：bonfire night安全指南+英媒板块）",
+        "③机械表盘款无电池无USB无认证门槛，完全符合非电子红线，且60-80g超轻（来源：品类结构）",
+        "④黑五11-27前厨房小工具礼赠搜索抬头，£7.99-9.99是stocking filler心理价位（来源：Q4礼赠日历）"
+      ],
+      "trend_direction": "up",
+      "trend_score": 82,
+      "reason": "Movers & Shakers是24小时真实销量变化，BBQ配饰集体跳涨说明英国正进入篝火夜BBQ备货期。电子款(ThermoPro)红海但£12+，机械款£6-9卡位且无电池差评源（低温不工作/换电池是电子款差评主因）。",
+      "action": "007测品，定价£7.99-9.99。1688搜'机械烤肉温度计不锈钢'（¥10-16/支，双表盘探针款）。卖点：即时读数+目标温度刻度盘(beef/pork/lamb)+可挂在烤架上，配篝火夜BBQ场景图。",
+      "competition": "电子数显款品牌高度集中（ThermoPro数千评），机械表盘款评论普遍几十-几百、价格带£5-9分散，无绝对头部。风险：机械款精度差评需主图强调'刻度参照'用法降低预期。",
+      "signal_scores": {
+        "trend": 82,
+        "gap": 68,
+        "profit": 70,
+        "final": 74,
+        "recommendation": "推：非电子+轻小件+黑五礼赠三重窗口，竞争低于电子款",
+        "profit_window": "£8.99：佣金15%+200g档FBA+采购≈40-44%硬成本毛利"
+      }
+    }
+  ],
+  "trend_forecast": "① 10月第2-3周（10-15至10-25）：篝火夜安全配件窗口正式打开。驱动事件：10-15英格兰威尔士烟花合法开售、10-25凌晨2点时钟回拨。具体品类方向：sparkler防割手套、儿童/成人反光背心、荧光棒补充装（glow sticks 9-28已推过不复推）、防火烤炉手套、篝火夜BBQ配饰（烤肉温度计、烤网盖）。家长在烟花开售日和时钟回拨日两个节点集中采购，10-18前上架仍有完整窗口，建议此周内完成空运发货。② 10月第3周-11月初（10-25至11-05）：圣诞倒计时进入90天临界点，elf on the shelf场景生态进入备货高峰。英国elf tradition家庭在12月1日精灵登场前2-6周开始买配件，DTC渠道（elfkitshop等）10月已售罄是先行信号。方向：24天精灵配件kit、精灵arrival letter套装、精灵服装小件；避开官方商标词。同期Diwali（11-08）尾单清货，不建议再入新灯饰（9-30已推灯座）。③ 11月第1-3周（11-06至11-26）：黑五（11-27）前stocking filler黄金期。£5.99-9.99小件礼盒逻辑主导：双件装手套+背心'家庭安全套装'、机械烤肉温度计、厨房多件装小工具。方向上优先做多件装组合而非单品，客单拉到£8.99+以对冲空运成本。圣诞烘焙类（姜饼模具9-28、裱花嘴10-03均已推过）不再复推，转向非烘焙的圣诞手工（毛毡挂饰材料包方向待验证）。④ 11月中-12月初（11-16至12-06）：家庭室内活动期+物流红线提醒。低温夜间室内DIY kit、亲子桌游小卡牌、sensory玩具方向有需求（mochi squishy 10-05已推过，需换新形态如捏捏乐新材质）。⚠️物流提醒：11月15日后中英空运舱位趋紧、运价惯例性上涨15-25%，所有Q4测品应在11-10前完成首批发货，之后只补返单。⑤ 12月初（12-07至12-20）：最后一波'last minute'礼品冲动单，主打亚马逊Prime当日达覆盖的轻小件，方向为圣诞袜小礼物级别（£5.99-7.99）现货深度而非新品，此阶段不再建议新测品，转补货逻辑。以上基于本次扫描到的Amazon UK Movers & Shakers实时跳涨、TikTok Shop UK 10-04当周GMV周报、官方安全指引发布节奏三类真实信号。"
+}
