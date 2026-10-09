@@ -1,0 +1,2519 @@
+{
+  "scan_date": "2026-10-09",
+  "scan_time": "08:50",
+  "scan_ts": "2026-10-09_0850",
+  "stats": {
+    "total_scanned": 126,
+    "passed": 0,
+    "sources": [
+      "amazon",
+      "keyword",
+      "tiktok"
+    ]
+  },
+  "products": [
+    {
+      "asin": "B08TWZD1H4",
+      "name": "DESIRETECH White Electric Extension Lead - 4 Gang, 2 Metre Cable with UK Plug & 3 Pin Socket - Wall Mountable & Multi So",
+      "price": 5.82,
+      "reviews": 13379,
+      "rating": 4.6,
+      "rank": 1,
+      "category": "DIY",
+      "channel": "bsr",
+      "channel_name": "Amazon畅销榜",
+      "review_info": "13379 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B08TWZD1H4",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/61CRTp6Sg4L._AC_UL300_SR300,200_.jpg"
+    },
+    {
+      "asin": "B0B6GKH3C2",
+      "name": "Ring Indoor Camera (2nd Gen) | Plug-In Pet Security Camera | 1080p HD, Two-Way Talk, Wifi, Privacy Cover, DIY | alternat",
+      "price": 19.99,
+      "reviews": 10072,
+      "rating": 4.6,
+      "rank": 2,
+      "category": "DIY",
+      "channel": "bsr",
+      "channel_name": "Amazon畅销榜",
+      "review_info": "10072 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0B6GKH3C2",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/51O+1JKzhfL._AC_UL300_SR300,200_.jpg"
+    },
+    {
+      "asin": "B07XJFH54B",
+      "name": "Masterplug Four Socket Extension Lead, 2 Metre Cable, Surge Protection, Individual Switches, Power and Surge LED Indicat",
+      "price": 7.92,
+      "reviews": 1231,
+      "rating": 4.8,
+      "rank": 3,
+      "category": "DIY",
+      "channel": "bsr",
+      "channel_name": "Amazon畅销榜",
+      "review_info": "1231 reviews, 4.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B07XJFH54B",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/61IMEWEqNEL._AC_UL300_SR300,200_.jpg"
+    },
+    {
+      "asin": "B097GVMBBH",
+      "name": "Sponsored Ad – Isotoner Ladies Original Stretch Glove with Smartouch",
+      "price": 15.0,
+      "reviews": 79,
+      "rating": 4.2,
+      "rank": 2,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "79 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B097GVMBBH",
+      "image_url": "https://m.media-amazon.com/images/I/611yQVb0UfS._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "touch screen gloves",
+      "festival_event": "黑五",
+      "festival_icon": "🛍️",
+      "festival_deadline": "2026-10-11",
+      "is_event": true,
+      "sources": [
+        "📅 黑五"
+      ]
+    },
+    {
+      "asin": "B0HF8GJP16",
+      "name": "Sponsored Ad – velmuno 100% Pure Cashmere Winter Gloves for Men & Women | Ultra-Soft Warm Touchscreen Lightweight Therma",
+      "price": 16.99,
+      "reviews": 22,
+      "rating": 4.0,
+      "rank": 5,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "22 reviews, 4.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HF8GJP16",
+      "image_url": "https://m.media-amazon.com/images/I/71oeo7Ld-AL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "touch screen gloves",
+      "festival_event": "黑五",
+      "festival_icon": "🛍️",
+      "festival_deadline": "2026-10-11",
+      "is_event": true,
+      "sources": [
+        "📅 黑五"
+      ]
+    },
+    {
+      "asin": "B0DD6RP5H8",
+      "name": "BBXWANG 6 Pairs Winter Gloves - Knitted Magic Touch Screen Thermal Mittens for Phone Use, Outdoor Activities",
+      "price": 8.99,
+      "reviews": 177,
+      "rating": 4.4,
+      "rank": 8,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "177 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DD6RP5H8",
+      "image_url": "https://m.media-amazon.com/images/I/71iY5fJLWiL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "touch screen gloves",
+      "festival_event": "黑五",
+      "festival_icon": "🛍️",
+      "festival_deadline": "2026-10-11",
+      "is_event": true,
+      "sources": [
+        "📅 黑五"
+      ]
+    },
+    {
+      "asin": "B0DPHXB64Z",
+      "name": "Sponsored Ad – WFX Winter Running Gloves Touch Screen Anti-Slip Silicone Gel Lightweight Gloves Warm Liner Gloves Elasti",
+      "price": 4.99,
+      "reviews": 51,
+      "rating": 4.0,
+      "rank": 11,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "51 reviews, 4.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DPHXB64Z",
+      "image_url": "https://m.media-amazon.com/images/I/81OqYykVMYL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "touch screen gloves",
+      "festival_event": "黑五",
+      "festival_icon": "🛍️",
+      "festival_deadline": "2026-10-11",
+      "is_event": true,
+      "sources": [
+        "📅 黑五"
+      ]
+    },
+    {
+      "asin": "B0G2Y2QZJ3",
+      "name": "HEIZHU Thermal Magic Gloves Elastic Soft Lined Knit Glove for Driving Running Typing, Winter Touch Screen Gloves for Men",
+      "price": 2.82,
+      "reviews": 22,
+      "rating": 3.5,
+      "rank": 14,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "22 reviews, 3.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0G2Y2QZJ3",
+      "image_url": "https://m.media-amazon.com/images/I/61SFEkIa2kL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "touch screen gloves",
+      "festival_event": "黑五",
+      "festival_icon": "🛍️",
+      "festival_deadline": "2026-10-11",
+      "is_event": true,
+      "sources": [
+        "📅 黑五"
+      ]
+    },
+    {
+      "asin": "B0H8C3TKFC",
+      "name": "Sponsored Ad – HANDOOS Merino Wool Gloves Men & Women, Touchscreen Thermal Winter Gloves | Made with 70% Merino Wool for",
+      "price": 10.82,
+      "reviews": 0,
+      "rating": 4.6,
+      "rank": 16,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "0 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H8C3TKFC",
+      "image_url": "https://m.media-amazon.com/images/I/81OVmTAIs5L._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "touch screen gloves",
+      "festival_event": "黑五",
+      "festival_icon": "🛍️",
+      "festival_deadline": "2026-10-11",
+      "is_event": true,
+      "sources": [
+        "📅 黑五"
+      ]
+    },
+    {
+      "asin": "B0HF3DTPP1",
+      "name": "Sponsored Ad – viiotu Winter Gloves for Women Thermal Touch Screen Warm Knit Fleece Lined | Featuring dual-finger touch ",
+      "price": 6.66,
+      "reviews": 0,
+      "rating": 5.0,
+      "rank": 18,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "0 reviews, 5.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HF3DTPP1",
+      "image_url": "https://m.media-amazon.com/images/I/71QhkyKtHxL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "touch screen gloves",
+      "festival_event": "黑五",
+      "festival_icon": "🛍️",
+      "festival_deadline": "2026-10-11",
+      "is_event": true,
+      "sources": [
+        "📅 黑五"
+      ]
+    },
+    {
+      "asin": "B0CHRXNRD3",
+      "name": "Sponsored Ad – totes Mens Stretch Knitted SmarTouch Gloves",
+      "price": 8.33,
+      "reviews": 10,
+      "rating": 4.8,
+      "rank": 19,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "10 reviews, 4.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CHRXNRD3",
+      "image_url": "https://m.media-amazon.com/images/I/61BBfDEHhfL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "touch screen gloves",
+      "festival_event": "黑五",
+      "festival_icon": "🛍️",
+      "festival_deadline": "2026-10-11",
+      "is_event": true,
+      "sources": [
+        "📅 黑五"
+      ]
+    },
+    {
+      "asin": "B0FWRB4DH3",
+      "name": "HZHSGLY Glove Liners for Cold Weather, Thermal Liner Gloves Winter Lightweight Touch Screen Liner Glove for Men Women Wo",
+      "price": 4.16,
+      "reviews": 19,
+      "rating": 4.2,
+      "rank": 20,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "19 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FWRB4DH3",
+      "image_url": "https://m.media-amazon.com/images/I/61XjX-WeeCL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "touch screen gloves",
+      "festival_event": "黑五",
+      "festival_icon": "🛍️",
+      "festival_deadline": "2026-10-11",
+      "is_event": true,
+      "sources": [
+        "📅 黑五"
+      ]
+    },
+    {
+      "asin": "B0HDY8XRZW",
+      "name": "Sponsored Ad – Thhiit 12 Pairs Magic Touch Screen Thermal Glove, Knitted Winter Gloves | for Outdoor Activities, Electro",
+      "price": 10.82,
+      "reviews": 0,
+      "rating": 5.0,
+      "rank": 22,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "0 reviews, 5.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HDY8XRZW",
+      "image_url": "https://m.media-amazon.com/images/I/71qaUR1ZuWL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "touch screen gloves",
+      "festival_event": "黑五",
+      "festival_icon": "🛍️",
+      "festival_deadline": "2026-10-11",
+      "is_event": true,
+      "sources": [
+        "📅 黑五"
+      ]
+    },
+    {
+      "asin": "B0HF7TCTZT",
+      "name": "Sponsored Ad – velmuno Superfine Merino Wool Winter Gloves for Men & Women Gift | Warm & Soft & Non-Slip Touchscreen The",
+      "price": 8.49,
+      "reviews": 34,
+      "rating": 4.7,
+      "rank": 23,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "34 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HF7TCTZT",
+      "image_url": "https://m.media-amazon.com/images/I/81yLatVFQGL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "touch screen gloves",
+      "festival_event": "黑五",
+      "festival_icon": "🛍️",
+      "festival_deadline": "2026-10-11",
+      "is_event": true,
+      "sources": [
+        "📅 黑五"
+      ]
+    },
+    {
+      "asin": "B0HD727MYB",
+      "name": "LXEASYGO 6 Pairs Black Winter Gloves Unisex Knitted Magic Adult Touch Screen Thermal Mittens for Cycling Running",
+      "price": 4.99,
+      "reviews": 0,
+      "rating": 4.8,
+      "rank": 24,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "0 reviews, 4.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HD727MYB",
+      "image_url": "https://m.media-amazon.com/images/I/61untjhxKAL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "touch screen gloves",
+      "festival_event": "黑五",
+      "festival_icon": "🛍️",
+      "festival_deadline": "2026-10-11",
+      "is_event": true,
+      "sources": [
+        "📅 黑五"
+      ]
+    },
+    {
+      "asin": "B0D4B1ZVS5",
+      "name": "SEALSKINZ Harling | Waterproof All Weather Touchscreen Cycling Glove",
+      "price": 41.63,
+      "reviews": 101,
+      "rating": 4.2,
+      "rank": 26,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "101 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0D4B1ZVS5",
+      "image_url": "https://m.media-amazon.com/images/I/81mmb8DggyL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "touch screen gloves",
+      "festival_event": "黑五",
+      "festival_icon": "🛍️",
+      "festival_deadline": "2026-10-11",
+      "is_event": true,
+      "sources": [
+        "📅 黑五"
+      ]
+    },
+    {
+      "asin": "B0DYY1DR4Z",
+      "name": "UV Sun Protection Gloves Women Touchscreen Non Slip Driving Gloves, Full Finger Ice Silk Thin Gloves for Travel Golfing ",
+      "price": 6.58,
+      "reviews": 57,
+      "rating": 4.6,
+      "rank": 27,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "57 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DYY1DR4Z",
+      "image_url": "https://m.media-amazon.com/images/I/51h-OoW+s2L._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "touch screen gloves",
+      "festival_event": "黑五",
+      "festival_icon": "🛍️",
+      "festival_deadline": "2026-10-11",
+      "is_event": true,
+      "sources": [
+        "📅 黑五"
+      ]
+    },
+    {
+      "asin": "B0FXF1KWZK",
+      "name": "BOGCLEE Touch Screen Gloves, Touchscreen Winter Warm Knit Gloves, Mens and Womens Thermal Glove, Warm Knit Touchscreen G",
+      "price": 3.99,
+      "reviews": 0,
+      "rating": 4.1,
+      "rank": 28,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "0 reviews, 4.1★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FXF1KWZK",
+      "image_url": "https://m.media-amazon.com/images/I/61jKPH9jzYL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "touch screen gloves",
+      "festival_event": "黑五",
+      "festival_icon": "🛍️",
+      "festival_deadline": "2026-10-11",
+      "is_event": true,
+      "sources": [
+        "📅 黑五"
+      ]
+    },
+    {
+      "asin": "B0FWCJXS5S",
+      "name": "Lafefe Heat Holders Thermal Gloves for Women, Knitted Thermal Mittens, Touch Screen Winter Gloves",
+      "price": 5.42,
+      "reviews": 143,
+      "rating": 4.3,
+      "rank": 36,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "143 reviews, 4.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FWCJXS5S",
+      "image_url": "https://m.media-amazon.com/images/I/81PCD7OB1tL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "touch screen gloves",
+      "festival_event": "黑五",
+      "festival_icon": "🛍️",
+      "festival_deadline": "2026-10-11",
+      "is_event": true,
+      "sources": [
+        "📅 黑五"
+      ]
+    },
+    {
+      "asin": "B0G4GK833P",
+      "name": "LXEASYGO 6 Pairs Winter Unisex Thermal Gloves Touch Screen Knitted Warm Magic Gloves for Outdoor Skiing Walking Running",
+      "price": 4.99,
+      "reviews": 14,
+      "rating": 4.5,
+      "rank": 50,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "14 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0G4GK833P",
+      "image_url": "https://m.media-amazon.com/images/I/711YFi+MK+L._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "touch screen gloves",
+      "festival_event": "黑五",
+      "festival_icon": "🛍️",
+      "festival_deadline": "2026-10-11",
+      "is_event": true,
+      "sources": [
+        "📅 黑五"
+      ]
+    },
+    {
+      "asin": "B0DKNQR3N6",
+      "name": "KEYRI 3 Pairs Women Winter Knitted Gloves, Touch Screen Gloves Thermal Knitted Gloves for Women Thicken Windproof Keep W",
+      "price": 4.41,
+      "reviews": 48,
+      "rating": 4.0,
+      "rank": 51,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "48 reviews, 4.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DKNQR3N6",
+      "image_url": "https://m.media-amazon.com/images/I/713qyCRqyKL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "touch screen gloves",
+      "festival_event": "黑五",
+      "festival_icon": "🛍️",
+      "festival_deadline": "2026-10-11",
+      "is_event": true,
+      "sources": [
+        "📅 黑五"
+      ]
+    },
+    {
+      "asin": "B0HF1M95Z2",
+      "name": "2 Pairs Touch Screen Waterproof Thermal Winter Gloves for Women",
+      "price": 5.82,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 54,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HF1M95Z2",
+      "image_url": "https://m.media-amazon.com/images/I/71IBlB1z38L._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "touch screen gloves",
+      "festival_event": "黑五",
+      "festival_icon": "🛍️",
+      "festival_deadline": "2026-10-11",
+      "is_event": true,
+      "sources": [
+        "📅 黑五"
+      ]
+    },
+    {
+      "asin": "B0DJQK76QF",
+      "name": "MXHBSTP Cycling Gloves, Waterproof Gloves, Touchscreen Running Gloves Warm Winter Gloves for Men And Women, Hiking Glove",
+      "price": 5.82,
+      "reviews": 108,
+      "rating": 4.3,
+      "rank": 59,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "108 reviews, 4.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DJQK76QF",
+      "image_url": "https://m.media-amazon.com/images/I/717ZpGn7IaL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "touch screen gloves",
+      "festival_event": "黑五",
+      "festival_icon": "🛍️",
+      "festival_deadline": "2026-10-11",
+      "is_event": true,
+      "sources": [
+        "📅 黑五"
+      ]
+    },
+    {
+      "asin": "B0DPHYD152",
+      "name": "WFX Winter Running Gloves Touch Screen Anti-Slip Silicone Gel Lightweight Gloves Warm Liner Gloves Elastic Cuff Windproo",
+      "price": 4.99,
+      "reviews": 51,
+      "rating": 4.0,
+      "rank": 60,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "51 reviews, 4.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DPHYD152",
+      "image_url": "https://m.media-amazon.com/images/I/81OqYykVMYL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "touch screen gloves",
+      "festival_event": "黑五",
+      "festival_icon": "🛍️",
+      "festival_deadline": "2026-10-11",
+      "is_event": true,
+      "sources": [
+        "📅 黑五"
+      ]
+    },
+    {
+      "asin": "B0H93QDYHD",
+      "name": "Sponsored Ad – 3L Humidifier for Bedroom - Smart Cool Mist Humidifier with Night Light, Ultra-Quiet Dual Spray Air Humid",
+      "price": 20.82,
+      "reviews": 18,
+      "rating": 4.3,
+      "rank": 6,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "18 reviews, 4.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H93QDYHD",
+      "image_url": "https://m.media-amazon.com/images/I/61Qg0w9wvmL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "humidifier",
+      "festival_event": "黑五",
+      "festival_icon": "🛍️",
+      "festival_deadline": "2026-10-11",
+      "is_event": true,
+      "sources": [
+        "📅 黑五"
+      ]
+    },
+    {
+      "asin": "B0H2Y81PQR",
+      "name": "Sponsored Ad – 3L Cordless Cool Mist Humidifier for Bedroom, Baby Room & Home | Tap or mineral water safe. 4000mAh batte",
+      "price": 39.99,
+      "reviews": 29,
+      "rating": 4.6,
+      "rank": 8,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "29 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H2Y81PQR",
+      "image_url": "https://m.media-amazon.com/images/I/61jcfF7kKBL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "humidifier",
+      "festival_event": "黑五",
+      "festival_icon": "🛍️",
+      "festival_deadline": "2026-10-11",
+      "is_event": true,
+      "sources": [
+        "📅 黑五"
+      ]
+    },
+    {
+      "asin": "B0HBWBDP8M",
+      "name": "Sponsored Ad – LKV Mini Cool Mist Humidifier for Bedroom with Night Light Ultra Quiet | 2 Spray Modes, Auto Shut-Off, US",
+      "price": 12.78,
+      "reviews": 21,
+      "rating": 4.2,
+      "rank": 9,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "21 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HBWBDP8M",
+      "image_url": "https://m.media-amazon.com/images/I/61GS-90zGDL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "humidifier",
+      "festival_event": "黑五",
+      "festival_icon": "🛍️",
+      "festival_deadline": "2026-10-11",
+      "is_event": true,
+      "sources": [
+        "📅 黑五"
+      ]
+    },
+    {
+      "asin": "B0F2HH4LJX",
+      "name": "Amazon Basics Humidifiers for Bedroom, Top Fill 3L Water Tank, Essential Oil Diffuser, White",
+      "price": 22.72,
+      "reviews": 17,
+      "rating": 4.5,
+      "rank": 10,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "17 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0F2HH4LJX",
+      "image_url": "https://m.media-amazon.com/images/I/51aMzWBjvpL._AC_UY218_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "humidifier",
+      "festival_event": "黑五",
+      "festival_icon": "🛍️",
+      "festival_deadline": "2026-10-11",
+      "is_event": true,
+      "sources": [
+        "📅 黑五"
+      ]
+    },
+    {
+      "asin": "B0H9RVSL84",
+      "name": "Humidifier for Bedroom, Cool Mist Humidifier with 2.2L Large Water Tank, 20dB Quiet Operation, Dual Nozzle Mist, Night L",
+      "price": 12.49,
+      "reviews": 15,
+      "rating": 3.4,
+      "rank": 13,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "15 reviews, 3.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H9RVSL84",
+      "image_url": "https://m.media-amazon.com/images/I/61Snrd2p9KL._AC_UY218_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "humidifier",
+      "festival_event": "黑五",
+      "festival_icon": "🛍️",
+      "festival_deadline": "2026-10-11",
+      "is_event": true,
+      "sources": [
+        "📅 黑五"
+      ]
+    },
+    {
+      "asin": "B0HF82DZD7",
+      "name": "Humidifier for Bedroom, 1.5L Desktop Cool Mist Humidifier, 20dB Ultra-Quiet, Dual Mist & Two-Way Nozzle, Top-Fill, Night",
+      "price": 12.49,
+      "reviews": 0,
+      "rating": 5.0,
+      "rank": 15,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "0 reviews, 5.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HF82DZD7",
+      "image_url": "https://m.media-amazon.com/images/I/715cQjg3DmL._AC_UY218_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "humidifier",
+      "festival_event": "黑五",
+      "festival_icon": "🛍️",
+      "festival_deadline": "2026-10-11",
+      "is_event": true,
+      "sources": [
+        "📅 黑五"
+      ]
+    },
+    {
+      "asin": "B0GYCPPQYJ",
+      "name": "Humidifier for Bedroom - 2.2L Double Spray Cool Mist Humidifier with 3 Modes, Colorful Warm Night Light and Humidity Dis",
+      "price": 16.66,
+      "reviews": 29,
+      "rating": 4.5,
+      "rank": 17,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "29 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GYCPPQYJ",
+      "image_url": "https://m.media-amazon.com/images/I/61H8OX6D+yL._AC_UY218_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "humidifier",
+      "festival_event": "黑五",
+      "festival_icon": "🛍️",
+      "festival_deadline": "2026-10-11",
+      "is_event": true,
+      "sources": [
+        "📅 黑五"
+      ]
+    },
+    {
+      "asin": "B0H586J8DD",
+      "name": "Valtreecho 3L Humidifier for Bedroom, Ultra-Quiet Cool Mist Humidifier 20dB with Night Light Humidifiers, Waterless Auto",
+      "price": 17.99,
+      "reviews": 59,
+      "rating": 4.2,
+      "rank": 18,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "59 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H586J8DD",
+      "image_url": "https://m.media-amazon.com/images/I/41UYokqM4LL._AC_UY218_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "humidifier",
+      "festival_event": "黑五",
+      "festival_icon": "🛍️",
+      "festival_deadline": "2026-10-11",
+      "is_event": true,
+      "sources": [
+        "📅 黑五"
+      ]
+    },
+    {
+      "asin": "B0HCLGQBZP",
+      "name": "BYONGCHO Humidifier for Bedroom, 3L Cool Mist Humidifier Ultra-Quiet 20dB Air Humidifier with Night Light, 24H Runtime, ",
+      "price": 16.66,
+      "reviews": 36,
+      "rating": 3.8,
+      "rank": 19,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "36 reviews, 3.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HCLGQBZP",
+      "image_url": "https://m.media-amazon.com/images/I/51SuDXF2WML._AC_UY218_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "humidifier",
+      "festival_event": "黑五",
+      "festival_icon": "🛍️",
+      "festival_deadline": "2026-10-11",
+      "is_event": true,
+      "sources": [
+        "📅 黑五"
+      ]
+    },
+    {
+      "asin": "B0FQ58TN8F",
+      "name": "Sponsored Ad – Luxaid 4.5L Warm and Cool Mist Humidifier, Humidity Display, Auto Mode | Remote control, 45H runtime, 28d",
+      "price": 62.49,
+      "reviews": 55,
+      "rating": 4.1,
+      "rank": 23,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "55 reviews, 4.1★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FQ58TN8F",
+      "image_url": "https://m.media-amazon.com/images/I/61cfuTVR1OL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "humidifier",
+      "festival_event": "黑五",
+      "festival_icon": "🛍️",
+      "festival_deadline": "2026-10-11",
+      "is_event": true,
+      "sources": [
+        "📅 黑五"
+      ]
+    },
+    {
+      "asin": "B08FYLZWS9",
+      "name": "Sponsored Ad – Fushing 20 Pack Retractable Badge Holders, Heavy Duty Double ID Card Badge Holder Clear Vertical PVC with",
+      "price": 18.78,
+      "reviews": 59,
+      "rating": 4.6,
+      "rank": 1,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "59 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B08FYLZWS9",
+      "image_url": "https://m.media-amazon.com/images/I/81r3dOozR3L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "cruise lanyard retractable waterproof card holder 4 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H6MP4XFP",
+      "name": "Sponsored Ad – 2PCS Cruise Lanyard with Waterproof Card Holder,Detachable Neck Strap | Universal Cruise Ship Essentials,",
+      "price": 4.59,
+      "reviews": 0,
+      "rating": 5.0,
+      "rank": 3,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 5.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H6MP4XFP",
+      "image_url": "https://m.media-amazon.com/images/I/413YRmAM2PL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "cruise lanyard retractable waterproof card holder 4 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0G2Y61LHH",
+      "name": "Sponsored Ad – 2 PCS Cruise Lanyard with Id Holder, Waterproof Double-Sided Badge Holder Retractable Reel, Black Vertica",
+      "price": 4.41,
+      "reviews": 11,
+      "rating": 4.1,
+      "rank": 4,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "11 reviews, 4.1★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0G2Y61LHH",
+      "image_url": "https://m.media-amazon.com/images/I/619rmie53sL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "cruise lanyard retractable waterproof card holder 4 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0GTQFW8ZX",
+      "name": "Cruise Lanyard with ID Card Holder - 4 Pack Retractable Reel Double-Sided Waterproof Clear Badge Holder, Black Vertical ",
+      "price": 5.69,
+      "reviews": 0,
+      "rating": 5.0,
+      "rank": 6,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 5.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GTQFW8ZX",
+      "image_url": "https://m.media-amazon.com/images/I/51hLWcVaPYL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "cruise lanyard retractable waterproof card holder 4 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0GRM12QZN",
+      "name": "Glamoreal 4 Pack Cruise Lanyard for Ship Cards Lanyards with Retractable Badge Reels and Waterproof ID Badge Holder, Oce",
+      "price": 8.74,
+      "reviews": 0,
+      "rating": 4.4,
+      "rank": 7,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GRM12QZN",
+      "image_url": "https://m.media-amazon.com/images/I/71hDobbX2NL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "cruise lanyard retractable waterproof card holder 4 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0G2KRCFH2",
+      "name": "4Pcs Retractable Cruise Lanyard with ID Card Holder,Neck Lanyards with Retractable Reel and Double-Sided Waterproof Clea",
+      "price": 4.59,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 8,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0G2KRCFH2",
+      "image_url": "https://m.media-amazon.com/images/I/711QxmB3ZQL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "cruise lanyard retractable waterproof card holder 4 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H4L2XB2K",
+      "name": "Sponsored Ad – 2Pcs Cruise Lanyard with Card Holder, Waterproof Clear Cruise Ship Lanyards | Cruise Lanyards For Ship Ca",
+      "price": 4.74,
+      "reviews": 29,
+      "rating": 4.9,
+      "rank": 10,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "29 reviews, 4.9★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H4L2XB2K",
+      "image_url": "https://m.media-amazon.com/images/I/71Hrv0SGWQL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "cruise lanyard retractable waterproof card holder 4 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FX5RJD5G",
+      "name": "Sponsored Ad – 2 Pack Cruise Lanyard with ID Card Holder, Retractable Reel Double-Sided Waterproof Clear Badge Holder, B",
+      "price": 3.32,
+      "reviews": 91,
+      "rating": 4.4,
+      "rank": 11,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "91 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FX5RJD5G",
+      "image_url": "https://m.media-amazon.com/images/I/61KKFWEvFkL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "cruise lanyard retractable waterproof card holder 4 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0DZX7391M",
+      "name": "4 Pcs Cruise Lanyard for Ship Cards, Retractable Badge Reels, Waterproof ID Badge Holders, Durable Adjustable Neck Strap",
+      "price": 11.66,
+      "reviews": 0,
+      "rating": 4.4,
+      "rank": 13,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DZX7391M",
+      "image_url": "https://m.media-amazon.com/images/I/81S+o3i5QZL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "cruise lanyard retractable waterproof card holder 4 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0G4RKHL75",
+      "name": "Sponsored Ad – Black ID Lanyard Card Holder & Inspirational Quotes Retractable Badge Reel Cool Neck Lanyard for Keys ID ",
+      "price": 6.66,
+      "reviews": 46,
+      "rating": 4.6,
+      "rank": 14,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "46 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0G4RKHL75",
+      "image_url": "https://m.media-amazon.com/images/I/71jXrjL53NL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "cruise lanyard retractable waterproof card holder 4 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0CGL263FK",
+      "name": "4pcs Adjustable Retractable Card Lanyard Set with ID Badge Holder - Waterproof, Must-Have Cruise Accessories (4 Colors)",
+      "price": 9.16,
+      "reviews": 114,
+      "rating": 4.5,
+      "rank": 16,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "114 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CGL263FK",
+      "image_url": "https://m.media-amazon.com/images/I/710eU3dEuXL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "cruise lanyard retractable waterproof card holder 4 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FF9Y1C7Y",
+      "name": "kclkda 2PCS Universal Cruise Lanyard with Waterproof PVC Cruise Card Holder | 2 Colors Soft Cruise Lanyards and Card Hol",
+      "price": 3.95,
+      "reviews": 89,
+      "rating": 4.5,
+      "rank": 17,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "89 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FF9Y1C7Y",
+      "image_url": "https://m.media-amazon.com/images/I/61xvV-fCdfL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "cruise lanyard retractable waterproof card holder 4 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H8DJHDN2",
+      "name": "14 Pcs Cruise Essentials Kit, 2 Cruise Neck Lanyards with Card Holder, 4 Clear Luggage Label Pouches, 4 Steel Wire Lanya",
+      "price": 6.99,
+      "reviews": 0,
+      "rating": 5.0,
+      "rank": 18,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 5.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H8DJHDN2",
+      "image_url": "https://m.media-amazon.com/images/I/8193gD2S2WL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "cruise lanyard retractable waterproof card holder 4 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H3T3PW7F",
+      "name": "Sponsored Ad – 4Pcs Cruise Lanyard with ID Card Holder, Waterproof Badge Holders with Detachable Neck Strap for Work, Sc",
+      "price": 5.82,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 20,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H3T3PW7F",
+      "image_url": "https://m.media-amazon.com/images/I/710OOQ4ZpsL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "cruise lanyard retractable waterproof card holder 4 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0DCFMGL7T",
+      "name": "Sponsored Ad – MIDERDO Black Lanyards for Neck - 100Pack Soft Cotton Neck Lanyard for ID Badges Holder, 45cm Lanyards wi",
+      "price": 14.99,
+      "reviews": 0,
+      "rating": 4.7,
+      "rank": 21,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DCFMGL7T",
+      "image_url": "https://m.media-amazon.com/images/I/71Fh+PgrSWL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "cruise lanyard retractable waterproof card holder 4 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0DD67VTKQ",
+      "name": "2 Pcs Adjustable Waterproof ID Holder with Retractable Badge Reel – Secure Card Protector for Travel, Work, and School",
+      "price": 3.99,
+      "reviews": 71,
+      "rating": 4.1,
+      "rank": 23,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "71 reviews, 4.1★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DD67VTKQ",
+      "image_url": "https://m.media-amazon.com/images/I/71DEHJDcx7L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "cruise lanyard retractable waterproof card holder 4 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FNMZ1FTJ",
+      "name": "4PCS Cruise Lanyard with Card Holder, Waterproof Badge Holders with Detachable Neck Strap, Durable Lanyard and ID Card H",
+      "price": 7.49,
+      "reviews": 0,
+      "rating": 4.7,
+      "rank": 24,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FNMZ1FTJ",
+      "image_url": "https://m.media-amazon.com/images/I/71EvyXwg-TL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "cruise lanyard retractable waterproof card holder 4 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H3987Z2R",
+      "name": "Vaniika Cruise Lanyard with ID Card Holder, 3Pcs Waterproof Cruise Lanyards | Adjustable ID Holder, Retractable Reel Cle",
+      "price": 6.99,
+      "reviews": 0,
+      "rating": 5.0,
+      "rank": 26,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 5.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H3987Z2R",
+      "image_url": "https://m.media-amazon.com/images/I/51OEfze1cxL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "cruise lanyard retractable waterproof card holder 4 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FP9C2MHG",
+      "name": "2 Pcs Adjustable Retractable Cruise Lanyard with ID Badge Holder, Detachable Neck Strap ，Waterproof PVC Card Holder for ",
+      "price": 5.07,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 27,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FP9C2MHG",
+      "image_url": "https://m.media-amazon.com/images/I/61eiR6C+8tL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "cruise lanyard retractable waterproof card holder 4 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FC6R51F1",
+      "name": "2PCS Cruise Lanyard for P&O, Marella, MSC, Double Sided Waterproof Clear PVC Lanyard Card Holder Lanyards for Neck with ",
+      "price": 4.16,
+      "reviews": 15,
+      "rating": 4.5,
+      "rank": 28,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "15 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FC6R51F1",
+      "image_url": "https://m.media-amazon.com/images/I/51oYXsNlg2L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "cruise lanyard retractable waterproof card holder 4 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FZ3L15LM",
+      "name": "2Pcs Cruise Lanyards, Adjustable ID Holder, Waterproof Cruise Lanyard for Ship Cards, Secure Card Protector for P&O, Mar",
+      "price": 3.8,
+      "reviews": 17,
+      "rating": 4.5,
+      "rank": 31,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "17 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FZ3L15LM",
+      "image_url": "https://m.media-amazon.com/images/I/71+3mvjWzXL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "cruise lanyard retractable waterproof card holder 4 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0CDCMP9L3",
+      "name": "Vzrflee 4 Pack Cruise Lanyards Retractable Cruise Lanyard for Cruise Ship Cards with Waterproof ID Holders, Luggage Tags",
+      "price": 16.28,
+      "reviews": 76,
+      "rating": 4.8,
+      "rank": 32,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "76 reviews, 4.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CDCMP9L3",
+      "image_url": "https://m.media-amazon.com/images/I/81OXDaIf4KL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "cruise lanyard retractable waterproof card holder 4 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0CGDPGP1T",
+      "name": "2pcs Cruise Lanyards for Ship Cards, Retractable Waterproof Cruise Lanyard with ID Holder Cruise Lanyard Set for Cruise ",
+      "price": 5.47,
+      "reviews": 17,
+      "rating": 4.4,
+      "rank": 33,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "17 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CGDPGP1T",
+      "image_url": "https://m.media-amazon.com/images/I/71BnQ2kuqqL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "cruise lanyard retractable waterproof card holder 4 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0GS1MV1KN",
+      "name": "Cruise Lanyard, Essential Card Holder for Cruise Ship Cards, Convenient Pool and Dining Access, Set of Four Coloured Lan",
+      "price": 5.99,
+      "reviews": 0,
+      "rating": 5.0,
+      "rank": 34,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 5.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GS1MV1KN",
+      "image_url": "https://m.media-amazon.com/images/I/61VmmsnjG1L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "cruise lanyard retractable waterproof card holder 4 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0CJCMWGM6",
+      "name": "3 PCS Cruise Lanyard with ID Card Holder, Retractable, Waterproof | Clear ID Badge Holder, for School Office Keychain Ke",
+      "price": 4.16,
+      "reviews": 0,
+      "rating": 4.4,
+      "rank": 35,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CJCMWGM6",
+      "image_url": "https://m.media-amazon.com/images/I/61vnAU6EZJL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "cruise lanyard retractable waterproof card holder 4 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0CGLZ9K2G",
+      "name": "6pcs Cruise Lanyard, Multicolored Cruise Lanyard for Ship Cards Adjustable Cruise Lanyards Waterproof Cruise Lanyard wit",
+      "price": 8.52,
+      "reviews": 0,
+      "rating": 4.8,
+      "rank": 36,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 4.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CGLZ9K2G",
+      "image_url": "https://m.media-amazon.com/images/I/71KAOpaYdLL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "cruise lanyard retractable waterproof card holder 4 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0C8C5LVWM",
+      "name": "Cruise Lanyard for Ship Cards, 4 Pack Waterproof Cruise Lanyard with Detachable Buckle & ID Badge Holder for Cruises Shi",
+      "price": 15.31,
+      "reviews": 122,
+      "rating": 4.7,
+      "rank": 38,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "122 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0C8C5LVWM",
+      "image_url": "https://m.media-amazon.com/images/I/81dfzZMlRDL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "cruise lanyard retractable waterproof card holder 4 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0G1GZRD33",
+      "name": "2 Pack Black Cruise Lanyards, Neck Strap with Retractable Badge Reel, Vertical Clear Waterproof ID Card Holder for Cruis",
+      "price": 4.29,
+      "reviews": 0,
+      "rating": 5.0,
+      "rank": 39,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 5.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0G1GZRD33",
+      "image_url": "https://m.media-amazon.com/images/I/61sCxl8sFvL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "cruise lanyard retractable waterproof card holder 4 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0GTPWBG8Z",
+      "name": "Bafiwu 6 pcs Cruise Lanyard with Card Holder, Lanyards for Neck | Waterproof Clear PVC ID Badge Holder, for All Cruise S",
+      "price": 6.66,
+      "reviews": 0,
+      "rating": 5.0,
+      "rank": 41,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 5.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GTPWBG8Z",
+      "image_url": "https://m.media-amazon.com/images/I/714SvVhyowL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "cruise lanyard retractable waterproof card holder 4 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0G486QSNC",
+      "name": "2Pcs Cruise Lanyard with Card Holder, Waterproof Clear Cruise Ship Lanyards | Cruise Lanyards For Ship Cards, Detachable",
+      "price": 4.74,
+      "reviews": 29,
+      "rating": 4.9,
+      "rank": 42,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "29 reviews, 4.9★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0G486QSNC",
+      "image_url": "https://m.media-amazon.com/images/I/61Fm1o6-3NL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "cruise lanyard retractable waterproof card holder 4 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H2LBD7JJ",
+      "name": "2-Pack Premium Cruise Lanyards Compatible with Major Cruise Lines, Detachable Waterproof Clear PVC Card Holders, Durable",
+      "price": 4.99,
+      "reviews": 0,
+      "rating": 5.0,
+      "rank": 43,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 5.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H2LBD7JJ",
+      "image_url": "https://m.media-amazon.com/images/I/61yoI6+v9DL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "cruise lanyard retractable waterproof card holder 4 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0G3NYBJZK",
+      "name": "2 Pack Cruise Lanyard, Cruise Lanyards for Ship Cards with Detachable Card Holders | Waterproof Clear Cruise Ship Essent",
+      "price": 4.82,
+      "reviews": 20,
+      "rating": 4.8,
+      "rank": 44,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "20 reviews, 4.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0G3NYBJZK",
+      "image_url": "https://m.media-amazon.com/images/I/71RWIjViCgL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "cruise lanyard retractable waterproof card holder 4 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0F5B1SF2T",
+      "name": "WOLMIK Retractable Badge Reel for ID Card Holder, Pack of 4 Retractable Key Chain, Extendable Key Ring, for ID Badge Hol",
+      "price": 3.32,
+      "reviews": 112,
+      "rating": 4.3,
+      "rank": 45,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "112 reviews, 4.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0F5B1SF2T",
+      "image_url": "https://m.media-amazon.com/images/I/616ZR5XxpeL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "cruise lanyard retractable waterproof card holder 4 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H116QZ4P",
+      "name": "Qwrqwr 2 Pack Cruise Lanyard with Card Holder, Waterproof Detachable Neck Lanyard for Cruising, Soft Polyester Cruise Sh",
+      "price": 4.16,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 46,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H116QZ4P",
+      "image_url": "https://m.media-amazon.com/images/I/71Us5EgdhpL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "cruise lanyard retractable waterproof card holder 4 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0GJZBYKQB",
+      "name": "Lunhoo 4 Pack Retractable Badge Reels, Badge Holders, Retractable Lanyard for ID Card, Key (Blue, Purple, Red, Pink)",
+      "price": 4.16,
+      "reviews": 0,
+      "rating": 4.7,
+      "rank": 47,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GJZBYKQB",
+      "image_url": "https://m.media-amazon.com/images/I/717L1eOFpzL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "cruise lanyard retractable waterproof card holder 4 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FCS243WD",
+      "name": "Beach Cruise Ship ID Lanyard with Card Holder Retractable Heavy Duty Badge Holder Reel Clip Cute Neck Lanyard for Keys I",
+      "price": 6.66,
+      "reviews": 44,
+      "rating": 4.8,
+      "rank": 50,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "44 reviews, 4.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FCS243WD",
+      "image_url": "https://m.media-amazon.com/images/I/71HIO4T+5oL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "cruise lanyard retractable waterproof card holder 4 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0DSB4HSKK",
+      "name": "Retractable Lanyard and Badge Holder Set Includes Lanyard Neck Strap, ID Card Holder and Metal Lobster Clip for Women Me",
+      "price": 2.82,
+      "reviews": 49,
+      "rating": 4.2,
+      "rank": 51,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "49 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DSB4HSKK",
+      "image_url": "https://m.media-amazon.com/images/I/61Ey7QADXPL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "cruise lanyard retractable waterproof card holder 4 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FR1Y2W9P",
+      "name": "Vesavifaka Fashionable Lanyards with Card Holder for Id Badges and Keys, Beaded Badge Lanyard with Retractable Reel Cute",
+      "price": 6.66,
+      "reviews": 22,
+      "rating": 4.6,
+      "rank": 55,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "22 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FR1Y2W9P",
+      "image_url": "https://m.media-amazon.com/images/I/710AgEACQ3L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "cruise lanyard retractable waterproof card holder 4 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0DRVTZSWH",
+      "name": "Sponsored Ad – Daisy Retractable Lanyard Card Holder Set with Stylish Design - Durable, Reusable Badge Holder with Neck ",
+      "price": 5.82,
+      "reviews": 80,
+      "rating": 4.7,
+      "rank": 58,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "80 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DRVTZSWH",
+      "image_url": "https://m.media-amazon.com/images/I/71WJgBkJDqL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "cruise lanyard retractable waterproof card holder 4 pack",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0GRTXJ2XX",
+      "name": "Sponsored Ad – 12 PCS Magnetic Necklace Clasps Gold Silver Magnetic Jewelry Clasps Secure Closures for DIY Jewelry Makin",
+      "price": 5.82,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 1,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GRTXJ2XX",
+      "image_url": "https://m.media-amazon.com/images/I/71oQ3JzpDAL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "necklace layering clasp magnetic gold silver separator",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0GVQMV2FW",
+      "name": "Sponsored Ad – 16PCS Magnetic Necklace Fasteners, Magnetic Necklaces Clasps Connector Gold Silver, Magnetic Clasps for N",
+      "price": 6.99,
+      "reviews": 0,
+      "rating": 4.8,
+      "rank": 2,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 4.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GVQMV2FW",
+      "image_url": "https://m.media-amazon.com/images/I/61qYupzlTrL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "necklace layering clasp magnetic gold silver separator",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0G39BCCPH",
+      "name": "Sponsored Ad – 12 Pack Magnetic Necklace Clasps for Necklaces Bracelets Jewelry Crafting | Locking Magnetic Jewelry Clos",
+      "price": 4.99,
+      "reviews": 27,
+      "rating": 4.6,
+      "rank": 3,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "27 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0G39BCCPH",
+      "image_url": "https://m.media-amazon.com/images/I/717lZPTyigL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "necklace layering clasp magnetic gold silver separator",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H9Y2S96N",
+      "name": "Sponsored Ad – CHEUNGR 40 Pack Magnetic Necklace Clasps, Gold & Silver, 47mm | Cylindrical Locking Magnetic Jewelry Clos",
+      "price": 13.32,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 4,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H9Y2S96N",
+      "image_url": "https://m.media-amazon.com/images/I/81aKBbCXmrL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "necklace layering clasp magnetic gold silver separator",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B09ZQHZ3PZ",
+      "name": "Sponsored Ad – Magnetic Necklace Clasps 2PCS Silver Multi Layering Necklaces Separator | Magnetic Necklace Clasp Multi S",
+      "price": 11.66,
+      "reviews": 37,
+      "rating": 3.8,
+      "rank": 5,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "37 reviews, 3.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B09ZQHZ3PZ",
+      "image_url": "https://m.media-amazon.com/images/I/61WjFQbg+iL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "necklace layering clasp magnetic gold silver separator",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H14VQPD6",
+      "name": "Elmsley 6 Pcs Necklace Layering Clasp, Gold and Silver | Multi-Layer Magnetic Necklace Separator, Necklac Separator for ",
+      "price": 4.89,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 6,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H14VQPD6",
+      "image_url": "https://m.media-amazon.com/images/I/71qC4nAiwKL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "necklace layering clasp magnetic gold silver separator",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0GWD2N922",
+      "name": "6 Magnetic Layering Necklace Clasps, Gold Silver, Multi-Row, for DIY Chokers, Jewellery Stacking Separator",
+      "price": 4.99,
+      "reviews": 0,
+      "rating": 3.8,
+      "rank": 7,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 3.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GWD2N922",
+      "image_url": "https://m.media-amazon.com/images/I/718uw4j8T9L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "necklace layering clasp magnetic gold silver separator",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FX3T5TPJ",
+      "name": "6PCS Necklace Layering Clasp,Double and Triple Multi-Layer Magnetic Necklace Separator,Necklac Separator for Layered Nec",
+      "price": 4.16,
+      "reviews": 0,
+      "rating": 3.9,
+      "rank": 8,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 3.9★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FX3T5TPJ",
+      "image_url": "https://m.media-amazon.com/images/I/71kKZcryVZL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "necklace layering clasp magnetic gold silver separator",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0CM8QSZWX",
+      "name": "Sponsored Ad – Gold Magnetic Jewelry Necklace Clasp 925 Sterling Silver Magnetic Clasps | Magnetic Necklace Clasps 925 J",
+      "price": 14.16,
+      "reviews": 43,
+      "rating": 4.2,
+      "rank": 9,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "43 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CM8QSZWX",
+      "image_url": "https://m.media-amazon.com/images/I/61E3ASR-wSL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "necklace layering clasp magnetic gold silver separator",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0BR76618Z",
+      "name": "Sponsored Ad – 4Packs Magnetic Necklace Clasps and Closures Magnetic Jewelry Clasps Connector Locking Magnetic Jewelry C",
+      "price": 3.57,
+      "reviews": 150,
+      "rating": 4.3,
+      "rank": 10,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "150 reviews, 4.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0BR76618Z",
+      "image_url": "https://m.media-amazon.com/images/I/61OEj23g69L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "necklace layering clasp magnetic gold silver separator",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0CLV9SCNN",
+      "name": "Sponsored Ad – Mabor 8Pcs Magnetic Necklace Clasps Magnetic Necklace Fasteners Jewellery Bracelet Clasps and Closures Ma",
+      "price": 4.99,
+      "reviews": 184,
+      "rating": 4.1,
+      "rank": 12,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "184 reviews, 4.1★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CLV9SCNN",
+      "image_url": "https://m.media-amazon.com/images/I/71uxgOhCRuL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "necklace layering clasp magnetic gold silver separator",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0G1SKHSHS",
+      "name": "6 Pieces Magnetic Necklace Layering Clasps, Multi Necklace Separator for Layered Necklaces, NecklaceClasp Connector for ",
+      "price": 3.32,
+      "reviews": 0,
+      "rating": 3.8,
+      "rank": 13,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 3.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0G1SKHSHS",
+      "image_url": "https://m.media-amazon.com/images/I/71dr9VHlWxL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "necklace layering clasp magnetic gold silver separator",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0GLGPLRH5",
+      "name": "4 Pack Necklace Layering Clasps Magnetic Double and Triple Chain Separator Connectors for Multi Strand Necklaces Jewelle",
+      "price": 3.69,
+      "reviews": 0,
+      "rating": 3.5,
+      "rank": 14,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 3.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GLGPLRH5",
+      "image_url": "https://m.media-amazon.com/images/I/71KYsmrUQ0L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "necklace layering clasp magnetic gold silver separator",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0GHRC6QFK",
+      "name": "Sponsored Ad – 2 Pcs Necklace Layering Clasp | 3-Hole Multi-Strand Bracelet Connector | Necklace Separator for Jewelry S",
+      "price": 5.66,
+      "reviews": 0,
+      "rating": 3.3,
+      "rank": 15,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 3.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GHRC6QFK",
+      "image_url": "https://m.media-amazon.com/images/I/71uVAagbHUL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "necklace layering clasp magnetic gold silver separator",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0HFJDYVHT",
+      "name": "Sponsored Ad – Gold Magnetic Necklace Clasp 14K Gold Moon Double Lobster Jewelry Clasps | Double Magnetic Clasps Easy Us",
+      "price": 15.99,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 16,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HFJDYVHT",
+      "image_url": "https://m.media-amazon.com/images/I/61P1g5G8F5L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "necklace layering clasp magnetic gold silver separator",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0C7L5RLLN",
+      "name": "Sponsored Ad – Necklace Layered Clasps Silver 2PCS Strands Necklace Separator Clasps | Multi Strands Necklace Layered Cl",
+      "price": 10.82,
+      "reviews": 136,
+      "rating": 3.6,
+      "rank": 17,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "136 reviews, 3.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0C7L5RLLN",
+      "image_url": "https://m.media-amazon.com/images/I/61rJhtgUXAL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "necklace layering clasp magnetic gold silver separator",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0B5XQFVVV",
+      "name": "Magnetic Layering Clasp Separator for Multiple Necklaces and Bracelets - Multi Strand Spacers (4 Pcs)",
+      "price": 6.46,
+      "reviews": 114,
+      "rating": 4.0,
+      "rank": 18,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "114 reviews, 4.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0B5XQFVVV",
+      "image_url": "https://m.media-amazon.com/images/I/712KGTKerGL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "necklace layering clasp magnetic gold silver separator",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0C1VH3G2S",
+      "name": "4 Pieces Magnetic Layering Necklace Clasps - Double and Triple Layered Jewelry Separator for Crafts",
+      "price": 4.99,
+      "reviews": 80,
+      "rating": 3.6,
+      "rank": 19,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "80 reviews, 3.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0C1VH3G2S",
+      "image_url": "https://m.media-amazon.com/images/I/71+kL+-JuvL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "necklace layering clasp magnetic gold silver separator",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FQ29SV9H",
+      "name": "4Pcs Magnetic Necklace Clasps, Layering Necklace Clasp for DIY",
+      "price": 2.49,
+      "reviews": 0,
+      "rating": 3.3,
+      "rank": 20,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 3.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FQ29SV9H",
+      "image_url": "https://m.media-amazon.com/images/I/718LAYVG0AL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "necklace layering clasp magnetic gold silver separator",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H5K38PD6",
+      "name": "Sponsored Ad – Magnetic Necklace Clasps, Jewellery Magnet Clips, 20pcs Gold Silver | Zinc Alloy Gold Silver Jewellery Cl",
+      "price": 5.41,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 22,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H5K38PD6",
+      "image_url": "https://m.media-amazon.com/images/I/712ZifU3tZL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "necklace layering clasp magnetic gold silver separator",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0F9PJS785",
+      "name": "Sponsored Ad – ElevateTech 2pcs Necklace Layering Clasps Separator for Women Gold Necklace Separator Clasp Converter Cha",
+      "price": 3.74,
+      "reviews": 0,
+      "rating": 3.8,
+      "rank": 23,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 3.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0F9PJS785",
+      "image_url": "https://m.media-amazon.com/images/I/71zC+PrPJXL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "necklace layering clasp magnetic gold silver separator",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FR4HKT6S",
+      "name": "Sponsored Ad – Allazone Magnetic Jewelry Clasps, Double Lobster Magnetic Necklace Clasps for Necklaces, Bracelets and Je",
+      "price": 6.66,
+      "reviews": 33,
+      "rating": 4.2,
+      "rank": 24,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "33 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FR4HKT6S",
+      "image_url": "https://m.media-amazon.com/images/I/71emtUUTlUL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "necklace layering clasp magnetic gold silver separator",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H6DG8NND",
+      "name": "4Pcs Necklace Clasp, Magnetic Clasps Separator | 4Pcs Magnetic Necklace Layering Clasps, Multi-Strand Chain Separators f",
+      "price": 3.32,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 25,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H6DG8NND",
+      "image_url": "https://m.media-amazon.com/images/I/71jlfuTaSWL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "necklace layering clasp magnetic gold silver separator",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0G1YNYBX9",
+      "name": "4Pcs Magnetic Necklace Clasp, Double and Triple Layered Jewelry Separator for Crafts, Adjustable Tangle Free Clasps Jewe",
+      "price": 3.59,
+      "reviews": 13,
+      "rating": 3.2,
+      "rank": 26,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "13 reviews, 3.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0G1YNYBX9",
+      "image_url": "https://m.media-amazon.com/images/I/71nKa1Vc-ML._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "necklace layering clasp magnetic gold silver separator",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0GRYYVDHB",
+      "name": "2 Pcs Necklace Layering Clasps, Gold Necklace Separator for Women, Multiple Necklaces Stacker Clasp and Closures for Sta",
+      "price": 4.16,
+      "reviews": 0,
+      "rating": 5.0,
+      "rank": 27,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 5.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GRYYVDHB",
+      "image_url": "https://m.media-amazon.com/images/I/71CRTIXMkRL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "necklace layering clasp magnetic gold silver separator",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0C997J6NW",
+      "name": "2/4 Pcs Layering Clasps Necklace Separator Magnetic Clasp and Closures for Jewellery Bracelets Earrings (1 * 2 Layers Go",
+      "price": 4.19,
+      "reviews": 0,
+      "rating": 3.2,
+      "rank": 28,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 3.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0C997J6NW",
+      "image_url": "https://m.media-amazon.com/images/I/515HM6DTI6L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "necklace layering clasp magnetic gold silver separator",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0F99VP8JH",
+      "name": "4 Pieces Magnetic Necklace Clasp, Jewelry Connector for Crafting (Spring Clasp)",
+      "price": 4.66,
+      "reviews": 61,
+      "rating": 3.5,
+      "rank": 29,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "61 reviews, 3.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0F99VP8JH",
+      "image_url": "https://m.media-amazon.com/images/I/71+DX7Vb01L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "necklace layering clasp magnetic gold silver separator",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0GWQHCM8N",
+      "name": "2 PCS Gold Necklace Separator Clasp, Converter Chain Extender | Multi Necklace Layering Clasp for Layered Necklaces, Eas",
+      "price": 4.99,
+      "reviews": 0,
+      "rating": 5.0,
+      "rank": 31,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 5.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GWQHCM8N",
+      "image_url": "https://m.media-amazon.com/images/I/710SzrbnGbL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "necklace layering clasp magnetic gold silver separator",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B09ZQK4XG1",
+      "name": "2PCS 14K Gold Magnetic Layered Necklace Separator Multi Jewellery Clasps | Magnetic Necklace Clasp Multi Strand Chains B",
+      "price": 11.66,
+      "reviews": 24,
+      "rating": 3.6,
+      "rank": 33,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "24 reviews, 3.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B09ZQK4XG1",
+      "image_url": "https://m.media-amazon.com/images/I/71WJMLSUcKL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "necklace layering clasp magnetic gold silver separator",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0C995794P",
+      "name": "2/4 Pcs Layering Clasps Magnetic Necklace Separator and Closures for Jewellery Bracelets Earrings (1 * 3 Layers Gold + 1",
+      "price": 3.99,
+      "reviews": 0,
+      "rating": 3.2,
+      "rank": 34,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 3.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0C995794P",
+      "image_url": "https://m.media-amazon.com/images/I/511kPrrMQuL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "necklace layering clasp magnetic gold silver separator",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0GPVFNMG4",
+      "name": "Tabanzhe 2 PCS Gold Necklace Layering Clasps,Double and Triple Multi Strand Connectors Necklac Separator for Layered Nec",
+      "price": 4.16,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 35,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GPVFNMG4",
+      "image_url": "https://m.media-amazon.com/images/I/61DXa2gfyoL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "necklace layering clasp magnetic gold silver separator",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H2XBCNWW",
+      "name": "4 PCS Necklace Layering Clasp, Necklace Separator, Necklace Layering Set, Double and Triple Layered Jewelry Separator fo",
+      "price": 2.07,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 36,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H2XBCNWW",
+      "image_url": "https://m.media-amazon.com/images/I/71Ti5bwHjTL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "necklace layering clasp magnetic gold silver separator",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0C995BVQW",
+      "name": "2/4 Pcs Layering Clasps Necklace Separator Magnetic Clasp and Closures for Jewellery Bracelets Earrings (2 * 2 Layers Go",
+      "price": 4.59,
+      "reviews": 0,
+      "rating": 3.2,
+      "rank": 37,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 3.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0C995BVQW",
+      "image_url": "https://m.media-amazon.com/images/I/61Vv5eafHIL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "necklace layering clasp magnetic gold silver separator",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0GR5R7162",
+      "name": "4PCS Stainless Steel Necklace Layering Clasp & Bracelet Fasteners, Multi Strand Connectors for Layered Necklaces and Cha",
+      "price": 5.82,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 38,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GR5R7162",
+      "image_url": "https://m.media-amazon.com/images/I/61xn-Og-YiL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "necklace layering clasp magnetic gold silver separator",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FFLHWCPM",
+      "name": "Necklace Layering Clasp - ShiningUU 4Pcs Adjustable Magnetic Clasps for Multi-Strand Layering | Necklace Separator for L",
+      "price": 4.24,
+      "reviews": 0,
+      "rating": 3.4,
+      "rank": 39,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 3.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FFLHWCPM",
+      "image_url": "https://m.media-amazon.com/images/I/61GJPowtu5L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "necklace layering clasp magnetic gold silver separator",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0DFV6QCFK",
+      "name": "Oruola 2pcs Necklace Separator for Layering,Sunflower Necklace Layering Clasp Silver,Multiple Necklaces Stacker Clasp,Ke",
+      "price": 4.16,
+      "reviews": 47,
+      "rating": 3.5,
+      "rank": 40,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "47 reviews, 3.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DFV6QCFK",
+      "image_url": "https://m.media-amazon.com/images/I/815NauAnRXL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "necklace layering clasp magnetic gold silver separator",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0C7C8BSHP",
+      "name": "2PCS Necklace Layered Clasp 14K Gold Multi Strands Necklace Layering Clasps | Multi Strands Necklace Layered Clasp Layer",
+      "price": 10.82,
+      "reviews": 136,
+      "rating": 3.6,
+      "rank": 41,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "136 reviews, 3.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0C7C8BSHP",
+      "image_url": "https://m.media-amazon.com/images/I/61rudQKv4cL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "necklace layering clasp magnetic gold silver separator",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0GLNW8N58",
+      "name": "4 Pcs Magnetic Necklace Layering Clasps,Multi-Strand Connectors | Magnetic necklace clasps keep layered necklaces neat, ",
+      "price": 4.19,
+      "reviews": 0,
+      "rating": 4.6,
+      "rank": 42,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GLNW8N58",
+      "image_url": "https://m.media-amazon.com/images/I/71D6IsPwrWL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "necklace layering clasp magnetic gold silver separator",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H6QBLFJ9",
+      "name": "4Pcs Magnetic Necklace Clasps, Separator for Layering",
+      "price": 3.07,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 43,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H6QBLFJ9",
+      "image_url": "https://m.media-amazon.com/images/I/71viLjcfZdL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "necklace layering clasp magnetic gold silver separator",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0GBXZ1QP1",
+      "name": "GOLD DEER 12Pcs Necklace Layering Clasps with Storage Box, Magnetic Jewelry Clasps, Multi Chain Separator Connector for ",
+      "price": 6.99,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 44,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GBXZ1QP1",
+      "image_url": "https://m.media-amazon.com/images/I/71ia9K0bgZL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "necklace layering clasp magnetic gold silver separator",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FRN3VCJD",
+      "name": "6PCS Necklace Clasp, Magnetic Necklace Clasps for Layered Necklaces,Double and Triple Multi-Layer Necklace Separator, Ne",
+      "price": 3.32,
+      "reviews": 0,
+      "rating": 2.5,
+      "rank": 46,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 2.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FRN3VCJD",
+      "image_url": "https://m.media-amazon.com/images/I/71tKFVAQlvL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "necklace layering clasp magnetic gold silver separator",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0DRYNLMN6",
+      "name": "8PCS Magnetic Necklace Clasps, Gold and Silver",
+      "price": 5.89,
+      "reviews": 37,
+      "rating": 4.5,
+      "rank": 47,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "37 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DRYNLMN6",
+      "image_url": "https://m.media-amazon.com/images/I/71xB-JTXF0L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "necklace layering clasp magnetic gold silver separator",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0C651QZMR",
+      "name": "kcctoo Whenever You Feel Overwhelmed Remember Bracelets Inspirational Gifts for Women Girls Cuff Bangle Stainless Steel ",
+      "price": 15.53,
+      "reviews": 25,
+      "rating": 4.1,
+      "rank": 50,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "25 reviews, 4.1★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0C651QZMR",
+      "image_url": "https://m.media-amazon.com/images/I/61wIDIIA0vL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "necklace layering clasp magnetic gold silver separator",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H297HNM9",
+      "name": "OHINGLT Multi Necklace Layering Clasp Magnetic Necklace Clasps and Closures | 14K Gold and Silver Plated Necklace Separa",
+      "price": 14.04,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 51,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H297HNM9",
+      "image_url": "https://m.media-amazon.com/images/I/61EiUw-u8SL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "necklace layering clasp magnetic gold silver separator",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H36JD3JJ",
+      "name": "Gsbnjuy 4 Pcs Necklace Layering Clasp Separator for Women Extenders Clasps | Multi Necklace Clasp Connectors, Gold Neckl",
+      "price": 5.41,
+      "reviews": 0,
+      "rating": 3.2,
+      "rank": 52,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 3.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H36JD3JJ",
+      "image_url": "https://m.media-amazon.com/images/I/81-gfXvEVdL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "necklace layering clasp magnetic gold silver separator",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0DCB6HT3N",
+      "name": "Silver Layering Necklace Set - Multiple Strands, Connector Jewelry Clasps, Separator Detangler",
+      "price": 4.16,
+      "reviews": 10,
+      "rating": 3.6,
+      "rank": 53,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "10 reviews, 3.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DCB6HT3N",
+      "image_url": "https://m.media-amazon.com/images/I/61GkwsXYJOL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "necklace layering clasp magnetic gold silver separator",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0HFMQPP3D",
+      "name": "YOGAZEN Necklace Layering Clasp, 2 Pack Necklace Clasp Set, Gold & Silver | Magnetic Snap Closure, 12.7 mm Wide, Gold & ",
+      "price": 4.99,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 54,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HFMQPP3D",
+      "image_url": "https://m.media-amazon.com/images/I/61PLPDlMKvL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "necklace layering clasp magnetic gold silver separator",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0GT4VKQTJ",
+      "name": "Necklace Separator, 2 Pack Multi Necklace Clasp for Layering Stackable Jewelry Connector with Two and Three Rows Easy to",
+      "price": 5.49,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 55,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GT4VKQTJ",
+      "image_url": "https://m.media-amazon.com/images/I/61QX38qHjYL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "necklace layering clasp magnetic gold silver separator",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FYMYQKW7",
+      "name": "FIGCY 6 Pcs Heart Magnetic Clasp Necklace Gold, Magnetic Clasp for Bracelet, Durable Closure for Necklaces, Bracelets, a",
+      "price": 5.82,
+      "reviews": 11,
+      "rating": 3.8,
+      "rank": 56,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "11 reviews, 3.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FYMYQKW7",
+      "image_url": "https://m.media-amazon.com/images/I/61hbOpL5yeL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "necklace layering clasp magnetic gold silver separator",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H4LJ1WWR",
+      "name": "Wellrun 2 Pcs Gold Necklace Layering Clasps,2 & 3 Strand Connectors,Multi-Strand Tube Lock Necklace Separator Clasps for",
+      "price": 4.57,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 57,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H4LJ1WWR",
+      "image_url": "https://m.media-amazon.com/images/I/61mXLWdiPLL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "necklace layering clasp magnetic gold silver separator",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0G8D9M3YL",
+      "name": "8Pcs Magnetic Necklace Clasp, Gold Silver Necklace Fastener Jewellery Clasp | Connector Locking Closures, Magnetic Brace",
+      "price": 3.63,
+      "reviews": 0,
+      "rating": 3.7,
+      "rank": 58,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 3.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0G8D9M3YL",
+      "image_url": "https://m.media-amazon.com/images/I/71Ud5jfS9TL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "necklace layering clasp magnetic gold silver separator",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0C4LF3V8Z",
+      "name": "Sponsored Ad – 925 Sterling Silver Magnetic Necklace Clasps Large Double Lobster Clasps | Strong Magnetic Clasps 925 Jew",
+      "price": 14.16,
+      "reviews": 199,
+      "rating": 4.4,
+      "rank": 60,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "199 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0C4LF3V8Z",
+      "image_url": "https://m.media-amazon.com/images/I/51Enek+voxL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "necklace layering clasp magnetic gold silver separator",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FKGYDRC3",
+      "name": "Sponsored Ad – 8PCS Silver Magnetic Necklace Clasps, Magnetic Necklaces Clasps and Closures Connector Magnetic Bracelets",
+      "price": 5.99,
+      "reviews": 45,
+      "rating": 4.6,
+      "rank": 61,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "45 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FKGYDRC3",
+      "image_url": "https://m.media-amazon.com/images/I/71ZVo789mgL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "necklace layering clasp magnetic gold silver separator",
+      "sources": [
+        "趋势发现"
+      ]
+    }
+  ]
+}
