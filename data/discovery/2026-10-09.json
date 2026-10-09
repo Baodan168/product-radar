@@ -1,0 +1,114 @@
+{
+  "date": "2026-10-09",
+  "updated_at": "2026-10-09T08:20:00+08:00",
+  "scan_date": "2026-10-09",
+  "scan_time": "08:11",
+  "summary": "10-09扫描：4个全新品类机会，全部通过14天52品类去重（新品4/复扫0）。主线信号=TikTok「amazon winter must haves」周搜索+1061%且0视频占位、dupe香水类搜索约150万次/周无内容、Q4 gifting动量10月已启动。定价£8.99-9.99全部落在config价格带(£5.99-12.99)，净利率48-53%（Lee硬成本口径：采购+FBA+佣金，不计GST/广告/退货）。",
+  "trend_forecast": "① 10月中旬（10/13-10/19）：圣诞前置采购潮启动。TikTok「amazon winter must haves」周搜索+1061%至23.2万且0条视频占位，2026版冬季刚需小件（保暖家居、门窗密封辅件、绒面收纳）存在内容真空窗口，建议本周完成冬季品类上架，在11月初价格战前抢占自然位。② 10月下旬（10/20-10/31）：万圣节收官+Bonfire Night（11/5）双节点。halloween decorations搜索93.1万次居TikTok首位，中旬后转向last minute长尾，装饰类只剩FBA现货跟卖机会；Bonfire户外场景小件（保温、荧光、防风相关）10/25前是上架死线。③ 11月上旬（11/1-11/10）：圣诞礼盒/stocking fillers铺货期。P.Louise £275圣诞日历预售周增+11%，说明Q4 gifting动量10月已启动；£5.99-12.99恰是stocking filler主力价格带，多件套装（4件/6件装）转化优于单品。④ 11月中旬（11/11-11/20）：Black Friday（11/27）备货与广告卡位期，11/15前库存必须到位，避免断货后价格纠错。⑤ 11月下旬-1月初：出行品类第二窗口。「amazon vacation must haves」+179%、cruise相关搜索12.5万+/周，UK冬季阳光航线（Canary/迪拜线）12月出行+1月wave season预订双高峰，旅行分装、挂绳、收纳类在11月底-1月初有第二波需求。⑥ 1月起：新年整理（storage/meal prep）接力，Christmas收纳品类同步起量。⑦ 风险提示：10/6-7 Prime Big Deal Days刚结束，10月中旬流量回落属正常节奏，勿误判为品类失效，判品以周环比为准。",
+  "insights": [
+    {
+      "keyword": "microwave egg poacher dual cup silicone with lid",
+      "keyword_cn": "微波炉蒸蛋器（双杯带盖硅胶款）",
+      "amazon_keyword": "microwave egg poacher dual cup silicone with lid",
+      "search_1688": "微波炉蒸蛋器 硅胶双杯 跨境",
+      "demand_signals": [
+        "Amazon UK Home & Kitchen Best Seller榜在售「Microwave Egg Poacher With Lid & Handle, Dual Cavity」（2026-10-09抓取bestsellers榜单，进入全品类前100）",
+        "TikTok「must have kitchen items」24.3万次/7天、「kitchen appliances must haves」24.2万次+45%（TokConnect 2026-09-30数据）",
+        "1688/义乌购「跨境微波炉蒸蛋器」多款现货、四蛋款¥7.2起订5个、带跨境专供标签（义乌购2026-06/08更新）——供给端已为亚马逊备货",
+        "微波炉蒸蛋器是TG kitchen gadget经典爆款格式（19秒演示视频中位播放990万，TokConnect 2026-10-05）"
+      ],
+      "trend_score": 78,
+      "trend_direction": "up",
+      "reason": "Amazon UK畅销榜直接验证需求端；秋冬早餐+学生宿舍/办公微波炉场景进入旺季；双腔带盖是对现有单杯款的明确升级点（分食+防喷溅），差异化成本低。",
+      "action": "027店小批量空运测款（≤60件），定价£9.99；1688采购关键词「微波炉蒸蛋器 硅胶双杯」，双杯带盖款¥4.4-7.2，landed成本约£1.6；listing突出dual cup+vented lid+dishwasher safe",
+      "competition": "中等。Amazon UK有成熟listing（头部数千review），但双腔带盖细分款相对少，且全部为白牌、无品牌垄断。风险：硅胶模具类同质化快，需靠主图场景（早餐/健身餐）差异化。",
+      "signal_scores": {
+        "trend": 78,
+        "gap": 72,
+        "profit": 85,
+        "final": 78,
+        "recommendation": "重点推·027测款",
+        "profit_window": "2026-10中旬至12月底（早餐场景全年有底）"
+      },
+      "profit_calc": "£9.99售价-采购£1.6(¥6.5空运)-FBA小标准件约£2.7-佣金8%£0.8=净利£4.89(49%)"
+    },
+    {
+      "keyword": "travel perfume atomiser refillable bottom fill spray set",
+      "keyword_cn": "旅行香水分装喷雾瓶（底充铝壳6件套）",
+      "amazon_keyword": "travel perfume atomiser refillable bottom fill spray set",
+      "search_1688": "香水分装瓶 底充 5ml 铝壳",
+      "demand_signals": [
+        "TikTok香水dupe搜索集中爆发：imagination/byredo/althair/dm perfume dupes合计约150万次/周、全部0条视频（TokConnect 2026-09-30/10-05）——买平替香水的人正需要分装瓶",
+        "「amazon vacation must haves」24.7万次/7天、+179%（TokConnect 2026-09-30）",
+        "Q4 gifting启动信号：P.Louise圣诞日历£275预售周增+11%进TikTok Shop UK top6（z.media 2026-10-04），礼盒装美妆配件是gift season受益位",
+        "1688供给成熟：5ml底充香水分装瓶¥2.00/个、18色现货、单重仅13g（义乌购/chinagoods 2026-07/08更新，标注跨境专供可上飞机不漏液）"
+      ],
+      "trend_score": 82,
+      "trend_direction": "up",
+      "reason": "dupe香水是10月TikTok最大无内容蓝海搜索，分装瓶是它的直接配套；13g单重+6件套体积小，是完美的空运测品结构；圣诞前礼盒化（6色+赠小漏斗+礼袋）能吃gift红利。",
+      "action": "007店测款（高频消耗+礼赠双场景），定价£9.99；1688采购关键词「香水分装瓶 底充 5ml」，¥2.0/个×6+礼盒，landed约£1.9；listing主图打6色套装+bottom fill不漏液",
+      "competition": "高（诚实标注）。Amazon UK「perfume atomiser」头部listing数百到数千review、卖家密集。只能靠6件套+铝壳底充+礼盒组合差异化，单品裸卖必死。利润靠¥2采购价撑，若采购价高于¥3放弃。",
+      "signal_scores": {
+        "trend": 82,
+        "gap": 45,
+        "profit": 88,
+        "final": 72,
+        "recommendation": "可测款·必须套装差异化",
+        "profit_window": "2026-10至2027-01（dupe搜索+圣诞礼盒+1月wave season旅行）"
+      },
+      "profit_calc": "£9.99售价-采购£1.9(6件+礼盒)-FBA小标准件约£2.4-佣金8%£0.8=净利£4.89(49%)"
+    },
+    {
+      "keyword": "cruise lanyard retractable waterproof card holder 4 pack",
+      "keyword_cn": "邮轮挂绳卡套（防水+可伸缩扣4件装）",
+      "amazon_keyword": "cruise lanyard retractable waterproof card holder 4 pack",
+      "search_1688": "易拉扣 证件卡套 挂绳 跨境",
+      "demand_signals": [
+        "「amazon cruise must haves」12.5-13.1万次/7天、视频缺口0（TokConnect 2026-09-30与10-05两次抓取均确认）",
+        "TikTok Shop UK出行品类热度确认：PUFFIT Rain Jacket £131K GMV进top5（z.media 2026-10-04）",
+        "UK冬季阳光航线（Canary/迪拜线）12月出行+1月wave season预订双高峰，邮轮客需挂绳装房卡/登船卡是刚性场景",
+        "1688供给端现成：亚马逊热销PVC防水卡套挂绳¥1.40/个（1000起）、易拉扣¥0.15-1.60现货（义乌购2026-05/09更新，明确标注跨境亚马逊热销）"
+      ],
+      "trend_score": 75,
+      "trend_direction": "up",
+      "reason": "cruise must haves是TikTok验证的0视频缺口搜索；邮轮房卡必须挂脖是场景刚需、复购弱但客单组合容易（4件装家庭场景）；当前UK站cruise专用卡套竞品少且多数是通用badge holder凑数，产品页Quality普遍差。",
+      "action": "322/007店铺货，定价£8.99；1688采购关键词「易拉扣 证件卡套 挂绳」，防水横竖双卡+易拉扣套装约¥3-4/套×4，landed约£1.5；listing标题带cruise essential+ship card，主图场景=邮轮甲板",
+      "competition": "低-中。cruise专用listing少（多为通用挂绳），已有cruise专用款review约100-500条；品牌集中度低（白牌为主）。差异化点：防水横竖双卡位+可调节绳长+易拉扣组合4件装。",
+      "signal_scores": {
+        "trend": 75,
+        "gap": 80,
+        "profit": 82,
+        "final": 79,
+        "recommendation": "重点推·322/007铺货",
+        "profit_window": "2026-10中旬至12月（冬阳航线）+2027-01预订季第二波"
+      },
+      "profit_calc": "£8.99售价-采购£1.5(4件套)-FBA小标准件约£2.2-佣金8%£0.72=净利£4.57(51%)"
+    },
+    {
+      "keyword": "necklace layering clasp magnetic gold silver separator",
+      "keyword_cn": "叠戴项链磁吸扣（金银双色分隔扣）",
+      "amazon_keyword": "necklace layering clasp magnetic gold silver separator",
+      "search_1688": "磁吸项链扣 叠戴 磁铁扣",
+      "demand_signals": [
+        "「amazon jewelry must haves」27.6万次/7天、+37%（TokConnect 2026-09-30）",
+        "UK零售端价格锚已验证：Orelia £10-14、gldnluxe £8.99、Next £5清仓（2026-10-09抓取，品类被多个渠道定价确认）",
+        "叠戴(layering)是持续珠宝趋势：Orelia产品页自述「biggest jewellery trend」，解决缠结/搭扣跑前胸是真实痛点（Orelia用户评论验证）",
+        "TikTok Shop UK fashion为本周增速最快品类（Halara两条裤款同时进top10，z.media 2026-10-04）——配饰关注度外溢"
+      ],
+      "trend_score": 74,
+      "trend_direction": "up",
+      "reason": " £9.99定价带被Orelia(£10-14)和gldnluxe(£8.99)双重验证；产品5-10g超轻、礼盒包装体积小，空运成本几乎可忽略；圣诞礼赠季前上架正好接住「配饰礼物」搜索。1688价格未验证（本次预算内未完成询价），下单前必须先询价确认。",
+      "action": "027店测款（小件礼赠定位），定价£9.99；1688采购关键词「磁吸项链扣 叠戴 磁铁扣」价格待询价（同类磁吸通用件参考¥1.5-4/个），金/银双色2件装+延长链+绒布袋，landed目标≤£2.2",
+      "competition": "中。Amazon UK已有不锈钢磁吸叠戴扣listing（约百级到千级review），金色款占主导；Orelia在独立站/D2C强势但Amazon端以白牌为主。差异化：金银双色2件装+5cm延长链+礼袋（对手多卖单件裸扣）。",
+      "signal_scores": {
+        "trend": 74,
+        "gap": 68,
+        "profit": 84,
+        "final": 75,
+        "recommendation": "重点推·027测款（先询价再下单）",
+        "profit_window": "2026-10至圣诞礼赠季（叠戴趋势+party season）"
+      },
+      "profit_calc": "£9.99售价-采购£2.2(2件+礼盒，待询价)-FBA小标准件约£2.2-佣金8%£0.8=净利£4.79(48%)"
+    }
+  ]
+}
