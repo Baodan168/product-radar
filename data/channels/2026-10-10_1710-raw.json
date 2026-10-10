@@ -1,0 +1,1715 @@
+{
+  "scan_date": "2026-10-10",
+  "scan_time": "17:10",
+  "scan_ts": "2026-10-10_1710",
+  "stats": {
+    "total_scanned": 92,
+    "passed": 1,
+    "sources": [
+      "amazon",
+      "keyword",
+      "tiktok"
+    ]
+  },
+  "products": [
+    {
+      "asin": "B0H6TCNL76",
+      "name": "200m Cooking String 4 Rolls, 50m Each Kitchen Twine for Cooking, Baking & Food Preparation, Strong Cooking Twine for Tyi",
+      "price": 3.99,
+      "reviews": 4,
+      "rating": 5.0,
+      "rank": 1,
+      "category": "Kitchen",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "4 reviews, 5.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H6TCNL76",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71VqFjulKgL._AC_UL300_SR300,200_.jpg"
+    },
+    {
+      "asin": "B0H2DW3D6J",
+      "name": "ZIJIAZHENG 100 Pcs 4 Inches Metallic Twist Ties Reusable Bag Ties Plastic Bread Twist Ties for Candy Bags, Coffee Bags, ",
+      "price": 3.12,
+      "reviews": 1,
+      "rating": 5.0,
+      "rank": 2,
+      "category": "Kitchen",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "1 reviews, 5.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H2DW3D6J",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/81hHcEY6yQL._AC_UL300_SR300,200_.jpg"
+    },
+    {
+      "asin": "B0HJCQXTC7",
+      "name": "Alyvisun Overnight Oats Jar with Spoon, 500 ml + 220 ml, Olive Green | 304 Stainless Steel Yogurt Pot, Breakfast Pot for",
+      "price": 16.99,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 3,
+      "category": "Kitchen",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HJCQXTC7",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71+cJJVTInL._AC_UL300_SR300,200_.jpg"
+    },
+    {
+      "asin": "B0HK2K7WV6",
+      "name": "Relaxdays, metal gas heater, 3 ceramic plates, 4200W, white | piezo ignition & infrared, for outdoor use",
+      "price": 81.9,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 4,
+      "category": "Kitchen",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HK2K7WV6",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/81BsNibvkgL._AC_UL300_SR300,200_.jpg"
+    },
+    {
+      "asin": "B0HD131B9W",
+      "name": "White Cotton String Ball Pack of 3 Cotton Twine Butchers Twine for Cooking Kitchen Trussing Meat Poultry Sausages Craft ",
+      "price": 3.95,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 5,
+      "category": "Kitchen",
+      "channel": "new_releases",
+      "channel_name": "Amazon新品榜",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HD131B9W",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71zmJrfntsL._AC_UL300_SR300,200_.jpg"
+    },
+    {
+      "asin": "B0D8VHSJWN",
+      "name": "Heated Blanket Electric Throw 160x130CM, Dark Grey, Heating Blanket | 10 Levels &1-9H Timer Auto-Off, Machine Washable, ",
+      "price": 29.99,
+      "reviews": 3627,
+      "rating": 4.3,
+      "rank": 1,
+      "category": "Kitchen",
+      "channel": "bsr",
+      "channel_name": "Amazon畅销榜",
+      "review_info": "3627 reviews, 4.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0D8VHSJWN",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71FS2MoeIZL._AC_UL300_SR300,200_.jpg"
+    },
+    {
+      "asin": "B07TN8SLWP",
+      "name": "Contigo Byron Snapseal Travel Mug, Leakproof Thermal-Mug, 7h hot, 470 ml | SNAPSEAL technology, leak-proof travel mug, T",
+      "price": 7.5,
+      "reviews": 16486,
+      "rating": 4.4,
+      "rank": 2,
+      "category": "Kitchen",
+      "channel": "bsr",
+      "channel_name": "Amazon畅销榜",
+      "review_info": "16486 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B07TN8SLWP",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/61nsXmianqL._AC_UL300_SR300,200_.jpg"
+    },
+    {
+      "asin": "B0030FUHR8",
+      "name": "Kilner Clip-Top Storage Jar, 1 Litre, Airtight, Glass, for Fruit, Vegetables, Coffee, Tea, Flour",
+      "price": 3.0,
+      "reviews": 5120,
+      "rating": 4.7,
+      "rank": 3,
+      "category": "Kitchen",
+      "channel": "bsr",
+      "channel_name": "Amazon畅销榜",
+      "review_info": "5120 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0030FUHR8",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71rBjFD4UPL._AC_UL300_SR300,200_.jpg"
+    },
+    {
+      "asin": "B0F5HT5NRN",
+      "name": "Roe Tenpo Air Fryer Liners, 100Pcs Disposable Baking Parchment Paper, Non-Stick & Greaseproof, Air Fryer Accessories for",
+      "price": 3.32,
+      "reviews": 3158,
+      "rating": 4.5,
+      "rank": 4,
+      "category": "Kitchen",
+      "channel": "bsr",
+      "channel_name": "Amazon畅销榜",
+      "review_info": "3158 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0F5HT5NRN",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/71IB4GRS0AL._AC_UL300_SR300,200_.jpg"
+    },
+    {
+      "asin": "B01GFPWTI4",
+      "name": "Russell Hobbs Supreme Steam Iron, 2400W, 300ml Tank, 110g Steam Shot, Vertical Steam, Stainless Steel Soleplate, Easy Fi",
+      "price": 26.72,
+      "reviews": 31169,
+      "rating": 4.4,
+      "rank": 5,
+      "category": "Kitchen",
+      "channel": "bsr",
+      "channel_name": "Amazon畅销榜",
+      "review_info": "31169 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B01GFPWTI4",
+      "image_url": "https://images-eu.ssl-images-amazon.com/images/I/61ykIFsspjL._AC_UL300_SR300,200_.jpg"
+    },
+    {
+      "asin": "B0H4MNBHKP",
+      "name": "Sponsored Ad – POPit JAR Opener (Grey) | JAR OPENER FOR WEAK HANDS, ARTHRITIC HANDS, ELDERLY, SENIORS",
+      "price": 12.95,
+      "reviews": 0,
+      "rating": 4.4,
+      "rank": 1,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H4MNBHKP",
+      "image_url": "https://m.media-amazon.com/images/I/61AE1bglE5L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "jar opener rubber lid gripper weak hands",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H8R9X3D8",
+      "name": "Sponsored Ad – UIMIHIDI Jar Opener for Seniors with Arthritis & Weak Hands,Adjustable Lid Remover Tool for Jars & Bottle",
+      "price": 4.99,
+      "reviews": 0,
+      "rating": 5.0,
+      "rank": 2,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 5.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H8R9X3D8",
+      "image_url": "https://m.media-amazon.com/images/I/71LSxCX+qCL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "jar opener rubber lid gripper weak hands",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0GVJTN3H6",
+      "name": "Sponsored Ad – 4PCS Rubber Jar Gripper Pads, Non-Slip Jar Openers for Arthritis Hands, Reusable Rubber Gripper for Openi",
+      "price": 4.49,
+      "reviews": 0,
+      "rating": 4.6,
+      "rank": 3,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GVJTN3H6",
+      "image_url": "https://m.media-amazon.com/images/I/8103lNEm-jL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "jar opener rubber lid gripper weak hands",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H7XL7R92",
+      "name": "Sponsored Ad – 3Pcs Jar Opener for Weak Hands, Ymapinc Rubber Gripper for Seniors | Non-Slip Rubber Bottle Opener for Ar",
+      "price": 4.91,
+      "reviews": 0,
+      "rating": 5.0,
+      "rank": 5,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 5.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H7XL7R92",
+      "image_url": "https://m.media-amazon.com/images/I/6185E717udL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "jar opener rubber lid gripper weak hands",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0GMG9HM3K",
+      "name": "4 Pcs Rubber Jar Opener,Multi Purpose Round Non Slip Jar Gripper Pad,Openers for Arthritis Hands,Multi-Function Arthriti",
+      "price": 3.99,
+      "reviews": 0,
+      "rating": 5.0,
+      "rank": 6,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 5.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GMG9HM3K",
+      "image_url": "https://m.media-amazon.com/images/I/817h6j2aPrL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "jar opener rubber lid gripper weak hands",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H2DD9THH",
+      "name": "3 PCS Jar Openers for Arthritis Hands, Rubber Jar Opener Gripper Pads for Weak Hands, Multi Purpose Lid Opener for Jars ",
+      "price": 4.99,
+      "reviews": 11,
+      "rating": 4.6,
+      "rank": 7,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "11 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H2DD9THH",
+      "image_url": "https://m.media-amazon.com/images/I/71jS35TfZpL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "jar opener rubber lid gripper weak hands",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FC69LK6Y",
+      "name": "Sponsored Ad – Heclia 3PCS Rubber Jar Opener, 3.7 Inch Jar Gripper Pad Jars Grippers | Round, Non Slip, for Seniors, wit",
+      "price": 5.82,
+      "reviews": 38,
+      "rating": 4.5,
+      "rank": 9,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "38 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FC69LK6Y",
+      "image_url": "https://m.media-amazon.com/images/I/71Vdfehc7+L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "jar opener rubber lid gripper weak hands",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0DSTQF61D",
+      "name": "Sponsored Ad – Jarkey Original Easy Jar Key Opener Ergonomic Can Lid Openers for Arthritis Hands, Seniors & Weak Grip Po",
+      "price": 4.41,
+      "reviews": 17,
+      "rating": 4.8,
+      "rank": 10,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "17 reviews, 4.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DSTQF61D",
+      "image_url": "https://m.media-amazon.com/images/I/51H8AGlQMuL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "jar opener rubber lid gripper weak hands",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FYDY1P5N",
+      "name": "Apojgitn 6-Pack Rubber jar Opener Grippers - Bottle Opener for Weak Hands & Seniors - Multi-Color Grip Pads for Opening ",
+      "price": 4.41,
+      "reviews": 25,
+      "rating": 4.6,
+      "rank": 11,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "25 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FYDY1P5N",
+      "image_url": "https://m.media-amazon.com/images/I/71gD3H3t8cL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "jar opener rubber lid gripper weak hands",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0GHNGGGHV",
+      "name": "Sponsored Ad – Heclia 2 PCS Rubber Jar Openers 7 Inch Round Silicone Jar Opener Gripper Pads Non-Slip Kitchen Lid Opener",
+      "price": 5.32,
+      "reviews": 0,
+      "rating": 5.0,
+      "rank": 13,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 5.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GHNGGGHV",
+      "image_url": "https://m.media-amazon.com/images/I/71p-QHLaBrL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "jar opener rubber lid gripper weak hands",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0DJNHJSNS",
+      "name": "Sponsored Ad – 3 PCS Jar Gripper Reusable Rubber Jar Opener Multi-Purpose Jar Grips Bottle Jar lid Opener Lid Opener for",
+      "price": 4.99,
+      "reviews": 55,
+      "rating": 4.3,
+      "rank": 14,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "55 reviews, 4.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DJNHJSNS",
+      "image_url": "https://m.media-amazon.com/images/I/71j9mcb2cGL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "jar opener rubber lid gripper weak hands",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0HD7CQLWV",
+      "name": "4 PCS Rubber Jar Gripper Pads, Rubber Jar Opener | Jar Openers Gripper Pad, Multi-purpose Jar Opener Grippers, for Weak ",
+      "price": 3.24,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 16,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HD7CQLWV",
+      "image_url": "https://m.media-amazon.com/images/I/71lJrUtsZyL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "jar opener rubber lid gripper weak hands",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H2DJQ8RL",
+      "name": "Sponsored Ad – 7 in 1 Jar Opener Bottle Opener and Wine Opener for Seniors with Arthritis, Weak Hands, Multi Retractable",
+      "price": 11.66,
+      "reviews": 0,
+      "rating": 3.9,
+      "rank": 19,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 3.9★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H2DJQ8RL",
+      "image_url": "https://m.media-amazon.com/images/I/61hbhsTQT5L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "jar opener rubber lid gripper weak hands",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0HJTHF2KK",
+      "name": "Sponsored Ad – Rubber Jar Opener Gripper Pads 4 Pcs Multi Color 12.5cm | rubber jar opener, jar openers for arthritis ha",
+      "price": 3.49,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 21,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HJTHF2KK",
+      "image_url": "https://m.media-amazon.com/images/I/81FyPbXjgQL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "jar opener rubber lid gripper weak hands",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0DSDCLS7Z",
+      "name": "3Pcs Jar Opener for Weak Hands, Reusable Rubber Gripper Jar Opener | Multi Purpose, Reusable Rubber Gripper, For Most Bo",
+      "price": 4.16,
+      "reviews": 10,
+      "rating": 4.9,
+      "rank": 24,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "10 reviews, 4.9★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DSDCLS7Z",
+      "image_url": "https://m.media-amazon.com/images/I/71Itqrft9AL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "jar opener rubber lid gripper weak hands",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0GFM9RM84",
+      "name": "Sibba 3 PCS Rubber Jar Openers Non-Slip Jar Opener Gripper for Seniors with Arthritis Weak Hands Red Silicone Kitchen Li",
+      "price": 4.16,
+      "reviews": 0,
+      "rating": 4.1,
+      "rank": 26,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 4.1★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GFM9RM84",
+      "image_url": "https://m.media-amazon.com/images/I/71iMlyzbEOL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "jar opener rubber lid gripper weak hands",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0GVKBRCKS",
+      "name": "2Pcs Jar Opener Gripper, Jar Opener for Weak Hands UK Easy Grip Plastic Jars Lid Openers for Elderly and Seniors",
+      "price": 2.49,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 27,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GVKBRCKS",
+      "image_url": "https://m.media-amazon.com/images/I/61wYPJqpiBL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "jar opener rubber lid gripper weak hands",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0GVRDHKZ9",
+      "name": "QIHAWN 4Pcs Rubber Jar Opener Pads, Non-Slip Heat Insulated for Kitchen | Durable rubber, textured non-slip grip, heat-i",
+      "price": 4.16,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 28,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GVRDHKZ9",
+      "image_url": "https://m.media-amazon.com/images/I/81Fa4GGjNtL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "jar opener rubber lid gripper weak hands",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0BZ82ZF63",
+      "name": "4PCS Jar Gripper Pads, Multifunctional Rubber Jar Gripper Pad Jar Opener Grippers Kitchen Coaster for Elderly Children W",
+      "price": 3.34,
+      "reviews": 74,
+      "rating": 4.5,
+      "rank": 29,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "74 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0BZ82ZF63",
+      "image_url": "https://m.media-amazon.com/images/I/818Ub09Z3rL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "jar opener rubber lid gripper weak hands",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0HFRJNVKX",
+      "name": "4 Pcs Rubber Jar Opener,3 Style Reusable Rubber Jar Opener Gripper Pad | Multi‑functional Soft Rubber Jar Opener,Funnel-",
+      "price": 4.19,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 30,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HFRJNVKX",
+      "image_url": "https://m.media-amazon.com/images/I/81TpuuMdd9L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "jar opener rubber lid gripper weak hands",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0GYND9TRV",
+      "name": "Jar Opener, Lid Opener for Jars and Bottles, Strap Wrench for Kitchen Use, Jar Lid Opener with Rubber Grip, Suitable for",
+      "price": 4.59,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 31,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GYND9TRV",
+      "image_url": "https://m.media-amazon.com/images/I/71WRBTnfB2L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "jar opener rubber lid gripper weak hands",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0CLTXF3WZ",
+      "name": "SOL 1pk Jar and Bottle Opener - Jar Openers for Arthritis Hands & Elderly | Jar Openers for Arthritis Hands - Screw Top ",
+      "price": 4.91,
+      "reviews": 64,
+      "rating": 4.3,
+      "rank": 32,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "64 reviews, 4.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CLTXF3WZ",
+      "image_url": "https://m.media-amazon.com/images/I/81hookgntHL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "jar opener rubber lid gripper weak hands",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0HG13L5HN",
+      "name": "Koilife 4PCS Rubber Jar Opener Pads, Bottle Openers for Arthritic Hands | Heat-Insulated Non-Slip Gripper Pads for Arthr",
+      "price": 4.59,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 33,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HG13L5HN",
+      "image_url": "https://m.media-amazon.com/images/I/61xW5Mk8f3L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "jar opener rubber lid gripper weak hands",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FQNPBKXZ",
+      "name": "Hopzab 3 Pcs Jar Gripper Reusable Bottle Lid Opener Multi-Purpose Rubber Jar Opener Pads for Most Bottles,Elderly Suffer",
+      "price": 3.57,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 34,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FQNPBKXZ",
+      "image_url": "https://m.media-amazon.com/images/I/61mORgnbG3L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "jar opener rubber lid gripper weak hands",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0GKDGFWD1",
+      "name": "NileHome jar Opener Bottle Opener Kitchen Gadgets 5 in 1 Multi Function for Arthritis Hands weak Hands，Elderly",
+      "price": 4.99,
+      "reviews": 45,
+      "rating": 4.4,
+      "rank": 37,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "45 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GKDGFWD1",
+      "image_url": "https://m.media-amazon.com/images/I/61DU7Wf65BL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "jar opener rubber lid gripper weak hands",
+      "sources": [
+        "趋势发现",
+        "TikTok趋势"
+      ]
+    },
+    {
+      "asin": "B0GWH5PLXC",
+      "name": "2 PCS Jar Openers for Arthritis Hands, Multifunctional Jar Lid Opener for Weak Hands, Ergonomic Automatic Jar Gripper, E",
+      "price": 4.99,
+      "reviews": 0,
+      "rating": 3.6,
+      "rank": 38,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 3.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GWH5PLXC",
+      "image_url": "https://m.media-amazon.com/images/I/610HcV-rBbL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "jar opener rubber lid gripper weak hands",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0DKNVV28Q",
+      "name": "Gjinxi 3Pcs Jar Openers Rubber Jar Opener Gripper Top Rated for Seniors Multi Purpose Jar Grippers for Opening Jars for ",
+      "price": 5.41,
+      "reviews": 65,
+      "rating": 4.6,
+      "rank": 39,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "65 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DKNVV28Q",
+      "image_url": "https://m.media-amazon.com/images/I/713wCAIxCyL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "jar opener rubber lid gripper weak hands",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0GQB1T7T4",
+      "name": "6 Pack Rubber Jar Opener Gripper Pads, Non-Slip Silicone Round and Square Bottle Opener Set, Multi-Purpose Lid Grippers ",
+      "price": 4.41,
+      "reviews": 0,
+      "rating": 4.8,
+      "rank": 40,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 4.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GQB1T7T4",
+      "image_url": "https://m.media-amazon.com/images/I/71KjRD7Vw7L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "jar opener rubber lid gripper weak hands",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0C7GTJDTD",
+      "name": "Sibba 6Pcs Rubber Jar Gripper Pads, Multi-Purpose Jar Opener Grippers, Bottle Lid Openers Round Kitchen Coasters for Eld",
+      "price": 4.99,
+      "reviews": 195,
+      "rating": 4.4,
+      "rank": 41,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "195 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0C7GTJDTD",
+      "image_url": "https://m.media-amazon.com/images/I/81-YP3Sl1dL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "jar opener rubber lid gripper weak hands",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0CT28WDDH",
+      "name": "4 Pack Bottle Opener, Jar Opener, Multi Function Set Stainless Steel Rubber | for Bottles, Cans, Screw-top Can Lids, Rin",
+      "price": 7.4,
+      "reviews": 107,
+      "rating": 4.6,
+      "rank": 43,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "107 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CT28WDDH",
+      "image_url": "https://m.media-amazon.com/images/I/71uwj8C+uSL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "jar opener rubber lid gripper weak hands",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0GSMX6RFD",
+      "name": "HJZHII 10pcs Rubber Jar Opener Gripper Pads, Non-Slip Silicone Grippers Pad | Multi-Function Bottle Opener Kitchen Grips",
+      "price": 5.82,
+      "reviews": 0,
+      "rating": 4.7,
+      "rank": 44,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GSMX6RFD",
+      "image_url": "https://m.media-amazon.com/images/I/81iSkJt0VgL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "jar opener rubber lid gripper weak hands",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0C1YX458M",
+      "name": "4Pcs Rubber Jar Gripper Pads, Bottle Lid Tops Openers Jar Grips Openers for Most Bottles for Arthritic Weak Hands (Squar",
+      "price": 4.57,
+      "reviews": 127,
+      "rating": 4.4,
+      "rank": 45,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "127 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0C1YX458M",
+      "image_url": "https://m.media-amazon.com/images/I/91KrXvWXHjL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "jar opener rubber lid gripper weak hands",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H25W58GJ",
+      "name": "5pcs Jar Opener Screw Lid Bottle Gripper for Elderly Arthritis Weak Hands | 5 pcs jar opener bottle lid screw plastic op",
+      "price": 9.99,
+      "reviews": 0,
+      "rating": 5.0,
+      "rank": 47,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 5.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H25W58GJ",
+      "image_url": "https://m.media-amazon.com/images/I/61dEpSUz5bL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "jar opener rubber lid gripper weak hands",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H26QHGW8",
+      "name": "2Pcs jar openers for Arthritis Hands, Adjustable Stainless Steel Jar Opener for Weak Hands UK Easy Grip Kitchen Tool for",
+      "price": 4.99,
+      "reviews": 0,
+      "rating": 5.0,
+      "rank": 48,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 5.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H26QHGW8",
+      "image_url": "https://m.media-amazon.com/images/I/71Z-qdVYTwL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "jar opener rubber lid gripper weak hands",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0DRYKQYMJ",
+      "name": "Grevosea 4Pcs Rubber Jar Opener Grippers, Jar Opener Gripper Pad Rubber Grippers for Opening Jars Multi-Function Kitchen",
+      "price": 4.32,
+      "reviews": 15,
+      "rating": 4.6,
+      "rank": 49,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "15 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DRYKQYMJ",
+      "image_url": "https://m.media-amazon.com/images/I/71WzmD7gafL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "jar opener rubber lid gripper weak hands",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H8DVQNP3",
+      "name": "4 Pcs Rubber Jar Gripper Pads, Non-Slip Jar Opener Gripper Pad | for Arthritis Hands, Reusable Jar Grippers, Heat Irs fo",
+      "price": 4.91,
+      "reviews": 0,
+      "rating": 4.5,
+      "rank": 50,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H8DVQNP3",
+      "image_url": "https://m.media-amazon.com/images/I/61C51aAxH6L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "jar opener rubber lid gripper weak hands",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0GSJLWRXG",
+      "name": "4-in-1 Adjustable Jar Opener,Fits 1–3.5 Inch Diameter Jars | Adjustable Metal Non-Slip Serrated Teeth, Includes Beer Ope",
+      "price": 3.32,
+      "reviews": 16,
+      "rating": 4.2,
+      "rank": 52,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "16 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GSJLWRXG",
+      "image_url": "https://m.media-amazon.com/images/I/71Rnwiv76RL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "jar opener rubber lid gripper weak hands",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0G8GPZJYW",
+      "name": "Rubber Jar Opener Pads Set of 4, Round Heat-Insulated Non-Slip Gripper Pads for Jars, Kitchen Tool for Easy Opening (Cir",
+      "price": 4.49,
+      "reviews": 0,
+      "rating": 4.2,
+      "rank": 53,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0G8GPZJYW",
+      "image_url": "https://m.media-amazon.com/images/I/91ffntcb4uL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "jar opener rubber lid gripper weak hands",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H7PVMGYS",
+      "name": "GKOB Jar Opener for Seniors with Weak Hands Non-Slip Multi Lid Opener | Essential disability aids for weak hands and art",
+      "price": 10.82,
+      "reviews": 46,
+      "rating": 4.3,
+      "rank": 55,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "46 reviews, 4.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H7PVMGYS",
+      "image_url": "https://m.media-amazon.com/images/I/6170kWxBu+L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "jar opener rubber lid gripper weak hands",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0GZZFXPSM",
+      "name": "4 PCS Jar Openers for Arthritis Hands, Set for Easy Lid Removal, Non-Slip Kitchen Tools for Elderly and Weak Hands, Stai",
+      "price": 3.57,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 56,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GZZFXPSM",
+      "image_url": "https://m.media-amazon.com/images/I/71KMIOXQy6L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "jar opener rubber lid gripper weak hands",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FKBNBJWB",
+      "name": "Sponsored Ad – LCGOD Heavy Duty Plant Covers for Winter, 60x80cm/2-Pack, | Frost Protection Fleece with Drawstring, Brea",
+      "price": 7.49,
+      "reviews": 189,
+      "rating": 4.4,
+      "rank": 3,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "189 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FKBNBJWB",
+      "image_url": "https://m.media-amazon.com/images/I/61UhZuc+s0L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "plant fleece frost protector jacket cover drawstring",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FKGK7V3Z",
+      "name": "Sponsored Ad – VIHAN Plant Protection Cover 0.8m*1.2m with Zipper Drawstring, 2 Packs Thick Reusable Winter Frost Protec",
+      "price": 9.99,
+      "reviews": 16,
+      "rating": 4.5,
+      "rank": 4,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "16 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FKGK7V3Z",
+      "image_url": "https://m.media-amazon.com/images/I/61a1fxP44lL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "plant fleece frost protector jacket cover drawstring",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0HFR4WZMH",
+      "name": "Sponsored Ad – 2 Packs Plant Covers Freeze Protection，Covers Bags with Zipper Drawstring | Frost Blankets for Plants Fro",
+      "price": 12.66,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 5,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HFR4WZMH",
+      "image_url": "https://m.media-amazon.com/images/I/716xC1wJExL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "plant fleece frost protector jacket cover drawstring",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FHHYNQ7N",
+      "name": "2 Pack Plant Freeze Protection Covers, 80x120cm 70GSM Frost Blanket, Green | Zipper - Drawstring Closure, Winter Plant C",
+      "price": 9.16,
+      "reviews": 111,
+      "rating": 4.5,
+      "rank": 7,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "111 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FHHYNQ7N",
+      "image_url": "https://m.media-amazon.com/images/I/81t0G9QSW3L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "plant fleece frost protector jacket cover drawstring",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FKBP1K7C",
+      "name": "Sponsored Ad – LCGOD Plant Covers for Winter 80x100cm, Frost Protection with Drawstring | 4-Pack, Frost Protection, Brea",
+      "price": 12.49,
+      "reviews": 189,
+      "rating": 4.4,
+      "rank": 8,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "189 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FKBP1K7C",
+      "image_url": "https://m.media-amazon.com/images/I/61fVZX0xv-L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "plant fleece frost protector jacket cover drawstring",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H6JHL8GJ",
+      "name": "Sponsored Ad – Halatool Garden fleece frost protection for plant 3m x 10m (30 gsm) | Breathable non-woven fabric,Snow、 f",
+      "price": 15.24,
+      "reviews": 11,
+      "rating": 4.6,
+      "rank": 10,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "11 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H6JHL8GJ",
+      "image_url": "https://m.media-amazon.com/images/I/81q5VWPiyeL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "plant fleece frost protector jacket cover drawstring",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H5PFFQPF",
+      "name": "Sponsored Ad – LCGOD Plant Frost Protection Fleece 30gsm Heavy-Duty Garden Cover 2x5m | Breathable Non-Woven Fabric, Win",
+      "price": 8.32,
+      "reviews": 22,
+      "rating": 4.7,
+      "rank": 11,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "22 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H5PFFQPF",
+      "image_url": "https://m.media-amazon.com/images/I/717i9LRXIGL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "plant fleece frost protector jacket cover drawstring",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FHHX5HX2",
+      "name": "2 Pack Plant Freeze Protection Covers, 80x120cm 70GSM Frost Blanket, White | Zipper - Drawstring Closure, Winter Plant C",
+      "price": 9.16,
+      "reviews": 111,
+      "rating": 4.5,
+      "rank": 13,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "111 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FHHX5HX2",
+      "image_url": "https://m.media-amazon.com/images/I/71S7fnDoVEL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "plant fleece frost protector jacket cover drawstring",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0HFRYBLWQ",
+      "name": "Sponsored Ad – Biubee 6Pcs Plant Covers Freeze Protection for Outdoor Plants, 100 × 100 cm | Plant Fleece Frost Protecti",
+      "price": 16.66,
+      "reviews": 0,
+      "rating": 3.0,
+      "rank": 14,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 3.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HFRYBLWQ",
+      "image_url": "https://m.media-amazon.com/images/I/81WOFYpLN+L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "plant fleece frost protector jacket cover drawstring",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H83BQLPB",
+      "name": "Sponsored Ad – 2 Pack Rounded Top Plant Covers Freeze Protection with Reflective Strip | 64x80cm 75GSM Winter Frost Clot",
+      "price": 8.32,
+      "reviews": 0,
+      "rating": 5.0,
+      "rank": 15,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 5.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H83BQLPB",
+      "image_url": "https://m.media-amazon.com/images/I/71B5mehxlbL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "plant fleece frost protector jacket cover drawstring",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H9911C6R",
+      "name": "Sponsored Ad – SHYSBV 80 * 100CM Thickened Winter Plant Fleece Frost Protection Covers, Beige, 4 Pack",
+      "price": 12.49,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 16,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H9911C6R",
+      "image_url": "https://m.media-amazon.com/images/I/51JNmmGCBxL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "plant fleece frost protector jacket cover drawstring",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H98TG3DJ",
+      "name": "Sponsored Ad – Plant Fleece Frost Protection, 200 x 240cm Garden Fleece Frost Protection | Zipper and Drawstring, Shrubs",
+      "price": 14.99,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 17,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H98TG3DJ",
+      "image_url": "https://m.media-amazon.com/images/I/616s+u76okL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "plant fleece frost protector jacket cover drawstring",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0HC7HWV4F",
+      "name": "Plant Fleece Frost Protection, 3 Pack 80x120CM Horticultural Fleece Bags | Rip Resistant, Breathable Plant Horticultural",
+      "price": 9.91,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 19,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HC7HWV4F",
+      "image_url": "https://m.media-amazon.com/images/I/81Sq0ujbnAL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "plant fleece frost protector jacket cover drawstring",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0HFRR9RC6",
+      "name": "Sponsored Ad – Biubee 3Pcs Plant Covers Freeze Protection for Outdoor Plants, 100 x 100 cm | Plant Fleece Frost Protecti",
+      "price": 12.49,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 20,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HFRR9RC6",
+      "image_url": "https://m.media-amazon.com/images/I/81HwJs6SZHL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "plant fleece frost protector jacket cover drawstring",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FKB31JXV",
+      "name": "2 Pack Plant Fleece Frost Protection Covers (60gms, 80x120cm) with 1 Pair Gloves – Winter Garden Fleece Jackets for Pott",
+      "price": 4.55,
+      "reviews": 0,
+      "rating": 5.0,
+      "rank": 21,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 5.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FKB31JXV",
+      "image_url": "https://m.media-amazon.com/images/I/81zD9I0hDCL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "plant fleece frost protector jacket cover drawstring",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FG2XH2ZR",
+      "name": "KINGLAKE 2 Pack 70gsm Garden Plant Fleece Frost Protection Bags 60 x 80cm | Winter Plant Covers Freeze Jackets with Zipp",
+      "price": 8.32,
+      "reviews": 49,
+      "rating": 4.2,
+      "rank": 22,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "49 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FG2XH2ZR",
+      "image_url": "https://m.media-amazon.com/images/I/71T3DqNcieL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "plant fleece frost protector jacket cover drawstring",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FFT6CLT4",
+      "name": "YAWAHOME Plant Fleece Frost Protection, 2 Pack 100x120 CM Anti-Freeze | Breathable Winter Fleece for Plants with Zipper ",
+      "price": 7.49,
+      "reviews": 59,
+      "rating": 4.7,
+      "rank": 23,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "59 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FFT6CLT4",
+      "image_url": "https://m.media-amazon.com/images/I/81HSjCMnccL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "plant fleece frost protector jacket cover drawstring",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0CJRJHFNT",
+      "name": "4PCS Plant Fleece Frost Protection Jackets (50gms 60cm x 80cm), Garden Fleece Frost Protection, Plant Cover for for Pott",
+      "price": 12.99,
+      "reviews": 140,
+      "rating": 4.2,
+      "rank": 24,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "140 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CJRJHFNT",
+      "image_url": "https://m.media-amazon.com/images/I/61lk2fu7lfL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "plant fleece frost protector jacket cover drawstring",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0HBPH7Z9T",
+      "name": "XIDEAN 2-Pack Winter Plant Covers Freeze Protection with Viewing Window, Beige 100 x 80cm Frost Cloth Plants Jacket Draw",
+      "price": 11.49,
+      "reviews": 0,
+      "rating": 5.0,
+      "rank": 25,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 5.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HBPH7Z9T",
+      "image_url": "https://m.media-amazon.com/images/I/71jAOvSDCZL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "plant fleece frost protector jacket cover drawstring",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0DHJNSYBQ",
+      "name": "2Pack Plant Fleece Frost Covers with Zipper Drawstring 60gms 80 × 120cm | Extra Thick Large Green Non-Woven Plant Covers",
+      "price": 7.49,
+      "reviews": 12,
+      "rating": 4.2,
+      "rank": 26,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "12 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DHJNSYBQ",
+      "image_url": "https://m.media-amazon.com/images/I/71LpZ8yxKJL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "plant fleece frost protector jacket cover drawstring",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0GR8XMVTY",
+      "name": "UTMHGU 3 Pack 60cm x 80cm Plant Fleece Frost Protection Covers, 60gsm Horticultural Fleece with Drawstring Shields Outdo",
+      "price": 9.99,
+      "reviews": 30,
+      "rating": 4.6,
+      "rank": 27,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "30 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GR8XMVTY",
+      "image_url": "https://m.media-amazon.com/images/I/51tsb4wXF7L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "plant fleece frost protector jacket cover drawstring",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FH6TLMKZ",
+      "name": "Velway Plant Fleece Frost Protection Cover 2PCS 120 x 180 cm 80gsm Garden Fleece Jacket Frost Blankets Tree Covers Jacke",
+      "price": 10.27,
+      "reviews": 126,
+      "rating": 4.4,
+      "rank": 28,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "126 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FH6TLMKZ",
+      "image_url": "https://m.media-amazon.com/images/I/61ntO4lmqIL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "plant fleece frost protector jacket cover drawstring",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FMF5XNYV",
+      "name": "HAFRILY 2PCS Plant Fleece Frost Protection Jackets 80cm x 100cm Plant Frost Protection Covers Fleece Bag for Plant Cover",
+      "price": 8.32,
+      "reviews": 10,
+      "rating": 4.5,
+      "rank": 29,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "10 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FMF5XNYV",
+      "image_url": "https://m.media-amazon.com/images/I/617KAIk8w3L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "plant fleece frost protector jacket cover drawstring",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FDQ2X52S",
+      "name": "Jusdoja Plant Fleece Frost Protection 120x180CM 2pcs Horticultural Fleece | With Drawstring & Zipper. Winter Frost Cover",
+      "price": 13.32,
+      "reviews": 67,
+      "rating": 4.2,
+      "rank": 30,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "67 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FDQ2X52S",
+      "image_url": "https://m.media-amazon.com/images/I/717Z0lGYopL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "plant fleece frost protector jacket cover drawstring",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0DJNYQKQS",
+      "name": "4 Pack Winter Plant Covers Freeze Protection, Large Frost Fleece for Plants | 80 X 120cm Garden Fleece for Plants Protec",
+      "price": 12.48,
+      "reviews": 0,
+      "rating": 4.5,
+      "rank": 31,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DJNYQKQS",
+      "image_url": "https://m.media-amazon.com/images/I/81dcQFUXebL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "plant fleece frost protector jacket cover drawstring",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0HG1D5ZN2",
+      "name": "6 PCS Winter Plant Covers Freeze Proof, 80x120cm Outdoor Garden Fleece Bag | with Zipper & Drawstring, Breathable Rip-Re",
+      "price": 20.98,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 32,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HG1D5ZN2",
+      "image_url": "https://m.media-amazon.com/images/I/71e-61PkvHL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "plant fleece frost protector jacket cover drawstring",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H9L1J7R6",
+      "name": "XIDEAN 2-Pack Winter Plant Covers Freeze Protection White 100 x 80cm Frost Cloth Plants Jacket Drawstring Zipper Tree Co",
+      "price": 10.82,
+      "reviews": 0,
+      "rating": 4.5,
+      "rank": 33,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H9L1J7R6",
+      "image_url": "https://m.media-amazon.com/images/I/617pTO-tDrL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "plant fleece frost protector jacket cover drawstring",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0BNMD8QC3",
+      "name": "QWORK® Large Winter Plant Frost Protection Cover - 200 x 240CM - Plant Fleece Blanket Warming Jacket - with Zip and Draw",
+      "price": 11.65,
+      "reviews": 10,
+      "rating": 4.1,
+      "rank": 34,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "10 reviews, 4.1★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0BNMD8QC3",
+      "image_url": "https://m.media-amazon.com/images/I/71xCbtTnSyL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "plant fleece frost protector jacket cover drawstring",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0D97PYK9W",
+      "name": "Plant Covers for Winter, 300 x 300 cm Garden Plant Fleece Frost Protection | Olive Tree Covers for Winter, 300 Tall Flee",
+      "price": 23.74,
+      "reviews": 24,
+      "rating": 4.1,
+      "rank": 35,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "24 reviews, 4.1★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0D97PYK9W",
+      "image_url": "https://m.media-amazon.com/images/I/71TgvKZZcYL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "plant fleece frost protector jacket cover drawstring",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0HDHPGM1F",
+      "name": "3 Pack Plant Fleece Frost Protection Covers | 60x80cm Horticultural Fleece | Plant Frost Protection Covers With Drawstri",
+      "price": 8.32,
+      "reviews": 0,
+      "rating": 0,
+      "rank": 36,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HDHPGM1F",
+      "image_url": "https://m.media-amazon.com/images/I/71K8i2XqYgL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "plant fleece frost protector jacket cover drawstring",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0CLYBPPT2",
+      "name": "Lonnalee Garden Fleece Plant Frost Protection 2 Packs 60x80cmPlant Covers For WinterProtect Plant From Being DamagedBad ",
+      "price": 4.73,
+      "reviews": 12,
+      "rating": 3.9,
+      "rank": 37,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "12 reviews, 3.9★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CLYBPPT2",
+      "image_url": "https://m.media-amazon.com/images/I/518t8jpvDEL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "plant fleece frost protector jacket cover drawstring",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0D8352D9S",
+      "name": "WISD Garden Fleece Frost Protection Bags - 80gsm Winter Plant Covers with Drawstring and Zipper - Plant Fleece Jacket fo",
+      "price": 10.52,
+      "reviews": 52,
+      "rating": 3.9,
+      "rank": 38,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "52 reviews, 3.9★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0D8352D9S",
+      "image_url": "https://m.media-amazon.com/images/I/71VZqm6YGEL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "plant fleece frost protector jacket cover drawstring",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H8K5NDXS",
+      "name": "80x120cm Winter Plant Covers Freeze Protection(2 Pcs), Garden Fleece Bag | Frost Covers Plant Freeze Protection with Zip",
+      "price": 10.82,
+      "reviews": 0,
+      "rating": 5.0,
+      "rank": 39,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 5.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H8K5NDXS",
+      "image_url": "https://m.media-amazon.com/images/I/71QLPk4xLML._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "plant fleece frost protector jacket cover drawstring",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FHKG6Y5L",
+      "name": "Priksia Plant Fleece Frost Protection 2 Pack, Garden Fleece Frost Protection for Plants Covers with Zipper and Drawstrin",
+      "price": 6.66,
+      "reviews": 16,
+      "rating": 4.0,
+      "rank": 41,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "16 reviews, 4.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FHKG6Y5L",
+      "image_url": "https://m.media-amazon.com/images/I/71Ow6MoUzsL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "plant fleece frost protector jacket cover drawstring",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0DDCDHTX5",
+      "name": "Cozii 2 Pack Winter Plant Frost Protection Covers, 120 x180CM Garden Fleece Frost Bag with Zipper & Drawstring, Plant Wa",
+      "price": 12.99,
+      "reviews": 35,
+      "rating": 4.5,
+      "rank": 43,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "35 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DDCDHTX5",
+      "image_url": "https://m.media-amazon.com/images/I/61odbQe96jL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "plant fleece frost protector jacket cover drawstring",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0DJXDBD6Y",
+      "name": "ARROMI 2 Pcs Horticultural Fleece, Plant Fleece Frost Protection, Frost Protection for Outdoor Plants, 120x80cm Garden F",
+      "price": 6.32,
+      "reviews": 0,
+      "rating": 5.0,
+      "rank": 44,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 5.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DJXDBD6Y",
+      "image_url": "https://m.media-amazon.com/images/I/61McnrqMkWL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "plant fleece frost protector jacket cover drawstring",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FMRP1JT5",
+      "name": "CarPlusStudio Plant Fleece Frost Protection - Garden Fleece Frost Protection Warming Jacket with Zipper & Drawstring, Pl",
+      "price": 8.52,
+      "reviews": 0,
+      "rating": 4.8,
+      "rank": 45,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "0 reviews, 4.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FMRP1JT5",
+      "image_url": "https://m.media-amazon.com/images/I/61cHz95knfL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "plant fleece frost protector jacket cover drawstring",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FG2LT8YY",
+      "name": "Yubpaiy 120x180cm Plant Fleece Frost Protection Cover 60GSM Extra Large Cold Weather Jacket with Zip & Drawstring for La",
+      "price": 8.32,
+      "reviews": 28,
+      "rating": 4.2,
+      "rank": 46,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "28 reviews, 4.2★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FG2LT8YY",
+      "image_url": "https://m.media-amazon.com/images/I/71JwmMJZz8L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "plant fleece frost protector jacket cover drawstring",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0H5PS999Z",
+      "name": "LCGOD Plant Frost Protection Fleece 30gsm Heavy-Duty Garden Cover 1x10m | Breathable Non-Woven Fabric, Winter Freeze Pro",
+      "price": 8.32,
+      "reviews": 22,
+      "rating": 4.7,
+      "rank": 49,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "22 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H5PS999Z",
+      "image_url": "https://m.media-amazon.com/images/I/717i9LRXIGL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "plant fleece frost protector jacket cover drawstring",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0DMDGJRKG",
+      "name": "LATERN 2Pcs Plant Covers Freeze Protection, 80CM x 120CM Large Frost Covers Plant Freeze Protection Blankets with Zipper",
+      "price": 8.32,
+      "reviews": 27,
+      "rating": 4.6,
+      "rank": 50,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "27 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DMDGJRKG",
+      "image_url": "https://m.media-amazon.com/images/I/71Xj3m8YwCL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "plant fleece frost protector jacket cover drawstring",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0DBT6BXDY",
+      "name": "2PCS Large Plant Fleece Frost Protection-200 x 240cm 80gms With Zip Drawstring,Winter Garden Cloth Blanket Jacket Hortic",
+      "price": 18.3,
+      "reviews": 39,
+      "rating": 4.4,
+      "rank": 52,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "39 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DBT6BXDY",
+      "image_url": "https://m.media-amazon.com/images/I/81oQvdrlvPL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "plant fleece frost protector jacket cover drawstring",
+      "sources": [
+        "趋势发现"
+      ]
+    },
+    {
+      "asin": "B0FYM3LGG9",
+      "name": "AOOWU Plant Frost Protection Covers, 120x80 cm Plant Fleece Frost Protection, Garden Fleece Frost Protection with Drawst",
+      "price": 4.99,
+      "reviews": 15,
+      "rating": 4.5,
+      "rank": 53,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "15 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FYM3LGG9",
+      "image_url": "https://m.media-amazon.com/images/I/71n51dlq3sL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "plant fleece frost protector jacket cover drawstring",
+      "sources": [
+        "趋势发现"
+      ]
+    }
+  ]
+}
