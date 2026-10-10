@@ -1,0 +1,136 @@
+{
+  "date": "2026-10-10",
+  "updated_at": "2026-10-10T08:20:00+08:00",
+  "scan_date": "2026-10-10",
+  "scan_time": "08:12",
+  "summary": "10月10日扫描：Amazon UK Movers & Shakers厨房/收纳小工具活跃（真空收纳袋24h排名+80%但超200g重量红线剔除），TikTok Shop UK周报确认Q4 gifting pre-order启动、家居室内品类进入增长期，UK初霜10月中下旬到来打开园艺防寒窗口。本期5个推荐：烤面包三明治袋、硅胶开罐器套装、植物防霜罩、拼图收纳垫、Santa门牌，全部通过14天去重、非电子、≤200g轻小件、毛利34%-47%验证。",
+  "insights": [
+    {
+      "keyword": "toaster bags reusable non stick",
+      "keyword_cn": "可重复使用烤面包三明治袋",
+      "amazon_keyword": "toaster bags reusable non stick grilled cheese sandwich",
+      "search_1688": "烤面包三明治袋 PTFE 耐高温 吐司袋",
+      "demand_signals": [
+        "Amazon UK头部竞品XREXS 1,341评/A5 627评，类目排名#171 in Food & Sandwich Bags，品类需求验证成熟（来源：Amazon UK B0B7WWTS1D/B07H9VC6CG，2026-10-10）",
+        "英国10月进入室内toastie季+开学午餐盒场景，Lakeland Toastabag-500（£8.99/2片）常年热卖证明UK消费者为该品类付溢价（来源：Amazon UK B009WNG0AA）",
+        "Prime Big Deal Days（10月6-7）厨房小工具为促销主力类目，类目流量红利仍在延续（来源：TechRadar/Which? 2026-10-06报道）",
+        "产品约150-200g、扁平薄包装，完全符合轻小件空运模型，无海运依赖"
+      ],
+      "trend_score": 74,
+      "trend_direction": "up",
+      "reason": "竞品评分普遍4.5但集中差评点明确：尺寸太大放不进普通4槽烤面包机、薄面包适配差。做标准slot尺寸(16×16.5cm为主)+8片三尺寸组合，£7.99卡在Lakeland(£8.99/2片)和白牌(£6.99)之间，以'fit standard 4-slice toaster'为差异词。",
+      "action": "007店测款。定价£7.99/8片装（毛利约43%）。1688搜'PTFE吐司袋 三明治袋'约¥6/8片，空运约¥6。上架后主图标注BPA-free+可洗100次+标准烤面包机适配。",
+      "competition": "头部XREXS 1,341评、Anstore 1,244评、A5 627评，均为深圳白牌无品牌垄断；4.5星以下差评集中在尺寸适配。新品以尺寸差异化+组合装切入可行，预计首月需挤进'Food & Sandwich Bags'子类目前50。",
+      "signal_scores": {
+        "trend": 74,
+        "gap": 70,
+        "profit": 86,
+        "final": 76,
+        "recommendation": "buy",
+        "profit_window": "10月中-12月中（冬季室内烹饪+圣诞前家庭采购），约9周"
+      }
+    },
+    {
+      "keyword": "jar opener silicone gripper",
+      "keyword_cn": "硅胶防滑开罐器",
+      "amazon_keyword": "jar opener rubber lid gripper weak hands",
+      "search_1688": "防滑开罐器 硅胶 拧盖神器 厨房",
+      "demand_signals": [
+        "Amazon UK Movers & Shakers厨房类目小工具多款24h排名大幅上升（三合一削皮器+70%等），开启/省力类工具需求活跃（来源：Amazon UK Movers&Shakers Home&Kitchen，2026-10-10）",
+        "圣诞gift for grandparents/elderly关怀礼品季启动，arthritis友好工具是UK圣诞长尾礼品品类（来源：Amazon UK礼品类目季节规律+Buzzfeed 2026-10-07 TikTok gifts roundup）",
+        "冬季炖菜/罐头开罐场景上升，TikTok kitchen hacks内容持续带非电动省力工具曝光（来源：GoodHousekeeping TikTok-viral products roundup，2026-10）",
+        "单件<50g、扁平卡装，空运成本极低，是本期利润模型最优候选"
+      ],
+      "trend_score": 68,
+      "trend_direction": "up",
+      "reason": "OXO Good Grips占品牌位但£10+，白牌竞品多在1,000评以下且为单件装。差异点：做'薄盖+旋盖两用'2件套+礼盒感包装，卡£6.99价格带吃gift场景；10-11月是grandparents gift搜索起量期。",
+      "action": "027店测款。定价£6.99/2件套（毛利约35%）。1688搜'硅胶开罐器 防滑'约¥1.5-2/件，空运约¥6。关键词主打arthritis friendly/weak hands/jar gripper。",
+      "competition": "OXO品牌£10+占搜索首位但价格错位；白牌头部多在300-1,000评，无垄断。风险：类目门槛低易被跟卖，需靠套装组合+礼品包装建立差异。",
+      "signal_scores": {
+        "trend": 68,
+        "gap": 72,
+        "profit": 84,
+        "final": 74,
+        "recommendation": "buy",
+        "profit_window": "10月中-12月24日（圣诞礼品季全程），约10周"
+      }
+    },
+    {
+      "keyword": "plant frost fleece jacket cover",
+      "keyword_cn": "植物防霜保温罩（抽绳款）",
+      "amazon_keyword": "plant fleece frost protector jacket cover drawstring",
+      "search_1688": "植物防寒布 抽绳 无纺布 果树保温罩",
+      "demand_signals": [
+        "UK初霜通常10月中下旬开始（中部英格兰），防寒采购窗口即将打开（来源：Which? Gardening frost guide，gardenskill.com fleece guide）",
+        "50gsm加厚款Frost Buster £8.48起售验证价格带，且'50gsm vs 30-35gsm主流'是现成差异点（来源：thompson-morgan.com Frost Buster页面，2026-10在售）",
+        "10月6日Prime Day期间加热毯/园艺保暖被媒体集中报道，园艺防寒心智已被激活（来源：Cheshire Live 2026-10-06 heated throw报道）",
+        "竞品以平铺卷材为主，带drawstring的jacket套袋款在Amazon UK供给明显更少（来源：GardenSkill自有站热卖、Amazon UK同类listing稀少）"
+      ],
+      "trend_score": 72,
+      "trend_direction": "up",
+      "reason": "季节窗口明确且不可逆：UK园艺防寒需求10月中-12月集中释放，错过即等明年。白牌在Amazon UK的jacket款（区别于fleece卷材）供给少，GardenSkill等专营业者只在自有站卖£10+，平台价格空档清晰。注意与9月26日已推的'tap cover保温套'区分：本品是植物罩布，不同主品类。",
+      "action": "322店补货位（季节确定性高）。定价£9.99/1.6×2m抽绳款（毛利约42%）。1688搜'植物防寒布 抽绳 无纺布 50g'约¥7/件，空运约¥7。主图必须标注50gsm加厚+protects to -8°C。",
+      "competition": "Amazon UK该细分（drawstring jacket款）多在500评以下，头部是fleece卷材而非jacket；GardenSkill未做平台化。先发优势窗口约4-6周，11月中后入场的白牌会集中。",
+      "signal_scores": {
+        "trend": 72,
+        "gap": 80,
+        "profit": 78,
+        "final": 76,
+        "recommendation": "buy",
+        "profit_window": "10月中-12月初（UK霜冻季），约8周，窗口刚性"
+      }
+    },
+    {
+      "keyword": "jigsaw puzzle mat roll up",
+      "keyword_cn": "拼图卷收收纳垫",
+      "amazon_keyword": "jigsaw puzzle mat roll up storage organizer 1000",
+      "search_1688": "拼图收纳垫 卷筒 充气杆 毛毡",
+      "demand_signals": [
+        "UK进入室内娱乐季，TikTok Shop UK周报确认家居室内品类进入增长期、高客单家居品GMV巩固（来源：z.media TikTok Shop UK weekly 2026-10-04）",
+        "圣诞季拼图是UK家庭top礼品品类，11月为采购峰值，10月中下旬是白牌上架黄金窗（来源：Amazon UK toys&games seasonal规律）",
+        "白牌竞品差评点集中：卷筒漏气、垫面起皱导致拼图块移位，产品改进方向明确（来源：Amazon UK同类listing评论分析）",
+        "整套毛毡垫+充气杆+绑带真空压缩后<200g，符合轻小件空运"
+      ],
+      "trend_score": 66,
+      "trend_direction": "up",
+      "reason": "Ravensburger品牌周边占据高端（£15+），£9.99基础款拼图垫白牌空间清晰；UK家庭圣诞采购11月启动，现在入场正好卡在铺货-出评-排名上升的节奏上。与9月22日已推的mini puzzle cubes（玩具）不同主品类。",
+      "action": "007店测款。定价£9.99（毛利约47%，本期最高）。1688搜'拼图收纳垫 充气'约¥8-9/套，空运约¥7。差异点标注：thickened felt+air-tight valve+1000pcs capacity。",
+      "competition": "头部品牌周边2,000-5,000评但£13-20；白牌款多在1,000评以下、评分3.8-4.3（漏气/起皱差评多）。以质量词切入需在QA区主动回应漏气问题。",
+      "signal_scores": {
+        "trend": 66,
+        "gap": 74,
+        "profit": 82,
+        "final": 74,
+        "recommendation": "buy",
+        "profit_window": "10月中-12月20日（圣诞礼品季），约10周"
+      }
+    },
+    {
+      "keyword": "santa stop here door sign wooden",
+      "keyword_cn": "木质Santa Stop Here圣诞门牌",
+      "amazon_keyword": "santa stop here sign door hanger wooden",
+      "search_1688": "santa stop here 木牌 激光雕刻 圣诞挂饰",
+      "demand_signals": [
+        "TikTok Shop UK周报明确Q4 gifting momentum处于pre-order启动阶段（P.Louise Advent Calendar周环比+11%），圣诞心智提前激活（来源：z.media 2026-10-04）",
+        "UK圣诞装饰搜索10月中启动、11月爆发（历史seasonal曲线），10月上架正好卡在排名爬坡期",
+        "纯木质激光雕刻+麻绳款约120g扁平包装，空运可行且无电子件（避开带LED灯款=带电池违规红线）",
+        "10月8日已推elf accessories kit验证圣诞装饰线流量处于上升通道，但santa door sign为不同主品类（14天去重通过）"
+      ],
+      "trend_score": 70,
+      "trend_direction": "up",
+      "reason": "头部santa stop here门牌2-3款3,000+评但款式陈旧（漆面印刷），激光雕刻原木风+英伦字体是2025-26年Scandi风格延伸；圣诞FBA空运入仓截止（约11月底）前有6周铺货窗口。",
+      "action": "027店测款。定价£7.99（毛利约34%）。1688搜'santa stop here 木牌 雕刻'约¥10-11/件，空运约¥7。注意选纯木质无灯无电池款，避免电子件合规问题。",
+      "competition": "头部2-3款3,000+评（印刷款），新款原木雕刻风listing均在500评以下且评分4.4+；风格差异化可行，但圣诞品类竞争密度高，需11月第一周前完成上架+VINE。",
+      "signal_scores": {
+        "trend": 70,
+        "gap": 62,
+        "profit": 72,
+        "final": 68,
+        "recommendation": "buy",
+        "profit_window": "10月中-12月15日（圣诞装饰截止），约9周"
+      }
+    }
+  ],
+  "trend_forecast": "① 10月第3周（10.13-10.19）：UK初霜窗口启动。Met Office气候规律显示英格兰中部初霜在10月中下旬，园艺防寒品类（植物防霜罩fleece jacket、盆栽保温套、温室保温帘）进入刚性采购期，本周推荐的frost fleece jacket正是卡这个节点；同周加热类心智延续（10月6-7日Prime Day期间heated throw被媒体密集报道，Cheshire Live/One Bored Mommy均在推），但加热纺织品多为大件+电子，轻小件方向应聚焦保温辅助类（保温门帘贴条9月18日已推过，避免重复）。② 10月第4周-11月第1周（10.20-11.01）：圣诞装饰铺货黄金窗。TikTok Shop UK周报确认Q4 gifting pre-order已启动（P.Louise Advent Calendar周环比+11%至£123,733），UK圣诞装饰搜索流量10月中开始爬坡、11月第一周进入爆发；方向上advent日历、圣诞桌布、sockings、crackers、wreath等14天内已推过的主品类避开，未被覆盖的santa门牌/圣诞门挂、圣诞蜡烛台周边（9月30日diwali烛台与圣诞烛台不同品类）、gift wrap收纳（10月6日wrapping paper storage已推，避开）仍有空间。③ 11月第1-2周（11.02-11.15）：圣诞礼品小件采购峰。UK家庭礼品采购集中期，本周推荐的puzzle mat（室内游戏+礼品）、jar opener（grandparents关怀礼）处于窗口中段；同时stocking fillers小件（£5-8价格带、卡装小玩具/桌面小物）流量开始抬头，9月22日已推mini puzzle cubes，同价位可找notebook徽章类外的非玩具方向（钥匙扣类注意与cruise lanyard 10月9日已推区分）。④ 11月第3-4周（11.16-11.29）：Black Friday（11月最后一周五）流量峰值。轻小件在BF期间主要吃'Top Deals'溢出流量，建议提前把5个推荐品的库存压到12月初可售水位；BF后转向冬季出行小件，但thermal gloves（9月22日）、ear warmers（9月18日）、hand warmers（10月7日）、ice cleats与ice scraper（9月26日）均已推过，冬季车品类剩余空白是windscreen防霜罩（magnetic款，非电子、约300g临界需确认重量）与车内小件收纳（与9月30日boot cargo net区分需谨慎）。⑤ 12月第1-2周（11.30-12.13）：最后一波空运补仓截止（FBA圣诞入仓截止约12月初），新品不再铺货，转而做现有listing的coupon/秒杀维持排名；boxing day（12月26日）后UK进入clearance消化期+1月新品规划期，届时应提前扫描'new year organisation'品类（日历挂板、储物标签等，与已推的meal planner pad 9月29日、drawer organiser区分），为1月home organisation小高峰储备候选。",
+  "dedup_note": "本期5品均已对照2026-09-26至2026-10-09共14天discovery记录及discovery_last_recommendations.txt核验，无同主品类重复。真空收纳袋（Movers&Shakers +80%信号）因压缩后仍超200g重量红线剔除；LED santa sign因带电池违反非电子红线排除。"
+}
