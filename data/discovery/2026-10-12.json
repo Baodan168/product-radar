@@ -1,0 +1,110 @@
+{
+  "date": "2026-10-12",
+  "updated_at": "2026-10-12T08:10:00+08:00",
+  "scan_date": "2026-10-12",
+  "scan_time": "08:10",
+  "summary": "本轮4个机会全部为14天内未推过的新品类（is_new=True×4，复扫0），集中在圣诞tablescape+烘焙+圣诞前夜传统三条线。淘汰2个候选：儿童烘焙围裙套装（28件套超200g重量红线）、金色烛台托盘（UK批发£1.88价格战无利润）。酒红天鹅绒蝴蝶结为最强信号：Wilko官方2026趋势+Amazon头部40装断货+新listing周销100+仅2条评论。",
+  "insights": [
+    {
+      "keyword": "burgundy velvet christmas bows",
+      "keyword_cn": "酒红天鹅绒圣诞蝴蝶结（树挂/花环装饰）",
+      "amazon_keyword": "burgundy velvet christmas tree bows",
+      "search_1688": "天鹅绒圣诞蝴蝶结 成品 12个装（东阳战马等工厂12PCS/套，MOQ 2件起，48h发货）",
+      "demand_signals": [
+        "Wilko官方《2026圣诞装饰趋势》明确列出三大趋势：90年代怀旧/深莓红勃艮第色调/复古丝绒，点名velvet bows与burgundy（来源：wilko.com Christmas decoration trends 2026，2026-10读取）",
+        "Amazon UK头部WIURGOHA 40pcs装£9.99页面显示'Only 1 left in stock'——断货边缘，需求>供给（来源：Amazon UK listing B0DNMQLVPT，2026-10）",
+        "新listing NLFOX 24pcs仅2条评论但页面显示'100+ bought in past week'，新品周销破百、评论护城河几乎为零（来源：Amazon UK listing B0G43RH6WK，2026-10）",
+        "Talking Tables/Angel Wholesale/uksmtrade等UK批发商全线铺velvet bow系列，线下渠道同步走热（来源：UK trade wholesale目录，2026-10）"
+      ],
+      "trend_score": 84,
+      "trend_direction": "up",
+      "reason": "Wilko把勃艮第丝绒列为2026圣诞三大趋势之一，是本次搜索中唯一的官方零售商级趋势背书；Amazon端供给缺口真实（40装断货+新品周销100+），而头部评论仅59条、无品牌集中度。与10-03已推的'金丝带卷'做切割：那是gift wrapping用丝带卷，这是pre-tied成品蝴蝶结挂树/花环/扶手，关键词头部名词（bows vs ribbon）与使用场景均不同。24装约100-140g、包装28×22×2.5cm，轻小空运完美匹配。",
+      "action": "007店测品：24-40只装，酒红为主+深绿补充色，带twist tie免组装款。定价£8.99-9.99。1688搜'天鹅绒圣诞蝴蝶结 成品'，13cm×2.5cm粗款优先，到岸成本控制在£2内。利润测算：£9.99-成本£1.90-FBA £1.80-佣金8% £0.80=毛利£5.49(55%)；按15.45%真实佣金压力测试仍48%。11月5日前上架抢树装早期窗口。",
+      "competition": "头部WIURGOHA 59条评论(4.2★)后断层，第二梯队ZJHiome 18条/NLFOX 2条；清一色中国白牌，无品牌集中度，评论门槛<100条可进首页。诚实风险：同款3周内会涌入，靠'40只大规格+深绿配色'组合卡位，且Wilko线下同款价格£7.99(20只)证明消费者接受度。",
+      "signal_scores": {
+        "trend": 85,
+        "gap": 80,
+        "profit": 70,
+        "final": 79,
+        "recommendation": "buy",
+        "profit_window": "2026-10-20至2026-12-05（树装采购早于烘焙，比其他圣诞品类早2周启动）"
+      }
+    },
+    {
+      "keyword": "christmas silicone baking moulds",
+      "keyword_cn": "圣诞造型硅胶烘焙模具套装",
+      "amazon_keyword": "christmas silicone cake moulds set",
+      "search_1688": "圣诞硅胶蛋糕模具 食品级 8连（RMB0.86-8.14区间，义乌8连圣诞老人/雪人款RMB4.60@1000pcs、RMB3.90@10k，1688同类货源16496条）",
+      "demand_signals": [
+        "TikTok圣诞烘焙内容为每年11月固定爆发格式：character cookies/姜饼人/mini bakes（来源：viral.christmas圣诞病毒食谱报告，2026版）",
+        "@cakekitchen25圣诞蛋糕裱花视频28.9K播放、4.65%互动率，#christmascake #advent标签活跃（来源：Toklytics TikTok数据，2026-10）",
+        "Wilko 2026趋势主打'怀旧家庭圣诞'，亲子烘焙场景回归（来源：wilko.com trends 2026）",
+        "Amazon UK烘焙类目圣诞烤盘/模具新品密集上架（B0DM2FP5RZ等），1688工厂端已完成Q4备货节奏（8月已压价至RMB1.92低位）"
+      ],
+      "trend_score": 78,
+      "trend_direction": "up",
+      "reason": "圣诞烘焙是英国11月中-12月中固定高峰（姜饼日/亲子烤饼干），模具属'每年换造型'的耗材型购买，复购天然；8连装约120-180g轻货空运友好。与09-28已推的'3D姜饼屋金属饼干切模'切割：那是stainless steel cutter冲压切模，这是silicone multi-cavity烘焙模，关键词头部名词（moulds vs cutter）与工艺场景不同。白牌竞争靠造型组合差异化。",
+      "action": "007店测品：圣诞主题8连硅胶模（圣诞老人+雪人+姜饼人+圣诞树+驯鹿+袜子+手套+雪花一套），食品级认证必须有。定价£7.99-8.99。1688搜'圣诞硅胶蛋糕模具 食品级 8连'，到岸≤£1.85。利润：£8.99-£1.85-FBA £1.80-佣金8% £0.72=毛利£4.62(51%)；15.45%压力测试44%。11月10日前上架赶搜索爬坡，12月15日后停广告只清库。",
+      "competition": "Amazon UK圣诞硅胶模无统治品牌，主流6-12连装£5.99-9.99，头部listing评论50-300条，进入门槛低。风险点：同质化严重，需靠'8连全套+英式圣诞晚餐主题主图'区隔；食品接触材料需FDA/LFGB报告， Europeans质检卡得比装饰品严，采购时索要检测报告。",
+      "signal_scores": {
+        "trend": 80,
+        "gap": 65,
+        "profit": 75,
+        "final": 74,
+        "recommendation": "buy",
+        "profit_window": "2026-11-01至2026-12-10（圣诞烘焙高峰，12月15日后流量衰减）"
+      }
+    },
+    {
+      "keyword": "gold christmas napkin rings",
+      "keyword_cn": "金色圣诞餐巾扣12只装",
+      "amazon_keyword": "gold christmas napkin rings set",
+      "search_1688": "圣诞餐巾扣 锌合金 批发（RMB0.8-1.5/只，12只套装RMB10-18，浙江/义乌货源充足）",
+      "demand_signals": [
+        "TikTok tablescaping（餐桌造景）2026年成为持续性文化现象，E! Online 2026-08专题报道其病毒式评判视频，#ChristmasTablescape #christmastable标签11月随圣诞晚餐筹备爆发（来源：E! Online 2026-08 + TikTok）",
+        "Amazon UK Napkin Rings类目Best Seller榜被圣诞款霸榜：LATERN驯鹿12装£9.99稳居类目108名433条评论，ZeeDix驯鹿8装£8.99有413条评论（来源：Amazon UK Best Sellers 2026-10）",
+        "FindThisBest统计圣诞餐巾环类目229款在售、均价£10.79、评论池7593条——类目成熟且客单价高于我们价格带（来源：findthisbest.co.uk 2026-02）",
+        "12月圣诞正餐是英国家庭年度最大餐桌仪式，餐巾扣是tablescape小件中客单最低、决策最快的入门品"
+      ],
+      "trend_score": 72,
+      "trend_direction": "up",
+      "reason": "tablescape热度从TikTok蔓延到英国家庭圣诞晚餐场景，餐巾扣是该场景中唯一未被14天清单覆盖的小件（cushion covers 09-30、table runner 10-03已推过，与本品类构成'同场景不同品'的补充而非重复）。均价£10.79给£8.99定价留利润空间；锌合金12装60-120g，轻小件最优解。诚实说：这是4个候选中竞争最强的，靠差异化造型而非正面硬刚。",
+      "action": "322店铺（老店有review基础，适合进竞争段位）：金色花环或水钻花环造型12只装，避开与433条评论的LATERN驯鹿款正面同款。定价£8.99。1688搜'圣诞餐巾扣 锌合金'，到岸≤£1.70。利润：£8.99-£1.70-FBA £1.80-佣金8% £0.72=毛利£4.77(53%)；15.45%压力测试46%。11月8日前上架。",
+      "competition": "诚实评估：双寡头LATERN 433条+ZeeDix 413条£8.99-9.99护城河中等，且50只装纸/金属散装段£5-6已被中国卖家价格战打穿（我们的红线是不碰£5.99以下低毛利段）。差异化路径=花环+水钻或针织质感12装，切入'精致小套装'细分；若3周内新进卖家>10家则放弃追投。",
+      "signal_scores": {
+        "trend": 75,
+        "gap": 50,
+        "profit": 65,
+        "final": 63,
+        "recommendation": "test",
+        "profit_window": "2026-11-05至2026-12-15（圣诞晚餐筹备期，12月18日后停投）"
+      }
+    },
+    {
+      "keyword": "santa magic key christmas eve",
+      "keyword_cn": "圣诞老人魔法钥匙（圣诞前夜盒填充传统道具）",
+      "amazon_keyword": "santa magic key christmas eve",
+      "search_1688": "圣诞老人魔法钥匙 木质（木刻钥匙+英文诗卡+麻纱袋套装RMB1-2/套，起订量低）",
+      "demand_signals": [
+        "Christmas Eve Box已成为UK主流家庭传统，'christmas eve box fillers for kids'搜索11月首峰（来源：Amazon UK搜索趋势+listing定位词，2026-10）",
+        "Manta Makes木钥匙在Handmade类目排名10,596名，英国本土小作坊供给为主（来源：Amazon UK B0BD265PS6，2026-10）",
+        "eBay同款£2.99-8.50累计480+条评价4.7★，跨平台需求已验证（来源：eBay UK sold listings）",
+        "Feeling Creative/Treasured Forever等UK礼品站把magic key列为eve box标配内容物，配套生态成熟（来源：UK retailers）"
+      ],
+      "trend_score": 70,
+      "trend_direction": "up",
+      "reason": "英国公寓家庭多无真烟囱，'魔法钥匙+诗卡解释圣诞老人如何进门'是无烟囱家庭的情感刚需，礼品溢价高、决策零摩擦。成本结构是4个候选中最好的（<£1.2到岸），重量<50g空运几乎零成本。与10-10已推的'santa stop here门牌'切割：门牌挂门外是装饰，钥匙是圣诞前夜仪式道具+盒内填充物，关键词头部名词（door sign vs magic key）与消费场景不同。复购弱但Q4单季爆发力强，适合027新店测品练手。",
+      "action": "027店测品（新店测品窗口正合适，单次≤60件小批量空运）：套装=木刻钥匙+英文诗卡+麻纱袋，附'no chimney'文案卡。定价£6.99。1688搜'圣诞老人魔法钥匙 木质'，到岸≤£1.40。利润：£6.99-£1.40-FBA £1.80-佣金8% £0.56=毛利£3.23(46%)；15.45%压力测试39%。11月15日前上架（11月底eve box采购峰），12月22日物流截停。",
+      "competition": "Amazon UK该细分无规模化FBA玩家：头部仅Manta Makes（3条评论）+长尾handmade卖家，评论门槛近乎为零；eBay £2.99锚定低价但Amazon礼品场景撑£6.99可验证。风险=客群窄（单次消费、无复购），把它当Q4单季爆品而非长线品；若11月20日前无自然单即降价清库。",
+      "signal_scores": {
+        "trend": 72,
+        "gap": 85,
+        "profit": 78,
+        "final": 75,
+        "recommendation": "buy",
+        "profit_window": "2026-11-10至2026-12-20（eve box倒计时窗口，12月22日物流截停）"
+      }
+    }
+  ],
+  "trend_forecast": "① 10月第4周（10/20-10/26）：Bonfire Night（11月5日）进入倒计时，烟花派对用品流量见顶回落（glow sticks已推过不再追）。真正的窗口是圣诞树装早期：英国家庭11月起陆续上树，velvet bows/tree bows类搜索开始爬坡，Wilko趋势页带动的勃艮第色系采购在黑五前出现第一波备货潮。本周是最晚上架velvet bows的时间线，错过则让位给已上架卖家吃早期流量。② 11月第1-2周（11/2-11/15）：圣诞烘焙启动期。姜饼/character cookie是TikTok固定爆发格式，硅胶模具+饼干切模类搜索周环比跳涨；'christmas eve box'关键词在11/11前后出现年度首峰，santa magic key的绝对上架空窗就在这两周。注意：儿童烘焙围裙套装（28件套）因超200g重量红线本轮未推，若要跟进需拆成轻量单件围裙+独立模具组合，不要碰整套。③ 11月第3周（黑五11/27前后）：tablescape全品类高峰，napkin rings/table runner/cushion covers出现组合购买行为，餐巾扣与10-03已推的table runner形成连带销售机会（可考虑listing关联）。黑五当天客单价短期回落但转化率翻倍，是清测品库存的最佳单日；广告ACOS容忍度本周可放宽至40%，黑五结束立即收回。④ 12月第1周（12/1-12/7）：圣诞正餐final purchase窗口，napkin rings类目流量在12/15后腰斩，此周起只清库不补货；eve box类12/22物流截停，magic key最晚12/18前停止补货。⑤ 12月第3周-1月：圣诞窗口全面关闭，Q4品类进入复盘期。1月初开始切换Q1品类：Chinese New Year 2027落在2月上旬，红色系装饰（门挂/餐巾扣/桌旗）可复用本轮锌合金+纺织供应链，1月第一周就该完成选品和打样——农历新年品类是UK华裔+东南亚社群的确定性需求，竞争密度远低于圣诞段。"
+}
