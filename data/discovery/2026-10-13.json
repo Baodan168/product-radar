@@ -1,0 +1,106 @@
+{
+  "date": "2026-10-13",
+  "updated_at": "2026-10-13T00:30:00Z",
+  "scan_date": "2026-10-13",
+  "scan_time": "08:10",
+  "summary": "今日4个机会：①重复式老鼠夹4只装（Amazon UK Garden Movers & Shakers两品牌同日上榜，冬季鼠患季启动，1688￥0.82-3.71验证）；②烛芯修剪器礼盒套装（UK BS烛具配件前列+US月搜索+13.3%，圣诞蜡烛季搭售逻辑）；③车用除冰铲手套款（1688义乌现货￥3.2-3.8，霜冻季10月底启动）；④手卷旅行真空压缩袋（Amazon UK M&S+BS双榜验证需求，差异避开Amazon Basics家用款）。全部通过14天品类去重与红线检查（无body care/液体膏体/电子），重量均≤200g。第4项因Amazon Basics在BSR头部标为谨慎。",
+  "insights": [
+    {
+      "keyword": "mouse traps reusable snap heavy duty",
+      "keyword_cn": "家用重复式老鼠夹（踏板式，非毒饵）",
+      "amazon_keyword": "mouse traps indoor outdoor reusable pack 4",
+      "search_1688": "老鼠夹 家用 捕鼠器 踏板式 批发（已验证：￥0.82-3.71/个，箱装50个，库存18013个，义乌产，跨境专供）",
+      "demand_signals": [
+        "Amazon UK Garden Movers & Shakers 24h榜：ROSHIELD 6-pack与Trisiki 4-pack两款snap traps同时上榜，双品牌同日冲榜说明需求陡增（来源：Amazon.co.uk Movers & Shakers Garden，2026-10-13抓取）",
+        "英国10月入冬，户外食物源减少老鼠入屋，每年10月-2月为室内鼠患高峰，pest control类目BSR季节性抬升（来源：季节规律+M&S多品牌同现交叉验证）",
+        "1688捕鼠笼货源￥0.82-3.71，义乌跨境专供货源库存1.8万个，说明该品是成熟出口品、供应链即时可发（来源：1688 offer/968745984191，2026-10-13）"
+      ],
+      "trend_score": 78,
+      "trend_direction": "up",
+      "reason": "10月中旬UK入冬是全年鼠患入室起点，两款不同品牌snap trap同日登M&S是需求陡增的直接证据；机械夹（非毒饵/非粘胶）无农药合规问题，且品类冬季延续到Q1，窗口长于节日品",
+      "action": "027店测品（首批20件空运）；定价£7.99（4只装轻量ABS款）；1688搜'捕鼠器 踏板式 家用'，单只采购￥1.2-2.5，要求单只≤40g（4只+彩盒≤190g守红线）；差异化打'精准触发不误夹+翻面即清理'，避开诱饵款（有合规问题）",
+      "competition": "高度碎片化无品牌垄断：ROSHIELD/Trisiki等新牌靠pack数量竞争，头部listing约2K-6K reviews、4.3-4.5星；差评集中在'触发不灵/夹不死'，新进入者靠触发结构微创新+包装性价比可切入",
+      "signal_scores": {
+        "trend": 78,
+        "gap": 65,
+        "profit": 80,
+        "final": 74,
+        "recommendation": "buy",
+        "profit_window": "10月中-次年2月（冬季鼠患季），3月起转淡"
+      }
+    },
+    {
+      "keyword": "candle wick trimmer gift set",
+      "keyword_cn": "烛芯修剪器+灭烛铃礼盒套装",
+      "amazon_keyword": "candle wick trimmer snuffer set gift box",
+      "search_1688": "烛芯剪 裁烛芯器 香薰蜡烛工具套装 礼盒（行业数据：出厂价$1.16-1.65/套，100套起订）",
+      "demand_signals": [
+        "Amazon UK Candle Accessory Sets Best Sellers前列被wick trimmer套装占据（Chexin 5件套、Srliya 3件套等，来源：Amazon UK BS抓取2026-10-13）",
+        "US 'wick trimmer'周搜索2,224次、SFR #94,139且周环比+13.3%；'candle snuffer and wick trimmer'词SFR一周暴涨191,979位（来源：asinsight.com 2026-03与2026-08数据）",
+        "US头部ASIN月销4K-6K单且月环比+50%，说明品类增长仍在爬坡；UK同词竞争密度显著低于US（US 128个tracked产品 vs UK搜索页稀疏），圣诞蜡烛消费季Q4为全年峰值（来源：asinsight/accio 2026）"
+      ],
+      "trend_score": 76,
+      "trend_direction": "up",
+      "reason": "UK圣诞蜡烛季10月启动（Yankee及白标蜡烛走量），烛芯剪礼盒是蜡烛礼品最天然的搭售/赠礼品类；US数据验证增长、UK竞争密度低，属于'已被验证但UK未卷'的典型窗口",
+      "action": "027店测品；定价£9.99（3件套：修剪器+灭烛铃+托盘，黑/金两色礼盒装）；1688搜'烛芯剪套装 礼盒'，出厂￥4-7/套；总重控制≤190g（不锈钢修剪器约60g+灭烛铃约30g+礼盒约80g，若超重去掉托盘）",
+      "competition": "中等：UK头部为Chexin/Srliya等白牌套装，reviews约200-1.5K、4.7星，无强品牌；US最卷价格带$10-20占46%份额（asinsight），UK £8-12价位玩家明显更少，礼盒质感+圣诞礼赠场景是主要差异点",
+      "signal_scores": {
+        "trend": 76,
+        "gap": 70,
+        "profit": 75,
+        "final": 74,
+        "recommendation": "buy",
+        "profit_window": "10月中-12月20日（圣诞蜡烛+礼品季），1月转淡"
+      }
+    },
+    {
+      "keyword": "car ice scraper windscreen glove",
+      "keyword_cn": "车用除冰铲（带保暖手套一体款）",
+      "amazon_keyword": "ice scraper car windscreen frost snow glove",
+      "search_1688": "汽车除雪铲 刮霜铲 冬季 手套 批发（已验证：义乌卡标蒂现货￥3.80起，1000+件￥3.20，300个/箱跨境现货）",
+      "demand_signals": [
+        "1688义乌工厂'冬季车用除雪铲'现货￥3.2-3.8/个，箱规56×34×43cm装300个，成熟外贸品（来源：chinagoods义乌卡标蒂厂家页，2026-10抓取）",
+        "UK 10月下旬起早间霜冻高频，windscreen除冰是全国性刚需，车载冬季小件Q4搜索季节性上行（来源：季节驱动+品类规律）",
+        "TikTok 'amazon winter must haves'周搜索169,850次，车载冬季小件是典型冲动购内容题材（来源：TokConnect 2026-10-05 TikTok搜索数据）"
+      ],
+      "trend_score": 72,
+      "trend_direction": "up",
+      "reason": "霜冻季10月底-2月与采购窗口重叠，紧迫性最高的一项；带手套款直击普通铲'冻手'差评痛点，组合溢价支撑£8.99；体积小空运友好，3月前都是旺季",
+      "action": "007店测品；定价£7.99-8.99（铲+防寒手套一体款）；1688搜'汽车除雪铲 手套'，采购￥3.2-4，重量约120g（PS+硅胶铲头款）；listing场景图打'早霜5秒清挡风'，标题带windscreen/frost/de-icer alternative词",
+      "competition": "高度碎片化白牌为主：头部reviews约300-3K、4.3-4.6星，无品牌集中；£5以下低端价格战已存在，但£7.99+手套组合避开纯价格带竞争，靠场景与组合差异化",
+      "signal_scores": {
+        "trend": 72,
+        "gap": 60,
+        "profit": 72,
+        "final": 68,
+        "recommendation": "buy",
+        "profit_window": "10月下-2月底（霜冻季），3月清仓转春品"
+      }
+    },
+    {
+      "keyword": "travel vacuum storage bags roll up",
+      "keyword_cn": "手卷式旅行真空压缩袋（无泵）",
+      "amazon_keyword": "travel vacuum storage bags roll up 6 pack",
+      "search_1688": "旅行真空压缩袋 手卷 无泵 行李箱（参考价￥0.8-1.5/只）",
+      "demand_signals": [
+        "Amazon UK Home & Kitchen Movers & Shakers 24h：两款Vacuum Storage Bags（Amazon Basics 6-pack jumbo、10 combo款）同时上榜（来源：Amazon UK M&S抓取2026-10-13）",
+        "Storage & Organisation Best Sellers前3中有两款是真空压缩袋，品类当前在UK处于强势需求位（来源：Amazon UK BS Storage抓取2026-10-13）",
+        "10-12月双场景驱动：冬衣厚重需压缩收纳+圣诞出行行李收纳；'amazon winter must haves'周搜16.9万次佐证冬储需求热度（来源：TokConnect 2026-10-05）"
+      ],
+      "trend_score": 70,
+      "trend_direction": "up",
+      "reason": "家用大款真空袋被Amazon Basics低价霸榜，正面打不动；差异点做'旅行手卷款'（无泵、手压排气、轻至30g/只），吃圣诞出行+冬装收纳双场景，避开巨头主战场",
+      "action": "007店测品（谨慎，首批小量）；定价£9.99（6只装行李箱尺寸手卷款）；1688搜'手卷真空压缩袋 旅行'，￥0.8-1.5/只；单只约30g×6=180g守红线；listing主打'无泵手卷30秒排气'，关键词避开home vacuum bags正面词",
+      "competition": "需求强但竞争需诚实标注：Amazon Basics占据BSR第1与M&S双榜，reviews 3K-10K级；旅行手卷细分玩家较少但可替代性强，只能靠场景细分（行李箱尺寸+出行套装）切入，不宜与家用大款正面竞争",
+      "signal_scores": {
+        "trend": 70,
+        "gap": 50,
+        "profit": 78,
+        "final": 66,
+        "recommendation": "buy-cautious",
+        "profit_window": "10月-1月6日（圣诞出行+冬储），2月起转淡"
+      }
+    }
+  ],
+  "trend_forecast": "未来3-4周UK需求窗口预测（基于2026-10-13抓取的Amazon UK Movers & Shakers/Best Sellers、TikTok UK周榜与1688供应链现货信号）：① 10月第3周-10月底：万圣节(10/31)销售进入最后冲刺但补货窗口已关闭，新开listing不再追；需求接力转向Bonfire Night(11/5)与霜冻季启动——车载除冰/挡风玻璃护理类（本次推荐的车用除冰铲正踩窗口）、烟花夜保暖小件、室内鼠患防治类（本次推荐的老鼠夹有直接信号：两款snap trap同日登Garden M&S榜，该需求将持续到次年2月而非一次性行情）。② 11月第1-2周：圣诞采购高峰正式启动，圣诞装饰类已在此前两周大量铺货（花环/灯串/桌面装饰），接下来的空白带是'圣诞礼品配件'——烛芯修剪器礼盒正是蜡烛礼品季的搭售品类（US月搜索+13.3%已验证，UK竞争密度低），同类可延伸方向：礼品包装小件、圣诞餐桌仪式感小物。11/5 Bonfire Night当周关注烟花手套、暖手类目短脉冲。③ 11月底：Black Friday（2026-11-27）当周是大促流量峰值，但对£5.99-12.99白牌新链接是把双刃剑——流量贵且比价激烈，建议此窗口不做新品上架，而是利用大促前一周（11/20左右）完成测品上架积累初期review，让大促自然流量反哺listing权重；供应链侧1688圣诞季产能11月中后开始紧张，补货决策要在11月第一周内锁定。④ 12月第1-3周：礼赠峰值+圣诞出行双主线——stocking fillers类小件、礼盒装工具类（烛芯剪套盒、开瓶器套装等'能送人'的小物）进入峰值；圣诞出行需求带动旅行收纳（手卷真空袋、行李秤、旅行分装——注意液体分装瓶属红线不碰），12月20日后圣诞礼品需求断崖，只剩出行与年货场景。⑤ 1月：新年整理季（New Year reset）是storage & organisation品类全年第二峰（真空压缩袋/收纳袋当前M&S双榜在榜是前置信号），叠加冬储需求，手卷真空袋、防潮收纳、冬衣收纳类在1月仍有第二波；同时冬季鼠患季延续（老鼠夹窗口到2月）、霜冻季延续（除冰铲到2月底），1月初按1月2日数据做一次冬季品复盘再决定Q1补货。整体节奏：未来4周是Q4利润兑现期，重点是11月第一周前完成上架测品、避开Black Friday新品内卷、12月20日前完成节日品收尾。"
+}
