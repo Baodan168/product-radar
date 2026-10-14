@@ -1,0 +1,135 @@
+{
+  "date": "2026-10-14",
+  "updated_at": "2026-10-14T08:20:00+08:00",
+  "scan_date": "2026-10-14",
+  "scan_time": "08:10",
+  "summary": "今日5个机会全部避开14天去重（新品类5/5）。主线：①英国log burner季启动——Amazon UK Fireplaces/Stoves BSR页燃料与配件多款上榜，炉温计新卖家4条评论即冲进类目59名，验证新listing可切入；②Bonfire Night(11-05)三周后，户外明火配件窗口正在打开；③TikTok Shop UK Q4礼赠动能确认（Advent类目周环比+11%），煮酒配件/礼赠向小件11月前上架正当时。全部非电子、无液体、≤200g、£5.99-12.99价格带内。",
+  "insights": [
+    {
+      "keyword": "stove pipe thermometer magnetic log burner",
+      "keyword_cn": "烟囱炉温计（磁吸式燃木炉/烟管温度计）",
+      "amazon_keyword": "stove pipe thermometer magnetic log burner",
+      "search_1688": "烟囱温度计 磁性 炉温计 燃木炉 批发",
+      "demand_signals": [
+        "Amazon UK Fireplaces/Stoves & Accessories BSR页燃料/配件多款上榜，log burner季启动（Amazon UK BSR抓取 2026-10-14）",
+        "VOYTO炉温计显示'100+ bought in past month'+Amazon's Choice， £5.49（Amazon UK listing 2026-10-14）",
+        "新品牌Tuwonwa仅4条评论即冲进Fireplace Tool Sets第59名、库存仅剩14件——新listing切入动能被验证（Amazon UK 2026-10-14）",
+        "能源账单高企背景下'省柴/燃效'叙事强化，评论区高频提到save fuel/cost effective（Amazon评论抽样）"
+      ],
+      "trend_score": 78,
+      "trend_direction": "up",
+      "reason": "英国10月下旬起进入燃木炉使用峰值，炉温计是log burner用户的'第一个配件'，单价低决策快。头部Valiant（6055条评论）统治高端，但£5.99-6.99价值带仍有新卖家快速起量，窗口未关。",
+      "action": "主推007测品店。定价£6.99。1688采购关键词'烟囱温度计 磁性'，单价约¥2.5-4.5（约£0.28-0.50），小批量20-30件空运测款。差异化：大表盘+350°C炉扇安全标记刻度+附钢丝挂绳。",
+      "competition": "偏高但分层：Valiant 6055条£7.99品牌集中度高；VOYTO 374条Amazon's Choice；价值带有新卖家（4条评论）正在出货。需避开头部定位，做大表盘+挂绳配件差异化。",
+      "signal_scores": {
+        "trend": 80,
+        "gap": 60,
+        "profit": 85,
+        "final": 75,
+        "recommendation": "推荐测款（首批20件空运）",
+        "profit_window": "£6.99售价：采购£0.40+FBA小件£1.83+佣金8%£0.56 → 净利约£4.20（60%毛利，按家居8%佣金口径）"
+      }
+    },
+    {
+      "keyword": "cat spring toys colourful interactive pack",
+      "keyword_cn": "猫咪弹簧玩具（彩色逗猫弹簧多支装）",
+      "amazon_keyword": "cat spring toys colourful interactive pack",
+      "search_1688": "猫弹簧玩具 彩色 逗猫弹簧 批发",
+      "demand_signals": [
+        "TikTok Made Me Buy It高频类目含pet gear，宠物小件是平台验证过的爆款类目（TokConnect 2026-10-05分析：14条头部视频厨房/清洁/宠物类占比最高）",
+        "1688逗猫玩具报价页10-14日更活跃，源头工厂现货充足、交期稳（1688行业页 2026-10-14）",
+        "冬季室内养猫场景放大：户外活动减少→室内逗猫需求季节性走强（UK冬季日照/行为常识+Q4宠物礼赠）",
+        "宠物类目佣金仅5%，平台费负向轻（Amazon UK类目费率）"
+      ],
+      "trend_score": 74,
+      "trend_direction": "flat",
+      "reason": "常青复购型品类，单价低、凑单属性强、退货率近零。冬季室内场景+Q4 pet stocking filler双驱动。弹簧玩具比毛绒玩具轻（整包可控制在150g内），适合空运小批量。",
+      "action": "027启动店测品。定价£7.99（40支混色+收纳管）。1688关键词'猫弹簧玩具 彩色'，约¥8-15/包（£0.90-1.70）。差异化：混色渐变+附1支铃铛球+纸管收纳。",
+      "competition": "中等：Amazon UK主流为20-60支装£5-9，头部listing评论数千条但品牌集中度低（白牌混战），价值带仍有空间。",
+      "signal_scores": {
+        "trend": 70,
+        "gap": 65,
+        "profit": 88,
+        "final": 74,
+        "recommendation": "推荐测款（首批20件空运）",
+        "profit_window": "£7.99售价：采购£1.30+FBA£1.83+佣金5%£0.40 → 净利约£4.46（56%毛利）"
+      }
+    },
+    {
+      "keyword": "mulled wine spice infuser stainless steel balls",
+      "keyword_cn": "煮酒香料球（热红酒/香料浸泡不锈钢球）",
+      "amazon_keyword": "mulled wine spice infuser stainless steel balls",
+      "search_1688": "不锈钢调料球 煮茶香料球 味宝 批发",
+      "demand_signals": [
+        "TikTok Shop UK Advent Calendar单周£123,733（+11%），Q4礼赠动能10月初已确认启动（z.media周报，week ending 2026-10-04）",
+        "UK mulled wine季11月超市全面铺货，家用现煮场景带动专用配件需求（UK季节消费规律）",
+        "Gap明显：Amazon UK现有多为通用茶叶球，定位'mulled wine专用'的listing稀少，关键词竞争低（Amazon UK搜索抽查 2026-10-14）",
+        "礼赠场景强：搭配酒瓶挂卡即可变圣诞stocking filler，£7.99-8.99价格心智好"
+      ],
+      "trend_score": 76,
+      "trend_direction": "up",
+      "reason": "热红酒是11-12月英国确定性最强的饮食季节仪式，专用infuser把'调料球'重定位成'煮酒球'，避开茶叶球红海。礼赠化包装在TikTok Q4礼赠动能背景下有内容放大空间。",
+      "action": "007测品增长店。定价£7.99（4支装+漏斗勺+手写风食谱卡）。1688关键词'不锈钢调料球 味宝'，约¥3-6/包（£0.35-0.70）。差异化：4支不同规格+洗勺+食谱卡，礼盒感白卡盒。",
+      "competition": "低：专用mulling定位listing少，多为通用tea ball。差异化定位成本主要在listing文案与包装，非产品成本。",
+      "signal_scores": {
+        "trend": 78,
+        "gap": 80,
+        "profit": 90,
+        "final": 82,
+        "recommendation": "重点推荐（首批20件空运，11月初前上架）",
+        "profit_window": "£7.99售价：采购£0.55+FBA£1.83+佣金8%£0.64 → 净利约£4.97（62%毛利）"
+      }
+    },
+    {
+      "keyword": "marshmallow roasting sticks extendable telescopic bbq",
+      "keyword_cn": "棉花糖烤签（加长伸缩户外篝火烧烤签）",
+      "amazon_keyword": "marshmallow roasting sticks extendable telescopic bbq",
+      "search_1688": "棉花糖烤签 伸缩 烧烤签 不锈钢 批发",
+      "demand_signals": [
+        "Bonfire Night 2026-11-05三周后，户外明火活动（篝火晚会/后院fire pit）进入年度峰值窗口（UK节日日历）",
+        "Fire pit/log burner燃料BSR占比高：Fireplaces页charcoal/fire pit logs多款上榜，户外火盆季已启动（Amazon UK BSR 2026-10-14）",
+        "TikTok Q4家庭聚会+户外内容周期：smores/fire pit内容冬季常见（TikTok UK内容规律+TikTokMadeMeBuyIt高频品类为厨房/户外小件）",
+        "多场景复用：Bonfire Night→圣诞火炉边→春夏BBQ，寿命跨季度不压货"
+      ],
+      "trend_score": 79,
+      "trend_direction": "up",
+      "reason": "Bonfire Night是英国独有节点（美国无此需求），中国卖家供给稀疏， UK本土卖家溢价高。8支装£9.99在£5.99-12.99带内属'凑单+礼赠'双属性，未来4周是上架+积累评论的关键期。",
+      "action": "322老店铺货。定价£9.99（8支装+收纳帆布袋）。1688关键词'棉花糖烤签 伸缩'，约¥12-20/套（£1.35-2.25）。差异化：90cm加长（儿童安全距离）+彩色防烫手柄+收纳袋。",
+      "competition": "中等：头部listing评论1-3千条，但Bonfire专用定位（UK语境文案）少，多数listing是美国语境s'mores文案，UK本土化是切入点。",
+      "signal_scores": {
+        "trend": 82,
+        "gap": 72,
+        "profit": 80,
+        "final": 78,
+        "recommendation": "推荐（首批20件空运，本周内上架赶11-05窗口）",
+        "profit_window": "£9.99售价：采购£1.80+FBA£1.83+佣金8%£0.80 → 净利约£5.56（56%毛利）"
+      }
+    },
+    {
+      "keyword": "fat ball bird feeder hanging pack outdoor",
+      "keyword_cn": "脂肪球喂鸟器（挂式鸟食球喂鸟器多支装）",
+      "amazon_keyword": "fat ball bird feeder hanging pack outdoor",
+      "search_1688": "喂鸟器 挂式 鸟食球 塑料 批发",
+      "demand_signals": [
+        "RSPB冬季喂养季11月启动，1月底Big Garden Birdwatch（全英最大公民鸟类观测活动）持续引流，UK garden wildlife文化刚需（RSPB年度日历）",
+        "UK鸟类冬季依赖人工喂食：11月-2月为投放峰值，喂鸟器是'入坑第一件'（UK观鸟消费规律）",
+        "£8.99 4支装价值带可选少：现有头部多为单只装或带杆套装（£15+），轻量4支装是结构缺口（Amazon UK搜索抽查 2026-10-14）",
+        "塑料+钢丝结构整组可控制在180g内，空运友好"
+      ],
+      "trend_score": 70,
+      "trend_direction": "up",
+      "reason": "冬季喂鸟是UK确定性季节需求，且Birdwatch 1月底提供第二波流量。4支装打'花园多点悬挂'心智，客单价£8.99卡在凑单带。缺点是价值端竞争多，需靠数量+差异化包装切入。",
+      "action": "322老店铺货。定价£8.99（4支装）。1688关键词'喂鸟器 挂式'，约¥6-12/组（£0.70-1.35）。差异化：4支装+防松鼠螺旋挂钩+附喂食指南卡（英式花园语境文案）。",
+      "competition": "偏高：RSPB/Gardman等品牌+大量白牌，头部listing评论数千条。差异化靠4支装价值定位+英式花园文案，预期爬坡慢但Q4-Q1需求周期长。",
+      "signal_scores": {
+        "trend": 72,
+        "gap": 58,
+        "profit": 82,
+        "final": 70,
+        "recommendation": "可选备选（若本周 want 5款全上则上322店；保守则替换为复制#1炉温计多店铺）",
+        "profit_window": "£8.99售价：采购£1.00+FBA£1.83+佣金8%£0.72 → 净利约£5.44（61%毛利）"
+      }
+    }
+  ],
+  "trend_forecast": "未来3-4周UK需求窗口预测（2026-10-14 → 11月上旬）：① 10月第4周（10/20-10/26）：Bonfire Night（11-05）前最后2周，户外明火类目进入搜索爬坡期——篝火烤签、火花手套、荧光棒、户外毯、fire pit配件的流量10月底见顶，上架最晚不迟于10/24，否则错过节点；燃气/燃料类BSR已先行上涨（今日Fireplaces页多款燃料上榜可证）。② 11月第1周（10/27-11/02）：Bonfire Week流量峰值+Black Friday预热启动，£5.99-9.99凑单价轻小件开始吃'stocking filler'心智流量；TikTok Shop UK Advent Calendar已连续周环比+11%（£123,733），验证Q4礼赠动能早于往年，礼赠向小件（煮酒配件、圣诞厨房小工具、桌面氛围件）本周内必须完成上架。③ 11月第2周（11/03-11/09）：Bonfire余温+圣诞预热空档，是log burner配件的黄金窗口——英国燃木炉点火潮集中在11月第一次寒潮，炉温计、炉边工具、保温类跟着首波冷空气走，天气每降1°C搜索抬升明显；同时Black Friday流量开始分流，此周新listing评论积累效率最高（竞争广告未全面开闸）。④ 11月第3周（11/10-11/16）：Black Friday（11-27）前2周，礼赠清单类搜索（gifts for dad/mum、stocking fillers、secret santa £10以下）爆发，£5.99-9.99白牌小件是secret santa价格带绝对主力——推荐库存重点向'礼赠属性'SKU倾斜；冬日室内场景品类（猫咪室内玩具、加湿替代类、毛毯夹、热饮配件）随日照缩短同步走强。⑤ 11月第4周（11/17-11/23）：Black Friday正式流量期，转化率峰值但广告成本同步抬升，新listing不宜此周首推，应以存量SKU吃流量为主。⑥ 持续主线：能源账单高企的'省钱叙事'贯穿整个冬季——炉温计（省柴）、防风保温、窗缝密封等'帮我省暖气费'品类需求韧性强于纯节令品；冬季鸟类喂养（RSPB 11月启动、1月底Big Garden Birdwatch二次引流）是唯一能从11月吃到次年2月的长周期线，适合作为组合铺货的压舱石。风险提示：节令品一旦错过10/24上架节点，宁可放弃Bonfire线，把预算集中到11月礼赠线，避免库存压到12月中旬后清仓。"
+}
