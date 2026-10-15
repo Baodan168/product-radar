@@ -7,7 +7,7 @@ index.html / platform.html / output/data|assets 由 CI 从 data/ 现场生成
 （.github/workflows/update.yml），不再从本机推 —— 推送量从 ~40 文件
 降到数据变更集，cron 900s 预算里的 deploy 步骤基本不再占时。
 """
-import json, os, sys, base64, time, hashlib
+import json, os, re, sys, base64, time, hashlib
 import urllib.request
 import urllib.error
 import http.client
@@ -155,7 +155,11 @@ if __name__ == '__main__':
         full = os.path.join(base, subdir)
         if not os.path.isdir(full):
             continue
-        all_files = sorted(os.listdir(full))
+        # 先按日期文件名过滤再取最近12个（2026-10-15 教训：目录里出现
+        # *.json.bak 之类的多余文件时，字符串排序会把真实数据挤出窗口，
+        # 导致当日修复静默漏推）。.bak 等非日期文件永远不占窗口名额。
+        all_files = [f for f in sorted(os.listdir(full))
+                     if re.match(r'\d{4}-\d{2}-\d{2}\.json$', f) or f.endswith(('.html', '.js'))]
         for f in all_files[-12:]:
             if not f.endswith('.json') and not f.endswith('.html') and not f.endswith('.js'):
                 continue
