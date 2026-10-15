@@ -41,6 +41,12 @@ jobs:
           python3 generate_platform.py
           python3 generate_portal.py
 
+      # 趋势发现数据是 LLM 每日生成的，输出格式会随机漂移（2026-10-03 缺字段、
+      # 10-05 分数制漂移事故）。发布边界硬门禁：坏数据宁可红在这里，
+      # 不要静默上线让前端区块空白/看板排序污染。近 35 天文件严格校验。
+      - name: Validate discovery data
+        run: python3 validate_discovery.py --check
+
       - uses: actions/configure-pages@v5
 
       # 补货页由仓库外的项目生成，会带毛利率/销量等敏感字段。
