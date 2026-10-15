@@ -1,0 +1,131 @@
+{
+  "date": "2026-10-15",
+  "updated_at": "2026-10-15T08:30:00+08:00",
+  "scan_date": "2026-10-15",
+  "scan_time": "08:30",
+  "summary": "冬季供暖准备周主线：B&Q寒潮数据显示窗户保温搜索周环比+1153%、挡风条+169%，Uswitch调查1100万家庭今冬计划购买保温小件。推荐5个机会：2个供暖维护件（暖气片反射膜、放气钥匙）、1个门缝挡风毛刷条、1个圣诞灯安装辅料（免痕挂钩）、1个TikTok craft类（DIY水钻贴）。全部≤200g、无电子、1688供应链验证，预计净利率41-54%。",
+  "trend_forecast": "① 10月第3周（10-15~10-21）= 暖气开启周。Uswitch调查显示82%英国家庭刻意拖延开暖气省电费，供暖季一旦启动，暖气片周边维护件（反射膜、放气钥匙、bleeding工具）搜索当周冲顶，这是本周最硬的窗口，建议反射膜和放气钥匙立即上027店测款。② 10月25日时钟回拨（BST结束）后第一周：下午4点天黑，圣诞灯安装潮启动，免痕挂钩+灯串辅料需求从10月底线性爬升到11月底，Command品牌垄断心智但通用款40只装存在空档。③ 11月第1-2周（11-1~11-14）：Black Friday（11-27）前的持币观望期，消费者动手做礼物的craft品类反而走强——Good Housekeeping 10月Prime Day稿已把bedazzling kit列入viral清单，DIY水钻贴在此窗口适合快速测款、BF前不重仓。④ 11月中下旬：第一波寒潮风险窗口。B&Q实测模式是寒潮来前48-72小时相关搜索暴增（窗户保温+1153%、挡风+169%、融雪盐+900%），挡风毛刷条类需求12月前一路线性上涨，FBA补货须在11月上旬前到位，错过则吃不到寒潮脉冲。⑤ 节奏提示：圣诞装饰类（bow/mould/napkin/sign等）14天内已推10个、备货高峰已过，接下来的差异化机会在「安装与维护工具」和「节能刚需」两条线，装饰品红海不再进。",
+  "insights": [
+    {
+      "keyword": "radiator reflector foil panels",
+      "keyword_cn": "暖气片节能反射膜（背胶铝箔复合片，贴暖气片与墙之间）",
+      "amazon_keyword": "radiator reflector foil heat saver panel",
+      "search_1688": "暖气片反射膜 铝箔隔热片 背胶 / 暖气片挡热板",
+      "demand_signals": [
+        "B&Q官网10月寒潮报道：窗户保温类搜索周环比+1153%、挡风条+169%，英国供暖焦虑全面升温（来源：insightdiy.co.uk 10月报道）",
+        "Uswitch调查：1100万英国家庭今冬计划购买至少一件保暖节能小件，40%家庭已有挡风条、30%有保温窗帘，节能小件渗透率仍在上升（来源：The Independent）",
+        "Amazon UK Home & Kitchen BSR榜能源节省小件长期霸榜（UniBond除湿补充装、ANSIO除湿盒等），节能刚需品类流量池稳定（来源：Amazon UK BSR抓取 2026-10-15）"
+      ],
+      "trend_score": 78,
+      "trend_direction": "up",
+      "reason": "供暖季启动周（10月中下旬）是反射膜的年度峰值窗口：家庭开暖气后第一时间找「让暖气更省电」的方案，反射膜£9.99定价对应一年省几十镑电费的感知价值极强。10-07已推窗户保温膜（不同品类），暖气片反射膜正好承接同一波需求但无内部竞争。",
+      "action": "027店首发测款，4片装定价£9.99；1688搜「暖气片反射膜 背胶铝箔」约¥1.5-2/片，4片装采购+头程约£1.5；listing主打cut-to-size+双面胶带即贴，轻量卷装包裹压缩后约28×22×4cm、<200g",
+      "competition": "中等偏低：现有品牌（Nutley's、Home Mint等）review多在50-500区间，无万级review垄断者，品牌集中度低；差异化空间在加厚双面铝箔+预裁尺寸标注",
+      "signal_scores": {
+        "trend": 82,
+        "gap": 70,
+        "profit": 88,
+        "final": 80,
+        "recommendation": "strong_buy",
+        "profit_window": "£9.99 - 佣金£0.80(8%) - FBA Small Standard £2.60 - 采购+头程约£1.50 = 净利约£5.09（51%）"
+      }
+    },
+    {
+      "keyword": "door draught excluder brush strip",
+      "keyword_cn": "门底挡风毛刷密封条（自粘/钉压式，防冷风防尘）",
+      "amazon_keyword": "door draught excluder brush strip seal",
+      "search_1688": "门底毛刷密封条 自粘挡风条 / 门窗缝隙防风毛条",
+      "demand_signals": [
+        "B&Q寒潮数据：draught excluder搜索周环比+169%（来源：insightdiy.co.uk）",
+        "Google Trends：draught excluder搜索同比+235%，被ToolStation列入十大最热节能产品（来源：Ideal Home引Hammonds Furniture数据）",
+        "Uswitch：40%英国家庭已拥有挡风条、另有7%计划冬季前购买，仍处渗透上升期（来源：The Independent）",
+        "1688验证：门底毛条自粘款批发价¥0.5-1/米级，供应商极多，成本结构极优（来源：1688/淘宝批发页面抓取 2026-10-15）"
+      ],
+      "trend_score": 80,
+      "trend_direction": "up",
+      "reason": "挡风条是英国冬季节能的国民级品类，需求从10月线性涨到12月，寒潮脉冲时爆发。14天内未推过该品类（10-13的car ice scraper是除冰件不同方向）。痛点永久存在+单价低+决策快，适合铺货模式快速上量。",
+      "action": "007店上量款，2条装定价£8.99；1688搜「门底毛刷条 自粘」约¥3-4/条，差异点选30mm加厚毛+可剪裁；主打suitable for internal & external doors；包装卷装约30×22×5cm",
+      "competition": "中高：Stormguard、Macks等品牌review 500-5000+占头部，但£8.99以下多支装段仍有空间；差异化必须做加厚毛条+双条装+附裁剪说明，避开单条红海",
+      "signal_scores": {
+        "trend": 85,
+        "gap": 55,
+        "profit": 90,
+        "final": 76,
+        "recommendation": "buy",
+        "profit_window": "£8.99 - 佣金£0.72(8%) - FBA £2.60 - 采购+头程约£0.85 = 净利约£4.82（54%）"
+      }
+    },
+    {
+      "keyword": "self adhesive rhinestone gem stickers",
+      "keyword_cn": "DIY自粘水钻贴纸（手工装饰手机壳/耳机盒/杯子）",
+      "amazon_keyword": "self adhesive rhinestone gem sticker craft",
+      "search_1688": "自粘水钻贴 DIY钻石贴纸 / 亚克力钻贴手工装饰",
+      "demand_signals": [
+        "Good Housekeeping 10月Prime Day稿将bedazzling kit列为TikTok-viral产品：「把水钻贴到耳机盒、马克杯上，一旦开始就停不下来」（来源：goodhousekeeping.com 2026-10）",
+        "TikTok UK #Bedazzled #GemArt craft标签内容持续产出，中学生/大学生群体自装饰周边是活跃场景（来源：GH稿+平台标签观察）",
+        "1688验证：自粘水钻贴批发¥1-3/张，多供应商月销万级，供应链成熟可立即发货（来源：1688市场页 2026-10-15）"
+      ],
+      "trend_score": 72,
+      "trend_direction": "up",
+      "reason": "craft类是圣诞前（11月BF持币期）的反周期品类——消费者不买大件但动手做礼物。水钻贴是craft里最轻（<100g/30张装）、成本最低、无尺码问题的形态。14天内未推过craft gems（10-01 diamond painting是画布类）。",
+      "action": "027店测款，30张混装定价£7.99；1688搜「自粘水钻贴」约¥0.4-1/张，选多尺寸混色+送镊子款；listing场景主打phone case/water bottle/laptop；平卡包装约22×16×1.5cm",
+      "competition": "低：多数listing review<300，无头部品牌，靠数量和配色区分；风险是快消潮流品热度快进快出，首批20件测品不重仓，复购信号出现再补",
+      "signal_scores": {
+        "trend": 74,
+        "gap": 75,
+        "profit": 82,
+        "final": 76,
+        "recommendation": "buy",
+        "profit_window": "£7.99 - 佣金£0.64(8%) - FBA £2.60 - 采购+头程约£1.40 = 净利约£3.35（42%）"
+      }
+    },
+    {
+      "keyword": "fairy light hanging clips damage free",
+      "keyword_cn": "圣诞灯串免痕挂钩（无钉胶贴式，墙面/窗框/栏杆固定）",
+      "amazon_keyword": "fairy light clips wall adhesive outdoor",
+      "search_1688": "圣诞灯串固定夹 胶贴挂钩 / 灯串卡扣墙面免钉",
+      "demand_signals": [
+        "Command Decoration Clips（20只装）当前在Amazon UK Home & Kitchen BSR榜内，装饰固定件进入大盘畅销榜（来源：Amazon UK BSR抓取 2026-10-15）",
+        "10月25日时钟回拨后下午4点天黑，圣诞灯安装是11月全英家庭固定动作，灯串辅料需求随安装潮同步放大（来源：英国冬令时日历事件）",
+        "1688验证：灯串固定胶贴夹批发¥0.2-0.5/个，40只装采购+头程<£1，圣诞灯供应链是1688当前最成熟品类之一（来源：1688圣诞灯页 2026-10-15）"
+      ],
+      "trend_score": 75,
+      "trend_direction": "up",
+      "reason": "圣诞灯安装辅料是「安装季窗口品」：10月底到11月是峰值备货期，我们14天推了10个装饰品但没推过安装辅料，这是差异化补位。Command用品牌溢价卖£6-8/20只，通用款40只装£6.99有明确价格空间。",
+      "action": "027店测款，40只装定价£6.99；1688搜「灯串固定夹 胶贴」约¥0.15-0.3/个；差异化主打透明无痕+室内外两用+附备用胶贴；小盒包装约15×10×3cm",
+      "competition": "两极：Command品牌review万级垄断心智，但通用款listings review普遍<500且质量参差；差异化靠40只大容量+备用胶点+户外耐候说明，避开与品牌正面比胶性",
+      "signal_scores": {
+        "trend": 78,
+        "gap": 60,
+        "profit": 85,
+        "final": 74,
+        "recommendation": "buy",
+        "profit_window": "£6.99 - 佣金£0.56(8%) - FBA £2.60 - 采购+头程约£0.75 = 净利约£3.08（44%）"
+      }
+    },
+    {
+      "keyword": "radiator bleed key set brass",
+      "keyword_cn": "暖气片放气钥匙套装（黄铜多规格，冬季暖气维护必备）",
+      "amazon_keyword": "radiator bleed key set brass universal",
+      "search_1688": "暖气片放气钥匙 黄铜 / 暖气放水阀钥匙 多功能",
+      "demand_signals": [
+        "暖气片bleeding是英国家庭每年供暖启动的例行维护，搜索量10-11月季节性冲顶，与开暖气周强绑定（来源：UK供暖季搜索规律+Uswitch供暖启动调查）",
+        "Amazon UK BSR榜能源/供暖维护小件当前活跃（除湿、密封类小件霸榜），维护工具类流量池被验证（来源：Amazon UK BSR抓取 2026-10-15）",
+        "利基验证：10-14推荐的同场景niche品（log burner炉温磁贴温度计）符合「供暖维护工具」需求线，该niche用户群消费习惯成立（来源：本雷达10-14记录）"
+      ],
+      "trend_score": 68,
+      "trend_direction": "up",
+      "reason": "冷门但精准：bleeding radiator是英国人10-11月的固定动作，钥匙是£5-9一次性小工具，竞争极低（review普遍<200、无品牌），黄铜件采购极便宜。作为「暖气开启周」组合拳的第二件与反射膜同批次上架，摊薄listing运营成本。",
+      "action": "027店测款，5件多规格装定价£6.99；1688搜「暖气放气钥匙 多功能」约¥1.5-2/件；差异化主打universally fits most radiators+附图解说明卡；60g内、约12×8×2cm，最轻小件",
+      "competition": "低：几乎无品牌垄断，现有listing review<200，多数是单钥匙低质款；5件套装+说明卡即是差异；风险是搜索量绝对值中等，属利基补充款非主力",
+      "signal_scores": {
+        "trend": 66,
+        "gap": 85,
+        "profit": 80,
+        "final": 74,
+        "recommendation": "buy",
+        "profit_window": "£6.99 - 佣金£0.56(8%) - FBA £2.60 - 采购+头程约£0.95 = 净利约£2.88（41%）"
+      }
+    }
+  ]
+}
