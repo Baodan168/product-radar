@@ -1,0 +1,1905 @@
+{
+  "scan_date": "2026-10-15",
+  "scan_time": "08:50",
+  "scan_ts": "2026-10-15_0850",
+  "stats": {
+    "total_scanned": 305,
+    "passed_filter": 26,
+    "rejected": 252,
+    "channels": {
+      "google_trends": 1,
+      "multi_source": 1,
+      "keyword_search": 26,
+      "event_product": 3
+    },
+    "detail_reject": {
+      "重量超标": 9,
+      "尺寸超标": 2
+    },
+    "theme_trimmed": [
+      {
+        "asin": "B0CR3RJM85",
+        "name": "AWAVM Wooden Pet Carvings Dog Puppy Family Wooden Carving Ornaments Animal Sculpture Handmade Craft Creative Gifts"
+      },
+      {
+        "asin": "B0DQ8QT5CP",
+        "name": "Sponsored Ad – Eco-Friendly Radiator Reflector Panels 0.6m x 1.2m, Bubble Foil Insulation for Heat Retention, Roof & Wal"
+      },
+      {
+        "asin": "B0GZBSWKJQ",
+        "name": "Sponsored Ad – Brush Strip Draught Excluder for Doors & Windows,10m Self-Adhesive Draught Excluder Tape,15mm(T) x 9mm(W)"
+      },
+      {
+        "asin": "B0FQ57VVRK",
+        "name": "Upgraded Silicone Draught Excluder for Doors – Self-Adhesive Door Seal Strip, Soundproof, Waterproof & Weatherproof Gap "
+      },
+      {
+        "asin": "B0CFGKR459",
+        "name": "Misazy Door Brush Seal Strip, Draft Excluder - 2 Pieces, Weather Strip, Self-Adhesive, Cut to Size - Door Bottom Seal, 5"
+      },
+      {
+        "asin": "B0DLV26LRR",
+        "name": "Furforstk Draft excluder for Doors, 2 Pcs Door Draft excluder, Door Brush Strip (Energy Saving) Doors Strip Also Ideal a"
+      },
+      {
+        "asin": "B0GY6JRYX6",
+        "name": "Sponsored Ad – 3 Meters White V-Shape Foam Draught Excluder Strip for 6mm-9mm Large Gaps | Self-Adhesive Door Seal, Bloc"
+      },
+      {
+        "asin": "B0CFGJ2YYN",
+        "name": "Misazy Door Brush - 2pcs Draft Excluder, Weather Strip, Self-Adhesive, Cut to Size - Door Bottom Seal (5 * 100cm, White)"
+      },
+      {
+        "asin": "B0CSD3X1RP",
+        "name": "Zofrud Spring Moss Burlap Ribbon - 38mm x 9M | Faux Jute Wired Ribbon for Wreaths, Christmas Decorations, Rustic Wedding"
+      },
+      {
+        "asin": "B0BZNWLN6G",
+        "name": "Sponsored Ad – 60M Rainbow Satin Ribbon 50mm Wide Colorful Fabric Ribbons Large Silk Satin Hanging Streamer Garland for "
+      },
+      {
+        "asin": "B0F28H9FD4",
+        "name": "Sponsored Ad – Kryvus Burgundy Satin Wired Ribbon, 38mm X Continuous 9M Luxury Double Faced Satin Wire Edge Ribbon for G"
+      },
+      {
+        "asin": "B0GL2TFK33",
+        "name": "Sponsored Ad – G2PLUS 40mm Ivory Wrinkled Chiffon Ribbon: 10 Yards Crinkle Ribbon | Wavy Edge for Gift wrapping, Wedding"
+      },
+      {
+        "asin": "B0H4VGVG3B",
+        "name": "Sponsored Ad – Xnegau 18 Colours Satin Ribbons 6mm x 22m Gift Wrapping Ribbon | Craft Ribbon for Wedding, Birthday, Chri"
+      },
+      {
+        "asin": "B0H29CYDM8",
+        "name": "Sponsored Ad – Vitalizart Ribbons for Crafts 1\" x 30Yd (3 Rolls x 10 Yd) Green & White | Double-sided Satin Ribbon for C"
+      }
+    ],
+    "trend_categories": {},
+    "supply_demand": {},
+    "divergences": {
+      "car": {
+        "current_heat": 53,
+        "previous_heat": 63,
+        "heat_change_pct": -15.9,
+        "direction": "stable",
+        "dates": [
+          "2026-10-14_0850",
+          "2026-10-14_1710"
+        ]
+      },
+      "pets": {
+        "current_heat": 100,
+        "previous_heat": 100,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-10-14_0850",
+          "2026-10-14_1710"
+        ]
+      },
+      "crafts": {
+        "current_heat": 100,
+        "previous_heat": 100,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-10-14_0850",
+          "2026-10-14_1710"
+        ]
+      },
+      "phone": {
+        "current_heat": 77,
+        "previous_heat": 100,
+        "heat_change_pct": -23.0,
+        "direction": "falling",
+        "dates": [
+          "2026-10-14_0850",
+          "2026-10-14_1710"
+        ]
+      },
+      "beauty": {
+        "current_heat": 57,
+        "previous_heat": 56,
+        "heat_change_pct": 1.8,
+        "direction": "stable",
+        "dates": [
+          "2026-10-14_0850",
+          "2026-10-14_1710"
+        ]
+      },
+      "kitchen": {
+        "current_heat": 61,
+        "previous_heat": 59,
+        "heat_change_pct": 3.4,
+        "direction": "stable",
+        "dates": [
+          "2026-10-14_0850",
+          "2026-10-14_1710"
+        ]
+      },
+      "eco": {
+        "current_heat": 65,
+        "previous_heat": 71,
+        "heat_change_pct": -8.5,
+        "direction": "stable",
+        "dates": [
+          "2026-10-14_0850",
+          "2026-10-14_1710"
+        ]
+      },
+      "seasonal": {
+        "current_heat": 69,
+        "previous_heat": 59,
+        "heat_change_pct": 16.9,
+        "direction": "stable",
+        "dates": [
+          "2026-10-14_0850",
+          "2026-10-14_1710"
+        ]
+      },
+      "cleaning": {
+        "current_heat": 32,
+        "previous_heat": 48,
+        "heat_change_pct": -33.3,
+        "direction": "falling",
+        "dates": [
+          "2026-10-14_0850",
+          "2026-10-14_1710"
+        ]
+      },
+      "bedding": {
+        "current_heat": 40,
+        "previous_heat": 41,
+        "heat_change_pct": -2.4,
+        "direction": "stable",
+        "dates": [
+          "2026-10-14_0850",
+          "2026-10-14_1710"
+        ]
+      },
+      "baby": {
+        "current_heat": 48,
+        "previous_heat": 34,
+        "heat_change_pct": 41.2,
+        "direction": "rising",
+        "dates": [
+          "2026-10-14_0850",
+          "2026-10-14_1710"
+        ]
+      },
+      "garden": {
+        "current_heat": 69,
+        "previous_heat": 56,
+        "heat_change_pct": 23.2,
+        "direction": "stable",
+        "dates": [
+          "2026-10-14_0850",
+          "2026-10-14_1710"
+        ]
+      },
+      "bathroom": {
+        "current_heat": 17,
+        "previous_heat": 41,
+        "heat_change_pct": -58.5,
+        "direction": "falling",
+        "dates": [
+          "2026-10-14_0850",
+          "2026-10-14_1710"
+        ]
+      },
+      "office": {
+        "current_heat": 57,
+        "previous_heat": 74,
+        "heat_change_pct": -23.0,
+        "direction": "falling",
+        "dates": [
+          "2026-10-14_0850",
+          "2026-10-14_1710"
+        ]
+      },
+      "storage": {
+        "current_heat": 48,
+        "previous_heat": 34,
+        "heat_change_pct": 41.2,
+        "direction": "rising",
+        "dates": [
+          "2026-10-14_0850",
+          "2026-10-14_1710"
+        ]
+      },
+      "lighting": {
+        "current_heat": 77,
+        "previous_heat": 96,
+        "heat_change_pct": -19.8,
+        "direction": "stable",
+        "dates": [
+          "2026-10-14_0850",
+          "2026-10-14_1710"
+        ]
+      },
+      "sports": {
+        "current_heat": 36,
+        "previous_heat": 37,
+        "heat_change_pct": -2.7,
+        "direction": "stable",
+        "dates": [
+          "2026-10-14_0850",
+          "2026-10-14_1710"
+        ]
+      },
+      "home decor": {
+        "current_heat": 44,
+        "previous_heat": 67,
+        "heat_change_pct": -34.3,
+        "direction": "falling",
+        "dates": [
+          "2026-10-14_0850",
+          "2026-10-14_1710"
+        ]
+      },
+      "travel": {
+        "current_heat": 12,
+        "previous_heat": 41,
+        "heat_change_pct": -70.7,
+        "direction": "falling",
+        "dates": [
+          "2026-10-14_0850",
+          "2026-10-14_1710"
+        ]
+      }
+    },
+    "gap_opportunities": 0
+  },
+  "products": [
+    {
+      "asin": "B0FZV19Y42",
+      "name": "NEBURORA 4902 Pcs Sparkling Gem Stickers Self-Adhesive Rhinestone Gem Stickers for DIY Card Making Crafts Decorations",
+      "price": 6.66,
+      "reviews": 17,
+      "rating": 4.5,
+      "rank": 37,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "17 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FZV19Y42",
+      "image_url": "https://m.media-amazon.com/images/I/81gBrf0YkQL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "self adhesive rhinestone gem sticker craft",
+      "sources": [
+        "趋势发现",
+        "Google趋势"
+      ],
+      "google_trend": "rising",
+      "profit_margin": 0.224,
+      "net_profit": 1.49,
+      "cost_breakdown": {
+        "vat": 1.11,
+        "commission": 1.0,
+        "fba": 1.46,
+        "ads": 0.67,
+        "returns": 0.13,
+        "sourcing": 0.8,
+        "total_cost": 5.17
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "weak",
+      "signal_label": "🟡 弱信号",
+      "external_sources": [
+        "Google"
+      ],
+      "internal_sources": [],
+      "score": 52,
+      "score_breakdown": {
+        "📊 Google↑": 15,
+        "🌊 蓝海": 15,
+        "⭐ 高评分": 5,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 2,
+      "is_new": true,
+      "first_seen": "2026-10-15",
+      "is_multi": true,
+      "is_event": false,
+      "channel_tags": [
+        "google_trends",
+        "multi_source",
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0GX26TFVB",
+      "name": "4 PC Wooden Ornaments for House, Handcrafted Home Accessories with Natural Grain, Freestanding with Adhesive Included, I",
+      "price": 11.99,
+      "reviews": 20,
+      "rating": 3.9,
+      "rank": 50,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "20 reviews, 3.9★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GX26TFVB",
+      "image_url": "https://m.media-amazon.com/images/I/817XwzvT1ZL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "wooden ornaments",
+      "festival_event": "National Tree Dressing Day",
+      "festival_icon": "🌳",
+      "festival_deadline": "2026-10-19",
+      "is_event": false,
+      "sources": [
+        "📅 National Tree Dressing Day"
+      ],
+      "profit_margin": 0.375,
+      "net_profit": 4.49,
+      "cost_breakdown": {
+        "vat": 2.0,
+        "commission": 1.8,
+        "fba": 1.46,
+        "ads": 1.2,
+        "returns": 0.24,
+        "sourcing": 0.8,
+        "total_cost": 7.5
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": 17,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🟢 低竞争": 10,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-10-15",
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0D77MV6BR",
+      "name": "Sponsored Ad – Radiator Reflector Panels 5m x 60cm, Energy Saving Radiator Reflector Foil with Adhesive Pads, Heat Refle",
+      "price": 11.66,
+      "reviews": 197,
+      "rating": 4.3,
+      "rank": 8,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "197 reviews, 4.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0D77MV6BR",
+      "image_url": "https://m.media-amazon.com/images/I/81pOc50VdKL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "radiator reflector foil heat saver panel",
+      "sources": [
+        "趋势发现"
+      ],
+      "profit_margin": 0.369,
+      "net_profit": 4.3,
+      "cost_breakdown": {
+        "vat": 1.95,
+        "commission": 1.75,
+        "fba": 1.46,
+        "ads": 1.17,
+        "returns": 0.23,
+        "sourcing": 0.8,
+        "total_cost": 7.36
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": -11,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "📢 广告位": -10,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-10-15",
+      "is_event": false,
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0DFMC42DC",
+      "name": "Radiator Reflector Foil Roll, 5m x 60cm Thermal Insulation Film, Backing Panel Insulation, 3mm Thick Heat Reflective Bub",
+      "price": 11.49,
+      "reviews": 40,
+      "rating": 4.6,
+      "rank": 41,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "40 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DFMC42DC",
+      "image_url": "https://m.media-amazon.com/images/I/61CU-do-ssL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "radiator reflector foil heat saver panel",
+      "sources": [
+        "趋势发现"
+      ],
+      "profit_margin": 0.366,
+      "net_profit": 4.21,
+      "cost_breakdown": {
+        "vat": 1.92,
+        "commission": 1.72,
+        "fba": 1.46,
+        "ads": 1.15,
+        "returns": 0.23,
+        "sourcing": 0.8,
+        "total_cost": 7.28
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": 22,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🟢 低竞争": 10,
+        "⭐ 高评分": 5,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-10-15",
+      "is_event": false,
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0G67BLK47",
+      "name": "Sponsored Ad – Radiator Foil Reflector Roll 5 Metre x 1M - Heat Reflective Insulation Roll Foil Sheet Backing - Thermal ",
+      "price": 12.49,
+      "reviews": 103,
+      "rating": 4.6,
+      "rank": 4,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "103 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0G67BLK47",
+      "image_url": "https://m.media-amazon.com/images/I/815tFOkTs+L._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "radiator reflector foil heat saver panel",
+      "sources": [
+        "趋势发现"
+      ],
+      "profit_margin": 0.382,
+      "net_profit": 4.77,
+      "cost_breakdown": {
+        "vat": 2.09,
+        "commission": 1.87,
+        "fba": 1.46,
+        "ads": 1.25,
+        "returns": 0.25,
+        "sourcing": 0.8,
+        "total_cost": 7.72
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": -1,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🟡 中等竞争": 5,
+        "⭐ 高评分": 5,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "📢 广告位": -10,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-10-15",
+      "is_event": false,
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0D266QTFV",
+      "name": "Shudehill Giftware Daisy Message Wooden Duck Ornament Gift - Family, Friends, Auntie, Daughter, Sister, Grandma, Nan or ",
+      "price": 10.86,
+      "reviews": 93,
+      "rating": 4.1,
+      "rank": 52,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "93 reviews, 4.1★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0D266QTFV",
+      "image_url": "https://m.media-amazon.com/images/I/51x4aaC8ZgL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "wooden ornaments",
+      "festival_event": "National Tree Dressing Day",
+      "festival_icon": "🌳",
+      "festival_deadline": "2026-10-19",
+      "is_event": false,
+      "sources": [
+        "📅 National Tree Dressing Day"
+      ],
+      "profit_margin": 0.355,
+      "net_profit": 3.85,
+      "cost_breakdown": {
+        "vat": 1.81,
+        "commission": 1.63,
+        "fba": 1.46,
+        "ads": 1.09,
+        "returns": 0.22,
+        "sourcing": 0.8,
+        "total_cost": 7.01
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": 12,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🟡 中等竞争": 5,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-10-15",
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0FWLMCRW4",
+      "name": "Hallmark Collectable MARVEL Spider-Man Tangled in Fairy Lights Ornament",
+      "price": 6.67,
+      "reviews": 48,
+      "rating": 4.8,
+      "rank": 53,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "48 reviews, 4.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FWLMCRW4",
+      "image_url": "https://m.media-amazon.com/images/I/71tVGAk+w6L._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "tree decorations",
+      "festival_event": "National Tree Dressing Day",
+      "festival_icon": "🌳",
+      "festival_deadline": "2026-10-19",
+      "is_event": false,
+      "sources": [
+        "📅 National Tree Dressing Day"
+      ],
+      "profit_margin": 0.224,
+      "net_profit": 1.5,
+      "cost_breakdown": {
+        "vat": 1.11,
+        "commission": 1.0,
+        "fba": 1.46,
+        "ads": 0.67,
+        "returns": 0.13,
+        "sourcing": 0.8,
+        "total_cost": 5.17
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": 10,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🟢 低竞争": 10,
+        "⭐ 高评分": 5,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-10-15",
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B09S8CYR5Y",
+      "name": "Funky Factory Beautifully Hand-Carved Wooden Owl Made from Sustainable Monkey pod Wood (5inch / 13cm)",
+      "price": 12.49,
+      "reviews": 72,
+      "rating": 4.6,
+      "rank": 42,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "72 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B09S8CYR5Y",
+      "image_url": "https://m.media-amazon.com/images/I/712SlDOwrjL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "wooden ornaments",
+      "festival_event": "National Tree Dressing Day",
+      "festival_icon": "🌳",
+      "festival_deadline": "2026-10-19",
+      "is_event": false,
+      "sources": [
+        "📅 National Tree Dressing Day"
+      ],
+      "profit_margin": 0.382,
+      "net_profit": 4.77,
+      "cost_breakdown": {
+        "vat": 2.09,
+        "commission": 1.87,
+        "fba": 1.46,
+        "ads": 1.25,
+        "returns": 0.25,
+        "sourcing": 0.8,
+        "total_cost": 7.72
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": 9,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🟡 中等竞争": 5,
+        "⭐ 高评分": 5,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-10-15",
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0F4J3TJZG",
+      "name": "EMINGSKY 3 Link Wood Knot Decor,Wood Knot Chain Link Boho Decor,Wooden Hand Carved Coffee Table Decorative Wooden Links ",
+      "price": 8.32,
+      "reviews": 152,
+      "rating": 4.6,
+      "rank": 56,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "152 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0F4J3TJZG",
+      "image_url": "https://m.media-amazon.com/images/I/51j4zMyqZhL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "wooden ornaments",
+      "festival_event": "National Tree Dressing Day",
+      "festival_icon": "🌳",
+      "festival_deadline": "2026-10-19",
+      "is_event": false,
+      "sources": [
+        "📅 National Tree Dressing Day"
+      ],
+      "profit_margin": 0.291,
+      "net_profit": 2.42,
+      "cost_breakdown": {
+        "vat": 1.39,
+        "commission": 1.25,
+        "fba": 1.46,
+        "ads": 0.83,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 5.9
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": 4,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "⭐ 高评分": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-10-15",
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0D6BMG6CX",
+      "name": "Shudehill Giftware Daisy Message Cute Wooden Duck Ornament - Mum, Nan, Friends, Family and More Sentimental Messages, Gi",
+      "price": 12.49,
+      "reviews": 118,
+      "rating": 4.1,
+      "rank": 58,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "118 reviews, 4.1★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0D6BMG6CX",
+      "image_url": "https://m.media-amazon.com/images/I/61fhH5pXGNL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "wooden ornaments",
+      "festival_event": "National Tree Dressing Day",
+      "festival_icon": "🌳",
+      "festival_deadline": "2026-10-19",
+      "is_event": false,
+      "sources": [
+        "📅 National Tree Dressing Day"
+      ],
+      "profit_margin": 0.382,
+      "net_profit": 4.77,
+      "cost_breakdown": {
+        "vat": 2.09,
+        "commission": 1.87,
+        "fba": 1.46,
+        "ads": 1.25,
+        "returns": 0.25,
+        "sourcing": 0.8,
+        "total_cost": 7.72
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": 4,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🟡 中等竞争": 5,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-10-15",
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0C7L1WD3X",
+      "name": "Storystore Foil Insulation Roll 60cm x 3m, Double Reflective Bubble Foil Insulation Roll, Aluminum Thermal Radiator Refl",
+      "price": 10.82,
+      "reviews": 125,
+      "rating": 4.6,
+      "rank": 27,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "125 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0C7L1WD3X",
+      "image_url": "https://m.media-amazon.com/images/I/71EmAg--gQL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "radiator reflector foil heat saver panel",
+      "sources": [
+        "趋势发现"
+      ],
+      "profit_margin": 0.354,
+      "net_profit": 3.83,
+      "cost_breakdown": {
+        "vat": 1.81,
+        "commission": 1.62,
+        "fba": 1.46,
+        "ads": 1.08,
+        "returns": 0.22,
+        "sourcing": 0.8,
+        "total_cost": 6.99
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": 9,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🟡 中等竞争": 5,
+        "⭐ 高评分": 5,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-10-15",
+      "is_event": false,
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0DCV6DYHQ",
+      "name": "wordmouk Radiator Reflector Foil Aluminium Bubble Insulation Foil | Heat Reflective Vapour Barrier Radiator Reflector Pa",
+      "price": 9.15,
+      "reviews": 198,
+      "rating": 4.3,
+      "rank": 21,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "198 reviews, 4.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DCV6DYHQ",
+      "image_url": "https://m.media-amazon.com/images/I/81ACh3grXYL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "radiator reflector foil heat saver panel",
+      "sources": [
+        "趋势发现"
+      ],
+      "profit_margin": 0.316,
+      "net_profit": 2.89,
+      "cost_breakdown": {
+        "vat": 1.53,
+        "commission": 1.37,
+        "fba": 1.46,
+        "ads": 0.92,
+        "returns": 0.18,
+        "sourcing": 0.8,
+        "total_cost": 6.26
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": -5,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "💰 高利润": 8,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-10-15",
+      "is_event": false,
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0FJ1MJBW1",
+      "name": "Sponsored Ad – Radiator Reflector Foil Insulation – 5m x 60cm Heat Reflective Radiator Foil Roll – Energy-Saving Radiato",
+      "price": 12.49,
+      "reviews": 122,
+      "rating": 4.4,
+      "rank": 5,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "122 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FJ1MJBW1",
+      "image_url": "https://m.media-amazon.com/images/I/81-GdXXrOwL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "radiator reflector foil heat saver panel",
+      "sources": [
+        "趋势发现"
+      ],
+      "profit_margin": 0.382,
+      "net_profit": 4.77,
+      "cost_breakdown": {
+        "vat": 2.09,
+        "commission": 1.87,
+        "fba": 1.46,
+        "ads": 1.25,
+        "returns": 0.25,
+        "sourcing": 0.8,
+        "total_cost": 7.72
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": -6,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🟡 中等竞争": 5,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "📢 广告位": -10,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-10-15",
+      "is_event": false,
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0GX51CGJ5",
+      "name": "Sponsored Ad – Conwang V Shape Door Seal Strip,Foam Draught Excluder Tape for Window | Insulation Seal for Wide Gaps 5-1",
+      "price": 8.32,
+      "reviews": 12,
+      "rating": 4.8,
+      "rank": 9,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "12 reviews, 4.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GX51CGJ5",
+      "image_url": "https://m.media-amazon.com/images/I/6132WMt6CrL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "door draught excluder brush strip seal",
+      "sources": [
+        "趋势发现"
+      ],
+      "profit_margin": 0.291,
+      "net_profit": 2.42,
+      "cost_breakdown": {
+        "vat": 1.39,
+        "commission": 1.25,
+        "fba": 1.46,
+        "ads": 0.83,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 5.9
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": 9,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🌊 蓝海": 15,
+        "⭐ 高评分": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "📢 广告位": -10,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-10-15",
+      "is_event": false,
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0DD3SD2LD",
+      "name": "Draught Excluder for Doors and Windows, Self-Adhesive Brush Seal Strip | Window seal - Suitable for 7-13mm gaps in glass",
+      "price": 10.82,
+      "reviews": 88,
+      "rating": 4.5,
+      "rank": 17,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "88 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DD3SD2LD",
+      "image_url": "https://m.media-amazon.com/images/I/71TORs4t1TL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "door draught excluder brush strip seal",
+      "sources": [
+        "趋势发现"
+      ],
+      "profit_margin": 0.354,
+      "net_profit": 3.83,
+      "cost_breakdown": {
+        "vat": 1.81,
+        "commission": 1.62,
+        "fba": 1.46,
+        "ads": 1.08,
+        "returns": 0.22,
+        "sourcing": 0.8,
+        "total_cost": 6.99
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": 9,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🟡 中等竞争": 5,
+        "⭐ 高评分": 5,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-10-15",
+      "is_event": false,
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B00CVQW3UG",
+      "name": "STORMGUARD 02SR0720838CH Bottom of The Door Brush Strip Draught excluder 838mm (2'9\"\") Chrome with Cover to CONSEAL Scre",
+      "price": 9.57,
+      "reviews": 93,
+      "rating": 4.4,
+      "rank": 35,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "93 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B00CVQW3UG",
+      "image_url": "https://m.media-amazon.com/images/I/714zCE1PYlL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "door draught excluder brush strip seal",
+      "sources": [
+        "趋势发现"
+      ],
+      "profit_margin": 0.327,
+      "net_profit": 3.13,
+      "cost_breakdown": {
+        "vat": 1.6,
+        "commission": 1.44,
+        "fba": 1.46,
+        "ads": 0.96,
+        "returns": 0.19,
+        "sourcing": 0.8,
+        "total_cost": 6.44
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": 8,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🟡 中等竞争": 5,
+        "💰 高利润": 8,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-10-15",
+      "is_event": false,
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0D9LYZ717",
+      "name": "Tekdeere Burlap Ribbon 50mm x 9 Meters, Teal Wired Ribbon for Crafts, Gift Wrapping, Wreaths, Bows, Tree Decoration and ",
+      "price": 7.37,
+      "reviews": 153,
+      "rating": 4.5,
+      "rank": 45,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "153 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0D9LYZ717",
+      "image_url": "https://m.media-amazon.com/images/I/716tYtaHCJL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "outdoor ribbon",
+      "festival_event": "National Tree Dressing Day",
+      "festival_icon": "🌳",
+      "festival_deadline": "2026-10-19",
+      "is_event": false,
+      "sources": [
+        "📅 National Tree Dressing Day"
+      ],
+      "profit_margin": 0.256,
+      "net_profit": 1.89,
+      "cost_breakdown": {
+        "vat": 1.23,
+        "commission": 1.11,
+        "fba": 1.46,
+        "ads": 0.74,
+        "returns": 0.15,
+        "sourcing": 0.8,
+        "total_cost": 5.48
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": 4,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "⭐ 高评分": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-10-15",
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0G2LSLCPR",
+      "name": "6‑Roll Satin Ribbon 1\" x5yd, 30Yd, Assorted Colours for Gift & Crafts | 100% Polyester, Soft, Wrinkle‑Free, No Iron; 6 F",
+      "price": 6.99,
+      "reviews": 18,
+      "rating": 4.3,
+      "rank": 32,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "18 reviews, 4.3★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0G2LSLCPR",
+      "image_url": "https://m.media-amazon.com/images/I/81rHfoi1YeL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "outdoor ribbon",
+      "festival_event": "National Tree Dressing Day",
+      "festival_icon": "🌳",
+      "festival_deadline": "2026-10-19",
+      "is_event": false,
+      "sources": [
+        "📅 National Tree Dressing Day"
+      ],
+      "profit_margin": 0.24,
+      "net_profit": 1.68,
+      "cost_breakdown": {
+        "vat": 1.17,
+        "commission": 1.05,
+        "fba": 1.46,
+        "ads": 0.7,
+        "returns": 0.14,
+        "sourcing": 0.8,
+        "total_cost": 5.31
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": 2,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🌊 蓝海": 15,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-10-15",
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0FMP6WMFN",
+      "name": "Ueemeio Satin Ribbon, 6 Colours 50mm x 10m Gift Wrap Ribbons for Gift Wrapping Florist Bouquet DIY Crafts Decorations(Ra",
+      "price": 6.99,
+      "reviews": 33,
+      "rating": 4.6,
+      "rank": 40,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "33 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FMP6WMFN",
+      "image_url": "https://m.media-amazon.com/images/I/81HbKACpL2L._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "outdoor ribbon",
+      "festival_event": "National Tree Dressing Day",
+      "festival_icon": "🌳",
+      "festival_deadline": "2026-10-19",
+      "is_event": false,
+      "sources": [
+        "📅 National Tree Dressing Day"
+      ],
+      "profit_margin": 0.24,
+      "net_profit": 1.68,
+      "cost_breakdown": {
+        "vat": 1.17,
+        "commission": 1.05,
+        "fba": 1.46,
+        "ads": 0.7,
+        "returns": 0.14,
+        "sourcing": 0.8,
+        "total_cost": 5.31
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": 2,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🟢 低竞争": 10,
+        "⭐ 高评分": 5,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-10-15",
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0C6TV6B5J",
+      "name": "Indus Lifespace Acacia Wood Bird Statues Set Home Décor Bird Sculpture for Living Room, Bathroom, Office Modern Style Bi",
+      "price": 8.32,
+      "reviews": 106,
+      "rating": 4.4,
+      "rank": 15,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "106 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0C6TV6B5J",
+      "image_url": "https://m.media-amazon.com/images/I/51ZTq42P0nL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "wooden ornaments",
+      "festival_event": "National Tree Dressing Day",
+      "festival_icon": "🌳",
+      "festival_deadline": "2026-10-19",
+      "is_event": false,
+      "sources": [
+        "📅 National Tree Dressing Day"
+      ],
+      "profit_margin": 0.291,
+      "net_profit": 2.42,
+      "cost_breakdown": {
+        "vat": 1.39,
+        "commission": 1.25,
+        "fba": 1.46,
+        "ads": 0.83,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 5.9
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": -4,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🟡 中等竞争": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-10-15",
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0C8CXPT6F",
+      "name": "Sponsored Ad – Skull Bone Realistic Rose Flower Head Sculptures Aged Model for Gothic Halloween Party Decoration Mexican",
+      "price": 11.66,
+      "reviews": 20,
+      "rating": 4.5,
+      "rank": 10,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "20 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0C8CXPT6F",
+      "image_url": "https://m.media-amazon.com/images/I/5113FnuglML._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "wooden ornaments",
+      "festival_event": "National Tree Dressing Day",
+      "festival_icon": "🌳",
+      "festival_deadline": "2026-10-19",
+      "is_event": true,
+      "sources": [
+        "📅 National Tree Dressing Day"
+      ],
+      "profit_margin": 0.369,
+      "net_profit": 4.3,
+      "cost_breakdown": {
+        "vat": 1.95,
+        "commission": 1.75,
+        "fba": 1.46,
+        "ads": 1.17,
+        "returns": 0.23,
+        "sourcing": 0.8,
+        "total_cost": 7.36
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": 4,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🟢 低竞争": 10,
+        "⭐ 高评分": 5,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "📢 广告位": -10,
+        "⚠️ 品类过密": -10,
+        "🎯 事件过密": -8,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-10-15",
+      "channel_tags": [
+        "event_product",
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0GYX9Q1Y7",
+      "name": "Sponsored Ad – MUCHER Flower Fairy String Lights, Cherry Blossom Lights with 40 LED 6M USB String Lights, Decoration for",
+      "price": 7.41,
+      "reviews": 27,
+      "rating": 4.7,
+      "rank": 62,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "27 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0GYX9Q1Y7",
+      "image_url": "https://m.media-amazon.com/images/I/716Z41MtkmL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "string lights",
+      "festival_event": "National Tree Dressing Day",
+      "festival_icon": "🌳",
+      "festival_deadline": "2026-10-19",
+      "is_event": false,
+      "sources": [
+        "📅 National Tree Dressing Day"
+      ],
+      "profit_margin": 0.258,
+      "net_profit": 1.91,
+      "cost_breakdown": {
+        "vat": 1.24,
+        "commission": 1.11,
+        "fba": 1.46,
+        "ads": 0.74,
+        "returns": 0.15,
+        "sourcing": 0.8,
+        "total_cost": 5.5
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": -4,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🟢 低竞争": 10,
+        "⭐ 高评分": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "📢 广告位": -10,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-10-15",
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0D66SXL38",
+      "name": "Sponsored Ad – SHAVINGFUN Simulated Maple Leaf Rattan Thanksgiving DIY Maple Leaf Autumn Decoration Wall Hanging Landsca",
+      "price": 7.78,
+      "reviews": 98,
+      "rating": 4.6,
+      "rank": 9,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "98 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0D66SXL38",
+      "image_url": "https://m.media-amazon.com/images/I/715Gljm+ktL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "tree decorations",
+      "festival_event": "National Tree Dressing Day",
+      "festival_icon": "🌳",
+      "festival_deadline": "2026-10-19",
+      "is_event": false,
+      "sources": [
+        "📅 National Tree Dressing Day"
+      ],
+      "profit_margin": 0.273,
+      "net_profit": 2.12,
+      "cost_breakdown": {
+        "vat": 1.3,
+        "commission": 1.17,
+        "fba": 1.46,
+        "ads": 0.78,
+        "returns": 0.16,
+        "sourcing": 0.8,
+        "total_cost": 5.66
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": -9,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🟡 中等竞争": 5,
+        "⭐ 高评分": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "📢 广告位": -10,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-10-15",
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0DCCCS8BN",
+      "name": "Hallmark Jolly Santa LEGO Keepsake Ornament, LEGO Tree Decoration | Plastic, Christmas Hanging Ornament, 6.9cm by 4cm by",
+      "price": 11.66,
+      "reviews": 78,
+      "rating": 4.4,
+      "rank": 19,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "78 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0DCCCS8BN",
+      "image_url": "https://m.media-amazon.com/images/I/71wXRjrrAyL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "tree decorations",
+      "festival_event": "National Tree Dressing Day",
+      "festival_icon": "🌳",
+      "festival_deadline": "2026-10-19",
+      "is_event": true,
+      "sources": [
+        "📅 National Tree Dressing Day"
+      ],
+      "profit_margin": 0.369,
+      "net_profit": 4.3,
+      "cost_breakdown": {
+        "vat": 1.95,
+        "commission": 1.75,
+        "fba": 1.46,
+        "ads": 1.17,
+        "returns": 0.23,
+        "sourcing": 0.8,
+        "total_cost": 7.36
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": 4,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🟡 中等竞争": 5,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 品类过密": -10,
+        "🎯 事件过密": -8,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-10-15",
+      "channel_tags": [
+        "event_product",
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0D7P3613R",
+      "name": "24 Pcs Halloween Baubles for Tree, Funny Mini Pumpkin Decorations - Hanging Balls for Tree, Indoor/Outdoor Halloween Dec",
+      "price": 6.99,
+      "reviews": 24,
+      "rating": 4.4,
+      "rank": 42,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "24 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0D7P3613R",
+      "image_url": "https://m.media-amazon.com/images/I/81-rTY4cmtL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "tree decorations",
+      "festival_event": "National Tree Dressing Day",
+      "festival_icon": "🌳",
+      "festival_deadline": "2026-10-19",
+      "is_event": true,
+      "sources": [
+        "📅 National Tree Dressing Day"
+      ],
+      "profit_margin": 0.24,
+      "net_profit": 1.68,
+      "cost_breakdown": {
+        "vat": 1.17,
+        "commission": 1.05,
+        "fba": 1.46,
+        "ads": 0.7,
+        "returns": 0.14,
+        "sourcing": 0.8,
+        "total_cost": 5.31
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": -11,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🟢 低竞争": 10,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "🎯 事件过密": -8,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-10-15",
+      "channel_tags": [
+        "event_product",
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0F4P61Y7F",
+      "name": "Sponsored Ad – 2 Pack 20 Branches Wisteria Hanging Flowers 6 Feet Artificial White Wisteria Vine Silk Flowers Garland fo",
+      "price": 8.82,
+      "reviews": 189,
+      "rating": 4.0,
+      "rank": 10,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "189 reviews, 4.0★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0F4P61Y7F",
+      "image_url": "https://m.media-amazon.com/images/I/71xv7GJ88YL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "tree decorations",
+      "festival_event": "National Tree Dressing Day",
+      "festival_icon": "🌳",
+      "festival_deadline": "2026-10-19",
+      "is_event": false,
+      "sources": [
+        "📅 National Tree Dressing Day"
+      ],
+      "profit_margin": 0.307,
+      "net_profit": 2.71,
+      "cost_breakdown": {
+        "vat": 1.47,
+        "commission": 1.32,
+        "fba": 1.46,
+        "ads": 0.88,
+        "returns": 0.18,
+        "sourcing": 0.8,
+        "total_cost": 6.11
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": -15,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "💰 高利润": 8,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "📢 广告位": -10,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-10-15",
+      "channel_tags": [
+        "keyword_search"
+      ]
+    }
+  ],
+  "gaps": [],
+  "trend_summary": {
+    "top_categories": [],
+    "cross_validated": [],
+    "demand_keywords": [],
+    "season": "",
+    "sources_scanned": []
+  }
+}
