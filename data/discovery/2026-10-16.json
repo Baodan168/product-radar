@@ -1,0 +1,135 @@
+{
+  "date": "2026-10-16",
+  "updated_at": "2026-10-16T08:30:00+08:00",
+  "scan_date": "2026-10-16",
+  "scan_time": "08:30",
+  "summary": "今日5个新品类机会（14天去重通过，5新品/0复扫）。核心逻辑：TikTok UK确认Q4礼品需求已提前启动（9月中旬圣诞礼品即进周榜top10），Amazon UK圣诞类目多处出现'quality gap'信号（领导listing缺货/竞品3.2-3.3星）。最紧急的是fill-your-own advent bags——advent 12/1开始，最晚10/20下单；其余品类死线在11/06-11/20。",
+  "trend_forecast": "① 第4-5周（11/6-11/19）：圣诞派对季采购启动。英国家庭圣诞聚餐物资在11月中旬进入下单高峰，DIY拉炮、桌面装饰、派对袋需求爬升；驱动事件=Black Friday前的非折扣品类囤货（派对用品不参与打折，消费者倾向早买）。品类方向：make your own christmas crackers、圣诞餐垫补充、派对游戏小件。空运下单死线11/20（倒推3周=12/11前到仓，赶上12月初派对高峰）。② 第6周（11/20-11/26）：Black Friday前置搜索期。'gifts for her/him/kids'搜索量爆发、礼品类CPC飙升；耗材类（air fryer liners等炸锅配件耗材）借BF主品促销蹭流量，是全年转化成本最低的窗口。品类方向：炸锅耗材、厨房小件、£5.99-12.99 stocking fillers。死线11/06前下单才能在BF周（11/27）前入仓。③ 第7周（11/27-12/3）：Advent开启+首霜窗口。12/1倒数日历正式开始，fill your own类需求在11月底前最后一波放量；同期英国典型初霜（11月下旬-12月初）引爆ice cleats防滑冰爪和保暖防滑类目——天气驱动型listing须在11/06前下单、11/20前到仓，错过即损失全年80%销量。④ 第7-8周（11/27-12/10）：个性化礼品冲刺。字母圣诞袜、家庭名字定制款进入最后采购期，12月10日后消费者转向Prime次日达，慢渠道新listing基本无效；空运最后死线11/15-11/20，晚于此不再建议空运补圣诞季货。⑤ 第8周（12/4-12/10）：stocking fillers收尾。12月中旬'last minute gifts'搜索激增，£5.99-9.99小件转化率全年最高；圣诞烘焙周边（cookie cutter类）延续到12月中。12/15后空运通道基本关闭，此后只做FBA现货运营（加价或留仓到明年）。整体节奏：11/6前把BF+首霜+advent三波货全部发出，11/15-11/20是圣诞季空运最后死线，12/10后停止圣诞新品空运。",
+  "insights": [
+    {
+      "keyword": "make your own christmas crackers kit",
+      "keyword_cn": "DIY圣诞拉炮制作套装（无响纸拉炮+帽子+笑话卡，自行填充小礼物）",
+      "amazon_keyword": "make your own christmas crackers kit",
+      "search_1688": "圣诞拉炮DIY套装 纸拉炮 帽子笑话卡 批发 / 圣诞cracker纸筒套装",
+      "demand_signals": [
+        "类目领导listing VEYLIN 15只装£9.99-10、4.9星(35评)当前'Currently unavailable'全面缺货，需求外溢（Amazon UK 10-16实时）",
+        "在售竞品质量普遍差：Gyoungt系列3.2-3.3星(100/24评)、DARENYI仅5评——高分 listing 缺货+低分竞品=质量缺口窗口（Amazon UK抓取）",
+        "TikTok UK 9月第3周两个圣诞礼品(男士advent礼盒£79K、squishies倒数日历£71K)进周榜top10，Q4礼品需求比往年提前2-3周（z.media 9-20周报）",
+        "无响(no-snap)设计是明确痛点：养狗家庭和幼儿家长主动在评论提及偏好（VEYLIN/竞品评论原文），差异化方向清晰"
+      ],
+      "trend_score": 82,
+      "trend_direction": "up",
+      "reason": "为什么是现在：领导4.9星listing缺货把自然流量让给低质量竞品，这是圣诞类目每年只出现一次的卡位窗口；TikTok信号显示礼品决策已启动，11月中旬派对采购高峰前上架正好吃到爬坡期。无响+可自行填充是家庭客群的真实痛点，不是伪差异。",
+      "action": "007店先测：£9.99定价15只装（成本约¥9-10/套），1688搜'圣诞拉炮DIY套装'，要求含纸帽+笑话卡+缎带、附空填充示例图。上架死线11/06（11/20前到仓吃派对高峰采购），晚于此改成watch明年再战。322店视测品结果11月中旬跟进。",
+      "competition": "品牌高度分散（VEYLIN/Gyoungt/DARENYI/Yukiyi混战），头部缺货，最高评论数仅100条且评分3.3——这是低竞争窗口。风险：DARENYI 30只装£3.19说明低价段有价格战苗头，必须靠'无响+完整配件+评分'卡£9.99而非拼低价。",
+      "signal_scores": {
+        "trend": 82,
+        "gap": 75,
+        "profit": 88,
+        "final": 82,
+        "recommendation": "buy",
+        "profit_window": "£9.99售价 - 采购¥9-10(约£1.05) - FBA Small Standard约£2.35 - 佣金8%£0.80 = 净利约£5.79/套，利润率约58%，2026-11-06至12-20派对季窗口"
+      }
+    },
+    {
+      "keyword": "ice cleats snow grips walking shoes",
+      "keyword_cn": "雪地冰爪防滑鞋套（10齿硅胶+钢钉，套在鞋底防滑）",
+      "amazon_keyword": "ice cleats snow grips walking shoes",
+      "search_1688": "雪地冰爪防滑10齿硅胶钢钉 批发 / 户外防滑鞋套冰爪",
+      "demand_signals": [
+        "类目BSR#1 Winter Wise 10齿款£6.66-7.99、3,397条评论常年霸榜，证明£5-8价位段需求稳定巨大（Amazon UK Ice & Snow Grips BSR，10-16抓取）",
+        "类目812个listing但£4-8轻量段新listing少、老listing评论集中——冬季搜索爆发时新listing仍能吃到长尾（类目页实时）",
+        "初霜天气是硬触发器：英国11月下旬-12月初典型初霜，评论原文反复出现'第一次下雪才想起来买、线下全面断货'（Due North评论）",
+        "竞品评论高频痛点：studs磨损、尺码不准、橡胶老化——更换钉装+双尺码标注是可行的差异化切口（类目评论汇总）"
+      ],
+      "trend_score": 78,
+      "trend_direction": "up",
+      "reason": "为什么是现在：这是纯天气驱动类目，11月6日前下单才能在初霜（11月下旬）前进仓；一旦错过窗口全年白等。需求确定性强（BSR#1 3397评是多年需求证据），重量125g、包装23.3×16.5×3.1cm完美符合轻小件，空运友好。",
+      "action": "007店小批量300对测：£7.99定价10齿硅胶款（1688约¥4.5/对），差异化选带反光条夜行款（老年遛狗人群）。下单死线10/30——11/20前必须到仓覆盖初霜期；建议同时备10颗替换钉装提升客单价。027店明年入冬复制。",
+      "competition": "诚实说：这是红海。Winter Wise 3,397评£6.66、Willceal 1,913评£4.16低价压制，Yaktrax品牌占据高端。正面刚没戏，只有反光条/替换钉/礼盒装这类微差异化+长尾词（ice grips dog walking、elderly）有缝隙。销量预期要保守，按类目第20-40名测算。",
+      "signal_scores": {
+        "trend": 78,
+        "gap": 55,
+        "profit": 82,
+        "final": 73,
+        "recommendation": "buy",
+        "profit_window": "£7.99售价 - 采购¥4.5(约£0.50) - FBA约£2.30 - 佣金8%£0.64 = 净利约£4.55/对，利润率约57%，2026-11-20至2027-02霜冻期窗口"
+      }
+    },
+    {
+      "keyword": "fill your own advent calendar bags",
+      "keyword_cn": "填充式圣诞倒数日历袋（24个抽绳小袋+挂绳，家人自装小礼物）",
+      "amazon_keyword": "fill your own advent calendar bags 24",
+      "search_1688": "圣诞倒数日历抽绳束口袋24个装 批发 / 圣诞挂袋数字1-24抽绳袋",
+      "demand_signals": [
+        "JOPOYOCO 24袋装£14.99页面上'Only 10 left in stock'——可复用布艺advent袋卖断货中（Amazon UK 10-16实时）",
+        "Kesote同款£13.99带真实好评（'能装下2整条巧克力'），证明£13-15价位可接受、复购与口碑真实（Amazon UK评论）",
+        "P.Louise £275 advent calendar 9月预售单月$435K进UK周榜#8——advent需求比去年进一步前置，DIY填充款是高价位礼盒的低成本平替（z.media Oct指数）",
+        "DIY house盒装24个款新ASIN已进Decorative Advent类BSR #1,203，新品3个月内起量——类目对新链接友好（Amazon UK BSR）"
+      ],
+      "trend_score": 85,
+      "trend_direction": "up",
+      "reason": "为什么是现在：advent 12月1日准时开始，需求有天然截止日，但正因为硬截止，现货竞品已开始断货（'only 10 left'），此刻上架是唯一能吃到完整3周售卖期的时间点；过10/20下单窗口，这条就该直接放弃而不是硬上。与14天内已推的diamond painting advent kit（手工钻画盒）完全不同品——本条是空袋容器，客群是家庭DIY填充。",
+      "action": "027店测品：£11.99定价24袋+2米麻绳轻量版（不带木夹，整包控制在170g内以符合200g红线；竞品420g版已证明需求但发不了空运小件）。1688搜'圣诞抽绳袋数字1-24'。下单死线10/20——11/10前到仓，11/10-30三周售卖期，12/1后需求归零，过线=pass。",
+      "competition": "竞争低：头部BSR仅#1,301-2,677（Decorative Advent类），评论数<200且分散（JOPOYOCO/Kesote/无品牌craft杂牌）。风险不是竞争而是时间——11月10日后到仓就没有意义。",
+      "signal_scores": {
+        "trend": 85,
+        "gap": 70,
+        "profit": 78,
+        "final": 78,
+        "recommendation": "buy",
+        "profit_window": "£11.99售价 - 采购24袋+绳约£4.00 - FBA约£2.35 - 佣金8%£0.96 = 净利约£4.68/套，利润率约39%，2026-11-10至11-30硬截止窗口"
+      }
+    },
+    {
+      "keyword": "air fryer paper liners ninja dual",
+      "keyword_cn": "空气炸锅专用硅油纸垫（16cm打孔圆纸，100张装，适配Ninja双锅）",
+      "amazon_keyword": "air fryer paper liners ninja dual",
+      "search_1688": "空气炸锅硅油纸 打孔 16cm 圆形 批发 / air fryer liner 100张 OPP装",
+      "demand_signals": [
+        "Ninja是英国9月增长最快家电品牌（GMV +42%全类目第4），双锅空气炸锅保有量持续扩大→耗材纸垫需求同步放大（z.media UK 9月品牌榜）",
+        "1688头部6家工厂显示9-10月为采购旺季、现货可发，1000张起批¥0.53/张，供应链成熟价格透明（1688硅油纸行业页）",
+        "消耗品属性=天然复购：同类目头部listing靠Subscribe & Save复购稳BSR，一次营销长期收租（类目结构观察）",
+        "TikTok October报告确认cozy home/厨房内容进入全年最强季度，炸锅食谱内容带动配件耗材曝光（astools Oct 2026品类榜）"
+      ],
+      "trend_score": 80,
+      "trend_direction": "up",
+      "reason": "为什么是现在：BF（11/27）Ninja炸锅大促销会带来一波新机激活潮，新机用户2-4周内集中购买配套耗材——现在备货11月初上架，正好卡在BF新机激活曲线前面。Ninja Dual专用尺寸（20×10cm/双格）是搜索缝隙词，大品牌不做小尺寸适配。",
+      "action": "007店：£8.99定价100张16cm打孔圆形OPP扁平包装（100张约135g、16×16×5cm，符合限重限尺寸；不选23cm大圆——超22cm宽）。1688搜'空气炸锅纸垫打孔16cm'，1000张起订混批。下单死线11/06（BF 11/27前入仓）。",
+      "competition": "红海但分层：大盘100+listing、头部评论数千，正面竞争无优势；缝隙在'dual/双格专用'尺寸词+OPP扁平包装（竞品多用吸塑盒，重且超尺寸）。新listing预期吃类目长尾+复购，不做爆款预期。",
+      "signal_scores": {
+        "trend": 80,
+        "gap": 60,
+        "profit": 85,
+        "final": 76,
+        "recommendation": "buy",
+        "profit_window": "£8.99售价 - 采购100张约£2.80 - FBA约£2.30 - 佣金8%£0.72 = 净利约£3.17/包，利润率约35%，全年复购+2026-11-27 BF窗口放大"
+      }
+    },
+    {
+      "keyword": "christmas stockings with letters monogram knit",
+      "keyword_cn": "字母刺绣圣诞袜（A-Z 26字母针织毛线袜，家庭成员每人一只）",
+      "amazon_keyword": "christmas stockings with letters monogram knit",
+      "search_1688": "针织圣诞袜 刺绣字母 26个字母款 批发 / 跨境圣诞袜字母袜毛线",
+      "demand_signals": [
+        "字母款是Christmas Stockings类BSR#1：VEYLIN 20寸毛绒字母袜£5.90、4.5星197评霸榜（Amazon UK 10-16实时）",
+        "价位带宽£4.99-16.99：VRFASHION £8.99有393评、GALER £7.99、Eoocan £16.99——中价位£7.99空档明显（类目页比价）",
+        "1688义乌购刺绣字母针织袜现货¥9.20-12.45/只（500只以上¥9.20），9-14刚更新，供应链现成（yiwugo实时报价）",
+        "竞品评论明确痛点：皮贴款'name stickers don't stay on'、手写字丑——刺绣一体款是直接的质量升级方向（JOLCEEY/VRFASHION评论原文）"
+      ],
+      "trend_score": 76,
+      "trend_direction": "up",
+      "reason": "为什么是现在：26个字母=26个长尾关键词（letter J christmas stocking…），每个字母独立搜索、独立竞争，大卖只覆盖热门字母——冷门字母（J/K/Q/U/X/Z）是天然的低竞争入口，适合新店新listing从长尾爬类目榜。11月中旬开始家庭成套购买（4-5只），客单价可叠加。",
+      "action": "007店测：£7.99定价全字母40款SKU（1688约¥9.2/只，FOB £1.00），先上热门字母A-J+冷门全字母补位。下单死线11/08（12月初家庭成套购买高峰前到仓）。SEO用'letter X christmas stocking'类长尾。322店跟进成熟字母款。",
+      "competition": "VEYLIN £5.90（197评）在£6以下压价，正面无优势；但£7.99-8.99刺绣升级段竞争薄（VRFASHION 393评是唯一强者）。26字母长尾各自评论<50，是新listing少见的可分割战场。风险：字母备货SKU多，压货按 letters 全套约¥380，需控制首批量。",
+      "signal_scores": {
+        "trend": 76,
+        "gap": 68,
+        "profit": 72,
+        "final": 72,
+        "recommendation": "watch",
+        "profit_window": "£7.99售价 - 采购¥9.2(约£1.00) - FBA约£2.30 - 佣金8%£0.64 = 净利约£4.05/只，利润率约51%，2026-11-15至12-15窗口；watch原因=£5.90领导价压制+多SKU压货风险，11/01前确认长尾搜索趋势再转buy"
+      }
+    }
+  ]
+}
