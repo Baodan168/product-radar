@@ -95,6 +95,45 @@ def analyze_patterns(rejected):
     }
 
 
+VALID_CATS_MIN = 3
+
+
+def load_passed_categories():
+    """统计历史通过集（真正展示过的产品）的类目分布，作为类目拒绝率的真实分母。
+
+    2026-10-17 修两点：
+    1) 原来类目占比用「被拒样本」做分母（9/19=47%），把「被拒里汽车多」
+       误读成「汽车类不适合」。真实拒绝率应 = 被拒数 / 该类展示总数。
+    2) 分母必须按 ASIN 去重：同一个产品会在多个日期的扫描文件里重复出现，
+       按文件累加会把 Automotive 摊薄成 9/85=11%，真实是 9/29=31%。
+    """
+    from collections import Counter
+    counter = Counter()
+    seen = set()
+    channels_dir = BASE / "data" / "channels"
+    if not channels_dir.exists():
+        return counter
+    for f in sorted(channels_dir.glob("*.json")):
+        name = f.name
+        if "-raw" in name or "-rejected" in name or "-trends" in name:
+            continue
+        try:
+            data = json.loads(f.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, UnicodeDecodeError):
+            continue
+        items = data if isinstance(data, list) else data.get("products", [])
+        for p in items:
+            if not isinstance(p, dict):
+                continue
+            asin = p.get("asin") or ""
+            if asin:
+                if asin in seen:
+                    continue
+                seen.add(asin)
+            counter[(p.get("category") or "Unknown")] += 1
+    return counter
+
+
 def suggest_rules(analysis, config):
     """基于分析结果建议新的过滤规则"""
     suggestions = []
@@ -119,17 +158,23 @@ def suggest_rules(analysis, config):
                     'reason': f'"{kw}" 出现在 {count}/{total} 个不考虑产品中（{ratio:.0%}）',
                 })
 
-    # 2. 高频类目（出现>=3次且占比>=40%）→ 提示该类目可能不适合
+    # 2. 类目拒绝率 = 该类被拒数 / 该类历史展示总数（真实分母）
+    #    旧逻辑用「被拒样本总数」当分母，会把“被拒里汽车多”误读成“汽车类不适合”。
     categories = analysis.get('categories', Counter())
-    for cat, count in categories.most_common(5):
-        ratio = count / total
-        if count >= 3 and ratio >= 0.4:
+    passed_cats = load_passed_categories()
+    for cat, count in categories.most_common(8):
+        total_in_cat = passed_cats.get(cat, 0)
+        if total_in_cat < VALID_CATS_MIN:
+            continue
+        ratio = count / total_in_cat
+        if count >= 3 and ratio >= 0.25:
             suggestions.append({
                 'type': 'category_warning',
                 'category': cat,
                 'count': count,
+                'total': total_in_cat,
                 'ratio': f'{ratio:.0%}',
-                'reason': f'类目 "{cat}" 有 {count}/{total} 个被拒绝（{ratio:.0%}），可能不适合',
+                'reason': f'类目 "{cat}" 展示 {total_in_cat} 个中 {count} 个被拒（{ratio:.0%}）',
             })
 
     # 3. 来源分析 — 如果某个来源的产品被大量拒绝，说明该来源质量低
