@@ -1,0 +1,135 @@
+{
+  "date": "2026-10-20",
+  "updated_at": "2026-10-20T08:45:00+08:00",
+  "scan_date": "2026-10-20",
+  "scan_time": "08:45",
+  "summary": "本轮扫描Amazon UK Movers&Shakers/Best Sellers + TikTok UK + 1688供应链，锁定5个新方向（全部与14天历史去重比对通过，5/5新品方向，0复扫）：①NYE黑金气球拱门套装（Party Balloons BSR前列+TikTok爆红）②天然香樟木条防蛀（Acana防蛀片Movers+83%，天然木材是化学品合规替代）③充气驯鹿角套圈派对游戏（办公室圣诞派对刚需，评论<500蓝海）④缎带礼品包装套装（Movers+52%礼物包装启动）⑤婴儿手印纪念泥（风干黏土BSR+38%×baby's first Christmas情感场景）。价格带全部落在£5.99-12.99，重量均≤250g，无液体膏体无body care无电子，全部空运小批量。",
+  "insights": [
+    {
+      "keyword": "black gold balloon garland arch kit",
+      "keyword_cn": "黑金气球拱门套装（新年派对DIY气球链，含拱门胶条+点胶）",
+      "amazon_keyword": "black gold balloon garland arch kit new year",
+      "search_1688": "气球链套装 黑金 派对拱门 跨境 EN71",
+      "demand_signals": [
+        "Amazon UK Party Balloons Best Sellers被拱门kit占据多席：#5 £3.59(1,102评)、#11 £7.18(3,745评)、#19 £11.99(1,959评)（来源：Amazon UK BSR 10-20）",
+        "Home & Kitchen Movers中氦气罐+78%跳涨，气球聚会需求整体升温（来源：Amazon UK Movers & Shakers 10-20）",
+        "B&M £5圣诞气球拱门在TikTok爆红（单条视频330K播放/1天），TikTok Shop派对装饰持续热卖（来源：The Sun 2025-12、TikTok Shop UK 10-20）",
+        "NYE黑金主题是12月底固定需求，1月生日派对无缝续接成常青款（来源：季节规律）"
+      ],
+      "trend_score": 82,
+      "trend_direction": "up",
+      "reason": "圣诞→NYE衔接期需求正在爬坡（氦气罐+78%佐证），拱门kit形态在BSR验证放量，但NYE黑金色系在现有竞品中占比低——用主题色差异切入，£8.99正中价格带。1688供应链成熟：EN71/CPC/CE-Toy认证齐全、单套净重175g、日产能10万套。",
+      "action": "027店首批20件+007店同步20件；定价£8.99（约110件黑金混色+2条拱门胶条+点胶贴）；1688搜『气球链套装 黑金 跨境 EN71』约¥3-6/套；最晚11/3空运下单（赶NYE 12/26-31销售窗+1月生日季）",
+      "competition": "品牌高度分散（Adeyoo/Frigg/Artier等无垄断），头部kit评论1K-4K条，黑金NYE主题色供给少。注意：乳胶气球需EN71报告+UKCA，确认供应商认证再下单。",
+      "signal_scores": {
+        "trend": 82,
+        "gap": 62,
+        "profit": 78,
+        "final": 75,
+        "recommendation": "buy",
+        "profit_window": "12月NYE峰值+1月生日季，利润窗口至1月底"
+      }
+    },
+    {
+      "keyword": "cedar wood moth repellent for wardrobes",
+      "keyword_cn": "天然香樟木条/块衣柜防蛀套装（混薰衣草香包）",
+      "amazon_keyword": "cedar wood moth repellent blocks for wardrobes",
+      "search_1688": "天然香樟木条 衣柜防虫 雪松木块 跨境",
+      "demand_signals": [
+        "Acana防蛀片剂16包£7.49冲进Home & Kitchen Movers #3（+83%，rank 143←246），防蛀品类需求正在爆发（来源：Amazon UK Movers & Shakers 10-20）",
+        "10-11月UK大衣羊绒衫换季入柜是年度固定动作，防蛀需求刚性且逐年提前（来源：季节规律）",
+        "1688天然香樟木条/球/块供应成熟，¥5-15/套，不含萘等化学品（来源：1688搜索 10-20）",
+        "UK消费者对化学防蛀剂趋避，天然cedar/薰衣草款评论普遍4.3+且增长快（来源：Amazon UK评论趋势）"
+      ],
+      "trend_score": 76,
+      "trend_direction": "up",
+      "reason": "Movers+83%证明防蛀正在放量，但头部是化学片剂（Acana含合成成分）。天然香樟木条是合规更稳的替代（避开HSE/BPR驱虫化学品注册），卖『天然木材+薰衣草香氛』差异，客单可上£9.99。",
+      "action": "007店测品20件；定价£9.99（30片香樟木条+6个薰衣草香包+麻绳挂牌）；1688搜『天然香樟木条 衣柜防虫』约¥6-10/套；最晚11/3空运下单（赶11月底大衣收柜高峰）",
+      "competition": "Acana一家独大但它是化学片剂，天然木条赛道品牌分散、评论普遍<200条，可切。红线：坚决避开含萘/合成樟脑的化学品款（英国HSE biocide合规风险），只做纯物理木材+干花香包。",
+      "signal_scores": {
+        "trend": 76,
+        "gap": 68,
+        "profit": 72,
+        "final": 72,
+        "recommendation": "buy",
+        "profit_window": "11-2月换季峰值，全年衣柜护理常青"
+      }
+    },
+    {
+      "keyword": "inflatable reindeer antler ring toss",
+      "keyword_cn": "充气驯鹿角套圈游戏（圣诞派对/办公室互动道具）",
+      "amazon_keyword": "inflatable reindeer antler ring toss christmas game",
+      "search_1688": "充气驯鹿角 套圈游戏 圣诞派对 跨境",
+      "demand_signals": [
+        "Amazon UK『christmas eve gifts』搜索结果中party games占多席：充气驯鹿角套圈£4.29在售、圣诞Bingo£5.75(3.1K评)——游戏类目需求已被验证（来源：Amazon UK搜索 10-20）",
+        "TikTok Shop派对游戏热卖：Slam the Buzzer 87.4K sold、Color Stack Challenge 31.9K sold，游戏类TikTok转化强（来源：TikTok Shop UK 10-20）",
+        "12月办公室圣诞派对+Boxing Day家庭游戏夜是UK刚需场景，公司采购+家庭各一单（来源：季节规律）",
+        "现有头部产品评论仅10-479条，无强势品牌卡位（来源：Amazon UK 10-20）"
+      ],
+      "trend_score": 68,
+      "trend_direction": "up",
+      "reason": "12月派对场景明确且复购弱（一年一次换新），充气类包装扁平、重量<200g、1688成本¥4-7，蓝海期评论门槛低。趁11月上旬上架正好吃12月初office party采购潮。",
+      "action": "027店测品20件；定价£8.99（驯鹿角×2+充气圈×6+打气筒）；1688搜『充气驯鹿角 套圈』约¥4-7/套；最晚11/10空运下单（12月派对季前上架）",
+      "competition": "评论10-479条、品牌分散，蓝海窗口存在。差评集中在漏气——选PVC加厚0.25mm+以上料号供应商，listing强调加厚防爆。",
+      "signal_scores": {
+        "trend": 68,
+        "gap": 72,
+        "profit": 70,
+        "final": 68,
+        "recommendation": "watch",
+        "profit_window": "12月派对季，窗口短（12/25后归零）"
+      }
+    },
+    {
+      "keyword": "satin ribbon set gift wrapping",
+      "keyword_cn": "缎带卷礼品包装套装（圣诞色系多卷混装）",
+      "amazon_keyword": "satin ribbon set for gift wrapping",
+      "search_1688": "缎带卷 礼品包装 混色 10mm 跨境",
+      "demand_signals": [
+        "G2PLUS缎带10mm×22m冲进Home & Kitchen Movers #16（+52%，rank 23←35），礼物包装耗材需求已启动（来源：Amazon UK Movers & Shakers 10-20）",
+        "手作包装黑卡纸A3 225gsm同时上榜Movers #13（+62%），DIY礼物包装趋势互相佐证（来源：Amazon UK Movers 10-20）",
+        "11-12月圣诞礼物季是缎带全年消耗峰值，需求可预测性强（来源：季节规律）",
+        "1688缎带¥1-3/卷，多卷混色套装成本极低、包装轻<200g（来源：1688供应价 10-20）"
+      ],
+      "trend_score": 64,
+      "trend_direction": "up",
+      "reason": "礼物包装耗材是圣诞季最稳的钱，Movers双品类上涨确认启动。单卷单品竞争多但『圣诞色系6卷+麻绳+礼签』套装形态少，成本£1内可打£6.99，靠套装组合差异化而非低价肉搏。",
+      "action": "007店小批量补位20件；定价£6.99（6卷×10m圣诞红绿金白+麻绳+50张牛皮礼签）；1688搜『缎带卷 混色 礼品包装』约¥5-8/套；最晚11/3空运下单（11月底包装高峰）",
+      "competition": "G2PLUS等单卷为主，评论<500，套装形态竞争少。风险：客单价低，需靠多件组合拉客单，利润率够但天花板有限——定位补位款非主力。",
+      "signal_scores": {
+        "trend": 64,
+        "gap": 65,
+        "profit": 68,
+        "final": 62,
+        "recommendation": "watch",
+        "profit_window": "11月中-12/25，季末清仓风险低（耗材不过期）"
+      }
+    },
+    {
+      "keyword": "baby handprint ornament clay kit",
+      "keyword_cn": "婴儿手印脚印纪念泥套装（圣诞挂饰DIY，无烤黏土）",
+      "amazon_keyword": "baby handprint ornament clay keepsake kit",
+      "search_1688": "婴儿手足印泥 非烤黏土 纪念挂饰 跨境",
+      "demand_signals": [
+        "DAS风干黏土1kg进Home & Kitchen Best Sellers #23（+38%，rank 21←29），风干黏土品类整体上行（来源：Amazon UK BSR 10-20）",
+        "『baby's first Christmas』手印挂饰是TikTok常青viral标签，情感溢价高（来源：TikTok #handprintornament 持续热度）",
+        "11-12月『first Christmas ornament』搜索峰值，新生儿家庭圣诞消费刚性（来源：季节规律）",
+        "1688手足印泥+印模+麻绳套装¥6-12，配圣诞挂饰形态可差异化（来源：1688搜索 10-20）"
+      ],
+      "trend_score": 62,
+      "trend_direction": "up",
+      "reason": "两条已验证信号（黏土品类+38%上行 × first Christmas情感场景）的交叉点，UK站低价套装供给少、英美品牌£15+留出价格空档。差异化形态：黏土+字母压印+缎带挂绳=圣诞树挂饰成品感。",
+      "action": "027店测品20件；定价£9.99（无烤黏土200g+滚轴+字母数字压印组+2条红缎带）；1688搜『手足印泥 非烤黏土』约¥7-12/套；最晚11/10空运下单（12月礼物季前上架）",
+      "competition": "英美品牌（Babyprints类）£15+，UK站低价套装少、评论<300。硬要求：黏土必须过EN71-3（婴幼儿接触类目），无报告的供应商直接排除。",
+      "signal_scores": {
+        "trend": 62,
+        "gap": 70,
+        "profit": 65,
+        "final": 62,
+        "recommendation": "watch",
+        "profit_window": "11-12月峰值，母亲节/新生儿礼全年常青"
+      }
+    }
+  ],
+  "trend_forecast": "① 第4周（11/17-11/23）Black Friday前哨：装饰与包装耗材爬坡。黑五（11/27）前两周是派对装饰、礼物包装、圣诞配件的采购决策高峰，气球拱门kit、缎带礼签套装类需求从11月中旬开始明显放量，此时上架的产品吃满黑五+圣诞双峰。空运最晚下单死线10/27（按窗口开始日11/17倒推3周）。② 第5周（11/24-11/30）黑五正周：促销氛围用品+派对游戏。黑五当周办公室/家庭聚会密集，充气驯鹿角套圈、圣诞bingo类互动道具进入销量陡坡段；同时黑五本身是UK第三大社交聚会节点（聚会用装饰耗材复购）。最晚空运下单死线11/3。③ 第6周（12/1-12/7）圣诞预热第一波：家庭场景用品集中爆发。圣诞树装点完成后的『树下补货』需求启动——防蛀收纳（大衣入柜高峰延续）、挂饰类、桌面小物补货；风干黏土手印挂饰在此周进入『baby's first Christmas』情感消费窗口。最晚空运下单死线11/10。④ 第7周（12/8-12/14）圣诞聚会主升浪：办公室派对+亲友聚会道具峰值。充气游戏道具、party games、餐桌氛围用品在此周达到年度顶点，12/8-12/14是全年派对类目流量最高的一周；礼物包装耗材（缎带/礼签/包装纸）同步冲顶——大多数UK家庭在12/15-12/24才集中包礼物。最晚空运下单死线11/17。⑤ 第8周（12/15-12/21）圣诞最后一波+NYE备货窗口：礼物包装耗材冲最后一波峰（12/20-24是包装耗材绝对顶点），同时NYE气球类开始起量——NYE黑金气球拱门的销售主窗口实际在12/26-12/31（第9-10周，超出本预测窗），但空运备货死线在12/5前后，若12月初还没下NYE气球订单就等于放弃这波，提醒：NYE气球最晚12/5空运下单（此为提前量提醒，销售窗在预测期外）。跨周期主线：①11/17-12/21整个窗口内『派对+包装+情感纪念』三条线并行，黑五是所有线的第一压力测试点，黑五前10天（11/17）上架的产品才有完整销量积累；②所有死线均按空运10-15天+入仓上架3周倒推，过线即放弃对应窗口，不要用海运补位；③防蛀/香樟木条是唯一带全年常青属性的线，11月错过还有1-2月换季补峰，容错最高，适合作为本轮第一个下单的方向。"
+}
