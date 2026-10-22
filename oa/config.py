@@ -49,8 +49,8 @@ MODULES = [
                 'key': 'radar',
                 'label': '跨境雷达',
                 'icon': '📡',
-                'url': 'https://Baodan168.github.io/kj-news-radar/',
-                'desc': '24h跨境电商情报聚合',
+                'url': 'https://Baodan168.github.io/kj-news-radar/?market=uk',
+                'desc': '24h跨境电商情报聚合（英国站优先）',
                 'cross_origin': True,
             },
             {
