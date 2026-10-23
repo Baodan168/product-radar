@@ -1709,20 +1709,6 @@ body{font-family:var(--oa-font);background:var(--oa-bg);color:var(--oa-text);lin
 .forecast-point-num{display:inline-block;font-weight:800;font-size:17px;line-height:1.2;color:var(--oa-secondary)}
 .forecast-point-body{font-size:var(--oa-font-size-body);color:var(--oa-text);line-height:1.75;white-space:pre-wrap}
 
-/* ════════════════════════════════════════════
-   遗留 shim（已废弃，勿在新代码使用）
-
-   下面的裸变量别名只为存量页面兜底：platform 页和
-   output/analysis/*.html 还在引用 --blue / --muted / --r 这类名字。
-   新代码一律用 --oa-* 令牌。
-
-   ⚠️ output/analysis/*.html 由仓库外的本地项目
-   ~/product-analysis/ 生成，自带硬编码颜色的内联 <style>，且那段
-   <style> 排在 <link> 之后 —— 同特异度下它会赢。以后要覆盖那些页面的
-   样式，选择器特异度必须比裸类选择器高（例如加 :root 前缀）。
-   见 DESIGN-DECISIONS.md「已知限制」。
-   ════════════════════════════════════════════ */
-
 /* ── 回到顶部按钮（2026-08-01，OA 各页共享；固定显示，不随滚动出现）── */
 .to-top {
   position: fixed;
@@ -1773,3 +1759,19 @@ body{font-family:var(--oa-font);background:var(--oa-bg);color:var(--oa-text);lin
 /* 区域气候标签 */
 .season-region-tags{display:flex;gap:12px;margin-bottom:10px;flex-wrap:wrap}
 .region-tag{font-size:11.5px;color:var(--oa-sub);background:var(--oa-surface-3);padding:4px 10px;border-radius:8px;border:1px solid var(--oa-border-2)}
+
+/* ════════════════════════════════════════════
+   遗留 shim（已废弃，勿在新代码使用）
+
+   下面的裸变量别名只为存量页面兜底：platform 页和
+   output/analysis/*.html 还在引用 --blue / --muted / --r 这类名字。
+   新代码一律用 --oa-* 令牌。
+
+   ⚠️ output/analysis/*.html 由仓库外的本地项目
+   ~/product-analysis/ 生成，自带硬编码颜色的内联 <style>，且那段
+   <style> 排在 <link> 之后 —— 同特异度下它会赢。以后要覆盖那些页面的
+   样式，选择器特异度必须比裸类选择器高（例如加 :root 前缀）。
+   见 DESIGN-DECISIONS.md「已知限制」。
+   ════════════════════════════════════════════ */
+
+
