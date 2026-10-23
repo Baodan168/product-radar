@@ -100,6 +100,7 @@ def collect_festivals(now=None, window_days=47) -> CardData:
             'days': ev.get('days_until'),
             'cats': '、'.join(cats[:4]),
             'deadline_air': ev.get('sourcing_deadline_air') or '',
+            'urgency': ev.get('sourcing_urgency') or '',
         })
     return CardData(payload={'rows': rows, 'window': window_days})
 
@@ -259,7 +260,16 @@ def render_festival_card(card: CardData) -> str:
     for r in card.payload['rows']:
         days = r['days']
         soon = ' is-soon' if isinstance(days, int) and days <= 14 else ''
-        deadline = f'空运截止 {r["deadline_air"]}' if r['deadline_air'] else ''
+        # 2026-10-23 修：days 是「距节日天数」，不是「距空运截止天数」。
+        # 原来并排显示「空运截止 2026-09-24」+「1天后」会让 9 月已过期的节点看着像还能补货。
+        urgency = r.get('urgency') or ''
+        if urgency == 'OVERDUE':
+            days_html = '<span class="oa-fest-days is-overdue">已过期<small>空运</small></span>'
+        elif urgency == 'AIR_ONLY':
+            days_html = f'<span class="oa-fest-days is-soon">{render.h(days)}<small>天后·仅空运</small></span>'
+        else:
+            days_html = f'<span class="oa-fest-days{soon}">{render.h(days)}<small>天后</small></span>'
+        deadline = f'空运截止 {r["deadline_air"]}' if r['deadline_air'] and urgency != 'OVERDUE' else ''
         sub = ' · '.join(x for x in (r['cats'], deadline) if x)
         rows.append(
             f'<div class="oa-fest-row">'
@@ -268,7 +278,7 @@ def render_festival_card(card: CardData) -> str:
             f'<span class="oa-fest-name">{render.h(r["name"])}</span>'
             f'<span class="oa-fest-cats" title="{render.attr(sub)}">{render.h(sub)}</span>'
             f'</span>'
-            f'<span class="oa-fest-days{soon}">{render.h(days)}<small>天后</small></span>'
+            f'{days_html}'
             f'</div>'
         )
     return _card('📅', '节日倒计时', f'<div class="oa-dash-festivals">{"".join(rows)}</div>',
