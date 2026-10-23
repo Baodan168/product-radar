@@ -127,7 +127,10 @@ CLOAKBROWSER_CHROME = '/home/lee/.cloakbrowser/chromium-146.0.7680.177.5/chrome'
 
 # ── 12-hour cache ────────────────────────────────────────────────
 CACHE_FILE = BASE / "data" / "amazon_cache.json"
-CACHE_TTL = 12 * 3600  # 12 hours
+# 2026-10-23：12h → 36h。IP 被 Amazon 全站 captcha 封禁时（换 UA/context/冷却都过不去，
+# 历史上持续 2-24h），两轮扫描（09:10/14:00）会双双扑空。拉长到 36h 让封禁期间
+# 复用最近一批成功页面，保证门户有货可看，而不是空白两天。
+CACHE_TTL = 36 * 3600  # 36 hours
 
 def _load_cache():
     if CACHE_FILE.exists():
@@ -151,9 +154,15 @@ def _check_cache(url):
             return entry["h"]
     return None
 
+_CACHE_MAX_ENTRIES = 80  # 全站 52 个榜单 URL + 余量，超出按最旧淘汰
+
 def _set_cache(url, html):
     cache = _load_cache()
     cache[url] = {"t": time.time(), "h": html}
+    if len(cache) > _CACHE_MAX_ENTRIES:
+        # 按时间戳淘汰最旧
+        for k in sorted(cache, key=lambda k: cache[k].get("t", 0))[: len(cache) - _CACHE_MAX_ENTRIES]:
+            cache.pop(k, None)
     _save_cache(cache)
 
 # ── Browser：每个线程各持一个（不是全局单例）──────────────────
@@ -170,6 +179,15 @@ _amazon_fetch_lock = threading.Lock()
 # BrowserAct 熔断：连续 2 次失败后本批次跳过（不稳定时省预算，2026-08-03）
 _browseract_circuit_open = False
 _browseract_consec_fail = 0
+# 2026-10-23：抓取失败计数，用于整轮结束时判断是不是 IP 级封禁（≥50% 即告警）
+_blocked_hits = 0
+_total_hits = 0
+_consec_miss = 0          # 连续抓空次数
+_CONSEC_MISS_LIMIT = 5    # 连续 5 次抓空 → 判定封禁，本轮剩余请求只查缓存
+_banned_this_round = False
+# 2026-10-23：抓取失败计数，用于整轮结束时判断是不是 IP 级封禁
+_blocked_hits = 0
+_total_hits = 0
 
 def _get_browser():
     if getattr(_tls, 'ctx', None) is None:
@@ -449,6 +467,11 @@ def _parse_amazon_page(html, category, channel_type):
 
 def fetch(max_per_channel_type=5):
     """Fetch Amazon UK data from New Releases and BSR."""
+    global _blocked_hits, _total_hits, _consec_miss, _banned_this_round
+    _blocked_hits = 0
+    _total_hits = 0
+    _consec_miss = 0
+    _banned_this_round = False
     all_products = []
     seen_asins = set()
 
@@ -504,7 +527,8 @@ def fetch(max_per_channel_type=5):
 
     # Fetch URLs with rate limiting — serialized via lock + cache
     def _fetch_one(item):
-        global _browseract_circuit_open, _browseract_consec_fail
+        global _browseract_circuit_open, _browseract_consec_fail, _blocked_hits, _total_hits
+        global _consec_miss, _banned_this_round
         category, channel_type, url = item
 
         # Serialize: only one Amazon request at a time (true sequential delay)
@@ -517,11 +541,21 @@ def fetch(max_per_channel_type=5):
                 print(f"  cached {category}/{channel_type}: {new_count} products", file=sys.stderr)
                 return (category, channel_type, products)
 
+            # 2026-10-23：连续抓空已达阈值 → 判定 IP 封禁，不再真实请求（省时间也省 IP 信誉）
+            if _banned_this_round:
+                print(f"  skip {category}/{channel_type}: 本轮判定封禁，跳过真实请求", file=sys.stderr)
+                return (category, channel_type, [])
+
             # Random delay 2-5 seconds between each real request
             time.sleep(random.uniform(2, 5))
 
             html = _curl_fetch(url)
             if not html:
+                _total_hits += 1
+                _blocked_hits += 1
+                _consec_miss += 1
+                if _consec_miss >= _CONSEC_MISS_LIMIT:
+                    _banned_this_round = True
                 print(f"  warn {category}/{channel_type}: empty", file=sys.stderr)
                 # Try search fallback with delay
                 search_query = SEARCH_FALLBACKS.get(category)
@@ -545,6 +579,8 @@ def fetch(max_per_channel_type=5):
                 return (category, channel_type, [])
 
             # Save successful fetch to cache
+            _total_hits += 1
+            _consec_miss = 0     # 抓成功就重置连续失败计数
             _set_cache(url, html)
             products = _parse_amazon_page(html, category, channel_type)
             new_count = len(products)
@@ -571,4 +607,12 @@ def fetch(max_per_channel_type=5):
         print(f"  {CHANNEL_NAMES[ch]}: {count} products", file=sys.stderr)
 
     print(f"  Amazon UK total: {len(all_products)} products", file=sys.stderr)
+    # 2026-10-23：区分"个别类目空"和"IP 被全站 captcha 封禁"
+    if _total_hits and _blocked_hits / _total_hits >= 0.5:
+        print(
+            f"  🚨 Amazon UK {_blocked_hits}/{_total_hits} 个请求被 captcha 拦截"
+            f"（≥50%）——疑似 IP 级封禁，本轮数据主要来自 {CACHE_TTL//3600}h 缓存。"
+            f" 换 UA/context 均无效，需等待解封或启用新代理。",
+            file=sys.stderr,
+        )
     return all_products
