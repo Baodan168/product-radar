@@ -101,16 +101,18 @@ PY
 echo "🔍 选品雷达自动扫描 | $(date '+%Y-%m-%d %H:%M')"
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 
-# Step 1: Run radar scan (timeout: 10 min — 含 [7a] 详情页尺寸验证, 78产品约需4-7分钟)
+# Step 1: Run radar scan (timeout: 12.5 min — 含 [7a] 详情页尺寸验证 + 风控重试)
 # ⚠️ cron 外层 900s 硬超时（no_agent 系统限制），全步骤 timeout 总和必须 ≤900s
-# 预算: scan 600 + bsr 30 + platform 20 + portal 20 + deploy 180 = 850s（留 50s 余量）
+# 2026-10-23 重算：风控重试需要空间，scan 600→750；下游按实测压缩
+# 最终: scan 750 + bsr 15 + platform 12 + portal 12 + deploy 105 = 894s（余 6s）
+#   deploy 的两次重试共享 105s deadline，不会吃掉双倍配额
 # 2026-08-13 优化: bsr 45→30, platform/portal 30→20（均含 fallback 不致命）；
 #   部署已改为只推 hash 变更文件（138→~40 个），实际 deploy 通常 ~50s，
 #   850s 预算给扫描波动留出呼吸空间（上次 17:10 扫描波动吃掉部署配额致 900s 超时）。
 echo ""
 step "scan"
 echo "📡 Step 1: 雷达扫描..."
-timeout 600 python3 -u run_scan_v2.py 2>&1 || { echo "❌ 扫描超时或失败"; exit 1; }
+timeout 750 python3 -u run_scan_v2.py 2>&1 || { echo "❌ 扫描超时或失败"; exit 1; }
 
 # Get latest data file
 LATEST=$(ls -t data/channels/*.json 2>/dev/null | grep -v rejected | grep -v trends | grep -v bsr_data | head -1)
@@ -123,20 +125,20 @@ fi
 echo ""
 step "bsr"
 echo "📊 Step 2: BSR数据抓取..."
-timeout 30 python3 bsr_scraper.py --enrich 2>&1 || { echo "  ⚠️ BSR抓取失败（不影响主流程）"; warn "BSR抓取失败"; }
+timeout 15 python3 bsr_scraper.py --enrich 2>&1 || { echo "  ⚠️ BSR抓取失败（不影响主流程）"; warn "BSR抓取失败"; }
 
 # Step 3: Generate platform page
 echo ""
 step "generate_platform"
 echo "🔧 Step 3: 生成平台页面..."
-timeout 20 python3 generate_platform.py 2>&1 || { echo "  ⚠️ 平台生成失败"; warn "平台页生成失败"; }
+timeout 12 python3 generate_platform.py 2>&1 || { echo "  ⚠️ 平台生成失败"; warn "平台页生成失败"; }
 
 # Step 3b: 重新生成门户页（重构后「今日概览」dashboard 是服务端渲染的，
 # 必须跑 generate_portal.py 才能刷新数据，否则战情/补货告警卡显示旧快照）
 echo ""
 step "generate_portal"
 echo "🔧 Step 3b: 刷新门户 dashboard..."
-timeout 20 python3 generate_portal.py 2>&1 || { echo "  ⚠️ 门户页生成失败（dashboard 可能显示旧数据）"; warn "门户页生成失败"; }
+timeout 12 python3 generate_portal.py 2>&1 || { echo "  ⚠️ 门户页生成失败（dashboard 可能显示旧数据）"; warn "门户页生成失败"; }
 
 # Extract summary
 PRODUCTS=$(python3 -c "import json; d=json.load(open('$LATEST')); print(len(d.get('products',[])))")
@@ -185,18 +187,25 @@ for i, p in enumerate(d.get('products',[])[:3], 1):
 echo ""
 step "deploy"
 echo "📦 Step 4: 部署到 GitHub Pages..."
-# timeout 180: output/analysis 全量推送后 API 调用约 30 批，60s 不够会误判失败走 fallback
-# ⚠️ 2026-08-03: 移除 SSH git push fallback（SSH key 已废弃，fallback 永远失败且白耗 120s）。
-#    github_api_push.py 已内置 3 次重试（GFW 间歇断连 api.github.com 443 → RemoteDisconnected 可过）
-if timeout 180 python3 github_api_push.py "auto-scan $(date -u '+%Y-%m-%d %H:%M')" 2>&1; then
+# 2026-10-23: 预算 180→105。实测正常路径 40-60s，105s 已含余量。
+#   两次尝试共享 105s deadline（第 2 次只拿剩余时间），最坏不吃双倍配额。
+#   ⚠️ 2026-08-03: 移除 SSH git push fallback（SSH key 已废弃，fallback 永远失败且白耗 120s）。
+#   github_api_push.py 已内置 3 次重试（GFW 间歇断连 api.github.com 443 → RemoteDisconnected 可过）
+DEPLOY_DEADLINE=$(( $(date +%s) + 105 ))
+if timeout 105 python3 github_api_push.py "auto-scan $(date -u '+%Y-%m-%d %H:%M')" 2>&1; then
     :
 else
-    echo "  ⚠️ API 推送失败，重试一次..."
-    if timeout 180 python3 github_api_push.py "auto-scan $(date -u '+%Y-%m-%d %H:%M')" 2>&1; then
-        :
+    REMAIN=$(( DEPLOY_DEADLINE - $(date +%s) ))
+    if [ "$REMAIN" -lt 20 ]; then
+        echo "  ⚠️ 剩余预算 ${REMAIN}s 不足，跳过重试"
     else
-        echo "❌ 部署到 GitHub 失败（API 推送两次均失败）"
-        exit 1
+        echo "  ⚠️ API 推送失败，用剩余 ${REMAIN}s 重试一次..."
+        if timeout "$REMAIN" python3 github_api_push.py "auto-scan $(date -u '+%Y-%m-%d %H:%M')" 2>&1; then
+            :
+        else
+            echo "❌ 部署到 GitHub 失败（API 推送两次均失败）"
+            exit 1
+        fi
     fi
 fi
 
@@ -246,4 +255,9 @@ if [ "$REPEAT_COUNT" -gt 0 ] 2>/dev/null; then
     echo "✅ UK选品雷达扫描完成 | $(date '+%Y-%m-%d %H:%M') | ${PRODUCTS}个通过筛选（🆕${NEW_COUNT}新品 ♻️${REPEAT_COUNT}重复）→ 已部署GitHub${DETAIL_REJ}"
 else
     echo "✅ UK选品雷达扫描完成 | $(date '+%Y-%m-%d %H:%M') | ${PRODUCTS}个新品通过筛选 → 已部署GitHub${DETAIL_REJ}"
+fi
+
+# 封禁状态探测（观察期用，不影响主流程）
+if [ -f tools/ban_watch.py ]; then
+    python3 tools/ban_watch.py 2>/dev/null || true
 fi
