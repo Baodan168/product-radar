@@ -1,0 +1,111 @@
+{
+  "date": "2026-10-23",
+  "updated_at": "2026-10-23T08:30:00+08:00",
+  "scan_date": "2026-10-23",
+  "scan_time": "08:11",
+  "summary": "今日发现4个机会，全部为14天内未推荐的新品类（新品4，复扫0）。信号主线：①圣诞亲子传统道具进入爆发期（Elf Door官方店 £7.99 热卖、24天道具包为官方店头号品类）；②TikTok官方数据：collectibles类目10月同比+230%、squishy toys搜索+149%，圣诞Squishies日历单周2.75万件；③New Year Eve氦气罐Movers榜+77%、40寸数字气球+38%，黑金NYE气球真空；④TikTok金饰搜索月环比+1134%，圣诞刻字项链礼品盒装差异化空间大。全部符合硬约束：非电子、无液体膏体、≤200g、可空运。",
+  "trend_forecast": "① 第4-5周（11/20-12/05）：圣诞stocking filler与班级圣诞派对小礼物进入峰值。驱动：英国家庭12/1启动Advent传统、12月中旬小学break-up party集中（今年12月有18个工作日早晨的elf场景需求）。品类方向：派对袋填充小玩具、圣诞亲子手工包、迷你圣诞装饰件。最晚空运下单死线10/30（今天起7天内，空运10-15天，11/13-20可上架赶上首波）。② 第5-6周（11/27-12/10）：Black Friday（11/27）+圣诞Kris Kringle/Secret Santa交换礼物高峰。驱动：TikTok官方#holidaygiftideas 9月环比+248%、22%用户计划买配饰类礼物。品类方向：£10以内礼盒感小件（刻字饰品礼盒、圣诞主题解压玩具礼盒装、办公桌小型圣诞装饰）。最晚下单死线11/06，过线则错过BF流量收割。③ 第6-7周（12/05-12/20）：圣诞聚会与餐桌场景最后一波。驱动：家庭圣诞聚餐12/12-25集中、办公室party week（12/14当周）。品类方向：圣诞餐桌装饰配件、餐巾环替代方向（注意10/12已推napkin rings，换餐桌号码牌/桌旗扣等新头部名词）、烘焙装饰工具（10/12已推硅胶烘焙模具，避开）。最晚下单死线11/14。④ 第8周（12/15-12/25）：最后一刻礼物+修补型需求。驱动：Prime包邮截止日前的恐慌性购买、圣诞灯串/装饰损坏补购。品类方向：电池蜡烛灯替代方向的灯串挂钩配件（10/15已推免痕挂钩，注意去重）、礼物应急包装小工具（10/22已推包装纸切割器，避开）。最晚下单死线11/24。⑤ 第8周末段（12/20-25，为12/31变现）：New Year Eve派对采购启动，NYE在窗口边缘。品类方向：黑金数字气球、NYE派对装饰（本日推荐第3条直接卡这个窗口）。最晚下单死线11/27，晚于此则空运赶不上12/28前的派对购物潮。以上全部按空运10-15天时效倒推，海运窗口已全部关闭，不要再排海运。"
+  ,
+  "insights": [
+    {
+      "keyword": "elf door kit christmas",
+      "keyword_cn": "圣诞小精灵门套装（精灵回家魔法门+北极大门场景牌）",
+      "amazon_keyword": "elf on the shelf door kit",
+      "search_1688": "1688 圣诞小精灵门 木门装饰 圣诞场景小门 批发",
+      "demand_signals": [
+        "官方店Elf on the Shelf UK把Elf Door列为圣诞2026新品线，售价£7.99， accessories页24天道具包£32.95为最贵单品（来源：shop.elfontheshelf.co.uk，今日抓取）",
+        "Amazon UK官方Elf Door Kit评分4.6、409条评论、£7.88，说明该子品类已被验证（来源：amazon.co.uk ASIN B0CCQD5X5D，今日抓取）",
+        "2026年12月elf有24个早晨场景（12/1-24），家庭DIY道具指南10月刚更新，搜索热度上升（来源：the-christmas-dream.com 10/12更新）",
+        "14天去重库中elf类道具为零（10/10推过santa stop here门牌，头部名词不同，属相邻不重复）"
+      ],
+      "trend_score": 82,
+      "trend_direction": "up",
+      "reason": "Elf on the Shelf传统在英国渗透率极高，官方配件价格£7.99-32.95，但官方SKU不含精灵、造型固定；白牌『魔法小门+场景牌』套装用£6.99-7.99切入同一场景，12/1前是上架黄金期，现在下单空运刚好赶上。",
+      "action": "007店承接。定价£7.99（套装含木门+1块场景牌+贴纸），1688搜『圣诞小精灵门 木门装饰』，采购价¥8-12/套。重量控制在180g内、盒装≤22×16×4cm。节奏：10/26前下首单50套空运（10-15天，11/10前入仓，赶12/1 elf回归日前2周流量爬坡）；11/10看出单决定是否补100套。Listing必须用白牌词（elf door / christmas fairy door），禁用Elf on the Shelf商标词。",
+      "competition": "官方品牌件£7.88有409评占据头部，但白牌精灵门/仙子门listing多数<200评、图差、无场景牌组合；无一家做出『门+场景牌+贴纸』三件套组合。风险：商标词侵权要避开，官方有维权历史。",
+      "signal_scores": {
+        "trend": 82,
+        "gap": 78,
+        "profit": 72,
+        "final": 78,
+        "recommendation": "buy",
+        "profit_window": "即刻至12/15；空运死线11/06为补单极限，首单死线10/26"
+      }
+    },
+    {
+      "keyword": "christmas squishies pack",
+      "keyword_cn": "圣诞捏捏乐混装包（8-10只装，派对袋填充/stocking filler）",
+      "amazon_keyword": "christmas squishies pack party bag fillers",
+      "search_1688": "1688 捏捏乐 圣诞款 混色 批发 慢回弹 100个装",
+      "demand_signals": [
+        "TikTok官方newsroom：collectibles类目10月销售额同比+230%，squishy toys搜索9月环比+149%（来源：newsroom.tiktok.com，今日抓取）",
+        "TikTok Shop UK圣诞Squishies日历单周27,532件/£71K GMV，全榜销量第一（来源：z.media UK周榜9/20）",
+        "1688端供应链极成熟：圣诞/解压捏捏乐多SKU月销5万-12万件，¥0.13-0.5/只，100只混款箱起批（来源：1688搜索，今日抓取）",
+        "10/16推过advent calendar抽绳袋（空袋），本品为填充玩具混装包，头部名词不同，不重复"
+      ],
+      "trend_score": 85,
+      "trend_direction": "up",
+      "reason": "Squishy是今年Q4 UK最确定的玩具流量词：TikTok官方数据+230% YoY，且圣诞版本在TikTok Shop已单周2.7万件验证。Amazon UK侧£5.99-8.99圣诞混装包竞争者少且普遍图差。切成8-10只圣诞主题混装包（雪人/圣诞树/姜饼人造型）直接对标party bag filler和stocking filler双场景，12月需求最猛的2周正好覆盖。",
+      "action": "027店测品。定价£6.99（8只混装+透明opp盒），1688搜『捏捏乐 圣诞款 慢回弹 批发』，¥0.3-0.5/只×8+盒¥1≈¥4-5/包。重量约150g。节奏：10/28前首批20包×2款空运（死线10/30，11/12前上架）；12/05前根据出单决定第二批；本品类生命周期短，1月不补货。⚠️必须索要EN71/UKCA测试报告，无报告不下单。",
+      "competition": "TikTok侧销量已爆发但Amazon UK圣诞混装包头部listing多数<150评、无品牌集中，属于低护城河窗口；风险是玩具合规（EN71）和『外观同质化』，靠圣诞主题造型混款+盒装差异化，不做普通白色冰块款（那是6月已推过的旧方向）。",
+      "signal_scores": {
+        "trend": 85,
+        "gap": 75,
+        "profit": 80,
+        "final": 80,
+        "recommendation": "strong_buy",
+        "profit_window": "11月中旬至12/18为峰段；首单死线10/30，补单死线11/06"
+      }
+    },
+    {
+      "keyword": "new year eve foil number balloons",
+      "keyword_cn": "新年黑金数字铝膜气球套装（40寸数字+配重点胶，NYE派对）",
+      "amazon_keyword": "new year eve foil number balloons black gold",
+      "search_1688": "1688 40寸数字铝膜气球 黑金 新年快乐 套装 批发",
+      "demand_signals": [
+        "Amazon UK Movers & Shakers今日：氦气罐2罐装排名+77%（派对气球直接上游）、40寸黑色数字气球+38%（来源：amazon.co.uk Movers&Shakers，今日抓取）",
+        "黑金气球拱门套装10/20已在上升趋势中（本库10/20记录为乳胶拱门方向，铝膜数字为不同头部名词）",
+        "1688端32寸/40寸数字铝膜¥0.7-1.4/只、黑金配色现货充足（来源：1688搜索，今日抓取）",
+        "NYE是UK全年气球消耗最大单日，2026年12/31为周四，家庭派对比例高"
+      ],
+      "trend_score": 88,
+      "trend_direction": "up",
+      "reason": "Movers榜同时出现氦气罐+77%和数字气球+38%，说明派对气球需求正在爬坡，而NYE主战场（12/28-31）还没到。黑金NYE主题（2027数字/NEW YEAR字母+黑金配色）目前UK站组合装少、多为单只卖，做成『2只40寸数字+胶点+丝带』套装£7.99有明确组合溢价。产品放气后仅30g，是全场最空运友好的品。",
+      "action": "007店承接。定价£7.99（含2027数字2只+黑金NEW YEAR字牌+胶点），1688搜『40寸数字铝膜气球 黑金 批发』，套装成本¥4-5。未充气平铺包装≤28×20×2cm、净重<50g。节奏：11/20前首单50套空运（死线11/20，12/05前入仓）；错过11/20直接放弃该品，NYE后需求归零，不补第二批。",
+      "competition": "数字气球单品类竞争大（Party Brands+白牌混战），但NYE黑金主题组合装头部listing普遍<300评且多数不带配重胶点组合；窗口期短是护城河也是风险——上架晚就吃不到。",
+      "signal_scores": {
+        "trend": 88,
+        "gap": 85,
+        "profit": 78,
+        "final": 84,
+        "recommendation": "strong_buy",
+        "profit_window": "12/20-12/31为峰段（第8周末段变现）；下单死线11/20，过线即放弃"
+      }
+    },
+    {
+      "keyword": "initial letter necklace gift",
+      "keyword_cn": "刻字字母项链圣诞礼盒装（镀金钛钢+圣诞贺卡）",
+      "amazon_keyword": "initial letter necklace gold christmas gift women",
+      "search_1688": "1688 字母项链 钛钢 镀金 礼盒装 批发",
+      "demand_signals": [
+        "TikTok官方newsroom：gold jewelry搜索月环比+1134%、opal rings+825%、#friendshipbracelet+120%；22%用户计划BF期间购买配饰/珠宝类礼物（来源：newsroom.tiktok.com，今日抓取）",
+        "首饰是官方点名的今年圣诞 standout gift品类，lab diamond销售额5-9月翻4倍（来源：同上）",
+        "1688端钛钢镀金字母项链¥1.5-3.5/条，含礼盒成本+¥1（来源：1688批发行情，今日抓取）",
+        "10/09推过项链磁吸扣（配件类），本品为成品首饰+礼盒，头部名词与功能不同，不重复"
+      ],
+      "trend_score": 75,
+      "trend_direction": "up",
+      "reason": "金饰是TikTok今年圣诞最猛的搜索方向之一（+1134%），Amazon UK字母项链虽是老品类，但『£8.99礼盒装（项链+圣诞贺卡+信封』的送礼组合在£10以下价格带供给稀薄，多数白牌裸链卖£6-9无礼盒。送礼场景=溢价场景，正好卡BF和圣诞两个礼品高峰。",
+      "action": "027店测品。定价£8.99（含绒布盒+圣诞贺卡），1688搜『钛钢字母项链 镀金 礼盒 批发』，链+盒成本¥2.5-4.5。净重<30g、盒装≤12×9×3cm。节奏：11/05前首批20件×A-Z中挑6个高频字母（A/C/E/J/K/S）空运（死线11/06赶BF）；12/01看复购与转化决定圣诞档补货；首饰退货率低适合027起量。",
+      "competition": "诚实说：字母项链本身竞争极大（数千listing、Claire's等品牌在位），单链拼价格没有活路；唯一可打的是『圣诞礼盒+贺卡』组合差异化，且必须控制在不做品牌logo、避开Harry Potter等IP字母周边。review量头部>2000，新店靠主图礼盒场景+精准送礼关键词切入长尾。",
+      "signal_scores": {
+        "trend": 75,
+        "gap": 70,
+        "profit": 85,
+        "final": 76,
+        "recommendation": "buy",
+        "profit_window": "11/27 BF至12/20为峰段；首单死线11/06，圣诞补单死线11/24"
+      }
+    }
+  ]
+}
