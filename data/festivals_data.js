@@ -31,7 +31,7 @@ const FESTIVALS = [
   themeColor: "#ef4444",
   products: [
     { sku: "家居收纳箱(折叠)", skuEn: "Foldable Storage Box", category: "home", costRange: "¥8-15", priceRange: "£7.99-9.99", margin: "约45-50%", matchScore: 5, riskLevel: "低", riskNote: "新年收纳季；注意FBA体积费", keywords: ["storage box","foldable organizer","home storage"], sourcing: "1688: 折叠收纳箱" },
-    { sku: "瑜伽垫(初学者)", skuEn: "Beginner Yoga Mat", category: "home", costRange: "¥15-25", priceRange: "£8.99-9.99", margin: "约35-45%", matchScore: 4, riskLevel: "低", riskNote: "新年健身季；体积大注意物流", keywords: ["yoga mat","exercise mat","fitness equipment"], sourcing: "1688: 瑜伽垫" },
+    { sku: "瑜伽伸展带(初学者)", skuEn: "Beginner Yoga Stretch Strap", category: "home", costRange: "¥15-25", priceRange: "£8.99-9.99", margin: "约35-45%", matchScore: 4, riskLevel: "低", riskNote: "新年健身季；体积大注意物流", keywords: ["yoga strap", "stretching band", "fitness accessory"], sourcing: "1688: 瑜伽垫" },
     { sku: "运动水壶(刻度)", skuEn: "Motivational Water Bottle with Time Markers", category: "home", costRange: "¥6-12", priceRange: "£6.99-9.99", margin: "约50-60%", matchScore: 5, riskLevel: "低", riskNote: "Tritan材质BPA-Free；新年健身必备", keywords: ["water bottle","motivational bottle","fitness bottle"], sourcing: "1688: 刻度运动水壶" },
     { sku: "厨房调料收纳架", skuEn: "Kitchen Spice Rack Organizer", category: "home", costRange: "¥8-15", priceRange: "£7.99-9.99", margin: "约45-55%", matchScore: 4, riskLevel: "低", riskNote: "新年厨房整理；常规品类", keywords: ["spice rack","kitchen organizer","storage rack"], sourcing: "1688: 调料收纳架" },
     { sku: "手机支架(桌面)", skuEn: "Desktop Phone Stand Holder", category: "gift", costRange: "¥3-8", priceRange: "£5.99-7.99", margin: "约55-65%", matchScore: 5, riskLevel: "低", riskNote: "轻小件高毛利；刚需品", keywords: ["phone stand","desktop holder","phone holder"], sourcing: "1688: 手机支架" }
@@ -50,7 +50,7 @@ const FESTIVALS = [
   themeColor: "#1e40af",
   products: [
     { sku: "苏格兰格纹装饰品", skuEn: "Tartan Scottish Decorations", category: "decor", costRange: "¥5-12", priceRange: "£6.99-9.99", margin: "约50-60%", matchScore: 4, riskLevel: "低", riskNote: "苏格兰小众市场；格纹经典", keywords: ["tartan","scottish decor","burns night"], sourcing: "1688: 苏格兰格纹" },
-    { sku: "威士忌酒杯(水晶玻璃)", skuEn: "Whisky Crystal Glass", category: "home", costRange: "¥8-18", priceRange: "£7.99-9.99", margin: "约40-50%", matchScore: 4, riskLevel: "中", riskNote: "易碎品注意包装；需防震", keywords: ["whisky glass","crystal glass","scotch glass"], sourcing: "1688: 威士忌杯" },
+    { sku: "威士忌主题杯垫套装(4件)", skuEn: "Whisky Coaster Set 4pcs", category: "home", costRange: "¥8-18", priceRange: "£7.99-9.99", margin: "约40-50%", matchScore: 4, riskLevel: "中", riskNote: "易碎品注意包装；需防震", keywords: ["whisky coaster", "tartan coaster", "burns night decor"], sourcing: "1688: 威士忌杯" },
     { sku: "苏格兰风笛音乐盒", skuEn: "Scottish Music Box Bagpipes", category: "gift", costRange: "¥10-20", priceRange: "£8.99-9.99", margin: "约40-50%", matchScore: 3, riskLevel: "低", riskNote: "小众纪念品；苏格兰旅游季", keywords: ["scottish gift","music box","bagpipes souvenir"], sourcing: "1688: 苏格兰纪念品" },
     { sku: "格纹围巾/披肩", skuEn: "Tartan Scarf Shawl", category: "apparel", costRange: "¥10-20", priceRange: "£7.99-9.99", margin: "约40-50%", matchScore: 4, riskLevel: "低", riskNote: "冬季实用；苏格兰风格", keywords: ["tartan scarf","scottish shawl","plaid scarf"], sourcing: "1688: 格纹围巾" },
     { sku: "苏格兰主题杯垫套装", skuEn: "Scottish Coaster Set", category: "home", costRange: "¥3-8", priceRange: "£5.99-7.99", margin: "约55-65%", matchScore: 4, riskLevel: "低", riskNote: "轻小件；苏格兰元素", keywords: ["scottish coaster","tartan coaster","burns night coaster"], sourcing: "1688: 主题杯垫" },
@@ -128,7 +128,7 @@ const FESTIVALS = [
   themeColor: "#e11d48",
   products: [
     { sku: "永生花礼盒(玫瑰)", skuEn: "Preserved Rose Flower Box", category: "gift", costRange: "¥15-30", priceRange: "£8.99-9.99", margin: "约35-45%", matchScore: 5, riskLevel: "低", riskNote: "情人节TOP1礼品；需防震包装", keywords: ["preserved rose","flower box","valentine flower"], sourcing: "1688: 永生花礼盒" },
-    { sku: "情侣对杯(心形)", skuEn: "Couple Mugs Heart Design", category: "gift", costRange: "¥8-15", priceRange: "£7.99-9.99", margin: "约45-55%", matchScore: 5, riskLevel: "中", riskNote: "陶瓷易碎；需防震包装", keywords: ["couple mugs","valentine mug","heart mug"], sourcing: "1688: 情侣对杯" },
+    { sku: "情侣爱心抱枕(两件套)", skuEn: "Heart Cushion Covers 2pcs", category: "gift", costRange: "¥8-15", priceRange: "£7.99-9.99", margin: "约45-55%", matchScore: 5, riskLevel: "中", riskNote: "陶瓷易碎；需防震包装", keywords: ["valentine cushion", "heart pillow cover", "couple gift decor"], sourcing: "1688: 情侣对杯" },
     { sku: "情人节巧克力礼盒", skuEn: "Valentine Chocolate Gift Box", category: "gift", costRange: "¥15-30", priceRange: "£8.99-9.99", margin: "约30-40%", matchScore: 5, riskLevel: "中", riskNote: "食品需UK认证；温控物流", keywords: ["chocolate box","valentine chocolate","gift chocolate"], sourcing: "1688: 巧克力礼盒" },
     { sku: "LED心形灯串", skuEn: "LED Heart String Lights", category: "decor", costRange: "¥5-12", priceRange: "£6.99-8.99", margin: "约50-60%", matchScore: 5, riskLevel: "低", riskNote: "UKCA认证；浪漫装饰", keywords: ["heart lights","led string","valentine decor"], sourcing: "1688: 心形灯串" },
     { sku: "情侣手链(可刻字)", skuEn: "Couple Bracelet Engraved", category: "apparel", costRange: "¥8-18", priceRange: "£7.99-9.99", margin: "约45-55%", matchScore: 5, riskLevel: "低", riskNote: "可定制刻字增加附加值", keywords: ["couple bracelet","engraved bracelet","love bracelet"], sourcing: "1688: 情侣手链" },
@@ -138,7 +138,7 @@ const FESTIVALS = [
     { sku: "3D立体情人节贺卡", skuEn: "3D Pop-Up Valentine Card", category: "gift", costRange: "¥5-12", priceRange: "£6.99-8.99", margin: "约50-60%", matchScore: 4, riskLevel: "低", riskNote: "创意设计溢价；轻小件", keywords: ["3d card","pop up card","valentine greeting"], sourcing: "1688: 3D立体贺卡" },
     { sku: "爱情存钱罐(情侣款)", skuEn: "Love Coin Bank Couple", category: "gift", costRange: "¥8-15", priceRange: "£7.99-9.99", margin: "约45-55%", matchScore: 3, riskLevel: "低", riskNote: "创意家居摆件", keywords: ["coin bank","love piggy bank","couple gift"], sourcing: "1688: 情侣存钱罐" },
     { sku: "定制照片相框(心形)", skuEn: "Heart Photo Frame Custom", category: "decor", costRange: "¥8-18", priceRange: "£7.99-9.99", margin: "约45-55%", matchScore: 4, riskLevel: "低", riskNote: "可定制照片增加情感价值", keywords: ["photo frame","heart frame","custom frame","valentine decor"], sourcing: "1688: 心形相框" },
-    { sku: "情侣马克杯(变色)", skuEn: "Heat Change Couple Mug", category: "gift", costRange: "¥10-20", priceRange: "£8.99-9.99", margin: "约40-50%", matchScore: 4, riskLevel: "中", riskNote: "变色技术需测试稳定性", keywords: ["heat change mug","magic mug","couple mug"], sourcing: "1688: 变色马克杯" },
+    { sku: "情侣照片相框(双联)", skuEn: "Couple Photo Frame Double", category: "gift", costRange: "¥10-20", priceRange: "£8.99-9.99", margin: "约40-50%", matchScore: 4, riskLevel: "中", riskNote: "变色技术需测试稳定性", keywords: ["valentine photo frame", "couple gift", "anniversary decor"], sourcing: "1688: 变色马克杯" },
     { sku: "爱情钥匙扣(一对)", skuEn: "Love Keychain Pair Set", category: "gift", costRange: "¥3-8", priceRange: "£5.99-7.99", margin: "约55-65%", matchScore: 4, riskLevel: "低", riskNote: "轻小件；情侣必备小礼品", keywords: ["couple keychain","love keychain","valentine keyring"], sourcing: "1688: 情侣钥匙扣" },
   ],
   validation: {
@@ -157,7 +157,7 @@ const FESTIVALS = [
     { sku: "感谢卡片套装", skuEn: "Thank You Card Set", category: "gift", costRange: "¥3-6", priceRange: "£5.99-7.99", margin: "约55-65%", matchScore: 4, riskLevel: "低", riskNote: "善行日主题；轻小件", keywords: ["thank you card","kindness card","greeting cards"], sourcing: "1688: 感谢贺卡" },
     { sku: "善行日徽章/贴纸", skuEn: "Kindness Badge Sticker Pack", category: "gift", costRange: "¥2-5", priceRange: "£5.99-6.99", margin: "约60-70%", matchScore: 4, riskLevel: "低", riskNote: "超轻小件高毛利", keywords: ["kindness badge","sticker pack","motivation sticker"], sourcing: "1688: 创意徽章贴纸" },
     { sku: "手工皂礼盒(天然)", skuEn: "Natural Handmade Soap Gift Box", category: "gift", costRange: "¥8-15", priceRange: "£7.99-9.99", margin: "约45-55%", matchScore: 3, riskLevel: "低", riskNote: "天然成分卖点；礼品属性", keywords: ["handmade soap","natural soap","gift soap"], sourcing: "1688: 手工皂礼盒" },
-    { sku: "励志语录马克杯", skuEn: "Inspirational Quote Mug", category: "gift", costRange: "¥6-12", priceRange: "£6.99-8.99", margin: "约50-60%", matchScore: 4, riskLevel: "低", riskNote: "陶瓷易碎；正能量语录", keywords: ["inspirational mug","quote mug","motivation gift"], sourcing: "1688: 励志马克杯" },
+    { sku: "励志语录贴纸套装", skuEn: "Motivational Quote Stickers", category: "gift", costRange: "¥6-12", priceRange: "£6.99-8.99", margin: "约50-60%", matchScore: 4, riskLevel: "低", riskNote: "陶瓷易碎；正能量语录", keywords: ["motivational sticker", "quote decal", "laptop sticker"], sourcing: "1688: 励志马克杯" },
     { sku: "种子纸贺卡(可种植)", skuEn: "Plantable Seed Paper Card", category: "gift", costRange: "¥3-8", priceRange: "£5.99-7.99", margin: "约55-65%", matchScore: 4, riskLevel: "低", riskNote: "环保概念；可种植创意", keywords: ["seed paper","plantable card","eco card","kindness"], sourcing: "1688: 种子纸" }
   ],
   validation: {
@@ -176,7 +176,7 @@ const FESTIVALS = [
     { sku: "橄榄球主题围巾", skuEn: "Rugby Team Scarf", category: "apparel", costRange: "¥8-15", priceRange: "£7.99-9.99", margin: "约45-55%", matchScore: 4, riskLevel: "低", riskNote: "赛事期间刚需；球队配色", keywords: ["rugby scarf","sports scarf","six nations"], sourcing: "1688: 体育围巾" },
     { sku: "橄榄球形状抱枕", skuEn: "Rugby Ball Shaped Cushion", category: "home", costRange: "¥10-18", priceRange: "£7.99-9.99", margin: "约40-50%", matchScore: 3, riskLevel: "低", riskNote: "体育主题家居", keywords: ["rugby cushion","sports pillow","rugby decor"], sourcing: "1688: 橄榄球抱枕" },
     { sku: "球队旗帜/三角旗", skuEn: "Rugby Team Pennant Flag", category: "decor", costRange: "¥3-8", priceRange: "£5.99-7.99", margin: "约55-65%", matchScore: 4, riskLevel: "低", riskNote: "赛事装饰；轻小件", keywords: ["pennant flag","rugby flag","sports banner"], sourcing: "1688: 三角旗" },
-    { sku: "啤酒杯垫套装(橄榄球)", skuEn: "Rugby Beer Coaster Set", category: "home", costRange: "¥3-6", priceRange: "£5.99-7.99", margin: "约55-65%", matchScore: 3, riskLevel: "低", riskNote: "看球配件；轻小件", keywords: ["beer coaster","rugby coaster","sports coaster"], sourcing: "1688: 啤酒杯垫" },
+    { sku: "橄榄球主题桌旗", skuEn: "Rugby Table Runner", category: "home", costRange: "¥3-6", priceRange: "£5.99-7.99", margin: "约55-65%", matchScore: 3, riskLevel: "低", riskNote: "看球配件；轻小件", keywords: ["rugby decor", "sports table runner", "match day decor"], sourcing: "1688: 啤酒杯垫" },
   ],
   validation: {
     googleTrends: ["six nations 2027","rugby accessories","match day"],
@@ -195,7 +195,7 @@ const FESTIVALS = [
   products: [
     { sku: "威尔士龙旗帜", skuEn: "Welsh Dragon Flag", category: "decor", costRange: "¥5-12", priceRange: "£6.99-8.99", margin: "约50-60%", matchScore: 4, riskLevel: "低", riskNote: "威尔士国庆装饰；小众市场", keywords: ["welsh flag","dragon flag","st davids day"], sourcing: "1688: 威尔士旗帜" },
     { sku: "威尔士水仙花胸针", skuEn: "Welsh Daffodil Brooch", category: "apparel", costRange: "¥3-8", priceRange: "£5.99-7.99", margin: "约55-65%", matchScore: 4, riskLevel: "低", riskNote: "圣大卫节传统配饰", keywords: ["daffodil brooch","welsh pin","st davids"], sourcing: "1688: 胸针徽章" },
-    { sku: "威尔士主题马克杯", skuEn: "Welsh Theme Mug", category: "gift", costRange: "¥6-12", priceRange: "£6.99-8.99", margin: "约50-60%", matchScore: 3, riskLevel: "低", riskNote: "威尔士元素；礼品属性", keywords: ["welsh mug","st davids mug","wales gift"], sourcing: "1688: 主题马克杯" },
+    { sku: "威尔士龙旗挂饰", skuEn: "Welsh Dragon Bunting", category: "gift", costRange: "¥6-12", priceRange: "£6.99-8.99", margin: "约50-60%", matchScore: 3, riskLevel: "低", riskNote: "威尔士元素；礼品属性", keywords: ["welsh flag bunting", "st david decor", "wales party"], sourcing: "1688: 主题马克杯" },
     { sku: "威尔士食谱书签", skuEn: "Welsh Recipe Bookmark Set", category: "gift", costRange: "¥2-5", priceRange: "£5.99-6.99", margin: "约60-70%", matchScore: 3, riskLevel: "低", riskNote: "文创小件；威尔士文化", keywords: ["bookmark","welsh gift","recipe bookmark"], sourcing: "1688: 创意书签" },
     { sku: "威尔士格纹围巾", skuEn: "Welsh Tartan Scarf", category: "apparel", costRange: "¥10-18", priceRange: "£7.99-9.99", margin: "约40-50%", matchScore: 3, riskLevel: "低", riskNote: "威尔士风格；春季保暖", keywords: ["welsh scarf","tartan","st davids scarf"], sourcing: "1688: 格纹围巾" }
   ],
@@ -232,7 +232,7 @@ const FESTIVALS = [
   themeColor: "#f472b6",
   products: [
     { sku: "母亲节花束礼盒(永生花)", skuEn: "Mother's Day Preserved Flower Box", category: "gift", costRange: "¥15-30", priceRange: "£8.99-9.99", margin: "约35-45%", matchScore: 5, riskLevel: "低", riskNote: "母亲节TOP1礼品；需防震", keywords: ["mothers day flower","preserved flower","flower box"], sourcing: "1688: 永生花礼盒" },
-    { sku: "妈妈马克杯(定制文字)", skuEn: "Best Mom Mug Personalized", category: "gift", costRange: "¥6-12", priceRange: "£6.99-8.99", margin: "约50-60%", matchScore: 5, riskLevel: "低", riskNote: "经典母亲节礼品；可定制", keywords: ["mom mug","mothers day mug","personalized mug"], sourcing: "1688: 定制马克杯" },
+    { sku: "妈妈定制亚麻托特包", skuEn: "Custom Linen Tote Bag for Mum", category: "gift", costRange: "¥6-12", priceRange: "£6.99-8.99", margin: "约50-60%", matchScore: 5, riskLevel: "低", riskNote: "经典母亲节礼品；可定制", keywords: ["mothers day tote", "custom bag", "linen shopping bag"], sourcing: "1688: 定制马克杯" },
     { sku: "SPA浴盐礼盒", skuEn: "Bath Salt Spa Gift Set", category: "gift", costRange: "¥10-20", priceRange: "£8.99-9.99", margin: "约40-50%", matchScore: 5, riskLevel: "中", riskNote: "化妆品CPNP；液体注意", keywords: ["bath salt","spa gift","mothers day spa"], sourcing: "1688: 浴盐礼盒" },
     { sku: "母亲节贺卡(手工)", skuEn: "Handmade Mother's Day Card", category: "gift", costRange: "¥3-8", priceRange: "£5.99-7.99", margin: "约55-65%", matchScore: 5, riskLevel: "低", riskNote: "手工溢价高；情感价值", keywords: ["mothers day card","handmade card","greeting card"], sourcing: "1688: 母亲节贺卡" },
     { sku: "珍珠项链/手链套装", skuEn: "Pearl Necklace Bracelet Set", category: "apparel", costRange: "¥10-25", priceRange: "£8.99-9.99", margin: "约35-45%", matchScore: 4, riskLevel: "低", riskNote: "优雅礼品；母亲节经典", keywords: ["pearl jewelry","necklace set","mothers day jewelry"], sourcing: "1688: 珍珠饰品" },
@@ -263,9 +263,9 @@ const FESTIVALS = [
     { sku: "绿色派对帽子套装", skuEn: "Green Party Hat Set", category: "decor", costRange: "¥3-8", priceRange: "£5.99-7.99", margin: "约55-65%", matchScore: 5, riskLevel: "低", riskNote: "圣帕特里克节必备；绿色主题", keywords: ["green hat","st patricks hat","party hat"], sourcing: "1688: 派对帽子" },
     { sku: "三叶草徽章/胸针", skuEn: "Shamrock Brooch Pin", category: "apparel", costRange: "¥2-5", priceRange: "£5.99-6.99", margin: "约60-70%", matchScore: 5, riskLevel: "低", riskNote: "节日标志；超轻小件", keywords: ["shamrock pin","st patricks brooch","clover pin"], sourcing: "1688: 三叶草胸针" },
     { sku: "爱尔兰主题围巾", skuEn: "Irish Theme Scarf", category: "apparel", costRange: "¥8-15", priceRange: "£7.99-9.99", margin: "约45-55%", matchScore: 4, riskLevel: "低", riskNote: "爱尔兰风格；节日配饰", keywords: ["irish scarf","st patricks scarf","green scarf"], sourcing: "1688: 主题围巾" },
-    { sku: "啤酒杯(圣帕特里克节)", skuEn: "St Patrick's Day Beer Mug", category: "home", costRange: "¥6-12", priceRange: "£6.99-8.99", margin: "约50-60%", matchScore: 4, riskLevel: "中", riskNote: "玻璃易碎；节日主题", keywords: ["beer mug","st patricks glass","irish mug"], sourcing: "1688: 啤酒杯" },
+    { sku: "圣帕特里克三叶草挂旗", skuEn: "St Patrick Shamrock Bunting", category: "home", costRange: "¥6-12", priceRange: "£6.99-8.99", margin: "约50-60%", matchScore: 4, riskLevel: "中", riskNote: "玻璃易碎；节日主题", keywords: ["st patrick bunting", "shamrock decor", "irish party"], sourcing: "1688: 啤酒杯" },
     { sku: "绿色气球装饰套装", skuEn: "Green Balloon Decoration Kit", category: "decor", costRange: "¥3-8", priceRange: "£5.99-7.99", margin: "约55-65%", matchScore: 4, riskLevel: "低", riskNote: "派对装饰；绿色主题", keywords: ["green balloon","party decoration","st patricks decor"], sourcing: "1688: 气球装饰" },
-    { sku: "爱尔兰咖啡杯(带盖)", skuEn: "Irish Coffee Mug with Lid", category: "home", costRange: "¥8-15", priceRange: "£7.99-9.99", margin: "约45-55%", matchScore: 4, riskLevel: "低", riskNote: "实用+节日主题", keywords: ["coffee mug","irish mug","travel mug"], sourcing: "1688: 咖啡杯" },
+    { sku: "爱尔兰绿帽发箍(派对款)", skuEn: "Irish Green Party Headband", category: "home", costRange: "¥8-15", priceRange: "£7.99-9.99", margin: "约45-55%", matchScore: 4, riskLevel: "低", riskNote: "实用+节日主题", keywords: ["st patrick headband", "party hair accessory", "irish party"], sourcing: "1688: 咖啡杯" },
     { sku: "三叶草种子种植套装", skuEn: "Shamrock Growing Kit", category: "gift", costRange: "¥5-12", priceRange: "£6.99-8.99", margin: "约50-60%", matchScore: 4, riskLevel: "低", riskNote: "创意园艺；三叶草主题", keywords: ["shamrock kit","growing kit","plant kit"], sourcing: "1688: 种植套装" }
   ],
   validation: {
@@ -391,7 +391,7 @@ const FESTIVALS = [
   products: [
     { sku: "英格兰旗帜/三角旗", skuEn: "England Flag St George Pennant", category: "decor", costRange: "¥3-8", priceRange: "£5.99-7.99", margin: "约55-65%", matchScore: 5, riskLevel: "低", riskNote: "圣乔治节必备；红十字旗", keywords: ["england flag","st georges flag","cross of st george"], sourcing: "1688: 英格兰旗帜" },
     { sku: "玫瑰花胸针(红玫瑰)", skuEn: "Red Rose Brooch", category: "apparel", costRange: "¥3-8", priceRange: "£5.99-7.99", margin: "约55-65%", matchScore: 4, riskLevel: "低", riskNote: "英格兰象征；红玫瑰", keywords: ["red rose","england brooch","st georges pin"], sourcing: "1688: 玫瑰胸针" },
-    { sku: "圣乔治主题马克杯", skuEn: "St George's Day Mug", category: "gift", costRange: "¥6-12", priceRange: "£6.99-8.99", margin: "约50-60%", matchScore: 3, riskLevel: "低", riskNote: "英格兰主题；礼品属性", keywords: ["st georges mug","england mug","english gift"], sourcing: "1688: 主题马克杯" },
+    { sku: "圣乔治十字旗挂饰", skuEn: "St George Cross Bunting", category: "gift", costRange: "¥6-12", priceRange: "£6.99-8.99", margin: "约50-60%", matchScore: 3, riskLevel: "低", riskNote: "英格兰主题；礼品属性", keywords: ["st george bunting", "england flag decor", "patriotic party"], sourcing: "1688: 主题马克杯" },
     { sku: "骑士/龙小摆件", skuEn: "Knight Dragon Figurine", category: "gift", costRange: "¥5-12", priceRange: "£6.99-8.99", margin: "约50-60%", matchScore: 4, riskLevel: "低", riskNote: "⚠️待复核: 圣乔治屠龙传说；文化创意", keywords: ["dragon figurine","knight figure","st georges dragon"], sourcing: "1688: 骑士龙摆件" },
     { sku: "英格兰主题围裙", skuEn: "England Theme Apron", category: "home", costRange: "¥8-15", priceRange: "£7.99-9.99", margin: "约45-55%", matchScore: 3, riskLevel: "低", riskNote: "厨房用品；英格兰风格", keywords: ["england apron","st georges apron","english apron"], sourcing: "1688: 主题围裙" }
   ],
@@ -451,7 +451,7 @@ const FESTIVALS = [
     { sku: "蜜蜂主题茶巾", skuEn: "Bee Theme Tea Towel", category: "home", costRange: "¥5-12", priceRange: "£6.99-8.99", margin: "约50-60%", matchScore: 4, riskLevel: "低", riskNote: "蜜蜂主题；厨房用品", keywords: ["bee tea towel","kitchen towel","bee design"], sourcing: "1688: 主题茶巾" },
     { sku: "野花种子套装(蜜蜂友好)", skuEn: "Bee Friendly Wildflower Seeds", category: "home", costRange: "¥3-8", priceRange: "£5.99-7.99", margin: "约55-65%", matchScore: 5, riskLevel: "低", riskNote: "环保概念；蜜蜂保护", keywords: ["wildflower seeds","bee friendly","pollinator seeds"], sourcing: "1688: 野花种子" },
     { sku: "蜜蜂形状蜂蜜搅拌棒", skuEn: "Bee Shaped Honey Dipper", category: "home", costRange: "¥3-6", priceRange: "£5.99-6.99", margin: "约55-65%", matchScore: 4, riskLevel: "低", riskNote: "创意厨房小工具", keywords: ["honey dipper","bee tool","kitchen gadget"], sourcing: "1688: 蜂蜜搅拌棒" },
-    { sku: "蜜蜂主题马克杯", skuEn: "Bee Theme Mug", category: "gift", costRange: "¥6-12", priceRange: "£6.99-8.99", margin: "约50-60%", matchScore: 3, riskLevel: "低", riskNote: "蜜蜂主题礼品", keywords: ["bee mug","honey mug","cute mug"], sourcing: "1688: 主题马克杯" },
+    { sku: "蜜蜂造型花园插牌", skuEn: "Bee Garden Stake Decor", category: "gift", costRange: "¥6-12", priceRange: "£6.99-8.99", margin: "约50-60%", matchScore: 3, riskLevel: "低", riskNote: "蜜蜂主题礼品", keywords: ["bee garden decor", "garden stake", "bee ornaments"], sourcing: "1688: 主题马克杯" },
     { sku: "蜜蜂花园装饰标牌", skuEn: "Bee Garden Sign Decoration", category: "decor", costRange: "¥5-12", priceRange: "£6.99-8.99", margin: "约50-60%", matchScore: 3, riskLevel: "低", riskNote: "花园装饰；蜜蜂主题", keywords: ["garden sign","bee decoration","outdoor decor"], sourcing: "1688: 花园标牌" }
   ],
   validation: {
@@ -547,7 +547,7 @@ const FESTIVALS = [
   products: [
     { sku: "英国国旗装饰品套装", skuEn: "Union Jack Decoration Set", category: "decor", costRange: "¥5-12", priceRange: "£6.99-8.99", margin: "约50-60%", matchScore: 4, riskLevel: "低", riskNote: "皇家主题；英国国旗", keywords: ["union jack","british flag","royal decor"], sourcing: "1688: 英国国旗装饰" },
     { sku: "皇冠造型开瓶器", skuEn: "Crown Bottle Opener", category: "home", costRange: "¥5-12", priceRange: "£6.99-8.99", margin: "约50-60%", matchScore: 4, riskLevel: "低", riskNote: "创意厨房工具；皇家元素", keywords: ["crown opener","bottle opener","royal gift"], sourcing: "1688: 创意开瓶器" },
-    { sku: "皇家主题茶杯套装", skuEn: "Royal Theme Tea Cup Set", category: "home", costRange: "¥15-25", priceRange: "£8.99-9.99", margin: "约35-45%", matchScore: 3, riskLevel: "中", riskNote: "陶瓷易碎；英式下午茶", keywords: ["tea cup","royal tea","british tea set"], sourcing: "1688: 英式茶杯" },
+    { sku: "皇家主题桌布", skuEn: "Royal Theme Tablecloth", category: "home", costRange: "¥15-25", priceRange: "£8.99-9.99", margin: "约35-45%", matchScore: 3, riskLevel: "中", riskNote: "陶瓷易碎；英式下午茶", keywords: ["royal tablecloth", "coronation decor", "party table cover"], sourcing: "1688: 英式茶杯" },
     { sku: "皇家卫兵钥匙扣", skuEn: "Royal Guard Keyring", category: "gift", costRange: "¥3-8", priceRange: "£5.99-7.99", margin: "约55-65%", matchScore: 4, riskLevel: "低", riskNote: "英国旅游纪念品", keywords: ["royal guard","keyring","british souvenir"], sourcing: "1688: 皇家卫兵钥匙扣" },
     { sku: "英国主题明信片套装", skuEn: "British Theme Postcard Set", category: "gift", costRange: "¥2-5", priceRange: "£5.99-6.99", margin: "约60-70%", matchScore: 3, riskLevel: "低", riskNote: "文创小件；英国风景", keywords: ["postcard","british cards","london postcards"], sourcing: "1688: 明信片" }
   ],
@@ -564,12 +564,12 @@ const FESTIVALS = [
   date: "2027-06-21", month: 6, importance: "S", category: "festival",
   themeColor: "#3b82f6",
   products: [
-    { sku: "父亲节定制钥匙扣", skuEn: "Personalized Dad Keyring", category: "gift", costRange: "¥5-12", priceRange: "£6.99-8.99", margin: "约50-60%", matchScore: 5, riskLevel: "低", riskNote: "可刻字定制；情感价值", keywords: ["dad keyring","personalized keyring","fathers day"], sourcing: "1688: 定制钥匙扣" },
+    { sku: "父亲节定制钥匙扣", skuEn: "Personalised Dad Keyring", category: "gift", costRange: "¥5-12", priceRange: "£6.99-8.99", margin: "约50-60%", matchScore: 5, riskLevel: "低", riskNote: "可刻字定制；情感价值", keywords: ["dad keyring","personalized keyring","fathers day"], sourcing: "1688: 定制钥匙扣" },
     { sku: "父亲节贺卡(手工)", skuEn: "Handmade Father's Day Card", category: "gift", costRange: "¥3-8", priceRange: "£5.99-7.99", margin: "约55-65%", matchScore: 5, riskLevel: "低", riskNote: "手工溢价高；必备小礼品", keywords: ["fathers day card","handmade card","dad card"], sourcing: "1688: 父亲节贺卡" },
     { sku: "皮质钱包(可刻字)", skuEn: "Leather Wallet Engraved", category: "gift", costRange: "¥15-30", priceRange: "£8.99-9.99", margin: "约30-40%", matchScore: 5, riskLevel: "低", riskNote: "经典父亲节礼品；可定制", keywords: ["leather wallet","engraved wallet","dad gift"], sourcing: "1688: 皮质钱包" },
     { sku: "BBQ工具套装(父亲节款)", skuEn: "BBQ Tool Set Father's Day", category: "home", costRange: "¥15-25", priceRange: "£8.99-9.99", margin: "约35-45%", matchScore: 5, riskLevel: "中", riskNote: "BBQ季+父亲节双重需求", keywords: ["bbq tools","grill set","fathers day bbq"], sourcing: "1688: BBQ工具套装" },
     { sku: "创意袜子礼盒(爸爸款)", skuEn: "Fun Socks Gift Box Dad", category: "apparel", costRange: "¥8-15", priceRange: "£7.99-9.99", margin: "约45-55%", matchScore: 5, riskLevel: "低", riskNote: "趣味图案；实用礼品", keywords: ["fun socks","sock gift box","dad socks"], sourcing: "1688: 创意袜子" },
-    { sku: "父亲节马克杯(世界最佳爸爸)", skuEn: "World's Best Dad Mug", category: "gift", costRange: "¥6-12", priceRange: "£6.99-8.99", margin: "约50-60%", matchScore: 5, riskLevel: "低", riskNote: "经典父亲节礼品；标语款", keywords: ["best dad mug","fathers day mug","dad coffee mug"], sourcing: "1688: 父亲节马克杯" },
+    { sku: "父亲节定制钥匙扣", skuEn: "Personalised Dad Keyring", category: "gift", costRange: "¥6-12", priceRange: "£6.99-8.99", margin: "约50-60%", matchScore: 5, riskLevel: "低", riskNote: "经典父亲节礼品；标语款", keywords: ["fathers day keyring", "custom keychain", "dad gift"], sourcing: "1688: 父亲节马克杯" },
     { sku: "多功能工具笔", skuEn: "Multi-Function Tool Pen", category: "gift", costRange: "¥5-12", priceRange: "£6.99-8.99", margin: "约50-60%", matchScore: 4, riskLevel: "低", riskNote: "创意工具；男性礼品", keywords: ["tool pen","multi pen","gadget gift"], sourcing: "1688: 多功能工具笔" },
     { sku: "高尔夫球套装(练习用)", skuEn: "Golf Ball Practice Set", category: "gift", costRange: "¥10-20", priceRange: "£8.99-9.99", margin: "约40-50%", matchScore: 4, riskLevel: "低", riskNote: "运动爱好者；父亲节主题", keywords: ["golf balls","practice golf","sports gift"], sourcing: "1688: 高尔夫球" },
     { sku: "定制照片钥匙扣", skuEn: "Custom Photo Keyring", category: "gift", costRange: "¥5-12", priceRange: "£6.99-8.99", margin: "约50-60%", matchScore: 4, riskLevel: "低", riskNote: "可放照片；情感价值高", keywords: ["photo keyring","custom keyring","personalized gift"], sourcing: "1688: 照片钥匙扣" },
@@ -594,7 +594,7 @@ const FESTIVALS = [
     { sku: "军旅主题徽章套装", skuEn: "Military Badge Pin Set", category: "apparel", costRange: "¥3-8", priceRange: "£5.99-7.99", margin: "约55-65%", matchScore: 4, riskLevel: "低", riskNote: "军人节纪念；收藏属性", keywords: ["military badge","armed forces pin","medal badge"], sourcing: "1688: 徽章套装" },
     { sku: "军绿主题腕带", skuEn: "Military Green Wristband", category: "apparel", costRange: "¥2-5", priceRange: "£5.99-6.99", margin: "约60-70%", matchScore: 4, riskLevel: "低", riskNote: "支持军人主题；轻小件", keywords: ["wristband","military bracelet","support bracelet"], sourcing: "1688: 硅胶腕带" },
     { sku: "迷彩帽子", skuEn: "Camouflage Cap", category: "apparel", costRange: "¥8-15", priceRange: "£7.99-9.99", margin: "约45-55%", matchScore: 3, riskLevel: "低", riskNote: "军旅风格；户外运动", keywords: ["camo cap","military hat","army cap"], sourcing: "1688: 迷彩帽" },
-    { sku: "军人主题马克杯", skuEn: "Armed Forces Mug", category: "gift", costRange: "¥6-12", priceRange: "£6.99-8.99", margin: "约50-60%", matchScore: 3, riskLevel: "低", riskNote: "致敬军人主题", keywords: ["military mug","armed forces mug","army gift"], sourcing: "1688: 主题马克杯" },
+    { sku: "军人主题臂章布贴", skuEn: "Military Style Patch Set", category: "gift", costRange: "¥6-12", priceRange: "£6.99-8.99", margin: "约50-60%", matchScore: 3, riskLevel: "低", riskNote: "致敬军人主题", keywords: ["military patch", "embroidered patch", "army badge"], sourcing: "1688: 主题马克杯" },
     { sku: "军旅风贴纸套装", skuEn: "Military Sticker Set", category: "gift", costRange: "¥2-5", priceRange: "£5.99-6.99", margin: "约60-70%", matchScore: 3, riskLevel: "低", riskNote: "超轻小件；收藏/装饰", keywords: ["military stickers","army stickers","decal set"], sourcing: "1688: 贴纸" }
   ],
   validation: {
@@ -615,7 +615,7 @@ const FESTIVALS = [
     { sku: "彩虹徽章/胸针", skuEn: "Rainbow Pride Brooch Pin", category: "apparel", costRange: "¥2-5", priceRange: "£5.99-6.99", margin: "约60-70%", matchScore: 5, riskLevel: "低", riskNote: "超轻小件；骄傲月标志", keywords: ["pride pin","rainbow brooch","lgbtq pin"], sourcing: "1688: 彩虹胸针" },
     { sku: "彩虹主题帆布袋", skuEn: "Pride Rainbow Tote Bag", category: "apparel", costRange: "¥5-12", priceRange: "£6.99-8.99", margin: "约50-60%", matchScore: 4, riskLevel: "低", riskNote: "实用+骄傲月主题", keywords: ["pride tote","rainbow bag","lgbtq bag"], sourcing: "1688: 彩虹帆布袋" },
     { sku: "彩虹旗LED灯串", skuEn: "Rainbow LED String Lights", category: "decor", costRange: "¥8-15", priceRange: "£7.99-9.99", margin: "约45-55%", matchScore: 4, riskLevel: "低", riskNote: "UKCA认证；派对装饰", keywords: ["rainbow lights","pride lights","led string"], sourcing: "1688: 彩虹灯串" },
-    { sku: "彩虹主题马克杯", skuEn: "Pride Rainbow Mug", category: "gift", costRange: "¥6-12", priceRange: "£6.99-8.99", margin: "约50-60%", matchScore: 4, riskLevel: "低", riskNote: "骄傲月礼品", keywords: ["pride mug","rainbow mug","lgbtq mug"], sourcing: "1688: 彩虹马克杯" },
+    { sku: "彩虹主题发带套装", skuEn: "Rainbow Headband Set", category: "gift", costRange: "¥6-12", priceRange: "£6.99-8.99", margin: "约50-60%", matchScore: 4, riskLevel: "低", riskNote: "骄傲月礼品", keywords: ["rainbow headband", "pride accessory", "colourful hair band"], sourcing: "1688: 彩虹马克杯" },
     { sku: "彩虹贴纸套装", skuEn: "Pride Sticker Pack", category: "gift", costRange: "¥2-5", priceRange: "£5.99-6.99", margin: "约60-70%", matchScore: 4, riskLevel: "低", riskNote: "超轻小件；装饰/收藏", keywords: ["pride stickers","rainbow stickers","lgbtq stickers"], sourcing: "1688: 彩虹贴纸" },
   ],
   validation: {
@@ -650,7 +650,7 @@ const FESTIVALS = [
   date: "2026-06-29", month: 7, importance: "A", category: "activity",
   themeColor: "#16a34a",
   products: [
-    { sku: "网球主题马克杯", skuEn: "Tennis Theme Mug", category: "gift", costRange: "¥6-12", priceRange: "£6.99-8.99", margin: "约50-60%", matchScore: 4, riskLevel: "低", riskNote: "温网主题；网球元素", keywords: ["tennis mug","wimbledon mug","sport mug"], sourcing: "1688: 主题马克杯" },
+    { sku: "网球主题运动毛巾", skuEn: "Tennis Sports Towel", category: "gift", costRange: "¥6-12", priceRange: "£6.99-8.99", margin: "约50-60%", matchScore: 4, riskLevel: "低", riskNote: "温网主题；网球元素", keywords: ["tennis towel", "sports towel", "wimbledon accessory"], sourcing: "1688: 主题马克杯" },
     { sku: "网球拍钥匙扣", skuEn: "Tennis Racket Keyring", category: "gift", costRange: "¥3-8", priceRange: "£5.99-7.99", margin: "约55-65%", matchScore: 4, riskLevel: "低", riskNote: "温网纪念品；轻小件", keywords: ["tennis keyring","wimbledon keyring","sport keyring"], sourcing: "1688: 运动钥匙扣" },
     { sku: "草地球场图案杯垫", skuEn: "Grass Court Coaster Set", category: "home", costRange: "¥3-8", priceRange: "£5.99-7.99", margin: "约55-65%", matchScore: 3, riskLevel: "低", riskNote: "温网草场主题", keywords: ["tennis coaster","wimbledon coaster","grass coaster"], sourcing: "1688: 主题杯垫" },
     { sku: "网球运动毛巾", skuEn: "Tennis Sports Towel", category: "home", costRange: "¥8-15", priceRange: "£7.99-9.99", margin: "约45-55%", matchScore: 4, riskLevel: "低", riskNote: "温网+运动双重需求", keywords: ["tennis towel","sports towel","wimbledon towel"], sourcing: "1688: 运动毛巾" },
@@ -910,12 +910,12 @@ const FESTIVALS = [
   date: "2026-09-21", month: 9, importance: "A", category: "trend",
   themeColor: "#84cc16",
   products: [
-    { sku: "陶瓷下午茶杯碟套装", skuEn: "Ceramic Teacup & Saucer Set", category: "home", costRange: "¥10-18", priceRange: "£8.99-9.99", margin: "约40-45%", matchScore: 3, riskLevel: "中", riskNote: "易碎品包装成本；FBA尺寸重量", keywords: ["teacup set","afternoon tea","ceramic cups"], sourcing: "1688: 下午茶杯碟" },
+    { sku: "下午茶主题餐巾布(4件)", skuEn: "Afternoon Tea Napkins 4pcs", category: "home", costRange: "¥10-18", priceRange: "£8.99-9.99", margin: "约40-45%", matchScore: 3, riskLevel: "中", riskNote: "易碎品包装成本；FBA尺寸重量", keywords: ["tea party napkins", "afternoon tea decor", "linen napkin"], sourcing: "1688: 下午茶杯碟" },
     { sku: "木质茶点托盘", skuEn: "Wooden Serving Tray", category: "home", costRange: "¥8-15", priceRange: "£7.99-9.99", margin: "约40-50%", matchScore: 3, riskLevel: "低", riskNote: "体积偏大注意FBA费用", keywords: ["serving tray","wooden tray","tea tray"], sourcing: "1688: 木质托盘" },
     { sku: "英式花纹餐巾纸套装", skuEn: "Floral Paper Napkin Set", category: "decor", costRange: "¥4-8", priceRange: "£6.49-8.49", margin: "约50-55%", matchScore: 4, riskLevel: "低", riskNote: "食品接触材质", keywords: ["paper napkins","floral napkins"], sourcing: "1688: 花纹餐巾纸" },
     { sku: "不锈钢茶叶滤网(球形)", skuEn: "Stainless Steel Tea Infuser Ball", category: "home", costRange: "¥3-6", priceRange: "£5.99-7.99", margin: "约55-65%", matchScore: 5, riskLevel: "低", riskNote: "轻小件实用", keywords: ["tea infuser","tea strainer","tea ball","loose leaf tea"], sourcing: "1688: 茶叶滤网" },
     { sku: "亚麻餐垫套装(4片)", skuEn: "Linen Placemat Set 4 Pack", category: "home", costRange: "¥8-15", priceRange: "£7.99-9.99", margin: "约40-50%", matchScore: 3, riskLevel: "低", riskNote: "常规品类", keywords: ["linen placemat","table mat","dining mat","table decor"], sourcing: "1688: 亚麻餐垫" },
-    { sku: "花卉主题茶壶保温罩", skuEn: "Floral Teapot Cosy Cover", category: "home", costRange: "¥8-15", priceRange: "£7.99-9.99", margin: "约40-50%", matchScore: 3, riskLevel: "低", riskNote: "体积偏大注意FBA；小众但英式场景", keywords: ["teapot cosy","tea cosy","teapot cover","afternoon tea"], sourcing: "1688: 茶壶保温罩" }
+    { sku: "花卉主题餐垫(4件)", skuEn: "Floral Placemats 4pcs", category: "home", costRange: "¥8-15", priceRange: "£7.99-9.99", margin: "约40-50%", matchScore: 3, riskLevel: "低", riskNote: "体积偏大注意FBA；小众但英式场景", keywords: ["floral placemat", "tea party decor", "table mat"], sourcing: "1688: 茶壶保温罩" }
   ],
   validation: {
     googleTrends: ["afternoon tea","tea accessories uk"],
@@ -950,7 +950,7 @@ const FESTIVALS = [
   products: [
     { sku: "秋季香薰蜡烛(南瓜拿铁)", skuEn: "Pumpkin Spice Scented Candle", category: "home", costRange: "¥8-15", priceRange: "£7.99-9.99", margin: "约45-55%", matchScore: 5, riskLevel: "中", riskNote: "蜡烛运输安全；秋季爆款香型", keywords: ["pumpkin candle","autumn scent","fall candle"], sourcing: "1688: 秋季蜡烛" },
     { sku: "保暖毯子(法兰绒)", skuEn: "Fleece Throw Blanket", category: "home", costRange: "¥15-25", priceRange: "£8.99-9.99", margin: "约35-45%", matchScore: 5, riskLevel: "低", riskNote: "秋季保暖刚需；家居换装", keywords: ["fleece blanket","throw blanket","autumn blanket"], sourcing: "1688: 法兰绒毯子" },
-    { sku: "南瓜造型马克杯", skuEn: "Pumpkin Shaped Mug", category: "gift", costRange: "¥8-15", priceRange: "£7.99-9.99", margin: "约45-55%", matchScore: 4, riskLevel: "低", riskNote: "秋季+万圣节衔接", keywords: ["pumpkin mug","autumn mug","fall mug"], sourcing: "1688: 造型马克杯" },
+    { sku: "南瓜造型抱枕套", skuEn: "Pumpkin Cushion Cover", category: "gift", costRange: "¥8-15", priceRange: "£7.99-9.99", margin: "约45-55%", matchScore: 4, riskLevel: "低", riskNote: "秋季+万圣节衔接", keywords: ["pumpkin cushion", "autumn decor", "halloween pillow cover"], sourcing: "1688: 造型马克杯" },
     { sku: "秋季花环(门挂装饰)", skuEn: "Autumn Wreath Door Decoration", category: "decor", costRange: "¥15-25", priceRange: "£8.99-9.99", margin: "约35-45%", matchScore: 4, riskLevel: "低", riskNote: "秋季家居装饰；枫叶/南瓜元素", keywords: ["autumn wreath","fall wreath","door decor"], sourcing: "1688: 秋季花环" },
     { sku: "毛绒拖鞋(室内)", skuEn: "Indoor Plush Slippers", category: "apparel", costRange: "¥10-20", priceRange: "£8.99-9.99", margin: "约40-50%", matchScore: 4, riskLevel: "低", riskNote: "秋季保暖；注意UK尺码", keywords: ["plush slippers","indoor slippers","cozy slippers"], sourcing: "1688: 毛绒拖鞋" },
     { sku: "保温杯(不锈钢真空)", skuEn: "Stainless Steel Thermos Flask", category: "home", costRange: "¥15-25", priceRange: "£8.99-9.99", margin: "约35-45%", matchScore: 4, riskLevel: "低", riskNote: "秋冬热饮刚需", keywords: ["thermos flask","insulated bottle","hot drinks"], sourcing: "1688: 保温杯" }
@@ -970,7 +970,7 @@ const FESTIVALS = [
   date: "2026-10-05", month: 10, importance: "B", category: "festival",
   themeColor: "#dc2626",
   products: [
-    { sku: "教师主题马克杯", skuEn: "Teacher Themed Mug", category: "gift", costRange: "¥6-12", priceRange: "£6.99-8.99", margin: "约45-55%", matchScore: 4, riskLevel: "中", riskNote: "陶瓷易碎", keywords: ["teacher mug","teacher gift","best teacher"], sourcing: "1688: 教师节马克杯" },
+    { sku: "教师主题感谢卡套装", skuEn: "Teacher Thank You Card Set", category: "gift", costRange: "¥6-12", priceRange: "£6.99-8.99", margin: "约45-55%", matchScore: 4, riskLevel: "中", riskNote: "陶瓷易碎", keywords: ["teacher card", "thank you card", "gift card set"], sourcing: "1688: 教师节马克杯" },
     { sku: "感谢卡+小礼品套装", skuEn: "Thank You Card & Gift Set", category: "gift", costRange: "¥4-8", priceRange: "£5.99-7.99", margin: "约50-60%", matchScore: 5, riskLevel: "低", riskNote: "轻小件", keywords: ["teacher card","thank you gift","appreciation"], sourcing: "1688: 感谢卡套装" },
     { sku: "教师主题书签套装", skuEn: "Teacher Bookmark Set", category: "gift", costRange: "¥2-5", priceRange: "£5.99-6.99", margin: "约60-70%", matchScore: 5, riskLevel: "低", riskNote: "轻小件高毛利", keywords: ["teacher bookmark","book lover","reading gift","school bookmark"], sourcing: "1688: 教师书签" },
     { sku: "桌面笔筒(创意造型)", skuEn: "Creative Pen Holder Desk Organizer", category: "home", costRange: "¥5-10", priceRange: "£6.49-8.49", margin: "约45-55%", matchScore: 4, riskLevel: "低", riskNote: "常规品类", keywords: ["pen holder","desk organizer","pencil cup","teacher desk"], sourcing: "1688: 创意笔筒" }
@@ -990,7 +990,7 @@ const FESTIVALS = [
   products: [
     { sku: "硅胶厨房工具套装", skuEn: "Silicone Kitchen Utensil Set", category: "home", costRange: "¥10-18", priceRange: "£8.99-9.99", margin: "约45-55%", matchScore: 4, riskLevel: "低", riskNote: "大促流量高峰；常规厨房品类", keywords: ["kitchen utensil set","silicone utensils","cooking tools"], sourcing: "1688: 硅胶厨具套装" },
     { sku: "可折叠收纳箱(加大)", skuEn: "Foldable Storage Box Large", category: "home", costRange: "¥10-20", priceRange: "£8.99-9.99", margin: "约40-50%", matchScore: 4, riskLevel: "低", riskNote: "大促热卖品类；常规尺寸", keywords: ["foldable storage box","storage bin","home organizer"], sourcing: "1688: 折叠收纳箱" },
-    { sku: "不锈钢保温杯", skuEn: "Stainless Steel Insulated Cup", category: "home", costRange: "¥8-15", priceRange: "£7.99-9.99", margin: "约45-55%", matchScore: 3, riskLevel: "低", riskNote: "常规品类；秋冬季节性走高", keywords: ["insulated cup","travel mug","steel tumbler"], sourcing: "1688: 保温杯" },
+    { sku: "不锈钢保温饭盒袋", skuEn: "Insulated Lunch Bag", category: "home", costRange: "¥8-15", priceRange: "£7.99-9.99", margin: "约45-55%", matchScore: 3, riskLevel: "低", riskNote: "常规品类；秋冬季节性走高", keywords: ["insulated lunch bag", "thermal bag", "lunch cooler"], sourcing: "1688: 保温杯" },
     { sku: "多层桌面收纳架", skuEn: "Multi-Tier Desktop Storage Rack", category: "home", costRange: "¥8-15", priceRange: "£7.99-9.99", margin: "约45-55%", matchScore: 3, riskLevel: "低", riskNote: "常规品类；居家办公需求", keywords: ["desktop storage rack","desk organizer","home office"], sourcing: "1688: 桌面收纳架" }
   ],
   validation: {
@@ -1008,7 +1008,7 @@ const FESTIVALS = [
   products: [
     { sku: "励志手环套装", skuEn: "Inspirational Bracelet Set", category: "apparel", costRange: "¥3-6", priceRange: "£5.99-7.99", margin: "约55-65%", matchScore: 5, riskLevel: "低", riskNote: "轻小件", keywords: ["inspirational bracelet","mental health awareness"], sourcing: "1688: 励志手环" },
     { sku: "正能量语录卡片套装", skuEn: "Positive Affirmation Card Set", category: "gift", costRange: "¥2-5", priceRange: "£5.99-7.99", margin: "约60-70%", matchScore: 5, riskLevel: "低", riskNote: "轻小件高毛利", keywords: ["affirmation cards","positive quotes","mental health","self care"], sourcing: "1688: 正能量卡片" },
-    { sku: "冥想瑜伽垫绑带套装", skuEn: "Yoga Mat Strap Carrying Band", category: "home", costRange: "¥3-6", priceRange: "£5.99-7.99", margin: "约55-60%", matchScore: 4, riskLevel: "低", riskNote: "轻小件", keywords: ["yoga strap","mat carrier","yoga accessories","fitness"], sourcing: "1688: 瑜伽绑带" }
+    { sku: "冥想主题石膏香牌", skuEn: "Meditation Scented Sachet", category: "home", costRange: "¥3-6", priceRange: "£5.99-7.99", margin: "约55-60%", matchScore: 4, riskLevel: "低", riskNote: "轻小件", keywords: ["scented sachet", "meditation decor", "aromatherapy sachet"], sourcing: "1688: 瑜伽绑带" }
   ],
   validation: {
     googleTrends: ["mental health awareness","stress relief"],
@@ -1023,7 +1023,7 @@ const FESTIVALS = [
   date: "2026-10-16", month: 10, importance: "B", category: "festival",
   themeColor: "#1e40af",
   products: [
-    { sku: "老板主题幽默马克杯", skuEn: "Funny Boss Mug", category: "gift", costRange: "¥6-12", priceRange: "£6.99-8.99", margin: "约45-55%", matchScore: 4, riskLevel: "中", riskNote: "陶瓷易碎", keywords: ["boss mug","boss gift","funny mug"], sourcing: "1688: 老板节杯子" },
+    { sku: "老板节幽默桌牌", skuEn: "Boss's Day Desk Sign", category: "gift", costRange: "¥6-12", priceRange: "£6.99-8.99", margin: "约45-55%", matchScore: 4, riskLevel: "中", riskNote: "陶瓷易碎", keywords: ["desk sign", "office decor", "funny plaque"], sourcing: "1688: 老板节杯子" },
     { sku: "桌面收纳套装", skuEn: "Desk Organizer Set", category: "home", costRange: "¥8-15", priceRange: "£7.99-9.99", margin: "约40-50%", matchScore: 3, riskLevel: "低", riskNote: "体积偏大", keywords: ["desk organizer","office accessories","boss gift"], sourcing: "1688: 桌面收纳" },
     { sku: "老板主题领带夹/袖扣", skuEn: "Boss Cufflinks Tie Clip Set", category: "gift", costRange: "¥5-10", priceRange: "£6.49-8.49", margin: "约50-55%", matchScore: 4, riskLevel: "低", riskNote: "轻小件", keywords: ["cufflinks","tie clip","boss gift","office accessories"], sourcing: "1688: 袖扣领带夹" },
   ],
@@ -1082,7 +1082,7 @@ const FESTIVALS = [
     { sku: "万圣节主题餐垫套装", skuEn: "Halloween Placemat Set", category: "home", costRange: "¥5-10", priceRange: "£6.49-8.49", margin: "约45-55%", matchScore: 4, riskLevel: "低", riskNote: "常规品类", keywords: ["halloween placemats","table decor","party supplies"], sourcing: "1688: 万圣节餐垫" },
     { sku: "骷髅骨架摆件", skuEn: "Skeleton Decoration Prop", category: "decor", costRange: "¥8-15", priceRange: "£7.99-9.99", margin: "约45-50%", matchScore: 4, riskLevel: "低", riskNote: "常规品类", keywords: ["skeleton decoration","halloween props","bone decor"], sourcing: "1688: 骷髅摆件" },
     { sku: "万圣节派对气球套装", skuEn: "Halloween Party Balloon Set", category: "decor", costRange: "¥4-8", priceRange: "£5.99-7.99", margin: "约50-60%", matchScore: 5, riskLevel: "低", riskNote: "轻小件", keywords: ["halloween balloons","party balloons"], sourcing: "1688: 万圣节气球" },
-    { sku: "主题马克杯(南瓜造型)", skuEn: "Pumpkin Shaped Mug", category: "home", costRange: "¥8-15", priceRange: "£7.99-9.99", margin: "约40-50%", matchScore: 4, riskLevel: "中", riskNote: "陶瓷易碎包装", keywords: ["pumpkin mug","halloween mug","novelty cup"], sourcing: "1688: 南瓜造型杯" },
+    { sku: "万圣节南瓜造型挂旗", skuEn: "Halloween Pumpkin Bunting", category: "home", costRange: "¥8-15", priceRange: "£7.99-9.99", margin: "约40-50%", matchScore: 4, riskLevel: "中", riskNote: "陶瓷易碎包装", keywords: ["halloween bunting", "pumpkin garland", "spooky decor"], sourcing: "1688: 南瓜造型杯" },
     { sku: "幽灵主题抱枕套", skuEn: "Ghost Throw Pillow Cover", category: "home", costRange: "¥5-10", priceRange: "£6.49-8.49", margin: "约50-55%", matchScore: 4, riskLevel: "低", riskNote: "注意是枕套非枕头", keywords: ["pillow cover","ghost decor","halloween home"], sourcing: "1688: 万圣节抱枕套" },
     { sku: "吸血鬼假牙道具套装", skuEn: "Vampire Fangs Prop Set", category: "apparel", costRange: "¥3-6", priceRange: "£5.99-7.99", margin: "约60-70%", matchScore: 5, riskLevel: "中", riskNote: "入口道具需食品级材质", keywords: ["vampire fangs","halloween props","fake teeth"], sourcing: "1688: 吸血鬼假牙" },
     { sku: "万圣节礼物盒套装(4只)", skuEn: "Halloween Gift Boxes 4 Pack", category: "gift", costRange: "¥6-12", priceRange: "£6.99-8.99", margin: "约45-55%", matchScore: 4, riskLevel: "低", riskNote: "常规品类", keywords: ["gift boxes","halloween boxes","party favors"], sourcing: "1688: 万圣节礼盒" },
@@ -1141,7 +1141,7 @@ const FESTIVALS = [
     { sku: "友善主题贴纸套装", skuEn: "Kindness Sticker Set", category: "gift", costRange: "¥2-5", priceRange: "£5.99-7.99", margin: "约60-70%", matchScore: 5, riskLevel: "低", riskNote: "轻小件高毛利", keywords: ["kindness stickers","positive stickers","school stickers"], sourcing: "1688: 励志贴纸" },
     { sku: "友善主题手环", skuEn: "Kindness Bracelet", category: "apparel", costRange: "¥3-6", priceRange: "£5.99-7.99", margin: "约55-65%", matchScore: 5, riskLevel: "低", riskNote: "轻小件", keywords: ["kindness bracelet","be kind","awareness"], sourcing: "1688: 励志手环" },
     { sku: "友善主题钥匙扣(励志语)", skuEn: "Kindness Keychain Inspirational Quote", category: "gift", costRange: "¥2-5", priceRange: "£5.99-7.99", margin: "约60-70%", matchScore: 5, riskLevel: "低", riskNote: "轻小件高毛利", keywords: ["kindness keychain","inspirational key","motivational gift","positive"], sourcing: "1688: 励志钥匙扣" },
-    { sku: "友善主题马克杯", skuEn: "Be Kind Themed Mug", category: "home", costRange: "¥6-12", priceRange: "£6.99-8.99", margin: "约45-55%", matchScore: 4, riskLevel: "中", riskNote: "陶瓷易碎", keywords: ["kindness mug","be kind mug","positive mug","gift mug"], sourcing: "1688: 励志马克杯" }
+    { sku: "友善主题布艺手环", skuEn: "Kindness Fabric Wristband", category: "home", costRange: "¥6-12", priceRange: "£6.99-8.99", margin: "约45-55%", matchScore: 4, riskLevel: "中", riskNote: "陶瓷易碎", keywords: ["kindness wristband", "fabric bracelet", "friendship band"], sourcing: "1688: 励志马克杯" }
   ],
   validation: {
     googleTrends: ["world kindness day","kindness gifts"],
@@ -1156,7 +1156,7 @@ const FESTIVALS = [
   date: "2026-11-19", month: 11, importance: "A", category: "festival",
   themeColor: "#1d4ed8",
   products: [
-    { sku: "男士主题马克杯", skuEn: "Men's Day Mug", category: "gift", costRange: "¥6-12", priceRange: "£6.99-8.99", margin: "约45-55%", matchScore: 4, riskLevel: "中", riskNote: "陶瓷易碎", keywords: ["mens day mug","men gift","man mug"], sourcing: "1688: 男士马克杯" },
+    { sku: "男士主题多功能收纳袋", skuEn: "Mens Multipurpose Pouch", category: "gift", costRange: "¥6-12", priceRange: "£6.99-8.99", margin: "约45-55%", matchScore: 4, riskLevel: "中", riskNote: "陶瓷易碎", keywords: ["travel pouch", "toiletry bag", "gadget organizer"], sourcing: "1688: 男士马克杯" },
     { sku: "胡须护理套装", skuEn: "Beard Care Kit", category: "gift", costRange: "¥10-18", priceRange: "£8.99-9.99", margin: "约40-50%", matchScore: 3, riskLevel: "中", riskNote: "化妆品类需成分合规", keywords: ["beard kit","beard care","mens grooming"], sourcing: "1688: 胡须护理套装" },
     { sku: "幽默领带/袜子", skuEn: "Funny Novelty Socks", category: "apparel", costRange: "¥5-10", priceRange: "£6.49-8.49", margin: "约45-55%", matchScore: 4, riskLevel: "低", riskNote: "UK尺码", keywords: ["novelty socks","funny socks","mens socks"], sourcing: "1688: 搞怪袜子" },
     { sku: "多功能钥匙扣工具", skuEn: "Multi-tool Keychain", category: "home", costRange: "¥6-12", priceRange: "£6.99-8.99", margin: "约45-55%", matchScore: 5, riskLevel: "低", riskNote: "轻小件实用", keywords: ["keychain tool","multi tool","edc keychain"], sourcing: "1688: 钥匙扣工具" },
@@ -1265,7 +1265,7 @@ const FESTIVALS = [
     { sku: "圣诞袜(悬挂装饰)", skuEn: "Christmas Stocking Set", category: "decor", costRange: "¥5-10", priceRange: "£6.49-8.49", margin: "约50-55%", matchScore: 5, riskLevel: "低", riskNote: "常规品类", keywords: ["christmas stocking","hanging stocking","xmas decor"], sourcing: "1688: 圣诞袜" },
     { sku: "圣诞主题礼品袋套装", skuEn: "Christmas Gift Bags Set", category: "gift", costRange: "¥6-12", priceRange: "£6.99-8.99", margin: "约50-55%", matchScore: 5, riskLevel: "低", riskNote: "刚需高销量", keywords: ["gift bags","christmas bags","present bags"], sourcing: "1688: 圣诞礼品袋" },
     { sku: "圣诞主题包装纸套装", skuEn: "Christmas Wrapping Paper Set", category: "gift", costRange: "¥6-12", priceRange: "£6.99-8.99", margin: "约50-55%", matchScore: 5, riskLevel: "低", riskNote: "刚需", keywords: ["wrapping paper","christmas wrap","gift wrap"], sourcing: "1688: 圣诞包装纸" },
-    { sku: "圣诞主题马克杯套装", skuEn: "Christmas Mug Set", category: "home", costRange: "¥10-18", priceRange: "£8.99-9.99", margin: "约40-50%", matchScore: 4, riskLevel: "中", riskNote: "陶瓷易碎", keywords: ["christmas mug","xmas mug","festive cup"], sourcing: "1688: 圣诞马克杯" },
+    { sku: "圣诞主题杯垫套装(4件)", skuEn: "Christmas Coaster Set 4pcs", category: "home", costRange: "¥10-18", priceRange: "£8.99-9.99", margin: "约40-50%", matchScore: 4, riskLevel: "中", riskNote: "陶瓷易碎", keywords: ["christmas coaster", "festive table decor", "cork coaster"], sourcing: "1688: 圣诞马克杯" },
     { sku: "圣诞主题抱枕套", skuEn: "Christmas Pillow Cover", category: "home", costRange: "¥5-10", priceRange: "£6.49-8.49", margin: "约50-55%", matchScore: 5, riskLevel: "低", riskNote: "枕套非枕头", keywords: ["pillow cover","christmas pillow","xmas decor"], sourcing: "1688: 圣诞抱枕套" },
     { sku: "圣诞主题餐垫套装", skuEn: "Christmas Placemat Set", category: "home", costRange: "¥5-10", priceRange: "£6.49-8.49", margin: "约50-55%", matchScore: 4, riskLevel: "低", riskNote: "常规品类", keywords: ["christmas placemats","table decor","xmas dining"], sourcing: "1688: 圣诞餐垫" },
     { sku: "圣诞主题餐具套装", skuEn: "Christmas Tableware Set", category: "home", costRange: "¥8-15", priceRange: "£7.99-9.99", margin: "约45-50%", matchScore: 4, riskLevel: "中", riskNote: "食品接触材质", keywords: ["christmas tableware","paper plates","party supplies"], sourcing: "1688: 圣诞餐具" },
