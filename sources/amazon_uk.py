@@ -183,8 +183,13 @@ _browseract_consec_fail = 0
 _blocked_hits = 0
 _total_hits = 0
 _consec_miss = 0          # 连续抓空次数
-_CONSEC_MISS_LIMIT = 5    # 连续 5 次抓空 → 判定封禁，本轮剩余请求只查缓存
+_CONSEC_MISS_LIMIT = 10   # 连续 10 次抓空 → 判定封禁（3% 成功率下仍可能误判，见下方重试）
+_RETRY_TIMES = 2          # 单 URL 抓空后的重试次数（间歇性风控下把 33% → 60%）
+_RETRY_WAIT = 2.0         # 重试间隔基准秒数（实际 2-4s 随机）
+_RETRY_BUDGET = 420       # 真实抓取+重试总时间预算（秒）：超预算只走缓存，保证 600s 内跑完
 _banned_this_round = False
+_round_start = 0.0        # 本轮扫描开始时间戳（重试预算用）
+_round_start = 0.0        # 本轮扫描开始时间戳，用于重试预算控制
 # 2026-10-23：抓取失败计数，用于整轮结束时判断是不是 IP 级封禁
 _blocked_hits = 0
 _total_hits = 0
@@ -288,6 +293,70 @@ def _cloakbrowser_fetch(url):
 
 
 CLOUDFLARE_WORKER_URL = "https://amazon-uk-proxy.liyuhong66.workers.dev/"
+
+def _curl_quick_fetch(url, timeout=15):
+    """只走快通道（curl 直连 + curl_cffi），不碰浏览器。用于重试。
+    返回 HTML 或 None。"""
+    # 1) 原生 curl 直连
+    try:
+        r = requests.get(url, timeout=timeout, headers={
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
+                          '(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'Accept-Language': 'en-GB,en;q=0.9',
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+        })
+        if r.status_code == 200 and len(r.text) > 50000:
+            print(f"  curl quick OK (len={len(r.text)})", file=sys.stderr)
+            return r.text
+    except Exception:
+        pass
+
+    # 2) curl_cffi（浏览器指纹）
+    try:
+        from curl_cffi import requests as cffi
+        r = cffi.get(url, impersonate='chrome', timeout=timeout,
+                     headers={'Accept-Language': 'en-GB,en;q=0.9'})
+        if r.status_code == 200 and len(r.text) > 50000:
+            print(f"  curl_cffi quick OK (len={len(r.text)})", file=sys.stderr)
+            return r.text
+    except Exception:
+        pass
+
+    return None
+
+
+def _is_continue_page(html):
+    """判断是否为 Amazon 的 "Continue shopping" 中间页（非真 captcha，可提交表单通过）。"""
+    if not html or len(html) > 20000:
+        return False
+    return 'Continue shopping' in html or 'weiter einkaufen' in html.lower()
+
+
+def _bypass_continue_page(html, url, session=None):
+    """从 Continue shopping 页提取表单参数并提交，返回目标页 HTML。"""
+    import re as _re
+    form = _re.search(r'<form[^>]*action="([^"]*)"[^>]*>(.*?)</form>', html, _re.S)
+    if not form:
+        return None
+    action, body = form.group(1), form.group(2)
+    action = action.replace('&amp;', '&')
+    if action.startswith('/'):
+        action = 'https://www.amazon.co.uk' + action
+    params = _re.findall(r'<input[^>]*name="([^"]*)"[^>]*value="([^"]*)"', body)
+    data = {k: v.replace('&amp;', '&') for k, v in params}
+    try:
+        from curl_cffi import requests as _c
+        r = _c.post(action, data=data,
+                    impersonate='chrome',
+                    headers={'Accept-Language': 'en-GB,en;q=0.9',
+                             'Referer': url},
+                    timeout=25)
+        if r.text and len(r.text) > 20000:
+            return r.text
+    except Exception:
+        pass
+    return None
+
 
 def _curl_fetch(url):
     """Fetch a page with curl, forcing GBP. Falls back to curl_cffi → CloakBrowser → BrowserAct."""
@@ -467,11 +536,12 @@ def _parse_amazon_page(html, category, channel_type):
 
 def fetch(max_per_channel_type=5):
     """Fetch Amazon UK data from New Releases and BSR."""
-    global _blocked_hits, _total_hits, _consec_miss, _banned_this_round
+    global _blocked_hits, _total_hits, _consec_miss, _banned_this_round, _round_start
     _blocked_hits = 0
     _total_hits = 0
     _consec_miss = 0
     _banned_this_round = False
+    _round_start = time.time()
     all_products = []
     seen_asins = set()
 
@@ -528,7 +598,7 @@ def fetch(max_per_channel_type=5):
     # Fetch URLs with rate limiting — serialized via lock + cache
     def _fetch_one(item):
         global _browseract_circuit_open, _browseract_consec_fail, _blocked_hits, _total_hits
-        global _consec_miss, _banned_this_round
+        global _consec_miss, _banned_this_round, _round_start
         category, channel_type, url = item
 
         # Serialize: only one Amazon request at a time (true sequential delay)
@@ -546,10 +616,28 @@ def fetch(max_per_channel_type=5):
                 print(f"  skip {category}/{channel_type}: 本轮判定封禁，跳过真实请求", file=sys.stderr)
                 return (category, channel_type, [])
 
+            # 剩余预算不够一次完整抓取（最坏 ~40s）→ 只查缓存，不硬上
+            _elapsed = time.time() - _round_start
+            if _elapsed > _RETRY_BUDGET:
+                print(f"  budget out {category}/{channel_type}: 跳过真实抓取", file=sys.stderr)
+                return (category, channel_type, [])
+
             # Random delay 2-5 seconds between each real request
             time.sleep(random.uniform(2, 5))
 
             html = _curl_fetch(url)
+            # 间歇性风控：抓空后重试。只重试「快通道」（curl/curl_cffi ~3s），
+            # 不重试 CloakBrowser（单次 30s 超时，重试纯烧时间且大概率同样超时）
+            for _attempt in range(_RETRY_TIMES):
+                if html:
+                    break
+                if time.time() - _round_start > _RETRY_BUDGET:
+                    break
+                time.sleep(random.uniform(_RETRY_WAIT, _RETRY_WAIT * 2))
+                html = _curl_quick_fetch(url)   # 只走 curl + curl_cffi，不碰浏览器
+                if html:
+                    print(f"  retry ok {category}/{channel_type}: 第{_attempt + 2}次成功", file=sys.stderr)
+                    break
             if not html:
                 _total_hits += 1
                 _blocked_hits += 1
