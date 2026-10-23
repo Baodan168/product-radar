@@ -13,7 +13,7 @@ Usage:
     python3 season_engine.py --keywords       # current seasonal keywords
     python3 season_engine.py --json           # JSON output
 """
-import json, sys
+import json, re, sys
 from datetime import datetime, timedelta
 from pathlib import Path
 
@@ -342,6 +342,26 @@ def _build_event_date(event, reference_year):
     return dt
 
 
+
+def _norm_event_name(name):
+    """节日名归一化：去 emoji/装饰符号/空白/大小写差异，用于同日同名去重。"""
+    if not name:
+        return ""
+    # 只留中英文数字
+    core = re.sub(r"[^0-9A-Za-z\u4e00-\u9fff]", "", name)
+    core = core.lower()
+    # 常见别名归一
+    alias = {
+        "halloween": "万圣节", "christmas": "圣诞节", "blackfriday": "黑色星期五",
+        "valentines": "情人节", "valentinesday": "情人节", "valentinstag": "情人节",
+        "bonfirenight": "篝火节", "bonfire": "篝火节",
+        "blackfridaycybermonday": "黑色星期五", "blackfriday": "黑色星期五", "黑五": "黑色星期五",
+        "boxingdaypostchristmas": "节礼日", "boxingday": "节礼日", "节礼周": "节礼日",
+        "newyearseve": "跨年夜", "newyearsday": "跨年夜",
+    }
+    return alias.get(core, core)
+
+
 def get_upcoming_events(days_ahead=90):
     """Get upcoming UK seasonal events within the specified window.
 
@@ -420,7 +440,12 @@ def get_upcoming_events(days_ahead=90):
                 continue
             
             # Skip if already in upcoming (from UK_EVENTS)
+            # 2026-10-23 修：原来只比对 (date, name) 精确串，'Halloween' 与 '🎃 万圣节'
+            # 名字不同就双双上榜（门户出现两条万圣节）。改为同日 + 归一化名字去重。
             if (f_date_str, f.get("name", "")) in existing_dates:
+                continue
+            if any(e["date"] == f_date_str and _norm_event_name(e["event_name"]) == _norm_event_name(f.get("name", ""))
+                   for e in upcoming):
                 continue
             
             deadlines = get_deadlines(f)
