@@ -1,0 +1,130 @@
+{
+  "date": "2026-10-26",
+  "updated_at": "2026-10-26T08:20:00+08:00",
+  "scan_date": "2026-10-26",
+  "scan_time": "08:20",
+  "summary": "扫描源：Amazon UK Best Sellers/Movers&Shakers + TikTok UK(#tiktokmademebuyit/#amazonfinds) + 1688供应链验证。本轮5个推荐全部为14天内未推的新品类（is_new=True 5/5，已重复0），覆盖圣诞装饰/亲子手工/宠物礼赠三线，全部非电子轻小件、空运10-15天可接。另有约10个候选因与14天内已推品类同族（烘焙工具/蜡烛配件/礼品包装/倒数日历填充/暖气件）或触碰液体/电子红线被过滤。价格带£5.99-9.99，空运下单死线集中10/31-11/2。",
+  "trend_forecast": "未来4-8周（11/23-12/21）为UK全年需求最高峰，围绕圣诞倒数与年末礼赠展开。① 11/23-12/6圣诞装饰冲刺周：圣诞树挂件/窗贴/墙面装饰进入搜索峰值（TikTok 'amazon winter must haves'周搜索一周+1061%至23万次，'halloween decorations 2026'曾达93万次/周验证装饰类需求量级），空运下单死线11/2（窗口开始日11/23倒推3周），过线即错过装饰高峰，本周内应锁定窗贴/毛毡树/纸链等轻小装饰并于10/31前下单；② 12/1倒数日历开启：儿童手工活动包、圣诞倒数场景SKU需求跳升（TikTok Shop UK周报显示倒数日历类GMV周+11%），死线11/10，活动/手工类需11/10前入仓，否则只能吃后半段流量；③ 12/8-12/21最后一波Secret Santa与圣诞聚会：£10内低价礼品急速放量，派对小件、宠物圣诞装备、餐桌配件为方向，空运死线11/24（12/15前到货），此后坚决不补圣诞货；④ 12/14-12/21窗口内提前布局1月『新年整理+健身』：TikTok 10月数据显示'amazon laundry must haves'+88%、'amazon school must haves'+95%，清单类内容常年有效，抽屉收纳格、真空压缩袋、跳绳/阻力带（非电子）1月搜索爆发，空运10-15天口径下12/8前下单可12/22-1/6到货，抢占1月第1-2周；⑤ 12/25起留意情人节（2/14）备货：情侣小礼品/桌面装饰方向，1月上旬为下单死线，本轮仅作观察不打分。所有空运时效统一按10-15天，死线均已倒推3周缓冲。",
+  "insights": [
+    {
+      "keyword": "christmas window clings double sided decor",
+      "keyword_cn": "圣诞窗花静电贴双面套装",
+      "amazon_keyword": "christmas window gel clings snowflake stickers set",
+      "search_1688": "圣诞静电窗贴 双面 窗花贴",
+      "demand_signals": [
+        "TikTok单周'halloween decorations 2026'搜索93万次居全站第一，节日装饰为最大需求池，圣诞接棒（TokConnect 2026-10-08）",
+        "'amazon winter must haves'周搜索一周+1061%至23.2万次，冬季装饰清单内容爆发且现存视频全是往年旧内容，2026版竞争真空（TokConnect 2026-10-08）",
+        "UK窗面装饰传统强：双面静电贴无胶不留痕，适配英国租房/玻璃门场景，1688双面静电贴供给成熟（Amazon UK Home&Kitchen榜单结构观察 2026-10-26 + 1688搜索验证）"
+      ],
+      "trend_score": 78,
+      "trend_direction": "up",
+      "reason": "圣诞窗贴是UK家庭年末强制消费场景，双面款对单面款是明确升级差异；TikTok冬季清单搜索刚刚爆发、2026版内容真空期正是新品卡位窗口",
+      "action": "027测品：20件空运试单，£6.99定价6-8张大张套装；1688搜'圣诞静电窗贴 双面'；下单死线10/31，11/10-15到货上架赶11月下旬装饰高峰；估算毛利≈£3.5/件(50%)",
+      "competition": "诚实评估：该细分无头部品牌垄断，多数listing评论300-1500条，价格带£4.99-9.99；可打£6.99中位+大张数差异化，风险是季节窗口仅6-8周",
+      "signal_scores": {
+        "trend": 78,
+        "gap": 70,
+        "profit": 75,
+        "final": 75,
+        "recommendation": "buy",
+        "profit_window": "7-9周（至12月中旬，圣诞后归零）"
+      }
+    },
+    {
+      "keyword": "felt christmas tree kids diy wall",
+      "keyword_cn": "儿童毛毡圣诞树墙面DIY套装",
+      "amazon_keyword": "felt christmas tree kids wall decorations ornaments set",
+      "search_1688": "毛毡圣诞树 儿童 DIY 挂饰",
+      "demand_signals": [
+        "#tiktokmademebuyit为2026-10-19英国趋势标签第一，7.436亿次观看，儿童玩具开箱是其高互动子类（DiscoTok 2026-10-19）",
+        "圣诞亲子活动需求提前启动：TikTok Shop UK倒数日历类GMV周+11%（z.media 2026-10-04），倒数+亲子手工双场景叠加",
+        "可重复粘贴玩法适配幼儿家庭客厅墙面装饰刚需，1688毛毡树套装供给成熟¥8-15/套，空运单件仍有利（1688搜索验证 2026-10-26）"
+      ],
+      "trend_score": 85,
+      "trend_direction": "up",
+      "reason": "亲子圣诞DIY是圣诞倒数季内容型品类（有展示性、易出内容），头部款评论数高但每年节日款洗牌快，配件数量/名字定制是清晰差异化切口",
+      "action": "027测品：20件空运，£9.99定价（30+配件+姓名贴定制差异化）；1688搜'毛毡圣诞树 儿童DIY'；下单死线10/31，11/16前上架避开头部低价款；估算毛利≈£4.8/件(48%)",
+      "competition": "诚实评估：头部listing评论数千条、价格下探£7.99，属中等偏挤赛道；必须做配件数+定制差异并抢11月中前上架，纯跟卖无机会",
+      "signal_scores": {
+        "trend": 85,
+        "gap": 55,
+        "profit": 75,
+        "final": 76,
+        "recommendation": "buy",
+        "profit_window": "6-8周（至12月中旬）"
+      }
+    },
+    {
+      "keyword": "christmas paper chains making kit",
+      "keyword_cn": "圣诞纸链手工拉花套装",
+      "amazon_keyword": "christmas paper chains making kit kids craft",
+      "search_1688": "圣诞纸拉花 纸链 手工",
+      "demand_signals": [
+        "英式传统DIY装饰回归：省钱+亲子活动双驱动，与Halloween装饰93万次/周搜索验证的手工装饰需求同源（TokConnect 2026-10-08）",
+        "#tiktokmademebuyit UK第一标签下craft/DIY内容持续有流量（DiscoTok 2026-10-19），纸链制作过程天然适配短视频展示",
+        "1688纸拉花/纸链¥5-9/套供给成熟，200条装+贴纸组合空运轻（~180g），UK站该细分卖家少（Amazon UK搜索结构观察 2026-10-26）"
+      ],
+      "trend_score": 72,
+      "trend_direction": "up",
+      "reason": "cost-of-living环境下£7.99 DIY装饰替代£15+成品拉花，且是与挂饰、彩灯错位的『动手参与』型圣诞品类，英国本土卖家供给薄",
+      "action": "007测品：20件空运，£7.99定价200条装+连接贴纸；1688搜'圣诞纸链 手工拉花'；下单死线10/31，11/15前上架；估算毛利≈£4.2/件(53%)",
+      "competition": "诚实评估：低-中竞争，多为多品类杂牌在卖、无专精品牌；风险是单价低天花板有限，适合测品不适合放量主力",
+      "signal_scores": {
+        "trend": 72,
+        "gap": 78,
+        "profit": 72,
+        "final": 74,
+        "recommendation": "buy",
+        "profit_window": "7-9周（至12月中旬）"
+      }
+    },
+    {
+      "keyword": "christmas dog squeaky toys plush 2 pack",
+      "keyword_cn": "圣诞宠物发声玩具2件装",
+      "amazon_keyword": "christmas dog squeaky toys plush pack 2",
+      "search_1688": "宠物圣诞发声玩具 毛绒",
+      "demand_signals": [
+        "#tiktokmademebuyit UK第一标签（DiscoTok 2026-10-19），宠物开箱/反应类视频是该标签高互动常青子类",
+        "圣诞礼赠需求提前启动：TikTok Shop UK榜单显示非美妆品类圣诞内容周环比增长（z.media 2026-10-04），宠物是圣诞礼赠增速最快的子场景之一",
+        "宠物类目佣金仅5% vs 家居8%，同售价下利润结构性占优（Amazon UK佣金结构 2026-10-26）"
+      ],
+      "trend_score": 80,
+      "trend_direction": "up",
+      "reason": "宠物圣诞礼物是UK年末刚需且每年款式全换，老链接优势弱化、新款每年都有机会；2件装£9.99叠加5%佣金毛利空间全场最佳",
+      "action": "007测品：30件空运（宠物5%佣金），£9.99定价2件装+加厚绒布/铃铛差异化；1688搜'宠物圣诞发声玩具'；下单死线10/31，11/15前上架；估算毛利≈£5.0/件(50%)",
+      "competition": "诚实评估：头部圣诞狗玩具listing评论500-3000条，Frisco等品牌存在但节日款年年洗牌；中等竞争，差异在面料耐咬度与造型设计",
+      "signal_scores": {
+        "trend": 80,
+        "gap": 55,
+        "profit": 80,
+        "final": 76,
+        "recommendation": "buy",
+        "profit_window": "7-8周（至12月中旬）"
+      }
+    },
+    {
+      "keyword": "christmas wreath hanger over door",
+      "keyword_cn": "圣诞花环门后无痕挂钩",
+      "amazon_keyword": "christmas wreath hanger over door adjustable",
+      "search_1688": "圣诞花环挂钩 门后 无痕",
+      "demand_signals": [
+        "花环是UK门面装饰强制品类，挂钩是花环必配配件，销售峰值11月下旬（Amazon UK Best Sellers节日装饰结构观察 2026-10-26）",
+        "'amazon winter must haves'周搜索+1061%（TokConnect 2026-10-08），冬季门口装饰清单内容爆发带动配件搜索",
+        "仅~150g落在FBA最低运费档，8%佣金下仍有~49%毛利率（UK Small Standard费率估算 2026-10-26）"
+      ],
+      "trend_score": 68,
+      "trend_direction": "stable",
+      "reason": "功能性配件需求稳定、每年复购，可加长可调+防刮门条是轻差异；绝对毛利低，适合027跑流程练手而非放量",
+      "action": "027观察单：仅1款20件，£5.99定价加长可调款（含防刮软垫）；1688搜'圣诞花环挂钩 门后'；下单死线11/2；估算毛利≈£2.9/件(49%)，跑通流程再考虑放量",
+      "competition": "诚实评估：低-中竞争、头部评论数百条，但价格战下限£4.99且产品无护城河，仅作补充位",
+      "signal_scores": {
+        "trend": 68,
+        "gap": 70,
+        "profit": 62,
+        "final": 67,
+        "recommendation": "watch",
+        "profit_window": "6-8周（至12月中旬）"
+      }
+    }
+  ]
+}
