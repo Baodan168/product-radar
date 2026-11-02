@@ -1,0 +1,110 @@
+{
+  "date": "2026-11-02",
+  "updated_at": "2026-11-02 08:25:00",
+  "scan_date": "2026-11-02",
+  "scan_time": "08:25",
+  "summary": "今日4个机会，覆盖4个主品类：厨房工具(肉汁分离壶)×1、圣诞卡夹展示×1、派对烘焙耗材(甜点锥形袋)×1、圣诞灯饰配件×1。全部通过14天去重：新品3/复扫1(light clips上次推送9/29,间隔34天,现处安装窗口)。全部为非电子轻小件，重量≤200g可控，利润率32-38%。已部署OA门户。",
+  "insights": [
+    {
+      "keyword": "gravy fat separator jug 1 litre plastic",
+      "keyword_cn": "油汤分离壶/肉汁分离壶(1L塑料底部放水款)",
+      "amazon_keyword": "gravy fat separator jug 1 litre plastic",
+      "search_1688": "油汤分离壶 塑料 底部放水 1L 刻度 出口",
+      "demand_signals": [
+        "OXO 1L £24.00、7.6K评论、Amazon's Choice、近月400+单——品类需求被大锚点验证(Amazon UK搜索结果)",
+        "Ideal Home 11月 roast dinner season 专文推荐该类油分离壶，媒体热度正处峰值(idealhome.co.uk 2025-11)",
+        "Food & Wine 把 fat separator 列为秋季烹饪升级单品，英美同步季节性(foodandwine.com)",
+        "站内£10-16中价位段竞品评论数仅4-455条且多条≤3.5★(漏液差评)，供给质量弱——品牌与白牌之间有空位"
+      ],
+      "trend_score": 85,
+      "trend_direction": "up",
+      "reason": "圣诞烤肉季从11月持续到12/25，肉汁制作是刚需场景；OXO £24把价格锚拉高，£11.99的可靠白牌有明显价格优势；中价位现有竞品差评集中在阀门漏液，选带硅胶阀测试报告的供应商即可卡位。",
+      "action": "027店测品首发，定价£11.99，首批50-80件空运小批量。1688采购关键词「油汤分离壶 塑料 底部放水 1L」，要求供应商提供阀门开合测试。节奏：11/07前下单首批(赶11/20前上架卡黑五前流量)，主力批次赶12/07晚餐第二波、死线11/14。",
+      "competition": "头部OXO 7.6K评/£24一枝独秀；中价位Ibili £10.85(455评4.2★)、不锈钢款£14.99(仅12评)；£12-20区间多个新品评论4-53条且有2.2★-3.6★劣质供给。品牌集中度高但中价位供给弱，白牌可靠款可切入。",
+      "signal_scores": {
+        "trend": 85,
+        "gap": 78,
+        "profit": 80,
+        "final": 81,
+        "recommendation": "strong_buy",
+        "profit_window": "11/05-12/22 圣诞晚餐季,12/07-12/20为峰值"
+      }
+    },
+    {
+      "keyword": "christmas card holder display hanger string pegs",
+      "keyword_cn": "圣诞卡片展示挂夹(木牌+麻绳+木夹套装)",
+      "amazon_keyword": "christmas card holder display hanger string pegs",
+      "search_1688": "圣诞卡片展示架 木牌麻绳夹子套装 出口",
+      "demand_signals": [
+        "CAMOSE 40夹+麻绳款£8.99上架即4.5★/14评快速起量(Amazon UK在售数据)",
+        "Kiiwah 30夹款£6.99积累389评4.4★,证明该品类长青有量(Amazon UK)",
+        "木牌挂板款仅10评且3.8★——展示格式供给弱,差异化空位(Amazon UK)",
+        "UK寄卡传统:12月第一波寄卡周(12/01前后)前检索集中走高,Royal Mail last posting日驱动"
+      ],
+      "trend_score": 80,
+      "trend_direction": "up",
+      "reason": "英国家庭圣诞收卡后需要展示，现有竞品集中在纯夹子+绳的简陋形态；带 Merry Christmas 木牌挂板+双绳+24夹的完整套装在£8.99价位几乎没有强竞品，正好卡在CAMOSE(£8.99纯夹)与£34.99站立梯架(20评3.8★)之间。",
+      "action": "007店上架，定价£8.99，套装=木牌挂板+2根1.4m麻绳+24印花木夹，整体控重≤250g。1688采购关键词「圣诞木牌卡片夹麻绳展示架」。节奏：11/08前下单，11/25前上架，赶12/01寄卡周。",
+      "competition": "纯夹子+绳形态已拥挤(Kiiwah 389评领跑,白牌多)；木牌/挂板展示形态弱(10评3.8★、£34.99梯架20评)——用套装差异化切入，避免与纯夹款正面价格战。",
+      "signal_scores": {
+        "trend": 80,
+        "gap": 70,
+        "profit": 72,
+        "final": 74,
+        "recommendation": "buy",
+        "profit_window": "11/25-12/20 寄卡展示季,12/01第一波为峰值"
+      }
+    },
+    {
+      "keyword": "christmas sweet cones cello treat bags kit",
+      "keyword_cn": "圣诞甜点锥形袋(印花雪梨纸+扎带+标签套装)",
+      "amazon_keyword": "christmas sweet cones cello treat bags kit",
+      "search_1688": "圣诞锥形甜点袋 印花雪梨纸 配扎带 出口",
+      "demand_signals": [
+        "EchoTik Week43榜单:AI购物视频爆款集中在毛绒/家居/低客单强视觉小件,派对烘焙耗材正对内容电商转化模型(AMZ123/ EchoTik经heycross报道)",
+        "TikTok Shop UK黑五战役11/03-30全程内容带#TikTokMadeMeBuyIt流量扶持,低客单烘焙耗材吃内容红利(kolvant.com 2026-10-27)",
+        "UK学校圣诞fair/bake sale在11月底-12月集中,自制甜点礼赠是刚需场景(UK校园日历)",
+        "站内同类白牌£4-7且评论普遍两位数,无强品牌——可做印花套装差异化(Amazon UK)"
+      ],
+      "trend_score": 75,
+      "trend_direction": "up",
+      "reason": "12月自制甜点礼赠(sweet cones)在英国家庭和学校场景爆发，但目前站内供给是零散素色袋；25支印花锥形袋+扎带+空白标签的成品套装定价£7.99，把DIY场景打包，客单和转化都优于单卖素袋。",
+      "action": "027店测品，定价£7.99(25支套装)，首批60-80件。1688采购关键词「圣诞锥形甜点袋 印花雪梨纸 配扎带」。节奏：11/08前下单，11/25前上架，吃12月第一周到12/18烘焙礼赠峰值。",
+      "competition": "素色/透明款白牌多但评论普遍<200、无品牌集中；印花成品套装竞品少。壁垒低是主要风险——用印花设计+套装组合建立差异，轻小件试错成本低。",
+      "signal_scores": {
+        "trend": 75,
+        "gap": 58,
+        "profit": 80,
+        "final": 68,
+        "recommendation": "buy",
+        "profit_window": "11/25-12/18 学校fair+家庭烘焙季"
+      }
+    },
+    {
+      "keyword": "christmas light clips gutter outdoor string hooks",
+      "keyword_cn": "圣诞彩灯挂钩(免工具树脂夹/檐槽款)",
+      "amazon_keyword": "christmas light clips gutter outdoor string hooks",
+      "search_1688": "圣诞彩灯挂钩 免工具树脂夹 灯串夹 出口",
+      "demand_signals": [
+        "LED蜡烛灯类已冲进Amazon UK Best Sellers榜(Best Sellers 4星品类页),节日灯饰装点周启动",
+        "TikTok Shop UK周报早在9月就确认圣诞SKU提前入场,Q4采购行为整体前移(z.media 9/20周报)",
+        "UK灯光安装高峰在11/20-30(Advent 12/01前),挂钩是装灯第一步的必买件",
+        "上次推送为9/29(间隔34天,超出14天去重线),当时逻辑是提前备货,现在进入实际安装窗口"
+      ],
+      "trend_score": 82,
+      "trend_direction": "up",
+      "reason": "11月中下旬是英国家庭挂灯高峰，挂钩单价低+决策快+易组合(30支/50支装)。上次推送时是备货逻辑，现在是销售窗口本身；用多角度双钩款+50支装差异化，避开单钩25支的低价白牌带。",
+      "action": "007店复扫加推，定价£7.99(50支双钩装)，首批80-100件。1688采购关键词「圣诞彩灯挂钩 免工具树脂夹」。节奏：11/06前下单(安装高峰11/20-30，空运10-15天，过11/06赶不上峰值前置量)。",
+      "competition": "头部为白牌聚集区，25支装£3-6价格带评论数百级；双钩/多角度款与50支装供给相对少。竞争中等偏挤，靠装载数量与角度差异化，不做最低价。",
+      "signal_scores": {
+        "trend": 82,
+        "gap": 60,
+        "profit": 70,
+        "final": 70,
+        "recommendation": "buy",
+        "profit_window": "11/20-12/22 灯饰安装+圣诞季,11/20-30为峰值"
+      }
+    }
+  ],
+  "trend_forecast": "未来4-8周（11/30-12/28）为圣诞全档主力窗口，按空运10-15天+入仓上架≈3周倒推，各窗口最晚下单死线如下：① 11/30-12/13 最后一刻礼品与袜子填充小件——Royal Mail圣诞最后寄递日临近，secret santa与stocking filler检索在12月第一周见顶，£5.99-9.99轻小件（桌面小摆/迷你工具/趣味小物）最吃流量，最晚空运下单死线11/09；② 12/07-12/20 圣诞晚餐第二波——火鸡日前后roast工具与餐桌布艺补位，肉汁分离壶、餐巾环、餐桌小件在12月中旬复热，死线11/16；③ 12/14-12/27 Boxing Day预热与年末收纳——礼盒拆封后整理需求抬头，收纳盒袋类12月底转化走强（注：收纳主品类14天内已推过，进场须换差异化格式），死线11/23；④ 12/21-1/3 跨年派对档——NYE气球与派对装点在12/26-1/1集中爆发，foil数字气球为方向，但该品10月底已推，须换新设计或组合款进场，死线11/30；⑤ 12/28-1/10 January reset——新年计划本、冰箱日历、整理与清洁重置是固定流量（magnetic calendar 2027已于10/21推送，复推须换格式），死线12/07；⑥ 12/07-1/20 冬季寒潮响应窗——寒潮拉动保暖/热敷/门窗保温类需求，hand warmers与hot water bottle已多次推送，建议转向未做过的保暖细分（非电款如保温杯套、暖桌毯夹），12月窗口死线11/16、1月窗口死线12/07。黑五11/27在窗口起点之前，备货死线已过，不再作为本轮预测标的。"
+}
