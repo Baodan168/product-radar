@@ -1,0 +1,112 @@
+{
+  "date": "2026-11-03",
+  "updated_at": "2026-11-03 08:40:00",
+  "scan_date": "2026-11-03",
+  "scan_time": "08:40",
+  "summary": "今日4个机会，覆盖4个主品类：户外喂鸟(挂式脂球喂鸟器)×1、蜡烛护理工具(3合1套装)×1、睡眠用品(3D立体遮光眼罩)×1、桌游卡牌(派对填袜游戏)×1。全部通过14天去重：新品4/复扫0。全部为非电子轻小件，重量≤190g可控，利润率39-42%。黑五周窗口死线11/03已到线，只推荐有长尾窗口的品类。已部署OA门户。",
+  "insights": [
+    {
+      "keyword": "hanging suet ball bird feeder weatherproof set",
+      "keyword_cn": "挂式脂球喂鸟器套装(铁艺防锈+悬挂链，2-4球装)",
+      "amazon_keyword": "hanging suet ball bird feeder weatherproof set",
+      "search_1688": "铁艺脂球喂鸟器 悬挂式 防松鼠 脂肪球 出口现货",
+      "demand_signals": [
+        "RSPB官方喂鸟季11/1-4/30刚启动：11月起建议投喂种子/花生/脂球，官方页面明确冬季投喂指引(rspb.org.uk)",
+        "Big Garden Birdwatch 2027定档1/29-31、12/9开放注册，2026年65万人参与——1月检索高峰有明确事件锚点(birdguides.com)",
+        "价格落差大：中国出口批发价US$0.61/个(千件起,Global Sources)，欧美零售单球款$17.99——白牌利润空间充足",
+        "TikTok冬季 garden watching 内容热度上升，喂鸟器属冬季庭院常青品类(TikTok UK冬季家居内容观察)"
+      ],
+      "trend_score": 82,
+      "trend_direction": "up",
+      "reason": "UK冬季喂鸟是刚需季节性需求，RSPB喂鸟季11/1启动+1月Birdwatch事件把检索面拉到4个月长坡；球式喂鸟器比平板鸟桌更受RSPB推荐(防病)，2-4球多球装+铁链形态在£9.99价位竞品稀疏，天然避开美国大件喂鸟站(超重超尺寸)的红线。",
+      "action": "007店测品首发，定价£9.99(2球装，2球+2链条≤190g)。1688采购关键词「铁艺脂球喂鸟器 悬挂式 防锈」，要求提供盐雾测试报告。节奏：11/10前下单首批60件空运，11/28前上架卡12月冬季高峰+1月Birdwatch检索。补充：4球装版本留作1月复购款评估。",
+      "competition": "UK站suet ball/cage feeder以白牌为主，单球款£5-9评论100-800条；RSPB自营款不在Amazon主流供给内。多球+链套装形态竞争弱，但品类整体认知度高无需教育——切入风险低，差异化靠防锈涂层与防松鼠网眼设计。",
+      "signal_scores": {
+        "trend": 82,
+        "gap": 70,
+        "profit": 78,
+        "final": 77,
+        "recommendation": "buy",
+        "profit_window": "11/25-4/30 喂鸟季,12月-1月Birdwatch为峰值"
+      }
+    },
+    {
+      "keyword": "candle wick trimmer snuffer dipper gift set",
+      "keyword_cn": "蜡烛护理3合1工具套装(剪芯器+灭烛罩+蘸芯钩，礼盒装)",
+      "amazon_keyword": "candle wick trimmer snuffer dipper gift set",
+      "search_1688": "蜡烛剪芯器 灭烛罩 三件套 礼盒 不锈钢 电镀",
+      "demand_signals": [
+        "Candlesnuffers类目BS前30里有3款3合1套装常驻，RONXS 3合1 £12.99/5,578评为类目头部(Amazon UK Best Sellers)",
+        "2款蜡烛暖灯(Candle Warmer Lamp)同日冲进Home & Kitchen Movers & Shakers——蜡烛生态大盘热(Amazon UK M&S 11/03)",
+        "价格断层：单件工具£3.99-4.99 vs RONXS套装£12.99，中间£8-10套装带礼盒区间近乎真空(Amazon UK类目扫描)",
+        "UK独立蜡烛品牌配套卖£14套装(Thistle & Wick 2026 collection)——礼赠场景有溢价共识"
+      ],
+      "trend_score": 80,
+      "trend_direction": "up",
+      "reason": "圣诞季蜡烛是UK礼赠刚需，护理工具是蜡烛买家的天然加购；类目里单件低价款(评论<400)与RONXS一家独大之间有£9.99礼盒装空位。不锈钢三件套约160g、礼盒20×8×4cm，完全符合轻小件红线。注意：不做带灯/电的热熔蜡烛暖灯(电子件红线)，只做纯五金工具。",
+      "action": "027店测品首发，定价£9.99(3合1礼盒装，黑色或金色二选一先测黑)。1688采购关键词「蜡烛剪芯器 灭烛罩 三件套 礼盒」，要求电镀层均匀无毛刺。节奏：黑五死线11/03当日已到线——今日内下单可赶上黑五，否则按11/10死线走12/01-07圣诞礼赠窗口，12/15前上架。",
+      "competition": "RONXS £12.99/5,578评一家独大，单件工具£3.99-4.99评论84-367条且形态分散；£8.99-9.99礼盒装竞品评论多<120条。品牌集中但价格带空位明确，礼盒包装是唯一差异化杠杆——包装成本+£0.3换£3溢价。",
+      "signal_scores": {
+        "trend": 80,
+        "gap": 62,
+        "profit": 76,
+        "final": 73,
+        "recommendation": "buy",
+        "profit_window": "11/10-12/25 圣诞礼赠季,黑五-12/20为峰值"
+      }
+    },
+    {
+      "keyword": "3d contoured sleep mask light blocking",
+      "keyword_cn": "3D立体遮光睡眠眼罩(记忆棉鼻翼贴合款，含耳塞)",
+      "amazon_keyword": "3d contoured sleep mask light blocking",
+      "search_1688": "3D立体睡眠眼罩 记忆棉 遮光 鼻翼 现货 跨境",
+      "demand_signals": [
+        "Glamour 2026圣诞袜填充清单把sleep mask列为推荐品类——礼赠场景背书(glamourmagazine.co.uk 10/26)",
+        "TikTok Shop 11月榜单冬季健康/睡眠类gadget霸榜——sleep economy正处内容热度期(astools.app 2026-11报告)",
+        "10月底UK clocks back后夜长昼短，冬季遮光/助眠需求进入传统爬坡期(UK季节性规律)",
+        "义乌购现货¥6.9-7.5(71g含包装、包装29×9.5×2.5cm、库存5000+)、盒装+耳塞组合版¥7.5起——供应链现成且轻(yiwugo.com)"
+      ],
+      "trend_score": 76,
+      "trend_direction": "up",
+      "reason": "睡眠眼罩是冬季+圣诞礼赠双驱动的小件：71g、包装薄如纸，物流成本几乎忽略；£9.99定价对着¥7成本有40%+利润。差异化打「3D立体不压眼+附赠耳塞」组合，避开纯平面款红海。风险点：平价款多，必须用立体款+礼盒拉开。",
+      "action": "322店上架(清货店节奏款，快速测真实转化)，定价£9.99(立体眼罩+耳塞+收纳袋三件礼盒)。1688采购关键词「3D立体睡眠眼罩 记忆棉 遮光 现货」，直接拿盒装+耳塞组合版。节奏：11/10前下单首批80件空运，11/28前上架，主力吃12/15-21末班车礼品周+1月sleep economy。",
+      "competition": "UK站3D眼罩竞品£6-13密集，头部Mzoo类款评论数千；但£9-10价位带耳塞+收纳袋的礼盒组合少。品牌集中度中等，白牌为主——纯平面款勿碰，立体+配件组合是唯一切口，利润按40%规划可承受小量广告测款。",
+      "signal_scores": {
+        "trend": 76,
+        "gap": 66,
+        "profit": 80,
+        "final": 74,
+        "recommendation": "buy",
+        "profit_window": "11/28-1/31 冬季助眠+礼赠,12/15-1/5为峰值"
+      }
+    },
+    {
+      "keyword": "family party card game stocking filler",
+      "keyword_cn": "家庭派对卡牌桌游(圣诞袜填充/旅行便携款)",
+      "amazon_keyword": "family party card game stocking filler",
+      "search_1688": "卡牌桌游 OEM 印刷 铁盒 家庭派对 承接亚马逊",
+      "demand_signals": [
+        "Amazon官方Toys We Love 2026榜单£10以下前两名全是卡牌游戏(Flip 7 £8.90、UNO Liar's £9.51)——平台亲自押注该价格带(independent.co.uk 11/02)",
+        "Travel & Pocket Games类目BS被£8.50-12.99卡牌游戏霸榜，Big Potato Chameleon 3,665评/£9.99验证£9.99有量(Amazon UK类目)",
+        "5 Second Rule Football Mini新品£8.50仅46评即入BS——新品在该类目有爬坡通道(Amazon UK)",
+        "圣诞家庭聚会+stocking filler双场景，12月检索每年规律性冲顶(Amazon UK季节性)"
+      ],
+      "trend_score": 75,
+      "trend_direction": "up",
+      "reason": "Amazon把£9左右卡牌游戏放进年度官方榜单，说明平台流量愿意该价格带；Travel & Pocket Games类目新品仅需几十评即可入BS，爬坡通道通畅。风险在内容:卡牌游戏是内容品不是标品，需OEM现成规则(参考经典玩法换皮)不能自创——这是把该条从buy降到watch的原因。",
+      "action": "027店谨慎测品：先让1688供应商提供现成OEM卡牌玩法清单(印刷+铁盒/纸盒约¥6-8/套)，选1款经市场验证的派对玩法，勿自创规则。定价£8.99，套装≤150g。节奏：12/01-07窗口，死线11/10前下单100件，12/08前上架赶家庭聚会季；若找不到靠谱现成玩法供应商则放弃本轮，等1月旅行场景再看。",
+      "competition": "头部全是有IP/设计能力的品牌(Big Potato/Mattel/Orchard)，白牌只能做「玩法换皮」但差评集中在规则模糊——内容风险高于实体品。类目新品爬坡快是利好，但review护城河同样是品牌方的，诚实评级watch：内容找对就buy，找不到就pass。",
+      "signal_scores": {
+        "trend": 75,
+        "gap": 58,
+        "profit": 82,
+        "final": 70,
+        "recommendation": "watch",
+        "profit_window": "12/01-12/24 圣诞聚会季,12/10-12/23为峰值"
+      }
+    }
+  ],
+  "trend_forecast": "未来4-8周（11/24-12/28）UK需求窗口预测，空运时效统一按10-15天、死线=窗口开始日倒推3周（21天）：① 11/24-30黑五周：£10内礼品堆叠小件（蜡烛护理套装、卡牌桌游）是黑五凑单主力，消费者按「多买一件凑免邮」逻辑扫£6-10商品；死线11/03当日——今日未下单的品类直接放弃该窗口，不再补追。② 12/01-07圣诞晚餐+冬季喂鸟双高峰：烤肉器具类（昨日已推油汤分离壶）进入第二波，挂式喂鸟器需求爬坡启动，且RSPB Big Garden Birdwatch 12/9开放注册将进一步拉动喂鸟类检索；死线11/10。③ 12/08-14寄卡展示+蜡烛生命周期中段：UK寄卡周后家庭需要卡片展示方案，蜡烛护理工具随蜡烛消耗进入复购场景，桌面卡牌游戏被家庭聚会场景拉动；死线11/17。④ 12/15-21末班车周：£10内last-minute礼物（3D眼罩、桌游、小五金工具套装）检索冲顶，Royal Mail圣诞前最后寄递日推动「arrive before Christmas」类搜索，这是圣诞礼赠品类最后的空运下单窗口；死线11/24，过线只能海运或放弃今年。⑤ 12/22-28跨年档：NYE派对道具（数字铝膜气球、派对装饰——10/23已推过铝膜数字气球，须换新形态）与Boxing Day后收纳整理品类启动；死线12/01，但圣诞当日履约风险高，只做轻量跨年场景款。1月方向预警：健身减脂季+睡眠经济（眼罩/耳塞/遮光类，10/22已推过Loop式耳塞须换形态）+喂鸟季延续至4月，建议12月上旬提前布局1月SKU。",
+  "exclusions": "今日排除：蜡烛暖灯/充电打火机款（电子件红线）、颈部按摩膏/护手霜类（body care红线）、立体眼罩电加热款（USB/电池）、大件木质喂鸟站（超重超尺寸）、平板鸟桌喂食台（RSPB建议弃用形态，差评风险）。",
+  "dedup_note": "新品4/复扫0。14天窗口内已推品类（38条）逐一比对：喂鸟器/蜡烛工具/眼罩/卡牌桌游均未出现。相关但不同形态的已推品：Loop耳塞(10/22)、铝膜数字气球(10/23)、旅行压缩袋(10/28)——本轮均未重复推荐，1月方向预警中已标注需换形态。"
+}
