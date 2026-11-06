@@ -1,0 +1,135 @@
+{
+  "date": "2026-11-06",
+  "updated_at": "2026-11-06T08:10:00+08:00",
+  "scan_date": "2026-11-06",
+  "scan_time": "08:10",
+  "summary": "本次扫描Amazon UK Best Seller/Movers & Shakers/Hot New Releases + TikTok UK突破榜(transclipper/trenz 11-05)+britainslist 11-02周榜，通过14天去重后保留5个方向：冬季暖气反射膜(能源账单话题3日新热)、挂门折叠厨余袋架(本周英国病毒榜#1)、双层数据线收纳包(TikTok出行收纳)、厨房烤肉棉线(圣诞烤禽季)、磁吸指环支架(礼品季配件)。全部符合非电子/轻小件/£5.99-12.99约束；1688价格验证：理线收纳类已锚定(¥0.2-3.6)，其余为经验估价需下单前核实。",
+  "insights": [
+    {
+      "keyword": "radiator heat reflector foil",
+      "keyword_cn": "暖气片热反射铝箔膜（贴墙回热保温膜）",
+      "amazon_keyword": "radiator heat reflector foil roll self adhesive",
+      "search_1688": "暖气片反射膜 铝箔背胶 出口英标裁切",
+      "demand_signals": [
+        "Netmums 2026-11-03专题报道暖气反射膜热潮，引用Which?与Energy Saving Trust背书（来源：netmums.com 11-03）",
+        "TikTok上Which?官方剪辑视频带动'£8 sheet behind radiators'话题扩散（来源：netmums转引TikTok）",
+        "UK能源账单持续高企，11月起供暖季进入高峰，冬季保温类目连续4周出现在英国病毒榜（来源：britainslist/transclipper 11月榜）",
+        "Amazon UK Electric Heating类Best Seller前十被取暖器占满，其非电周边(反射膜/挡风条)为自然缺口（来源：Amazon UK Best Sellers 11-06扫描）"
+      ],
+      "trend_score": 78,
+      "trend_direction": "up",
+      "reason": "11月3日英国媒体刚引爆该话题，属于'话题刚起、Amazon在售款少且差评集中（裁切不服帖）'的短窗口；同类draught excluder已被推荐过但反射膜是独立子类，冬季1月前需求持续走强。",
+      "action": "027测款店首发（20件空运小批量），定价£8.99（5㎡自裁切卷+贴条+量尺卡）。1688采购关键词'暖气片反射膜背胶铝箔'，经验价¥4-7/卷需核实。节奏：11/13前完成空运下单（空运10-15天+入仓上架≈3周，赶上12月初寒潮峰值搜索）。卖点是省燃气费，A+页放Which?引用。",
+      "competition": "Amazon UK在售约10-20个listing，头部为Radflek/Polydome等老牌，review 300-1500条但多为套装价£15-25；£8.99单卷低价带直接竞争者少（约3-4家，review<100），品牌集中度中等，可用低价+小卷差异化切入。",
+      "signal_scores": {
+        "trend": 78,
+        "gap": 72,
+        "profit": 74,
+        "final": 75,
+        "recommendation": "buy",
+        "profit_window": "11月-次年1月供暖季"
+      }
+    },
+    {
+      "keyword": "folding kitchen bin door hang",
+      "keyword_cn": "挂门折叠厨余垃圾袋支架（厨房台面边角料收纳架）",
+      "amazon_keyword": "over cupboard door folding kitchen scrap bag holder",
+      "search_1688": "挂门式厨房垃圾袋支架 折叠 厨余 收纳架 出口",
+      "demand_signals": [
+        "britainslist 2026-11-02周榜英国病毒Amazon单品#1（来源：britainslist.co.uk 11-02更新）",
+        "该周榜说明其来源为Reddit/TikTok/Instagram病毒视频聚合（来源：britainslist选择说明）",
+        "圣诞大餐季临近，厨余(削皮/骨头)产生量全年峰值，家庭烹饪场景11-12月搜索走强（来源：季节性判断+本周榜）",
+        "小厨房/出租屋人群(英国大量无厨余桶公寓)刚需，TikTok #kitchenhacks类内容长期高互动（来源：TikTok UK标签观察）"
+      ],
+      "trend_score": 72,
+      "trend_direction": "up",
+      "reason": "本周刚登顶英国病毒榜#1，处于话题上升期且Amazon在售款以塑料折叠桶为主（250g+），轻量铁丝款（≤200g）是空运可达的空白位；圣诞烹饪季未来4-8周正是需求窗口。",
+      "action": "007测品增长店上架（可承接量更大），定价£7.99（2只装铁丝折叠款，附20个垃圾袋）。1688采购关键词'挂门垃圾袋支架折叠'，经验价¥2-4/只（参考本周理线类义乌件价水平）需核实。节奏：11/15前空运下单，12月初入仓接圣诞大餐季。",
+      "competition": "Amazon UK塑料折叠厨余桶约30+listing，头部review 500-3000条（Silodo/Foraineam等），价格£8-16；铁丝轻量袋架款仅5-8家、多数review<150，竞争集中在大件塑料款，轻量款缺口明显。",
+      "signal_scores": {
+        "trend": 72,
+        "gap": 68,
+        "profit": 70,
+        "final": 70,
+        "recommendation": "buy",
+        "profit_window": "11月-1月圣诞烹饪季"
+      }
+    },
+    {
+      "keyword": "cable organiser travel pouch",
+      "keyword_cn": "双层拉链数据线电子产品收纳包",
+      "amazon_keyword": "double layer cable organiser pouch travel electronics",
+      "search_1688": "数据线收纳包 双层 拉链 EVA 出口英国 跨境",
+      "demand_signals": [
+        "britainslist 11-02周榜#4'Double-Layer Tech Organiser Bag'在售周榜（来源：britainslist.co.uk）",
+        "TikTok旅行收纳类内容(what's in my bag/packing hacks)Q4出行季持续破圈（来源：transclipper 11月家居出行类目观察）",
+        "1688数据线/理线配件已验证为成熟供应链：相关理线器¥0.04-3.6/件、线材保护绳¥0.5-0.9（来源：1688搜索11-06），包体成本可控",
+        "圣诞出行+新年假期返程双高峰，电子产品收纳为礼品化分类目，12月搜索峰值稳定（来源：季节性判断）"
+      ],
+      "trend_score": 65,
+      "trend_direction": "steady",
+      "reason": "非爆发但极其稳的冬季出行刚需，供应链在1688完全成熟、空运轻（空包约120g）；差异化靠双层+弹性绑带位+圣诞配色，避开单层通货。",
+      "action": "027测款店首发（小批量验证配色与弹力带设计），定价£8.99。1688采购关键词'双层数据线收纳包EVA'，经验价¥5-9/个需核实。节奏：11/16前空运下单，12月上旬入仓覆盖圣诞出行+新年礼品卡位。",
+      "competition": "Amazon UK同类约200+listing，竞争激烈属红海：头部BAGSMART等review 1万+；但£8.99双层带绑带细分位价格带仍有多家£6-10杂牌、review普遍<500，靠差异化结构+节日配色有机会，不追求算法完美，作为稳现金流补充。",
+      "signal_scores": {
+        "trend": 65,
+        "gap": 45,
+        "profit": 66,
+        "final": 58,
+        "recommendation": "watch",
+        "profit_window": "12月出行季+新年"
+      }
+    },
+    {
+      "keyword": "kitchen cooking twine",
+      "keyword_cn": "厨房棉线/烤肉捆扎绳（圣诞烤禽捆扎线）",
+      "amazon_keyword": "kitchen cooking twine cotton string for roasting",
+      "search_1688": "食品级棉线 烤肉绑绳 4卷装 出口",
+      "demand_signals": [
+        "Amazon UK Hot New Releases本周出现'200m Cooking String 4 Rolls'新品入榜（£3.99，11条review，来源：Amazon UK New Releases 11-06扫描）",
+        "圣诞烤火鸡/烤禽季临近，捆扎棉线为12月厨房刚需（英国圣诞大餐传统场景）",
+        "£3.99单卷定价低于£5.99价格带，说明当前在售款有打包升级空间（4卷+剪刀/存放轴装£7.99）",
+        "TikTok #christmasdinner准备类内容11月起爬坡（来源：transclipper/trenz 11月初节日内容占比观察）"
+      ],
+      "trend_score": 62,
+      "trend_direction": "up",
+      "reason": "新品刚进Hot New Releases说明类目有动销缺口；圣诞烤禽未来4-8周正是峰值，产品<100g空运成本几乎可忽略，是典型的轻小件高周转补充款。",
+      "action": "027测款店首发，定价£7.99（4卷装200m+绑扎钩+存放轴）。1688采购关键词'食品级棉线烤肉绳'，经验价¥1.5-3/卷需核实。节奏：11/15前空运下单，11月底-12月初入仓，赶12月烤禽采购周；圣诞后转常销厨房款不压库存。",
+      "competition": "Amazon UK在售约40-60个listing，头部KitchenCraft等review 1000+、多为£3-6单卷；4卷礼盒化装£7.99价位直接竞品<10家，品牌集中度低，评价竞争温和，靠打包价值感取胜。",
+      "signal_scores": {
+        "trend": 62,
+        "gap": 66,
+        "profit": 68,
+        "final": 65,
+        "recommendation": "buy",
+        "profit_window": "11月底-12月圣诞烤禽季"
+      }
+    },
+    {
+      "keyword": "magnetic phone ring holder",
+      "keyword_cn": "磁吸手机指环支架（MagSafe折叠指环扣）",
+      "amazon_keyword": "magnetic phone ring holder foldable stand magsafe",
+      "search_1688": "磁吸手机指环支架 magsafe 折叠 跨境",
+      "demand_signals": [
+        "britainslist 11-02周榜#7'Magnetic Phone Ring Holder(MagSafe)'在售周榜（来源：britainslist.co.uk）",
+        "iPhone 17系列新机换机潮带动MagSafe配件10-12月销售高峰（来源：Amazon UK电子配件Best Seller中Anker/iPhone 17配件占比观察）",
+        "TikTok手机配件类'goodbye popsocket'类对比视频持续产出（来源：transclipper 11月时尚配件类突破榜背景）",
+        "礼品季低价配件为stocking filler主赛道，£8.99恰好卡位（来源：季节性判断）"
+      ],
+      "trend_score": 58,
+      "trend_direction": "steady",
+      "reason": "新机潮+礼品季双驱动，但该品类属配件红海，只有靠磁吸强度实测数据+圣诞配色礼盒做出差异才值得小批量试，列为观察级。",
+      "action": "仅027测款店小批量试（15-20件），定价£8.99（2只装+圣诞配色）。1688采购关键词'磁吸指环支架magsafe折叠'，经验价¥2-5/个需核实，注意磁力需≥magsafe兼容实测。节奏：11/18前空运下单，12月上旬入仓；出单差则12月中旬即清，不留库存。",
+      "competition": "红海：Amazon UK同类500+listing，头部Anker/PopSockets及白牌矩阵review 1000-50000条，品牌集中度高；仅建议以2只装£8.99+节日包装切stocking filler位，不作主推， prioritise前4款资源。",
+      "signal_scores": {
+        "trend": 58,
+        "gap": 35,
+        "profit": 60,
+        "final": 50,
+        "recommendation": "watch",
+        "profit_window": "12月礼品季"
+      }
+    }
+  ],
+  "trend_forecast": "① 12月第1-2周（12/4-12/12，最晚空运下单死线11/13）：圣诞宴客厨房小件进入需求爬坡顶点。驱动事件=英国圣诞大餐采购周（火鸡/烤禽/烘焙），具体品类方向=烤肉棉线、烘焙量勺量杯轻量套装、蛋糕转台配件、厨房计时沙漏（非电子）等餐桌厨房周边；本次已推cooking twine卡的就是这个窗口，同方向剩余细分（烘焙裱花工具、餐桌防烫夹）仍可在死线前补位。② 12月第2-3周（12/11-12/25，死线11/20）：圣诞末段家庭聚会与stocking filler低价礼品位收口。驱动事件=last-minute gift搜索潮+Amazon 12月中旬配送截止恐慌下单，品类方向=£6-10礼包化小件：桌面小游戏、圣诞袜填充礼包、家庭纸牌/桌游轻量款（注意：11月已推过family party card game，须换细分如桌面冰球对打/沙包投掷迷你款）；这两个细分若11/20前没下单就放弃，过线=错过窗口。③ 12月第3周-1月初（12/18-1/3，死线11/27）：Boxing Day与新年过渡期。驱动事件= Boxing Day大促流量峰值+节后首次补货潮，品类方向=家居快消耗材（垃圾袋收纳架、清洁刮片、防滑垫类非电轻件），客单低但转化快，适合007店冲量；消耗品属性毛利薄，只做利润率≥25%的款。④ 1月第1-2周（12/25-1/8，死线12/4）：新年整理declutter与健康启动季。驱动事件=英国'new year new home'整理收纳搜索1月第1周达年峰值，品类方向=抽屉分隔格、衣柜折叠收纳盒、门后挂架（注意stretch lids/packing cubes为历史重复品类禁推）；健身启动方向可选无电子的弹力带/握力器，但 apparel化属性重、竞争强，建议只观察不动手。⑤ 1月寒潮高峰（12/28-1/8，死线12/4）：冬季保温类二次峰值。驱动事件=1月通常为英国全年最冷两周+1月能源账单账单焦虑二次发酵，品类方向=暖气反射膜（本次已推，1月前补货批次死线12/4）、窗户密封条升级款、门缝挡风加厚款（draught excluder 11月已推过，只能做加厚/加长差异化升级，不重复原款）；注意防冻类（水龙头罩/冰爪）11月已推，1月批次只补货不新增。整体节奏：11/13、11/20、11/27、12/4是四个空运下单死线，过线窗口一律不追，宁可留给下一轮春季品类。"
+}
