@@ -1,0 +1,130 @@
+{
+  "date": "2026-11-07",
+  "updated_at": "2026-11-07T08:25:00+08:00",
+  "scan_date": "2026-11-07",
+  "scan_time": "08:25",
+  "summary": "今日扫描Amazon UK Best Seller/Movers & Shakers + TikTok UK + 1688供应链，发现5个机会（全部为14天内未推的新品类，新品5/复扫0）。方向：冬季车用即时需求、TikTok持续热门宠物清洁、旅行安全、宠物喂食配件、厨房免打孔工具。价格带£5.99-12.99，全部非电子/无液体/≤200g/包装≤32×22×6cm，可空运。",
+  "insights": [
+    {
+      "keyword": "car ice scraper with fleece glove",
+      "keyword_cn": "车用除雪铲保暖手套（冰刮手套二合一）",
+      "amazon_keyword": "car ice scraper with fleece glove windscreen",
+      "search_1688": "车用除雪铲手套 冰刮防冻手套",
+      "demand_signals": [
+        "Amazon UK Ice Scrapers类目Best Seller持续满员，Diaocare刮冰手套£8.99上月售出700+件、4.6星300+评论并持续攀升（来源：Chronicle Live 2026-11报道+Amazon UK类目榜）",
+        "Movers & Shakers Automotive板块本周多款冬季车用品上榜，冬季汽车养护是11-12月确定性季节峰值（来源：Amazon UK Movers & Shakers Automotive实时榜）",
+        "英国12月-1月霜冻天早晨除冰为每周刚需场景，'cold hands刮冰'痛点催生手套款溢价：同款裸刮铲£2.99，手套款£6.64-8.99，溢价2-3倍（来源：Amazon UK Ice Scrapers Best Seller价格对比）"
+      ],
+      "trend_score": 82,
+      "trend_direction": "up",
+      "reason": "UK霜冻季刚刚开始（11月中旬进入高频霜冻），Amazon Ice Scrapers类目已满榜且手套款是溢价最高的细分形态；现在空运下单正好卡在12月霜冻高峰前上架，错过则吃不到季末利润。",
+      "action": "推007/027测试：定价£8.99（手套+刮铲一体，加厚TPU刮片）；1688搜'车用除雪铲手套'，目标采购价¥5-7，双款（黑/红）首单各30件共60件空运；节奏截止期：最晚11/14下单，12/5前入仓。",
+      "competition": "类目头部被Sakura/AA/Goodyear裸刮铲占据（2000-2600评论、£2.99-6.49低价），手套细分竞争温和：Simply ICE003仅384评论£6.64、Diaocare 300+评论£8.99、Maypole 349评论£7.99。无绝对垄断品牌，差异化点=防水加绒+刮片可拆。诚实风险：季节品1月后清仓压力。",
+      "signal_scores": {
+        "trend": 82,
+        "gap": 58,
+        "profit": 78,
+        "final": 72,
+        "recommendation": "buy",
+        "profit_window": "2026-11-25 ~ 2027-01-31（霜冻季）"
+      }
+    },
+    {
+      "keyword": "reusable pet hair remover roller",
+      "keyword_cn": "宠物除毛滚筒（可重复使用双头滚刷）",
+      "amazon_keyword": "reusable pet hair remover roller for carpets",
+      "search_1688": "宠物除毛滚筒双头 猫狗毛清理神器 可水洗",
+      "demand_signals": [
+        "TikTok #CleanTok ChomChom同款累计50M+ views，'fur chamber revealed'视频形态自带传播性，英国养宠家庭渗透高（来源：trendsicle 2026 TikTok榜单+BuzzFeed TikTok好物榜）",
+        "1688'宠物除毛器'近30天搜索热度环比+67%，义乌宠物清洁品类出口30亿规模，供给端持续升温（来源：1688热搜榜/掉毛季爆单指南2026-05）",
+        "冬季室内关窗掉毛更明显，替换粘毛纸滚筒是耗材复购品，双头滚筒无耗材属性客单价更高（来源：1688滚筒粘毛器批发页¥0.6-5.3价格带验证）"
+      ],
+      "trend_score": 75,
+      "trend_direction": "up",
+      "reason": "TikTok持续热度+冬季掉毛室内场景+1688供给成熟，是典型'品牌平替'机会：ChomChom £25+定价，平替£7.99-9.99仍有30%+溢价空间且评论壁垒低。",
+      "action": "推027测试：双头装定价£9.99（ChomChom平替卡位）；1688搜'宠物除毛滚筒双头'，目标¥5-6/个×2；首单40件空运；节奏截止期：11/18前下单，12/10前入仓（卡圣诞送礼+冬季掉毛双场景）。",
+      "competition": "ChomChom为品牌标杆（高定价），平替端Amazon UK有多个1-3k评论的generic款£7-11，头部集中度中等；差异化点=双头+可水洗+附收纳盒。注意避开带'ChomChom'字样的关键词防品牌侵权。",
+      "signal_scores": {
+        "trend": 75,
+        "gap": 62,
+        "profit": 82,
+        "final": 74,
+        "recommendation": "buy",
+        "profit_window": "2026-11-25 ~ 2027-02-28（全年常青，冬季加强）"
+      }
+    },
+    {
+      "keyword": "portable travel door lock",
+      "keyword_cn": "旅行便携防盗门锁（免打孔304钢）",
+      "amazon_keyword": "portable travel door lock hotel security 2 pack",
+      "search_1688": "便携防盗门锁 304不锈钢 免打孔酒店门锁",
+      "demand_signals": [
+        "Addalock原版£16.61累计15,871评论且稳居DIY类目畅销，AceMining同款$11.99累计23,725评论——旅行安全是长期验证的大需求池（来源：Amazon UK/Det.页面实时数据）",
+        "TikTok旅行安全内容（solo female travel safety）持续是英国女性旅行者热门话题，便携门锁是推荐清单常客（来源：Wired 2025-11 TikTok礼物榜安全品类收录）",
+        "双只装/三只装是新进入者的标准打法：BORISCA 3只装带收纳袋打法即为此类，说明打包差异化有空间（来源：Amazon UK搜索结果页产品形态）"
+      ],
+      "trend_score": 70,
+      "trend_direction": "flat",
+      "reason": "需求池巨大且全年常青，头部品牌溢价高（Addalock £16.61 vs 1688成本£0.9），平替带2只装£8.99有明确价格锚点；圣诞-新年出行季（12月中下旬家庭探亲+新年旅行）正好是12月小需求峰。",
+      "action": "推007测试：2只装+收纳袋定价£8.99（对标Addalock一半价）；1688搜'便携防盗门锁304不锈钢'，目标¥4-5/只，需先核价确认（本轮未直接抓到1688实价，采购前必询）；首单30件；截止期11/21下单12/12前入仓，卡圣诞出行季。",
+      "competition": "Addalock（15.9k评论）+AceMining（23.7k评论）评论壁垒高，generic端£6.66-8.99已有数款；差异化=双只装+调节螺母适配不同门缝+附门缝卡尺说明卡。诚实风险：产品形态同质化严重，需靠listing场景词（hotel/Airbnb/dorm）突围。",
+      "signal_scores": {
+        "trend": 70,
+        "gap": 55,
+        "profit": 75,
+        "final": 66,
+        "recommendation": "buy",
+        "profit_window": "全年常青，12/15-1/02出行季加强"
+      }
+    },
+    {
+      "keyword": "cat food can lid covers spoon set",
+      "keyword_cn": "猫罐头硅胶密封盖+勺套装",
+      "amazon_keyword": "silicone cat food can lid covers spoon set",
+      "search_1688": "猫罐头硅胶盖 密封盖勺套装 宠物罐头保鲜盖",
+      "demand_signals": [
+        "1688该品类头部工厂回头率56-72%、好评率99%+，2.3万+件销量验证，属于'精细养宠'趋势下的高频复购小件（来源：1688猫罐头保鲜工具批发页2026-09数据）",
+        "UK约1200万只宠物猫、湿粮喂养比例高，'开罐剩半罐'是每日痛点，硅胶盖+勺二合一在美国市场已验证（Amazon US多款1k+评论），UK端竞品密度低（来源：Amazon类目横向对比）",
+        "宠物类目佣金仅5%（vs 家居8%），且产品60g以内、包装扁平，FBA费用与空运头程都是全品类最低档（来源：Amazon UK佣金表+产品物理属性）"
+      ],
+      "trend_score": 65,
+      "trend_direction": "up",
+      "reason": "UK宠物经济精细化趋势明确，该细分在UK的竞品密度显著低于美区，属于'美区验证、UK补位'的经典打法；2只/3只装£6.99定价对应1688成本不到£0.6，利润率结构极好。",
+      "action": "推027测试：3件套（2盖+1勺）定价£6.99；1688搜'猫罐头硅胶盖勺套装'，目标¥1.5-2/套；首单50件（轻小件空运成本极低）；截止期11/18下单12/8前入仓，圣诞前蹭宠物礼物搜索流量。",
+      "competition": "Amazon UK该细分头部款评论多在300-800区间，无垄断品牌；美国市场已验证需求但UK竞品少。差异化=食品级硅胶色卡+盖勺分离+多尺寸适配（67-99mm罐径）。诚实风险：客单价低，需靠组合装提升单件经济性。",
+      "signal_scores": {
+        "trend": 65,
+        "gap": 70,
+        "profit": 80,
+        "final": 70,
+        "recommendation": "buy",
+        "profit_window": "全年常青"
+      }
+    },
+    {
+      "keyword": "under cabinet jar bottle opener",
+      "keyword_cn": "橱柜底部免打孔开瓶开罐器",
+      "amazon_keyword": "under cabinet jar bottle opener kitchen gadget",
+      "search_1688": "橱柜开罐器 免打孔开瓶器 拧盖神器",
+      "demand_signals": [
+        "BuzzFeed TikTok好物榜收录同款'under-cabinet jar opener'，用户评论'Saw it on TikTok'，属CleanTok/KitchenTok长尾常青款（来源：BuzzFeed TikTok-Famous Products榜单#16）",
+        "UK老龄化+关节炎人群大，'拧不开瓶盖'痛点使该品类全年搜索稳定，无季节性断崖（来源：品类横评文章+Amazon US多款常青款验证）",
+        "1688同类免打孔开罐器¥2-4供货区间，不锈钢+PP结构，80g以内，物流成本全档最低（来源：1688厨房小工具供给端常识价带，采购前需实价核验）"
+      ],
+      "trend_score": 60,
+      "trend_direction": "flat",
+      "reason": "不是爆发型趋势而是稳定长尾需求，适合作为店铺填充SKU平滑出单；圣诞备餐季（12月）家庭开罐开瓶频率上升会带来一次小峰，现在备货时间刚好。",
+      "action": "推007填充：单只定价£5.99（2只装£9.99）；1688搜'橱柜开罐器免打孔'，目标¥2-3/只；首单40件；截止期11/21下单12/12前入仓，卡圣诞备餐流量。",
+      "competition": "Amazon US头部款1k+评论但UK端竞品密度中等，多为£6-9杂牌；差异化=加厚不锈钢+3档齿距适配大小瓶盖+附安装定位贴纸。诚实风险：search热度不爆发，出单斜率平缓，靠多SKU铺量。",
+      "signal_scores": {
+        "trend": 60,
+        "gap": 65,
+        "profit": 70,
+        "final": 64,
+        "recommendation": "watch",
+        "profit_window": "全年常青，12月小峰"
+      }
+    }
+  ],
+  "trend_forecast": "未来4-8周（12/05-01/08）UK需求窗口预测：① 第4-5周（12/05-12/19）圣诞送礼+冬季霜冻双峰叠加：礼品小件（pet喂食套件、厨房小工具、旅行安全双件装）进入礼物搜索高峰，冬季车用（刮冰手套、非喷雾除冰工具）随12月第一波强霜冻天气冲量——这两条线都是'最后窗口'，错过12月初的入仓节点就只能清仓价陪跑。最晚空运下单死线：12/05窗口起点倒推3周＝死线11/14；② 第6周（12/15-12/22）圣诞备餐+出行季：厨房免打孔开罐器（备餐开罐频率上升）、便携门锁（圣诞探亲+新年出行住宿）出现确定性小峰，同时圣诞礼物尾程补货需求集中在'£10以下小礼物'，双头宠物除毛滚筒、猫罐头盖套装可蹭pet lover gift流量；最晚死线12/05窗口起点对应补货单死线＝11/28（按空运10-15天+入仓上架3周口径倒推）；③ 第7-8周（12/22-01/08）Boxing Day+新年：12/26-01/02是全年折扣最狠的窗口，新品不建议硬刚折扣品，但新年'January reset'家居整理需求（收纳分格、除毛清洁、防盗安全）从1/1开始爬坡，1月第1周霜冻高峰让刮冰手套进入季末最后一段高转化期——1月上旬是这批冬季品的清仓+续单分界点，卖得好则续单，卖不动则1月中启动清仓；最晚死线：1/02窗口起点倒推＝12/12，此后只做返单不做新品首单。空运时效统一按10-15天+入仓上架≈3周口径：所有上述死线均已按'窗口开始日-3周'倒推，过线窗口不再列入采购计划。"
+}
