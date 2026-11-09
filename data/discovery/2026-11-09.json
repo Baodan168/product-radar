@@ -1,0 +1,111 @@
+{
+  "date": "2026-11-09",
+  "updated_at": "2026-11-09T08:30:00+08:00",
+  "scan_date": "2026-11-09",
+  "scan_time": "08:30",
+  "summary": "今日扫描Amazon UK Best Sellers（Ear Plugs/Party Balloons/Dryer Balls/Windscreen Covers类目）+ TikTok UK 11月病毒榜（HaulRadar、BuzzFeed 42件榜、PrimeVoucher圣诞爆款榜）+ 1688/义乌购供应链比价。共评估6个方向，2个因硬约束淘汰（磁吸挡风玻璃防霜罩重量300-500g超200g红线且头部评论1k-8k条；羊毛烘干球3只装即256g超重），最终推荐4个合规机会：Loop耳塞平替（TikTok圣诞爆款榜）、硅胶提菜器（BuzzFeed 11月病毒榜Click & Carry）、NYE手动气球打气筒、2027数字铝膜气球。全部非电子、≤200g、符合包装红线，且均通过14天品类去重（与已推的sleep mask/party card game/new year glasses/fillable baubles无同品类重叠）。",
+  "insights": [
+    {
+      "keyword": "silicone ear plugs for sleeping",
+      "keyword_cn": "硅胶防噪耳塞（7对装+收纳盒）",
+      "amazon_keyword": "silicone ear plugs for sleeping noise cancelling 7 pairs",
+      "search_1688": "硅胶耳塞 睡眠防噪 7对装 带收纳盒",
+      "demand_signals": [
+        "Loop Quiet 2为Amazon UK耳塞类#1 Best Seller，34,727条评论，售价£19.95，平替价格带 £4.95-7.99 活跃出货（来源：Amazon UK Ear Plugs Best Sellers榜，2026-11-09实扫）",
+        "平替款Macika硅胶耳塞7对装显示'2K+ bought in past month'，Amazon's Choice标（来源：Amazon UK产品页，2026-11-09）",
+        "Loop耳塞入选2026 UK TikTok圣诞爆款礼物清单（来源：PrimeVoucher 2026-11-06），叠加睡眠场景自带复购与礼赠属性",
+        "Knoxzy平替£5.99已有3,720条评论、SUPCEAT 15,595条评论，证明£5-8价格带市场被反复验证（来源：Amazon UK类目页）"
+      ],
+      "trend_score": 78,
+      "trend_direction": "up",
+      "reason": "Loop把'睡眠降噪耳塞'从医用耗材打成了生活方式单品并登上TikTok圣诞礼品榜，£19.95锚定价给£6-8平替留出清晰价值空间；头部品牌聚焦£15+高端，平替带集中度低（多为100-3.7k条评论的中小卖家），且1月'新年自我关怀/睡眠计划'话题会接续12月礼赠需求，窗口不止一波。",
+      "action": "027测品店首批20-30件空运测试，定价£7.99（7对装+便携盒，主打side sleeper/32dB卖点）。1688搜'硅胶耳塞 睡眠防噪 7对装'，目标采购价¥4-6/套。最晚空运下单死线11/16（赶上12月礼赠+ Boxing Day后1月睡眠话题），错过则等下一波1月中旬前补单（死线12/20）。",
+      "competition": "头部Loop品牌垄断高端（34.7k评论），但£5-8平替带高度分散：Knoxzy 3.7k / SUPCEAT 15.6k / 6对装彩色款18.5k / 多款<1k，无绝对头部平替品牌，差异化空间在7对装数量+收纳盒+side sleeper卖点。健康个护类佣金15%需计入。",
+      "signal_scores": {
+        "trend": 78,
+        "gap": 62,
+        "profit": 70,
+        "final": 70,
+        "recommendation": "buy",
+        "profit_window": "£7.99售价：VAT £1.33 + 佣金15% £1.20 + FBA Small £1.46 + 1688采购+头程约£1.10 + 广告10% £0.80 + 退货2% £0.16 ≈ 净利£1.94/件（约24%），月销500件估净利£970"
+      }
+    },
+    {
+      "keyword": "grocery bag carrier handle",
+      "keyword_cn": "硅胶购物袋提手/提菜器（2只装）",
+      "amazon_keyword": "silicone grocery bag carrier handle one trip gripper",
+      "search_1688": "硅胶提菜器 购物袋提手 防勒手",
+      "demand_signals": [
+        "Click & Carry杂货袋提手入选BuzzFeed 2026年11月'42件TikTok病毒产品'榜（来源：transclipper.ai 11月榜+HaulRadar UK追踪，2026-11实扫）",
+        "品牌版在Amazon UK卖£20.99仍被HaulRadar标记为TikTok家居类病毒在售，平替价格带完全空白（来源：HaulRadar 2026-11）",
+        "义乌购供应链极成熟：¥0.60-1.40/个、3000个起订、库存65万+，说明国内渠道已放量、跨境Copy尚未饱和（来源：义乌购933707924/953658781，2026-10/06更新）",
+        "英国冬季每周大采购（weekly shop）场景刚性，一只手拎全部购物袋的痛点视频在TikTok自然传播，无需教育"
+      ],
+      "trend_score": 82,
+      "trend_direction": "up",
+      "reason": "品牌版£20.99与义乌¥0.6-1.4货源地之间有近20倍价差，是典型'TikTok已验证需求、Amazon UK平替带未饱和'的结构；冬季购物袋更满更重（圣诞大采购12月中下旬），痛点放大的同时正好踩中4-8周需求窗口。",
+      "action": "007测品增长店首批30件空运测试，定价£6.99（2只装，食品级硅胶）。1688搜'硅胶提菜器 购物袋提手'，目标采购价¥1.5/对以内。最晚空运下单死线11/16（踩12月圣诞大采购峰值），首批跑通后12月初可二批补货（死线12/05）。",
+      "competition": "Amazon UK该关键词下品牌版Click & Carry一家独大（£20.99），£10以下平替listing少且评论多在两位数，是4个推荐中竞争最低的一条；风险是品类壁垒为零，爆了会快速被跟卖，需靠首批评论卡位。",
+      "signal_scores": {
+        "trend": 82,
+        "gap": 74,
+        "profit": 74,
+        "final": 76,
+        "recommendation": "buy",
+        "profit_window": "£6.99售价：VAT £1.17 + 佣金15% £1.05 + FBA £1.46 + 采购2只¥3+头程约£0.80 + 广告£0.70 + 退货£0.14 ≈ 净利£1.67/件（约24%）"
+      }
+    },
+    {
+      "keyword": "manual balloon pump dual action",
+      "keyword_cn": "手动双向气球打气筒（派对充气）",
+      "amazon_keyword": "manual balloon pump dual action hand inflator party",
+      "search_1688": "双向气球打气筒 手动 塑料",
+      "demand_signals": [
+        "Amazon's Choice手动款£5.99月售900+（762条评论），另一手动款3.6K评论月售800+，赛道稳定出货（来源：Amazon UK 'balloon pump'搜索页，2026-11实扫）",
+        "Party Balloons Best Sellers榜#2明确标注'New Years Eve Party Decorations'，NYE场景已被平台数据验证（来源：Amazon UK Party Balloons类目榜）",
+        "电动款垄断£9-13价格带但需插电，手动款£5.99-7.99是非电子红线下唯一承接款（来源：Amazon UK搜索页对比）",
+        "1688塑料打气筒供应链超成熟：单只¥0.5-2、14g/只、日销29万+件的源头款存在，双向款升级空间大（来源：1688/镜像站数据）"
+      ],
+      "trend_score": 70,
+      "trend_direction": "up",
+      "reason": "圣诞派对（12月中下旬）→跨年夜（12/31）连续两个派对峰值正好落在4-8周窗口内；手动双向款比页面常见单向款充气效率高一倍，是对现有£5.99款的直接升级卖点，且完全不碰电子红线。",
+      "action": "007测品增长店首批30件空运测试，定价£7.99（双向双嘴款）。1688搜'双向气球打气筒'，目标采购价¥3-5/支。最晚空运下单死线11/16（NYE 12/31倒推3周+上架缓冲），该窗口过线即不追，等明年生日派对常青需求。",
+      "competition": "头部手动款3.6K评论但价格带£5.99-7.99内listing数量适中，多数<100条评论；电动款虽评论多但不构成直接竞争。差异化点：双向气流+双嘴+附气球打结器。",
+      "signal_scores": {
+        "trend": 70,
+        "gap": 66,
+        "profit": 62,
+        "final": 66,
+        "recommendation": "buy",
+        "profit_window": "£7.99售价：VAT £1.33 + 佣金15% £1.20 + FBA £1.46 + 采购+头程约£1.05 + 广告£0.80 + 退货£0.16 ≈ 净利£1.99/件（约25%）"
+      }
+    },
+    {
+      "keyword": "2027 foil number balloons",
+      "keyword_cn": "2027数字铝膜气球（跨年装饰）",
+      "amazon_keyword": "2027 foil number balloons new year eve decorations",
+      "search_1688": "2027数字铝膜气球 32寸 跨年",
+      "demand_signals": [
+        "Amazon UK Party Balloons Best Sellers前5名全部为派对气球，#2为黑金配色明确标注NYE场景，跨年气球是榜单常青款（来源：Amazon UK类目榜，2026-11实扫）",
+        "2026-11-05已推的'2027新年眼镜'验证了NYE年份数字商品在UK的销售逻辑，铝膜气球是同场景的更大件互补品（来源：内部发现记录2026-11-05）",
+        "32寸数字铝膜气球1688货源¥1.5-3/只、可平折发货、单只重量<80g，完美符合轻小件红线（来源：1688气球类目常识价）",
+        "跨年庆祝是UK刚性仪式消费，12/26-12/31为下单峰值，平台此时常出现年份数字商品断码断货"
+      ],
+      "trend_score": 85,
+      "trend_direction": "up",
+      "reason": "纯季节性窄窗口：NYE需求每年12月最后一周爆发，'2027'字样今年独占、明年清零，先入仓者吃掉大部分自然单；与气球打气筒可捆绑销售互相导流。",
+      "action": "027测品店首批20-30件空运测试，定价£6.99（2027数字32寸2只装，黑金/银色）。1688搜'2027数字铝膜气球 32寸'，目标采购价¥2/只以内。⚠️最晚空运下单死线11/16，此品过线坚决不追——需求窗口一次性，错过=库存明年报废。可与打气筒组合'NYE kit'提客单。",
+      "competition": "NYE前'2027 balloons'关键词listing会快速增多但多为12月上旬才入仓的卖家，11月中入仓可抢首批评论与BSR卡位；数字气球无品牌粘性，拼的是入仓时间与组合装。",
+      "signal_scores": {
+        "trend": 85,
+        "gap": 78,
+        "profit": 60,
+        "final": 72,
+        "recommendation": "buy",
+        "profit_window": "£6.99售价：VAT £1.17 + 佣金15% £1.05 + FBA £1.46 + 采购2只+头程约£1.05 + 广告£0.70 + 退货£0.14 ≈ 净利£1.42/件（约20%），贴线但窗口短周转快"
+      }
+    }
+  ],
+  "trend_forecast": "① 12月第1-2周（12/07-12/20）圣诞采购收尾+大购物周：UK家庭圣诞大采购带来超市购物袋最重的两周，硅胶提菜器进入峰值前段；同时派对用品开始为圣诞聚会备货，手动气球打气筒自然单启动。两项最晚空运下单死线11/16，过线后入仓即错过峰值前段，只吃尾巴。② 12月第5-6周（12/26-12/31）跨年爆发：'2027'数字铝膜气球与打气筒组合需求在12/26-12/31集中爆发，是本批推荐中弹性最大的窗口，但同样一次性——铝膜气球死线11/16，过线坚决不追，2027字样库存1月1日起归零。③ 1月第1-2周（1/01-1/14）新年重启需求：'new year sleep plan'话题带动睡眠耳塞类目二次走强（Loop系产品历年1月评论增速高于12月，源于新年自我关怀 resolutions），1月中旬前补单死线12/20；同段'January reset'家居收纳/洗衣护理类搜索回暖，可关注护洗袋、洗衣球类轻小件作为下一批储备方向。④ 1月第2-4周（1/07-1/31）冬季用车深寒期：UK最冷时段通常在1月中下旬，防霜/除冰类车品需求二次抬头，但本批已验证头部挡风玻璃罩超重红线，轻量替代方向（折叠雪铲手套、后视镜防冻套类≤200g）值得12月初提前扫描，补单死线12/05。⑤ 贯穿判断：12/20后空运入仓只能吃1月常青需求，所有节日性SKU的死线纪律是11/16（NYE/圣诞峰值）与12/05（1月温和峰值）两档，过线即停，不再加单。",
+  "notes": "本次扫描排除项：磁吸挡风玻璃防霜罩（重量300-500g超200g红线+头部4.9K-8K评论）、羊毛烘干球（3只装256g超重+头部92K评论垄断）、open-flat化妆包（body care大类红线）。Movers & Shakers页面2026年春起长期为空，已用Best Sellers+第三方追踪源替代。"
+}
