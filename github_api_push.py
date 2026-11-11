@@ -158,8 +158,11 @@ if __name__ == '__main__':
         # 先按日期文件名过滤再取最近12个（2026-10-15 教训：目录里出现
         # *.json.bak 之类的多余文件时，字符串排序会把真实数据挤出窗口，
         # 导致当日修复静默漏推）。.bak 等非日期文件永远不占窗口名额。
+        # 2026-11-11 二次教训：正则原本不匹配带 _HHMM 时间后缀的实际文件名
+        # (2026-11-11_0850.json)，channels/history 从 10-15 起静默断供近一个月，
+        # 被前端月桶bug(默认显示整月旧数据)掩护。正则放宽为可选 _HHMM 后缀。
         all_files = [f for f in sorted(os.listdir(full))
-                     if re.match(r'\d{4}-\d{2}-\d{2}\.json$', f) or f.endswith(('.html', '.js'))]
+                     if re.match(r'\d{4}-\d{2}-\d{2}(_\d{4})?\.json$', f) or f.endswith(('.html', '.js'))]
         for f in all_files[-12:]:
             if not f.endswith('.json') and not f.endswith('.html') and not f.endswith('.js'):
                 continue
