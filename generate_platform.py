@@ -8,6 +8,7 @@ Both sections support date filtering.
 """
 
 import json
+import re
 import urllib.parse, sys, html as htmlmod, glob
 from datetime import datetime
 from pathlib import Path
@@ -163,9 +164,14 @@ def generate_platform_html(radar_all=None, discovery_all=None, output_path=None)
     radar_all = radar_all or {}
     discovery_all = discovery_all or {}
 
-    # Separate dates for radar and discovery
-    radar_dates = sorted(radar_all.keys(), reverse=True)
-    discovery_dates = sorted(discovery_all.keys(), reverse=True)
+    # Separate dates for radar and discovery。
+    # 2026-11-11 修复:只保留标准日键(YYYY-MM-DD)。_consolidate_past_months 会把
+    # 过去月份合并成 "YYYY-MM" 月桶,字符串排序里 "2026-10" > "2026-11-11"
+    # ('-'(45) < '0'(48)),月桶排到最前,页面默认打开就选中月桶
+    # (趋势119条/雷达214条,11-01起爆发)。
+    _day_re = re.compile(r'^\d{4}-\d{2}-\d{2}$')
+    radar_dates = sorted((k for k in radar_all.keys() if _day_re.match(k)), reverse=True)
+    discovery_dates = sorted((k for k in discovery_all.keys() if _day_re.match(k)), reverse=True)
     # Keep all_dates for backward compatibility
     all_dates = sorted(set(radar_dates + discovery_dates), reverse=True)
 

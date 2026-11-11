@@ -152,12 +152,15 @@ function safeUrl(u){
 // curDate 初始化为最近有雷达新品数据的日期（RADAR_DATES[0]）。
 // 2026-08-03 修复：原 DATES[0] 可能只有发现数据而无雷达数据（零新品日被
 // generate_platform.py 从 RADAR_DATES 过滤），导致雷达 tab 空白。
-let curDate = (RADAR_DATES.length ? RADAR_DATES[0] : DATES[0]) || '';
+// 2026-11-11 防御：只认标准日键。月桶键（"2026-10"）在字符串排序里大于所有
+// 日键（'-'(45) < '0'(48)），一旦混入 DATES 会把默认视图切成整月汇总。
+const isDayKey = k => /^\d{4}-\d{2}-\d{2}$/.test(k);
+let curDate = (RADAR_DATES.filter(isDayKey)[0] || DATES.filter(isDayKey)[0]) || '';
 let curTab = 'discovery';
 
 // ===== Date Picker (unified) =====
 const picker = document.getElementById('datePicker');
-const ALL_DATES = [...new Set([...DISC_DATES, ...RADAR_DATES])].sort().reverse();
+const ALL_DATES = [...new Set([...DISC_DATES, ...RADAR_DATES])].filter(isDayKey).sort().reverse();
 
 function initDatePicker(dates, selectElem) {
   selectElem.innerHTML = '';
