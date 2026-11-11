@@ -10,7 +10,7 @@ from pathlib import Path
 sys.path.insert(0, os.path.expanduser("~/.hermes/scripts"))
 from selection_feishu import get_token, create_doc, push_post, push_link
 
-CHAT_ID = "oc_906e4db2810734d00495230b55f23711"
+CHAT_ID = "oc_1e2556e71cd8f4d5bec6f351d168e9ea"
 RADAR_DIR = Path(__file__).parent
 
 def find_latest_json():
