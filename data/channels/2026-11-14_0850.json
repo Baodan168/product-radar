@@ -1,0 +1,1501 @@
+{
+  "scan_date": "2026-11-14",
+  "scan_time": "08:50",
+  "scan_ts": "2026-11-14_0850",
+  "stats": {
+    "total_scanned": 308,
+    "passed_filter": 9,
+    "rejected": 286,
+    "channels": {
+      "hotukdeals": 3,
+      "keyword_search": 9,
+      "etsy_trending": 3,
+      "temu_trending": 3,
+      "tiktok_verified": 3,
+      "multi_source": 6,
+      "youtube_review": 2,
+      "event_product": 2
+    },
+    "detail_reject": {
+      "重量超标": 4,
+      "尺寸超标": 1
+    },
+    "theme_trimmed": [
+      {
+        "asin": "B0DX5KNKZ1",
+        "name": "2027 Calendar UK, Wall Calendar 2027 UK with Twin-Wire Binding, 37cm x 29cm | 12-Month Calendar from Jan. 2027 to Dec 20"
+      },
+      {
+        "asin": "B0H9YYZR34",
+        "name": "Sponsored Ad – 2027 Calendar Uk, 12 Festive Themes Wall Calendar 2027, 38x 29cm, Jan - Dec | Calendar 2027 Month to View"
+      },
+      {
+        "asin": "B0H5C1BTFW",
+        "name": "Sponsored Ad – SUNEE Funny Calendar 2027, 12 Months Animal Selfies Wall Calendar, Month to View Family Planner with UK H"
+      },
+      {
+        "asin": "B0G65W71ZX",
+        "name": "The Country Set' Family Calendar 2027"
+      },
+      {
+        "asin": "B0F89VZL4R",
+        "name": "2027 Calendar - 2027 Wall Calendar, Jan. 2027 - Dec. 2027, 12 Month to View Calendar, 37 x 29 cm, with Large Blocks, Hol"
+      }
+    ],
+    "trend_categories": {
+      "pets": 100,
+      "crafts": 100,
+      "lighting": 100,
+      "seasonal": 88,
+      "bedding": 88,
+      "garden": 88
+    },
+    "supply_demand": {
+      "pets": {
+        "ratio": 8.4,
+        "demand": 100,
+        "supply": 147144,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "kitchen": {
+        "ratio": 5.0,
+        "demand": 56,
+        "supply": 68991,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "kitchen_gadgets": {
+        "ratio": 0.4,
+        "demand": 5,
+        "supply": 68991,
+        "label": "🔴 红海",
+        "level": "red_ocean"
+      },
+      "car": {
+        "ratio": 0,
+        "demand": 70,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "crafts": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "phone": {
+        "ratio": 0,
+        "demand": 79,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "beauty": {
+        "ratio": 0,
+        "demand": 33,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "bathroom": {
+        "ratio": 0,
+        "demand": 51,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      }
+    },
+    "divergences": {
+      "car": {
+        "current_heat": 77,
+        "previous_heat": 53,
+        "heat_change_pct": 45.3,
+        "direction": "rising",
+        "dates": [
+          "2026-11-13_0850",
+          "2026-11-13_1710"
+        ]
+      },
+      "pets": {
+        "current_heat": 90,
+        "previous_heat": 88,
+        "heat_change_pct": 2.3,
+        "direction": "stable",
+        "dates": [
+          "2026-11-13_0850",
+          "2026-11-13_1710"
+        ]
+      },
+      "beauty": {
+        "current_heat": 44,
+        "previous_heat": 30,
+        "heat_change_pct": 46.7,
+        "direction": "rising",
+        "dates": [
+          "2026-11-13_0850",
+          "2026-11-13_1710"
+        ]
+      },
+      "eco": {
+        "current_heat": 65,
+        "previous_heat": 73,
+        "heat_change_pct": -11.0,
+        "direction": "stable",
+        "dates": [
+          "2026-11-13_0850",
+          "2026-11-13_1710"
+        ]
+      },
+      "kitchen": {
+        "current_heat": 65,
+        "previous_heat": 53,
+        "heat_change_pct": 22.6,
+        "direction": "stable",
+        "dates": [
+          "2026-11-13_0850",
+          "2026-11-13_1710"
+        ]
+      },
+      "cleaning": {
+        "current_heat": 48,
+        "previous_heat": 42,
+        "heat_change_pct": 14.3,
+        "direction": "stable",
+        "dates": [
+          "2026-11-13_0850",
+          "2026-11-13_1710"
+        ]
+      },
+      "crafts": {
+        "current_heat": 100,
+        "previous_heat": 100,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-11-13_0850",
+          "2026-11-13_1710"
+        ]
+      },
+      "seasonal": {
+        "current_heat": 77,
+        "previous_heat": 69,
+        "heat_change_pct": 11.6,
+        "direction": "stable",
+        "dates": [
+          "2026-11-13_0850",
+          "2026-11-13_1710"
+        ]
+      },
+      "lighting": {
+        "current_heat": 94,
+        "previous_heat": 100,
+        "heat_change_pct": -6.0,
+        "direction": "stable",
+        "dates": [
+          "2026-11-13_0850",
+          "2026-11-13_1710"
+        ]
+      },
+      "sports": {
+        "current_heat": 8,
+        "previous_heat": 8,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-11-13_0850",
+          "2026-11-13_1710"
+        ]
+      },
+      "phone": {
+        "current_heat": 61,
+        "previous_heat": 84,
+        "heat_change_pct": -27.4,
+        "direction": "falling",
+        "dates": [
+          "2026-11-13_0850",
+          "2026-11-13_1710"
+        ]
+      },
+      "office": {
+        "current_heat": 61,
+        "previous_heat": 69,
+        "heat_change_pct": -11.6,
+        "direction": "stable",
+        "dates": [
+          "2026-11-13_0850",
+          "2026-11-13_1710"
+        ]
+      },
+      "garden": {
+        "current_heat": 77,
+        "previous_heat": 80,
+        "heat_change_pct": -3.8,
+        "direction": "stable",
+        "dates": [
+          "2026-11-13_0850",
+          "2026-11-13_1710"
+        ]
+      },
+      "bathroom": {
+        "current_heat": 8,
+        "previous_heat": 8,
+        "heat_change_pct": 0.0,
+        "direction": "stable",
+        "dates": [
+          "2026-11-13_0850",
+          "2026-11-13_1710"
+        ]
+      },
+      "home decor": {
+        "current_heat": 61,
+        "previous_heat": 57,
+        "heat_change_pct": 7.0,
+        "direction": "stable",
+        "dates": [
+          "2026-11-13_0850",
+          "2026-11-13_1710"
+        ]
+      },
+      "baby": {
+        "current_heat": 27,
+        "previous_heat": 8,
+        "heat_change_pct": 237.5,
+        "direction": "rising",
+        "dates": [
+          "2026-11-13_0850",
+          "2026-11-13_1710"
+        ]
+      },
+      "storage": {
+        "current_heat": 32,
+        "previous_heat": 38,
+        "heat_change_pct": -15.8,
+        "direction": "stable",
+        "dates": [
+          "2026-11-13_0850",
+          "2026-11-13_1710"
+        ]
+      },
+      "bedding": {
+        "current_heat": 40,
+        "previous_heat": 23,
+        "heat_change_pct": 73.9,
+        "direction": "rising",
+        "dates": [
+          "2026-11-13_0850",
+          "2026-11-13_1710"
+        ]
+      },
+      "travel": {
+        "current_heat": 4,
+        "previous_heat": 38,
+        "heat_change_pct": -89.5,
+        "direction": "falling",
+        "dates": [
+          "2026-11-13_0850",
+          "2026-11-13_1710"
+        ]
+      },
+      "kitchen_gadgets": {
+        "current_heat": 4,
+        "previous_heat": 8,
+        "heat_change_pct": -50.0,
+        "direction": "falling",
+        "dates": [
+          "2026-11-13_0850",
+          "2026-11-13_1710"
+        ]
+      }
+    },
+    "gap_opportunities": 13
+  },
+  "products": [
+    {
+      "asin": "B0F89TV16J",
+      "name": "Desk Calendar 2027 - Calendar 2027 uk, Stand Up Desk Calendar from January 2027 to December 2027, Running Monthly memo p",
+      "price": 9.57,
+      "reviews": 24,
+      "rating": 4.8,
+      "rank": 40,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "24 reviews, 4.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0F89TV16J",
+      "image_url": "https://m.media-amazon.com/images/I/81XrvaHL5bL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "2027 calendar",
+      "festival_event": "新年/新年新气象",
+      "festival_icon": "🎆",
+      "festival_deadline": "2026-11-15",
+      "is_event": false,
+      "sources": [
+        "📅 新年/新年新气象",
+        "Reddit需求",
+        "Etsy趋势",
+        "Temu热销",
+        "TikTok趋势",
+        "HotUKDeals热帖"
+      ],
+      "profit_margin": 0.327,
+      "net_profit": 3.13,
+      "cost_breakdown": {
+        "vat": 1.6,
+        "commission": 1.44,
+        "fba": 1.46,
+        "ads": 0.96,
+        "returns": 0.19,
+        "sourcing": 0.8,
+        "total_cost": 6.44
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "HotUKDeals",
+        "Temu",
+        "Etsy",
+        "Reddit"
+      ],
+      "internal_sources": [],
+      "score": 134,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "💬 Reddit": 5,
+        "🔥 HotUKDeals": 12,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "🔴 强信号": 20,
+        "🔥 多源热门(phone)": 23,
+        "🟢 低竞争": 10,
+        "⭐ 高评分": 5,
+        "💰 高利润": 8,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-11-14",
+      "is_multi": true,
+      "channel_tags": [
+        "hotukdeals",
+        "keyword_search",
+        "etsy_trending",
+        "temu_trending",
+        "tiktok_verified",
+        "multi_source"
+      ]
+    },
+    {
+      "asin": "1807201287",
+      "name": "The Gruffalo 2027 Family Organiser Wall Calendar Official Licensed Julia Donaldson Calendar, Multi-Column Family Planner",
+      "price": 9.16,
+      "reviews": 17,
+      "rating": 4.6,
+      "rank": 31,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "17 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/1807201287",
+      "image_url": "https://m.media-amazon.com/images/I/719A2tTgcpL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "2027 calendar",
+      "festival_event": "新年/新年新气象",
+      "festival_icon": "🎆",
+      "festival_deadline": "2026-11-15",
+      "is_event": false,
+      "sources": [
+        "📅 新年/新年新气象",
+        "Reddit需求"
+      ],
+      "profit_margin": 0.316,
+      "net_profit": 2.9,
+      "cost_breakdown": {
+        "vat": 1.53,
+        "commission": 1.37,
+        "fba": 1.46,
+        "ads": 0.92,
+        "returns": 0.18,
+        "sourcing": 0.8,
+        "total_cost": 6.26
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "_degraded": true,
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "weak",
+      "signal_label": "🟡 弱信号",
+      "external_sources": [
+        "Reddit"
+      ],
+      "internal_sources": [],
+      "score": 40,
+      "score_breakdown": {
+        "💬 Reddit": 5,
+        "🌊 蓝海": 15,
+        "⭐ 高评分": 5,
+        "💰 高利润": 8,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 2,
+      "is_new": false,
+      "first_seen": "2026-11-11",
+      "is_multi": true,
+      "channel_tags": [
+        "keyword_search",
+        "multi_source"
+      ]
+    },
+    {
+      "asin": "B0FDQLNHQT",
+      "name": "Family Calendar 2027, Calendar 2027 UK, Green | Jan.2027 - Dec.2027, Month to View, Lovely Design of 6 Colors",
+      "price": 8.99,
+      "reviews": 13,
+      "rating": 4.7,
+      "rank": 43,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "13 reviews, 4.7★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FDQLNHQT",
+      "image_url": "https://m.media-amazon.com/images/I/81Cmhv9VBML._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "2027 calendar",
+      "festival_event": "新年/新年新气象",
+      "festival_icon": "🎆",
+      "festival_deadline": "2026-11-15",
+      "is_event": false,
+      "sources": [
+        "📅 新年/新年新气象",
+        "Reddit需求"
+      ],
+      "profit_margin": 0.312,
+      "net_profit": 2.8,
+      "cost_breakdown": {
+        "vat": 1.5,
+        "commission": 1.35,
+        "fba": 1.46,
+        "ads": 0.9,
+        "returns": 0.18,
+        "sourcing": 0.8,
+        "total_cost": 6.19
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "weak",
+      "signal_label": "🟡 弱信号",
+      "external_sources": [
+        "Reddit"
+      ],
+      "internal_sources": [],
+      "score": 40,
+      "score_breakdown": {
+        "💬 Reddit": 5,
+        "🌊 蓝海": 15,
+        "⭐ 高评分": 5,
+        "💰 高利润": 8,
+        "❓ 品类存疑": -5,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 2,
+      "is_new": false,
+      "first_seen": "2026-11-11",
+      "is_multi": true,
+      "channel_tags": [
+        "keyword_search",
+        "multi_source"
+      ]
+    },
+    {
+      "asin": "B0CRHSNRKY",
+      "name": "Goal Planner | SMART Goal Setting Kit for the New You, Monthly Habits, Reflections & Vision Boards | A5 (Rainbow)",
+      "price": 9.99,
+      "reviews": 132,
+      "rating": 4.4,
+      "rank": 6,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "132 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0CRHSNRKY",
+      "image_url": "https://m.media-amazon.com/images/I/71s2pnASG5L._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "goal planner",
+      "festival_event": "新年/新年新气象",
+      "festival_icon": "🎆",
+      "festival_deadline": "2026-11-15",
+      "is_event": false,
+      "sources": [
+        "📅 新年/新年新气象",
+        "Reddit需求"
+      ],
+      "profit_margin": 0.337,
+      "net_profit": 3.36,
+      "cost_breakdown": {
+        "vat": 1.67,
+        "commission": 1.5,
+        "fba": 1.46,
+        "ads": 1.0,
+        "returns": 0.2,
+        "sourcing": 0.8,
+        "total_cost": 6.63
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "weak",
+      "signal_label": "🟡 弱信号",
+      "external_sources": [
+        "Reddit"
+      ],
+      "internal_sources": [],
+      "score": 56,
+      "score_breakdown": {
+        "💬 Reddit": 5,
+        "🔥 多源热门(crafts)": 23,
+        "🟡 中等竞争": 5,
+        "💰 高利润": 8,
+        "❓ 品类存疑": -5,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 2,
+      "is_new": false,
+      "first_seen": "2026-11-11",
+      "is_multi": true,
+      "channel_tags": [
+        "keyword_search",
+        "multi_source"
+      ]
+    },
+    {
+      "asin": "B0FCSNQNYB",
+      "name": "The Head Plan Goals Pack, A5 Goal-Setting Planner Refills, 88 Pages | 88 guided A5 refill pages for setting meaningful g",
+      "price": 8.33,
+      "reviews": 10,
+      "rating": 4.5,
+      "rank": 44,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "10 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0FCSNQNYB",
+      "image_url": "https://m.media-amazon.com/images/I/41MC3KFKwVL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "goal planner",
+      "festival_event": "新年/新年新气象",
+      "festival_icon": "🎆",
+      "festival_deadline": "2026-11-15",
+      "is_event": false,
+      "sources": [
+        "📅 新年/新年新气象"
+      ],
+      "profit_margin": 0.292,
+      "net_profit": 2.43,
+      "cost_breakdown": {
+        "vat": 1.39,
+        "commission": 1.25,
+        "fba": 1.46,
+        "ads": 0.83,
+        "returns": 0.17,
+        "sourcing": 0.8,
+        "total_cost": 5.9
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": 19,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🌊 蓝海": 15,
+        "⭐ 高评分": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-11-14",
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0HJH4FZDK",
+      "name": "Sponsored Ad – Betterday 2027 Diary A5 Week to View, Full Year Daily Planner, Green | Vegan Leather Lay Flat 160 Page We",
+      "price": 11.64,
+      "reviews": 28,
+      "rating": 4.6,
+      "rank": 20,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "28 reviews, 4.6★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0HJH4FZDK",
+      "image_url": "https://m.media-amazon.com/images/I/81nC6V021ZL._AC_UL320_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "goal planner",
+      "festival_event": "新年/新年新气象",
+      "festival_icon": "🎆",
+      "festival_deadline": "2026-11-15",
+      "is_event": false,
+      "sources": [
+        "📅 新年/新年新气象"
+      ],
+      "profit_margin": 0.369,
+      "net_profit": 4.29,
+      "cost_breakdown": {
+        "vat": 1.94,
+        "commission": 1.75,
+        "fba": 1.46,
+        "ads": 1.16,
+        "returns": 0.23,
+        "sourcing": 0.8,
+        "total_cost": 7.35
+      },
+      "off_season": false,
+      "verify_status": "unverified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": 4,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🟢 低竞争": 10,
+        "⭐ 高评分": 5,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "📢 广告位": -10,
+        "⚠️ 未验证": -8,
+        "⚠️ 品类过密": -10,
+        "✨ 新发现": 10
+      },
+      "stars": 1,
+      "is_new": true,
+      "first_seen": "2026-11-14",
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0F1D5ZSDK",
+      "name": "BEST OF THE YEAR – The Feel-Good Game for New Year’s Eve 2027 | Sparks Meaningful Conversations | A New Year's Tradition",
+      "price": 12.42,
+      "reviews": 101,
+      "rating": 4.4,
+      "rank": 2,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(festival)",
+      "review_info": "101 reviews, 4.4★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0F1D5ZSDK",
+      "image_url": "https://m.media-amazon.com/images/I/81-A93cUT5L._AC_UY218_.jpg",
+      "keyword_source": "festival",
+      "matched_keyword": "new year resolution",
+      "festival_event": "新年/新年新气象",
+      "festival_icon": "🎆",
+      "festival_deadline": "2026-11-15",
+      "is_event": false,
+      "sources": [
+        "📅 新年/新年新气象"
+      ],
+      "profit_margin": 0.381,
+      "net_profit": 4.73,
+      "cost_breakdown": {
+        "vat": 2.07,
+        "commission": 1.86,
+        "fba": 1.46,
+        "ads": 1.24,
+        "returns": 0.25,
+        "sourcing": 0.8,
+        "total_cost": 7.69
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "none",
+      "signal_label": "⚪ 无信号",
+      "external_sources": [],
+      "internal_sources": [],
+      "score": 12,
+      "score_breakdown": {
+        "⚪ 无信号": -15,
+        "🟡 中等竞争": 5,
+        "💰 超高利润": 12,
+        "❓ 品类存疑": -5,
+        "📉 无需求信号": -15,
+        "📈 排名上升": 10,
+        "⚠️ 品类过密": -10
+      },
+      "stars": 1,
+      "is_new": false,
+      "first_seen": "2026-11-10",
+      "channel_tags": [
+        "keyword_search"
+      ]
+    },
+    {
+      "asin": "B0H6G67BLF",
+      "name": "HEEKPEK 253 pcs Christmas Window Clings | Colourful Reindeer & Christmas Tree Static Decals Double-Sided Stickers for Ho",
+      "price": 9.16,
+      "reviews": 48,
+      "rating": 4.8,
+      "rank": 51,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "48 reviews, 4.8★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0H6G67BLF",
+      "image_url": "https://m.media-amazon.com/images/I/81c2nj88jjL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas window stickers static clings snowflake",
+      "sources": [
+        "趋势发现",
+        "Temu热销",
+        "TikTok趋势",
+        "HotUKDeals热帖",
+        "YouTube种草",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.316,
+      "net_profit": 2.9,
+      "cost_breakdown": {
+        "vat": 1.53,
+        "commission": 1.37,
+        "fba": 1.46,
+        "ads": 0.92,
+        "returns": 0.18,
+        "sourcing": 0.8,
+        "total_cost": 6.26
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "HotUKDeals",
+        "Temu",
+        "Etsy",
+        "YouTube"
+      ],
+      "internal_sources": [],
+      "score": 139,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🔥 HotUKDeals": 12,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "▶️ YouTube": 10,
+        "🔴 强信号": 20,
+        "🔥 多源热门(crafts)": 23,
+        "🟢 低竞争": 10,
+        "⭐ 高评分": 5,
+        "💰 高利润": 8,
+        "❓ 品类存疑": -5,
+        "⚠️ 品类过密": -10,
+        "🎯 事件过密": -8,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-11-14",
+      "is_multi": true,
+      "is_event": true,
+      "channel_tags": [
+        "youtube_review",
+        "hotukdeals",
+        "keyword_search",
+        "etsy_trending",
+        "temu_trending",
+        "event_product",
+        "tiktok_verified",
+        "multi_source"
+      ]
+    },
+    {
+      "asin": "B0F5PQ9SC6",
+      "name": "4 Sheets Christmas Village Window Stickers, Double Sided Large 14 x 28 Inch Christmas Window Decorations, Christmas Wind",
+      "price": 7.49,
+      "reviews": 41,
+      "rating": 4.5,
+      "rank": 14,
+      "category": "Search",
+      "channel": "keyword_search",
+      "channel_name": "关键词搜索(discovery)",
+      "review_info": "41 reviews, 4.5★",
+      "amazon_url": "https://www.amazon.co.uk/dp/B0F5PQ9SC6",
+      "image_url": "https://m.media-amazon.com/images/I/81Hx1eXeDUL._AC_UL320_.jpg",
+      "keyword_source": "discovery",
+      "matched_keyword": "christmas window stickers static clings snowflake",
+      "sources": [
+        "趋势发现",
+        "Temu热销",
+        "TikTok趋势",
+        "HotUKDeals热帖",
+        "YouTube种草",
+        "Etsy趋势"
+      ],
+      "profit_margin": 0.261,
+      "net_profit": 1.96,
+      "cost_breakdown": {
+        "vat": 1.25,
+        "commission": 1.12,
+        "fba": 1.46,
+        "ads": 0.75,
+        "returns": 0.15,
+        "sourcing": 0.8,
+        "total_cost": 5.53
+      },
+      "off_season": false,
+      "verify_status": "verified",
+      "sd_score": 0,
+      "sd_label": "",
+      "sd_info": {},
+      "div_score": 0,
+      "div_label": "",
+      "div_info": {},
+      "signal_level": "strong",
+      "signal_label": "🔴 强信号",
+      "external_sources": [
+        "TikTok",
+        "HotUKDeals",
+        "Temu",
+        "Etsy",
+        "YouTube"
+      ],
+      "internal_sources": [],
+      "score": 135,
+      "score_breakdown": {
+        "🎵 TikTok": 20,
+        "🔥 HotUKDeals": 12,
+        "🛒 Temu": 8,
+        "🎨 Etsy": 6,
+        "▶️ YouTube": 10,
+        "🔴 强信号": 20,
+        "🔥 多源热门(crafts)": 23,
+        "🟢 低竞争": 10,
+        "⭐ 高评分": 5,
+        "💰 较好利润": 4,
+        "❓ 品类存疑": -5,
+        "⚠️ 品类过密": -10,
+        "🎯 事件过密": -8,
+        "✨ 新发现": 10
+      },
+      "stars": 5,
+      "is_new": true,
+      "first_seen": "2026-11-14",
+      "is_multi": true,
+      "is_event": true,
+      "channel_tags": [
+        "youtube_review",
+        "hotukdeals",
+        "keyword_search",
+        "etsy_trending",
+        "temu_trending",
+        "event_product",
+        "tiktok_verified",
+        "multi_source"
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "keyword": "crafts",
+      "category": "crafts",
+      "heat": 100,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "art",
+        "craft",
+        "brush",
+        "stickers"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 8,
+      "suggestions": [
+        "art supplies",
+        "paint set",
+        "drawing kit",
+        "craft knife",
+        "craft supplies",
+        "DIY craft kit",
+        "brush",
+        "stickers"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=art+supplies",
+      "url_google": "https://trends.google.com/trends/explore?q=art+supplies&geo=GB"
+    },
+    {
+      "keyword": "lighting",
+      "category": "lighting",
+      "heat": 100,
+      "score": 75,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "light",
+        "led",
+        "lamp"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 7,
+      "suggestions": [
+        "LED light",
+        "fairy lights",
+        "string lights",
+        "LED bulb",
+        "LED panel",
+        "desk lamp",
+        "night light",
+        "table lamp"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 100,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=LED+light",
+      "url_google": "https://trends.google.com/trends/explore?q=LED+light&geo=GB"
+    },
+    {
+      "keyword": "seasonal",
+      "category": "seasonal",
+      "heat": 88,
+      "score": 74,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "halloween",
+        "gift",
+        "easter",
+        "birthday",
+        "christmas"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 6,
+      "suggestions": [
+        "halloween decoration",
+        "halloween costume",
+        "gift ideas",
+        "gift set",
+        "gift box",
+        "easter egg",
+        "easter decoration",
+        "birthday gift"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 88,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=halloween+decoration",
+      "url_google": "https://trends.google.com/trends/explore?q=halloween+decoration&geo=GB"
+    },
+    {
+      "keyword": "bedding",
+      "category": "bedding",
+      "heat": 88,
+      "score": 74,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "duvet",
+        "pillow",
+        "bedding",
+        "blanket",
+        "throw"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 5,
+      "suggestions": [
+        "duvet",
+        "pillow",
+        "bedding",
+        "blanket",
+        "throw",
+        "cushion"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 88,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=duvet",
+      "url_google": "https://trends.google.com/trends/explore?q=duvet&geo=GB"
+    },
+    {
+      "keyword": "garden",
+      "category": "garden",
+      "heat": 88,
+      "score": 74,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "solar",
+        "garden",
+        "outdoor",
+        "flower",
+        "plant"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "solar light",
+        "solar garden light",
+        "solar lamp",
+        "garden tool set",
+        "garden light",
+        "garden decor",
+        "outdoor",
+        "flower"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 88,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=solar+light",
+      "url_google": "https://trends.google.com/trends/explore?q=solar+light&geo=GB"
+    },
+    {
+      "keyword": "phone",
+      "category": "phone",
+      "heat": 79,
+      "score": 71,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "stand",
+        "case",
+        "ring light",
+        "charger",
+        "cable"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 5,
+      "suggestions": [
+        "stand",
+        "case",
+        "ring light",
+        "phone charger",
+        "wireless charger",
+        "car charger",
+        "charging cable",
+        "USB cable"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 79,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=stand",
+      "url_google": "https://trends.google.com/trends/explore?q=stand&geo=GB"
+    },
+    {
+      "keyword": "eco",
+      "category": "eco",
+      "heat": 79,
+      "score": 71,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "sustainable",
+        "reusable",
+        "eco"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 5,
+      "suggestions": [
+        "sustainable products",
+        "eco friendly",
+        "reusable food wrap",
+        "reusable straws",
+        "reusable bags",
+        "eco products",
+        "reusable bag",
+        "bamboo products"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 79,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=sustainable+products",
+      "url_google": "https://trends.google.com/trends/explore?q=sustainable+products&geo=GB"
+    },
+    {
+      "keyword": "home decor",
+      "category": "home decor",
+      "heat": 74,
+      "score": 69,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "decor",
+        "frame",
+        "candle",
+        "clock"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 5,
+      "suggestions": [
+        "home decor",
+        "room decor",
+        "table decor",
+        "photo frame",
+        "picture frame",
+        "wall frame",
+        "candle holder",
+        "scented candle"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 74,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=home+decor",
+      "url_google": "https://trends.google.com/trends/explore?q=home+decor&geo=GB"
+    },
+    {
+      "keyword": "car",
+      "category": "car",
+      "heat": 70,
+      "score": 68,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "car"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 7,
+      "suggestions": [
+        "car accessories",
+        "car organizer",
+        "car phone holder"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 70,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=car+accessories",
+      "url_google": "https://trends.google.com/trends/explore?q=car+accessories&geo=GB"
+    },
+    {
+      "keyword": "office",
+      "category": "office",
+      "heat": 70,
+      "score": 68,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "laptop",
+        "pen",
+        "office",
+        "desk"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 6,
+      "suggestions": [
+        "laptop stand",
+        "laptop sleeve",
+        "laptop cooler",
+        "pen holder",
+        "pen set",
+        "fountain pen",
+        "office supplies",
+        "desk organizer"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 70,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=laptop+stand",
+      "url_google": "https://trends.google.com/trends/explore?q=laptop+stand&geo=GB"
+    },
+    {
+      "keyword": "bathroom",
+      "category": "bathroom",
+      "heat": 51,
+      "score": 62,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "toilet",
+        "soap",
+        "towel",
+        "shower",
+        "bath"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "toilet",
+        "soap dispenser",
+        "soap dish",
+        "soap holder",
+        "towel rail",
+        "towel rack",
+        "towel hook",
+        "shower caddy"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 51,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=toilet",
+      "url_google": "https://trends.google.com/trends/explore?q=toilet&geo=GB"
+    },
+    {
+      "keyword": "cleaning",
+      "category": "cleaning",
+      "heat": 42,
+      "score": 59,
+      "gap_level": "strong",
+      "amazon_count": 0,
+      "amazon_reviews": 0,
+      "evidence": [
+        "brush",
+        "cleaning",
+        "vacuum"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 3,
+      "suggestions": [
+        "brush",
+        "cleaning",
+        "vacuum"
+      ],
+      "sd_info": {
+        "ratio": 0,
+        "demand": 42,
+        "supply": 0,
+        "label": "⚪ 数据不足",
+        "level": "no_data"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=brush",
+      "url_google": "https://trends.google.com/trends/explore?q=brush&geo=GB"
+    },
+    {
+      "keyword": "kitchen",
+      "category": "kitchen",
+      "heat": 56,
+      "score": 43,
+      "gap_level": "weak",
+      "amazon_count": 8,
+      "amazon_reviews": 68991,
+      "evidence": [
+        "cooking",
+        "cup",
+        "gadget",
+        "kitchen"
+      ],
+      "is_cross_validated": true,
+      "cross_sources": 4,
+      "suggestions": [
+        "cooking",
+        "gadget",
+        "kitchen"
+      ],
+      "sd_info": {
+        "ratio": 5.0,
+        "demand": 56,
+        "supply": 68991,
+        "label": "🌊 深蓝海",
+        "level": "deep_blue"
+      },
+      "source": "category_analysis",
+      "url_amazon": "https://www.amazon.co.uk/s?k=cooking",
+      "url_google": "https://trends.google.com/trends/explore?q=cooking&geo=GB"
+    }
+  ],
+  "trend_summary": {
+    "top_categories": [
+      [
+        "pets",
+        100
+      ],
+      [
+        "crafts",
+        100
+      ],
+      [
+        "lighting",
+        100
+      ],
+      [
+        "seasonal",
+        88
+      ],
+      [
+        "bedding",
+        88
+      ],
+      [
+        "garden",
+        88
+      ]
+    ],
+    "cross_validated": [
+      "car",
+      "pets",
+      "crafts",
+      "phone",
+      "beauty",
+      "kitchen",
+      "bathroom",
+      "cleaning",
+      "office",
+      "eco",
+      "seasonal",
+      "lighting",
+      "sports",
+      "bedding",
+      "baby",
+      "home decor",
+      "garden",
+      "storage",
+      "travel"
+    ],
+    "demand_keywords": [
+      "autumn is such a good",
+      "best coffee beans to buy",
+      "best purchases that made your",
+      "best way to save on",
+      "buy any",
+      "celeriac and new season apple",
+      "clothing for",
+      "cool gadgets",
+      "discover the latest viral hits",
+      "ergonomic and"
+    ],
+    "season": "autumn",
+    "sources_scanned": [
+      "tiktok",
+      "hotukdeals",
+      "temu",
+      "etsy",
+      "youtube",
+      "google_trends",
+      "reddit",
+      "market_intel"
+    ]
+  }
+}
