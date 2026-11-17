@@ -1,0 +1,111 @@
+{
+  "date": "2026-11-17",
+  "updated_at": "2026-11-17T08:20:00+08:00",
+  "scan_date": "2026-11-17",
+  "scan_time": "08:20",
+  "summary": "本轮扫描Amazon UK Best Sellers/品类数据（注：Movers & Shakers页面自2026春起已停用，改用Best Sellers+Similarweb品类数据+TikTok/媒体信号）+TikTok/UK媒体+1688供应链，4个机会全部通过筛选且均为14天内未推新品类（4/4新品，0复推）。已避开14天内已推的圣诞窗贴/贺卡/袜袋/餐桌/保暖防冻/健身/宠物等约60个品类。方向聚焦第4-8周窗口：圣诞送礼收尾（布艺包装）→1月拆树收纳（彩灯绕线器、家庭挂历）→情人节预热（爱心拉旗）。剔除案例：雪球夹（现有竞品£2.99价格战，低于£5.99底价带）。",
+  "insights": [
+    {
+      "keyword": "reusable fabric gift wrap furoshiki",
+      "keyword_cn": "风吕敷可复用布艺礼品包装（圣诞送礼季）",
+      "amazon_keyword": "reusable fabric gift wrap furoshiki christmas wrapping cloth set",
+      "search_1688": "风吕敷包裹布 日式 礼品包装布 批发",
+      "demand_signals": [
+        "Eluxe Magazine 2026-11-12引BBC/Which?报道：furoshiki布艺包装是替代圣诞包装纸的首选方案，英国每年扔掉227,000英里包装纸（Biffa数据）驱动环保转向（来源：eluxemagazine.com）",
+        "Lush 2026-08-28请Chris Packham设计knot wrap可复布包装系列并全渠道上架，furoshiki进入英国主流零售视野（来源：weare.lush.com）",
+        "FabRap发布2026圣诞furoshiki选购指南，TikTok #furoshikiwrapping #sustainablechristmas包礼物视频持续病毒传播（来源：fabrap.co / TikTok）",
+        "1688义乌福欢风吕敷包裹布月销4607件（¥0.9）、镇江品升双面印花¥4.28，供应链现货充足",
+        "Symilarweb 2026-11：UK Storage & Organisation月营收£56.9M，礼品包装/收纳为11月活跃大类（来源：similarweb.com）"
+      ],
+      "trend_score": 82,
+      "trend_direction": "up",
+      "reason": "包装纸不可回收+环保叙事被BBC/Which?/Lush同时放大，正处圣诞送礼峰值前2周的换装决策窗口；亚马逊UK头部listing少、review多<100，是媒体热但货架冷的结构性空档。",
+      "action": "007测品店首发：3片装50×50cm涤纶雪纺双面印花（圣诞红绿+素色通用款），定价£8.99；1688搜「风吕敷包裹布」，3条装货本约¥6；空运时效10-15天，圣诞送礼窗口12/15开始——最晚空运下单死线11/24（本周内必须下单，过线则放弃等次年）。",
+      "competition": "诚实评估：亚马逊UK该关键词下无强品牌垄断，多为.generic卖家review<100；FabRap/Lush为独立站DTC不在亚马逊主战场；风险是品类教育成本——需A+页面放打结教程图，转化率首月预期偏低。",
+      "signal_scores": {
+        "trend": 82,
+        "gap": 78,
+        "profit": 80,
+        "final": 80,
+        "recommendation": "strong_buy",
+        "profit_window": "货本¥6/套(≈£0.65)+空运落地≈£1.5；£8.99售价扣佣金8%£0.72+FBA小标准£1.75 → 净利≈£5.0/套（56%），圣诞前4周内利润窗口全开"
+      }
+    },
+    {
+      "keyword": "christmas lights storage reel",
+      "keyword_cn": "圣诞彩灯收纳绕线器（1月拆树痛点）",
+      "amazon_keyword": "christmas lights storage reel tangle free wind up",
+      "search_1688": "圣诞彩灯收纳绕线器 绕线盘 批发",
+      "demand_signals": [
+        "Lights4fun自售款£4.99、SecureFix Direct同款RRP £13.19，英国多零售商已上架该品类验证需求（来源：lights4fun.co.uk / securefixdirect.com）",
+        "Safestore/ChristmasTreeWorld收纳指南均以「1月6日拆灯打结」为核心痛点，搜索季节性峰值在12月底-1月初（来源：safestore.co.uk blog）",
+        "亚马逊UK已有PMS品牌listing（B0DMPJN87H）但review积累少，货架尚未固化（来源：amazon.co.uk）",
+        "义乌双元圣诞等供应商绕线器批发¥1起，1688现货充足（来源：chinagoods.com）"
+      ],
+      "trend_score": 75,
+      "trend_direction": "up",
+      "reason": "英国拆树日（1/5-1/6）后彩灯打结是每年重复的痛点，绕线器轻小、非电子（本体不带电），正好卡在1月5-11日拆树收纳窗口，且竞品review少可低价抢位。",
+      "action": "027测款店首批30件空运：单只20cm手摇绕线盘（≤120m灯串），定价£7.99；1688搜「圣诞彩灯收纳绕线器」；空运10-15天，窗口1/5开始——最晚空运下单死线12/10（12/10后下单赶不上拆树周，宁可不发）。",
+      "competition": "Lights4fun£4.99是心智锚价但偏渠道品牌；亚马逊上该品类review普遍<50，PMS新listing未起量；差异化打2只装家庭组合或加大到30cm，避开£4.99单只正面战。",
+      "signal_scores": {
+        "trend": 75,
+        "gap": 70,
+        "profit": 75,
+        "final": 74,
+        "recommendation": "buy",
+        "profit_window": "1688绕线盘¥1-3，落地≈£0.8；£7.99扣佣金8%£0.64+FBA£1.75 → 净利≈£4.8/只（60%），1月拆树季为利润峰值窗口"
+      }
+    },
+    {
+      "keyword": "valentines day heart banner garland",
+      "keyword_cn": "情人节爱心拉旗/布艺花环（2/14预热）",
+      "amazon_keyword": "valentines day heart banner garland felt hanging decoration",
+      "search_1688": "情人节爱心拉旗 花环挂旗 布艺 批发",
+      "demand_signals": [
+        "PG Buzz 2026-02-18：英国独立零售商情人节贺卡量+6%、金额+8.5%，个别店+60-116%，且零售商主动转向「广义爱意/家庭友好」非恋人限定品类（来源：pgbuzz.net）",
+        "PG Buzz 2025：情人节前两周礼品采购额同比+25%，装饰/家居小件受益（来源：pgbuzz.net）",
+        "2027-02-14情人节落在周日，家庭采购+线上下单双高峰，预热期1月中下旬（日历推算）",
+        "1688情人节挂旗/花环货源¥3-8档现货多，重量轻适合空运（来源：1688.com节庆类目）"
+      ],
+      "trend_score": 68,
+      "trend_direction": "up",
+      "reason": "英国情人节正从「恋人专属」向家庭/朋友（Galentine）扩圈，零售端连续两年正增长；拉旗/花环是Valentine decor里最轻（≈150g）、最不易撞14天已推品类的入口。",
+      "action": "027测款店首批20件：无纺布/毛毡爱心拉旗1.5-2m（红粉金三色），定价£7.99；1688搜「情人节爱心拉旗」；空运10-15天，预热窗口1/12开始——最晚空运下单死线12/22。",
+      "competition": "亚马逊UK情人节横幅类多为纸制品卷装（review中等），毛毡立体款review<80；大牌缺席，但2月前4周竞品上新会密集，需在12月底前完成上架抢占早期位。",
+      "signal_scores": {
+        "trend": 68,
+        "gap": 72,
+        "profit": 70,
+        "final": 70,
+        "recommendation": "buy",
+        "profit_window": "1688¥3-8/条，落地≈£1.2；£7.99扣佣金8%£0.64+FBA£1.75 → 净利≈£4.4/条（55%），1月中-2/14为利润窗口"
+      }
+    },
+    {
+      "keyword": "family organiser wall calendar 2027",
+      "keyword_cn": "2027家庭计划挂历/多列月历（1月新年规划）",
+      "amazon_keyword": "family organiser wall calendar 2027 planner month view",
+      "search_1688": "2027挂历 家庭计划本 墙历定制 批发",
+      "demand_signals": [
+        "Similarweb 2026-11：UK收纳整理大类月营收£56.9M，Vacuum/收纳类产品views同比+143%，整理类需求处于高位（来源：similarweb.com）",
+        "1月新年规划+January declutter是英国日历类目年度峰值（Boxclever等品牌常年1月登顶，行业共识）",
+        "2027年版必须每年换新，老品无法跨年复用，新入场者每年获得同一起跑线（品类结构特性）",
+        "1688印刷厂定制挂历¥5-8（500件起订档），支持月历多列定制（来源：1688.com印刷类目）"
+      ],
+      "trend_score": 62,
+      "trend_direction": "up",
+      "reason": "1月5-11日是新历换购高峰，家庭多列挂历（5列家庭成员）单价£7.99-8.99刚好卡价格带；但这是诚实标注的「竞争密集」品类，只做观望级推荐。",
+      "action": "先watch两周：若决定入场，027测款店首批20件小批量试（定制印2027年5列家庭版），定价£8.99；1688搜「挂历定制」；空运10-15天，窗口1/5开始——最晚空运下单死线12/8。小批量定制单件成本会高于量产，按£1.5-2.0落地成本核算利润。",
+      "competition": "Boxclever Press等头部品牌review1000+且占Best Seller位，正面竞争激烈；机会在细分（家庭5列+宠物列等定制列头），打法必须差异化列头设计，不能跟头部打通用款。",
+      "signal_scores": {
+        "trend": 62,
+        "gap": 45,
+        "profit": 65,
+        "final": 58,
+        "recommendation": "watch",
+        "profit_window": "定制挂历¥5-8/本，小批量落地≈£1.5-2.0；£8.99扣佣金8%£0.72+FBA£1.75 → 净利≈£4.5/本（50%），仅1月上旬两周窗口，规模取决于差异化列头"
+      }
+    }
+  ],
+  "trend_forecast": "① 第4周（12/15-12/21）圣诞送礼最后窗口：英国最后一波 Amazon 加急购买+上门礼物交换集中在这周，可复用布艺包装（furoshiki）、未覆盖的礼品耗材方向仍是空档（14天内已推礼品袋/缎带/标签，勿重复）；同期圣诞晚宴聚餐带火厨房小工具补充采购。最晚空运下单死线11/24——今天11/17算起仅剩7天，本周不下单就放弃该窗口。② 第5周（12/22-12/28）圣诞晚宴+家庭聚会周：餐桌耗材（已推桌旗/餐巾环，转向未推的桌面小物）、圣诞次日Boxing Day清仓购物带动低价小件冲动消费；跨年派对筹备开始升温。最晚空运下单死线12/1。③ 第6周（12/29-1/4）跨年+新年立flag：派对耗材（2027气球/眼镜14天内已推，方向转向未推的派对收尾用品）+新年组织收纳类目启动，Similarweb显示UK收纳大类月营收£56.9M且头部产品views同比+143%，1月declutter叙事全面展开。最晚空运下单死线12/8。④ 第7周（1/5-1/11）拆树收纳周：英国传统1/5-1/6拆圣诞装饰，彩灯打结是年度痛点，彩灯绕线器/轻量收纳件需求爆发（Lights4fun£4.99自售款验证品类）；同时January declutter推高收纳小件。最晚空运下单死线12/15。⑤ 第8周（1/12-1/18）情人节预热启动：英国情人节向家庭/朋友扩圈（PG Buzz：贺卡量+6%、礼品采购+25%），爱心拉旗/花环/未推的V-day桌面小物进入上架期，2/14前2-4周为采购决策高峰；同期寒冬尾需求（未推的室内保暖小件）可作补充。最晚空运下单死线12/22。全部时效按空运10-15天+备货3周口径推算，过线窗口已剔除不误导采购。"
+}
